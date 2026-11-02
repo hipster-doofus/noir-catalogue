@@ -1,0 +1,4 @@
+output/
+temp_workspace/
+*.pyc
+__pycache__/

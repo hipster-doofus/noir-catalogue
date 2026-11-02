@@ -13,6 +13,7 @@ import shutil
 import sqlite3
 import subprocess
 import zipfile
+import gc
 from datetime import datetime, timezone
 from pathlib import Path
 import requests
@@ -229,13 +230,14 @@ def resolve_stream_url(movie_item):
         print(f"[*] Resolving YouTube stream URL via yt-dlp for '{movie_item['title']}'...")
         try:
             cmd = ["yt-dlp", "-g", "-f", "bestvideo[height<=1080]+bestaudio/best[ext=mp4]/best", url]
-            proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
-            stream_url = proc.stdout.strip().splitlines()[0]
-            print("    [✓] YouTube stream resolved successfully!")
-            return stream_url
+            proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=30)
+            if proc.returncode == 0 and proc.stdout.strip():
+                stream_url = proc.stdout.strip().splitlines()[0]
+                print("    [✓] YouTube stream resolved successfully!")
+                return stream_url
+            print(f"    [!] yt-dlp returned code {proc.returncode}, falling back to direct URL.")
         except Exception as e:
             print(f"    [!] yt-dlp resolution note ({e}), using direct URL fallback.")
-            return url
     return url
 
 def get_already_processed_movie_ids():
@@ -319,7 +321,6 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
         segments, _ = model.transcribe(str(clip_path))
         transcript = " ".join([seg.text.strip() for seg in segments]).strip()
     except Exception as e:
-        print(f"    [!] Whisper fallback note ({e})")
         transcript = "[Ambient noir orchestral score and environmental sound]"
 
     if not transcript:
@@ -367,8 +368,8 @@ def index_to_supabase(movie, scenes):
                 "mood": s["mood"],
                 "noir_tropes": s.get("noir_tropes", []),
                 "tags": s.get("tags", []),
-                "keyframe_filename": s["keyframe_file"],
-                "video_filename": s["video_file"],
+                "keyframe_filename": s["keyframe_filename"],
+                "video_filename": s["video_filename"],
                 "resolution": "1920x1080",
                 "video_codec": "h264",
                 "audio_codec": "aac",
@@ -389,25 +390,23 @@ def update_catalog_json(all_movies, all_scenes):
         "scenes": all_scenes
     }
     
-    # Write to output folder
     out_cat = OUTPUT_DIR / "catalog.json"
     with open(out_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
 
-    # Write to repository root so GitHub Pages hosts it directly
     root_cat = BASE_DIR / "catalog.json"
     with open(root_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
 
-    print(f"✅ Generated catalog.json with {len(all_movies)} films & {len(all_scenes)} scenes for GitHub Pages!")
+    print(f"✅ Generated catalog.json with {len(all_movies)} films & {len(all_scenes)} scenes!")
 
 def main():
     ffmpeg_exe = get_ffmpeg()
-    raw_num = os.environ.get("NUM_MOVIES", "10").strip()
+    raw_num = os.environ.get("NUM_MOVIES", "3").strip()
     try:
         num_to_process = max(1, min(10, int(raw_num)))
     except ValueError:
-        num_to_process = 10
+        num_to_process = 3
 
     selected_movies = select_batch_movies(num_to_process)
     timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -423,114 +422,131 @@ def main():
 
     for movie_idx, movie in enumerate(selected_movies, 1):
         print(f"\n[{movie_idx}/{len(selected_movies)}] 📽️ Starting '{movie['title']}' ({movie['year']})...")
-        stream_url = resolve_stream_url(movie)
-
-        # Randomize start point between 5 and 30 minutes
-        random_start_sec = random.randint(300, 1800)
-        start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
         sample_file = WORK_DIR / f"{movie['archive_id']}_sample.mp4"
+        
+        try:
+            stream_url = resolve_stream_url(movie)
 
-        print(f"  🌐 Streaming 12-minute window from {start_time_str}...")
-        t0 = time.time()
-        cmd = [
-            ffmpeg_exe, "-y",
-            "-ss", start_time_str,
-            "-i", stream_url,
-            "-t", "00:12:00",
-            "-c", "copy",
-            str(sample_file)
-        ]
-        res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
-        if res.returncode != 0 or not sample_file.exists():
-            print(f"  [!] Stream copy failed for {movie['title']}, skipping.")
-            continue
-        print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
+            # Randomize start point between 5 and 30 minutes
+            random_start_sec = random.randint(300, 1800)
+            start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
 
-        # PySceneDetect
-        from scenedetect import open_video, SceneManager, AdaptiveDetector
-        print("  🔍 Running AI Scene Detection...")
-        video = open_video(str(sample_file))
-        sm = SceneManager()
-        sm.add_detector(AdaptiveDetector(adaptive_threshold=3.0, min_scene_len=24))
-        sm.detect_scenes(video, frame_skip=2)
-        scene_list = sm.get_scene_list()
-
-        valid = [(st, en, (en - st).seconds) for st, en in scene_list if 10.0 <= (en - st).seconds <= 60.0]
-        if len(valid) < 3:
-            valid = [(st, en, (en - st).seconds) for st, en in scene_list[:5]]
-
-        chosen = random.sample(valid, min(3, len(valid)))
-        chosen.sort(key=lambda s: s[0].get_seconds())
-
-        movie_scenes = []
-        for idx, (st, en, dur) in enumerate(chosen, 1):
-            clip_name = f"{movie['archive_id']}_scene_{idx}_{int(dur)}s_1080p.mp4"
-            thumb_name = f"{movie['archive_id']}_scene_{idx}_thumb.jpg"
-            clip_path = OUTPUT_DIR / clip_name
-            thumb_path = OUTPUT_DIR / thumb_name
-
-            # Transcode 1080p H.264 / AAC
-            transcode_cmd = [
+            print(f"  🌐 Streaming 12-minute window from {start_time_str}...")
+            t0 = time.time()
+            cmd = [
                 ffmpeg_exe, "-y",
-                "-ss", st.get_timecode(),
-                "-to", en.get_timecode(),
-                "-i", str(sample_file),
-                "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1",
-                "-c:v", "libx264",
-                "-preset", "fast",
-                "-crf", "19",
-                "-c:a", "aac",
-                "-b:a", "192k",
-                "-movflags", "+faststart",
-                str(clip_path)
+                "-ss", start_time_str,
+                "-i", stream_url,
+                "-t", "00:12:00",
+                "-c", "copy",
+                str(sample_file)
             ]
-            subprocess.run(transcode_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, check=True)
+            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
+            if res.returncode != 0 or not sample_file.exists():
+                print(f"  [!] Stream copy failed for {movie['title']}, skipping.")
+                continue
+            print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
 
-            # Keyframe Thumbnail
-            mid_sec = (st.get_seconds() + en.get_seconds()) / 2.0
-            thumb_cmd = [
-                ffmpeg_exe, "-y",
-                "-ss", f"{mid_sec:.3f}",
-                "-i", str(sample_file),
-                "-vframes", "1",
-                "-q:v", "2",
-                str(thumb_path)
-            ]
-            subprocess.run(thumb_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, check=True)
+            # PySceneDetect
+            from scenedetect import open_video, SceneManager, AdaptiveDetector
+            print("  🔍 Running AI Scene Detection...")
+            video = open_video(str(sample_file))
+            sm = SceneManager()
+            sm.add_detector(AdaptiveDetector(adaptive_threshold=3.0, min_scene_len=24))
+            sm.detect_scenes(video, frame_skip=2)
+            scene_list = sm.get_scene_list()
 
-            # AI Multimodal
-            meta = analyze_multimodal(clip_path, movie, idx, dur)
+            # Release video file handle explicitly so Windows/Linux can manage the file
+            del video
+            gc.collect()
 
-            abs_start = random_start_sec + st.get_seconds()
-            abs_end = random_start_sec + en.get_seconds()
-            abs_tc_start = f"{int(abs_start)//3600:02d}:{(int(abs_start)%3600)//60:02d}:{int(abs_start)%60:02d}"
-            abs_tc_end = f"{int(abs_end)//3600:02d}:{(int(abs_end)%3600)//60:02d}:{int(abs_end)%60:02d}"
+            valid = [(st, en, (en - st).seconds) for st, en in scene_list if 10.0 <= (en - st).seconds <= 60.0]
+            if len(valid) < 3:
+                valid = [(st, en, (en - st).seconds) for st, en in scene_list[:5]]
 
-            scene_record = {
-                "scene_id": f"{movie['archive_id']}_scene_{idx}",
-                "movie_id": movie["archive_id"],
-                "scene_number": idx,
-                "start_timecode": abs_tc_start,
-                "end_timecode": abs_tc_end,
-                "start_seconds": abs_start,
-                "end_seconds": abs_end,
-                "duration_seconds": dur,
-                "video_filename": clip_name,
-                "keyframe_filename": thumb_name,
-                "clip_path": clip_path,
-                "thumb_path": thumb_path,
-                **meta
-            }
-            movie_scenes.append(scene_record)
-            all_batch_scenes.append(scene_record)
+            chosen = random.sample(valid, min(3, len(valid)))
+            chosen.sort(key=lambda s: s[0].seconds)
 
-        # Index to Supabase
-        index_to_supabase(movie, movie_scenes)
-        all_batch_movies.append(movie)
+            movie_scenes = []
+            for idx, (st, en, dur) in enumerate(chosen, 1):
+                clip_name = f"{movie['archive_id']}_scene_{idx}_{int(dur)}s_1080p.mp4"
+                thumb_name = f"{movie['archive_id']}_scene_{idx}_thumb.jpg"
+                clip_path = OUTPUT_DIR / clip_name
+                thumb_path = OUTPUT_DIR / thumb_name
 
-        # Cleanup intermediate stream
-        if sample_file.exists():
-            sample_file.unlink()
+                # Transcode 1080p H.264 / AAC
+                transcode_cmd = [
+                    ffmpeg_exe, "-y",
+                    "-ss", st.get_timecode(),
+                    "-to", en.get_timecode(),
+                    "-i", str(sample_file),
+                    "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1",
+                    "-c:v", "libx264",
+                    "-preset", "fast",
+                    "-crf", "19",
+                    "-c:a", "aac",
+                    "-b:a", "192k",
+                    "-movflags", "+faststart",
+                    str(clip_path)
+                ]
+                subprocess.run(transcode_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
+
+                # Keyframe Thumbnail
+                mid_sec = (st.seconds + en.seconds) / 2.0
+                thumb_cmd = [
+                    ffmpeg_exe, "-y",
+                    "-ss", f"{mid_sec:.3f}",
+                    "-i", str(sample_file),
+                    "-vframes", "1",
+                    "-q:v", "2",
+                    str(thumb_path)
+                ]
+                subprocess.run(thumb_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=60)
+
+                # AI Multimodal
+                meta = analyze_multimodal(clip_path, movie, idx, dur)
+
+                abs_start = random_start_sec + st.seconds
+                abs_end = random_start_sec + en.seconds
+                abs_tc_start = f"{int(abs_start)//3600:02d}:{(int(abs_start)%3600)//60:02d}:{int(abs_start)%60:02d}"
+                abs_tc_end = f"{int(abs_end)//3600:02d}:{(int(abs_end)%3600)//60:02d}:{int(abs_end)%60:02d}"
+
+                scene_record = {
+                    "scene_id": f"{movie['archive_id']}_scene_{idx}",
+                    "movie_id": movie["archive_id"],
+                    "scene_number": idx,
+                    "start_timecode": abs_tc_start,
+                    "end_timecode": abs_tc_end,
+                    "start_seconds": abs_start,
+                    "end_seconds": abs_end,
+                    "duration_seconds": dur,
+                    "video_filename": clip_name,
+                    "keyframe_filename": thumb_name,
+                    "clip_path": clip_path,
+                    "thumb_path": thumb_path,
+                    **meta
+                }
+                movie_scenes.append(scene_record)
+                all_batch_scenes.append(scene_record)
+
+            # Index to Supabase
+            index_to_supabase(movie, movie_scenes)
+            all_batch_movies.append(movie)
+
+        except Exception as e:
+            print(f"  [!] Error processing {movie['title']}: {e}")
+        finally:
+            # Safely cleanup intermediate stream without crashing
+            try:
+                gc.collect()
+                if sample_file.exists():
+                    sample_file.unlink(missing_ok=True)
+            except Exception:
+                pass
+
+    if not all_batch_movies:
+        print("[!] No movies could be processed in this batch.")
+        return
 
     # Save to local SQLite
     sqlite_db_path = OUTPUT_DIR / "film_noir_scenes.db"
@@ -566,8 +582,10 @@ def main():
     print(f"\n📦 Packaging complete batch ZIP: {zip_path}...")
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
         for s in all_batch_scenes:
-            zf.write(s["clip_path"], arcname=s["video_filename"])
-            zf.write(s["thumb_path"], arcname=s["keyframe_filename"])
+            if s["clip_path"].exists():
+                zf.write(s["clip_path"], arcname=s["video_filename"])
+            if s["thumb_path"].exists():
+                zf.write(s["thumb_path"], arcname=s["keyframe_filename"])
         zf.write(sqlite_db_path, arcname=sqlite_db_path.name)
         zf.write(OUTPUT_DIR / "catalog.json", arcname="catalog.json")
 
