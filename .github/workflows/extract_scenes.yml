@@ -1,21 +1,25 @@
-name: Extract Film Noir Scenes & Index to Supabase
+name: Extract Film Noir Scenes & Publish Web Vault
 
 on:
   workflow_dispatch:
     inputs:
+      num_movies:
+        description: 'Number of movies to process (1 to 10)'
+        required: false
+        default: '10'
       movie_id:
-        description: 'Optional Archive.org Identifier (leave empty for random classic)'
+        description: 'Optional Specific Identifier (leave empty for auto selection)'
         required: false
         default: ''
-  # Optional: Automatically run once a week or month on cron:
-  # schedule:
-  #   - cron: '0 12 * * 1'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  build-extract-publish:
+  extract-and-publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # Required to publish GitHub Releases
 
     steps:
       - name: Checkout Code
@@ -27,7 +31,7 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install System FFmpeg
+      - name: Install System Dependencies (FFmpeg)
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
@@ -37,31 +41,52 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Extraction & Supabase Cloud Indexer
+      - name: Run Multi-Source Extraction & Indexer
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NUM_MOVIES: ${{ github.event.inputs.num_movies || '10' }}
           MOVIE_ID_OVERRIDE: ${{ github.event.inputs.movie_id }}
         run: |
           python extract_and_index.py
 
-      - name: Upload Artifacts to Workflow Run
-        uses: actions/upload-artifact@v4
-        with:
-          name: noir-scenes-bundle
-          path: output/
-          retention-days: 14
+      - name: Commit Updated catalog.json to Repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -f output/catalog.json ]; then
+            cp output/catalog.json ./catalog.json
+            git add catalog.json
+            git diff-index --quiet HEAD || git commit -m "Update Noir Vault catalog [skip ci]"
+            git push
+          fi
 
-      - name: Publish GitHub Release with Direct Download Links
+      - name: Prepare Web Pages Directory
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          if [ -f catalog.json ]; then cp catalog.json _site/; fi
+          cp -r output/*.jpg _site/ 2>/dev/null || true
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Publish GitHub Release with Direct Video Downloads
         uses: softprops/action-gh-release@v2
         if: env.ZIP_FILE_PATH != ''
         with:
           tag_name: release-${{ env.TIMESTAMP }}
-          name: "Film Noir: ${{ env.MOVIE_TITLE }} (${{ env.TIMESTAMP }})"
-          body_path: output/scenes_summary.txt
+          name: "Noir Vault Batch: ${{ env.MOVIE_COUNT }} Films (${{ env.TIMESTAMP }})"
           files: |
             ${{ env.ZIP_FILE_PATH }}
             output/film_noir_scenes.db
+            output/catalog.json
             output/*.mp4
             output/*.jpg
