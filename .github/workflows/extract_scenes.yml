@@ -6,7 +6,7 @@ on:
       num_movies:
         description: 'Number of movies to process (1 to 10)'
         required: false
-        default: '10'
+        default: '3'
       movie_id:
         description: 'Optional Specific Identifier (leave empty for auto selection)'
         required: false
@@ -17,9 +17,17 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  extract-and-publish:
+  build-and-extract:
     runs-on: ubuntu-latest
+    outputs:
+      movie_count: ${{ env.MOVIE_COUNT }}
+      timestamp: ${{ env.TIMESTAMP }}
+      zip_file_path: ${{ env.ZIP_FILE_PATH }}
 
     steps:
       - name: Checkout Code
@@ -46,47 +54,48 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          NUM_MOVIES: ${{ github.event.inputs.num_movies || '10' }}
+          NUM_MOVIES: ${{ github.event.inputs.num_movies || '3' }}
           MOVIE_ID_OVERRIDE: ${{ github.event.inputs.movie_id }}
         run: |
           python extract_and_index.py
-
-      - name: Commit Updated catalog.json to Repository
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -f output/catalog.json ]; then
-            cp output/catalog.json ./catalog.json
-            git add catalog.json
-            git diff-index --quiet HEAD || git commit -m "Update Noir Vault catalog [skip ci]"
-            git push
-          fi
 
       - name: Prepare Web Pages Directory
         run: |
           mkdir -p _site
           cp index.html _site/
-          if [ -f catalog.json ]; then cp catalog.json _site/; fi
-          cp -r output/*.jpg _site/ 2>/dev/null || true
+          if [ -f output/catalog.json ]; then
+            cp output/catalog.json _site/catalog.json
+          elif [ -f catalog.json ]; then
+            cp catalog.json _site/catalog.json
+          fi
+          # Copy thumbnails for the website
+          cp output/*.jpg _site/ 2>/dev/null || true
 
       - name: Upload GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
       - name: Publish GitHub Release with Direct Video Downloads
         uses: softprops/action-gh-release@v2
         if: env.ZIP_FILE_PATH != ''
         with:
           tag_name: release-${{ env.TIMESTAMP }}
-          name: "Noir Vault Batch: ${{ env.MOVIE_COUNT }} Films (${{ env.TIMESTAMP }})"
+          name: "Noir Vault: ${{ env.MOVIE_COUNT }} Films (${{ env.TIMESTAMP }})"
           files: |
             ${{ env.ZIP_FILE_PATH }}
             output/film_noir_scenes.db
             output/catalog.json
             output/*.mp4
             output/*.jpg
+
+  deploy-pages:
+    needs: build-and-extract
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

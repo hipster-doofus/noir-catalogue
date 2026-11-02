@@ -1,0 +1,72 @@
+{
+  "updated_at": "2026-11-03T03:00:00Z",
+  "total_movies": 1,
+  "total_scenes": 3,
+  "movies": [
+    {
+      "movie_id": "Detour",
+      "title": "Detour",
+      "year": 1945,
+      "director": "Edgar G. Ulmer",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/Detour/Detour.mp4",
+      "description": "A broke New York pianist hitchhikes west to join his girlfriend, but a stranger's death plunges him into a fatal nightmare."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "Detour_scene_1",
+      "movie_id": "Detour",
+      "scene_number": 1,
+      "start_timecode": "00:00:00",
+      "end_timecode": "00:00:14",
+      "start_seconds": 0.0,
+      "end_seconds": 14.3,
+      "duration_seconds": 14.3,
+      "video_filename": "detour_scene_1_14.3s_1080p.mp4",
+      "keyframe_filename": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80",
+      "transcription": "[Highway ambience, distant car engines, wind blowing across the desert road]",
+      "visual_description": "Opening title tracking shot along a desolate desert highway leading toward a lonely roadside diner.",
+      "synopsis": "The fateful journey begins as Al Roberts wanders into a remote diner, haggard and exhausted.",
+      "mood": "Fatalistic",
+      "noir_tropes": ["desert highway", "lonely diner", "doomed traveler"],
+      "tags": ["film noir", "poverty row", "edgar g ulmer"]
+    },
+    {
+      "scene_id": "Detour_scene_2",
+      "movie_id": "Detour",
+      "scene_number": 2,
+      "start_timecode": "00:01:19",
+      "end_timecode": "00:01:46",
+      "start_seconds": 79.5,
+      "end_seconds": 106.7,
+      "duration_seconds": 27.2,
+      "video_filename": "detour_scene_2_27.2s_1080p.mp4",
+      "keyframe_filename": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+      "transcription": "I don't know what made me drop that nickel in the jukebox. It was an old song... one I hadn't heard in years.",
+      "visual_description": "Close-up on Al Roberts' haggard, unshaven face lit by harsh diner light, cigarette smoke swirling across the frame.",
+      "synopsis": "A jukebox melody triggers painful flashbacks of Sue and the life Al left behind in New York.",
+      "mood": "Melancholic",
+      "noir_tropes": ["voiceover monologue", "jukebox melody", "cigarette smoke"],
+      "tags": ["flashback", "jazz piano", "diner"]
+    },
+    {
+      "scene_id": "Detour_scene_3",
+      "movie_id": "Detour",
+      "scene_number": 3,
+      "start_timecode": "00:06:25",
+      "end_timecode": "00:06:36",
+      "start_seconds": 385.8,
+      "end_seconds": 396.3,
+      "duration_seconds": 10.5,
+      "video_filename": "detour_scene_3_10.5s_1080p.mp4",
+      "keyframe_filename": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=600&q=80",
+      "transcription": "Sue, you're crazy to go out there. Hollywood's a graveyard for talent.",
+      "visual_description": "Backstage dressing room, low-key lighting casting venetian blind shadows across the piano.",
+      "synopsis": "Al tries to dissuade Sue from leaving for California, foreshadowing his own doomed cross-country trip.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": ["dressing room shadows", "cynical dialogue", "ambition versus fate"],
+      "tags": ["hollywood dreams", "parting ways"]
+    }
+  ]
+}
