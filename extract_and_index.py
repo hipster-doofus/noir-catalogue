@@ -415,10 +415,13 @@ def main():
             t0 = time.time()
             cmd = [
                 ffmpeg_exe, "-y",
-                "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
-                "-rw_timeout", "15000000",
+                "-user_agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
                 "-ss", start_time_str,
                 "-i", stream_url,
+                "-reconnect", "1",
+                "-reconnect_at_eof", "1",
+                "-reconnect_streamed", "1",
+                "-reconnect_delay_max", "5",
                 "-t", "00:15:00",
                 "-c:v", "libx264",
                 "-preset", "ultrafast",
@@ -426,7 +429,7 @@ def main():
                 "-c:a", "aac",
                 str(sample_file)
             ]
-            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=240)
+            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=300)
             if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
                 print(f"  [!] Stream download failed for '{movie['title']}'. Moving on to next candidate...")
                 continue
