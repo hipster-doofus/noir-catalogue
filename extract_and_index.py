@@ -221,20 +221,6 @@ def get_ffmpeg():
         return sys_ffmpeg
     return imageio_ffmpeg.get_ffmpeg_exe()
 
-def is_url_valid(url, timeout=5):
-    """Fast HTTP pre-check to ensure stream URL exists and is accessible before calling FFmpeg."""
-    if not url:
-        return False
-    try:
-        response = requests.head(url, allow_redirects=True, timeout=timeout, headers={"User-Agent": "Mozilla/5.0"})
-        if response.status_code == 200:
-            return True
-        response = requests.get(url, stream=True, timeout=timeout, headers={"Range": "bytes=0-1024", "User-Agent": "Mozilla/5.0"})
-        return response.status_code in (200, 206)
-    except Exception as e:
-        print(f"    [!] Pre-check URL validation error: {e}")
-        return False
-
 def resolve_stream_url(movie_item):
     """Resolves direct streamable video URL based on source provider."""
     provider = movie_item.get("source_provider", "Internet Archive")
@@ -288,13 +274,13 @@ def select_batch_movies(num_movies=3):
             "description": "User requested public domain film noir."
         }]
 
-    # Filter catalog down strictly to reliable direct MP4 streams (excluding YouTube links that get runner IP-blocked)
+    # Filter catalog strictly to reliable direct MP4 streams (excluding YouTube links that get runner IP-blocked)
     direct_catalog = [m for m in BLENDED_NOIR_CATALOG if m.get("source_provider") != "YouTube"]
 
     already_done = get_already_processed_movie_ids()
     unprocessed = [m for m in direct_catalog if m["archive_id"] not in already_done]
 
-    # If all direct stream movies have already been processed into Supabase, sample randomly from the full direct catalog
+    # If all direct stream movies in catalog are already indexed into Supabase, sample randomly from full direct catalog
     if not unprocessed:
         print("[*] All direct stream movies in catalog are already indexed! Picking randomly from full direct catalog.")
         unprocessed = direct_catalog
@@ -446,9 +432,8 @@ def main():
         try:
             stream_url = resolve_stream_url(movie)
 
-            # Pre-flight check: ensure stream URL exists and is online
-            if not stream_url or not is_url_valid(stream_url):
-                print(f"  [!] Stream URL for '{movie['title']}' is invalid, unreachable, or blocked. Skipping to next file.")
+            if not stream_url:
+                print(f"  [!] Could not resolve stream URL for '{movie['title']}', skipping.")
                 continue
 
             # Randomize start point between 5 and 30 minutes
