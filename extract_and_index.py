@@ -222,7 +222,6 @@ def get_ffmpeg():
     return imageio_ffmpeg.get_ffmpeg_exe()
 
 def resolve_stream_url(movie_item):
-    """Resolves direct streamable video URL based on source provider."""
     provider = movie_item.get("source_provider", "Internet Archive")
     url = movie_item["video_url"]
 
@@ -232,14 +231,13 @@ def resolve_stream_url(movie_item):
             cmd = ["yt-dlp", "-g", "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best", url]
             proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=30)
             if proc.returncode == 0 and proc.stdout.strip():
-                stream_url = proc.stdout.strip().splitlines()[0]
-                print("    [✓] YouTube stream resolved successfully!")
-                return stream_url
-            print(f"    [!] yt-dlp failed to extract YouTube URL. Skipping entry.")
-            return None
+                return proc.stdout.strip().splitlines()[0]
+            print(f"    [!] yt-dlp failed for YouTube link. Skipping.")
+            return None  # <--- Ensures 'if not stream_url:' triggers!
         except Exception as e:
-            print(f"    [!] yt-dlp resolution error ({e}). Skipping entry.")
-            return None
+            print(f"    [!] Error resolving YouTube stream: {e}")
+            return None  # <--- Ensures 'if not stream_url:' triggers!
+
     return url
 
 def get_already_processed_movie_ids():
