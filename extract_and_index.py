@@ -229,15 +229,17 @@ def resolve_stream_url(movie_item):
     if provider == "YouTube":
         print(f"[*] Resolving YouTube stream URL via yt-dlp for '{movie_item['title']}'...")
         try:
-            cmd = ["yt-dlp", "-g", "-f", "bestvideo[height<=1080]+bestaudio/best[ext=mp4]/best", url]
+            cmd = ["yt-dlp", "-g", "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best", url]
             proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=30)
             if proc.returncode == 0 and proc.stdout.strip():
-                stream_url = proc.stdout.strip().splitlines()[0]
                 print("    [✓] YouTube stream resolved successfully!")
-                return stream_url
-            print(f"    [!] yt-dlp returned code {proc.returncode}, falling back to direct URL.")
+                return proc.stdout.strip().splitlines()[0]
+            print(f"    [!] yt-dlp failed for YouTube link. Skipping entry.")
+            return None
         except Exception as e:
-            print(f"    [!] yt-dlp resolution note ({e}), using direct URL fallback.")
+            print(f"    [!] Error resolving YouTube stream: {e}")
+            return None
+
     return url
 
 def get_already_processed_movie_ids():
@@ -255,8 +257,8 @@ def get_already_processed_movie_ids():
         print(f"[*] Note on Supabase check ({e}); proceeding.")
         return set()
 
-def select_batch_movies(num_movies=10):
-    """Selects up to num_movies to process in this run."""
+def select_batch_movies(num_movies=3):
+    """Selects batch movies with true random sampling across valid direct MP4 streams."""
     override = os.environ.get("MOVIE_ID_OVERRIDE", "").strip()
     if override:
         for m in BLENDED_NOIR_CATALOG:
@@ -272,16 +274,19 @@ def select_batch_movies(num_movies=10):
             "description": "User requested public domain film noir."
         }]
 
+    # Filter catalog strictly to reliable direct MP4 streams (excluding YouTube links that get runner IP-blocked)
+    direct_catalog = [m for m in BLENDED_NOIR_CATALOG if m.get("source_provider") != "YouTube"]
+
     already_done = get_already_processed_movie_ids()
-    available = [m for m in BLENDED_NOIR_CATALOG if m["archive_id"] not in already_done]
+    unprocessed = [m for m in direct_catalog if m["archive_id"] not in already_done]
 
-    if not available:
-        print("[*] All movies in catalog already indexed! Recycling catalog.")
-        available = BLENDED_NOIR_CATALOG
+    # If all direct stream movies in catalog are already indexed into Supabase, sample randomly from full direct catalog
+    if not unprocessed:
+        print("[*] All direct stream movies in catalog are already indexed! Picking randomly from full direct catalog.")
+        unprocessed = direct_catalog
 
-    count = min(num_movies, len(available))
-    selected = random.sample(available, count)
-    return selected
+    count = min(num_movies, len(unprocessed))
+    return random.sample(unprocessed, count)
 
 def analyze_multimodal(clip_path, movie_info, scene_index, duration):
     """Multimodal AI Analysis using Gemini API (free tier) or faster-whisper fallback."""
@@ -293,7 +298,7 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
             from google.genai import types
             client = genai.Client(api_key=gemini_key)
             uploaded_file = client.files.upload(file=str(clip_path))
-            
+
             prompt = """
             Analyze this 1080p Film Noir scene clip and respond in strict JSON format:
             {
@@ -389,7 +394,7 @@ def update_catalog_json(all_movies, all_scenes):
         "movies": all_movies,
         "scenes": all_scenes
     }
-    
+
     out_cat = OUTPUT_DIR / "catalog.json"
     with open(out_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
@@ -423,9 +428,13 @@ def main():
     for movie_idx, movie in enumerate(selected_movies, 1):
         print(f"\n[{movie_idx}/{len(selected_movies)}] 📽️ Starting '{movie['title']}' ({movie['year']})...")
         sample_file = WORK_DIR / f"{movie['archive_id']}_sample.mp4"
-        
+
         try:
             stream_url = resolve_stream_url(movie)
+
+            if not stream_url:
+                print(f"  [!] Could not resolve stream URL for '{movie['title']}', skipping.")
+                continue
 
             # Randomize start point between 5 and 30 minutes
             random_start_sec = random.randint(300, 1800)
@@ -438,12 +447,15 @@ def main():
                 "-ss", start_time_str,
                 "-i", stream_url,
                 "-t", "00:12:00",
-                "-c", "copy",
+                "-c:v", "libx264",
+                "-preset", "ultrafast",
+                "-crf", "23",
+                "-c:a", "aac",
                 str(sample_file)
             ]
-            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
+            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=180)
             if res.returncode != 0 or not sample_file.exists():
-                print(f"  [!] Stream copy failed for {movie['title']}, skipping.")
+                print(f"  [!] Stream download failed for {movie['title']}, skipping.")
                 continue
             print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
 
@@ -456,7 +468,7 @@ def main():
             sm.detect_scenes(video, frame_skip=2)
             scene_list = sm.get_scene_list()
 
-            # Release video file handle explicitly so Windows/Linux can manage the file
+            # Release video file handle explicitly so OS can manage the file
             del video
             gc.collect()
 
@@ -474,18 +486,21 @@ def main():
                 clip_path = OUTPUT_DIR / clip_name
                 thumb_path = OUTPUT_DIR / thumb_name
 
-                # Transcode 1080p H.264 / AAC
+                # Transcode 1080p H.264 / AAC with audio normalization & zeroed timestamps
                 transcode_cmd = [
                     ffmpeg_exe, "-y",
                     "-ss", st.get_timecode(),
                     "-to", en.get_timecode(),
                     "-i", str(sample_file),
                     "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1",
+                    "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
                     "-c:v", "libx264",
                     "-preset", "fast",
                     "-crf", "19",
                     "-c:a", "aac",
                     "-b:a", "192k",
+                    "-fflags", "+genpts",
+                    "-avoid_negative_ts", "make_zero",
                     "-movflags", "+faststart",
                     str(clip_path)
                 ]
@@ -536,7 +551,7 @@ def main():
         except Exception as e:
             print(f"  [!] Error processing {movie['title']}: {e}")
         finally:
-            # Safely cleanup intermediate stream without crashing
+            # Cleanup intermediate stream cleanly
             try:
                 gc.collect()
                 if sample_file.exists():
@@ -589,7 +604,7 @@ def main():
         zf.write(sqlite_db_path, arcname=sqlite_db_path.name)
         zf.write(OUTPUT_DIR / "catalog.json", arcname="catalog.json")
 
-    # Set GitHub Actions output environment
+    # Set GitHub Actions output environment safely
     gh_env = os.environ.get("GITHUB_ENV")
     if gh_env:
         with open(gh_env, "a", encoding="utf-8") as f:
