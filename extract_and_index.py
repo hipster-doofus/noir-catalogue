@@ -355,7 +355,7 @@ def index_to_supabase(movie, scenes):
         return False
 
 def update_catalog_json(all_movies, all_scenes):
-    """Writes catalog.json for GitHub Pages web view."""
+    """Writes catalog.json for GitHub Pages web view in output/ and repository root."""
     catalog_data = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "total_movies": len(all_movies),
@@ -372,7 +372,7 @@ def update_catalog_json(all_movies, all_scenes):
     with open(root_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
 
-    print(f"✅ Generated catalog.json with {len(all_movies)} films & {len(all_scenes)} scenes!")
+    print(f"✅ Generated catalog.json in {out_cat} and {root_cat}")
 
 def main():
     ffmpeg_exe = get_ffmpeg()
@@ -415,13 +415,9 @@ def main():
             t0 = time.time()
             cmd = [
                 ffmpeg_exe, "-y",
-                "-user_agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+                "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
                 "-ss", start_time_str,
                 "-i", stream_url,
-                "-reconnect", "1",
-                "-reconnect_at_eof", "1",
-                "-reconnect_streamed", "1",
-                "-reconnect_delay_max", "5",
                 "-t", "00:15:00",
                 "-c:v", "libx264",
                 "-preset", "ultrafast",
@@ -429,9 +425,10 @@ def main():
                 "-c:a", "aac",
                 str(sample_file)
             ]
-            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=300)
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=300)
             if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
-                print(f"  [!] Stream download failed for '{movie['title']}'. Moving on to next candidate...")
+                print(f"  [!] Stream download failed for '{movie['title']}'. Err: {res.stderr.decode('utf-8', errors='ignore')[-300:]}")
+                print(f"  [!] Moving on to next candidate...")
                 continue
 
             print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
