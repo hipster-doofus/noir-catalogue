@@ -221,7 +221,22 @@ def get_ffmpeg():
         return sys_ffmpeg
     return imageio_ffmpeg.get_ffmpeg_exe()
 
+def is_url_valid(url, timeout=5):
+    """Fast HTTP pre-check to ensure stream URL exists and is accessible before calling FFmpeg."""
+    if not url:
+        return False
+    try:
+        response = requests.head(url, allow_redirects=True, timeout=timeout, headers={"User-Agent": "Mozilla/5.0"})
+        if response.status_code == 200:
+            return True
+        response = requests.get(url, stream=True, timeout=timeout, headers={"Range": "bytes=0-1024", "User-Agent": "Mozilla/5.0"})
+        return response.status_code in (200, 206)
+    except Exception as e:
+        print(f"    [!] Pre-check URL validation error: {e}")
+        return False
+
 def resolve_stream_url(movie_item):
+    """Resolves direct streamable video URL based on source provider."""
     provider = movie_item.get("source_provider", "Internet Archive")
     url = movie_item["video_url"]
 
@@ -231,12 +246,13 @@ def resolve_stream_url(movie_item):
             cmd = ["yt-dlp", "-g", "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best", url]
             proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=30)
             if proc.returncode == 0 and proc.stdout.strip():
+                print("    [✓] YouTube stream resolved successfully!")
                 return proc.stdout.strip().splitlines()[0]
-            print(f"    [!] yt-dlp failed for YouTube link. Skipping.")
-            return None  # <--- Ensures 'if not stream_url:' triggers!
+            print(f"    [!] yt-dlp failed for YouTube link. Skipping entry.")
+            return None
         except Exception as e:
             print(f"    [!] Error resolving YouTube stream: {e}")
-            return None  # <--- Ensures 'if not stream_url:' triggers!
+            return None
 
     return url
 
@@ -255,8 +271,8 @@ def get_already_processed_movie_ids():
         print(f"[*] Note on Supabase check ({e}); proceeding.")
         return set()
 
-def select_batch_movies(num_movies=10):
-    """Selects up to num_movies to process in this run."""
+def select_batch_movies(num_movies=3):
+    """Selects batch movies while prioritizing direct MP4 public domain streams."""
     override = os.environ.get("MOVIE_ID_OVERRIDE", "").strip()
     if override:
         for m in BLENDED_NOIR_CATALOG:
@@ -279,9 +295,12 @@ def select_batch_movies(num_movies=10):
         print("[*] All movies in catalog already indexed! Recycling catalog.")
         available = BLENDED_NOIR_CATALOG
 
-    count = min(num_movies, len(available))
-    selected = random.sample(available, count)
-    return selected
+    direct_streams = [m for m in available if m.get("source_provider") != "YouTube"]
+    if not direct_streams:
+        direct_streams = available
+
+    count = min(num_movies, len(direct_streams))
+    return random.sample(direct_streams, count)
 
 def analyze_multimodal(clip_path, movie_info, scene_index, duration):
     """Multimodal AI Analysis using Gemini API (free tier) or faster-whisper fallback."""
@@ -426,8 +445,10 @@ def main():
 
         try:
             stream_url = resolve_stream_url(movie)
-            if not stream_url:
-                print(f"  [!] Unable to resolve valid stream URL for '{movie['title']}', skipping.")
+
+            # Pre-flight check: ensure stream URL exists and is online
+            if not stream_url or not is_url_valid(stream_url):
+                print(f"  [!] Stream URL for '{movie['title']}' is invalid, unreachable, or blocked. Skipping to next file.")
                 continue
 
             # Randomize start point between 5 and 30 minutes
@@ -459,7 +480,7 @@ def main():
             sm.detect_scenes(video, frame_skip=2)
             scene_list = sm.get_scene_list()
 
-            # Release video file handle explicitly so Windows/Linux can manage the file
+            # Release video file handle explicitly so OS can manage the file
             del video
             gc.collect()
 
@@ -539,7 +560,7 @@ def main():
         except Exception as e:
             print(f"  [!] Error processing {movie['title']}: {e}")
         finally:
-            # Safely cleanup intermediate stream without crashing
+            # Cleanup intermediate stream cleanly
             try:
                 gc.collect()
                 if sample_file.exists():
