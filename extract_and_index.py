@@ -428,6 +428,9 @@ def main():
 
         try:
             stream_url = resolve_stream_url(movie)
+            if not stream_url:
+                print(f"  [!] Unable to resolve valid stream URL for '{movie['title']}', skipping.")
+                continue
 
             # Randomize start point between 5 and 30 minutes
             random_start_sec = random.randint(300, 1800)
