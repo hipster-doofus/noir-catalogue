@@ -1,7 +1,7 @@
 """
 Multi-Source Film Noir Scene Extractor & Cloud Indexer
 Supports Internet Archive, Library of Congress, and YouTube Restorations (via yt-dlp).
-Processes up to 10 movies per batch, generates rich AI metadata, and updates Supabase & GitHub Pages.
+Processes up to N movies per batch, generates rich AI metadata, and updates Supabase & GitHub Pages.
 """
 
 import os
@@ -184,34 +184,6 @@ BLENDED_NOIR_CATALOG = [
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Jigsaw_/Jigsaw.mp4",
         "description": "Franchot Tone plays an investigator unraveling a syndicate of political racketeers in New York City."
-    },
-    # --- Library of Congress & YouTube Restorations (Streamed via yt-dlp) ---
-    {
-        "title": "The Hitch-Hiker (Restored)",
-        "year": 1953,
-        "director": "Ida Lupino",
-        "archive_id": "the_hitch_hiker_restored",
-        "source_provider": "YouTube",
-        "video_url": "https://www.youtube.com/watch?v=N8Z7s0F7V0g",
-        "description": "Ida Lupino's desert masterpiece; two friends on a fishing trip pick up a psychopathic fugitive."
-    },
-    {
-        "title": "Impact (Restored)",
-        "year": 1949,
-        "director": "Arthur Lubin",
-        "archive_id": "impact_1949_restored",
-        "source_provider": "YouTube",
-        "video_url": "https://www.youtube.com/watch?v=7uV8i0lG3zQ",
-        "description": "Brian Donlevy and Ella Raines; an industrialist survives a murder attempt engineered by his unfaithful wife."
-    },
-    {
-        "title": "The Big Combo (Restored)",
-        "year": 1955,
-        "director": "Joseph H. Lewis",
-        "archive_id": "the_big_combo_restored",
-        "source_provider": "YouTube",
-        "video_url": "https://www.youtube.com/watch?v=W3B_3f2zL7k",
-        "description": "A police lieutenant becomes dangerously obsessed with bringing down a sadistic syndicate kingpin."
     }
 ]
 
@@ -222,7 +194,7 @@ def get_ffmpeg():
     return imageio_ffmpeg.get_ffmpeg_exe()
 
 def resolve_stream_url(movie_item):
-    """Resolves direct streamable video URL based on source provider."""
+    """Resolves direct streamable video URL."""
     provider = movie_item.get("source_provider", "Internet Archive")
     url = movie_item["video_url"]
 
@@ -257,8 +229,8 @@ def get_already_processed_movie_ids():
         print(f"[*] Note on Supabase check ({e}); proceeding.")
         return set()
 
-def select_batch_movies(num_movies=3):
-    """Selects batch movies with true random sampling across valid direct MP4 streams."""
+def get_shuffled_movie_pool():
+    """Returns a randomized pool of candidate movies prioritizing unindexed ones."""
     override = os.environ.get("MOVIE_ID_OVERRIDE", "").strip()
     if override:
         for m in BLENDED_NOIR_CATALOG:
@@ -274,19 +246,16 @@ def select_batch_movies(num_movies=3):
             "description": "User requested public domain film noir."
         }]
 
-    # Filter catalog strictly to reliable direct MP4 streams (excluding YouTube links that get runner IP-blocked)
     direct_catalog = [m for m in BLENDED_NOIR_CATALOG if m.get("source_provider") != "YouTube"]
-
     already_done = get_already_processed_movie_ids()
     unprocessed = [m for m in direct_catalog if m["archive_id"] not in already_done]
 
-    # If all direct stream movies in catalog are already indexed into Supabase, sample randomly from full direct catalog
     if not unprocessed:
-        print("[*] All direct stream movies in catalog are already indexed! Picking randomly from full direct catalog.")
-        unprocessed = direct_catalog
+        print("[*] All direct stream movies in catalog are already indexed! Shuffling full catalog.")
+        unprocessed = list(direct_catalog)
 
-    count = min(num_movies, len(unprocessed))
-    return random.sample(unprocessed, count)
+    random.shuffle(unprocessed)
+    return unprocessed
 
 def analyze_multimodal(clip_path, movie_info, scene_index, duration):
     """Multimodal AI Analysis using Gemini API (free tier) or faster-whisper fallback."""
@@ -409,54 +378,60 @@ def main():
     ffmpeg_exe = get_ffmpeg()
     raw_num = os.environ.get("NUM_MOVIES", "3").strip()
     try:
-        num_to_process = max(1, min(10, int(raw_num)))
+        target_count = max(1, min(10, int(raw_num)))
     except ValueError:
-        num_to_process = 3
+        target_count = 3
 
-    selected_movies = select_batch_movies(num_to_process)
     timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+    movie_pool = get_shuffled_movie_pool()
 
     print("=" * 65)
-    print(f"🎬 BATCH SELECTION: Processing {len(selected_movies)} Film Noir Classic(s)")
-    for i, m in enumerate(selected_movies, 1):
-        print(f"   {i}. {m['title']} ({m['year']}) [{m.get('source_provider', 'Archive')}]")
+    print(f"🎬 TARGET GOAL: Successfully Extract Scenes for {target_count} Film Noir Classic(s)")
+    print(f"📋 Candidate Pool Size: {len(movie_pool)} films")
     print("=" * 65)
 
     all_batch_movies = []
     all_batch_scenes = []
 
-    for movie_idx, movie in enumerate(selected_movies, 1):
-        print(f"\n[{movie_idx}/{len(selected_movies)}] 📽️ Starting '{movie['title']}' ({movie['year']})...")
+    pool_index = 0
+    while len(all_batch_movies) < target_count and pool_index < len(movie_pool):
+        movie = movie_pool[pool_index]
+        pool_index += 1
+
+        print(f"\n[{len(all_batch_movies) + 1}/{target_count}] 📽️ Attempting '{movie['title']}' ({movie['year']})...")
         sample_file = WORK_DIR / f"{movie['archive_id']}_sample.mp4"
 
         try:
             stream_url = resolve_stream_url(movie)
-
             if not stream_url:
-                print(f"  [!] Could not resolve stream URL for '{movie['title']}', skipping.")
+                print(f"  [!] Stream URL resolution failed for {movie['title']}, trying next...")
                 continue
 
-            # Randomize start point between 5 and 30 minutes
+            # Stream a 5-minute window for faster, reliable downloading
             random_start_sec = random.randint(300, 1800)
             start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
 
-            print(f"  🌐 Streaming 12-minute window from {start_time_str}...")
+            print(f"  🌐 Streaming 5-minute window from {start_time_str}...")
             t0 = time.time()
             cmd = [
                 ffmpeg_exe, "-y",
+                "-reconnect", "1",
+                "-reconnect_streamed", "1",
+                "-reconnect_delay_max", "5",
                 "-ss", start_time_str,
                 "-i", stream_url,
-                "-t", "00:12:00",
+                "-t", "00:05:00",
                 "-c:v", "libx264",
                 "-preset", "ultrafast",
-                "-crf", "23",
+                "-crf", "26",
                 "-c:a", "aac",
                 str(sample_file)
             ]
-            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=180)
-            if res.returncode != 0 or not sample_file.exists():
-                print(f"  [!] Stream download failed for {movie['title']}, skipping.")
+            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=240)
+            if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
+                print(f"  [!] Stream download failed for '{movie['title']}'. Moving on to next candidate...")
                 continue
+
             print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
 
             # PySceneDetect
@@ -468,13 +443,16 @@ def main():
             sm.detect_scenes(video, frame_skip=2)
             scene_list = sm.get_scene_list()
 
-            # Release video file handle explicitly so OS can manage the file
             del video
             gc.collect()
 
-            valid = [(st, en, (en - st).seconds) for st, en in scene_list if 10.0 <= (en - st).seconds <= 60.0]
+            valid = [(st, en, (en - st).seconds) for st, en in scene_list if 8.0 <= (en - st).seconds <= 60.0]
             if len(valid) < 3:
                 valid = [(st, en, (en - st).seconds) for st, en in scene_list[:5]]
+
+            if not valid:
+                print(f"  [!] No valid scenes detected in sample for '{movie['title']}'. Moving to next candidate...")
+                continue
 
             chosen = random.sample(valid, min(3, len(valid)))
             chosen.sort(key=lambda s: s[0].seconds)
@@ -486,7 +464,6 @@ def main():
                 clip_path = OUTPUT_DIR / clip_name
                 thumb_path = OUTPUT_DIR / thumb_name
 
-                # Transcode 1080p H.264 / AAC with audio normalization & zeroed timestamps
                 transcode_cmd = [
                     ffmpeg_exe, "-y",
                     "-ss", st.get_timecode(),
@@ -506,7 +483,6 @@ def main():
                 ]
                 subprocess.run(transcode_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
 
-                # Keyframe Thumbnail
                 mid_sec = (st.seconds + en.seconds) / 2.0
                 thumb_cmd = [
                     ffmpeg_exe, "-y",
@@ -518,7 +494,6 @@ def main():
                 ]
                 subprocess.run(thumb_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=60)
 
-                # AI Multimodal
                 meta = analyze_multimodal(clip_path, movie, idx, dur)
 
                 abs_start = random_start_sec + st.seconds
@@ -544,14 +519,13 @@ def main():
                 movie_scenes.append(scene_record)
                 all_batch_scenes.append(scene_record)
 
-            # Index to Supabase
             index_to_supabase(movie, movie_scenes)
             all_batch_movies.append(movie)
+            print(f"  [✓] Successfully processed '{movie['title']}' ({len(all_batch_movies)}/{target_count})")
 
         except Exception as e:
-            print(f"  [!] Error processing {movie['title']}: {e}")
+            print(f"  [!] Exception processing {movie['title']}: {e}")
         finally:
-            # Cleanup intermediate stream cleanly
             try:
                 gc.collect()
                 if sample_file.exists():
@@ -560,7 +534,7 @@ def main():
                 pass
 
     if not all_batch_movies:
-        print("[!] No movies could be processed in this batch.")
+        print("[!] Could not process any movies from the catalog.")
         return
 
     # Save to local SQLite
