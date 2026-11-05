@@ -293,7 +293,7 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
             from google.genai import types
             client = genai.Client(api_key=gemini_key)
             uploaded_file = client.files.upload(file=str(clip_path))
-            
+
             prompt = """
             Analyze this 1080p Film Noir scene clip and respond in strict JSON format:
             {
@@ -389,7 +389,7 @@ def update_catalog_json(all_movies, all_scenes):
         "movies": all_movies,
         "scenes": all_scenes
     }
-    
+
     out_cat = OUTPUT_DIR / "catalog.json"
     with open(out_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
@@ -423,7 +423,7 @@ def main():
     for movie_idx, movie in enumerate(selected_movies, 1):
         print(f"\n[{movie_idx}/{len(selected_movies)}] 📽️ Starting '{movie['title']}' ({movie['year']})...")
         sample_file = WORK_DIR / f"{movie['archive_id']}_sample.mp4"
-        
+
         try:
             stream_url = resolve_stream_url(movie)
 
@@ -589,7 +589,7 @@ def main():
         zf.write(sqlite_db_path, arcname=sqlite_db_path.name)
         zf.write(OUTPUT_DIR / "catalog.json", arcname="catalog.json")
 
-    # Set GitHub Actions output environment
+    # Set GitHub Actions output environment safely
     gh_env = os.environ.get("GITHUB_ENV")
     if gh_env:
         with open(gh_env, "a", encoding="utf-8") as f:
