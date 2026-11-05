@@ -229,15 +229,17 @@ def resolve_stream_url(movie_item):
     if provider == "YouTube":
         print(f"[*] Resolving YouTube stream URL via yt-dlp for '{movie_item['title']}'...")
         try:
-            cmd = ["yt-dlp", "-g", "-f", "bestvideo[height<=1080]+bestaudio/best[ext=mp4]/best", url]
+            cmd = ["yt-dlp", "-g", "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best", url]
             proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=30)
             if proc.returncode == 0 and proc.stdout.strip():
                 stream_url = proc.stdout.strip().splitlines()[0]
                 print("    [✓] YouTube stream resolved successfully!")
                 return stream_url
-            print(f"    [!] yt-dlp returned code {proc.returncode}, falling back to direct URL.")
+            print(f"    [!] yt-dlp returned code {proc.returncode}. Skipping YouTube URL.")
+            return None
         except Exception as e:
-            print(f"    [!] yt-dlp resolution note ({e}), using direct URL fallback.")
+            print(f"    [!] yt-dlp resolution error ({e}). Skipping YouTube URL.")
+            return None
     return url
 
 def get_already_processed_movie_ids():
