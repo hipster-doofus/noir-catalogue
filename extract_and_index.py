@@ -407,20 +407,19 @@ def main():
                 print(f"  [!] Stream URL resolution failed for {movie['title']}, trying next...")
                 continue
 
-            # Stream a 5-minute window for faster, reliable downloading
+            # Randomize start point between 5 and 30 minutes
             random_start_sec = random.randint(300, 1800)
             start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
 
-            print(f"  🌐 Streaming 5-minute window from {start_time_str}...")
+            print(f"  🌐 Streaming 15-minute window from {start_time_str}...")
             t0 = time.time()
             cmd = [
                 ffmpeg_exe, "-y",
-                "-reconnect", "1",
-                "-reconnect_streamed", "1",
-                "-reconnect_delay_max", "5",
+                "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
+                "-rw_timeout", "15000000",
                 "-ss", start_time_str,
                 "-i", stream_url,
-                "-t", "00:05:00",
+                "-t", "00:15:00",
                 "-c:v", "libx264",
                 "-preset", "ultrafast",
                 "-crf", "26",
