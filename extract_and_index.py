@@ -29,9 +29,9 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 WORK_DIR = BASE_DIR / "temp_workspace"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
 
-# Blended Catalog of Verified Public Domain Film Noir Classics across Multiple Sources
+# Blended Catalog of Verified Film Noir Classics across Multiple Sources
 BLENDED_NOIR_CATALOG = [
-    # --- Internet Archive Public Domain Archive ---
+    # --- Internet Archive Archives ---
     {
         "title": "Suddenly",
         "year": 1954,
@@ -39,6 +39,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "suddenly",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/suddenly/suddenly.mp4",
+        "license": "Public Domain",
         "description": "Frank Sinatra stars as a cold-blooded assassin holding a family hostage while plotting a presidential assassination."
     },
     {
@@ -48,6 +49,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "TheStranger_0",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/TheStranger_0/The_Stranger.mp4",
+        "license": "Public Domain",
         "description": "Directed by and starring Orson Welles with Edward G. Robinson; a war crimes investigator tracks an escaped fugitive in Connecticut."
     },
     {
@@ -57,6 +59,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Quicksand_clear",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Quicksand_clear/Quicksand.mp4",
+        "license": "Public Domain",
         "description": "Mickey Rooney and Peter Lorre in a relentless noir where a minor theft spirals into extortion and robbery."
     },
     {
@@ -66,6 +69,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Detour",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Detour/Detour.mp4",
+        "license": "Public Domain",
         "description": "A penniless New York pianist hitchhikes to Hollywood, only to be dragged into an inescapable nightmare of blackmail."
     },
     {
@@ -75,6 +79,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Martha_Ivers_movie",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Martha_Ivers_movie/Strange_Love_Martha_Ivers.mp4",
+        "license": "Public Domain",
         "description": "Barbara Stanwyck, Van Heflin, and Kirk Douglas in his screen debut; childhood friends bound by a deadly secret."
     },
     {
@@ -84,6 +89,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Please_Murder_Me_movie",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Please_Murder_Me_movie/Please_Murder_Me.mp4",
+        "license": "Public Domain",
         "description": "Raymond Burr plays an attorney who clears a femme fatale (Angela Lansbury), only to discover her deadly guilt."
     },
     {
@@ -93,6 +99,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "BehindGreenLights_high_Q_mp4",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/BehindGreenLights_high_Q_mp4/Behind_Green_Lights.mp4",
+        "license": "Public Domain",
         "description": "Carole Landis stars in an atmospheric police procedural centered around a midnight precinct murder."
     },
     {
@@ -102,6 +109,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "He_Walked_By_Night.avi",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/He_Walked_By_Night.avi/He_Walked_By_Night.mp4",
+        "license": "Public Domain",
         "description": "Richard Basehart stars as a cunning electronics thief stalking through the storm drains beneath Los Angeles."
     },
     {
@@ -111,6 +119,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "TheRedHouse",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/TheRedHouse/The_Red_House.mp4",
+        "license": "Public Domain",
         "description": "Edward G. Robinson plays an isolated farmer guarding a terrifying mystery hidden in the forbidden woods."
     },
     {
@@ -120,6 +129,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "kansascityconfidencial",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/kansascityconfidencial/kansascityconfidencial.mp4",
+        "license": "Public Domain",
         "description": "John Payne stars as an ex-con framed for a heist who tracks the masked perpetrators across Mexico."
     },
     {
@@ -129,6 +139,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Woman_on_the_Run",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Woman_on_the_Run/Woman_on_the_Run.mp4",
+        "license": "Public Domain",
         "description": "Ann Sheridan navigates the dark night streets of San Francisco searching for her missing husband."
     },
     {
@@ -138,6 +149,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "TheChase_",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/TheChase_/TheChase.mp4",
+        "license": "Public Domain",
         "description": "Robert Cummings and Peter Lorre in a feverish Cornell Woolrich thriller involving a sadistic Florida gangster."
     },
     {
@@ -147,6 +159,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Man_Who_Cheated_Himself",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Man_Who_Cheated_Himself/NOIR_DISC_1.mp4",
+        "license": "Public Domain",
         "description": "Lee J. Cobb stars as a veteran detective who covers up a crime for his lover, only to have his rookie brother assigned to the case."
     },
     {
@@ -156,6 +169,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Inner_Sanctum_movie",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Inner_Sanctum_movie/Inner_Sanctum.mp4",
+        "license": "Public Domain",
         "description": "A murderer takes refuge in a flood-bound boarding house, unaware a fellow traveler knows his crime."
     },
     {
@@ -165,6 +179,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Whistle_Stop",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Whistle_Stop/Whistle_Stop.mp4",
+        "license": "Public Domain",
         "description": "Ava Gardner and George Raft in a story of small-town corruption, jealousy, and an ill-fated robbery."
     },
     {
@@ -174,6 +189,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "The_Second_Woman_",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/The_Second_Woman_/The_Second_Woman_.mp4",
+        "license": "Public Domain",
         "description": "Robert Young stars as a haunted architect plagued by fatal accidents following the death of his bride."
     },
     {
@@ -183,6 +199,7 @@ BLENDED_NOIR_CATALOG = [
         "archive_id": "Jigsaw_",
         "source_provider": "Internet Archive",
         "video_url": "https://archive.org/download/Jigsaw_/Jigsaw.mp4",
+        "license": "Public Domain",
         "description": "Franchot Tone plays an investigator unraveling a syndicate of political racketeers in New York City."
     }
 ]
@@ -241,9 +258,10 @@ def get_shuffled_movie_pool():
             "year": 1950,
             "director": "Unknown",
             "archive_id": override,
-            "source_provider": "Internet Archive",
+            "source_provider": "Custom Archive",
             "video_url": f"https://archive.org/download/{override}/{override}.mp4",
-            "description": "User requested public domain film noir."
+            "license": "Unspecified",
+            "description": "User requested archive film."
         }]
 
     direct_catalog = [m for m in BLENDED_NOIR_CATALOG if m.get("source_provider") != "YouTube"]
@@ -323,7 +341,7 @@ def index_to_supabase(movie, scenes):
             "director": movie["director"],
             "release_year": movie["year"],
             "source_archive_url": movie["video_url"],
-            "license": "Public Domain"
+            "license": movie.get("license", "Unspecified")
         }).execute()
 
         for s in scenes:
@@ -386,7 +404,7 @@ def main():
     movie_pool = get_shuffled_movie_pool()
 
     print("=" * 65)
-    print(f"🎬 TARGET GOAL: Successfully Extract Scenes for {target_count} Film Noir Classic(s)")
+    print(f"🎬 TARGET GOAL: Successfully Extract Scenes for {target_count} Classic(s)")
     print(f"📋 Candidate Pool Size: {len(movie_pool)} films")
     print("=" * 65)
 
