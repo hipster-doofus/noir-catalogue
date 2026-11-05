@@ -462,12 +462,15 @@ def main():
                 "-ss", start_time_str,
                 "-i", stream_url,
                 "-t", "00:12:00",
-                "-c", "copy",
+                "-c:v", "libx264",
+                "-preset", "ultrafast",
+                "-crf", "23",
+                "-c:a", "aac",
                 str(sample_file)
             ]
-            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
+            res = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=180)
             if res.returncode != 0 or not sample_file.exists():
-                print(f"  [!] Stream copy failed for {movie['title']}, skipping.")
+                print(f"  [!] Stream download failed for {movie['title']}, skipping.")
                 continue
             print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
 
@@ -498,18 +501,21 @@ def main():
                 clip_path = OUTPUT_DIR / clip_name
                 thumb_path = OUTPUT_DIR / thumb_name
 
-                # Transcode 1080p H.264 / AAC
+                # Transcode 1080p H.264 / AAC with audio normalization & zeroed timestamps
                 transcode_cmd = [
                     ffmpeg_exe, "-y",
                     "-ss", st.get_timecode(),
                     "-to", en.get_timecode(),
                     "-i", str(sample_file),
                     "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1",
+                    "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
                     "-c:v", "libx264",
                     "-preset", "fast",
                     "-crf", "19",
                     "-c:a", "aac",
                     "-b:a", "192k",
+                    "-fflags", "+genpts",
+                    "-avoid_negative_ts", "make_zero",
                     "-movflags", "+faststart",
                     str(clip_path)
                 ]
