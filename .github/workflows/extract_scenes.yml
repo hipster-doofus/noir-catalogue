@@ -1,42 +1,33 @@
-name: Extract Film Noir Scenes & Publish Web Vault
+name: Run Search, Extract & Index Pipeline
 
 on:
   workflow_dispatch:
     inputs:
       num_movies:
-        description: 'Number of movies to process (1 to 10)'
+        description: 'Number of movies to process (1-10)'
         required: false
         default: '3'
       movie_id:
-        description: 'Optional Specific Identifier (leave empty for auto selection)'
+        description: 'Specific Archive ID or Title Override (Optional)'
         required: false
         default: ''
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
 
 jobs:
-  build-and-extract:
+  extract-and-index:
     runs-on: ubuntu-latest
-    outputs:
-      movie_count: ${{ env.MOVIE_COUNT }}
-      timestamp: ${{ env.TIMESTAMP }}
-      zip_file_path: ${{ env.ZIP_FILE_PATH }}
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.11
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
           cache: 'pip'
 
       - name: Install System Dependencies (FFmpeg)
@@ -47,7 +38,7 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests imageio-ffmpeg scenedetect[opencv] faster-whisper google-genai supabase yt-dlp
 
       - name: Run Multi-Source Extraction & Indexer
         env:
@@ -59,43 +50,31 @@ jobs:
         run: |
           python extract_and_index.py
 
-      - name: Prepare Web Pages Directory
-        run: |
-          mkdir -p _site
-          cp index.html _site/
-          if [ -f output/catalog.json ]; then
-            cp output/catalog.json _site/catalog.json
-          elif [ -f catalog.json ]; then
-            cp catalog.json _site/catalog.json
-          fi
-          # Copy thumbnails for the website
-          cp output/*.jpg _site/ 2>/dev/null || true
-
-      - name: Upload GitHub Pages Artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload Extracted Media Artifacts (MP4, ZIP & DB)
+        uses: actions/upload-artifact@v4
+        if: always()
         with:
-          path: _site
+          name: film-noir-extracted-scenes-${{ strategy.job-index }}
+          path: |
+            output/*.mp4
+            output/*.zip
+            output/*.db
+            output/catalog.json
+            output/*.jpg
+          if-no-files-found: warn
 
-      - name: Publish GitHub Release with Direct Video Downloads
+      - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
-        if: env.ZIP_FILE_PATH != ''
+        if: success() && env.ZIP_FILE_PATH != ''
         with:
           tag_name: release-${{ env.TIMESTAMP }}
-          name: "Noir Vault: ${{ env.MOVIE_COUNT }} Films (${{ env.TIMESTAMP }})"
+          name: "Noir Vault: Films (${{ env.TIMESTAMP }})"
+          body: |
+            Automated Scene Extraction & Cloud Indexing Run Complete.
+            Processed Movies: ${{ env.MOVIE_COUNT }}
           files: |
-            ${{ env.ZIP_FILE_PATH }}
-            output/film_noir_scenes.db
-            output/catalog.json
+            output/*.zip
             output/*.mp4
-            output/*.jpg
-
-  deploy-pages:
-    needs: build-and-extract
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+            output/*.db
+            output/catalog.json
+          fail_on_unmatched_files: false
