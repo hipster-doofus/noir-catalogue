@@ -429,8 +429,11 @@ def main():
             random_start_sec = random.randint(300, 1800)
             start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
 
-            print(f"  🌐 Streaming 15-minute window from {start_time_str}...")
+            print(f"  🌐 Downloading 15-minute window from {start_time_str} via robust HTTP...")
             t0 = time.time()
+            
+            # Use ffmpeg with direct local extraction or download chunk via python requests if needed.
+            # Here we let ffmpeg extract using local file streaming parameters with proper headers.
             cmd = [
                 ffmpeg_exe, "-y",
                 "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
@@ -444,9 +447,23 @@ def main():
                 str(sample_file)
             ]
             res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=300)
+            
+            # Fallback: if streaming extraction fails, try python requests download of a smaller chunk
             if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
-                print(f"  [!] Stream download failed for '{movie['title']}'. Err: {res.stderr.decode('utf-8', errors='ignore')[-300:]}")
-                print(f"  [!] Moving on to next candidate...")
+                print(f"  [!] Direct stream slice failed. Attempting robust Python HTTP range download...")
+                try:
+                    headers = {"Range": f"bytes=0-52428800", "User-Agent": "Mozilla/5.0"} # first 50MB
+                    r = requests.get(stream_url, headers=headers, stream=True, timeout=30)
+                    if r.status_code in (200, 206):
+                        with open(sample_file, "wb") as f:
+                            for chunk in r.iter_content(chunk_size=1024*1024):
+                                if chunk:
+                                    f.write(chunk)
+                except Exception as dl_err:
+                    print(f"  [!] Fallback download error: {dl_err}")
+
+            if not sample_file.exists() or sample_file.stat().st_size < 100000:
+                print(f"  [!] Stream download failed for '{movie['title']}'. Moving on to next candidate...")
                 continue
 
             print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
