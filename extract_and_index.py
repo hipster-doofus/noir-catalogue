@@ -235,10 +235,10 @@ def resolve_stream_url(movie_item):
                 stream_url = proc.stdout.strip().splitlines()[0]
                 print("    [✓] YouTube stream resolved successfully!")
                 return stream_url
-            print(f"    [!] yt-dlp returned code {proc.returncode}. Skipping YouTube URL.")
+            print(f"    [!] yt-dlp failed to extract YouTube URL. Skipping entry.")
             return None
         except Exception as e:
-            print(f"    [!] yt-dlp resolution error ({e}). Skipping YouTube URL.")
+            print(f"    [!] yt-dlp resolution error ({e}). Skipping entry.")
             return None
     return url
 
