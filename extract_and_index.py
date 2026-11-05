@@ -272,7 +272,7 @@ def get_already_processed_movie_ids():
         return set()
 
 def select_batch_movies(num_movies=3):
-    """Selects batch movies while prioritizing direct MP4 public domain streams."""
+    """Selects batch movies with true random sampling across valid direct MP4 streams."""
     override = os.environ.get("MOVIE_ID_OVERRIDE", "").strip()
     if override:
         for m in BLENDED_NOIR_CATALOG:
@@ -288,19 +288,19 @@ def select_batch_movies(num_movies=3):
             "description": "User requested public domain film noir."
         }]
 
+    # Filter catalog down strictly to reliable direct MP4 streams (excluding YouTube links that get runner IP-blocked)
+    direct_catalog = [m for m in BLENDED_NOIR_CATALOG if m.get("source_provider") != "YouTube"]
+
     already_done = get_already_processed_movie_ids()
-    available = [m for m in BLENDED_NOIR_CATALOG if m["archive_id"] not in already_done]
+    unprocessed = [m for m in direct_catalog if m["archive_id"] not in already_done]
 
-    if not available:
-        print("[*] All movies in catalog already indexed! Recycling catalog.")
-        available = BLENDED_NOIR_CATALOG
+    # If all direct stream movies have already been processed into Supabase, sample randomly from the full direct catalog
+    if not unprocessed:
+        print("[*] All direct stream movies in catalog are already indexed! Picking randomly from full direct catalog.")
+        unprocessed = direct_catalog
 
-    direct_streams = [m for m in available if m.get("source_provider") != "YouTube"]
-    if not direct_streams:
-        direct_streams = available
-
-    count = min(num_movies, len(direct_streams))
-    return random.sample(direct_streams, count)
+    count = min(num_movies, len(unprocessed))
+    return random.sample(unprocessed, count)
 
 def analyze_multimodal(clip_path, movie_info, scene_index, duration):
     """Multimodal AI Analysis using Gemini API (free tier) or faster-whisper fallback."""
