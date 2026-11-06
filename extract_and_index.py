@@ -374,7 +374,6 @@ def index_to_supabase(movie, scenes):
 
 def update_catalog_json(all_movies, all_scenes):
     """Writes catalog.json for GitHub Pages web view in output/ and repository root."""
-    # Convert any non-serializable objects (like Path objects) to string
     clean_scenes = []
     for s in all_scenes:
         s_copy = dict(s)
@@ -439,10 +438,10 @@ def main():
             random_start_sec = random.randint(300, 1800)
             start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
 
-            print(f"  🌐 Downloading 15-minute window from {start_time_str}...")
+            print(f"  🌐 Streaming 15-minute window from {start_time_str}...")
             t0 = time.time()
             
-            # Extract sample clip using standard ffmpeg stream headers with automatic reconnect
+            # Fast input seeking (-ss before -i) with HTTP socket timeout
             cmd = [
                 ffmpeg_exe, "-y",
                 "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
@@ -455,20 +454,26 @@ def main():
                 "-c:a", "aac",
                 str(sample_file)
             ]
-            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=300)
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=240)
 
-            # Fallback: Use yt-dlp to download segment if direct stream fails
+            # Fallback: Python HTTP stream download
             if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
-                print(f"  [!] Direct stream failed. Attempting yt-dlp fallback download...")
-                end_sec = random_start_sec + 900
-                dl_cmd = [
-                    "yt-dlp",
-                    "--download-sections", f"*{random_start_sec}-{end_sec}",
-                    "-f", "mp4/best",
-                    "-o", str(sample_file),
-                    stream_url
-                ]
-                subprocess.run(dl_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=180)
+                print(f"  [!] Direct FFmpeg stream failed. Running Python HTTP chunk fallback...")
+                try:
+                    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+                    with requests.get(stream_url, headers=headers, stream=True, timeout=30) as r:
+                        r.raise_for_status()
+                        downloaded = 0
+                        # Read up to 80MB to ensure clean H.264 video data for scenedetect
+                        with open(sample_file, "wb") as f:
+                            for chunk in r.iter_content(chunk_size=1024*1024):
+                                if chunk:
+                                    f.write(chunk)
+                                    downloaded += len(chunk)
+                                    if downloaded >= 80 * 1024 * 1024:
+                                        break
+                except Exception as dl_err:
+                    print(f"  [!] Python HTTP fallback error: {dl_err}")
 
             if not sample_file.exists() or sample_file.stat().st_size < 100000:
                 print(f"  [!] Download failed for '{movie['title']}'. Moving on to next candidate...")
