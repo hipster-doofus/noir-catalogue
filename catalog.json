@@ -1,129 +1,86 @@
 {
-  "updated_at": "2026-11-06T15:15:37.712056+00:00",
-  "total_movies": 10,
-  "total_scenes": 50,
+  "updated_at": "2026-11-06T21:50:57.357435+00:00",
+  "total_movies": 3,
+  "total_scenes": 9,
   "genre": "sci-fi",
-  "source": "Library of Congress",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
-      "title": "The Land Unknown",
-      "year": 1957,
-      "director": "Virgil W. Vogel",
-      "archive_id": "the-land-unknown",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/the-land-unknown/The Land Unknown.mp4",
+      "title": "Atom Age Vampire",
+      "year": 1960,
+      "director": "Mario Bava",
+      "archive_id": "atom_age_vampire",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/atom_age_vampire/AtomAgeVampire.mp4",
       "license": "Open Archive",
-      "description": "Three men and a woman crash-land in a deep crater in Antarctica, where they find a prehistoric world."
+      "description": "Taken from IMDB : A stripper is horribly disfigured in a car accident. A brilliant scientist develops a treatment that restores her beauty and falls in love with her. To preserve her appearance the doctor must give her additional treatments using glands taken from murdered women."
     },
     {
-      "title": "House On Haunted Hill - Weirdness Bad Movie",
-      "year": 1950,
-      "director": "reallybadmovie@rocketmail.com",
-      "archive_id": "HouseOnHauntedHill-WeirdnessBadMovie",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/HouseOnHauntedHill-WeirdnessBadMovie/WRBM_House On Haunted Hill_WS_AF_fixed.ia.mp4",
+      "title": "Teenagers from Outer Space",
+      "year": 1959,
+      "director": "Tom Graeff",
+      "archive_id": "teenagers_from_outerspace",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/teenagers_from_outerspace/Teenagers_from_Outer_Space.mp4",
       "license": "Open Archive",
-      "description": "Public Access TV show \"Weirdness Really Bad Movie\" hosts public domain movies and ads clean comedy sketches enjoyable for the whole family. Today's film is the 1959 Vincent Price film, \"House On Haunted Hill\""
+      "description": "A young alien (David Love) falls for a pretty teenage Earth girl (Dawn Anderson) and they team up to try to stop the plans of his invading cohorts."
     },
     {
-      "title": "Beginning of the End",
-      "year": 1957,
-      "director": "AB-PT Pictures Corp.",
-      "archive_id": "BeginningoftheEnd_201509",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/BeginningoftheEnd_201509/BeginningoftheEnd1957.mp4",
-      "license": "Open Archive",
-      "description": "Title: Beginning of the End Summary: Audrey Ames, an enterprising journalist, tries to get the scoop on giant grasshoppers accidentally created at the Illinois State experimental farm. She endeavors to save Chicago, despite a ... Directed by: Bert I. Gordon Actors: Production Company: AB-PT Pictures Corp. Release Date: 28 June 1957 (USA) Aspect Ratio: 1.66 : 1 Audrey Ames, an enterprising journalist, tries to get the scoop on giant grasshoppers accidentally created at the Illinois State experimental farm. She endeavors to save Chicago, despite a military cover-up."
-    },
-    {
-      "title": "The Day the Earth Stood Still (1951)",
-      "year": 1951,
-      "director": "Robert Wise",
-      "archive_id": "the.-day.-the.-earth.-stood.-still.-1951",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/the.-day.-the.-earth.-stood.-still.-1951/The Day The Earth Stood Still (1951)/The.Day.The.Earth.Stood.Still.1951.mp4",
-      "license": "Open Archive",
-      "description": "\"The Day the Earth Stood Still\" is a 1951 science fiction film directed by Robert Wise. It stars Michael Rennie as Klaatu, an alien visitor, and Patricia Neal as Helen Benson. The film is notable for its social commentary on the Cold War era, addressing themes of peace, fear of the unknown, and humanity's potential for destruction.Klaatu arrives on Earth in a spaceship, accompanied by a powerful robot named Gort. His mission is to deliver a warning to humanity about its violent ways and to advocate for peaceful coexistence across the universe. However, upon his arrival, he faces hostility from the military and struggles to communicate his message. The film is recognized as a classic of the sci-fi genre and has influenced numerous works in film and literature. Its iconic phrase, \"Klaatu barada nikto,\" has become a pop culture reference. The film also sparked discussions about technology, ethics, and the importance of global unity, which remain relevant today."
-    },
-    {
-      "title": "Four Sided Triangle",
-      "year": 1950,
-      "director": "Michael Carreras and Alexander Paal",
-      "archive_id": "FourSidedTriangle_201905",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/FourSidedTriangle_201905/Four Sided Triangle.mp4",
-      "license": "Open Archive",
-      "description": "\u201cGreat premise well acted\u201d \u201cImprobable\u201d \u201cInteresting\u201d \u201cHammer\u2019s first sci-fi outing a winner\u201d (IMDB reviews quotes). \u00a0 A unique sci-fi/romantic drama in which a British scientist duplicates his girlfriend (Barbara Payton). This results in unintended consequences. (Don't you just hate when that happens?) Good cast a good production values for a low-budget film. Malcolm Arnold background score. I agree with the IMDB reviewer who said it was like a long \u201cOuter Limits\u201d TV episode. IMDB rating 5.9. Written and directed by Terence Fisher. Released in 1953. Complete print. AKA \u201cThe Monster and the Woman\u201d"
-    },
-    {
-      "title": "THINGS TO COME video quality upgrade",
-      "year": 1950,
-      "director": "Alexander Korda",
-      "archive_id": "THINGSTOCOMEVideoQualityUpgrade",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/THINGSTOCOMEVideoQualityUpgrade/THINGS TO COME video quality upgrade.mp4",
-      "license": "Open Archive",
-      "description": "This is the sharpest and cleanest print I\u2019ve seen and a significant improvement over the other IA copies. \u201cHugely imaginative\u201d \u201cVisually stunning\u201d \u201cUnique example of serious science fiction\u201d \u201cInspiring\u201d \u201cStriking futuristic vision\u201d (IMDB reviews quotes). H G Wells and William Cameron Menzies present the first great science fiction/future fiction epic of the sound-film era, with a superb cast and stunning visual effects which for impact have never been surpassed. Highly recommended. IMDB rating 6.7. Directed by William Cameron Menzies. Released in 1936. Complete print."
-    },
-    {
-      "title": "Space Master X-7",
-      "year": 1958,
-      "director": "Regal Films",
-      "archive_id": "SpacemasterX7_201602",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/SpacemasterX7_201602/'SpacemasterX-7-1958.mp4",
-      "license": "Open Archive",
-      "description": "Title: Space Master X-7 Summary: A fungus brought from space threatens to grow and spread, devouring everyone in its path. Directed by: Edward Bernds Actors: Bill Williams, Lyn Thomas, Robert Ellis Production Company: Regal Films Release Date: June 1958 (USA) Aspect Ratio: 2.35 : 1 A space probe returns to Earth covered with a strange fungus. The fungus is accidentally tinged with human blood and is transformed into an ever-growing pile of space rust, dubbed \"Blood Rust\". It is up to John Hand and Joe Rattigan to find the one woman who can stop the rust from spreading and taking over the world."
-    },
-    {
-      "title": "The Monolith Monsters",
-      "year": 1957,
-      "director": "John Sherwood",
-      "archive_id": "the-monolith-monsters",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/the-monolith-monsters/The Monolith Monsters.mp4",
-      "license": "Open Archive",
-      "description": "A strange black meteor crashes near the town of San Angelo and litters the countryside with fragments. When a storm exposes these fragments to water, they grow into skyscraper-sized monoliths which then topple and shatter into thousands of pieces that grow into monoliths themselves and repeat the process. Any humans in the way are crushed or turned into human statues. The citizens of San Angelo desperately try to save themselves and the world from the spreading doom."
-    },
-    {
-      "title": "Abbott and Costello Meet the Invisible Man",
-      "year": 1951,
-      "director": "Charles Lamont",
-      "archive_id": "abbott-and-costello-meet-the-invisible-man",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/abbott-and-costello-meet-the-invisible-man/Abbott and Costello Meet the Invisible Man.mp4",
-      "license": "Open Archive",
-      "description": "Two bumbling private eyes help a man wrongly accused of murder who has become invisible to help clear his name."
-    },
-    {
-      "title": "Shocker Internet Drive In Week 8 - Terror Triple Feature",
-      "year": 1950,
+      "title": "Black Dragons",
+      "year": 1942,
       "director": "Unknown Director",
-      "archive_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature",
-      "source_provider": "Library of Congress",
-      "video_url": "https://archive.org/download/ShockerInternetDriveInWeek8-TerrorTripleFeature/week_8.mp4",
+      "archive_id": "BlackDragons",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/BlackDragons/BlackDragons.mp4",
       "license": "Open Archive",
-      "description": "Welcome back to everyone's favorite drive-in where the hot dogs are hot, the popcorn popped, and the movies are usually bad. Regrettably, I am sad to say we do not have a cartoon this week ... but we had to make room for our first \"Terrible Terror Triple Feature\"! In answer to several requests, we are proud to present those two terrible turkeys - \"The Giant Gila Monster\" and \"The Killer Shrews\" - but as an extra bonus feature, we bring you \"Attack of The Giant Leeches\". Yes, my fellow followers of fun horrors, that is three films for the price of none! And though there is no cartoon, there are plenty of vintage drive-in advertisements and fun. So sit back, put the top down, smoke 'em if you got 'em, and enjoy the \"Terrible Terror Triple Feature\"! NEW Facebook Address:\u00a0 https://www.facebook.com/shockerdrivein.dx.am website: http://shockerdrivein.dx.am or\u00a0http://shockerdrivein.freeoda.com (Also, we see our work popping up here and there on various blogs and web sites. We have no problem with this - after all these are in public domain - but we do ask that you give our web site a little mention and credit. - Thanks The Management)"
+      "description": "It is prior to the commencement of World War II, and Japan's fiendish Black Dragon Society is hatching an evil plot with the Nazis. They instruct a brilliant scientist, Dr. Melcher, to travel to Japan on a secret mission. There he operates on six Japanese conspirators, transforming them to resemble six American leaders. The actual leaders are murdered and replaced with their likeness and Dr. Melcher is condemned to a lifetime of imprisonment so the secret may die with him."
     }
   ],
   "scenes": [
     {
-      "scene_id": "the-land-unknown_scene_1",
-      "movie_id": "the-land-unknown",
+      "scene_id": "atom_age_vampire_scene_1",
+      "movie_id": "atom_age_vampire",
       "scene_number": 1,
-      "start_timecode": "00:27:02",
-      "end_timecode": "00:27:23",
-      "start_seconds": 1622.566567,
-      "end_seconds": 1643.4874869999999,
-      "duration_seconds": 20.92092,
-      "video_filename": "the-land-unknown_scene_1_20s_1080p.mp4",
-      "keyframe_filename": "the-land-unknown_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_1_20s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_1_thumb.jpg",
-      "transcription": "Hello Navy rescue. Helicopter X-3 down. Helicopter X-3 is down. Calling Mayday. Calling Mayday. Get a fix on us please. We can hit your engines. You're very close to us. I'll keep talking as long as I can.",
-      "visual_description": "Sequence from 'The Land Unknown' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Land Unknown' (1957).",
+      "start_timecode": "00:24:58",
+      "end_timecode": "00:25:19",
+      "start_seconds": 1498.224224,
+      "end_seconds": 1519.645646,
+      "duration_seconds": 21.421422,
+      "video_filename": "atom_age_vampire_scene_1_21s_1080p.mp4",
+      "keyframe_filename": "atom_age_vampire_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_1_21s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_1_thumb.jpg",
+      "transcription": "Get back in bed now. You have suffered great physical shock with all this. You've recovered, yes, but we must wait a bit. We must be certain what the results are.",
+      "visual_description": "Sequence from 'Atom Age Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Atom Age Vampire' (1960).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "atom_age_vampire_scene_2",
+      "movie_id": "atom_age_vampire",
+      "scene_number": 2,
+      "start_timecode": "00:35:09",
+      "end_timecode": "00:35:21",
+      "start_seconds": 2109.235235,
+      "end_seconds": 2121.747748,
+      "duration_seconds": 12.512513,
+      "video_filename": "atom_age_vampire_scene_2_12s_1080p.mp4",
+      "keyframe_filename": "atom_age_vampire_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_2_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_2_thumb.jpg",
+      "transcription": "She was from Cherbourg. Monique saved there. You will find her identity card and papers in her room. She suffered from dizzy spells and gravitation. I should show you something.",
+      "visual_description": "Sequence from 'Atom Age Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Atom Age Vampire' (1960).",
       "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
@@ -136,156 +93,129 @@
       ]
     },
     {
-      "scene_id": "the-land-unknown_scene_2",
-      "movie_id": "the-land-unknown",
+      "scene_id": "atom_age_vampire_scene_3",
+      "movie_id": "atom_age_vampire",
+      "scene_number": 3,
+      "start_timecode": "00:37:27",
+      "end_timecode": "00:37:49",
+      "start_seconds": 2247.073073,
+      "end_seconds": 2269.395395,
+      "duration_seconds": 22.322322,
+      "video_filename": "atom_age_vampire_scene_3_22s_1080p.mp4",
+      "keyframe_filename": "atom_age_vampire_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_3_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_3_thumb.jpg",
+      "transcription": "consequences in these victims that's the most intelligent question well the relationship between body and soul is not yet been established a problem we can let go by I think or am I wrong well then doctor I've made out the",
+      "visual_description": "Sequence from 'Atom Age Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Atom Age Vampire' (1960).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "teenagers_from_outerspace_scene_1",
+      "movie_id": "teenagers_from_outerspace",
+      "scene_number": 1,
+      "start_timecode": "00:19:34",
+      "end_timecode": "00:20:16",
+      "start_seconds": 1174.399875,
+      "end_seconds": 1216.31675,
+      "duration_seconds": 41.916875,
+      "video_filename": "teenagers_from_outerspace_scene_1_41s_1080p.mp4",
+      "keyframe_filename": "teenagers_from_outerspace_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_1_41s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_1_thumb.jpg",
+      "transcription": "What's the matter you act like you've never seen the inside an automobile before What is this? The gear shift where have you been all your life the gear shift tell me what it is for now look mr I didn't offer you a ride to give no driving lesson tell me Sure sure I didn't mean anything Here's the clutch when I push it in I change gears low second and high and to halt the vehicle When I want to stop I press the brake right here and this the starter and ignition switch and the fuel What is it use? Are you kidding gasoline? Of course? Here's a gas pedal right here. Hmm. It's about time. I have a tank feel",
+      "visual_description": "Sequence from 'Teenagers from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers from Outer Space' (1959).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "teenagers_from_outerspace_scene_2",
+      "movie_id": "teenagers_from_outerspace",
       "scene_number": 2,
-      "start_timecode": "00:29:44",
-      "end_timecode": "00:30:08",
-      "start_seconds": 1784.828829,
-      "end_seconds": 1808.1521520000001,
-      "duration_seconds": 23.323323,
-      "video_filename": "the-land-unknown_scene_2_23s_1080p.mp4",
-      "keyframe_filename": "the-land-unknown_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_2_23s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_2_thumb.jpg",
+      "start_timecode": "00:22:27",
+      "end_timecode": "00:22:35",
+      "start_seconds": 1347.44775,
+      "end_seconds": 1355.45575,
+      "duration_seconds": 8.008,
+      "video_filename": "teenagers_from_outerspace_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "teenagers_from_outerspace_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_2_thumb.jpg",
+      "transcription": "I'll call you as soon as I get through, okay? Okay Joe. And guess a reporter's life can...",
+      "visual_description": "Sequence from 'Teenagers from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers from Outer Space' (1959).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "teenagers_from_outerspace_scene_3",
+      "movie_id": "teenagers_from_outerspace",
+      "scene_number": 3,
+      "start_timecode": "00:23:35",
+      "end_timecode": "00:23:50",
+      "start_seconds": 1415.2655,
+      "end_seconds": 1430.03025,
+      "duration_seconds": 14.76475,
+      "video_filename": "teenagers_from_outerspace_scene_3_14s_1080p.mp4",
+      "keyframe_filename": "teenagers_from_outerspace_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_3_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_3_thumb.jpg",
+      "transcription": "with a dog tag. What did you know about the address and I told him how to find it. Where? Where did you send him? It was an address on Willowcrest Drive. 1243 I think. Tell me how to get there. Just drive down there about three blocks. That's Willowcrest. 1243 it's only a few...",
+      "visual_description": "Sequence from 'Teenagers from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers from Outer Space' (1959).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BlackDragons_scene_1",
+      "movie_id": "BlackDragons",
+      "scene_number": 1,
+      "start_timecode": "00:41:08",
+      "end_timecode": "00:41:23",
+      "start_seconds": 2468.5729,
+      "end_seconds": 2483.5879,
+      "duration_seconds": 15.015,
+      "video_filename": "BlackDragons_scene_1_15s_1080p.mp4",
+      "keyframe_filename": "BlackDragons_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_1_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_1_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'The Land Unknown' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Land Unknown' (1957).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-land-unknown_scene_3",
-      "movie_id": "the-land-unknown",
-      "scene_number": 3,
-      "start_timecode": "00:30:10",
-      "end_timecode": "00:30:47",
-      "start_seconds": 1810.9549550000002,
-      "end_seconds": 1847.6916919999999,
-      "duration_seconds": 36.736737,
-      "video_filename": "the-land-unknown_scene_3_36s_1080p.mp4",
-      "keyframe_filename": "the-land-unknown_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_3_36s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_3_thumb.jpg",
-      "transcription": "What's the matter? There's...there's something back there. Awful. There.",
-      "visual_description": "Sequence from 'The Land Unknown' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Land Unknown' (1957).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-land-unknown_scene_4",
-      "movie_id": "the-land-unknown",
-      "scene_number": 4,
-      "start_timecode": "00:30:53",
-      "end_timecode": "00:32:02",
-      "start_seconds": 1853.8978980000002,
-      "end_seconds": 1922.266266,
-      "duration_seconds": 68.368368,
-      "video_filename": "the-land-unknown_scene_4_68s_1080p.mp4",
-      "keyframe_filename": "the-land-unknown_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_4_68s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_4_thumb.jpg",
-      "transcription": "We better get back to camp. It isn't safe here. What's on your mind? A dead animal is food. I don't want to be here to meet its consumers. Come on. Oh, my God.",
-      "visual_description": "Sequence from 'The Land Unknown' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Land Unknown' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-land-unknown_scene_5",
-      "movie_id": "the-land-unknown",
-      "scene_number": 5,
-      "start_timecode": "00:33:58",
-      "end_timecode": "00:34:23",
-      "start_seconds": 2038.182182,
-      "end_seconds": 2063.207207,
-      "duration_seconds": 25.025025,
-      "video_filename": "the-land-unknown_scene_5_25s_1080p.mp4",
-      "keyframe_filename": "the-land-unknown_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_5_25s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-land-unknown_scene_5_thumb.jpg",
-      "transcription": "I can't do it.",
-      "visual_description": "Sequence from 'The Land Unknown' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Land Unknown' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "HouseOnHauntedHill-WeirdnessBadMovie_scene_1",
-      "movie_id": "HouseOnHauntedHill-WeirdnessBadMovie",
-      "scene_number": 1,
-      "start_timecode": "00:14:37",
-      "end_timecode": "00:15:07",
-      "start_seconds": 877.84,
-      "end_seconds": 907.0,
-      "duration_seconds": 29.16,
-      "video_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_1_29s_1080p.mp4",
-      "keyframe_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_1_29s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_1_thumb.jpg",
-      "transcription": "Oh, oh, oh. How about our guests are here and fortunately still alive? Is your face on yet? Dustin, dirt everywhere. The water barely trickles. Couldn't you have had the place clean? Administrative darling, you know how ghosts are. They never tied you. Good night.",
-      "visual_description": "Sequence from 'House On Haunted Hill - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'House On Haunted Hill - Weirdness Bad Movie' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "HouseOnHauntedHill-WeirdnessBadMovie_scene_2",
-      "movie_id": "HouseOnHauntedHill-WeirdnessBadMovie",
-      "scene_number": 2,
-      "start_timecode": "00:15:07",
-      "end_timecode": "00:15:49",
-      "start_seconds": 907.0,
-      "end_seconds": 949.48,
-      "duration_seconds": 42.48,
-      "video_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_2_42s_1080p.mp4",
-      "keyframe_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_2_42s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_2_thumb.jpg",
-      "transcription": "That's a very fetching outfit, but hardly suitable for a party. I'm not going to the party. Let me spend the night ghost party with your idea, remember? Since it's going to cost me $50,000, I want you to have fun. The party was my idea until you invited on the guests. Why all these strangers find out of our friends? Friends? Do we have any friends? No, you're a jealousy together, best. I had a reason for inviting each guest. I wanted kind of a cross-section, from psychiatrist to typist, and from drunk to jet pilot. They share one thing, they all need money. Now let's see if they're brave enough to earn it.",
-      "visual_description": "Sequence from 'House On Haunted Hill - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'House On Haunted Hill - Weirdness Bad Movie' (1950).",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -298,75 +228,21 @@
       ]
     },
     {
-      "scene_id": "HouseOnHauntedHill-WeirdnessBadMovie_scene_3",
-      "movie_id": "HouseOnHauntedHill-WeirdnessBadMovie",
-      "scene_number": 3,
-      "start_timecode": "00:16:57",
-      "end_timecode": "00:17:40",
-      "start_seconds": 1017.04,
-      "end_seconds": 1060.96,
-      "duration_seconds": 43.92,
-      "video_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_3_43s_1080p.mp4",
-      "keyframe_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_3_43s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_3_thumb.jpg",
-      "transcription": "Shh, would you go away for a million dollars and tax-free? You want it all, don't you? I deserve it all. If jealousy isn't tax-free, then you're possessing Mrs. Madning. If ever a man had grounds for divorce. But can't prove them. The time will come. You'll slip up one of these days. Think so? If I live long enough. You remember the fun we had when you poisoned me? Something you ate the doctor said? Yes. I'll sneak on the rocks. And a bell. You'd do it again if you thought you could get away with it, wouldn't you?",
-      "visual_description": "Sequence from 'House On Haunted Hill - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'House On Haunted Hill - Weirdness Bad Movie' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "HouseOnHauntedHill-WeirdnessBadMovie_scene_4",
-      "movie_id": "HouseOnHauntedHill-WeirdnessBadMovie",
-      "scene_number": 4,
-      "start_timecode": "00:18:21",
-      "end_timecode": "00:19:12",
-      "start_seconds": 1101.28,
-      "end_seconds": 1152.28,
-      "duration_seconds": 51.0,
-      "video_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_4_51s_1080p.mp4",
-      "keyframe_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_4_51s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_4_thumb.jpg",
-      "transcription": "This is what she used on my brother and her sister. Hacked him to pieces. We found parts of the bodies all over the house. And places you wouldn't think. Funny things. The heads have never been found. Hands and feet and things like that. But no heads. The white, probably in a rage, threatened the husband with an eye. And then carried away by hysteria. Took a swing at him and simply went on from there. She certainly went on. How many people did she kill, Mr. Bridget? Only two. Her husband and her sister. No one else was here. So there are two loose heads just floating around in here somewhere? You can hear them at night. They whisper to each other. And then cry. Since our host isn't here, would anyone care that makes me a drink? Certainly. What will you have?",
-      "visual_description": "Sequence from 'House On Haunted Hill - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'House On Haunted Hill - Weirdness Bad Movie' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "HouseOnHauntedHill-WeirdnessBadMovie_scene_5",
-      "movie_id": "HouseOnHauntedHill-WeirdnessBadMovie",
-      "scene_number": 5,
-      "start_timecode": "00:23:31",
-      "end_timecode": "00:24:00",
-      "start_seconds": 1411.24,
-      "end_seconds": 1440.04,
-      "duration_seconds": 28.8,
-      "video_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_5_28s_1080p.mp4",
-      "keyframe_filename": "HouseOnHauntedHill-WeirdnessBadMovie_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_5_28s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HouseOnHauntedHill-WeirdnessBadMovie_scene_5_thumb.jpg",
-      "transcription": "Hello, I'm John Deist, Director of the X-Lax funeral home. You know what's never too soon to start thinking about the inevitable in your passing. And when you go, you should rest easy knowing that I'll be the last person to let you down. The X-Lax funeral home. The easy way to go.",
-      "visual_description": "Sequence from 'House On Haunted Hill - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'House On Haunted Hill - Weirdness Bad Movie' (1950).",
+      "scene_id": "BlackDragons_scene_2",
+      "movie_id": "BlackDragons",
+      "scene_number": 2,
+      "start_timecode": "00:41:32",
+      "end_timecode": "00:41:57",
+      "start_seconds": 2492.697,
+      "end_seconds": 2517.7219999999998,
+      "duration_seconds": 25.025,
+      "video_filename": "BlackDragons_scene_2_25s_1080p.mp4",
+      "keyframe_filename": "BlackDragons_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_2_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_2_thumb.jpg",
+      "transcription": "One time, there was two more, and it was right here I found the body of Mr. Coney, and just about this time. So I'll tell you this time, it's murder.",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
       "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
@@ -379,1075 +255,22 @@
       ]
     },
     {
-      "scene_id": "BeginningoftheEnd_201509_scene_1",
-      "movie_id": "BeginningoftheEnd_201509",
-      "scene_number": 1,
-      "start_timecode": "00:11:18",
-      "end_timecode": "00:11:54",
-      "start_seconds": 678.2001,
-      "end_seconds": 714.4363,
-      "duration_seconds": 36.2362,
-      "video_filename": "BeginningoftheEnd_201509_scene_1_36s_1080p.mp4",
-      "keyframe_filename": "BeginningoftheEnd_201509_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_1_36s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_1_thumb.jpg",
-      "transcription": "Oh, uh, Colonel Sturkey. Miss Ames, the National Wire Service. How do you do? Audrey Ames? I've read a lot of your stuff, seen a lot of your photographs. Yes? Set to go, sir, whenever you're ready. I'll be right there. I hope you understand our problem, our need to keep this quiet. Yes, Captain's brief, me. If anyone wants me, I can be reached in Ludlow by radio. Yes, sir. Us chances are me going along. Not this trip, maybe later. In any case, not until we know what's out there. Oh, by the way, Colonel, my camera was taken from me at the roadblock by one of your men. I'll give orders.",
-      "visual_description": "Sequence from 'Beginning of the End' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Beginning of the End' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "BeginningoftheEnd_201509_scene_2",
-      "movie_id": "BeginningoftheEnd_201509",
-      "scene_number": 2,
-      "start_timecode": "00:12:00",
-      "end_timecode": "00:12:50",
-      "start_seconds": 720.142,
-      "end_seconds": 770.3922,
-      "duration_seconds": 50.2502,
-      "video_filename": "BeginningoftheEnd_201509_scene_2_50s_1080p.mp4",
-      "keyframe_filename": "BeginningoftheEnd_201509_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_2_50s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_2_thumb.jpg",
-      "transcription": "Oh, there has to be a logical explanation for this. The town of 150 people just doesn't disappear. This one did. Chicago Mobile Service Operator. I'd like to place a person-to-person call, please, to Mr. Norman Taggart, Editor-in-Chief of National Wire Service. The number is Murray Hill 44836. In what city, please? New York. Oh, you wind up that jet plane story already?",
-      "visual_description": "Sequence from 'Beginning of the End' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Beginning of the End' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "BeginningoftheEnd_201509_scene_3",
-      "movie_id": "BeginningoftheEnd_201509",
+      "scene_id": "BlackDragons_scene_3",
+      "movie_id": "BlackDragons",
       "scene_number": 3,
-      "start_timecode": "00:13:21",
-      "end_timecode": "00:14:02",
-      "start_seconds": 801.5233000000001,
-      "end_seconds": 842.5643,
-      "duration_seconds": 41.041,
-      "video_filename": "BeginningoftheEnd_201509_scene_3_41s_1080p.mp4",
-      "keyframe_filename": "BeginningoftheEnd_201509_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_3_41s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_3_thumb.jpg",
-      "transcription": "Call me back as soon as you have anything, right? Goodbye. Sorry, Miss. You can't. Oh, it's you again. I know I can. I'd like to have my camera back, please. Colonel Sturgeon said he was going to speak to somebody. Hey, Corporal. Matthias. She wants her camera back. Hello, Norm. What's the score?",
-      "visual_description": "Sequence from 'Beginning of the End' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Beginning of the End' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "BeginningoftheEnd_201509_scene_4",
-      "movie_id": "BeginningoftheEnd_201509",
-      "scene_number": 4,
-      "start_timecode": "00:14:28",
-      "end_timecode": "00:15:10",
-      "start_seconds": 868.7905000000001,
-      "end_seconds": 910.0317,
-      "duration_seconds": 41.2412,
-      "video_filename": "BeginningoftheEnd_201509_scene_4_41s_1080p.mp4",
-      "keyframe_filename": "BeginningoftheEnd_201509_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_4_41s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_4_thumb.jpg",
-      "transcription": "U.S. Department of Agriculture, Illinois Experimental Station. Okay, I've got that. I'll keep in touch. U.S. Department of Agriculture, Illinois Experimental Station.",
-      "visual_description": "Sequence from 'Beginning of the End' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Beginning of the End' (1957).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "BeginningoftheEnd_201509_scene_5",
-      "movie_id": "BeginningoftheEnd_201509",
-      "scene_number": 5,
-      "start_timecode": "00:17:30",
-      "end_timecode": "00:17:54",
-      "start_seconds": 1050.2718,
-      "end_seconds": 1074.7963,
-      "duration_seconds": 24.5245,
-      "video_filename": "BeginningoftheEnd_201509_scene_5_24s_1080p.mp4",
-      "keyframe_filename": "BeginningoftheEnd_201509_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_5_24s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BeginningoftheEnd_201509_scene_5_thumb.jpg",
-      "transcription": "Can you eat them? No, not yet. But we hope to develop one day a hybrid that can be eaten. How is it there hasn't been any publicity on this? Oh, there have been a few stories in the farm journals, but most of the public, these giants are just freaks of nature. No practical value. Well, how do they get so big? Well, radiation causes photosynthesis, that is the growing process to continue night and day.",
-      "visual_description": "Sequence from 'Beginning of the End' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Beginning of the End' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the.-day.-the.-earth.-stood.-still.-1951_scene_1",
-      "movie_id": "the.-day.-the.-earth.-stood.-still.-1951",
-      "scene_number": 1,
-      "start_timecode": "00:07:19",
-      "end_timecode": "00:07:47",
-      "start_seconds": 439.024,
-      "end_seconds": 467.052,
-      "duration_seconds": 28.028,
-      "video_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_1_28s_1080p.mp4",
-      "keyframe_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_1_28s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_1_thumb.jpg",
-      "transcription": "The ship is now resting exactly where it landed two hours ago, and so far, there is no sign of life from inside it. Troops have been rushed across the Potomac River from Fort Meyer and have thrown a cordon around the ship. They are supported by tanks, artillery, and machine guns. Behind the police lines, there's a huge crowd of curiosity seekers. The Army has taken every precaution to meet any emergency which may develop. Every eye...",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still (1951)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still (1951)' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the.-day.-the.-earth.-stood.-still.-1951_scene_2",
-      "movie_id": "the.-day.-the.-earth.-stood.-still.-1951",
-      "scene_number": 2,
-      "start_timecode": "00:19:02",
-      "end_timecode": "00:19:27",
-      "start_seconds": 1142.6018749999998,
-      "end_seconds": 1167.2514999999999,
-      "duration_seconds": 24.649625,
-      "video_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_2_24s_1080p.mp4",
-      "keyframe_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_2_24s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_2_thumb.jpg",
-      "transcription": "Good afternoon. I'm glad to see you up and around. Thank you. Have you any news? Not very good news, I'm afraid. The president accepted your suggestion and cabled the invitations for a meeting. Let me read you some of the replies.",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still (1951)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still (1951)' (1951).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the.-day.-the.-earth.-stood.-still.-1951_scene_3",
-      "movie_id": "the.-day.-the.-earth.-stood.-still.-1951",
-      "scene_number": 3,
-      "start_timecode": "00:19:46",
-      "end_timecode": "00:20:33",
-      "start_seconds": 1186.02025,
-      "end_seconds": 1233.06725,
-      "duration_seconds": 47.047,
-      "video_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_3_47s_1080p.mp4",
-      "keyframe_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_3_47s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_3_thumb.jpg",
-      "transcription": "is matter to the government of the present time. Representation could be sent only if the meeting were held in Washington. Well, there you have it. Now that you understand the situation more clearly, perhaps you'd like to discuss it with the president. I will not speak with any one nation, a group of nations. I don't intend to add my contribution to your childish jealouses and suspicions. Our problems are very complex, but you mustn't judge us too harshly. I can judge only by what I see. Your impatience is quite understandable. I'm impatient with stupidity. My people have learned to live without it. I'm afraid my people haven't. I am very sorry. I wish it were otherwise.",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still (1951)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still (1951)' (1951).",
+      "start_timecode": "00:44:25",
+      "end_timecode": "00:44:54",
+      "start_seconds": 2665.6698,
+      "end_seconds": 2694.9991,
+      "duration_seconds": 29.3293,
+      "video_filename": "BlackDragons_scene_3_29s_1080p.mp4",
+      "keyframe_filename": "BlackDragons_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_3_29s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_3_thumb.jpg",
+      "transcription": "Alice, will you marry me? What for? So I can beat you up, if the only way I can get you out of here. Say, is the butler shown up yet? No, he's probably frightened and quit his job. Alice, you were right. There was a body in the cellar last night.",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
       "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the.-day.-the.-earth.-stood.-still.-1951_scene_4",
-      "movie_id": "the.-day.-the.-earth.-stood.-still.-1951",
-      "scene_number": 4,
-      "start_timecode": "00:20:46",
-      "end_timecode": "00:21:06",
-      "start_seconds": 1246.8310000000001,
-      "end_seconds": 1266.851,
-      "duration_seconds": 20.02,
-      "video_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_4_20s_1080p.mp4",
-      "keyframe_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_4_20s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_4_thumb.jpg",
-      "transcription": "Before making any decisions, I think I should get out among your people. I've become familiar with the basis for these strange, unreasoning attitudes. Under the circumstance, I'm afraid that's impossible. Oh, I must ask that you don't attempt to leave the hospital. Military people have insisted on this.",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still (1951)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still (1951)' (1951).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the.-day.-the.-earth.-stood.-still.-1951_scene_5",
-      "movie_id": "the.-day.-the.-earth.-stood.-still.-1951",
-      "scene_number": 5,
-      "start_timecode": "00:21:26",
-      "end_timecode": "00:21:54",
-      "start_seconds": 1286.9961250000001,
-      "end_seconds": 1314.9824166666667,
-      "duration_seconds": 27.986292,
-      "video_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_5_27s_1080p.mp4",
-      "keyframe_filename": "the.-day.-the.-earth.-stood.-still.-1951_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_5_27s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the.-day.-the.-earth.-stood.-still.-1951_scene_5_thumb.jpg",
-      "transcription": "You got a real man in the space? You got a way? What? You got a real man in the space?",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still (1951)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still (1951)' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "FourSidedTriangle_201905_scene_1",
-      "movie_id": "FourSidedTriangle_201905",
-      "scene_number": 1,
-      "start_timecode": "00:13:56",
-      "end_timecode": "00:14:47",
-      "start_seconds": 836.0,
-      "end_seconds": 887.4514,
-      "duration_seconds": 51.4514,
-      "video_filename": "FourSidedTriangle_201905_scene_1_51s_1080p.mp4",
-      "keyframe_filename": "FourSidedTriangle_201905_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_1_51s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_1_thumb.jpg",
-      "transcription": "It's been wasted, and now another few months, or a few weeks, we'll see the job finished. A few weeks, a few months, a few years, and 2,000 pounds. Oh, Rob, I'm not unreasonable. You know that. But the answer is definitely no, not another penny. I wanted you to take over the plastic business, but you refused. I staked 1,000 pounds, and I'm not going to throw good money off the bed. No, no, no, no, I'm surprised at you, Harvey. Encouraging them in this wild goose chase, instead of making them see reason. That reason means something different to me. I think there's method in their madness. Good night, Walter. Good night, Father.",
-      "visual_description": "Sequence from 'Four Sided Triangle' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Four Sided Triangle' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "FourSidedTriangle_201905_scene_2",
-      "movie_id": "FourSidedTriangle_201905",
-      "scene_number": 2,
-      "start_timecode": "00:17:24",
-      "end_timecode": "00:17:58",
-      "start_seconds": 1044.3081,
-      "end_seconds": 1078.4422,
-      "duration_seconds": 34.1341,
-      "video_filename": "FourSidedTriangle_201905_scene_2_34s_1080p.mp4",
-      "keyframe_filename": "FourSidedTriangle_201905_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_2_34s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_2_thumb.jpg",
-      "transcription": "I think they've got it, and they want to show us. Come on, Doc. This might be it. Is this it? How do you really got it? It will go second. Well, we're almost ready to work. You mean almost. I'm the course as one, remember? Don't you think you ought to tell me what it's all about? You think our principal back are up to now? You know you're just dying, you tell him. All right.",
-      "visual_description": "Sequence from 'Four Sided Triangle' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Four Sided Triangle' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "FourSidedTriangle_201905_scene_3",
-      "movie_id": "FourSidedTriangle_201905",
-      "scene_number": 3,
-      "start_timecode": "00:19:52",
-      "end_timecode": "00:20:13",
-      "start_seconds": 1192.6563,
-      "end_seconds": 1213.1768,
-      "duration_seconds": 20.5205,
-      "video_filename": "FourSidedTriangle_201905_scene_3_20s_1080p.mp4",
-      "keyframe_filename": "FourSidedTriangle_201905_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_3_20s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_3_thumb.jpg",
-      "transcription": "Do you know what you have to do? Whatever you do, watch that meter. Ready. Alpha 17. Alpha 17. Five.",
-      "visual_description": "Sequence from 'Four Sided Triangle' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Four Sided Triangle' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "FourSidedTriangle_201905_scene_4",
-      "movie_id": "FourSidedTriangle_201905",
-      "scene_number": 4,
-      "start_timecode": "00:21:28",
-      "end_timecode": "00:21:59",
-      "start_seconds": 1288.452,
-      "end_seconds": 1319.5831,
-      "duration_seconds": 31.1311,
-      "video_filename": "FourSidedTriangle_201905_scene_4_31s_1080p.mp4",
-      "keyframe_filename": "FourSidedTriangle_201905_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_4_31s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_4_thumb.jpg",
-      "transcription": "Oh, Robin, isn't it wonderful? Well, it works, it works! You know that? But this is incredible. It's an exact replica. Even to this bent link.",
-      "visual_description": "Sequence from 'Four Sided Triangle' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Four Sided Triangle' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "FourSidedTriangle_201905_scene_5",
-      "movie_id": "FourSidedTriangle_201905",
-      "scene_number": 5,
-      "start_timecode": "00:24:27",
-      "end_timecode": "00:25:03",
-      "start_seconds": 1467.5309,
-      "end_seconds": 1503.4668000000001,
-      "duration_seconds": 35.9359,
-      "video_filename": "FourSidedTriangle_201905_scene_5_35s_1080p.mp4",
-      "keyframe_filename": "FourSidedTriangle_201905_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_5_35s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FourSidedTriangle_201905_scene_5_thumb.jpg",
-      "transcription": "We're in. Alpha 21. Alpha 21. Five. Five. Beta four. Beta four X. Beta four. Beta four X. John? John? Door twelve. Number twelve. Griddit!",
-      "visual_description": "Sequence from 'Four Sided Triangle' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Four Sided Triangle' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THINGSTOCOMEVideoQualityUpgrade_scene_1",
-      "movie_id": "THINGSTOCOMEVideoQualityUpgrade",
-      "scene_number": 1,
-      "start_timecode": "00:21:37",
-      "end_timecode": "00:22:08",
-      "start_seconds": 1297.9,
-      "end_seconds": 1328.5,
-      "duration_seconds": 30.6,
-      "video_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_1_30s_1080p.mp4",
-      "keyframe_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_1_30s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_1_thumb.jpg",
-      "transcription": "I dropped the guess on her. Maybe I killed her father in a minute. Maybe I've killed her whole family. And then I go and give up my mouse to save her. That's funny. That's funny. That's the joke.",
-      "visual_description": "Sequence from 'THINGS TO COME video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THINGS TO COME video quality upgrade' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THINGSTOCOMEVideoQualityUpgrade_scene_2",
-      "movie_id": "THINGSTOCOMEVideoQualityUpgrade",
-      "scene_number": 2,
-      "start_timecode": "00:24:01",
-      "end_timecode": "00:24:58",
-      "start_seconds": 1441.6,
-      "end_seconds": 1498.8,
-      "duration_seconds": 57.2,
-      "video_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_2_57s_1080p.mp4",
-      "keyframe_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_2_57s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_2_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'THINGS TO COME video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THINGS TO COME video quality upgrade' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THINGSTOCOMEVideoQualityUpgrade_scene_3",
-      "movie_id": "THINGSTOCOMEVideoQualityUpgrade",
-      "scene_number": 3,
-      "start_timecode": "00:28:24",
-      "end_timecode": "00:29:00",
-      "start_seconds": 1704.6,
-      "end_seconds": 1740.4,
-      "duration_seconds": 35.8,
-      "video_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_3_35s_1080p.mp4",
-      "keyframe_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_3_35s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_3_thumb.jpg",
-      "transcription": "That's the way to do it. Shoot him.",
-      "visual_description": "Sequence from 'THINGS TO COME video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THINGS TO COME video quality upgrade' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THINGSTOCOMEVideoQualityUpgrade_scene_4",
-      "movie_id": "THINGSTOCOMEVideoQualityUpgrade",
-      "scene_number": 4,
-      "start_timecode": "00:29:42",
-      "end_timecode": "00:30:04",
-      "start_seconds": 1782.2,
-      "end_seconds": 1804.9,
-      "duration_seconds": 22.7,
-      "video_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_4_22s_1080p.mp4",
-      "keyframe_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_4_22s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_4_thumb.jpg",
-      "transcription": "I have any more insulated wire, but no rubber wire is frozen. Any rubber tape? There's not a scrap left in the place. We use the last on the other motor. Oh, what's the use? No petrol anyway. Nobody in the three gallons of petrol left in this accussive ruin of a town. What's the good of setting me at a job like this? Nothing I'll ever fly again. Flying's over. Everything's over. Civilisation's dead.",
-      "visual_description": "Sequence from 'THINGS TO COME video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THINGS TO COME video quality upgrade' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THINGSTOCOMEVideoQualityUpgrade_scene_5",
-      "movie_id": "THINGSTOCOMEVideoQualityUpgrade",
-      "scene_number": 5,
-      "start_timecode": "00:32:03",
-      "end_timecode": "00:32:44",
-      "start_seconds": 1923.0,
-      "end_seconds": 1964.1,
-      "duration_seconds": 41.1,
-      "video_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_5_41s_1080p.mp4",
-      "keyframe_filename": "THINGSTOCOMEVideoQualityUpgrade_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_5_41s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THINGSTOCOMEVideoQualityUpgrade_scene_5_thumb.jpg",
-      "transcription": "Nothing but a hope routine. I must have the day to be made somehow. I do what I can, but you can't fly without petrol. I get petrol for you, trust me. You look after the machines. I know you haven't got the stuff, but you can get brown. Then, for example, transfer parts. You must bits of wonder, men and other. Be resourceful. Give me only ten machines in working order. Give me only five. I don't want them all. And we'll end this war of ours forever. And I'll see you get your reward. It's your wife, Gordon. You keep her well hidden. Sanitation lady. Use your influence with our master mechanic. The competent state wants his service. I'm sure my husband does his debt for you. That's hardly enough lady. The competent state demands medicals.",
-      "visual_description": "Sequence from 'THINGS TO COME video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THINGS TO COME video quality upgrade' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "SpacemasterX7_201602_scene_1",
-      "movie_id": "SpacemasterX7_201602",
-      "scene_number": 1,
-      "start_timecode": "00:18:39",
-      "end_timecode": "00:19:34",
-      "start_seconds": 1119.0,
-      "end_seconds": 1174.055,
-      "duration_seconds": 55.055,
-      "video_filename": "SpacemasterX7_201602_scene_1_55s_1080p.mp4",
-      "keyframe_filename": "SpacemasterX7_201602_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_1_55s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_1_thumb.jpg",
-      "transcription": "The",
-      "visual_description": "Sequence from 'Space Master X-7' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Space Master X-7' (1958).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "SpacemasterX7_201602_scene_2",
-      "movie_id": "SpacemasterX7_201602",
-      "scene_number": 2,
-      "start_timecode": "00:22:06",
-      "end_timecode": "00:23:06",
-      "start_seconds": 1326.2069999999999,
-      "end_seconds": 1386.0668,
-      "duration_seconds": 59.8598,
-      "video_filename": "SpacemasterX7_201602_scene_2_59s_1080p.mp4",
-      "keyframe_filename": "SpacemasterX7_201602_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_2_59s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_2_thumb.jpg",
-      "transcription": "She was there the afternoon of the 12th we broke into his house that night she might have been there for several hours I have an idea she was there a lot longer than that sir the night I drove dr. Palmer home with the 11th as we drove up I asked the doctor if I could see his lab he said sure come on in and he noticed something in the house and he changed his mind gave me a quick brush off just like that obviously he knew it well Palmer never had anything to do with women no time for it this once he found time Colonel may I suggest you release the story to the press the Palmer's death was accidental I agree with you that panic is the real danger but we must make every effort to find that woman it was a discouraging search John Hand had only two bits of information to go the woman's voice told him she was young and the remote location of dr. Palmer's house made it probable that she had gone to it by taxi cab",
-      "visual_description": "Sequence from 'Space Master X-7' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Space Master X-7' (1958).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "SpacemasterX7_201602_scene_3",
-      "movie_id": "SpacemasterX7_201602",
-      "scene_number": 3,
-      "start_timecode": "00:30:11",
-      "end_timecode": "00:31:19",
-      "start_seconds": 1811.692,
-      "end_seconds": 1879.76,
-      "duration_seconds": 68.068,
-      "video_filename": "SpacemasterX7_201602_scene_3_68s_1080p.mp4",
-      "keyframe_filename": "SpacemasterX7_201602_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_3_68s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_3_thumb.jpg",
-      "transcription": "The Los Angeles Police Department helicopter brought hand and radigan to an isolated side tracking in the Los Angeles freight yards, just 70 minutes after Laura Grayling's train pulled in. Mr. Hand, I'm Deputy Chief Ryder, the man you were talking to from the jet. How do you do? Any luck finding the woman? Nobody answering her description showed up at the baggage counter, we've gotten all points pulled up and out on her. Everything all set. All ready for you? Fine.",
-      "visual_description": "Sequence from 'Space Master X-7' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Space Master X-7' (1958).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "SpacemasterX7_201602_scene_4",
-      "movie_id": "SpacemasterX7_201602",
-      "scene_number": 4,
-      "start_timecode": "00:32:13",
-      "end_timecode": "00:32:36",
-      "start_seconds": 1933.3135,
-      "end_seconds": 1956.5367,
-      "duration_seconds": 23.2232,
-      "video_filename": "SpacemasterX7_201602_scene_4_23s_1080p.mp4",
-      "keyframe_filename": "SpacemasterX7_201602_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_4_23s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_4_thumb.jpg",
-      "transcription": "Good luck, Joe! The cab driver, Reppent, had described the woman's suitcase in detail. It was a distinctive lightweight material, further identified by Japanese steamship stickers. And was competent the suitcase would provide information of value to him.",
-      "visual_description": "Sequence from 'Space Master X-7' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Space Master X-7' (1958).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "SpacemasterX7_201602_scene_5",
-      "movie_id": "SpacemasterX7_201602",
-      "scene_number": 5,
-      "start_timecode": "00:32:36",
-      "end_timecode": "00:33:12",
-      "start_seconds": 1956.5367,
-      "end_seconds": 1992.5727000000002,
-      "duration_seconds": 36.036,
-      "video_filename": "SpacemasterX7_201602_scene_5_36s_1080p.mp4",
-      "keyframe_filename": "SpacemasterX7_201602_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_5_36s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SpacemasterX7_201602_scene_5_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Space Master X-7' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Space Master X-7' (1958).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-monolith-monsters_scene_1",
-      "movie_id": "the-monolith-monsters",
-      "scene_number": 1,
-      "start_timecode": "00:30:53",
-      "end_timecode": "00:32:12",
-      "start_seconds": 1853.551552,
-      "end_seconds": 1932.2302300000001,
-      "duration_seconds": 78.678678,
-      "video_filename": "the-monolith-monsters_scene_1_78s_1080p.mp4",
-      "keyframe_filename": "the-monolith-monsters_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_1_78s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_1_thumb.jpg",
-      "transcription": "What is it, hon? Dr. Hendrix says another eight hours. Maybe. And maybe not? Maybe not. She's different from the other's day. Transpecial. You want to stay with her? Let me know the minute this is going on. Let me know the minute there's a change. Any kind of a change. I'll call you if we come up with anything. You be careful, Dave. It's you kind of special, too. Hi, Dave. Hi. How's the trip? All right. Chief Professor Flanders, Chief of Police Cori. Excuse me, please. How's the Simpson kid? She's alive. That's about all. Anything new here? Yeah. We can rule out the explosion idea. There wasn't any. Gas tanks in one piece smashed but intact. And none of the wiring was shorted out. So that leaves us right where we started.",
-      "visual_description": "Sequence from 'The Monolith Monsters' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Monolith Monsters' (1957).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-monolith-monsters_scene_2",
-      "movie_id": "the-monolith-monsters",
-      "scene_number": 2,
-      "start_timecode": "00:33:14",
-      "end_timecode": "00:33:49",
-      "start_seconds": 1994.0920919999999,
-      "end_seconds": 2029.927928,
-      "duration_seconds": 35.835836,
-      "video_filename": "the-monolith-monsters_scene_2_35s_1080p.mp4",
-      "keyframe_filename": "the-monolith-monsters_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_2_35s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_2_thumb.jpg",
-      "transcription": "This. It looks... lifeless. Yes. Yes, it does. It's got the same look to it as the wreckage. It should. Both of them are caused by a multiplication of salacious rock. Granted, but something just out of the earth looking so much like wrecked furniture? What could they have in common? They lack something in common, Silica. They lack Silica?",
-      "visual_description": "Sequence from 'The Monolith Monsters' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Monolith Monsters' (1957).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-monolith-monsters_scene_3",
-      "movie_id": "the-monolith-monsters",
-      "scene_number": 3,
-      "start_timecode": "00:37:07",
-      "end_timecode": "00:37:28",
-      "start_seconds": 2227.425425,
-      "end_seconds": 2248.046046,
-      "duration_seconds": 20.620621,
-      "video_filename": "the-monolith-monsters_scene_3_20s_1080p.mp4",
-      "keyframe_filename": "the-monolith-monsters_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_3_20s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_3_thumb.jpg",
-      "transcription": "There's only one thing I want to know from that. What makes it multiply? What starts it? You've got to remember, David, when this hit our atmosphere, it burned at such a fantastic temperature that its metal-bearing compounds could have been altered, left ready to activate, to grow. No telling what went on inside of it.",
-      "visual_description": "Sequence from 'The Monolith Monsters' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Monolith Monsters' (1957).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-monolith-monsters_scene_4",
-      "movie_id": "the-monolith-monsters",
-      "scene_number": 4,
-      "start_timecode": "00:38:29",
-      "end_timecode": "00:38:53",
-      "start_seconds": 2309.007007,
-      "end_seconds": 2333.531532,
-      "duration_seconds": 24.524525,
-      "video_filename": "the-monolith-monsters_scene_4_24s_1080p.mp4",
-      "keyframe_filename": "the-monolith-monsters_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_4_24s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_4_thumb.jpg",
-      "transcription": "That means only one thing. We've got to try synthetically. To replenish that element in Juni's body and arrest the solidifying action. I know you're doing the best you can, Doctor.",
-      "visual_description": "Sequence from 'The Monolith Monsters' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Monolith Monsters' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-monolith-monsters_scene_5",
-      "movie_id": "the-monolith-monsters",
-      "scene_number": 5,
-      "start_timecode": "00:40:50",
-      "end_timecode": "00:41:33",
-      "start_seconds": 2450.048048,
-      "end_seconds": 2493.891892,
-      "duration_seconds": 43.843844,
-      "video_filename": "the-monolith-monsters_scene_5_43s_1080p.mp4",
-      "keyframe_filename": "the-monolith-monsters_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_5_43s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-monolith-monsters_scene_5_thumb.jpg",
-      "transcription": "I'm sorry, Dave. I guess this is beginning to get on my nerves a little. It's probably just my strong coffee professor. I'll make some fresh. You know, this coffee hyper was responsible for my prolonged bachelor status. Oh? Mm-hmm. Kathy, you tried a cup of it once. You said anybody can drink mud like this all day long. It just got to be too grouchy to live with. Give me a cup. I'll rinse out the mud. Thanks, Dave.",
-      "visual_description": "Sequence from 'The Monolith Monsters' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Monolith Monsters' (1957).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "abbott-and-costello-meet-the-invisible-man_scene_1",
-      "movie_id": "abbott-and-costello-meet-the-invisible-man",
-      "scene_number": 1,
-      "start_timecode": "00:33:59",
-      "end_timecode": "00:34:38",
-      "start_seconds": 2039.275275,
-      "end_seconds": 2078.314314,
-      "duration_seconds": 39.039039,
-      "video_filename": "abbott-and-costello-meet-the-invisible-man_scene_1_39s_1080p.mp4",
-      "keyframe_filename": "abbott-and-costello-meet-the-invisible-man_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_1_39s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_1_thumb.jpg",
-      "transcription": "A hand in my loy walls wouldn't draw a fly. Attention sports fans, my first exclusive. The rocky head of them, Louis the Looper fight, is set. And I say, watch this boy, Louis the Looper. His looks are deceiving, but there's no denying his punching ability. I was the first to recognize Joe Lewis. And in studying Louis the Looper's deceptive style, half Tony Galento, half Benny Leonard, I say, watch this boy. I'll call. What do you got, Louis? Perject. And you, bud? Queens up. No good. Three ten, Joe Lewis.",
-      "visual_description": "Sequence from 'Abbott and Costello Meet the Invisible Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Abbott and Costello Meet the Invisible Man' (1951).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "abbott-and-costello-meet-the-invisible-man_scene_2",
-      "movie_id": "abbott-and-costello-meet-the-invisible-man",
-      "scene_number": 2,
-      "start_timecode": "00:35:30",
-      "end_timecode": "00:35:53",
-      "start_seconds": 2130.066066,
-      "end_seconds": 2153.88989,
-      "duration_seconds": 23.823824,
-      "video_filename": "abbott-and-costello-meet-the-invisible-man_scene_2_23s_1080p.mp4",
-      "keyframe_filename": "abbott-and-costello-meet-the-invisible-man_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_2_23s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_2_thumb.jpg",
-      "transcription": "Tommy, do I have to go into the ring with Rocky Hammer? What are you worrying about? I'll be in there with you every minute. I have to take a crack at Rocky. And I'll be in there just dying. I open. I'll stay. Cards? One.",
-      "visual_description": "Sequence from 'Abbott and Costello Meet the Invisible Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Abbott and Costello Meet the Invisible Man' (1951).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "abbott-and-costello-meet-the-invisible-man_scene_3",
-      "movie_id": "abbott-and-costello-meet-the-invisible-man",
-      "scene_number": 3,
-      "start_timecode": "00:39:20",
-      "end_timecode": "00:39:56",
-      "start_seconds": 2360.4964959999998,
-      "end_seconds": 2396.032032,
-      "duration_seconds": 35.535536,
-      "video_filename": "abbott-and-costello-meet-the-invisible-man_scene_3_35s_1080p.mp4",
-      "keyframe_filename": "abbott-and-costello-meet-the-invisible-man_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_3_35s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_3_thumb.jpg",
-      "transcription": "Just a minute, detective, Roberts. Come on. Oh. Oh, shit. Now, you stand there. He won't be able to see you. On your knees. On your knees. Oh, boy. What can we do for you? Nothing. Nothing at all. I just wanted to check up on what you've seen today. Are you still seeing men disappearing to thin air or is today flying saucer day? This guy needs a psychiatrist.",
-      "visual_description": "Sequence from 'Abbott and Costello Meet the Invisible Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Abbott and Costello Meet the Invisible Man' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "abbott-and-costello-meet-the-invisible-man_scene_4",
-      "movie_id": "abbott-and-costello-meet-the-invisible-man",
-      "scene_number": 4,
-      "start_timecode": "00:40:31",
-      "end_timecode": "00:41:04",
-      "start_seconds": 2431.367367,
-      "end_seconds": 2464.2002,
-      "duration_seconds": 32.832833,
-      "video_filename": "abbott-and-costello-meet-the-invisible-man_scene_4_32s_1080p.mp4",
-      "keyframe_filename": "abbott-and-costello-meet-the-invisible-man_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_4_32s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_4_thumb.jpg",
-      "transcription": "Tommy! The glass belongs here. Bye.",
-      "visual_description": "Sequence from 'Abbott and Costello Meet the Invisible Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Abbott and Costello Meet the Invisible Man' (1951).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "abbott-and-costello-meet-the-invisible-man_scene_5",
-      "movie_id": "abbott-and-costello-meet-the-invisible-man",
-      "scene_number": 5,
-      "start_timecode": "00:43:56",
-      "end_timecode": "00:44:23",
-      "start_seconds": 2636.372372,
-      "end_seconds": 2663.9657333333334,
-      "duration_seconds": 27.593361,
-      "video_filename": "abbott-and-costello-meet-the-invisible-man_scene_5_27s_1080p.mp4",
-      "keyframe_filename": "abbott-and-costello-meet-the-invisible-man_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_5_27s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/abbott-and-costello-meet-the-invisible-man_scene_5_thumb.jpg",
-      "transcription": "I'll be home or eat me. Boots. Boots. Boots. Ah, shut up, you son like dung it in. Morgan's made his first move. Tonight he'll make his second. Or I should say she will.",
-      "visual_description": "Sequence from 'Abbott and Costello Meet the Invisible Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Abbott and Costello Meet the Invisible Man' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_1",
-      "movie_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature",
-      "scene_number": 1,
-      "start_timecode": "00:26:31",
-      "end_timecode": "00:26:53",
-      "start_seconds": 1591.5,
-      "end_seconds": 1613.0,
-      "duration_seconds": 21.5,
-      "video_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_1_21s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_1_21s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_1_thumb.jpg",
-      "transcription": "That suitcase don't belong to any car if he was around here too long. I'll take it in. I'll put it in the car for you. Somebody will be around to claim it. See you later, son. Right, Sheriff.",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_2",
-      "movie_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature",
-      "scene_number": 2,
-      "start_timecode": "00:27:42",
-      "end_timecode": "00:28:51",
-      "start_seconds": 1662.4,
-      "end_seconds": 1731.7,
-      "duration_seconds": 69.3,
-      "video_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_2_69s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_2_69s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_2_thumb.jpg",
-      "transcription": "Hey, what's the code bill? I got your phone call. When I was selling dinner to Mr. Willow, he became very angry. He said, if I saw you again, you would have me send back to France. It can't do that. Oh, yes, he can. You like France, sir. You think of the bond? That was to guarantee that you wouldn't become awarded the state. Now, we don't have to worry about that. You know how to speak English well enough to get a job anywhere. He said to see my ass from into that with you. What's he more of us? Nothing. I don't belong to the way it shifts. You don't have to be funny. You think it's your fault that bad run away? Well, you think whatever he wants to think, he shouldn't take it all on you. Well, we hadn't better take any chances. If you go back inside, don't worry. Everything's gonna be okay. MUSIC MUSIC",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_3",
-      "movie_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature",
-      "scene_number": 3,
-      "start_timecode": "00:31:14",
-      "end_timecode": "00:31:34",
-      "start_seconds": 1874.3,
-      "end_seconds": 1894.7,
-      "duration_seconds": 20.4,
-      "video_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_3_20s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_3_20s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_3_thumb.jpg",
-      "transcription": "Oh, I never know what I want, oh, and baby My baby, she swings, and sings And swings whenever I bring her things, she swings And swings for a little diamond ring Swing and sing and bow the ring And happy playing and play the ring and baby",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_4",
-      "movie_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature",
-      "scene_number": 4,
-      "start_timecode": "00:33:07",
-      "end_timecode": "00:33:43",
-      "start_seconds": 1987.4,
-      "end_seconds": 2023.0,
-      "duration_seconds": 35.6,
-      "video_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_4_35s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_4_35s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_4_thumb.jpg",
-      "transcription": "If you go to school, sort of I'd take a correspondence course in engineering. Well look, I really feel indebted to you and I'd like to do something to pay you back. Now next time you're in the town, there's my card. Look me up with you. I will do. Okay. On by the way. Buy yourself a sponge rubber hammer, man. All right. I will. I'll see you soon. Thank you. Steamroller Smith. Is this Johnny? Mr. Smith!",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_5",
-      "movie_id": "ShockerInternetDriveInWeek8-TerrorTripleFeature",
-      "scene_number": 5,
-      "start_timecode": "00:37:28",
-      "end_timecode": "00:37:52",
-      "start_seconds": 2248.5,
-      "end_seconds": 2272.1,
-      "duration_seconds": 23.6,
-      "video_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_5_23s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_5_23s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek8-TerrorTripleFeature_scene_5_thumb.jpg",
-      "transcription": "What is it, Steve? It looks like an animal of some sort, drug something along here. You mean, it wasn't any more here? Sure, it could be anything, even a mountain lion. A couple.",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 8 - Terror Triple Feature' (1950).",
-      "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
