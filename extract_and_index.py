@@ -1,7 +1,8 @@
 """
 Multi-Source Film & Genre Scene Extractor & Cloud Indexer
-Dynamically queries Internet Archive / Library of Congress based on workflow parameters,
-extracts scenes, generates AI metadata, and updates Supabase & GitHub Pages.
+Dynamically queries Internet Archive based on workflow parameters,
+extracts scenes, generates AI metadata (Gemini -> Hugging Face -> Faster-Whisper),
+and updates Supabase & GitHub Pages.
 """
 
 import os
@@ -83,7 +84,7 @@ def fetch_random_archive_candidates(candidate_count=20):
     if GENRE_KEYWORD != "any":
         query_parts.append(f'subject:"{GENRE_KEYWORD}"')
 
-    # License filter handling ('any' skips license search filter)
+    # License filter handling
     if LICENSE_TYPE != "any":
         query_parts.append(f'licenseurl:*"{LICENSE_TYPE.replace(" ", "")}"* OR rights:"*{LICENSE_TYPE}*"')
 
@@ -159,18 +160,24 @@ def fetch_random_archive_candidates(candidate_count=20):
 
 
 def analyze_multimodal(clip_path, movie_info, scene_index, duration):
-    """Multimodal AI Analysis using Gemini API or faster-whisper fallback."""
+    """
+    Multi-Tier AI Metadata Generator:
+    1. Gemini 2.0 Flash (Multimodal)
+    2. Hugging Face Serverless Inference API (Free text LLM)
+    3. Local faster-whisper Audio Transcription
+    """
+    # --- TIER 1: Gemini Multimodal ---
     gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if gemini_key:
         try:
-            print(f"    🤖 Calling Gemini Multimodal API for Scene {scene_index}...")
+            print(f"    🤖 [1/3] Calling Gemini API for Scene {scene_index}...")
             from google import genai
             from google.genai import types
             client = genai.Client(api_key=gemini_key)
             uploaded_file = client.files.upload(file=str(clip_path))
 
             prompt = f"""
-            Analyze this 1080p scene clip from '{movie_info['title']}' ({movie_info['year']}) and respond in strict JSON format:
+            Analyze this scene clip from '{movie_info['title']}' ({movie_info['year']}) and respond in strict JSON format:
             {{
                 "transcription": "Verbatim spoken dialogue or [Instrumental/Ambient]",
                 "visual_description": "Detailed staging, lighting, and camera framing",
@@ -187,11 +194,30 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
             )
             return json.loads(response.text)
         except Exception as e:
-            print(f"    [!] Gemini API notice ({e}), switching to local faster-whisper...")
+            print(f"    [!] Gemini notice ({e}), attempting Hugging Face fallback...")
 
+    # --- TIER 2: Hugging Face Free Serverless AI ---
+    hf_token = os.environ.get("HF_TOKEN", "").strip()
+    if hf_token:
+        try:
+            print(f"    🤗 [2/3] Calling Hugging Face Free AI Inference for Scene {scene_index}...")
+            headers = {"Authorization": f"Bearer {hf_token}"}
+            hf_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
+            
+            prompt = f"<s>[INST] Generate JSON analysis metadata for a scene in the film '{movie_info['title']}' ({movie_info['year']}). Respond ONLY in valid JSON with keys: transcription, visual_description, synopsis, mood, noir_tropes, tags. [/INST]"
+            
+            resp = requests.post(hf_url, headers=headers, json={"inputs": prompt, "parameters": {"max_new_tokens": 350}}, timeout=15)
+            if resp.status_code == 200:
+                raw_text = resp.json()[0]["generated_text"]
+                clean_json = raw_text.split("[/INST]")[-1].strip()
+                return json.loads(clean_json)
+        except Exception as hf_err:
+            print(f"    [!] Hugging Face notice ({hf_err}), falling back to local whisper...")
+
+    # --- TIER 3: Local Faster-Whisper ---
     try:
         from faster_whisper import WhisperModel
-        print(f"    🎙️ Transcribing audio with faster-whisper (Scene {scene_index})...")
+        print(f"    🎙️ [3/3] Transcribing audio with local faster-whisper (Scene {scene_index})...")
         model = WhisperModel("base.en", device="cpu", compute_type="int8")
         segments, _ = model.transcribe(str(clip_path))
         transcript = " ".join([seg.text.strip() for seg in segments]).strip()
