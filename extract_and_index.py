@@ -1,6 +1,6 @@
 """
-Multi-Source Film Noir & Genre Scene Extractor & Cloud Indexer
-Dynamically queries Internet Archive based on workflow parameters,
+Multi-Source Film & Genre Scene Extractor & Cloud Indexer
+Dynamically queries Internet Archive / Library of Congress based on workflow parameters,
 extracts scenes, generates AI metadata, and updates Supabase & GitHub Pages.
 """
 
@@ -30,14 +30,16 @@ WORK_DIR = BASE_DIR / "temp_workspace"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
 
 # --- Dynamic Configuration from Workflow Inputs ---
-GENRE_KEYWORD = os.environ.get("GENRE_KEYWORD", "film noir").strip()
+SOURCE_PROVIDER = os.environ.get("SOURCE_PROVIDER", "Internet Archive").strip()
+ARCHIVE_CATEGORY = os.environ.get("ARCHIVE_CATEGORY", "feature_films").strip()
+GENRE_KEYWORD = os.environ.get("GENRE_KEYWORD", "film noir").strip().lower()
 NUM_MOVIES = int(os.environ.get("NUM_MOVIES", "3"))
 CLIPS_PER_MOVIE = int(os.environ.get("CLIPS_PER_MOVIE", "3"))
 MIN_CLIP_LEN = float(os.environ.get("MIN_CLIP_LEN", "8.0"))
 MAX_CLIP_LEN = float(os.environ.get("MAX_CLIP_LEN", "60.0"))
 START_YEAR = int(os.environ.get("START_YEAR", "1930"))
 END_YEAR = int(os.environ.get("END_YEAR", "1960"))
-LICENSE_TYPE = os.environ.get("LICENSE_TYPE", "Public Domain").strip()
+LICENSE_TYPE = os.environ.get("LICENSE_TYPE", "any").strip().lower()
 
 
 def get_ffmpeg():
@@ -66,13 +68,26 @@ def get_already_processed_movie_ids():
 def fetch_random_archive_candidates(candidate_count=20):
     """
     Queries the Internet Archive API dynamically based on workflow form parameters,
-    returning a randomized list of film items.
+    including collection/category filters and handling 'any' for genre & license.
     """
     already_done = get_already_processed_movie_ids()
-
     search_url = "https://archive.org/advancedsearch.php"
-    query = f'mediatype:movies AND subject:"{GENRE_KEYWORD}" AND format:"MPEG4"'
-    
+
+    query_parts = ['mediatype:movies', 'format:"MPEG4"']
+
+    # Sub-category / Collection filter
+    if ARCHIVE_CATEGORY != "all_movies":
+        query_parts.append(f'collection:"{ARCHIVE_CATEGORY}"')
+
+    # Genre filter handling ('any' skips subject filter)
+    if GENRE_KEYWORD != "any":
+        query_parts.append(f'subject:"{GENRE_KEYWORD}"')
+
+    # License filter handling ('any' skips license search filter)
+    if LICENSE_TYPE != "any":
+        query_parts.append(f'licenseurl:*"{LICENSE_TYPE.replace(" ", "")}"* OR rights:"*{LICENSE_TYPE}*"')
+
+    query = " AND ".join(query_parts)
     random_page = random.randint(1, 5)
 
     params = {
@@ -85,24 +100,24 @@ def fetch_random_archive_candidates(candidate_count=20):
     }
 
     try:
-        print(f"🔎 Querying Internet Archive API for '{GENRE_KEYWORD}' ({START_YEAR}-{END_YEAR})...")
+        print(f"🔎 Searching Archive API ({SOURCE_PROVIDER} / {ARCHIVE_CATEGORY}) | Genre: '{GENRE_KEYWORD}' | License: '{LICENSE_TYPE}' ({START_YEAR}-{END_YEAR})...")
         resp = requests.get(search_url, params=params, timeout=15)
         if resp.status_code == 200:
             docs = resp.json().get("response", {}).get("docs", [])
-            print(f"    [✓] Retrieved {len(docs)} candidate films from Archive API.")
-            
+            print(f"    [✓] Retrieved {len(docs)} candidate items from Archive API.")
+
             random.shuffle(docs)
             candidates = []
             for doc in docs:
                 archive_id = doc.get("identifier")
                 if not archive_id or archive_id in already_done:
                     continue
-                
+
                 # Release year filter
                 rel_year = int(doc.get("year", 1950)) if str(doc.get("year", "")).isdigit() else 1950
                 if not (START_YEAR <= rel_year <= END_YEAR):
                     continue
-                
+
                 # Fetch detailed metadata to find direct MP4 file URL
                 meta_url = f"https://archive.org/metadata/{archive_id}"
                 try:
@@ -119,16 +134,16 @@ def fetch_random_archive_candidates(candidate_count=20):
                         if mp4_files:
                             mp4_files.sort(key=lambda x: int(x.get("size", 0)), reverse=True)
                             best_mp4 = mp4_files[0]["name"]
-                            
+
                             candidates.append({
                                 "title": doc.get("title", archive_id.replace("_", " ").title()),
                                 "year": rel_year,
                                 "director": doc.get("creator", "Unknown Director"),
                                 "archive_id": archive_id,
-                                "source_provider": "Internet Archive",
+                                "source_provider": SOURCE_PROVIDER,
                                 "video_url": f"https://archive.org/download/{archive_id}/{best_mp4}",
-                                "license": LICENSE_TYPE,
-                                "description": doc.get("description", f"Archival {GENRE_KEYWORD} feature.")
+                                "license": LICENSE_TYPE.title() if LICENSE_TYPE != "any" else "Open Archive",
+                                "description": doc.get("description", f"Archival video feature.")
                             })
                 except Exception:
                     continue
@@ -188,11 +203,11 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
 
     return {
         "transcription": transcript,
-        "visual_description": f"High-contrast sequence from '{movie_info['title']}' featuring dramatic lighting and atmospheric framing.",
+        "visual_description": f"Sequence from '{movie_info['title']}' featuring dramatic lighting and atmospheric framing.",
         "synopsis": f"Dramatic character sequence from '{movie_info['title']}' ({movie_info['year']}).",
         "mood": random.choice(["Fatalistic", "Melancholic", "Tense / Suspense", "Paranoid"]),
         "noir_tropes": ["low-key lighting", "cynical dialogue", "dramatic framing"],
-        "tags": [GENRE_KEYWORD, "classic cinema", "black and white"]
+        "tags": [GENRE_KEYWORD if GENRE_KEYWORD != "any" else "classic cinema", "black and white"]
     }
 
 
@@ -258,6 +273,8 @@ def update_catalog_json(all_movies, all_scenes):
         "total_movies": len(all_movies),
         "total_scenes": len(clean_scenes),
         "genre": GENRE_KEYWORD,
+        "source": SOURCE_PROVIDER,
+        "category": ARCHIVE_CATEGORY,
         "movies": all_movies,
         "scenes": clean_scenes
     }
@@ -282,7 +299,7 @@ def main():
 
     print("=" * 65)
     print(f"🎬 TARGET GOAL: Successfully Extract Scenes for {NUM_MOVIES} Film(s)")
-    print(f"📋 Discovered Candidates: {len(movie_pool)} films | Genre: '{GENRE_KEYWORD}'")
+    print(f"📋 Candidate Pool: {len(movie_pool)} films | Source: {SOURCE_PROVIDER} ({ARCHIVE_CATEGORY}) | Genre: '{GENRE_KEYWORD}' | License: '{LICENSE_TYPE}'")
     print("=" * 65)
 
     all_batch_movies = []
@@ -354,7 +371,6 @@ def main():
             del video
             gc.collect()
 
-            # Filter scenes using user-specified duration limits
             valid = [(st, en, (en - st).seconds) for st, en in scene_list if MIN_CLIP_LEN <= (en - st).seconds <= MAX_CLIP_LEN]
             if len(valid) < CLIPS_PER_MOVIE:
                 valid = [(st, en, (en - st).seconds) for st, en in scene_list[:CLIPS_PER_MOVIE]]
