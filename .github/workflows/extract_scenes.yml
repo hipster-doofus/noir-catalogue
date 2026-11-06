@@ -3,12 +3,34 @@ name: Extract Scenes & Publish Web Vault
 on:
   workflow_dispatch:
     inputs:
+      source_provider:
+        description: 'Source Archive Provider'
+        required: true
+        default: 'Internet Archive'
+        type: choice
+        options:
+          - 'Internet Archive'
+          - 'Library of Congress'
+          - 'Any / Blended'
+
+      archive_category:
+        description: 'Archive Sub-Category (Internet Archive)'
+        required: true
+        default: 'feature_films'
+        type: choice
+        options:
+          - 'feature_films'
+          - 'moviesandfilms'
+          - 'prelinger'
+          - 'all_movies'
+
       genre_keyword:
         description: 'Genre / Search Keyword'
         required: true
         default: 'film noir'
         type: choice
         options:
+          - 'any'
           - 'film noir'
           - 'crime noir'
           - 'mystery'
@@ -62,12 +84,12 @@ on:
       license_type:
         description: 'License Type'
         required: true
-        default: 'Public Domain'
+        default: 'any'
         type: choice
         options:
+          - 'any'
           - 'Public Domain'
           - 'Creative Commons'
-          - 'Any / Open Archive'
 
 jobs:
   run-pipeline:
@@ -96,6 +118,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          SOURCE_PROVIDER: ${{ inputs.source_provider || 'Internet Archive' }}
+          ARCHIVE_CATEGORY: ${{ inputs.archive_category || 'feature_films' }}
           GENRE_KEYWORD: ${{ inputs.genre_keyword || 'film noir' }}
           NUM_MOVIES: ${{ inputs.num_movies || '3' }}
           CLIPS_PER_MOVIE: ${{ inputs.clips_per_movie || '3' }}
@@ -103,7 +127,7 @@ jobs:
           MAX_CLIP_LEN: ${{ inputs.max_clip_len || '60' }}
           START_YEAR: ${{ inputs.start_year || '1930' }}
           END_YEAR: ${{ inputs.end_year || '1960' }}
-          LICENSE_TYPE: ${{ inputs.license_type || 'Public Domain' }}
+          LICENSE_TYPE: ${{ inputs.license_type || 'any' }}
         run: python extract_and_index.py
 
       - name: Upload Extracted Media Artifacts
