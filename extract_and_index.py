@@ -414,23 +414,41 @@ def main():
                 thumb_name = f"{movie['archive_id']}_scene_{idx}_thumb.jpg"
                 clip_path = OUTPUT_DIR / clip_name
                 thumb_path = OUTPUT_DIR / thumb_name
-
+                
                 transcode_cmd = [
-                    ffmpeg_exe, "-y",
-                    "-ss", st.get_timecode(),
-                    "-to", en.get_timecode(),
-                    "-i", str(sample_file),
-                    "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1",
-                    "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
-                    "-c:v", "libx264",
-                    "-preset", "fast",
-                    "-crf", "19",
-                    "-c:a", "aac",
-                    "-b:a", "192k",
-                    "-fflags", "+genpts",
-                    "-movflags", "+faststart",
-                    str(clip_path)
-                ]
+    ffmpeg_exe, "-y",
+    "-ss", st.get_timecode(),
+    "-to", en.get_timecode(),
+    "-fflags", "+genpts",  # Moved before -i to ensure timestamps are regenerated early
+    "-i", str(sample_file),
+    
+    # 1. Video Filters: Fixed resolution, padding, and forced constant frame rate / timebase
+    "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=fps=30,settb=expr=1/30",
+    
+    # 2. Audio Filters: Standardized loudness paired with strict sync resampling
+    "-af", "loudnorm=I=-16:TP=-1.5:LRA=11,aresample=async=1:osr=48000:ocl=stereo",
+    
+    # 3. Video Encoding Settings
+    "-c:v", "libx264",
+    "-preset", "fast",
+    "-crf", "19",
+    "-pix_fmt", "yuv420p",  # Enforces universal pixel format color space
+    
+    # 4. Strict GOP (Keyframe) alignment for clean seams
+    "-g", "60",             # Keyframe every 2 seconds (assuming 30fps)
+    "-keyint_min", "60",    # Prevents IDR frames from appearing too frequently
+    "-sc_threshold", "0",   # Disables scene-change detection keyframes across clips
+    
+    # 5. Audio Encoding Settings
+    "-c:a", "aac",
+    "-b:a", "192k",
+    
+    # 6. Synchronization & Container Flags
+    "-vsync", "cfr",        # Forces Constant Frame Rate stream output
+    "-movflags", "+faststart",
+    str(clip_path)
+]
+
                 subprocess.run(transcode_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
 
                 mid_sec = (st.seconds + en.seconds) / 2.0
