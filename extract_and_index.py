@@ -428,7 +428,6 @@ def main():
                     "-c:a", "aac",
                     "-b:a", "192k",
                     "-fflags", "+genpts",
-                    "-avoid_negative_ts", "make_zero",
                     "-movflags", "+faststart",
                     str(clip_path)
                 ]
