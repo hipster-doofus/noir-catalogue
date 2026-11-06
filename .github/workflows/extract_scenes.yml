@@ -91,6 +91,15 @@ on:
           - 'Public Domain'
           - 'Creative Commons'
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
@@ -111,6 +120,7 @@ jobs:
       - name: Run Extraction Pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           SOURCE_PROVIDER: ${{ inputs.source_provider || 'Internet Archive' }}
@@ -125,6 +135,14 @@ jobs:
           LICENSE_TYPE: ${{ inputs.license_type || 'any' }}
         run: python extract_and_index.py
 
+      - name: Commit & Push Updated catalog.json to Branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git commit -m "Auto-update catalog.json from run ${{ github.run_number }}" || echo "No catalog changes to commit"
+          git push origin main || echo "Nothing to push"
+
       - name: Upload Extracted Media Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -135,3 +153,12 @@ jobs:
             output/*.db
             output/catalog.json
             output/*.jpg
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
