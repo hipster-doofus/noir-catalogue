@@ -1,7 +1,7 @@
 """
-Multi-Source Film Noir Scene Extractor & Cloud Indexer
-Supports Internet Archive, Library of Congress, and YouTube Restorations (via yt-dlp).
-Processes up to N movies per batch, generates rich AI metadata, and updates Supabase & GitHub Pages.
+Multi-Source Film Noir & Genre Scene Extractor & Cloud Indexer
+Dynamically queries Internet Archive based on workflow parameters,
+extracts scenes, generates AI metadata, and updates Supabase & GitHub Pages.
 """
 
 import os
@@ -29,180 +29,16 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 WORK_DIR = BASE_DIR / "temp_workspace"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
 
-# Blended Catalog of Verified Film Noir Classics across Multiple Sources
-BLENDED_NOIR_CATALOG = [
-    # --- Internet Archive Archives ---
-    {
-        "title": "Suddenly",
-        "year": 1954,
-        "director": "Lewis Allen",
-        "archive_id": "suddenly",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/suddenly/suddenly.mp4",
-        "license": "Public Domain",
-        "description": "Frank Sinatra stars as a cold-blooded assassin holding a family hostage while plotting a presidential assassination."
-    },
-    {
-        "title": "The Stranger",
-        "year": 1946,
-        "director": "Orson Welles",
-        "archive_id": "TheStranger_0",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/TheStranger_0/The_Stranger.mp4",
-        "license": "Public Domain",
-        "description": "Directed by and starring Orson Welles with Edward G. Robinson; a war crimes investigator tracks an escaped fugitive in Connecticut."
-    },
-    {
-        "title": "Quicksand",
-        "year": 1950,
-        "director": "Irving Pichel",
-        "archive_id": "Quicksand_clear",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Quicksand_clear/Quicksand.mp4",
-        "license": "Public Domain",
-        "description": "Mickey Rooney and Peter Lorre in a relentless noir where a minor theft spirals into extortion and robbery."
-    },
-    {
-        "title": "Detour",
-        "year": 1945,
-        "director": "Edgar G. Ulmer",
-        "archive_id": "Detour",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Detour/Detour.mp4",
-        "license": "Public Domain",
-        "description": "A penniless New York pianist hitchhikes to Hollywood, only to be dragged into an inescapable nightmare of blackmail."
-    },
-    {
-        "title": "The Strange Love of Martha Ivers",
-        "year": 1946,
-        "director": "Lewis Milestone",
-        "archive_id": "Martha_Ivers_movie",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Martha_Ivers_movie/Strange_Love_Martha_Ivers.mp4",
-        "license": "Public Domain",
-        "description": "Barbara Stanwyck, Van Heflin, and Kirk Douglas in his screen debut; childhood friends bound by a deadly secret."
-    },
-    {
-        "title": "Please Murder Me",
-        "year": 1956,
-        "director": "Peter Godfrey",
-        "archive_id": "Please_Murder_Me_movie",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Please_Murder_Me_movie/Please_Murder_Me.mp4",
-        "license": "Public Domain",
-        "description": "Raymond Burr plays an attorney who clears a femme fatale (Angela Lansbury), only to discover her deadly guilt."
-    },
-    {
-        "title": "Behind Green Lights",
-        "year": 1946,
-        "director": "Otto Brower",
-        "archive_id": "BehindGreenLights_high_Q_mp4",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/BehindGreenLights_high_Q_mp4/Behind_Green_Lights.mp4",
-        "license": "Public Domain",
-        "description": "Carole Landis stars in an atmospheric police procedural centered around a midnight precinct murder."
-    },
-    {
-        "title": "He Walked By Night",
-        "year": 1948,
-        "director": "Alfred L. Werker",
-        "archive_id": "He_Walked_By_Night.avi",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/He_Walked_By_Night.avi/He_Walked_By_Night.mp4",
-        "license": "Public Domain",
-        "description": "Richard Basehart stars as a cunning electronics thief stalking through the storm drains beneath Los Angeles."
-    },
-    {
-        "title": "The Red House",
-        "year": 1947,
-        "director": "Delmer Daves",
-        "archive_id": "TheRedHouse",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/TheRedHouse/The_Red_House.mp4",
-        "license": "Public Domain",
-        "description": "Edward G. Robinson plays an isolated farmer guarding a terrifying mystery hidden in the forbidden woods."
-    },
-    {
-        "title": "Kansas City Confidential",
-        "year": 1952,
-        "director": "Phil Karlson",
-        "archive_id": "kansascityconfidencial",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/kansascityconfidencial/kansascityconfidencial.mp4",
-        "license": "Public Domain",
-        "description": "John Payne stars as an ex-con framed for a heist who tracks the masked perpetrators across Mexico."
-    },
-    {
-        "title": "Woman on the Run",
-        "year": 1950,
-        "director": "Norman Foster",
-        "archive_id": "Woman_on_the_Run",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Woman_on_the_Run/Woman_on_the_Run.mp4",
-        "license": "Public Domain",
-        "description": "Ann Sheridan navigates the dark night streets of San Francisco searching for her missing husband."
-    },
-    {
-        "title": "The Chase",
-        "year": 1946,
-        "director": "Arthur Ripley",
-        "archive_id": "TheChase_",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/TheChase_/TheChase.mp4",
-        "license": "Public Domain",
-        "description": "Robert Cummings and Peter Lorre in a feverish Cornell Woolrich thriller involving a sadistic Florida gangster."
-    },
-    {
-        "title": "The Man Who Cheated Himself",
-        "year": 1950,
-        "director": "Felix E. Feist",
-        "archive_id": "Man_Who_Cheated_Himself",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Man_Who_Cheated_Himself/NOIR_DISC_1.mp4",
-        "license": "Public Domain",
-        "description": "Lee J. Cobb stars as a veteran detective who covers up a crime for his lover, only to have his rookie brother assigned to the case."
-    },
-    {
-        "title": "Inner Sanctum",
-        "year": 1948,
-        "director": "Lew Landers",
-        "archive_id": "Inner_Sanctum_movie",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Inner_Sanctum_movie/Inner_Sanctum.mp4",
-        "license": "Public Domain",
-        "description": "A murderer takes refuge in a flood-bound boarding house, unaware a fellow traveler knows his crime."
-    },
-    {
-        "title": "Whistle Stop",
-        "year": 1946,
-        "director": "Léonide Moguy",
-        "archive_id": "Whistle_Stop",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Whistle_Stop/Whistle_Stop.mp4",
-        "license": "Public Domain",
-        "description": "Ava Gardner and George Raft in a story of small-town corruption, jealousy, and an ill-fated robbery."
-    },
-    {
-        "title": "The Second Woman",
-        "year": 1950,
-        "director": "James V. Kern",
-        "archive_id": "The_Second_Woman_",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/The_Second_Woman_/The_Second_Woman_.mp4",
-        "license": "Public Domain",
-        "description": "Robert Young stars as a haunted architect plagued by fatal accidents following the death of his bride."
-    },
-    {
-        "title": "Jigsaw",
-        "year": 1949,
-        "director": "Fletcher Markle",
-        "archive_id": "Jigsaw_",
-        "source_provider": "Internet Archive",
-        "video_url": "https://archive.org/download/Jigsaw_/Jigsaw.mp4",
-        "license": "Public Domain",
-        "description": "Franchot Tone plays an investigator unraveling a syndicate of political racketeers in New York City."
-    }
-]
+# --- Dynamic Configuration from Workflow Inputs ---
+GENRE_KEYWORD = os.environ.get("GENRE_KEYWORD", "film noir").strip()
+NUM_MOVIES = int(os.environ.get("NUM_MOVIES", "3"))
+CLIPS_PER_MOVIE = int(os.environ.get("CLIPS_PER_MOVIE", "3"))
+MIN_CLIP_LEN = float(os.environ.get("MIN_CLIP_LEN", "8.0"))
+MAX_CLIP_LEN = float(os.environ.get("MAX_CLIP_LEN", "60.0"))
+START_YEAR = int(os.environ.get("START_YEAR", "1930"))
+END_YEAR = int(os.environ.get("END_YEAR", "1960"))
+LICENSE_TYPE = os.environ.get("LICENSE_TYPE", "Public Domain").strip()
+
 
 def get_ffmpeg():
     sys_ffmpeg = shutil.which("ffmpeg")
@@ -210,26 +46,6 @@ def get_ffmpeg():
         return sys_ffmpeg
     return imageio_ffmpeg.get_ffmpeg_exe()
 
-def resolve_stream_url(movie_item):
-    """Resolves direct streamable video URL."""
-    provider = movie_item.get("source_provider", "Internet Archive")
-    url = movie_item["video_url"]
-
-    if provider == "YouTube":
-        print(f"[*] Resolving YouTube stream URL via yt-dlp for '{movie_item['title']}'...")
-        try:
-            cmd = ["yt-dlp", "-g", "-f", "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best", url]
-            proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=30)
-            if proc.returncode == 0 and proc.stdout.strip():
-                print("    [✓] YouTube stream resolved successfully!")
-                return proc.stdout.strip().splitlines()[0]
-            print(f"    [!] yt-dlp failed for YouTube link. Skipping entry.")
-            return None
-        except Exception as e:
-            print(f"    [!] Error resolving YouTube stream: {e}")
-            return None
-
-    return url
 
 def get_already_processed_movie_ids():
     """Queries Supabase to find movies already indexed."""
@@ -246,37 +62,89 @@ def get_already_processed_movie_ids():
         print(f"[*] Note on Supabase check ({e}); proceeding.")
         return set()
 
-def get_shuffled_movie_pool():
-    """Returns a randomized pool of candidate movies prioritizing unindexed ones."""
-    override = os.environ.get("MOVIE_ID_OVERRIDE", "").strip()
-    if override:
-        for m in BLENDED_NOIR_CATALOG:
-            if m["archive_id"].lower() == override.lower() or m["title"].lower() == override.lower():
-                return [m]
-        return [{
-            "title": override.replace("_", " ").title(),
-            "year": 1950,
-            "director": "Unknown",
-            "archive_id": override,
-            "source_provider": "Custom Archive",
-            "video_url": f"https://archive.org/download/{override}/{override}.mp4",
-            "license": "Unspecified",
-            "description": "User requested archive film."
-        }]
 
-    direct_catalog = [m for m in BLENDED_NOIR_CATALOG if m.get("source_provider") != "YouTube"]
+def fetch_random_archive_candidates(candidate_count=20):
+    """
+    Queries the Internet Archive API dynamically based on workflow form parameters,
+    returning a randomized list of film items.
+    """
     already_done = get_already_processed_movie_ids()
-    unprocessed = [m for m in direct_catalog if m["archive_id"] not in already_done]
 
-    if not unprocessed:
-        print("[*] All direct stream movies in catalog are already indexed! Shuffling full catalog.")
-        unprocessed = list(direct_catalog)
+    search_url = "https://archive.org/advancedsearch.php"
+    query = f'mediatype:movies AND subject:"{GENRE_KEYWORD}" AND format:"MPEG4"'
+    
+    random_page = random.randint(1, 5)
 
-    random.shuffle(unprocessed)
-    return unprocessed
+    params = {
+        "q": query,
+        "fl[]": "identifier,title,year,creator,description",
+        "sort[]": "downloads desc",
+        "rows": 50,
+        "page": random_page,
+        "output": "json"
+    }
+
+    try:
+        print(f"🔎 Querying Internet Archive API for '{GENRE_KEYWORD}' ({START_YEAR}-{END_YEAR})...")
+        resp = requests.get(search_url, params=params, timeout=15)
+        if resp.status_code == 200:
+            docs = resp.json().get("response", {}).get("docs", [])
+            print(f"    [✓] Retrieved {len(docs)} candidate films from Archive API.")
+            
+            random.shuffle(docs)
+            candidates = []
+            for doc in docs:
+                archive_id = doc.get("identifier")
+                if not archive_id or archive_id in already_done:
+                    continue
+                
+                # Release year filter
+                rel_year = int(doc.get("year", 1950)) if str(doc.get("year", "")).isdigit() else 1950
+                if not (START_YEAR <= rel_year <= END_YEAR):
+                    continue
+                
+                # Fetch detailed metadata to find direct MP4 file URL
+                meta_url = f"https://archive.org/metadata/{archive_id}"
+                try:
+                    m_resp = requests.get(meta_url, timeout=10)
+                    if m_resp.status_code == 200:
+                        files = m_resp.json().get("files", [])
+                        mp4_files = [
+                            f for f in files 
+                            if f.get("name", "").endswith(".mp4") and not f.get("name", "").endswith("_512kb.mp4")
+                        ]
+                        if not mp4_files:
+                            mp4_files = [f for f in files if f.get("name", "").endswith(".mp4")]
+
+                        if mp4_files:
+                            mp4_files.sort(key=lambda x: int(x.get("size", 0)), reverse=True)
+                            best_mp4 = mp4_files[0]["name"]
+                            
+                            candidates.append({
+                                "title": doc.get("title", archive_id.replace("_", " ").title()),
+                                "year": rel_year,
+                                "director": doc.get("creator", "Unknown Director"),
+                                "archive_id": archive_id,
+                                "source_provider": "Internet Archive",
+                                "video_url": f"https://archive.org/download/{archive_id}/{best_mp4}",
+                                "license": LICENSE_TYPE,
+                                "description": doc.get("description", f"Archival {GENRE_KEYWORD} feature.")
+                            })
+                except Exception:
+                    continue
+
+                if len(candidates) >= candidate_count:
+                    break
+
+            return candidates
+    except Exception as e:
+        print(f"  [!] Dynamic catalog fetch error: {e}")
+
+    return []
+
 
 def analyze_multimodal(clip_path, movie_info, scene_index, duration):
-    """Multimodal AI Analysis using Gemini API (free tier) or faster-whisper fallback."""
+    """Multimodal AI Analysis using Gemini API or faster-whisper fallback."""
     gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if gemini_key:
         try:
@@ -286,16 +154,16 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
             client = genai.Client(api_key=gemini_key)
             uploaded_file = client.files.upload(file=str(clip_path))
 
-            prompt = """
-            Analyze this 1080p Film Noir scene clip and respond in strict JSON format:
-            {
+            prompt = f"""
+            Analyze this 1080p scene clip from '{movie_info['title']}' ({movie_info['year']}) and respond in strict JSON format:
+            {{
                 "transcription": "Verbatim spoken dialogue or [Instrumental/Ambient]",
-                "visual_description": "Detailed staging, lighting (chiaroscuro/shadows), and camera framing",
+                "visual_description": "Detailed staging, lighting, and camera framing",
                 "synopsis": "Concise 2-3 sentence narrative summary of the dramatic beat",
-                "mood": "Dominant emotional tone (e.g. fatalistic, paranoid, melancholic, tense)",
+                "mood": "Dominant emotional tone",
                 "noir_tropes": ["list", "of", "tropes", "detected"],
                 "tags": ["relevant", "keywords"]
-            }
+            }}
             """
             response = client.models.generate_content(
                 model='gemini-2.0-flash',
@@ -313,19 +181,20 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
         segments, _ = model.transcribe(str(clip_path))
         transcript = " ".join([seg.text.strip() for seg in segments]).strip()
     except Exception as e:
-        transcript = "[Ambient noir orchestral score and environmental sound]"
+        transcript = "[Ambient orchestral score and environmental sound]"
 
     if not transcript:
-        transcript = "[Instrumental noir soundtrack / ambient score]"
+        transcript = "[Instrumental soundtrack / ambient score]"
 
     return {
         "transcription": transcript,
-        "visual_description": f"Black-and-white high-contrast sequence from '{movie_info['title']}' featuring dramatic low-key lighting and atmospheric camera framing.",
+        "visual_description": f"High-contrast sequence from '{movie_info['title']}' featuring dramatic lighting and atmospheric framing.",
         "synopsis": f"Dramatic character sequence from '{movie_info['title']}' ({movie_info['year']}).",
         "mood": random.choice(["Fatalistic", "Melancholic", "Tense / Suspense", "Paranoid"]),
-        "noir_tropes": ["low-key lighting", "cynical dialogue", "chiaroscuro shadows"],
-        "tags": ["film noir", "crime drama", "black and white"]
+        "noir_tropes": ["low-key lighting", "cynical dialogue", "dramatic framing"],
+        "tags": [GENRE_KEYWORD, "classic cinema", "black and white"]
     }
+
 
 def index_to_supabase(movie, scenes):
     supabase_url = os.environ.get("SUPABASE_URL", "").strip()
@@ -372,6 +241,7 @@ def index_to_supabase(movie, scenes):
         print(f"❌ Supabase notice: {e}")
         return False
 
+
 def update_catalog_json(all_movies, all_scenes):
     """Writes catalog.json for GitHub Pages web view in output/ and repository root."""
     clean_scenes = []
@@ -387,6 +257,7 @@ def update_catalog_json(all_movies, all_scenes):
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "total_movies": len(all_movies),
         "total_scenes": len(clean_scenes),
+        "genre": GENRE_KEYWORD,
         "movies": all_movies,
         "scenes": clean_scenes
     }
@@ -401,47 +272,38 @@ def update_catalog_json(all_movies, all_scenes):
 
     print(f"✅ Generated catalog.json in {out_cat} and {root_cat}")
 
+
 def main():
     ffmpeg_exe = get_ffmpeg()
-    raw_num = os.environ.get("NUM_MOVIES", "3").strip()
-    try:
-        target_count = max(1, min(10, int(raw_num)))
-    except ValueError:
-        target_count = 3
-
     timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
-    movie_pool = get_shuffled_movie_pool()
+
+    # Fetch dynamic movie candidates based on form inputs
+    movie_pool = fetch_random_archive_candidates(candidate_count=20)
 
     print("=" * 65)
-    print(f"🎬 TARGET GOAL: Successfully Extract Scenes for {target_count} Classic(s)")
-    print(f"📋 Candidate Pool Size: {len(movie_pool)} films")
+    print(f"🎬 TARGET GOAL: Successfully Extract Scenes for {NUM_MOVIES} Film(s)")
+    print(f"📋 Discovered Candidates: {len(movie_pool)} films | Genre: '{GENRE_KEYWORD}'")
     print("=" * 65)
 
     all_batch_movies = []
     all_batch_scenes = []
 
     pool_index = 0
-    while len(all_batch_movies) < target_count and pool_index < len(movie_pool):
+    while len(all_batch_movies) < NUM_MOVIES and pool_index < len(movie_pool):
         movie = movie_pool[pool_index]
         pool_index += 1
 
-        print(f"\n[{len(all_batch_movies) + 1}/{target_count}] 📽️ Attempting '{movie['title']}' ({movie['year']})...")
+        print(f"\n[{len(all_batch_movies) + 1}/{NUM_MOVIES}] 📽️ Attempting '{movie['title']}' ({movie['year']})...")
         sample_file = WORK_DIR / f"{movie['archive_id']}_sample.mp4"
 
         try:
-            stream_url = resolve_stream_url(movie)
-            if not stream_url:
-                print(f"  [!] Stream URL resolution failed for {movie['title']}, trying next...")
-                continue
-
-            # Randomize start point between 5 and 30 minutes
+            stream_url = movie["video_url"]
             random_start_sec = random.randint(300, 1800)
             start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
 
             print(f"  🌐 Streaming 15-minute window from {start_time_str}...")
             t0 = time.time()
-            
-            # Fast input seeking (-ss before -i) with HTTP socket timeout
+
             cmd = [
                 ffmpeg_exe, "-y",
                 "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
@@ -456,15 +318,14 @@ def main():
             ]
             res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=240)
 
-            # Fallback: Python HTTP stream download
+            # Python HTTP fallback download
             if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
-                print(f"  [!] Direct FFmpeg stream failed. Running Python HTTP chunk fallback...")
+                print(f"  [!] FFmpeg stream slice dropped. Running Python HTTP chunk fallback...")
                 try:
                     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
                     with requests.get(stream_url, headers=headers, stream=True, timeout=30) as r:
                         r.raise_for_status()
                         downloaded = 0
-                        # Read up to 80MB to ensure clean H.264 video data for scenedetect
                         with open(sample_file, "wb") as f:
                             for chunk in r.iter_content(chunk_size=1024*1024):
                                 if chunk:
@@ -473,7 +334,7 @@ def main():
                                     if downloaded >= 80 * 1024 * 1024:
                                         break
                 except Exception as dl_err:
-                    print(f"  [!] Python HTTP fallback error: {dl_err}")
+                    print(f"  [!] Fallback download notice: {dl_err}")
 
             if not sample_file.exists() or sample_file.stat().st_size < 100000:
                 print(f"  [!] Download failed for '{movie['title']}'. Moving on to next candidate...")
@@ -493,15 +354,16 @@ def main():
             del video
             gc.collect()
 
-            valid = [(st, en, (en - st).seconds) for st, en in scene_list if 8.0 <= (en - st).seconds <= 60.0]
-            if len(valid) < 3:
-                valid = [(st, en, (en - st).seconds) for st, en in scene_list[:5]]
+            # Filter scenes using user-specified duration limits
+            valid = [(st, en, (en - st).seconds) for st, en in scene_list if MIN_CLIP_LEN <= (en - st).seconds <= MAX_CLIP_LEN]
+            if len(valid) < CLIPS_PER_MOVIE:
+                valid = [(st, en, (en - st).seconds) for st, en in scene_list[:CLIPS_PER_MOVIE]]
 
             if not valid:
-                print(f"  [!] No valid scenes detected in sample for '{movie['title']}'. Moving to next candidate...")
+                print(f"  [!] No valid scenes detected for '{movie['title']}'. Moving to next candidate...")
                 continue
 
-            chosen = random.sample(valid, min(3, len(valid)))
+            chosen = random.sample(valid, min(CLIPS_PER_MOVIE, len(valid)))
             chosen.sort(key=lambda s: s[0].seconds)
 
             movie_scenes = []
@@ -568,7 +430,7 @@ def main():
 
             index_to_supabase(movie, movie_scenes)
             all_batch_movies.append(movie)
-            print(f"  [✓] Successfully processed '{movie['title']}' ({len(all_batch_movies)}/{target_count})")
+            print(f"  [✓] Successfully processed '{movie['title']}' ({len(all_batch_movies)}/{NUM_MOVIES})")
 
         except Exception as e:
             print(f"  [!] Exception processing {movie['title']}: {e}")
@@ -581,7 +443,7 @@ def main():
                 pass
 
     if not all_batch_movies:
-        print("[!] Could not process any movies from the catalog.")
+        print("[!] Could not process any movies from dynamic pool.")
         return
 
     # Save to local SQLite
@@ -613,7 +475,7 @@ def main():
     update_catalog_json(all_batch_movies, all_batch_scenes)
 
     # Package Batch ZIP
-    zip_filename = f"Noir_Batch_{len(all_batch_movies)}_Films_{timestamp_str}.zip"
+    zip_filename = f"Vault_Batch_{len(all_batch_movies)}_Films_{timestamp_str}.zip"
     zip_path = OUTPUT_DIR / zip_filename
     print(f"\n📦 Packaging complete batch ZIP: {zip_path}...")
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -638,6 +500,7 @@ def main():
     print(f"📦 ZIP Archive: {zip_path} ({zip_path.stat().st_size / (1024*1024):.2f} MB)")
     print(f"🌐 Website ready at: index.html")
     print("=" * 65)
+
 
 if __name__ == "__main__":
     main()
