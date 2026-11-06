@@ -100,185 +100,157 @@
     </footer>
 
     <!-- Vault Logic Engine -->
-    <script>
-        // Supabase Endpoint Config (Optional: set your credentials here to pull live DB directly)
-        const SUPABASE_URL = ""; 
-        const SUPABASE_ANON_KEY = "";
+   <script>
+let allScenes = [];
+let activeMood = 'all';
 
-        let allScenes = [];
-        let activeMood = 'all';
+// Load catalog data and render all scenes
+async function loadCatalog() {
+  try {
+    const res = await fetch('catalog.json');
+    const catalog = await res.json();
+    
+    // Support both schema array formats (catalog.scenes or root array)
+    allScenes = catalog.scenes || catalog || [];
+    
+    // Update stats counters dynamically based on full catalog size
+    const totalClips = allScenes.length;
+    const uniqueFilms = new Set(allScenes.map(s => s.movie_id)).size;
+    
+    const countEl = document.querySelector('.stats-count');
+    if (countEl) countEl.innerText = `${uniqueFilms} FILMS • ${totalClips} AI SCENES`;
+    
+    renderGrid(allScenes);
+  } catch (err) {
+    console.error('Failed to load catalog.json:', err);
+  }
+}
 
-        async function loadVaultData() {
-            const statusEl = document.getElementById('sync-status');
+// Render all passed scene cards without any slicing or caps
+function renderGrid(scenes) {
+  const grid = document.getElementById('scene-grid');
+  if (!grid) return;
+  grid.innerHTML = '';
 
-            // Tier 1: Query Supabase REST API if configured
-            if (SUPABASE_URL && SUPABASE_ANON_KEY) {
-                try {
-                    const res = await fetch(`${SUPABASE_URL}/rest/v1/scenes?select=*,movies(title,release_year,director)&order=created_at.desc`, {
-                        headers: { "apikey": SUPABASE_ANON_KEY, "Authorization": `Bearer ${SUPABASE_ANON_KEY}` }
-                    });
-                    if (res.ok) {
-                        allScenes = await res.json();
-                        statusEl.innerHTML = `<span class="text-emerald-400"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse inline-block mr-1"></span> Supabase DB Connected (${allScenes.length} Clips)</span>`;
-                        updateStats(allScenes);
-                        renderGrid(allScenes);
-                        return;
-                    }
-                } catch (e) {
-                    console.warn("Supabase query notice, using local catalog.json...", e);
-                }
-            }
+  if (scenes.length === 0) {
+    grid.innerHTML = `<div class="col-span-full text-center py-12 text-gray-500">No scenes found matching your filter.</div>`;
+    return;
+  }
 
-            // Tier 2: Fallback to local catalog.json export
-            try {
-                const res = await fetch('catalog.json?t=' + Date.now());
-                if (!res.ok) throw new Error('Catalog missing');
-                const data = await res.json();
-                allScenes = data.scenes || [];
-                
-                statusEl.innerHTML = `<span class="text-emerald-400"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse inline-block mr-1"></span> Catalog Synced (${allScenes.length} Clips)</span>`;
-                updateStats(allScenes, data.movies);
-                renderGrid(allScenes);
-            } catch (err) {
-                console.warn('Falling back to empty state:', err);
-                statusEl.innerHTML = '<span class="text-yellow-500">Local Mode</span>';
-                document.getElementById('scenes-grid').innerHTML = `<div class="col-span-full text-center py-20 text-gray-500">No scene clips found in catalog.json.</div>`;
-            }
-        }
+  scenes.forEach(scene => {
+    const card = document.createElement('div');
+    card.className = "scene-card bg-gray-900 border border-gray-800 rounded-lg overflow-hidden flex flex-col justify-between hover:border-yellow-600 transition-all";
+    
+    const title = formatMovieName(scene.movie_id || scene.title);
+    const mood = (scene.mood || 'DRAMATIC').toUpperCase();
+    const timecode = scene.timecode || formatSecondsToTimecode(scene.start_time || 0);
+    const duration = scene.end_time && scene.start_time ? Math.round(scene.end_time - scene.start_time) : (scene.duration || 30);
+    const text = escapeQuotes(scene.transcription || scene.synopsis || scene.description || '');
+    const mp4Url = scene.download_url || scene.video_url || '#';
+    const thumbUrl = scene.thumbnail_url || 'https://via.placeholder.com/640x360?text=Noir+Vault+Clip';
 
-        function updateStats(scenes, moviesList) {
-            const uniqueMovies = new Set(scenes.map(s => s.movie_id || (s.movies ? s.movies.title : '')));
-            document.getElementById('stat-movies').innerText = moviesList ? moviesList.length : uniqueMovies.size;
-            document.getElementById('stat-scenes').innerText = scenes.length;
-        }
+    card.innerHTML = `
+      <div class="relative group cursor-pointer" onclick="openModal('${mp4Url}', '${text}', '${title}', '${timecode}')">
+        <img src="${thumbUrl}" alt="${title}" class="w-full h-48 object-cover group-hover:opacity-80 transition-opacity">
+        <div class="absolute top-2 left-2 bg-yellow-600 text-black text-xs font-bold px-2 py-0.5 rounded tracking-wide">${mood}</div>
+        <div class="absolute bottom-2 right-2 bg-black bg-opacity-75 text-gray-300 text-xs px-2 py-0.5 rounded flex items-center gap-1">
+          <span>▶</span> ${duration}s
+        </div>
+      </div>
+      <div class="p-4 flex-1 flex flex-col justify-between">
+        <div>
+          <h3 class="text-white font-bold text-lg mb-1 truncate">${title}</h3>
+          <p class="text-gray-400 text-sm italic mb-3 line-clamp-2">"${scene.transcription || scene.synopsis || 'No transcript available'}"</p>
+        </div>
+        <div class="flex items-center justify-between text-xs text-gray-500 border-t border-gray-800 pt-3 mt-auto">
+          <span>TC: ${timecode}</span>
+          <a href="${mp4Url}" download class="text-yellow-600 hover:text-yellow-500 font-semibold flex items-center gap-1">Download MP4 ↓</a>
+        </div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
 
-        function renderGrid(scenes) {
-            const grid = document.getElementById('scenes-grid');
-            grid.innerHTML = '';
+function formatMovieName(str) {
+  if (!str) return 'Classic Noir';
+  return str.replace(/\.avi|\.mp4/gi, '')
+            .replace(/_/g, ' ')
+            .replace(/\b\w/g, c => c.toUpperCase());
+}
 
-            if (scenes.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-20 text-gray-500">No scene clips found matching filter.</div>`;
-                return;
-            }
+function formatSecondsToTimecode(sec) {
+  const s = Math.floor(sec);
+  const hrs = Math.floor(s / 3600);
+  const mins = Math.floor((s % 3600) / 60);
+  const secs = s % 60;
+  return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+}
 
-            scenes.forEach(scene => {
-                // Determine media paths (local output folder vs download URL)
-                const videoUrl = scene.download_url || (scene.video_filename ? `output/${scene.video_filename}` : '#');
-                const thumbUrl = scene.keyframe_filename ? `output/${scene.keyframe_filename}` : 'https://via.placeholder.com/640x360/111827/d4af37?text=Keyframe+Missing';
-                
-                // Format display title cleanly
-                const displayTitle = scene.movies ? `${scene.movies.title} (${scene.movies.release_year})` : formatMovieName(scene.movie_id);
-                const formatTC = scene.start_timecode || (scene.start_seconds ? formatSecondsToTimecode(scene.start_seconds) : '00:00:00');
+function parseArray(val) {
+  if (Array.isArray(val)) return val;
+  if (typeof val === 'string') {
+    try { return JSON.parse(val); } catch (e) { return [val]; }
+  }
+  return [];
+}
 
-                const card = document.createElement('div');
-                card.className = "bg-gray-900 border border-gray-800 rounded-xl overflow-hidden shadow-lg hover:border-yellow-600/50 transition card-glow flex flex-col justify-between";
-                
-                card.innerHTML = `
-                    <div>
-                        <div class="relative aspect-video group cursor-pointer" onclick="openModal('${videoUrl}', '${escapeQuotes(scene.synopsis || scene.transcription)}', '${escapeQuotes(displayTitle)}', '${formatTC}')">
-                            <img src="${thumbUrl}" alt="Scene Keyframe" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" onerror="this.src='https://via.placeholder.com/640x360/111827/d4af37?text=Film+Noir+Scene'">
-                            <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition flex items-center justify-center">
-                                <div class="w-12 h-12 rounded-full bg-yellow-600/90 text-black flex items-center justify-center font-bold text-lg group-hover:scale-110 transition">▶</div>
-                            </div>
-                            <span class="absolute bottom-2 right-2 bg-black/80 text-white text-[10px] px-2 py-0.5 rounded">${Math.round(scene.duration_seconds || 15)}s</span>
-                            <span class="absolute top-2 left-2 bg-yellow-600/90 text-black font-semibold text-[10px] uppercase px-2 py-0.5 rounded">${scene.mood || 'Noir'}</span>
-                        </div>
+function escapeQuotes(str) {
+  return (str || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+}
 
-                        <div class="p-5">
-                            <h3 class="text-lg font-bold text-white mb-1 capitalize">${displayTitle}</h3>
-                            <p class="text-xs text-gray-400 italic mb-3">"${scene.transcription || scene.synopsis || 'Atmospheric sequence...'}"</p>
-                            
-                            <div class="flex flex-wrap gap-1.5 mb-4">
-                                ${parseArray(scene.noir_tropes).map(t => `<span class="text-[10px] bg-gray-800 text-gray-300 px-2 py-0.5 rounded">${t}</span>`).join('')}
-                            </div>
-                        </div>
-                    </div>
+function filterMood(mood) {
+  activeMood = mood;
+  document.querySelectorAll('.mood-btn').forEach(btn => {
+    btn.classList.remove('bg-yellow-600', 'text-black');
+    btn.classList.add('bg-gray-800', 'text-gray-300');
+  });
+  if (event && event.target) {
+    event.target.classList.add('bg-yellow-600', 'text-black');
+  }
+  applyFilters();
+}
 
-                    <div class="px-5 pb-5 pt-0 flex justify-between items-center text-xs border-t border-gray-800/60 mt-2">
-                        <span class="text-gray-500">TC: ${formatTC}</span>
-                        <a href="${videoUrl}" download class="text-yellow-500 hover:underline font-semibold flex items-center gap-1">
-                            Download MP4 ↓
-                        </a>
-                    </div>
-                `;
-                grid.appendChild(card);
-            });
-        }
+document.getElementById('search-input')?.addEventListener('input', applyFilters);
 
-        function formatMovieName(str) {
-            if (!str) return 'Classic Noir';
-            return str.replace(/\.avi|\.mp4/gi, '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-        }
+function applyFilters() {
+  const query = (document.getElementById('search-input')?.value || '').toLowerCase();
+  const filtered = allScenes.filter(s => {
+    const matchesMood = activeMood === 'all' || (s.mood && s.mood.toLowerCase().includes(activeMood.toLowerCase()));
+    const matchesQuery = !query || 
+      (s.transcription && s.transcription.toLowerCase().includes(query)) ||
+      (s.synopsis && s.synopsis.toLowerCase().includes(query)) ||
+      (s.movie_id && s.movie_id.toLowerCase().includes(query));
+    return matchesMood && matchesQuery;
+  });
+  renderGrid(filtered);
+}
 
-        function formatSecondsToTimecode(sec) {
-            const s = Math.floor(sec);
-            const hrs = Math.floor(s / 3600);
-            const mins = Math.floor((s % 3600) / 60);
-            const secs = s % 60;
-            return `${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-        }
+function openModal(url, text, title, timecode) {
+  const modal = document.getElementById('video-modal');
+  const player = document.getElementById('modal-player');
+  if (!modal || !player) return;
+  player.src = url;
+  document.getElementById('modal-title').innerText = title || 'Scene Clip';
+  document.getElementById('modal-transcription').innerText = `"${text}"`;
+  document.getElementById('modal-timecode').innerText = `Timecode: ${timecode || '00:00:00'}`;
+  document.getElementById('modal-download').href = url;
+  modal.classList.remove('hidden');
+  modal.classList.add('flex');
+  player.play();
+}
 
-        function parseArray(val) {
-            if (Array.isArray(val)) return val;
-            if (typeof val === 'string') {
-                try { return JSON.parse(val); } catch(e) { return [val]; }
-            }
-            return [];
-        }
+function closeModal() {
+  const modal = document.getElementById('video-modal');
+  const player = document.getElementById('modal-player');
+  if (!modal || !player) return;
+  player.pause();
+  modal.classList.remove('flex');
+  modal.classList.add('hidden');
+}
 
-        function escapeQuotes(str) {
-            return (str || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
-        }
-
-        function filterMood(mood) {
-            activeMood = mood;
-            document.querySelectorAll('.mood-btn').forEach(btn => {
-                btn.classList.remove('bg-yellow-600', 'text-black');
-                btn.classList.add('bg-gray-800', 'text-gray-300');
-            });
-            event.target.classList.add('bg-yellow-600', 'text-black');
-
-            applyFilters();
-        }
-
-        document.getElementById('search-input').addEventListener('input', applyFilters);
-
-        function applyFilters() {
-            const query = document.getElementById('search-input').value.toLowerCase();
-            const filtered = allScenes.filter(s => {
-                const matchesMood = activeMood === 'all' || (s.mood && s.mood.toLowerCase().includes(activeMood.toLowerCase()));
-                const matchesQuery = !query || 
-                    (s.transcription && s.transcription.toLowerCase().includes(query)) ||
-                    (s.synopsis && s.synopsis.toLowerCase().includes(query)) ||
-                    (s.movie_id && s.movie_id.toLowerCase().includes(query));
-                return matchesMood && matchesQuery;
-            });
-            renderGrid(filtered);
-        }
-
-        function openModal(url, text, title, timecode) {
-            const modal = document.getElementById('video-modal');
-            const player = document.getElementById('modal-player');
-            player.src = url;
-            document.getElementById('modal-title').innerText = title || 'Scene Clip';
-            document.getElementById('modal-transcription').innerText = `"${text}"`;
-            document.getElementById('modal-timecode').innerText = `Timecode: ${timecode || '00:00:00'}`;
-            document.getElementById('modal-download').href = url;
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
-            player.play();
-        }
-
-        function closeModal() {
-            const modal = document.getElementById('video-modal');
-            const player = document.getElementById('modal-player');
-            player.pause();
-            player.src = '';
-            modal.classList.add('hidden');
-            modal.classList.remove('flex');
-        }
-
-        loadVaultData();
-    </script>
+// Initial auto-load on page load
+document.addEventListener('DOMContentLoaded', loadCatalog);
+</script>
 </body>
 </html>
