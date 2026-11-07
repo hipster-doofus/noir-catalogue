@@ -1,59 +1,480 @@
 {
-  "updated_at": "2026-11-06T21:50:57.357435+00:00",
-  "total_movies": 3,
-  "total_scenes": 9,
-  "genre": "sci-fi",
-  "source": "Internet Archive",
+  "updated_at": "2026-11-07T15:04:20.197735+00:00",
+  "total_movies": 10,
+  "total_scenes": 52,
+  "genre": "mystery",
+  "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
-      "title": "Atom Age Vampire",
-      "year": 1960,
-      "director": "Mario Bava",
-      "archive_id": "atom_age_vampire",
-      "source_provider": "Internet Archive",
-      "video_url": "https://archive.org/download/atom_age_vampire/AtomAgeVampire.mp4",
+      "title": "Murder on the Campus",
+      "year": 1933,
+      "director": "George R. Batcheller",
+      "archive_id": "murder_on_campus",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/murder_on_campus/murder_on_the_campus.mp4",
       "license": "Open Archive",
-      "description": "Taken from IMDB : A stripper is horribly disfigured in a car accident. A brilliant scientist develops a treatment that restores her beauty and falls in love with her. To preserve her appearance the doctor must give her additional treatments using glands taken from murdered women."
+      "description": "Taken from IMDB : A popular young student finds herself accused of a series of murders that have occurred on the college campus. Her boyfriend, a reporter for the local newspaper, knows she didn't do it, and and sets out to prove her innocence and catch the real killer."
     },
     {
-      "title": "Teenagers from Outer Space",
-      "year": 1959,
-      "director": "Tom Graeff",
-      "archive_id": "teenagers_from_outerspace",
-      "source_provider": "Internet Archive",
-      "video_url": "https://archive.org/download/teenagers_from_outerspace/Teenagers_from_Outer_Space.mp4",
-      "license": "Open Archive",
-      "description": "A young alien (David Love) falls for a pretty teenage Earth girl (Dawn Anderson) and they team up to try to stop the plans of his invading cohorts."
-    },
-    {
-      "title": "Black Dragons",
-      "year": 1942,
+      "title": "Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr",
+      "year": 1948,
       "director": "Unknown Director",
-      "archive_id": "BlackDragons",
-      "source_provider": "Internet Archive",
-      "video_url": "https://archive.org/download/BlackDragons/BlackDragons.mp4",
+      "archive_id": "rawdeal1948",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/rawdeal1948/Raw Deal 1948 - Claire Trevor, Dennis O-Keefe, Marsha Hunt, John Ireland, Raymond Burr, Regis Toomey_x264.ia.mp4",
       "license": "Open Archive",
-      "description": "It is prior to the commencement of World War II, and Japan's fiendish Black Dragon Society is hatching an evil plot with the Nazis. They instruct a brilliant scientist, Dr. Melcher, to travel to Japan on a secret mission. There he operates on six Japanese conspirators, transforming them to resemble six American leaders. The actual leaders are murdered and replaced with their likeness and Dr. Melcher is condemned to a lifetime of imprisonment so the secret may die with him."
+      "description": "\u00a0 Raw Deal is a 1948 American film noir crime film directed by Anthony Mann and shot by cinematographer John Alton.The film features Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr."
+    },
+    {
+      "title": "Terror by Night",
+      "year": 1946,
+      "director": "Howard Benedict",
+      "archive_id": "terror_by_night_ipod",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/terror_by_night_ipod/Terror_By_Night.mp4",
+      "license": "Open Archive",
+      "description": "From IMDb : Holmes is hired by Roland Carstairs to prevent the theft of the Star of Rhodesia, an enormous diamond owned by Carstairs' mother, Lady Margaret. Believing the diamond will be stolen on a train trip from London to Edinburgh, Holmes deftly switches diamonds with Lady Margaret while in her compartment. Soon after, Roland is murdered and the fake diamond is stolen. Red herrings abound as Holmes, aided by Dr. Watson and Inspector Lestrade, discover the murderer's hiding place and deduce that long-time foe Moriarty's henchman Colonel Sebastian Moran is somehow involved in the crime."
+    },
+    {
+      "title": "Curtain at Eight",
+      "year": 1933,
+      "director": "Phil Goldstone",
+      "archive_id": "CurtainatEight",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/CurtainatEight/CurtainatEight.mp4",
+      "license": "Open Archive",
+      "description": "An elderly detective (C. Aubrey Smith) sets out to find who murdered a stage actor."
+    },
+    {
+      "title": "Bulldog Drummond Comes Back",
+      "year": 1937,
+      "director": "Unknown Director",
+      "archive_id": "BulldogDrummondComesBack",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/BulldogDrummondComesBack/Bulldog_Comes_Back_1937.mp4",
+      "license": "Open Archive",
+      "description": "Irena Soldanis, the wife of a man Captain Hugh (Bulldog) Drummond sent to the gallows the year before, has kidnapped Drummond's perennial fianc\u00e9e, Phyllis Clavering. Drummond must rescue Phyllis, and the riddles Irena provides send him and his friends on one wild goose chase after another in a plan to eventually trap him and kill he and Phyllis. IMDb Page Stars: John Howard, Louise Campbell, Reginald Denny, E. E. Clive, and John Barrymore Bulldog Drummond Movies Bulldog Drummond Escapes Bulldog Drummond Comes Back Bulldog Drummond's Revenge Bulldog Drummond at Bay Bulldog Drummond in Africa Bulldog Drummond's Peril Bulldog Drummond's Secret Police Bulldog Drummond's Bride Arrest Bulldog Drummond"
+    },
+    {
+      "title": "Midnight Manhunt",
+      "year": 1945,
+      "director": "Maxwell Shane, William C. Thomas, William H. Pine",
+      "archive_id": "midnight_manhunt_ipod",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/midnight_manhunt_ipod/Midnight_Manhunt.mp4",
+      "license": "Open Archive",
+      "description": "Reporter Sue Gallagher (Ann Savage from Detour) finds an infamous gangster's corpse in a wax museum. Her desire for a scoop is hindered by a meddling rival (William Gargan), the museum's goofy maintenance man (Leo Gorcey), and the ruthless killer (B-horror king George Zucco). Flash Web Page FLV file (right click to download)"
+    },
+    {
+      "title": "The Red House",
+      "year": 1947,
+      "director": "Sol Lesser Productions",
+      "archive_id": "TheRedHouse_123",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/TheRedHouse_123/TheRedHousePresentedByMoviePowder.mp4",
+      "license": "Open Archive",
+      "description": "Pete and Ellen have reared Meg as their own, ever since she was a baby and her parents took off. Now a teen, Meg convinces her friend Nath to come help with chores on the farm. When Nath insists on using a short cut home through the woods, Pete gets quite agitated and warns him of screams in the night, of terrors associated with the red house. Curious, Meg and Nath ignore his warnings and begin exploring, getting closer to real danger and the dark secret of the red house."
+    },
+    {
+      "title": "Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict",
+      "year": 1951,
+      "director": "Unknown Director",
+      "archive_id": "ace-in-the-hole1951",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/ace-in-the-hole1951/Ace In The Hole.mp4",
+      "license": "Open Archive",
+      "description": "Ace in the Hole, also known as The Big Carnival, is a 1951 American Film Noir directed by Billy Wilder and starring Kirk Douglas as a cynical, disgraced reporter who stops at nothing to try to regain a job on a major newspaper. The film co-stars Jan Sterling and features Robert Arthur, Richard Benedict and Porter Hall. The story is a biting examination of the seedy relationship between the press, the news it reports and the manner in which it reports it. The film also shows how a gullible public can be manipulated by the press.\u00a0 In 2017, the film was selected for preservation in the United States National Film Registry by the Library of Congress as being \"culturally, historically, or aesthetically significant\". These Wikipedia and Film Nolr of the Week articles provide more information about this movie."
+    },
+    {
+      "title": "Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)",
+      "year": 1931,
+      "director": "Julius Hagen",
+      "archive_id": "SherlockHolmes-SleepingCardinal",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/SherlockHolmes-SleepingCardinal/SherlockHolmesTheSleepingCardinal.mp4",
+      "license": "Open Archive",
+      "description": "This rare Sherlock Holmes film was released at the same time as the Raymond Massey picture \"The Speckled Band\". The story is partly based on two Conan Doyle short stories: \"The Final Problem\" and \"The Empty House\". Sceptical about the potential success of the film, the producers sold the rights to the film to \"First Division Pictures\" for 800 pounds. The film was released in July 1931 under the title \"Sherlock Holmes' Fatal Hour\". It was very successful, running for over a month on Broadway, which was unprecidented for a British produced programmer. Reviews hailed the film for \"bringing the real Sherlock Holmes to the screen.\" This prompted 4 more movies in the series The Missing Rembrandt (still considered lost), The Sign of Four , The Triumph of Sherlock Holmes and The Silver Blaze/Murder at the Baskervilles . This film was deemed lost when the only known print (a 16 mm reduction print of the US version) went missing after being shown at a Sherlock Holmes Society reception for Arthur Wontner in 1955. This version comes from a second generation copy with the titles replaced due to focus/framing issues. PLEASE NOTE: The film is public domain. The above descriptive text is not. Please ask permission before reusing this text in any way."
+    },
+    {
+      "title": "Hollywood Stadium Mystery",
+      "year": 1938,
+      "director": "Unknown Director",
+      "archive_id": "Hollywood_Stadium_Mystery_1938",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Hollywood_Stadium_Mystery_1938/Hollywood_Stadium_Mystery.mp4",
+      "license": "Open Archive",
+      "description": "A boxer is killed in the ring by poison."
     }
   ],
   "scenes": [
     {
-      "scene_id": "atom_age_vampire_scene_1",
-      "movie_id": "atom_age_vampire",
+      "scene_id": "murder_on_campus_scene_1",
+      "movie_id": "murder_on_campus",
       "scene_number": 1,
-      "start_timecode": "00:24:58",
-      "end_timecode": "00:25:19",
-      "start_seconds": 1498.224224,
-      "end_seconds": 1519.645646,
-      "duration_seconds": 21.421422,
-      "video_filename": "atom_age_vampire_scene_1_21s_1080p.mp4",
-      "keyframe_filename": "atom_age_vampire_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_1_21s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_1_thumb.jpg",
-      "transcription": "Get back in bed now. You have suffered great physical shock with all this. You've recovered, yes, but we must wait a bit. We must be certain what the results are.",
-      "visual_description": "Sequence from 'Atom Age Vampire' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atom Age Vampire' (1960).",
+      "start_timecode": "00:11:11",
+      "end_timecode": "00:11:24",
+      "start_seconds": 671.0,
+      "end_seconds": 684.113113,
+      "duration_seconds": 13.113113,
+      "video_filename": "murder_on_campus_scene_1_13s_1080p.mp4",
+      "keyframe_filename": "murder_on_campus_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_1_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_1_thumb.jpg",
+      "transcription": "I suppose you could say I'm in charge. I'm house manager. You and the man want to see. Come on inside. Let me stay up. Hey, what's up? Hold on. Hold on. Stay up. Hold on. No. No.",
+      "visual_description": "Sequence from 'Murder on the Campus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder on the Campus' (1933).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "murder_on_campus_scene_2",
+      "movie_id": "murder_on_campus",
+      "scene_number": 2,
+      "start_timecode": "00:11:24",
+      "end_timecode": "00:11:27",
+      "start_seconds": 684.113113,
+      "end_seconds": 687.716717,
+      "duration_seconds": 3.603604,
+      "video_filename": "murder_on_campus_scene_2_3s_1080p.mp4",
+      "keyframe_filename": "murder_on_campus_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_2_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_2_thumb.jpg",
+      "transcription": "You hear anything about what happened to Camp in early time? Yes. One of the-",
+      "visual_description": "Sequence from 'Murder on the Campus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder on the Campus' (1933).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "murder_on_campus_scene_3",
+      "movie_id": "murder_on_campus",
+      "scene_number": 3,
+      "start_timecode": "00:11:27",
+      "end_timecode": "00:11:53",
+      "start_seconds": 687.716717,
+      "end_seconds": 713.042042,
+      "duration_seconds": 25.325325,
+      "video_filename": "murder_on_campus_scene_3_25s_1080p.mp4",
+      "keyframe_filename": "murder_on_campus_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_3_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_3_thumb.jpg",
+      "transcription": "The brothers called up. Who killed them, Captain? I'm not offering an opinion yet. Suppose, sir, you tell me. What you know about Janet? Well, one of our alumni suggested we urge Janet to come here. Find them a job and all that.",
+      "visual_description": "Sequence from 'Murder on the Campus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder on the Campus' (1933).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "murder_on_campus_scene_4",
+      "movie_id": "murder_on_campus",
+      "scene_number": 4,
+      "start_timecode": "00:11:53",
+      "end_timecode": "00:13:40",
+      "start_seconds": 713.042042,
+      "end_seconds": 820.049049,
+      "duration_seconds": 107.007007,
+      "video_filename": "murder_on_campus_scene_4_107s_1080p.mp4",
+      "keyframe_filename": "murder_on_campus_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_4_107s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_4_thumb.jpg",
+      "transcription": "Well, Janning's arrived. We got him a job as a time master. He had a fair knowledge of music. Well, anyway, he went out for track. He proved a big disappointment. Yes, yes. Let's get to the man himself. Well, he was a likable chap, good mixer, good company, but he hadn't any. Well, he lacked the cultural background the college man should have. In your opinion, had he ever been to college before? I don't think he's had more than two years of high school. Any parents, relatives? He never mentioned any. Did he go out much? Quite a bit. Very often, he stayed away all night. Who were his friends? I haven't any idea. How about girls? I don't believe he was greatly interested in women. When did you have your last house party? About ten days ago. Who did you bring? Come on, come on. You're wasting time. I want to know. He bought Anne Michaels. Oh. Did he rush her much? Yes, quite a bit. What kind of a girl is she? She's a very charming young lady. Where'd she live? Number 12, Addison Way. Sorority house, huh? No. Does she belong to sorority? No. Why not? Perhaps you'd better ask her. Well, don't worry my boy. I will. Farmer. See that he doesn't get to a telephone. I want a surprise. Oh, good. See? I've got you. Sit down now, fella. Say, what did you think about this fellow Wilson? I ain't gathered the head and mouth Johnny's horse and poison for one thing. Got a crush on Anne Michaels for another. That's not funny.",
+      "visual_description": "Sequence from 'Murder on the Campus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder on the Campus' (1933).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "murder_on_campus_scene_5",
+      "movie_id": "murder_on_campus",
+      "scene_number": 5,
+      "start_timecode": "00:13:40",
+      "end_timecode": "00:13:52",
+      "start_seconds": 820.049049,
+      "end_seconds": 832.261261,
+      "duration_seconds": 12.212212,
+      "video_filename": "murder_on_campus_scene_5_12s_1080p.mp4",
+      "keyframe_filename": "murder_on_campus_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_5_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/murder_on_campus_scene_5_thumb.jpg",
+      "transcription": "And Michael's, I'm Captain Kind of the Police Department, as Mr. Barton of The Time Star. How are you doing? I'd like to talk to you a minute. Please come on.",
+      "visual_description": "Sequence from 'Murder on the Campus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder on the Campus' (1933).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "rawdeal1948_scene_1",
+      "movie_id": "rawdeal1948",
+      "scene_number": 1,
+      "start_timecode": "00:10:30",
+      "end_timecode": "00:11:00",
+      "start_seconds": 630.56,
+      "end_seconds": 660.44,
+      "duration_seconds": 29.88,
+      "video_filename": "rawdeal1948_scene_1_29s_1080p.mp4",
+      "keyframe_filename": "rawdeal1948_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_1_29s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_1_thumb.jpg",
+      "transcription": "You're okay, baby. It's perfect. Why not? I guess I ought to know your size by now, Joe. Joe, it's so good to be close to you, can't I? Hey, stand on wheel. Have to keep out of that dragnet. Where's the map? In your shirt pocket.",
+      "visual_description": "Sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' (1948).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "rawdeal1948_scene_2",
+      "movie_id": "rawdeal1948",
+      "scene_number": 2,
+      "start_timecode": "00:11:04",
+      "end_timecode": "00:11:55",
+      "start_seconds": 664.04,
+      "end_seconds": 715.64,
+      "duration_seconds": 51.6,
+      "video_filename": "rawdeal1948_scene_2_51s_1080p.mp4",
+      "keyframe_filename": "rawdeal1948_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_2_51s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_2_thumb.jpg",
+      "transcription": "We'll make it. Joe, Joe look inside the bag. There are two passports and tickets for Panama. We're sailing for Frisco in three days. Three days? It's kind of tight. Is the only boat I could get? How about Rick? When do I meet him? Day after tomorrow, Crescent City. Good. You're a wonderful baby. What do I want to do without you? Remember to tell me later. With gestures. What's that tomorrow? What's that tomorrow? It can't be. I just had a June. Well don't tell me you didn't have sense enough to fill it up. Maybe not about you, Joe, but I'm not crazy. Here's your answer. Some of them got the gas tank.",
+      "visual_description": "Sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' (1948).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "rawdeal1948_scene_3",
+      "movie_id": "rawdeal1948",
+      "scene_number": 3,
+      "start_timecode": "00:16:02",
+      "end_timecode": "00:16:31",
+      "start_seconds": 962.24,
+      "end_seconds": 991.4,
+      "duration_seconds": 29.16,
+      "video_filename": "rawdeal1948_scene_3_29s_1080p.mp4",
+      "keyframe_filename": "rawdeal1948_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_3_29s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_3_thumb.jpg",
+      "transcription": "a little park to cut off to Seleda. Busy little guys. How about it? You're going to behave yourself or? All right, Joe. All right. You win. Maybe I was all wrong. Good. Good. I'll make it a lot easier on all of us. I'll have my partner come up. Pardon me? Yeah. Do you mind if I put some clothes on? I don't know. Go ahead.",
+      "visual_description": "Sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' (1948).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "rawdeal1948_scene_4",
+      "movie_id": "rawdeal1948",
+      "scene_number": 4,
+      "start_timecode": "00:16:31",
+      "end_timecode": "00:17:11",
+      "start_seconds": 991.4,
+      "end_seconds": 1031.24,
+      "duration_seconds": 39.84,
+      "video_filename": "rawdeal1948_scene_4_39s_1080p.mp4",
+      "keyframe_filename": "rawdeal1948_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_4_39s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_4_thumb.jpg",
+      "transcription": "I'm engaged. Hey. Hey, Cap. All in, I'll be right down. Okay, okay. Okay. Okay.",
+      "visual_description": "Sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' (1948).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "rawdeal1948_scene_5",
+      "movie_id": "rawdeal1948",
+      "scene_number": 5,
+      "start_timecode": "00:21:44",
+      "end_timecode": "00:22:44",
+      "start_seconds": 1304.12,
+      "end_seconds": 1364.0,
+      "duration_seconds": 59.88,
+      "video_filename": "rawdeal1948_scene_5_59s_1080p.mp4",
+      "keyframe_filename": "rawdeal1948_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_5_59s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/rawdeal1948_scene_5_thumb.jpg",
+      "transcription": "What about the key? Leave him. Keep waiting in a minute. All right, take your time. Want to stretch our legs anyhow. Let's go. Hey.",
+      "visual_description": "Sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Raw Deal (1948) Directed by Anthony Mann, Featuring Dennis O'Keefe, Claire Trevor, Marsha Hunt, John Ireland, Raymond Burr' (1948).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "terror_by_night_ipod_scene_1",
+      "movie_id": "terror_by_night_ipod",
+      "scene_number": 1,
+      "start_timecode": "00:11:29",
+      "end_timecode": "00:11:54",
+      "start_seconds": 689.0,
+      "end_seconds": 714.325325,
+      "duration_seconds": 25.325325,
+      "video_filename": "terror_by_night_ipod_scene_1_25s_1080p.mp4",
+      "keyframe_filename": "terror_by_night_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_1_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_1_thumb.jpg",
+      "transcription": "...",
+      "visual_description": "Sequence from 'Terror by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Terror by Night' (1946).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "terror_by_night_ipod_scene_2",
+      "movie_id": "terror_by_night_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:13:12",
+      "end_timecode": "00:14:01",
+      "start_seconds": 792.803804,
+      "end_seconds": 841.352352,
+      "duration_seconds": 48.548548,
+      "video_filename": "terror_by_night_ipod_scene_2_48s_1080p.mp4",
+      "keyframe_filename": "terror_by_night_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_2_48s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_2_thumb.jpg",
+      "transcription": "That's a big quick, isn't it, even for you? Is this the, uh... Yes. The star of Rhodesia was in this box, not 45 minutes ago. Very, you know. I saw it. It might be here somewhere. I don't know if I'm looking for it. Mr. Odd, killers got it. Oh, there you are, Holmes. How about joining us in again, his body, but it wasn't. Body? Just got it. How do you know it's murder, Mr. Holmes? Murder? Oh, I say. Who are you? Me to that complete friend of Dr. Watson's. Oh, what? What makes you so sure is murder, Mr. Holmes? The door was locked. Every attendant has a key. Did you open this door for anyone to end the last hour? No, sir. The key about out of your possession. It never is, so it's on a change.",
+      "visual_description": "Sequence from 'Terror by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Terror by Night' (1946).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "terror_by_night_ipod_scene_3",
+      "movie_id": "terror_by_night_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:22:20",
+      "end_timecode": "00:22:57",
+      "start_seconds": 1340.151151,
+      "end_seconds": 1377.688689,
+      "duration_seconds": 37.537538,
+      "video_filename": "terror_by_night_ipod_scene_3_37s_1080p.mp4",
+      "keyframe_filename": "terror_by_night_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_3_37s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_3_thumb.jpg",
+      "transcription": "I didn't do it, sir. I swear I didn't do it. I can prove it through. They were homes. I'll get out of here and join your silly friend. Did you discover anything, Watson? Yes. He was a very suspicious character. He tried to put me off the scent from the little I heard he seemed reasonably successful. Okay, you're not going to let him over like Professor Kilbin discouraged you, are you? Yeah. Why don't you try this one? You see God better? Yes, of course. All right. Do you mind if I come in? You may.",
+      "visual_description": "Sequence from 'Terror by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Terror by Night' (1946).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "terror_by_night_ipod_scene_4",
+      "movie_id": "terror_by_night_ipod",
+      "scene_number": 4,
+      "start_timecode": "00:23:31",
+      "end_timecode": "00:24:02",
+      "start_seconds": 1411.122122,
+      "end_seconds": 1442.2532529999999,
+      "duration_seconds": 31.131131,
+      "video_filename": "terror_by_night_ipod_scene_4_31s_1080p.mp4",
+      "keyframe_filename": "terror_by_night_ipod_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_4_31s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_4_thumb.jpg",
+      "transcription": "Is this door was kept lock conducted? Yes, sir. The guard and myself have keys. Guard homes? The thieves, the thieves? Well, come on, speak up. There are a couple down there, Mrs. Chakra. Yes, they confess. Confessed? Welcome down. Getting the third degree. And you left the mungard in? I told them not to run away. Don't ever talk with them. Oh, it's, uh, you again. It might interest you to know that I've just caught the thieves.",
+      "visual_description": "Sequence from 'Terror by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Terror by Night' (1946).",
       "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
@@ -61,53 +482,134 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
         "black and white"
       ]
     },
     {
-      "scene_id": "atom_age_vampire_scene_2",
-      "movie_id": "atom_age_vampire",
+      "scene_id": "terror_by_night_ipod_scene_5",
+      "movie_id": "terror_by_night_ipod",
+      "scene_number": 5,
+      "start_timecode": "00:24:37",
+      "end_timecode": "00:25:05",
+      "start_seconds": 1477.188188,
+      "end_seconds": 1505.716717,
+      "duration_seconds": 28.528529,
+      "video_filename": "terror_by_night_ipod_scene_5_28s_1080p.mp4",
+      "keyframe_filename": "terror_by_night_ipod_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_5_28s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/terror_by_night_ipod_scene_5_thumb.jpg",
+      "transcription": "Depots. Dr. Watson, does this look like a diamond? Not very much. Don't you mention it? What's all that about a confession? When I came in here before, I said that they took it. Well, you'll please apply to his doctor by opening him. Please, business. His time wasn't entirely wasted, Mr. Odd. At least you've recovered the teapot. Thank you, Holmes. Depots. For the charges, Mr. Watson, what's he get? Humiliation and abuse to the start of all people. If you don't know what's wrong with all the people. If you don't know what's wrong with all the people.",
+      "visual_description": "Sequence from 'Terror by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Terror by Night' (1946).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CurtainatEight_scene_1",
+      "movie_id": "CurtainatEight",
+      "scene_number": 1,
+      "start_timecode": "00:12:15",
+      "end_timecode": "00:13:06",
+      "start_seconds": 735.801802,
+      "end_seconds": 786.452452,
+      "duration_seconds": 50.65065,
+      "video_filename": "CurtainatEight_scene_1_50s_1080p.mp4",
+      "keyframe_filename": "CurtainatEight_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_1_50s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_1_thumb.jpg",
+      "transcription": "Oh, baby, can I see him?",
+      "visual_description": "Sequence from 'Curtain at Eight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Curtain at Eight' (1933).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CurtainatEight_scene_2",
+      "movie_id": "CurtainatEight",
       "scene_number": 2,
-      "start_timecode": "00:35:09",
-      "end_timecode": "00:35:21",
-      "start_seconds": 2109.235235,
-      "end_seconds": 2121.747748,
-      "duration_seconds": 12.512513,
-      "video_filename": "atom_age_vampire_scene_2_12s_1080p.mp4",
-      "keyframe_filename": "atom_age_vampire_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_2_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_2_thumb.jpg",
-      "transcription": "She was from Cherbourg. Monique saved there. You will find her identity card and papers in her room. She suffered from dizzy spells and gravitation. I should show you something.",
-      "visual_description": "Sequence from 'Atom Age Vampire' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atom Age Vampire' (1960).",
-      "mood": "Melancholic",
+      "start_timecode": "00:17:30",
+      "end_timecode": "00:17:56",
+      "start_seconds": 1050.716717,
+      "end_seconds": 1076.342342,
+      "duration_seconds": 25.625625,
+      "video_filename": "CurtainatEight_scene_2_25s_1080p.mp4",
+      "keyframe_filename": "CurtainatEight_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_2_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_2_thumb.jpg",
+      "transcription": "Oh, it has been terrible to leave without seeing you. The river was out of its banks. You barely managed to get through. I don't want to go. I won't go. Come young lately. We have exactly ten minutes to catch the boat. Yes, yes, we'll leave. We better hurry. We better hurry.",
+      "visual_description": "Sequence from 'Curtain at Eight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Curtain at Eight' (1933).",
+      "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
         "black and white"
       ]
     },
     {
-      "scene_id": "atom_age_vampire_scene_3",
-      "movie_id": "atom_age_vampire",
+      "scene_id": "CurtainatEight_scene_3",
+      "movie_id": "CurtainatEight",
       "scene_number": 3,
-      "start_timecode": "00:37:27",
-      "end_timecode": "00:37:49",
-      "start_seconds": 2247.073073,
-      "end_seconds": 2269.395395,
-      "duration_seconds": 22.322322,
-      "video_filename": "atom_age_vampire_scene_3_22s_1080p.mp4",
-      "keyframe_filename": "atom_age_vampire_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_3_22s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/atom_age_vampire_scene_3_thumb.jpg",
-      "transcription": "consequences in these victims that's the most intelligent question well the relationship between body and soul is not yet been established a problem we can let go by I think or am I wrong well then doctor I've made out the",
-      "visual_description": "Sequence from 'Atom Age Vampire' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atom Age Vampire' (1960).",
+      "start_timecode": "00:18:24",
+      "end_timecode": "00:19:09",
+      "start_seconds": 1104.770771,
+      "end_seconds": 1149.415415,
+      "duration_seconds": 44.644644,
+      "video_filename": "CurtainatEight_scene_3_44s_1080p.mp4",
+      "keyframe_filename": "CurtainatEight_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_3_44s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Curtain at Eight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Curtain at Eight' (1933).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CurtainatEight_scene_4",
+      "movie_id": "CurtainatEight",
+      "scene_number": 4,
+      "start_timecode": "00:19:09",
+      "end_timecode": "00:19:36",
+      "start_seconds": 1149.415415,
+      "end_seconds": 1176.042042,
+      "duration_seconds": 26.626627,
+      "video_filename": "CurtainatEight_scene_4_26s_1080p.mp4",
+      "keyframe_filename": "CurtainatEight_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_4_26s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_4_thumb.jpg",
+      "transcription": "I haven't had an evening with you alone since Judge Samuels made you a leading lady. You're not taking this dare to do this too seriously are you? Got it. I've got to tell you. Bad news. I feel it. I want to end our engagement. I thought that was it. I'm sorry. Who is it that actor?",
+      "visual_description": "Sequence from 'Curtain at Eight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Curtain at Eight' (1933).",
       "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
@@ -115,26 +617,188 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
         "black and white"
       ]
     },
     {
-      "scene_id": "teenagers_from_outerspace_scene_1",
-      "movie_id": "teenagers_from_outerspace",
+      "scene_id": "CurtainatEight_scene_5",
+      "movie_id": "CurtainatEight",
+      "scene_number": 5,
+      "start_timecode": "00:22:12",
+      "end_timecode": "00:23:08",
+      "start_seconds": 1332.398398,
+      "end_seconds": 1388.654655,
+      "duration_seconds": 56.256257,
+      "video_filename": "CurtainatEight_scene_5_56s_1080p.mp4",
+      "keyframe_filename": "CurtainatEight_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_5_56s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CurtainatEight_scene_5_thumb.jpg",
+      "transcription": "What do you think? Put this over there, will you, dear? Of course. Why, then? Yes, darling. Do you really love me? How can you ask? I just wanted to hear you say it. Heh heh. Why, then? Mm hmm. Do you honestly think I might get that lead with you in New York? Why? Who would have been admitted to set? Just you and me. It'll be wonderful. Mm hmm. Mm hmm.",
+      "visual_description": "Sequence from 'Curtain at Eight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Curtain at Eight' (1933).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondComesBack_scene_1",
+      "movie_id": "BulldogDrummondComesBack",
       "scene_number": 1,
       "start_timecode": "00:19:34",
-      "end_timecode": "00:20:16",
-      "start_seconds": 1174.399875,
-      "end_seconds": 1216.31675,
-      "duration_seconds": 41.916875,
-      "video_filename": "teenagers_from_outerspace_scene_1_41s_1080p.mp4",
-      "keyframe_filename": "teenagers_from_outerspace_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_1_41s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_1_thumb.jpg",
-      "transcription": "What's the matter you act like you've never seen the inside an automobile before What is this? The gear shift where have you been all your life the gear shift tell me what it is for now look mr I didn't offer you a ride to give no driving lesson tell me Sure sure I didn't mean anything Here's the clutch when I push it in I change gears low second and high and to halt the vehicle When I want to stop I press the brake right here and this the starter and ignition switch and the fuel What is it use? Are you kidding gasoline? Of course? Here's a gas pedal right here. Hmm. It's about time. I have a tank feel",
-      "visual_description": "Sequence from 'Teenagers from Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Teenagers from Outer Space' (1959).",
+      "end_timecode": "00:20:07",
+      "start_seconds": 1174.6716,
+      "end_seconds": 1207.6045,
+      "duration_seconds": 32.9329,
+      "video_filename": "BulldogDrummondComesBack_scene_1_32s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondComesBack_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_1_32s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_1_thumb.jpg",
+      "transcription": "And that's how you all go. I'm sure you'll see. There's something that's in the room. I'm glad that's what I want. I'm glad that's what I want. I'm glad that's what I want. I want to know. I want to know. I want to know. You",
+      "visual_description": "Sequence from 'Bulldog Drummond Comes Back' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond Comes Back' (1937).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondComesBack_scene_2",
+      "movie_id": "BulldogDrummondComesBack",
+      "scene_number": 2,
+      "start_timecode": "00:22:35",
+      "end_timecode": "00:23:01",
+      "start_seconds": 1355.9527,
+      "end_seconds": 1381.4782,
+      "duration_seconds": 25.5255,
+      "video_filename": "BulldogDrummondComesBack_scene_2_25s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondComesBack_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_2_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_2_thumb.jpg",
+      "transcription": "Martin Bitter. Bye, Joseph.",
+      "visual_description": "Sequence from 'Bulldog Drummond Comes Back' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond Comes Back' (1937).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondComesBack_scene_3",
+      "movie_id": "BulldogDrummondComesBack",
+      "scene_number": 3,
+      "start_timecode": "00:23:18",
+      "end_timecode": "00:23:51",
+      "start_seconds": 1398.3951,
+      "end_seconds": 1431.6283,
+      "duration_seconds": 33.2332,
+      "video_filename": "BulldogDrummondComesBack_scene_3_33s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondComesBack_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_3_33s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_3_thumb.jpg",
+      "transcription": "I know. Where are we? My friend. They were sitting over there. Oh, that's it. They're not good enough, sir. They're not good enough. Oh, you better bring me some. I'll tell him. She's done once, too, once again. You",
+      "visual_description": "Sequence from 'Bulldog Drummond Comes Back' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond Comes Back' (1937).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondComesBack_scene_4",
+      "movie_id": "BulldogDrummondComesBack",
+      "scene_number": 4,
+      "start_timecode": "00:24:09",
+      "end_timecode": "00:24:51",
+      "start_seconds": 1449.8465,
+      "end_seconds": 1491.4881,
+      "duration_seconds": 41.6416,
+      "video_filename": "BulldogDrummondComesBack_scene_4_41s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondComesBack_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_4_41s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_4_thumb.jpg",
+      "transcription": "You can find Phyllis, pay attention to this. In Limehouse, beneath the setting sun, you'll find what sounds like the number one. Go inside, and the number three will bring you straight to me. Oh, now, I've never adapted for. You're going to a game. I had to come to Angla's rest to make certain you are keeping Colonel Newerton out of this. Thank you. Thank you, sir. Well, there you are. Jenny and I will never mind that. Rig this.",
+      "visual_description": "Sequence from 'Bulldog Drummond Comes Back' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond Comes Back' (1937).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondComesBack_scene_5",
+      "movie_id": "BulldogDrummondComesBack",
+      "scene_number": 5,
+      "start_timecode": "00:25:04",
+      "end_timecode": "00:25:31",
+      "start_seconds": 1504.2008,
+      "end_seconds": 1531.5281,
+      "duration_seconds": 27.3273,
+      "video_filename": "BulldogDrummondComesBack_scene_5_27s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondComesBack_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_5_27s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondComesBack_scene_5_thumb.jpg",
+      "transcription": "Well, to begin with, I have a sister. Yes, darling, and she lives near a line house. Well, and I know the place like a book. Don't you think you're taking unnecessary risk, Colonel Nielsen? Hm.",
+      "visual_description": "Sequence from 'Bulldog Drummond Comes Back' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond Comes Back' (1937).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "NancyDrewReporter_scene_1",
+      "movie_id": "NancyDrewReporter",
+      "scene_number": 1,
+      "start_timecode": "00:27:58",
+      "end_timecode": "00:29:07",
+      "start_seconds": 1678.0,
+      "end_seconds": 1747.557965,
+      "duration_seconds": 69.557965,
+      "video_filename": "NancyDrewReporter_scene_1_69s_1080p.mp4",
+      "keyframe_filename": "NancyDrewReporter_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/NancyDrewReporter_scene_1_69s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/NancyDrewReporter_scene_1_thumb.jpg",
+      "transcription": "Well, why don't you stand up? Come on, get away, break it up. Hi, Dad. Come on, Dad. Jim, let's go. You are. What are you doing up so late? You get back to sleep. Good night. Oh, but Dad, I can't go to sleep. What's the matter? Nothing. No? No? Come on in, tell me all about it. Now. Dad, you always taught me to do right, haven't you? I tried to, Nancy. Dad, if I believed in something I knew was right, I should always live up to it. More than that. Don't back down an inch. The closing you made a promise, you knew was right. I bet you you'd keep it. Certainly. The person who fails to live up to his promise is a weakness. And you'd never want me to break a promise, would you? Of course not, Nancy. If you make a promise in good faith, I'd expect you to live up to it, no matter what it costs you. And you'd help me live up to it?",
+      "visual_description": "Sequence from 'Nancy Drew ...Reporter' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Nancy Drew ...Reporter' (1939).",
       "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
@@ -142,53 +806,26 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
         "black and white"
       ]
     },
     {
-      "scene_id": "teenagers_from_outerspace_scene_2",
-      "movie_id": "teenagers_from_outerspace",
+      "scene_id": "NancyDrewReporter_scene_2",
+      "movie_id": "NancyDrewReporter",
       "scene_number": 2,
-      "start_timecode": "00:22:27",
-      "end_timecode": "00:22:35",
-      "start_seconds": 1347.44775,
-      "end_seconds": 1355.45575,
-      "duration_seconds": 8.008,
-      "video_filename": "teenagers_from_outerspace_scene_2_8s_1080p.mp4",
-      "keyframe_filename": "teenagers_from_outerspace_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_2_8s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_2_thumb.jpg",
-      "transcription": "I'll call you as soon as I get through, okay? Okay Joe. And guess a reporter's life can...",
-      "visual_description": "Sequence from 'Teenagers from Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Teenagers from Outer Space' (1959).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "teenagers_from_outerspace_scene_3",
-      "movie_id": "teenagers_from_outerspace",
-      "scene_number": 3,
-      "start_timecode": "00:23:35",
-      "end_timecode": "00:23:50",
-      "start_seconds": 1415.2655,
-      "end_seconds": 1430.03025,
-      "duration_seconds": 14.76475,
-      "video_filename": "teenagers_from_outerspace_scene_3_14s_1080p.mp4",
-      "keyframe_filename": "teenagers_from_outerspace_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_3_14s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/teenagers_from_outerspace_scene_3_thumb.jpg",
-      "transcription": "with a dog tag. What did you know about the address and I told him how to find it. Where? Where did you send him? It was an address on Willowcrest Drive. 1243 I think. Tell me how to get there. Just drive down there about three blocks. That's Willowcrest. 1243 it's only a few...",
-      "visual_description": "Sequence from 'Teenagers from Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Teenagers from Outer Space' (1959).",
+      "start_timecode": "00:29:07",
+      "end_timecode": "00:31:50",
+      "start_seconds": 1747.557965,
+      "end_seconds": 1910.318599,
+      "duration_seconds": 162.760634,
+      "video_filename": "NancyDrewReporter_scene_2_162s_1080p.mp4",
+      "keyframe_filename": "NancyDrewReporter_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/NancyDrewReporter_scene_2_162s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/NancyDrewReporter_scene_2_thumb.jpg",
+      "transcription": "Certainly. What kind of a father do you think I am? Well, then, you're going to defend Yula Denning because I promised her you would. What? Not then. You just said you'd help me keep a promise. Nancy, you tricked me into this. You're always doing that to me. No, I won't have... Well, all right. If you can give me any reason to believe that Yula Denning is innocent, I'll take her case. Oh, Dad, I knew you would. Well, Ted and I went off to that Lambit house this afternoon. I stayed dead and found that tin of sodium pheronine, the one that Miss Denning claims could have had fingerprints on it. You two went out there alone? Uh-huh. And I know it was important evidence because that man with the funny ear chased me out of the basement. And, Dad, that's not the worst of it. When I was taking that tinned out of the place, a woman stole it from me, so that proves other people are mixed up in it. You should have gone to the police in the first place. Oh, I know it. Everything's gone wrong. I've failed all around. Maybe I'm just not intelligent. That's right. Dad! Oh, I mean, darling, everybody makes mistakes. Don't you see, Dad? If this Denning's convicted, it'll be my fault. Because I was foolish enough to only have this, but it may be safer. I'm responsible. Well, don't worry, Nancy. I'll see you with that in the first thing in the morning. Oh, Dad, honestly, I feel ten years younger. Don't be too enthusiastic. So far, there isn't a stick of evidence we could take into court. Look, there won't be if you can get hold of that man for the funny years. You think you'd know him again if you saw him? Was that here? I'll say. It looks like one of Abby's poppos. Oh, and he's pom-a-power here? What? I'm gonna pom-a-power him anyway. What did you say? I'm gonna tell him to stand here, Nancy. Well, how can you expect him splashing around like a... ...still after a fish? That's no way to talk to your father. Oh, Dad, it's knocking! Oh, why don't you take them out of here? Here, here's a towel. Oh, dear, now that they start all over again. I said that that man here looked like one of Abby's poppos. I said it was probably a cola-flower here. That might indicate that he was a boxer or a wrestler. Really? What connection such a man could have with this case is more than I can see. Dad, I fell all along if that man was a funny year with a clue. I think you want to do something about him. I'm gonna do something about a girl with a funny face. Come on, baby, you're going to bed. Oh, babe, don't be dumb. I know, baby. You'll always be your daddy's baby. I won't be anybody's baby. Everybody loves a baby. That's why I'm in love with you. Pretty baby, baby. Pretty baby. Dad, don't be dumb! Oh! Good night, baby. Good night, baby. Good night, baby. I'm going to leave you now. Oh, Dad, we've got to talk this thing over. In the morning, the morning. The bright and early morning.",
+      "visual_description": "Sequence from 'Nancy Drew ...Reporter' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Nancy Drew ...Reporter' (1939).",
       "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
@@ -196,26 +833,242 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
         "black and white"
       ]
     },
     {
-      "scene_id": "BlackDragons_scene_1",
-      "movie_id": "BlackDragons",
+      "scene_id": "midnight_manhunt_ipod_scene_1",
+      "movie_id": "midnight_manhunt_ipod",
       "scene_number": 1,
-      "start_timecode": "00:41:08",
-      "end_timecode": "00:41:23",
-      "start_seconds": 2468.5729,
-      "end_seconds": 2483.5879,
-      "duration_seconds": 15.015,
-      "video_filename": "BlackDragons_scene_1_15s_1080p.mp4",
-      "keyframe_filename": "BlackDragons_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_1_15s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_1_thumb.jpg",
+      "start_timecode": "00:17:13",
+      "end_timecode": "00:17:49",
+      "start_seconds": 1033.44044,
+      "end_seconds": 1069.176176,
+      "duration_seconds": 35.735736,
+      "video_filename": "midnight_manhunt_ipod_scene_1_35s_1080p.mp4",
+      "keyframe_filename": "midnight_manhunt_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_1_35s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_1_thumb.jpg",
+      "transcription": "Give me a buzz. I didn't know if anything was up. It wasn't worth investigating, Clutch. Hey Pete, you got a match? I thought I'd throw any of my pickin' those things up out of the street. Out of the street? Lobby, you have to build more. What do you mean out of the street? Oh, Mr. Willis, haven't seen you around lately. Yeah, that's right. What happened with you and Gallagher? Did the Milk of Romance slightly curdled? Well, uh, shall we say, temporarily soured, oh boy? She thinks I shoot craps with loaded dice. Has she got anything to do with that Washington assignment she went home on last week? Was she lost her expense account? Where is she now? Upstairs? Let's go in here and see what's going on. Right.",
+      "visual_description": "Sequence from 'Midnight Manhunt' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Midnight Manhunt' (1945).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "midnight_manhunt_ipod_scene_2",
+      "movie_id": "midnight_manhunt_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:18:53",
+      "end_timecode": "00:19:41",
+      "start_seconds": 1133.640641,
+      "end_seconds": 1181.688689,
+      "duration_seconds": 48.048048,
+      "video_filename": "midnight_manhunt_ipod_scene_2_48s_1080p.mp4",
+      "keyframe_filename": "midnight_manhunt_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_2_48s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_2_thumb.jpg",
+      "transcription": "I don't know, maybe I'll do that, pal. She's gone to bed. Yeah, she's retarded for the evening. She called out there a few minutes ago and told me to tell you that it was all a mistake. A mistake? Yeah. No, that ain't like Gallagher. She don't play, hunches. Oh, believe me, pal. She'd be highly insulted if you ever spoiled her sleep. That she'd be inflamed. Yeah. That's the last. Spoil her sleep. Oh, sorry, oh boy. Goodbye. Goodbye. What do you think you're in, Pete? See you later. I'm gonna go with you, maybe I can help you. I said later. All right, I'll be around. Yeah, practice on this like I'm back. Thanks, Pete. Muncho Cratchis.",
+      "visual_description": "Sequence from 'Midnight Manhunt' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Midnight Manhunt' (1945).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "midnight_manhunt_ipod_scene_3",
+      "movie_id": "midnight_manhunt_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:20:09",
+      "end_timecode": "00:20:46",
+      "start_seconds": 1209.916917,
+      "end_seconds": 1246.553554,
+      "duration_seconds": 36.636637,
+      "video_filename": "midnight_manhunt_ipod_scene_3_36s_1080p.mp4",
+      "keyframe_filename": "midnight_manhunt_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_3_36s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_3_thumb.jpg",
+      "transcription": "You don't think looking for Joe Wells is any fun, do you? You're not still so about that crap game, are you, honey? That's one thing I'm not talking about. That's the kitchenette. You know, they weren't my dice. They belong to Charlie Baker. That's the closet? Yes. Besides, they weren't crooked. I just ran into a street-o-lock. That's all. Isn't that what you call it? Excuse me. If you're looking for a dirt, it's not fair. And Joe Wells either. I didn't think you were that dumb, honey, but you never know.",
+      "visual_description": "Sequence from 'Midnight Manhunt' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Midnight Manhunt' (1945).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "midnight_manhunt_ipod_scene_4",
+      "movie_id": "midnight_manhunt_ipod",
+      "scene_number": 4,
+      "start_timecode": "00:21:16",
+      "end_timecode": "00:21:41",
+      "start_seconds": 1276.683684,
+      "end_seconds": 1301.708709,
+      "duration_seconds": 25.025025,
+      "video_filename": "midnight_manhunt_ipod_scene_4_25s_1080p.mp4",
+      "keyframe_filename": "midnight_manhunt_ipod_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_4_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_4_thumb.jpg",
+      "transcription": "of Joe Wells was lying and lying where so good why don't you finish it you know this is really horrible you should go back to writing love long calls yeah it's a lot more exciting than that stuff they put on your name all right baby I want to help you where they got it that is just in case it's found oh I'm sure if you don't get out of here I'll call the cops yes you will",
+      "visual_description": "Sequence from 'Midnight Manhunt' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Midnight Manhunt' (1945).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "midnight_manhunt_ipod_scene_5",
+      "movie_id": "midnight_manhunt_ipod",
+      "scene_number": 5,
+      "start_timecode": "00:30:29",
+      "end_timecode": "00:31:06",
+      "start_seconds": 1829.236236,
+      "end_seconds": 1866.773774,
+      "duration_seconds": 37.537538,
+      "video_filename": "midnight_manhunt_ipod_scene_5_37s_1080p.mp4",
+      "keyframe_filename": "midnight_manhunt_ipod_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_5_37s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/midnight_manhunt_ipod_scene_5_thumb.jpg",
+      "transcription": "Where are you heading? What in the world do you want with that corpse? Let's say it's a collector's item. Well, as long as we have to wait, I'd like to get the story on paper. We'll be wasting your time. You won't have the body to prove it. After you're through with it, it'll turn up somewhere. That is a moot question. Answer it, but be careful what you say. Hello? Oh, McAndrew!",
+      "visual_description": "Sequence from 'Midnight Manhunt' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Midnight Manhunt' (1945).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheRedHouse_123_scene_1",
+      "movie_id": "TheRedHouse_123",
+      "scene_number": 1,
+      "start_timecode": "00:17:18",
+      "end_timecode": "00:18:11",
+      "start_seconds": 1038.662663,
+      "end_seconds": 1091.215215,
+      "duration_seconds": 52.552552,
+      "video_filename": "TheRedHouse_123_scene_1_52s_1080p.mp4",
+      "keyframe_filename": "TheRedHouse_123_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_1_52s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_1_thumb.jpg",
+      "transcription": "What kind of a guy is Pete anyway? He's always been wonderful to me. Time and generous. For my last birthday he sent to the city and bought me the most wonderful furniture he can buy for my room. He's always in that way. What about that red house? I remember hearing him talk about it a long time ago. But I've never heard him mention it since. You haven't? No. He's just warned me to stay out of those woods since I was little. Do you know anything about those screams?",
+      "visual_description": "Sequence from 'The Red House' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Red House' (1947).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheRedHouse_123_scene_2",
+      "movie_id": "TheRedHouse_123",
+      "scene_number": 2,
+      "start_timecode": "00:21:26",
+      "end_timecode": "00:22:10",
+      "start_seconds": 1286.810811,
+      "end_seconds": 1330.654655,
+      "duration_seconds": 43.843844,
+      "video_filename": "TheRedHouse_123_scene_2_43s_1080p.mp4",
+      "keyframe_filename": "TheRedHouse_123_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_2_43s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_2_thumb.jpg",
+      "transcription": "Just like it would be a shame if you don't marry Don and go north with him. If I do, how long would it be before you and Tibby get married? I don't search for me. Sometimes the more I know about women, the less I know about women. A guy needs more than a high school education just to find out what they're going to do next. Will you be staying at the Morgan's again tonight? No. I'm going to take a shortcut through Oxford Woods by daylight. So I'll know my way back here tonight. Well if you should change your mind, would you care if I go down to town and talk things over with Don? You do more than talk things over. You come back here abroad. We don't want any dead ducks in the family do we? Bye.",
+      "visual_description": "Sequence from 'The Red House' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Red House' (1947).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheRedHouse_123_scene_3",
+      "movie_id": "TheRedHouse_123",
+      "scene_number": 3,
+      "start_timecode": "00:25:02",
+      "end_timecode": "00:25:37",
+      "start_seconds": 1502.126126,
+      "end_seconds": 1537.5615619999999,
+      "duration_seconds": 35.435436,
+      "video_filename": "TheRedHouse_123_scene_3_35s_1080p.mp4",
+      "keyframe_filename": "TheRedHouse_123_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_3_35s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_3_thumb.jpg",
+      "transcription": "You made the day. I had to go home first. I came here through Oxford Woods. Yes, that would be the quickest day times.",
+      "visual_description": "Sequence from 'The Red House' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Red House' (1947).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheRedHouse_123_scene_4",
+      "movie_id": "TheRedHouse_123",
+      "scene_number": 4,
+      "start_timecode": "00:26:26",
+      "end_timecode": "00:27:18",
+      "start_seconds": 1586.910911,
+      "end_seconds": 1638.262262,
+      "duration_seconds": 51.351351,
+      "video_filename": "TheRedHouse_123_scene_4_51s_1080p.mp4",
+      "keyframe_filename": "TheRedHouse_123_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_4_51s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_4_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
+      "visual_description": "Sequence from 'The Red House' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Red House' (1947).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -223,53 +1076,296 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
         "black and white"
       ]
     },
     {
-      "scene_id": "BlackDragons_scene_2",
-      "movie_id": "BlackDragons",
+      "scene_id": "TheRedHouse_123_scene_5",
+      "movie_id": "TheRedHouse_123",
+      "scene_number": 5,
+      "start_timecode": "00:27:22",
+      "end_timecode": "00:28:17",
+      "start_seconds": 1642.766767,
+      "end_seconds": 1697.921922,
+      "duration_seconds": 55.155155,
+      "video_filename": "TheRedHouse_123_scene_5_55s_1080p.mp4",
+      "keyframe_filename": "TheRedHouse_123_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_5_55s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheRedHouse_123_scene_5_thumb.jpg",
+      "transcription": "As he's been outside tonight. No. Give me a word. Of course.",
+      "visual_description": "Sequence from 'The Red House' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Red House' (1947).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ace-in-the-hole1951_scene_1",
+      "movie_id": "ace-in-the-hole1951",
+      "scene_number": 1,
+      "start_timecode": "00:10:26",
+      "end_timecode": "00:11:01",
+      "start_seconds": 626.43043,
+      "end_seconds": 661.0900899999999,
+      "duration_seconds": 34.65966,
+      "video_filename": "ace-in-the-hole1951_scene_1_34s_1080p.mp4",
+      "keyframe_filename": "ace-in-the-hole1951_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_1_34s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_1_thumb.jpg",
+      "transcription": "Mr. Everest, instead of writing household hints about how to remove chili stains from blue jeans, get yourself involved in a trunk murder. How about it, Mr. Everest? I could do wonders with your dismembered body. Who, Mr. Tatum? Really? Well. Well, you, Mr. Wendell. If you'd only toss that cigar out of the window, real fire, all the way to Los Alamos. Boom!",
+      "visual_description": "Sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' (1951).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ace-in-the-hole1951_scene_2",
+      "movie_id": "ace-in-the-hole1951",
       "scene_number": 2,
-      "start_timecode": "00:41:32",
-      "end_timecode": "00:41:57",
-      "start_seconds": 2492.697,
-      "end_seconds": 2517.7219999999998,
-      "duration_seconds": 25.025,
-      "video_filename": "BlackDragons_scene_2_25s_1080p.mp4",
-      "keyframe_filename": "BlackDragons_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_2_25s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_2_thumb.jpg",
-      "transcription": "One time, there was two more, and it was right here I found the body of Mr. Coney, and just about this time. So I'll tell you this time, it's murder.",
-      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
-      "mood": "Melancholic",
+      "start_timecode": "00:12:24",
+      "end_timecode": "00:13:01",
+      "start_seconds": 744.7987989999999,
+      "end_seconds": 781.335335,
+      "duration_seconds": 36.536536,
+      "video_filename": "ace-in-the-hole1951_scene_2_36s_1080p.mp4",
+      "keyframe_filename": "ace-in-the-hole1951_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_2_36s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_2_thumb.jpg",
+      "transcription": "Big deal, 1,000 rappers in the underbrush. Give me just 50 of them loose in Albuquerque. Like that leopard in Oklahoma City, the whole town in panic, deserted streets, barricaded houses, they're evacuating the children. Every man is armed. 50 killers on the prow, 50. One by one, they start hunting them down. They get 10, 20. It's building, they get 40, 45, they get 49.",
+      "visual_description": "Sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' (1951).",
+      "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
         "black and white"
       ]
     },
     {
-      "scene_id": "BlackDragons_scene_3",
-      "movie_id": "BlackDragons",
+      "scene_id": "ace-in-the-hole1951_scene_3",
+      "movie_id": "ace-in-the-hole1951",
       "scene_number": 3,
-      "start_timecode": "00:44:25",
-      "end_timecode": "00:44:54",
-      "start_seconds": 2665.6698,
-      "end_seconds": 2694.9991,
-      "duration_seconds": 29.3293,
-      "video_filename": "BlackDragons_scene_3_29s_1080p.mp4",
-      "keyframe_filename": "BlackDragons_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_3_29s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BlackDragons_scene_3_thumb.jpg",
-      "transcription": "Alice, will you marry me? What for? So I can beat you up, if the only way I can get you out of here. Say, is the butler shown up yet? No, he's probably frightened and quit his job. Alice, you were right. There was a body in the cellar last night.",
-      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
+      "start_timecode": "00:15:40",
+      "end_timecode": "00:16:17",
+      "start_seconds": 940.61962,
+      "end_seconds": 977.031031,
+      "duration_seconds": 36.411411,
+      "video_filename": "ace-in-the-hole1951_scene_3_36s_1080p.mp4",
+      "keyframe_filename": "ace-in-the-hole1951_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_3_36s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_3_thumb.jpg",
+      "transcription": "Now what would the law be doing up there in that old Indian cliff dwelling? Maybe they got a warrant for sitting bull for that custer rabbit. Come on, Herby, let's go visiting. It's for free. I can't get the gas on the way back. That is if she stopped praying. Ooh, that old lady in there. What's she praying for? I don't know, but whatever she's praying for, she's sure praying hard. Maybe it ties in. Let's see. MUSIC",
+      "visual_description": "Sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' (1951).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ace-in-the-hole1951_scene_4",
+      "movie_id": "ace-in-the-hole1951",
+      "scene_number": 4,
+      "start_timecode": "00:17:00",
+      "end_timecode": "00:17:32",
+      "start_seconds": 1020.6997,
+      "end_seconds": 1052.856857,
+      "duration_seconds": 32.157157,
+      "video_filename": "ace-in-the-hole1951_scene_4_32s_1080p.mp4",
+      "keyframe_filename": "ace-in-the-hole1951_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_4_32s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_4_thumb.jpg",
+      "transcription": "You live around here? Yeah. I'm Mrs. Leo Manosa. We own that training post out on the highway. Find a store in downtown Escadero. Is that what they call this place? Escadero? I've got a couple other names for it myself. Did the Indians really live in that place four hundred and fifty years ago? I wouldn't know. I haven't been around that long. It seems that long. Say, if you can't stop by to see that broken-down cliff dwelling, you sure picked a swell day.",
+      "visual_description": "Sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' (1951).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ace-in-the-hole1951_scene_5",
+      "movie_id": "ace-in-the-hole1951",
+      "scene_number": 5,
+      "start_timecode": "00:18:19",
+      "end_timecode": "00:18:44",
+      "start_seconds": 1099.028028,
+      "end_seconds": 1124.3033030000001,
+      "duration_seconds": 25.275275,
+      "video_filename": "ace-in-the-hole1951_scene_5_25s_1080p.mp4",
+      "keyframe_filename": "ace-in-the-hole1951_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_5_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ace-in-the-hole1951_scene_5_thumb.jpg",
+      "transcription": "Nobody goes to no place here without I say so. He's cold. He's hungry. We've got to let him know we're doing something. Look, I got my hands full already without having two of you in there. Somebody's got to go. How about those Indians? What do you say, Chief? You ought to know your way around here pretty well. They won't go in. They never do. Bad spirits. I'll go on. What are you holding on for? A couple of bucks. Just do it again. Just like that. He says it's their holy mountain.",
+      "visual_description": "Sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Ace in the Hole (1951) Director: Billy Wilder, Featuring Kirk Douglas, Jan Sterling, Robert Arthur, Porter Hall, Richard Benedict' (1951).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "SherlockHolmes-SleepingCardinal_scene_1",
+      "movie_id": "SherlockHolmes-SleepingCardinal",
+      "scene_number": 1,
+      "start_timecode": "00:05:44",
+      "end_timecode": "00:06:25",
+      "start_seconds": 344.0,
+      "end_seconds": 385.75,
+      "duration_seconds": 41.75,
+      "video_filename": "SherlockHolmes-SleepingCardinal_scene_1_41s_1080p.mp4",
+      "keyframe_filename": "SherlockHolmes-SleepingCardinal_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_1_41s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_1_thumb.jpg",
+      "transcription": "Oh, don't go, Kathleen. I'll come and say goodnight to you all before I go to bed. I'll sit you low beyond until three. No, don't get up. I hope you all will. Now, dear, how kind of you to come? As summons from you comes before even as summons from Sherlock Holmes. It's free to be displayed there anyhow. Take out your curse and let me give you a drink. No thanks. I can't stay. I came for a moment because you sent for me. Well, let's sit down for a minute.",
+      "visual_description": "Sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' (1931).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "SherlockHolmes-SleepingCardinal_scene_2",
+      "movie_id": "SherlockHolmes-SleepingCardinal",
+      "scene_number": 2,
+      "start_timecode": "00:07:56",
+      "end_timecode": "00:08:26",
+      "start_seconds": 476.375,
+      "end_seconds": 506.875,
+      "duration_seconds": 30.5,
+      "video_filename": "SherlockHolmes-SleepingCardinal_scene_2_30s_1080p.mp4",
+      "keyframe_filename": "SherlockHolmes-SleepingCardinal_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_2_30s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_2_thumb.jpg",
+      "transcription": "But I think I need waste time at a games land. I make seven space, three diamonds, two hearts in the eight of clubs. That's right. Another big rubber. Well, that's just about cleanly up. Do I make the difference? Sixteen hundred points. You are not very quickly. Quite a mathematician, eh? How much is that? A hundred and sixty pounds. Well, I've lost both rubbers, and so I owe you two hundred and fifty-five pounds. We settle up at the end.",
+      "visual_description": "Sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' (1931).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "SherlockHolmes-SleepingCardinal_scene_3",
+      "movie_id": "SherlockHolmes-SleepingCardinal",
+      "scene_number": 3,
+      "start_timecode": "00:10:00",
+      "end_timecode": "00:10:27",
+      "start_seconds": 600.0,
+      "end_seconds": 627.625,
+      "duration_seconds": 27.625,
+      "video_filename": "SherlockHolmes-SleepingCardinal_scene_3_27s_1080p.mp4",
+      "keyframe_filename": "SherlockHolmes-SleepingCardinal_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_3_27s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_3_thumb.jpg",
+      "transcription": "Well, good night, and thankfully. Oh, you had to draw them back. Few money. Well, Ray, I think I better not. I've lost an awful lot lately, and I think I better chuck it for a bit. Just a little bit. Well, it didn't take me rude, but I just can't afford it. Yeah, it's all right. Good night, Colonel. Good night.",
+      "visual_description": "Sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' (1931).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "SherlockHolmes-SleepingCardinal_scene_4",
+      "movie_id": "SherlockHolmes-SleepingCardinal",
+      "scene_number": 4,
+      "start_timecode": "00:12:35",
+      "end_timecode": "00:13:02",
+      "start_seconds": 755.0,
+      "end_seconds": 782.0,
+      "duration_seconds": 27.0,
+      "video_filename": "SherlockHolmes-SleepingCardinal_scene_4_27s_1080p.mp4",
+      "keyframe_filename": "SherlockHolmes-SleepingCardinal_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_4_27s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' (1931).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "SherlockHolmes-SleepingCardinal_scene_5",
+      "movie_id": "SherlockHolmes-SleepingCardinal",
+      "scene_number": 5,
+      "start_timecode": "00:20:19",
+      "end_timecode": "00:20:44",
+      "start_seconds": 1219.0,
+      "end_seconds": 1244.0,
+      "duration_seconds": 25.0,
+      "video_filename": "SherlockHolmes-SleepingCardinal_scene_5_25s_1080p.mp4",
+      "keyframe_filename": "SherlockHolmes-SleepingCardinal_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_5_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/SherlockHolmes-SleepingCardinal_scene_5_thumb.jpg",
+      "transcription": "Just came in to get that piece of brown paper. Oh, yes, yes, this little piece. You mean, I should like to keep it a little longer, if I may. I hadn't yet decided what the rest of the label is. Well, I don't see how you ever can. It's just an ordinary shopkeeper's label. There's not enough of it to tell us anything. Well, I disagree, my dear, let's say it. But then you were not.",
+      "visual_description": "Sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sherlock Holmes' Fatal Hour (The Sleeping Cardinal)' (1931).",
       "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
@@ -277,7 +1373,142 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Hollywood_Stadium_Mystery_1938_scene_1",
+      "movie_id": "Hollywood_Stadium_Mystery_1938",
+      "scene_number": 1,
+      "start_timecode": "00:21:13",
+      "end_timecode": "00:21:40",
+      "start_seconds": 1273.921625,
+      "end_seconds": 1300.197875,
+      "duration_seconds": 26.27625,
+      "video_filename": "Hollywood_Stadium_Mystery_1938_scene_1_26s_1080p.mp4",
+      "keyframe_filename": "Hollywood_Stadium_Mystery_1938_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_1_26s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_1_thumb.jpg",
+      "transcription": "You were pretty excited tonight with Nick Nichols' kid at you about that black eye. Why shouldn't I be? It's all I've heard for a week. It's getting on my nerves. Now, if you don't mind, I'm leaving. If you want me, you know where you can find me. Yes, at the ring, sir. I've got to get some sleep, I tell you. You can sleep in your seat. You haven't heard the last of this, Mr. District Attorney. Plus, if you haven't heard the last of it either, Mr. Mortimer.",
+      "visual_description": "Sequence from 'Hollywood Stadium Mystery' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hollywood Stadium Mystery' (1938).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Hollywood_Stadium_Mystery_1938_scene_2",
+      "movie_id": "Hollywood_Stadium_Mystery_1938",
+      "scene_number": 2,
+      "start_timecode": "00:25:55",
+      "end_timecode": "00:26:24",
+      "start_seconds": 1555.82825,
+      "end_seconds": 1584.732125,
+      "duration_seconds": 28.903875,
+      "video_filename": "Hollywood_Stadium_Mystery_1938_scene_2_28s_1080p.mp4",
+      "keyframe_filename": "Hollywood_Stadium_Mystery_1938_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_2_28s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_2_thumb.jpg",
+      "transcription": "Well, as soon as I find out, book him too. No, you can't. He didn't have anything to do with it. I did it. Don't you believe him, mister? She's just trying to protect me. She's my sister. Well, no, I'm getting somewhere. Go on, go on. Well, after what Aced did to her, I shot her. I see. You're both killed him, man. Now, that's not the truth. The truth is neither one of them did it. I didn't ask you. I'm telling you, I have a theory. I see. Miss Ward, but you step outside. You folks will excuse us, please? Thank you.",
+      "visual_description": "Sequence from 'Hollywood Stadium Mystery' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hollywood Stadium Mystery' (1938).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Hollywood_Stadium_Mystery_1938_scene_3",
+      "movie_id": "Hollywood_Stadium_Mystery_1938",
+      "scene_number": 3,
+      "start_timecode": "00:27:55",
+      "end_timecode": "00:28:32",
+      "start_seconds": 1675.072375,
+      "end_seconds": 1712.2345,
+      "duration_seconds": 37.162125,
+      "video_filename": "Hollywood_Stadium_Mystery_1938_scene_3_37s_1080p.mp4",
+      "keyframe_filename": "Hollywood_Stadium_Mystery_1938_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_3_37s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_3_thumb.jpg",
+      "transcription": "I can't pull the trigger with the boxing gloves on. I knew that all the time. Then why'd you let me make a fool of myself? For five dollars. Oh. You got the pictures, boys? Let me see them as soon as I develop. Look at that. Who's getting married? Shoot somebody. Get Slats Keith. Yes, sir. There's my permit to carry it.",
+      "visual_description": "Sequence from 'Hollywood Stadium Mystery' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hollywood Stadium Mystery' (1938).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Hollywood_Stadium_Mystery_1938_scene_4",
+      "movie_id": "Hollywood_Stadium_Mystery_1938",
+      "scene_number": 4,
+      "start_timecode": "00:29:16",
+      "end_timecode": "00:29:42",
+      "start_seconds": 1756.1533749999999,
+      "end_seconds": 1782.1793750000002,
+      "duration_seconds": 26.026,
+      "video_filename": "Hollywood_Stadium_Mystery_1938_scene_4_26s_1080p.mp4",
+      "keyframe_filename": "Hollywood_Stadium_Mystery_1938_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_4_26s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_4_thumb.jpg",
+      "transcription": "Hey, if you guys think that I was jealous of that month prize Friday you're all wrong. And another thing, if I was gonna kill a man, I wouldn't use poison. How did you know it was poison? Well, he wasn't sharp, was he, and he wasn't stabbed. You hold me back something slaps. Oh, am I? Maybe you'll talk in jail. Take him down and lock him up. Yeah, but I got a car in my car, you can call your lawyer in the morning. If you think I'm gonna spend the night in the can, you're crazy.",
+      "visual_description": "Sequence from 'Hollywood Stadium Mystery' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hollywood Stadium Mystery' (1938).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Hollywood_Stadium_Mystery_1938_scene_5",
+      "movie_id": "Hollywood_Stadium_Mystery_1938",
+      "scene_number": 5,
+      "start_timecode": "00:30:17",
+      "end_timecode": "00:31:17",
+      "start_seconds": 1817.3395,
+      "end_seconds": 1877.024125,
+      "duration_seconds": 59.684625,
+      "video_filename": "Hollywood_Stadium_Mystery_1938_scene_5_59s_1080p.mp4",
+      "keyframe_filename": "Hollywood_Stadium_Mystery_1938_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_5_59s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Hollywood_Stadium_Mystery_1938_scene_5_thumb.jpg",
+      "transcription": "I'm not going to do it. Albert Keith, Avis Schlatt's Keith, has just escaped from the Hollywood stadium. Yeah, he's wanted on suspicion of murder. No, send out the general alarm. Hey, here's a description. Well, folks, it looks as though this case will be closed when the police find Slatt's Keith. This is Nick Nichols, your sports commentator, signing off. Good night. How about letting the boys get a picture of you two together? Picture. Listen, a mystery writer helps District Attorney's South Stadium murder. Why don't sell more books?",
+      "visual_description": "Sequence from 'Hollywood Stadium Mystery' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hollywood Stadium Mystery' (1938).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
         "black and white"
       ]
     }
