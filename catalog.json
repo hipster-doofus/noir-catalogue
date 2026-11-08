@@ -1,858 +1,129 @@
 {
-  "updated_at": "2026-11-08T17:33:18.391908+00:00",
+  "updated_at": "2026-11-08T17:47:41.259684+00:00",
   "total_movies": 10,
   "total_scenes": 50,
   "genre": "sci-fi",
-  "source": "Any / Blended",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
-      "title": "The Eye Creatures",
-      "year": 1965,
-      "director": "Larry Buchanan",
-      "archive_id": "The_Eye_Creatures",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/The_Eye_Creatures/The_Eye_Creatures_1962.avi.mp4",
-      "license": "Open Archive",
-      "description": "The Eye Creatures (also known as Attack of the Eye Creatures, or Attack of the the Eye Creatures from a production error) is a 1965 science-fiction film about an invasion of an unnamed American countryside by a flying saucer and its silent, shambling alien occupants. While the military ineptly attempts to stop the invasion, a group of young people, whose reports to the local police are dismissed as pranks or wild imagination, struggle to defend themselves against the menacing monsters. Sound and video quality is fairly poor as this came from a very old video tape."
-    },
-    {
-      "title": "Cosmos: War of the Planets",
-      "year": 1977,
-      "director": "Louis Alex",
-      "archive_id": "Cosmos_War_of_the_Planets",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/Cosmos_War_of_the_Planets/Cosmos_War_of_the_Planets.mp4",
-      "license": "Open Archive",
-      "description": "A spaceship intercepts a mysterious message and then crashes on the planet the message is being sent from. There they uncover a force that threatens to take over the Earth. There is an AVI of the film here . You can find out more about this movie on its IMDB page ."
-    },
-    {
-      "title": "Felix The Cat The Movie ( 1988) 1080p UPSCALE",
-      "year": 1988,
-      "director": "Tibor Hern\u00e1di",
-      "archive_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322/Y2Mate.is - Felix The Cat - The Movie (1988)-xBgwfAvGQKY-1080p-1640523499322.ia.mp4",
-      "license": "Open Archive",
-      "description": "HIGHEST QUALITY ENGLISH VERSION AVAILABLE! BACKGROUND NOTES:\u00a0 This movie was originally meant to be released on Thankgiving in the USA in 1988, but was postponed to 1991 due to New World Pictures going bankrupt. Development began in 1985 and work was done in Europe in 1986 and 1987. Plot:\u00a0 In another dimension, the villainous scientist Duke of Zill, with the help of his mechanical, geometric army, takes over the Land of Oriana, prompting Felix the Cat to save its princess and restore order once again. THIS IS A COLLABORATION OF THE FOLLOWING COUNTRIES United States Germany Hungary Poland Bulgaria Canada"
-    },
-    {
-      "title": "Horror Express",
-      "year": 1976,
-      "director": "Bernard Gordon",
-      "archive_id": "horror_express_ipod",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/horror_express_ipod/horror_express.mp4",
-      "license": "Open Archive",
-      "description": "An English anthropologist (Christopher Lee) has discovered a frozen monster in the frozen wastes of Manchuria which he believes may be the Missing Link. He brings the creature back to Europe aboard a trans-Siberian express, but during the trip the monster thaws out and starts to butcher the passengers one by one."
-    },
-    {
-      "title": "The Atomic Man",
-      "year": 1955,
-      "director": "Alec C. Snowden",
-      "archive_id": "The_Atomic_Man_1955",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/The_Atomic_Man_1955/The_Atomic_Man_1955.mp4",
-      "license": "Open Archive",
-      "description": "A man is fished out of a river and taken to a hospital where he briefly dies. After he revives, it's discovered that he is a nuclear research scientist, has been contaminated with radioactive material, and is oddly uncommunicative. A reporter investigates, and with the help of the scientist's doctor and the police, uncovers a plot to destroy the scientist's work as well as part of London. Stars: Gene Nelson, Faith Domergue, Joseph Tomelty, Donald Gray, Vic Perry, Paul Hardtmuth, Martin Wyldeck, and Peter Arne IMDb Page The movie contains a 1955 copyright notice. This copyright was not renewed."
-    },
-    {
-      "title": "War of the Robots",
+      "title": "INVASION OF THE BEE GIRLS widescreen & quality upgrade.",
       "year": 1950,
-      "director": "Al Bradley",
-      "archive_id": "WarOfTheRobots",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/WarOfTheRobots/WarOfTheRobots1978.mp4",
+      "director": "Fred Weintraub",
+      "archive_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/InvasionOfTheBeeGirlsWidescreenQualityUpgrade/InvasionOfTheBeeGirlsWidescreen.mp4",
       "license": "Open Archive",
-      "description": "From the makers of \"Cosmos: War of the Planets\" and \"Star Odyssey\" comes another craptastic Italian Star Wars ripoff!"
+      "description": "This is the original widescreen print, which is significantly sharper than the 4:3 print here at IA. According to IMDB this version also is in the public domain. Anyway, how could you not like a movie with dialog like this: \"We balled and we balled and we balled, until he dropped dead.\" Besides, there are many happy endings, and it gives a whole new meaning to, \"What's the buzz?\" Directed by Denis Sanders. Released in 1973. (a.k.a. \"Graveyard Tramps\")"
     },
     {
-      "title": "Destroy All Planets",
-      "year": 1968,
-      "director": "Masaichi Nagata",
-      "archive_id": "Destroy_All_Planets",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/Destroy_All_Planets/Destroy_All_Planets.mp4",
+      "title": "The Phantom Creeps",
+      "year": 1939,
+      "director": "Henry MacRae",
+      "archive_id": "ThePhantomCreeps",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/ThePhantomCreeps/ThePhantomCreeps.mp4",
       "license": "Open Archive",
-      "description": "Aliens try to take over the world by seizing control of Gamera's brain. You can find out more about this film on its IMDB page ."
+      "description": "The Phantom Creeps is everything an old classic B sci-fi is supposed to be. It features Bela Lugosi (as Dr. Zorka), a mad megalomaniac genius with a utility belt and a sack of gadgets that would make Batman and James Bond blush, against a team of CIA-types, a reporter, and local law enforcement. Lugosi hams up a storm and really seems to enjoy himself in this immensely silly role. His somewhat untrustworthy and dull side-kick, played by Jack Smith is a great foil to his overbearing stage presence, and he makes a truly great sadist!"
     },
     {
-      "title": "End of the World",
-      "year": 1977,
-      "director": "Charles Band",
-      "archive_id": "EndoftheWorld",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/EndoftheWorld/EndoftheWorld.mp4",
+      "title": "Non-Stop New York",
+      "year": 1937,
+      "director": "Unknown Director",
+      "archive_id": "non_stop_new_york",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/non_stop_new_york/non_stop_new_york.mp4",
       "license": "Open Archive",
-      "description": "A scientist discovers signals from space that appear to carry information concerning a series of seemingly unrelated natural disasters, occurring across the globe. Hoping to discover the source of these signals and who's behind them, the scientist and his wife set out on a trek to locate the intended recipient of the signals. What the couple eventually discovers is a small remote convent with occupants who are not really who they appear to be."
+      "description": "Taken from IMDB : A young woman finds herself as the intended victim of a murder plot on a transatlantic flight from London to New York."
     },
     {
-      "title": "Rocky Jones, Space Ranger - Crash of the Moons",
-      "year": 1954,
-      "director": "Arthur Pierson, Guy V. Thayer Jr.",
-      "archive_id": "CrashoftheMoons",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/CrashoftheMoons/CrashoftheMoons.mp4",
+      "title": "Le voyage dans la lune",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "Levoyagedanslalune",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/Levoyagedanslalune/Le_voyage_dans_la_lune_A_trip_to_the_moon__Georges_Mlis_1902_512kb.mp4",
       "license": "Open Archive",
-      "description": "Cruising the galaxy in his space ship \"The Orbit Jet\" Space Ranger, Rocky Jones (Richard Crane), Vena Ray (Sally Mansfield), Winky (Scotty Beckett) and 10 year-old Bobby (Robert Lyden) defend the Earth and themselves against space-bound evil doers. On the planet Ophesus, Rocky is involved in contentious negotiations with Cleolanta (Patsy Parsons), iron-fisted dictator/queen of this world. Along with Rocky are his co-pilot Winky and diplomat Drake (Charles Meredith), who is \"Secretary of Space\" for the United Worlds."
+      "description": "By George Melies, an old 1902 film from france about a small group of scientists that travel to space on a rocket to get to the moon."
     },
     {
-      "title": "Assignment Outer Space",
+      "title": "First Spaceship on Venus",
       "year": 1960,
-      "director": "Samuel Z. Arkoff",
-      "archive_id": "Assignment_Outer_Space",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/Assignment_Outer_Space/Assignment_Outer_Space.mp4",
+      "director": "Hans Mahlich",
+      "archive_id": "FirstSpaceshipOnVenusMPEG",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/FirstSpaceshipOnVenusMPEG/First_Spaceship_On_Venus.mp4",
       "license": "Open Archive",
-      "description": "From IMDb: In the 21st century Ray Peterson, reporter for the Interplanetary News, is assigned to write a story aboard a space station. Tension mounts between Peterson and the station commander, who believes he is in the way, but has orders to leave him alone. Errant spaceship Alpha Two enters the solar system and its photon generators are radiating enough heat to destroy Earth as it approaches. It falls to Peterson to try to figure out a way to enter the spaceship, disarm the generators, and escape before suffocating."
+      "description": "A spaceship on a mission to Venus uncovers an increasingly sinister secret. You can find out more about this film on its IMDB page ."
+    },
+    {
+      "title": "Black Dragons",
+      "year": 1942,
+      "director": "Jack Dietz",
+      "archive_id": "back_dragons_ipod",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/back_dragons_ipod/black_dragons.mp4",
+      "license": "Open Archive",
+      "description": "A cabal of American industrialists, all fifth-columnists intent on sabotaging the war effort, are methodically murdered by the malevolent Monsieur Colomb. It is only until detective Dick Martin is assigned to the case that everyone's true motives and identities are revealed."
+    },
+    {
+      "title": "Transatlantic Tunnel",
+      "year": 1935,
+      "director": "Michael Balcon",
+      "archive_id": "transatlantic_tunnel",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/transatlantic_tunnel/trans_atlantic_tunnel.mp4",
+      "license": "Open Archive",
+      "description": "Taken from IMDB : Engineers Richard McAllan and Frederick Robinson manage to get financial backing for a gigantic project to build a tunnel from England to America. His biggest supporter is Varlia Lloyd, daughter of one of the backers, and she uses her influence more than once to keep the project going. Mack's wife Ruth is also supportive, although his constantly being away on the tunnel project strains their marriage, and affects his relationship with their son. After years of financial skulduggery and physical obstacles under the ocean floor, the tunnel proceeds as Mack's marriage and his friendship with Robbie deteriorate."
+    },
+    {
+      "title": "Phantom From Space",
+      "year": 1953,
+      "director": "W. Lee Wilder",
+      "archive_id": "Phantom_From_Space",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/Phantom_From_Space/Phantom_From_Space.mp4",
+      "license": "Open Archive",
+      "description": "From IMDb: An alien being lands in Santa Monica. Killing two people who attacked him due to the menacing appearance of his spacesuit, the creature takes it off while being pursued by government authorities, revealing himself to be invisible"
+    },
+    {
+      "title": "Frankenstein: The Movie (1974) - Boris Lugosi",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "Frankenstein1974-BorisLugosi",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/Frankenstein1974-BorisLugosi/FrankensteinTheMovieCensored-desktop.mp4",
+      "license": "Open Archive",
+      "description": "Victor Frankenstein (puzzlingly called \"Count\" Frankenstein here) discovers neanderthals living in a cave near his castle. When one of them is injured, Frankenstein revives him as his newest cut-n-paste creation, a giant fuzzy haired beast called \"Goliath\". He even has help from an servant named \"Ygor\" Meanwhile, Frankenstein's perverted dwarf assistant \"Genz\" has befriended an older, mute, cave dweller; a hairy wild-man named \"Ook\" and uses him to procure young lovelies for Genz to fondle, as well as to take revenge on his unsympathetic master. Meanwhile, Frankenstein is courting his daughter's best friend who is young enough to be his granddaughter, and the village people are becoming suspicious about the goings on at Castle Frankenstein (But, don't they always?) and also want to know who is lurking in the neanderthal's cave. Another European horror that attempts to imitate the Hammer style and falls a bit short. As always, the final product is bizarre, but in this case its not as bad as you may have heard. This is the superior European edit of the film and is more entertaining than the U.S. release, which repeated the same sequences a few times and pointlessly rearranged some scenes. Incredibly, one of the actor's is credited as Boris Lugosi!?!? I have wonder if Bela Karloff is in this film too. Uncredited perhaps. Note also, that four different actors are credited as Frankenstein's \"Monsters\". This film is available from home video companies that are know to deal exclusively in Public Domain properties. No ownership is claimed."
+    },
+    {
+      "title": "Planet Outlaws",
+      "year": 1953,
+      "director": "Unknown Director",
+      "archive_id": "planet_outlaws_ipod",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/planet_outlaws_ipod/planet_outlaws.mp4",
+      "license": "Open Archive",
+      "description": "Buck Rogers (1939) re-edited from serial to feature format and re-released for theatrical distribution in 1953; an American soldier suspended in time wakes up to find himself in the futuristic world of the year 2500. Updated: I've corrected the title, it took two very obvious reviews for me to realize it should be \"Planet Outlaws\" not \"Plant Outlaws\". In my defense I am the product of a North Carolina public school."
     }
   ],
   "scenes": [
     {
-      "scene_id": "The_Eye_Creatures_scene_1",
-      "movie_id": "The_Eye_Creatures",
+      "scene_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_1",
+      "movie_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
       "scene_number": 1,
-      "start_timecode": "00:11:03",
-      "end_timecode": "00:11:06",
-      "start_seconds": 663.8,
-      "end_seconds": 666.4,
-      "duration_seconds": 2.6,
-      "video_filename": "The_Eye_Creatures_scene_1_2s_1080p.mp4",
-      "keyframe_filename": "The_Eye_Creatures_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_1_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_1_thumb.jpg",
-      "transcription": ". .",
-      "visual_description": "Sequence from 'The Eye Creatures' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Eye Creatures' (1965).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Eye_Creatures_scene_2",
-      "movie_id": "The_Eye_Creatures",
-      "scene_number": 2,
-      "start_timecode": "00:11:06",
-      "end_timecode": "00:11:08",
-      "start_seconds": 666.4,
-      "end_seconds": 668.8,
-      "duration_seconds": 2.4,
-      "video_filename": "The_Eye_Creatures_scene_2_2s_1080p.mp4",
-      "keyframe_filename": "The_Eye_Creatures_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_2_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_2_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Eye Creatures' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Eye Creatures' (1965).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Eye_Creatures_scene_3",
-      "movie_id": "The_Eye_Creatures",
-      "scene_number": 3,
-      "start_timecode": "00:11:25",
-      "end_timecode": "00:11:28",
-      "start_seconds": 685.5,
-      "end_seconds": 688.7,
-      "duration_seconds": 3.2,
-      "video_filename": "The_Eye_Creatures_scene_3_3s_1080p.mp4",
-      "keyframe_filename": "The_Eye_Creatures_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_3_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_3_thumb.jpg",
-      "transcription": "Come on, stop talking and let's watch.",
-      "visual_description": "Sequence from 'The Eye Creatures' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Eye Creatures' (1965).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Eye_Creatures_scene_4",
-      "movie_id": "The_Eye_Creatures",
-      "scene_number": 4,
-      "start_timecode": "00:17:46",
-      "end_timecode": "00:17:50",
-      "start_seconds": 1066.7,
-      "end_seconds": 1070.1,
-      "duration_seconds": 3.4,
-      "video_filename": "The_Eye_Creatures_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "The_Eye_Creatures_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_4_thumb.jpg",
-      "transcription": "You woke me up to tell me that",
-      "visual_description": "Sequence from 'The Eye Creatures' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Eye Creatures' (1965).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Eye_Creatures_scene_5",
-      "movie_id": "The_Eye_Creatures",
-      "scene_number": 5,
-      "start_timecode": "00:20:22",
-      "end_timecode": "00:20:25",
-      "start_seconds": 1222.1,
-      "end_seconds": 1225.2,
-      "duration_seconds": 3.1,
-      "video_filename": "The_Eye_Creatures_scene_5_3s_1080p.mp4",
-      "keyframe_filename": "The_Eye_Creatures_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_5_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Eye_Creatures_scene_5_thumb.jpg",
-      "transcription": "and tell them to load their weapon.",
-      "visual_description": "Sequence from 'The Eye Creatures' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Eye Creatures' (1965).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Cosmos_War_of_the_Planets_scene_1",
-      "movie_id": "Cosmos_War_of_the_Planets",
-      "scene_number": 1,
-      "start_timecode": "00:10:18",
-      "end_timecode": "00:10:22",
-      "start_seconds": 618.0,
-      "end_seconds": 622.9049,
-      "duration_seconds": 4.9049,
-      "video_filename": "Cosmos_War_of_the_Planets_scene_1_4s_1080p.mp4",
-      "keyframe_filename": "Cosmos_War_of_the_Planets_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_1_thumb.jpg",
-      "transcription": "It's practically a monument. You know that thing must be a hundred years old.",
-      "visual_description": "Sequence from 'Cosmos: War of the Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Cosmos: War of the Planets' (1977).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Cosmos_War_of_the_Planets_scene_2",
-      "movie_id": "Cosmos_War_of_the_Planets",
-      "scene_number": 2,
-      "start_timecode": "00:12:03",
-      "end_timecode": "00:12:06",
-      "start_seconds": 723.8057,
-      "end_seconds": 726.2081000000001,
-      "duration_seconds": 2.4024,
-      "video_filename": "Cosmos_War_of_the_Planets_scene_2_2s_1080p.mp4",
-      "keyframe_filename": "Cosmos_War_of_the_Planets_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_2_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_2_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Cosmos: War of the Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Cosmos: War of the Planets' (1977).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Cosmos_War_of_the_Planets_scene_3",
-      "movie_id": "Cosmos_War_of_the_Planets",
-      "scene_number": 3,
-      "start_timecode": "00:15:00",
-      "end_timecode": "00:15:05",
-      "start_seconds": 900.9827,
-      "end_seconds": 905.5873,
-      "duration_seconds": 4.6046,
-      "video_filename": "Cosmos_War_of_the_Planets_scene_3_4s_1080p.mp4",
-      "keyframe_filename": "Cosmos_War_of_the_Planets_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_3_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_3_thumb.jpg",
-      "transcription": "It's too late to help me lie.",
-      "visual_description": "Sequence from 'Cosmos: War of the Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Cosmos: War of the Planets' (1977).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Cosmos_War_of_the_Planets_scene_4",
-      "movie_id": "Cosmos_War_of_the_Planets",
-      "scene_number": 4,
-      "start_timecode": "00:15:26",
-      "end_timecode": "00:15:29",
-      "start_seconds": 926.8085,
-      "end_seconds": 929.8115,
-      "duration_seconds": 3.003,
-      "video_filename": "Cosmos_War_of_the_Planets_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "Cosmos_War_of_the_Planets_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_4_thumb.jpg",
-      "transcription": "I",
-      "visual_description": "Sequence from 'Cosmos: War of the Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Cosmos: War of the Planets' (1977).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Cosmos_War_of_the_Planets_scene_5",
-      "movie_id": "Cosmos_War_of_the_Planets",
-      "scene_number": 5,
-      "start_timecode": "00:21:49",
-      "end_timecode": "00:21:52",
-      "start_seconds": 1309.9913000000001,
-      "end_seconds": 1312.8942,
-      "duration_seconds": 2.9029,
-      "video_filename": "Cosmos_War_of_the_Planets_scene_5_2s_1080p.mp4",
-      "keyframe_filename": "Cosmos_War_of_the_Planets_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_5_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Cosmos_War_of_the_Planets_scene_5_thumb.jpg",
-      "transcription": "I'm reserving decision. I'll report to you later",
-      "visual_description": "Sequence from 'Cosmos: War of the Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Cosmos: War of the Planets' (1977).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_1",
-      "movie_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322",
-      "scene_number": 1,
-      "start_timecode": "00:24:52",
-      "end_timecode": "00:24:55",
-      "start_seconds": 1492.6,
-      "end_seconds": 1495.36,
-      "duration_seconds": 2.76,
-      "video_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_1_2s_1080p.mp4",
-      "keyframe_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_1_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_1_thumb.jpg",
-      "transcription": "Oh",
-      "visual_description": "Sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' (1988).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_2",
-      "movie_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322",
-      "scene_number": 2,
-      "start_timecode": "00:27:40",
-      "end_timecode": "00:27:44",
-      "start_seconds": 1660.48,
-      "end_seconds": 1664.92,
-      "duration_seconds": 4.44,
-      "video_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_2_4s_1080p.mp4",
-      "keyframe_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_2_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_2_thumb.jpg",
-      "transcription": "Guess I'll just rest up!",
-      "visual_description": "Sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' (1988).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_3",
-      "movie_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322",
-      "scene_number": 3,
-      "start_timecode": "00:28:09",
-      "end_timecode": "00:28:12",
-      "start_seconds": 1689.28,
-      "end_seconds": 1692.6399999999999,
-      "duration_seconds": 3.36,
-      "video_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_3_3s_1080p.mp4",
-      "keyframe_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_3_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_3_thumb.jpg",
-      "transcription": "Mice? Oh-ho! Mizzards!",
-      "visual_description": "Sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' (1988).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_4",
-      "movie_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322",
-      "scene_number": 4,
-      "start_timecode": "00:36:23",
-      "end_timecode": "00:36:26",
-      "start_seconds": 2183.56,
-      "end_seconds": 2186.56,
-      "duration_seconds": 3.0,
-      "video_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_4_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' (1988).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_5",
-      "movie_id": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322",
-      "scene_number": 5,
-      "start_timecode": "00:39:10",
-      "end_timecode": "00:39:12",
-      "start_seconds": 2350.12,
-      "end_seconds": 2352.4,
-      "duration_seconds": 2.28,
-      "video_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_5_2s_1080p.mp4",
-      "keyframe_filename": "y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_5_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-felix-the-cat-the-movie-1988-x-bgwf-av-gqky-1080p-1640523499322_scene_5_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Felix The Cat The Movie ( 1988) 1080p UPSCALE' (1988).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "horror_express_ipod_scene_1",
-      "movie_id": "horror_express_ipod",
-      "scene_number": 1,
-      "start_timecode": "00:33:33",
-      "end_timecode": "00:33:37",
-      "start_seconds": 2013.524525,
-      "end_seconds": 2017.528529,
-      "duration_seconds": 4.004004,
-      "video_filename": "horror_express_ipod_scene_1_4s_1080p.mp4",
-      "keyframe_filename": "horror_express_ipod_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_1_thumb.jpg",
-      "transcription": "I see you have decided to die in the lawn, so I'll exhale.",
-      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Horror Express' (1976).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "horror_express_ipod_scene_2",
-      "movie_id": "horror_express_ipod",
-      "scene_number": 2,
-      "start_timecode": "00:33:57",
-      "end_timecode": "00:33:59",
-      "start_seconds": 2037.348348,
-      "end_seconds": 2039.750751,
-      "duration_seconds": 2.402403,
-      "video_filename": "horror_express_ipod_scene_2_2s_1080p.mp4",
-      "keyframe_filename": "horror_express_ipod_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_2_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_2_thumb.jpg",
-      "transcription": "We'll talk to them, talk to them, talk to them, talk to them.",
-      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Horror Express' (1976).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "horror_express_ipod_scene_3",
-      "movie_id": "horror_express_ipod",
-      "scene_number": 3,
-      "start_timecode": "00:41:44",
-      "end_timecode": "00:41:49",
-      "start_seconds": 2504.415415,
-      "end_seconds": 2509.22022,
-      "duration_seconds": 4.804805,
-      "video_filename": "horror_express_ipod_scene_3_4s_1080p.mp4",
-      "keyframe_filename": "horror_express_ipod_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_3_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_3_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Horror Express' (1976).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "horror_express_ipod_scene_4",
-      "movie_id": "horror_express_ipod",
-      "scene_number": 4,
-      "start_timecode": "00:43:16",
-      "end_timecode": "00:43:19",
-      "start_seconds": 2596.107107,
-      "end_seconds": 2599.01001,
-      "duration_seconds": 2.902903,
-      "video_filename": "horror_express_ipod_scene_4_2s_1080p.mp4",
-      "keyframe_filename": "horror_express_ipod_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_4_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_4_thumb.jpg",
-      "transcription": "absorbed through the eyes.",
-      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Horror Express' (1976).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "horror_express_ipod_scene_5",
-      "movie_id": "horror_express_ipod",
-      "scene_number": 5,
-      "start_timecode": "00:43:52",
-      "end_timecode": "00:43:56",
-      "start_seconds": 2632.343343,
-      "end_seconds": 2636.447447,
-      "duration_seconds": 4.104104,
-      "video_filename": "horror_express_ipod_scene_5_4s_1080p.mp4",
-      "keyframe_filename": "horror_express_ipod_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_5_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/horror_express_ipod_scene_5_thumb.jpg",
-      "transcription": "Well, that we'll never know that it's dead, and yet...",
-      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Horror Express' (1976).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Atomic_Man_1955_scene_1",
-      "movie_id": "The_Atomic_Man_1955",
-      "scene_number": 1,
-      "start_timecode": "00:15:45",
-      "end_timecode": "00:15:49",
-      "start_seconds": 945.903904,
-      "end_seconds": 949.307307,
-      "duration_seconds": 3.403403,
-      "video_filename": "The_Atomic_Man_1955_scene_1_3s_1080p.mp4",
-      "keyframe_filename": "The_Atomic_Man_1955_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_1_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_1_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Atomic Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Atomic Man' (1955).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Atomic_Man_1955_scene_2",
-      "movie_id": "The_Atomic_Man_1955",
-      "scene_number": 2,
-      "start_timecode": "00:16:28",
-      "end_timecode": "00:16:32",
-      "start_seconds": 988.4464459999999,
-      "end_seconds": 992.3503499999999,
-      "duration_seconds": 3.903904,
-      "video_filename": "The_Atomic_Man_1955_scene_2_3s_1080p.mp4",
-      "keyframe_filename": "The_Atomic_Man_1955_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_2_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_2_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Atomic Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Atomic Man' (1955).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Atomic_Man_1955_scene_3",
-      "movie_id": "The_Atomic_Man_1955",
-      "scene_number": 3,
-      "start_timecode": "00:17:10",
-      "end_timecode": "00:17:13",
-      "start_seconds": 1030.288288,
-      "end_seconds": 1033.191191,
-      "duration_seconds": 2.902903,
-      "video_filename": "The_Atomic_Man_1955_scene_3_2s_1080p.mp4",
-      "keyframe_filename": "The_Atomic_Man_1955_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_3_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_3_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Atomic Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Atomic Man' (1955).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Atomic_Man_1955_scene_4",
-      "movie_id": "The_Atomic_Man_1955",
-      "scene_number": 4,
-      "start_timecode": "00:20:06",
-      "end_timecode": "00:20:09",
-      "start_seconds": 1206.364364,
-      "end_seconds": 1209.7677680000002,
-      "duration_seconds": 3.403404,
-      "video_filename": "The_Atomic_Man_1955_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "The_Atomic_Man_1955_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_4_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Atomic Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Atomic Man' (1955).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "The_Atomic_Man_1955_scene_5",
-      "movie_id": "The_Atomic_Man_1955",
-      "scene_number": 5,
-      "start_timecode": "00:21:47",
-      "end_timecode": "00:21:49",
-      "start_seconds": 1307.165165,
-      "end_seconds": 1309.167167,
-      "duration_seconds": 2.002002,
-      "video_filename": "The_Atomic_Man_1955_scene_5_2s_1080p.mp4",
-      "keyframe_filename": "The_Atomic_Man_1955_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_5_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Atomic_Man_1955_scene_5_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Atomic Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Atomic Man' (1955).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "WarOfTheRobots_scene_1",
-      "movie_id": "WarOfTheRobots",
-      "scene_number": 1,
-      "start_timecode": "00:14:21",
-      "end_timecode": "00:14:25",
-      "start_seconds": 861.4174,
-      "end_seconds": 865.9219,
-      "duration_seconds": 4.5045,
-      "video_filename": "WarOfTheRobots_scene_1_4s_1080p.mp4",
-      "keyframe_filename": "WarOfTheRobots_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_1_thumb.jpg",
-      "transcription": "suit with our power and maximum. And take four days to all...",
-      "visual_description": "Sequence from 'War of the Robots' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'War of the Robots' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "WarOfTheRobots_scene_2",
-      "movie_id": "WarOfTheRobots",
-      "scene_number": 2,
-      "start_timecode": "00:19:41",
-      "end_timecode": "00:19:45",
-      "start_seconds": 1181.6372999999999,
-      "end_seconds": 1185.6413,
-      "duration_seconds": 4.004,
-      "video_filename": "WarOfTheRobots_scene_2_4s_1080p.mp4",
-      "keyframe_filename": "WarOfTheRobots_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_2_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_2_thumb.jpg",
-      "transcription": "There's something wrong. I've lost contact with station serious, Captain.",
-      "visual_description": "Sequence from 'War of the Robots' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'War of the Robots' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "WarOfTheRobots_scene_3",
-      "movie_id": "WarOfTheRobots",
-      "scene_number": 3,
-      "start_timecode": "00:21:42",
-      "end_timecode": "00:21:44",
-      "start_seconds": 1302.1577,
-      "end_seconds": 1304.9605000000001,
+      "start_timecode": "00:25:41",
+      "end_timecode": "00:25:44",
+      "start_seconds": 1541.6995,
+      "end_seconds": 1544.5023,
       "duration_seconds": 2.8028,
-      "video_filename": "WarOfTheRobots_scene_3_2s_1080p.mp4",
-      "keyframe_filename": "WarOfTheRobots_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_3_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_3_thumb.jpg",
+      "video_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_1_thumb.jpg",
       "transcription": "You",
-      "visual_description": "Sequence from 'War of the Robots' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'War of the Robots' (1950).",
+      "visual_description": "Sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' (1950).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -865,130 +136,49 @@
       ]
     },
     {
-      "scene_id": "WarOfTheRobots_scene_4",
-      "movie_id": "WarOfTheRobots",
-      "scene_number": 4,
-      "start_timecode": "00:23:01",
-      "end_timecode": "00:23:05",
-      "start_seconds": 1381.4369000000002,
-      "end_seconds": 1385.5410000000002,
-      "duration_seconds": 4.1041,
-      "video_filename": "WarOfTheRobots_scene_4_4s_1080p.mp4",
-      "keyframe_filename": "WarOfTheRobots_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_4_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_4_thumb.jpg",
-      "transcription": "NOOOOOOO",
-      "visual_description": "Sequence from 'War of the Robots' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'War of the Robots' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "WarOfTheRobots_scene_5",
-      "movie_id": "WarOfTheRobots",
-      "scene_number": 5,
-      "start_timecode": "00:28:17",
-      "end_timecode": "00:28:20",
-      "start_seconds": 1697.3525,
-      "end_seconds": 1700.9560999999999,
-      "duration_seconds": 3.6036,
-      "video_filename": "WarOfTheRobots_scene_5_3s_1080p.mp4",
-      "keyframe_filename": "WarOfTheRobots_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_5_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/WarOfTheRobots_scene_5_thumb.jpg",
-      "transcription": "Yeah. Yeah. Yeah. Yeah.",
-      "visual_description": "Sequence from 'War of the Robots' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'War of the Robots' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Destroy_All_Planets_scene_1",
-      "movie_id": "Destroy_All_Planets",
-      "scene_number": 1,
-      "start_timecode": "00:15:41",
-      "end_timecode": "00:15:44",
-      "start_seconds": 941.3912,
-      "end_seconds": 944.2941,
-      "duration_seconds": 2.9029,
-      "video_filename": "Destroy_All_Planets_scene_1_2s_1080p.mp4",
-      "keyframe_filename": "Destroy_All_Planets_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_1_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_1_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Destroy All Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Destroy All Planets' (1968).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Destroy_All_Planets_scene_2",
-      "movie_id": "Destroy_All_Planets",
+      "scene_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_2",
+      "movie_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
       "scene_number": 2,
-      "start_timecode": "00:17:13",
-      "end_timecode": "00:17:16",
-      "start_seconds": 1033.9837,
-      "end_seconds": 1036.6864,
+      "start_timecode": "00:29:43",
+      "end_timecode": "00:29:45",
+      "start_seconds": 1783.6412,
+      "end_seconds": 1785.8434,
+      "duration_seconds": 2.2022,
+      "video_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_2_2s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_2_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_2_thumb.jpg",
+      "transcription": "Oh, I don't know, I'm not good at it.",
+      "visual_description": "Sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_3",
+      "movie_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
+      "scene_number": 3,
+      "start_timecode": "00:31:42",
+      "end_timecode": "00:31:45",
+      "start_seconds": 1902.3598,
+      "end_seconds": 1905.0625,
       "duration_seconds": 2.7027,
-      "video_filename": "Destroy_All_Planets_scene_2_2s_1080p.mp4",
-      "keyframe_filename": "Destroy_All_Planets_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_2_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_2_thumb.jpg",
-      "transcription": "Spare, Spare!",
-      "visual_description": "Sequence from 'Destroy All Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Destroy All Planets' (1968).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Destroy_All_Planets_scene_3",
-      "movie_id": "Destroy_All_Planets",
-      "scene_number": 3,
-      "start_timecode": "00:19:02",
-      "end_timecode": "00:19:05",
-      "start_seconds": 1142.1918,
-      "end_seconds": 1145.6952999999999,
-      "duration_seconds": 3.5035,
-      "video_filename": "Destroy_All_Planets_scene_3_3s_1080p.mp4",
-      "keyframe_filename": "Destroy_All_Planets_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_3_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_3_thumb.jpg",
+      "video_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_3_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Destroy All Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Destroy All Planets' (1968).",
-      "mood": "Paranoid",
+      "visual_description": "Sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' (1950).",
+      "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
@@ -1000,21 +190,21 @@
       ]
     },
     {
-      "scene_id": "Destroy_All_Planets_scene_4",
-      "movie_id": "Destroy_All_Planets",
+      "scene_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_4",
+      "movie_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
       "scene_number": 4,
-      "start_timecode": "00:20:46",
-      "end_timecode": "00:20:50",
-      "start_seconds": 1246.9965,
-      "end_seconds": 1250.0996,
-      "duration_seconds": 3.1031,
-      "video_filename": "Destroy_All_Planets_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "Destroy_All_Planets_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_4_thumb.jpg",
-      "transcription": "Jonah, thank you.",
-      "visual_description": "Sequence from 'Destroy All Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Destroy All Planets' (1968).",
+      "start_timecode": "00:33:44",
+      "end_timecode": "00:33:46",
+      "start_seconds": 2024.4818,
+      "end_seconds": 2026.4838,
+      "duration_seconds": 2.002,
+      "video_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_4_2s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_4_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' (1950).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -1027,21 +217,75 @@
       ]
     },
     {
-      "scene_id": "Destroy_All_Planets_scene_5",
-      "movie_id": "Destroy_All_Planets",
+      "scene_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_5",
+      "movie_id": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade",
       "scene_number": 5,
-      "start_timecode": "00:24:53",
-      "end_timecode": "00:24:55",
-      "start_seconds": 1493.2424999999998,
-      "end_seconds": 1495.6449,
+      "start_timecode": "00:33:46",
+      "end_timecode": "00:33:48",
+      "start_seconds": 2026.4838,
+      "end_seconds": 2028.8862,
       "duration_seconds": 2.4024,
-      "video_filename": "Destroy_All_Planets_scene_5_2s_1080p.mp4",
-      "keyframe_filename": "Destroy_All_Planets_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_5_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Destroy_All_Planets_scene_5_thumb.jpg",
+      "video_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_5_2s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_5_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirlsWidescreenQualityUpgrade_scene_5_thumb.jpg",
       "transcription": "You",
-      "visual_description": "Sequence from 'Destroy All Planets' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Destroy All Planets' (1968).",
+      "visual_description": "Sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'INVASION OF THE BEE GIRLS widescreen & quality upgrade.' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ThePhantomCreeps_scene_1",
+      "movie_id": "ThePhantomCreeps",
+      "scene_number": 1,
+      "start_timecode": "00:20:45",
+      "end_timecode": "00:20:48",
+      "start_seconds": 1245.901902,
+      "end_seconds": 1248.404404,
+      "duration_seconds": 2.502502,
+      "video_filename": "ThePhantomCreeps_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "ThePhantomCreeps_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_1_thumb.jpg",
+      "transcription": "get a story. What do you make of him, doctor?",
+      "visual_description": "Sequence from 'The Phantom Creeps' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Phantom Creeps' (1939).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ThePhantomCreeps_scene_2",
+      "movie_id": "ThePhantomCreeps",
+      "scene_number": 2,
+      "start_timecode": "00:30:48",
+      "end_timecode": "00:30:50",
+      "start_seconds": 1848.604605,
+      "end_seconds": 1850.6066070000002,
+      "duration_seconds": 2.002002,
+      "video_filename": "ThePhantomCreeps_scene_2_2s_1080p.mp4",
+      "keyframe_filename": "ThePhantomCreeps_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_2_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_2_thumb.jpg",
+      "transcription": "Hey Rob, what up?",
+      "visual_description": "Sequence from 'The Phantom Creeps' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Phantom Creeps' (1939).",
       "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
@@ -1054,129 +298,21 @@
       ]
     },
     {
-      "scene_id": "EndoftheWorld_scene_1",
-      "movie_id": "EndoftheWorld",
-      "scene_number": 1,
-      "start_timecode": "00:13:44",
-      "end_timecode": "00:13:47",
-      "start_seconds": 824.655172,
-      "end_seconds": 827.344828,
-      "duration_seconds": 2.689656,
-      "video_filename": "EndoftheWorld_scene_1_2s_1080p.mp4",
-      "keyframe_filename": "EndoftheWorld_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_1_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_1_thumb.jpg",
-      "transcription": "anything on this earth.",
-      "visual_description": "Sequence from 'End of the World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'End of the World' (1977).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "EndoftheWorld_scene_2",
-      "movie_id": "EndoftheWorld",
-      "scene_number": 2,
-      "start_timecode": "00:19:30",
-      "end_timecode": "00:19:34",
-      "start_seconds": 1170.6896550000001,
-      "end_seconds": 1174.0,
-      "duration_seconds": 3.310345,
-      "video_filename": "EndoftheWorld_scene_2_3s_1080p.mp4",
-      "keyframe_filename": "EndoftheWorld_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_2_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_2_thumb.jpg",
-      "transcription": "plants willing to help. I know.",
-      "visual_description": "Sequence from 'End of the World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'End of the World' (1977).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "EndoftheWorld_scene_3",
-      "movie_id": "EndoftheWorld",
+      "scene_id": "ThePhantomCreeps_scene_3",
+      "movie_id": "ThePhantomCreeps",
       "scene_number": 3,
-      "start_timecode": "00:19:45",
-      "end_timecode": "00:19:49",
-      "start_seconds": 1185.482759,
-      "end_seconds": 1189.8275859999999,
-      "duration_seconds": 4.344827,
-      "video_filename": "EndoftheWorld_scene_3_4s_1080p.mp4",
-      "keyframe_filename": "EndoftheWorld_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_3_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_3_thumb.jpg",
+      "start_timecode": "00:31:17",
+      "end_timecode": "00:31:19",
+      "start_seconds": 1877.633634,
+      "end_seconds": 1879.9359359999999,
+      "duration_seconds": 2.302302,
+      "video_filename": "ThePhantomCreeps_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "ThePhantomCreeps_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_3_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'End of the World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'End of the World' (1977).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "EndoftheWorld_scene_4",
-      "movie_id": "EndoftheWorld",
-      "scene_number": 4,
-      "start_timecode": "00:21:15",
-      "end_timecode": "00:21:19",
-      "start_seconds": 1275.896552,
-      "end_seconds": 1279.0,
-      "duration_seconds": 3.103448,
-      "video_filename": "EndoftheWorld_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "EndoftheWorld_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_4_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'End of the World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'End of the World' (1977).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "EndoftheWorld_scene_5",
-      "movie_id": "EndoftheWorld",
-      "scene_number": 5,
-      "start_timecode": "00:27:00",
-      "end_timecode": "00:27:04",
-      "start_seconds": 1620.5862069999998,
-      "end_seconds": 1624.3103449999999,
-      "duration_seconds": 3.724138,
-      "video_filename": "EndoftheWorld_scene_5_3s_1080p.mp4",
-      "keyframe_filename": "EndoftheWorld_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_5_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/EndoftheWorld_scene_5_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'End of the World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'End of the World' (1977).",
+      "visual_description": "Sequence from 'The Phantom Creeps' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Phantom Creeps' (1939).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -1189,22 +325,22 @@
       ]
     },
     {
-      "scene_id": "CrashoftheMoons_scene_1",
-      "movie_id": "CrashoftheMoons",
-      "scene_number": 1,
-      "start_timecode": "00:26:27",
-      "end_timecode": "00:26:31",
-      "start_seconds": 1587.422018,
-      "end_seconds": 1591.925771,
-      "duration_seconds": 4.503753,
-      "video_filename": "CrashoftheMoons_scene_1_4s_1080p.mp4",
-      "keyframe_filename": "CrashoftheMoons_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_1_thumb.jpg",
-      "transcription": "and meet with Torvak the ruler. We'll need his help in the evacuation.",
-      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' (1954).",
-      "mood": "Fatalistic",
+      "scene_id": "ThePhantomCreeps_scene_4",
+      "movie_id": "ThePhantomCreeps",
+      "scene_number": 4,
+      "start_timecode": "00:32:13",
+      "end_timecode": "00:32:18",
+      "start_seconds": 1933.1891890000002,
+      "end_seconds": 1938.094094,
+      "duration_seconds": 4.904905,
+      "video_filename": "ThePhantomCreeps_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "ThePhantomCreeps_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_4_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_4_thumb.jpg",
+      "transcription": "We're not the only survivors, the box is still here.",
+      "visual_description": "Sequence from 'The Phantom Creeps' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Phantom Creeps' (1939).",
+      "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
@@ -1216,21 +352,21 @@
       ]
     },
     {
-      "scene_id": "CrashoftheMoons_scene_2",
-      "movie_id": "CrashoftheMoons",
-      "scene_number": 2,
-      "start_timecode": "00:28:31",
-      "end_timecode": "00:28:34",
-      "start_seconds": 1711.9007510000001,
-      "end_seconds": 1714.402836,
-      "duration_seconds": 2.502085,
-      "video_filename": "CrashoftheMoons_scene_2_2s_1080p.mp4",
-      "keyframe_filename": "CrashoftheMoons_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_2_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_2_thumb.jpg",
-      "transcription": "See you soon.",
-      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' (1954).",
+      "scene_id": "ThePhantomCreeps_scene_5",
+      "movie_id": "ThePhantomCreeps",
+      "scene_number": 5,
+      "start_timecode": "00:32:18",
+      "end_timecode": "00:32:22",
+      "start_seconds": 1938.094094,
+      "end_seconds": 1942.2982980000002,
+      "duration_seconds": 4.204204,
+      "video_filename": "ThePhantomCreeps_scene_5_4s_1080p.mp4",
+      "keyframe_filename": "ThePhantomCreeps_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_5_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomCreeps_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'The Phantom Creeps' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Phantom Creeps' (1939).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -1243,21 +379,129 @@
       ]
     },
     {
-      "scene_id": "CrashoftheMoons_scene_3",
-      "movie_id": "CrashoftheMoons",
+      "scene_id": "non_stop_new_york_scene_1",
+      "movie_id": "non_stop_new_york",
+      "scene_number": 1,
+      "start_timecode": "00:26:04",
+      "end_timecode": "00:26:08",
+      "start_seconds": 1564.4694690000001,
+      "end_seconds": 1568.373373,
+      "duration_seconds": 3.903904,
+      "video_filename": "non_stop_new_york_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "non_stop_new_york_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_1_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_1_thumb.jpg",
+      "transcription": "salt of the earth. Don't you listen to him he tried to stop me coming here.",
+      "visual_description": "Sequence from 'Non-Stop New York' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Non-Stop New York' (1937).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "non_stop_new_york_scene_2",
+      "movie_id": "non_stop_new_york",
+      "scene_number": 2,
+      "start_timecode": "00:28:01",
+      "end_timecode": "00:28:04",
+      "start_seconds": 1681.986987,
+      "end_seconds": 1684.68969,
+      "duration_seconds": 2.702703,
+      "video_filename": "non_stop_new_york_scene_2_2s_1080p.mp4",
+      "keyframe_filename": "non_stop_new_york_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_2_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_2_thumb.jpg",
+      "transcription": "Nothing, sir, your man-eye, brother.",
+      "visual_description": "Sequence from 'Non-Stop New York' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Non-Stop New York' (1937).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "non_stop_new_york_scene_3",
+      "movie_id": "non_stop_new_york",
       "scene_number": 3,
-      "start_timecode": "00:31:39",
-      "end_timecode": "00:31:44",
-      "start_seconds": 1899.432027,
-      "end_seconds": 1904.185988,
-      "duration_seconds": 4.753961,
-      "video_filename": "CrashoftheMoons_scene_3_4s_1080p.mp4",
-      "keyframe_filename": "CrashoftheMoons_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_3_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_3_thumb.jpg",
-      "transcription": "And I love a facetious as much as you. You answer my suzerain's questions and not one more word.",
-      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' (1954).",
+      "start_timecode": "00:34:09",
+      "end_timecode": "00:34:11",
+      "start_seconds": 2049.054054,
+      "end_seconds": 2051.456456,
+      "duration_seconds": 2.402402,
+      "video_filename": "non_stop_new_york_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "non_stop_new_york_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_3_thumb.jpg",
+      "transcription": "Nope.",
+      "visual_description": "Sequence from 'Non-Stop New York' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Non-Stop New York' (1937).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "non_stop_new_york_scene_4",
+      "movie_id": "non_stop_new_york",
+      "scene_number": 4,
+      "start_timecode": "00:34:29",
+      "end_timecode": "00:34:32",
+      "start_seconds": 2069.574575,
+      "end_seconds": 2072.8778780000002,
+      "duration_seconds": 3.303303,
+      "video_filename": "non_stop_new_york_scene_4_3s_1080p.mp4",
+      "keyframe_filename": "non_stop_new_york_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_4_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Non-Stop New York' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Non-Stop New York' (1937).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "non_stop_new_york_scene_5",
+      "movie_id": "non_stop_new_york",
+      "scene_number": 5,
+      "start_timecode": "00:34:53",
+      "end_timecode": "00:34:58",
+      "start_seconds": 2093.898899,
+      "end_seconds": 2098.603604,
+      "duration_seconds": 4.704705,
+      "video_filename": "non_stop_new_york_scene_5_4s_1080p.mp4",
+      "keyframe_filename": "non_stop_new_york_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_5_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/non_stop_new_york_scene_5_thumb.jpg",
+      "transcription": "AAAAAAHHHHH! AHHHHH! AHHHHH!",
+      "visual_description": "Sequence from 'Non-Stop New York' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Non-Stop New York' (1937).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -1270,156 +514,48 @@
       ]
     },
     {
-      "scene_id": "CrashoftheMoons_scene_4",
-      "movie_id": "CrashoftheMoons",
-      "scene_number": 4,
-      "start_timecode": "00:32:32",
-      "end_timecode": "00:32:35",
-      "start_seconds": 1952.100917,
-      "end_seconds": 1955.478732,
-      "duration_seconds": 3.377815,
-      "video_filename": "CrashoftheMoons_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "CrashoftheMoons_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_4_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' (1954).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "CrashoftheMoons_scene_5",
-      "movie_id": "CrashoftheMoons",
-      "scene_number": 5,
-      "start_timecode": "00:32:52",
-      "end_timecode": "00:32:54",
-      "start_seconds": 1972.618015,
-      "end_seconds": 1974.744787,
-      "duration_seconds": 2.126772,
-      "video_filename": "CrashoftheMoons_scene_5_2s_1080p.mp4",
-      "keyframe_filename": "CrashoftheMoons_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_5_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CrashoftheMoons_scene_5_thumb.jpg",
-      "transcription": "Fire out of the sand!",
-      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Crash of the Moons' (1954).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Assignment_Outer_Space_scene_1",
-      "movie_id": "Assignment_Outer_Space",
+      "scene_id": "Levoyagedanslalune_scene_1",
+      "movie_id": "Levoyagedanslalune",
       "scene_number": 1,
-      "start_timecode": "00:27:49",
-      "end_timecode": "00:27:52",
-      "start_seconds": 1669.6926,
-      "end_seconds": 1672.5955,
-      "duration_seconds": 2.9029,
-      "video_filename": "Assignment_Outer_Space_scene_1_2s_1080p.mp4",
-      "keyframe_filename": "Assignment_Outer_Space_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_1_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_1_thumb.jpg",
-      "transcription": "Oh, while the rest of you are working, I'm supposed to sleep.",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Assignment_Outer_Space_scene_2",
-      "movie_id": "Assignment_Outer_Space",
-      "scene_number": 2,
-      "start_timecode": "00:32:50",
-      "end_timecode": "00:32:54",
-      "start_seconds": 1970.6933,
-      "end_seconds": 1974.9976,
-      "duration_seconds": 4.3043,
-      "video_filename": "Assignment_Outer_Space_scene_2_4s_1080p.mp4",
-      "keyframe_filename": "Assignment_Outer_Space_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_2_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_2_thumb.jpg",
-      "transcription": "What's going on? We're going down.",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Assignment_Outer_Space_scene_3",
-      "movie_id": "Assignment_Outer_Space",
-      "scene_number": 3,
-      "start_timecode": "00:33:12",
-      "end_timecode": "00:33:14",
-      "start_seconds": 1992.3149,
-      "end_seconds": 1994.6172000000001,
-      "duration_seconds": 2.3023,
-      "video_filename": "Assignment_Outer_Space_scene_3_2s_1080p.mp4",
-      "keyframe_filename": "Assignment_Outer_Space_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_3_2s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_3_thumb.jpg",
-      "transcription": "Engines in six-pig oven!",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Assignment_Outer_Space_scene_4",
-      "movie_id": "Assignment_Outer_Space",
-      "scene_number": 4,
-      "start_timecode": "00:33:35",
-      "end_timecode": "00:33:39",
-      "start_seconds": 2015.8384,
-      "end_seconds": 2019.7423,
-      "duration_seconds": 3.9039,
-      "video_filename": "Assignment_Outer_Space_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "Assignment_Outer_Space_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_4_thumb.jpg",
+      "start_timecode": "00:31:21",
+      "end_timecode": "00:31:25",
+      "start_seconds": 1881.510511,
+      "end_seconds": 1885.114114,
+      "duration_seconds": 3.603603,
+      "video_filename": "Levoyagedanslalune_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "Levoyagedanslalune_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_1_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_1_thumb.jpg",
       "transcription": "You",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
+      "visual_description": "Sequence from 'Le voyage dans la lune' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Le voyage dans la lune' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Levoyagedanslalune_scene_2",
+      "movie_id": "Levoyagedanslalune",
+      "scene_number": 2,
+      "start_timecode": "00:32:15",
+      "end_timecode": "00:32:19",
+      "start_seconds": 1935.564565,
+      "end_seconds": 1939.668669,
+      "duration_seconds": 4.104104,
+      "video_filename": "Levoyagedanslalune_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "Levoyagedanslalune_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Le voyage dans la lune' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Le voyage dans la lune' (1950).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -1432,22 +568,886 @@
       ]
     },
     {
-      "scene_id": "Assignment_Outer_Space_scene_5",
-      "movie_id": "Assignment_Outer_Space",
+      "scene_id": "Levoyagedanslalune_scene_3",
+      "movie_id": "Levoyagedanslalune",
+      "scene_number": 3,
+      "start_timecode": "00:32:36",
+      "end_timecode": "00:32:38",
+      "start_seconds": 1956.785786,
+      "end_seconds": 1958.787788,
+      "duration_seconds": 2.002002,
+      "video_filename": "Levoyagedanslalune_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "Levoyagedanslalune_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Le voyage dans la lune' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Le voyage dans la lune' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Levoyagedanslalune_scene_4",
+      "movie_id": "Levoyagedanslalune",
+      "scene_number": 4,
+      "start_timecode": "00:34:02",
+      "end_timecode": "00:34:07",
+      "start_seconds": 2042.471471,
+      "end_seconds": 2047.276276,
+      "duration_seconds": 4.804805,
+      "video_filename": "Levoyagedanslalune_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "Levoyagedanslalune_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_4_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Le voyage dans la lune' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Le voyage dans la lune' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Levoyagedanslalune_scene_5",
+      "movie_id": "Levoyagedanslalune",
       "scene_number": 5,
-      "start_timecode": "00:38:22",
-      "end_timecode": "00:38:26",
-      "start_seconds": 2302.2245000000003,
-      "end_seconds": 2306.4287,
-      "duration_seconds": 4.2042,
-      "video_filename": "Assignment_Outer_Space_scene_5_4s_1080p.mp4",
-      "keyframe_filename": "Assignment_Outer_Space_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_5_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Assignment_Outer_Space_scene_5_thumb.jpg",
-      "transcription": "It's Christmas, Lucy.",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
+      "start_timecode": "00:40:19",
+      "end_timecode": "00:40:22",
+      "start_seconds": 2419.248248,
+      "end_seconds": 2422.451451,
+      "duration_seconds": 3.203203,
+      "video_filename": "Levoyagedanslalune_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "Levoyagedanslalune_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_5_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Levoyagedanslalune_scene_5_thumb.jpg",
+      "transcription": "you have succeeded in getting over the adversaries.",
+      "visual_description": "Sequence from 'Le voyage dans la lune' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Le voyage dans la lune' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "FirstSpaceshipOnVenusMPEG_scene_1",
+      "movie_id": "FirstSpaceshipOnVenusMPEG",
+      "scene_number": 1,
+      "start_timecode": "00:16:58",
+      "end_timecode": "00:17:03",
+      "start_seconds": 1018.6773000000001,
+      "end_seconds": 1023.0817,
+      "duration_seconds": 4.4044,
+      "video_filename": "FirstSpaceshipOnVenusMPEG_scene_1_4s_1080p.mp4",
+      "keyframe_filename": "FirstSpaceshipOnVenusMPEG_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_1_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_1_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'First Spaceship on Venus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus' (1960).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "FirstSpaceshipOnVenusMPEG_scene_2",
+      "movie_id": "FirstSpaceshipOnVenusMPEG",
+      "scene_number": 2,
+      "start_timecode": "00:17:29",
+      "end_timecode": "00:17:33",
+      "start_seconds": 1049.1077,
+      "end_seconds": 1053.2118,
+      "duration_seconds": 4.1041,
+      "video_filename": "FirstSpaceshipOnVenusMPEG_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "FirstSpaceshipOnVenusMPEG_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_2_thumb.jpg",
+      "transcription": "Hey, be careful. Don't forget there's no gravity. We're in free fall now.",
+      "visual_description": "Sequence from 'First Spaceship on Venus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus' (1960).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "FirstSpaceshipOnVenusMPEG_scene_3",
+      "movie_id": "FirstSpaceshipOnVenusMPEG",
+      "scene_number": 3,
+      "start_timecode": "00:17:46",
+      "end_timecode": "00:17:49",
+      "start_seconds": 1066.7253,
+      "end_seconds": 1069.5281,
+      "duration_seconds": 2.8028,
+      "video_filename": "FirstSpaceshipOnVenusMPEG_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "FirstSpaceshipOnVenusMPEG_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'First Spaceship on Venus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus' (1960).",
       "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "FirstSpaceshipOnVenusMPEG_scene_4",
+      "movie_id": "FirstSpaceshipOnVenusMPEG",
+      "scene_number": 4,
+      "start_timecode": "00:18:08",
+      "end_timecode": "00:18:11",
+      "start_seconds": 1088.4470000000001,
+      "end_seconds": 1091.0496,
+      "duration_seconds": 2.6026,
+      "video_filename": "FirstSpaceshipOnVenusMPEG_scene_4_2s_1080p.mp4",
+      "keyframe_filename": "FirstSpaceshipOnVenusMPEG_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_4_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_4_thumb.jpg",
+      "transcription": "Careful, I'm pushing the button.",
+      "visual_description": "Sequence from 'First Spaceship on Venus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus' (1960).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "FirstSpaceshipOnVenusMPEG_scene_5",
+      "movie_id": "FirstSpaceshipOnVenusMPEG",
+      "scene_number": 5,
+      "start_timecode": "00:24:00",
+      "end_timecode": "00:24:04",
+      "start_seconds": 1440.799,
+      "end_seconds": 1444.0022,
+      "duration_seconds": 3.2032,
+      "video_filename": "FirstSpaceshipOnVenusMPEG_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "FirstSpaceshipOnVenusMPEG_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_5_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/FirstSpaceshipOnVenusMPEG_scene_5_thumb.jpg",
+      "transcription": "I would suggest that you make an improvement in all of it.",
+      "visual_description": "Sequence from 'First Spaceship on Venus' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus' (1960).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "back_dragons_ipod_scene_1",
+      "movie_id": "back_dragons_ipod",
+      "scene_number": 1,
+      "start_timecode": "00:16:51",
+      "end_timecode": "00:16:54",
+      "start_seconds": 1011.524525,
+      "end_seconds": 1014.027027,
+      "duration_seconds": 2.502502,
+      "video_filename": "back_dragons_ipod_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "back_dragons_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_1_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "back_dragons_ipod_scene_2",
+      "movie_id": "back_dragons_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:17:55",
+      "end_timecode": "00:17:58",
+      "start_seconds": 1075.488488,
+      "end_seconds": 1078.991992,
+      "duration_seconds": 3.503504,
+      "video_filename": "back_dragons_ipod_scene_2_3s_1080p.mp4",
+      "keyframe_filename": "back_dragons_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_2_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "back_dragons_ipod_scene_3",
+      "movie_id": "back_dragons_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:18:32",
+      "end_timecode": "00:18:36",
+      "start_seconds": 1112.325325,
+      "end_seconds": 1116.229229,
+      "duration_seconds": 3.903904,
+      "video_filename": "back_dragons_ipod_scene_3_3s_1080p.mp4",
+      "keyframe_filename": "back_dragons_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_3_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_3_thumb.jpg",
+      "transcription": "... ... ... ... ... ...",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "back_dragons_ipod_scene_4",
+      "movie_id": "back_dragons_ipod",
+      "scene_number": 4,
+      "start_timecode": "00:23:45",
+      "end_timecode": "00:23:49",
+      "start_seconds": 1425.0380380000001,
+      "end_seconds": 1429.342342,
+      "duration_seconds": 4.304304,
+      "video_filename": "back_dragons_ipod_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "back_dragons_ipod_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_4_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "back_dragons_ipod_scene_5",
+      "movie_id": "back_dragons_ipod",
+      "scene_number": 5,
+      "start_timecode": "00:25:07",
+      "end_timecode": "00:25:10",
+      "start_seconds": 1507.12012,
+      "end_seconds": 1510.323323,
+      "duration_seconds": 3.203203,
+      "video_filename": "back_dragons_ipod_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "back_dragons_ipod_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_5_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/back_dragons_ipod_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Black Dragons' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Black Dragons' (1942).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "transatlantic_tunnel_scene_1",
+      "movie_id": "transatlantic_tunnel",
+      "scene_number": 1,
+      "start_timecode": "00:18:38",
+      "end_timecode": "00:18:41",
+      "start_seconds": 1118.4694690000001,
+      "end_seconds": 1121.972973,
+      "duration_seconds": 3.503504,
+      "video_filename": "transatlantic_tunnel_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "transatlantic_tunnel_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_1_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_1_thumb.jpg",
+      "transcription": "Hello, hello, hello with Floyd, what is it?",
+      "visual_description": "Sequence from 'Transatlantic Tunnel' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Transatlantic Tunnel' (1935).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "transatlantic_tunnel_scene_2",
+      "movie_id": "transatlantic_tunnel",
+      "scene_number": 2,
+      "start_timecode": "00:21:07",
+      "end_timecode": "00:21:10",
+      "start_seconds": 1267.318318,
+      "end_seconds": 1270.021021,
+      "duration_seconds": 2.702703,
+      "video_filename": "transatlantic_tunnel_scene_2_2s_1080p.mp4",
+      "keyframe_filename": "transatlantic_tunnel_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_2_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_2_thumb.jpg",
+      "transcription": "operator.",
+      "visual_description": "Sequence from 'Transatlantic Tunnel' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Transatlantic Tunnel' (1935).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "transatlantic_tunnel_scene_3",
+      "movie_id": "transatlantic_tunnel",
+      "scene_number": 3,
+      "start_timecode": "00:21:24",
+      "end_timecode": "00:21:29",
+      "start_seconds": 1284.835836,
+      "end_seconds": 1289.24024,
+      "duration_seconds": 4.404404,
+      "video_filename": "transatlantic_tunnel_scene_3_4s_1080p.mp4",
+      "keyframe_filename": "transatlantic_tunnel_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_3_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Transatlantic Tunnel' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Transatlantic Tunnel' (1935).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "transatlantic_tunnel_scene_4",
+      "movie_id": "transatlantic_tunnel",
+      "scene_number": 4,
+      "start_timecode": "00:21:52",
+      "end_timecode": "00:21:56",
+      "start_seconds": 1312.963964,
+      "end_seconds": 1316.867868,
+      "duration_seconds": 3.903904,
+      "video_filename": "transatlantic_tunnel_scene_4_3s_1080p.mp4",
+      "keyframe_filename": "transatlantic_tunnel_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_4_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_4_thumb.jpg",
+      "transcription": "Well, if I knew what to do, I'd do it. There isn't anything you can do.",
+      "visual_description": "Sequence from 'Transatlantic Tunnel' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Transatlantic Tunnel' (1935).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "transatlantic_tunnel_scene_5",
+      "movie_id": "transatlantic_tunnel",
+      "scene_number": 5,
+      "start_timecode": "00:21:56",
+      "end_timecode": "00:22:00",
+      "start_seconds": 1316.867868,
+      "end_seconds": 1320.471471,
+      "duration_seconds": 3.603603,
+      "video_filename": "transatlantic_tunnel_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "transatlantic_tunnel_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_5_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/transatlantic_tunnel_scene_5_thumb.jpg",
+      "transcription": "Oh, yes it is.",
+      "visual_description": "Sequence from 'Transatlantic Tunnel' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Transatlantic Tunnel' (1935).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Phantom_From_Space_scene_1",
+      "movie_id": "Phantom_From_Space",
+      "scene_number": 1,
+      "start_timecode": "00:20:07",
+      "end_timecode": "00:20:09",
+      "start_seconds": 1207.2942,
+      "end_seconds": 1209.4964,
+      "duration_seconds": 2.2022,
+      "video_filename": "Phantom_From_Space_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "Phantom_From_Space_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_1_thumb.jpg",
+      "transcription": "Three miles east of the oil fields.",
+      "visual_description": "Sequence from 'Phantom From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom From Space' (1953).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Phantom_From_Space_scene_2",
+      "movie_id": "Phantom_From_Space",
+      "scene_number": 2,
+      "start_timecode": "00:21:32",
+      "end_timecode": "00:21:35",
+      "start_seconds": 1292.8797,
+      "end_seconds": 1295.8827,
+      "duration_seconds": 3.003,
+      "video_filename": "Phantom_From_Space_scene_2_3s_1080p.mp4",
+      "keyframe_filename": "Phantom_From_Space_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_2_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_2_thumb.jpg",
+      "transcription": "Couldn't you identify an object of a media?",
+      "visual_description": "Sequence from 'Phantom From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom From Space' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Phantom_From_Space_scene_3",
+      "movie_id": "Phantom_From_Space",
+      "scene_number": 3,
+      "start_timecode": "00:26:19",
+      "end_timecode": "00:26:22",
+      "start_seconds": 1579.5661,
+      "end_seconds": 1582.5691,
+      "duration_seconds": 3.003,
+      "video_filename": "Phantom_From_Space_scene_3_3s_1080p.mp4",
+      "keyframe_filename": "Phantom_From_Space_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_3_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_3_thumb.jpg",
+      "transcription": "Oh",
+      "visual_description": "Sequence from 'Phantom From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom From Space' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Phantom_From_Space_scene_4",
+      "movie_id": "Phantom_From_Space",
+      "scene_number": 4,
+      "start_timecode": "00:30:16",
+      "end_timecode": "00:30:18",
+      "start_seconds": 1816.6028999999999,
+      "end_seconds": 1818.8051,
+      "duration_seconds": 2.2022,
+      "video_filename": "Phantom_From_Space_scene_4_2s_1080p.mp4",
+      "keyframe_filename": "Phantom_From_Space_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_4_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Phantom From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom From Space' (1953).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Phantom_From_Space_scene_5",
+      "movie_id": "Phantom_From_Space",
+      "scene_number": 5,
+      "start_timecode": "00:33:28",
+      "end_timecode": "00:33:33",
+      "start_seconds": 2008.895,
+      "end_seconds": 2013.0324666666666,
+      "duration_seconds": 4.137467,
+      "video_filename": "Phantom_From_Space_scene_5_4s_1080p.mp4",
+      "keyframe_filename": "Phantom_From_Space_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_5_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Phantom_From_Space_scene_5_thumb.jpg",
+      "transcription": "Thank you Bill. Good night. Good night. I'll give you a hand with it.",
+      "visual_description": "Sequence from 'Phantom From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom From Space' (1953).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Frankenstein1974-BorisLugosi_scene_1",
+      "movie_id": "Frankenstein1974-BorisLugosi",
+      "scene_number": 1,
+      "start_timecode": "00:19:53",
+      "end_timecode": "00:19:55",
+      "start_seconds": 1193.454454,
+      "end_seconds": 1195.5565569999999,
+      "duration_seconds": 2.102103,
+      "video_filename": "Frankenstein1974-BorisLugosi_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "Frankenstein1974-BorisLugosi_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_1_thumb.jpg",
+      "transcription": "Understand?",
+      "visual_description": "Sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Frankenstein1974-BorisLugosi_scene_2",
+      "movie_id": "Frankenstein1974-BorisLugosi",
+      "scene_number": 2,
+      "start_timecode": "00:20:26",
+      "end_timecode": "00:20:28",
+      "start_seconds": 1226.4874869999999,
+      "end_seconds": 1228.98999,
+      "duration_seconds": 2.502503,
+      "video_filename": "Frankenstein1974-BorisLugosi_scene_2_2s_1080p.mp4",
+      "keyframe_filename": "Frankenstein1974-BorisLugosi_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_2_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_2_thumb.jpg",
+      "transcription": "Frankenstein's.",
+      "visual_description": "Sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Frankenstein1974-BorisLugosi_scene_3",
+      "movie_id": "Frankenstein1974-BorisLugosi",
+      "scene_number": 3,
+      "start_timecode": "00:24:49",
+      "end_timecode": "00:24:54",
+      "start_seconds": 1489.750751,
+      "end_seconds": 1494.155155,
+      "duration_seconds": 4.404404,
+      "video_filename": "Frankenstein1974-BorisLugosi_scene_3_4s_1080p.mp4",
+      "keyframe_filename": "Frankenstein1974-BorisLugosi_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_3_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Frankenstein1974-BorisLugosi_scene_4",
+      "movie_id": "Frankenstein1974-BorisLugosi",
+      "scene_number": 4,
+      "start_timecode": "00:29:52",
+      "end_timecode": "00:29:55",
+      "start_seconds": 1792.453453,
+      "end_seconds": 1795.656657,
+      "duration_seconds": 3.203204,
+      "video_filename": "Frankenstein1974-BorisLugosi_scene_4_3s_1080p.mp4",
+      "keyframe_filename": "Frankenstein1974-BorisLugosi_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_4_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Frankenstein1974-BorisLugosi_scene_5",
+      "movie_id": "Frankenstein1974-BorisLugosi",
+      "scene_number": 5,
+      "start_timecode": "00:29:55",
+      "end_timecode": "00:29:58",
+      "start_seconds": 1795.656657,
+      "end_seconds": 1798.159159,
+      "duration_seconds": 2.502502,
+      "video_filename": "Frankenstein1974-BorisLugosi_scene_5_2s_1080p.mp4",
+      "keyframe_filename": "Frankenstein1974-BorisLugosi_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_5_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Frankenstein1974-BorisLugosi_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Frankenstein: The Movie (1974) - Boris Lugosi' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_ipod_scene_1",
+      "movie_id": "planet_outlaws_ipod",
+      "scene_number": 1,
+      "start_timecode": "00:12:53",
+      "end_timecode": "00:12:56",
+      "start_seconds": 773.697698,
+      "end_seconds": 776.950951,
+      "duration_seconds": 3.253253,
+      "video_filename": "planet_outlaws_ipod_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_1_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_1_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_ipod_scene_2",
+      "movie_id": "planet_outlaws_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:17:02",
+      "end_timecode": "00:17:06",
+      "start_seconds": 1022.5715720000001,
+      "end_seconds": 1026.700701,
+      "duration_seconds": 4.129129,
+      "video_filename": "planet_outlaws_ipod_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_2_thumb.jpg",
+      "transcription": "Saturn wants no contact with outside planets.",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_ipod_scene_3",
+      "movie_id": "planet_outlaws_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:18:50",
+      "end_timecode": "00:18:52",
+      "start_seconds": 1130.054054,
+      "end_seconds": 1132.431431,
+      "duration_seconds": 2.377377,
+      "video_filename": "planet_outlaws_ipod_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_ipod_scene_4",
+      "movie_id": "planet_outlaws_ipod",
+      "scene_number": 4,
+      "start_timecode": "00:24:31",
+      "end_timecode": "00:24:33",
+      "start_seconds": 1471.520521,
+      "end_seconds": 1473.522523,
+      "duration_seconds": 2.002002,
+      "video_filename": "planet_outlaws_ipod_scene_4_2s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_ipod_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_4_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_ipod_scene_5",
+      "movie_id": "planet_outlaws_ipod",
+      "scene_number": 5,
+      "start_timecode": "00:25:17",
+      "end_timecode": "00:25:20",
+      "start_seconds": 1517.0660659999999,
+      "end_seconds": 1520.444444,
+      "duration_seconds": 3.378378,
+      "video_filename": "planet_outlaws_ipod_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_ipod_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_5_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_ipod_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
