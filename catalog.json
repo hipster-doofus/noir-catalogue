@@ -1,99 +1,507 @@
 {
-  "updated_at": "2026-11-07T17:53:05.384545+00:00",
-  "total_movies": 7,
-  "total_scenes": 39,
-  "genre": "sci-fi",
+  "updated_at": "2026-11-08T14:56:16.362287+00:00",
+  "total_movies": 10,
+  "total_scenes": 50,
+  "genre": "any",
   "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
-      "title": "DELUGE image quality upgrade",
-      "year": 1950,
-      "director": "Samuel Bischoff",
-      "archive_id": "delugeimagequalityupgrade",
+      "title": "House on Haunted Hill",
+      "year": 1959,
+      "director": "William Castle",
+      "archive_id": "The_House_On_Haunted_Hill",
       "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/delugeimagequalityupgrade/DELUGE image quality upgrade.mp4",
+      "video_url": "https://archive.org/download/The_House_On_Haunted_Hill/The_House_On_Haunted_Hill.mp4",
       "license": "Open Archive",
-      "description": "This print has improved contrast and luminosity. Also it is an undivided MPEG4 (MP4) file for convenient downloading. \u201cDisturbing\u201d \u201cQuite good\u201d \u201cRemarkable\u201d \u201cSee it if you can\u201d (IMDB reviews quotes). An end of the world fantasy and romantic drama noted for its remarkable special effects. Good cast headed by Sidney Blackmer and Peggy Shannon. Filmed in part at the Bronson Canyon caves, Griffith Park, Los Angeles. Recommended. IMDB rating 6.2. Directed by Felix E Feist. Released in 1933. Complete print (Canadian version). PRODUCTION NOTE: The special effects and other production costs proved to be far beyond the financial resources of little KBS Productions, which was forced into bankruptcy"
+      "description": "An eccentric millionaire throws a party for his wife in a haunted house offering each guest $10,000 if they can make it through the night. Only there seem to be schemes at work beyond what the ghosts have planned. You can find out more about this movie on its IMDB page . You can download an AVI of this movie here . And this movie was featured on an episode of Frightmares the Series hosted on the Internet Archive here ."
     },
     {
-      "title": "THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade",
-      "year": 1950,
-      "director": "Jack Milner",
-      "archive_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade",
+      "title": "Meet John Doe",
+      "year": 1941,
+      "director": "Frank Capra",
+      "archive_id": "meet_john_doe_ipod",
       "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade.mp4",
+      "video_url": "https://archive.org/download/meet_john_doe_ipod/meet_john_doe.mp4",
       "license": "Open Archive",
-      "description": "This is the original widescreen theatrical print which is significantly sharper than the 4;3 print found elsewhere at IA. An ultra-low-budget sci fi romp in which a radiation-spawned monster terrorizes a California beach, without actually showing up on the beach. He (it) does manage to sink the same rowboat three times. Will Venice Beach survive? And what about the rest of us? Directed by Dan Milner Released in 1955 complete print"
+      "description": "Taken from IMDB : As a parting shot, fired reporter Ann Mitchell prints a fake letter from unemployed \"John Doe,\" who threatens suicide in protest of social ills. The paper is forced to rehire Ann and hires John Willoughby to impersonate \"Doe.\" Ann and her bosses cynically milk the story for all it's worth, until the made-up \"John Doe\" philosophy starts a whole political movement. At last everyone, even Ann, takes her creation seriously...but publisher D.B. Norton has a secret plan. Written by Rod"
     },
     {
-      "title": "Shocker Internet Drive In Week 10 - Christmas Special",
-      "year": 1950,
+      "title": "Winds of the Wasteland",
+      "year": 1936,
+      "director": "Nat Levine",
+      "archive_id": "Winds_of_the_Wasteland",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Winds_of_the_Wasteland/Winds_of_the_Wasteland.mp4",
+      "license": "Open Archive",
+      "description": "The arrival of the telegraph put Pony Express riders like John Blair (John Wayne) and his pal Smoky (Lane Chandler) out of work they try to start a stagecoach route through a ghost town. A rival stagecoach company tries to stop them."
+    },
+    {
+      "title": "Paradise Canyon",
+      "year": 1935,
+      "director": "Paul Malvern",
+      "archive_id": "ParadiseCanyon",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/ParadiseCanyon/ParadiseCanyon.mp4",
+      "license": "Open Archive",
+      "description": "AKA Paradise Ranch Government agent John Wyatt (John Wayne) is searching for a counterfeit ring operating on the Mexican/Arizona border and joins Doc Carter's (Earle Hodgins) traveling medicine show as a sharpshooter."
+    },
+    {
+      "title": "Death Rides A Horse",
+      "year": 1967,
       "director": "Unknown Director",
-      "archive_id": "ShockerInternetDriveInWeek10-ChristmasSpecial",
+      "archive_id": "Death_Rides_A_Horse_pan_and_scan",
       "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/ShockerInternetDriveInWeek10-ChristmasSpecial/week10-xmas.mp4",
+      "video_url": "https://archive.org/download/Death_Rides_A_Horse_pan_and_scan/deathridesahorse-2of4.mp4",
       "license": "Open Archive",
-      "description": "Snuggle up close, turn the heat up, visit the snack bar for some hot coco (and shrimp roll), and enjoy our special Christmas Special Presentation. After a classic 1940's \"Rudolf The Red Nosed Reindeer\" cartoon as well as a \"Visit With Santa\", we proudly offer that holiday piece of cinema poo-poo, \"Santa Claus Conquers The Martians\". What else can we say - Happy Holidays & Merry Christmas to all! For more information, go here - www.shockerdrivein.co.cc or http://beatlbay7900.hostoutfitter.com/home.html"
+      "description": "NOTE: THIS FILM IS SEPERATED INTO 4 FILES Death Rides A Horse, in public domain, this version is panned and scanned. first three vids are direct rips from dvd, '.vob' extension renamed '.mpg', fourth vid was cropped to exclude copyrighted content which was attached to the ending (distributor logo etc.), it was reformatted into mpg2. According to wikipedia this film is originally in Italian, no doubt dubbed for the American release. For more information on public domain films, where to watch them, where to download them, and legal status info, visit http://www.publicdomainmotionpictures.com"
     },
     {
-      "title": "The Invisible Woman ( 1940)",
-      "year": 1940,
-      "director": "A. Edward Sutherland",
-      "archive_id": "the-invisible-woman-1940_202105",
+      "title": "Rifle Marksmanship with the M1 Rifle",
+      "year": 1942,
+      "director": "U.S. War Department",
+      "archive_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1",
       "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/the-invisible-woman-1940_202105/The Invisible Woman (1940).mp4",
+      "video_url": "https://archive.org/download/Rifle_Marksmanship_with_M1_Rifle_Part_1/Rifle_Marksmanship_with_M1_Rifle_part_1.mp4",
       "license": "Open Archive",
-      "description": "Eccentric Professor Gibbs, brilliant but impractical, invents an invisibility machine and advertises for a guinea pig. What he gets is Kitty Carroll, an attractive, adventurous model, who thinks being invisible would help her settle a few scores. Complications arise when three comic gangsters steal the machine to use on their boss."
+      "description": "These are Excellent videos for those who would like to know more about rifle shooting. They are great for both the beginner and the expert who needs a refresher. The series focuses on the M1 garand, but the techniques can be applied to any rifle. part one covers sling usage and shooting positions. Part 2 covers sight adjustments and also has one of the BEST explanations of windage adjustments EVER. The film was made in 1942/43 for the war department and is now in the public domain, so it can be copied and recopied at will. Please give a copy to anyone you may think would be interested in becoming a better shooter then visit www.rwva.org to find out about an APPLESEED shoot. Special thanks to Jack A Sol of the Revolutionary War Veterans Association for making these videos available to the general public."
     },
     {
-      "title": "MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)",
-      "year": 1950,
-      "director": "The 2am Theater",
-      "archive_id": "morespacealiensattacksatthebijoudoublefeature",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/morespacealiensattacksatthebijoudoublefeature/MORE SPACE ALIENS ATTACKS AT THE BIJOU (double feature).mp4",
-      "license": "Open Archive",
-      "description": "There\u2019s a crisis at the border! Those damn undocumented space aliens just keep coming and coming! Where will it all end? The evening of alien terror begins with previews of coming catastrophes. Then in \u201cFrankenstein Meets the Space Monster\u201d aliens invade Puerto Rico to shrink-wrap beach babes. Why? Because they can. Next in \u201cInvisible Invaders\u201d John Agar uses loud noises to fight John Carradine and his army of killer zombies, which I believe was the inspiration for heavy metal."
-    },
-    {
-      "title": "Captain Z-Ro - Christopher Columbus",
-      "year": 1950,
+      "title": "The Holy Ghost People",
+      "year": 1967,
       "director": "Unknown Director",
-      "archive_id": "CaptainZ-ro-ChristopherColumbus",
+      "archive_id": "HolyGhostPeople",
       "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/CaptainZ-ro-ChristopherColumbus/01ChristopherColumbus.mp4",
+      "video_url": "https://archive.org/download/HolyGhostPeople/HolyGhost1.mp4",
       "license": "Open Archive",
-      "description": "Episode 1 of the syndicated filmed series. Captain Z-Ro uses his time machine to protect humankind at various junctions in history. Public domain status: Registered as a published film 25 June 1955(LP11103). Not renewed. Subsequent copyright re-registration rejected in 1985: Captain Z-Ro/Christopher Columbus. By Captain Z-Ro Productions, Inc. Type of Work: Cancelled Registration Cancelled Registration Number: PA0000216077 PA reg. cancelled. Title: Captain Z-Ro/Christopher Columbus. By Captain Z-Ro Productions, Inc. Variant title: Captain Z-Ro/Christopher Columbus."
+      "description": "Ground-breaking example of \"cinema verite\" filmmaking at its best! This documentary explores the individual experiences of Pentacostal Christians. Film culminates with ceremonial handling of poisonous snakes. Ironically, it is the preacher that gets bitten."
     },
     {
-      "title": "TEENAGE ZOMBIES video quality upgrade",
+      "title": "Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives",
       "year": 1950,
-      "director": "Jerry Warren",
-      "archive_id": "TeenageZombiesVideoQualityUpgrade",
+      "director": "Angelo Sacerdote",
+      "archive_id": "Fed_Up_Genetic_Engineering",
       "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/TeenageZombiesVideoQualityUpgrade/TeenageZombiesVideoQualityUpgrade.mp4",
+      "video_url": "https://archive.org/download/Fed_Up_Genetic_Engineering/VTS_04_1.mp4",
       "license": "Open Archive",
-      "description": "This print is sharper with better contrast and a smaller download file than the existing IA copy. Entertainingly bad teen exploitation with a whacky screenplay, low production values and awful acting. A gorilla suit is the ketchup on the corndog. Produced and directed by Jerry Warren. Released in 1960. a.k.a. \"Teenage Torture\" (2nd release title). Complete print. TRIVIA: The title and background music were stolen from \"Kronos\" (1957) CAST NOTE: Don Sullivan (Regg) also has the leading role in \"The Giant Gila Monster,\" which is here at IA in the restored version of its original widescreen release."
+      "description": "About 70% of the food we eat contains genetically modified ingredients and is not labeled. The biotechnology industry is spending $50 million a year to convince us that this technology is our only hope for feeding the world and saving the environment. Family farmers are disappearing at an astonishing rate as people continue to go hungry both here and abroad. Using hilarious and disturbing archival footage and featuring interviews with farmers, scientists, government officials and activists, FED UP! presents an entertaining, informative and compelling overview of our food production system from the Green Revolution to the Biotech Revolution and what we can do about it. The movie is broken into four parts, averaging 20 minutes each. For more information please see http://www.wholesomegoodness.org/"
+    },
+    {
+      "title": "In The Realm Of The Senses",
+      "year": 1976,
+      "director": "Nagisa Oshima",
+      "archive_id": "in-the-realm-of-the-senses",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/in-the-realm-of-the-senses/In the Realm of the Senses.mp4",
+      "license": "Open Archive",
+      "description": "In the Realm of the Senses \u00a0( Ai no corrida ), by the always provocative Japanese director Nagisa Oshima, remains one of the most controversial films of all time. Based on a true incident, it graphically depicts the all-consuming, transcendent\u2014but ultimately destructive\u2014love of a man and a woman (Tatsuya Fuji and Eiko Matsuda) living in an era of ever escalating imperialism and governmental control. Less a work of pornography than of politics,\u00a0 In the Realm of the Senses \u00a0is a brave, taboo-breaking milestone, still censored in its own country."
+    },
+    {
+      "title": "Nosferatu_DVD_quality",
+      "year": 1922,
+      "director": "Unknown Director",
+      "archive_id": "Nosferatu_DVD_quality",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Nosferatu_DVD_quality/nosferatu-4of5_512kb.mp4",
+      "license": "Open Archive",
+      "description": "NOTE: THIS FILM IS SEPARATED INTO FOUR FILES Nosferatu, up elsewhere on archive.org, this is the highest resolution version up so far, a direct DVD rip, '.vob' files renamed '.mpg', no reformatting has taken place. This version is the Alpha Video (ALP 3151D) rip. For information on specific DVD versions and quality, see: http://www.silentera.com/DVD/nosferatuDVD.html For more information on public domain films, where to watch them, where to download them, and legal status info, visit http://www.publicdomainmotionpictures.com"
     }
   ],
   "scenes": [
     {
-      "scene_id": "delugeimagequalityupgrade_scene_1",
-      "movie_id": "delugeimagequalityupgrade",
+      "scene_id": "The_House_On_Haunted_Hill_scene_1",
+      "movie_id": "The_House_On_Haunted_Hill",
       "scene_number": 1,
-      "start_timecode": "00:16:11",
-      "end_timecode": "00:16:23",
-      "start_seconds": 971.1800000000001,
-      "end_seconds": 983.695433,
-      "duration_seconds": 12.515433,
-      "video_filename": "delugeimagequalityupgrade_scene_1_12s_1080p.mp4",
-      "keyframe_filename": "delugeimagequalityupgrade_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_1_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_1_thumb.jpg",
+      "start_timecode": "00:35:51",
+      "end_timecode": "00:35:54",
+      "start_seconds": 2151.6633,
+      "end_seconds": 2154.2659,
+      "duration_seconds": 2.6026,
+      "video_filename": "The_House_On_Haunted_Hill_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "The_House_On_Haunted_Hill_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_1_thumb.jpg",
+      "transcription": "May I have your attention, please?",
+      "visual_description": "Sequence from 'House on Haunted Hill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'House on Haunted Hill' (1959).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_House_On_Haunted_Hill_scene_2",
+      "movie_id": "The_House_On_Haunted_Hill",
+      "scene_number": 2,
+      "start_timecode": "00:36:30",
+      "end_timecode": "00:36:33",
+      "start_seconds": 2190.6022,
+      "end_seconds": 2193.9055,
+      "duration_seconds": 3.3033,
+      "video_filename": "The_House_On_Haunted_Hill_scene_2_3s_1080p.mp4",
+      "keyframe_filename": "The_House_On_Haunted_Hill_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_2_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_2_thumb.jpg",
+      "transcription": "I don't want to stay wait",
+      "visual_description": "Sequence from 'House on Haunted Hill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'House on Haunted Hill' (1959).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_House_On_Haunted_Hill_scene_3",
+      "movie_id": "The_House_On_Haunted_Hill",
+      "scene_number": 3,
+      "start_timecode": "00:38:03",
+      "end_timecode": "00:38:05",
+      "start_seconds": 2283.9955,
+      "end_seconds": 2285.497,
+      "duration_seconds": 1.5015,
+      "video_filename": "The_House_On_Haunted_Hill_scene_3_1s_1080p.mp4",
+      "keyframe_filename": "The_House_On_Haunted_Hill_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_3_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_3_thumb.jpg",
+      "transcription": "BAM!",
+      "visual_description": "Sequence from 'House on Haunted Hill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'House on Haunted Hill' (1959).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_House_On_Haunted_Hill_scene_4",
+      "movie_id": "The_House_On_Haunted_Hill",
+      "scene_number": 4,
+      "start_timecode": "00:44:00",
+      "end_timecode": "00:44:04",
+      "start_seconds": 2640.4516,
+      "end_seconds": 2644.1553,
+      "duration_seconds": 3.7037,
+      "video_filename": "The_House_On_Haunted_Hill_scene_4_3s_1080p.mp4",
+      "keyframe_filename": "The_House_On_Haunted_Hill_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_4_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_4_thumb.jpg",
+      "transcription": "Oh",
+      "visual_description": "Sequence from 'House on Haunted Hill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'House on Haunted Hill' (1959).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_House_On_Haunted_Hill_scene_5",
+      "movie_id": "The_House_On_Haunted_Hill",
+      "scene_number": 5,
+      "start_timecode": "00:44:25",
+      "end_timecode": "00:44:27",
+      "start_seconds": 2665.1763,
+      "end_seconds": 2667.4786,
+      "duration_seconds": 2.3023,
+      "video_filename": "The_House_On_Haunted_Hill_scene_5_2s_1080p.mp4",
+      "keyframe_filename": "The_House_On_Haunted_Hill_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_5_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_House_On_Haunted_Hill_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'House on Haunted Hill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'House on Haunted Hill' (1959).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "meet_john_doe_ipod_scene_1",
+      "movie_id": "meet_john_doe_ipod",
+      "scene_number": 1,
+      "start_timecode": "00:28:37",
+      "end_timecode": "00:28:38",
+      "start_seconds": 1717.726727,
+      "end_seconds": 1718.927928,
+      "duration_seconds": 1.201201,
+      "video_filename": "meet_john_doe_ipod_scene_1_1s_1080p.mp4",
+      "keyframe_filename": "meet_john_doe_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_1_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Meet John Doe' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Meet John Doe' (1941).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "meet_john_doe_ipod_scene_2",
+      "movie_id": "meet_john_doe_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:29:00",
+      "end_timecode": "00:29:03",
+      "start_seconds": 1740.249249,
+      "end_seconds": 1743.252252,
+      "duration_seconds": 3.003003,
+      "video_filename": "meet_john_doe_ipod_scene_2_3s_1080p.mp4",
+      "keyframe_filename": "meet_john_doe_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_2_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_2_thumb.jpg",
+      "transcription": "Yeah, DB. Oh, just cleaning out the deadwood.",
+      "visual_description": "Sequence from 'Meet John Doe' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Meet John Doe' (1941).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "meet_john_doe_ipod_scene_3",
+      "movie_id": "meet_john_doe_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:29:18",
+      "end_timecode": "00:29:22",
+      "start_seconds": 1758.567568,
+      "end_seconds": 1762.871872,
+      "duration_seconds": 4.304304,
+      "video_filename": "meet_john_doe_ipod_scene_3_4s_1080p.mp4",
+      "keyframe_filename": "meet_john_doe_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_3_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_3_thumb.jpg",
+      "transcription": "I was sent down here to clean house. I told you I can't use your car anymore. So, lab.",
+      "visual_description": "Sequence from 'Meet John Doe' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Meet John Doe' (1941).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "meet_john_doe_ipod_scene_4",
+      "movie_id": "meet_john_doe_ipod",
+      "scene_number": 4,
+      "start_timecode": "00:29:50",
+      "end_timecode": "00:29:52",
+      "start_seconds": 1790.6997000000001,
+      "end_seconds": 1792.601602,
+      "duration_seconds": 1.901902,
+      "video_filename": "meet_john_doe_ipod_scene_4_1s_1080p.mp4",
+      "keyframe_filename": "meet_john_doe_ipod_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_4_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_4_thumb.jpg",
+      "transcription": "Don't forget to get out your last column before you pick...",
+      "visual_description": "Sequence from 'Meet John Doe' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Meet John Doe' (1941).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "meet_john_doe_ipod_scene_5",
+      "movie_id": "meet_john_doe_ipod",
+      "scene_number": 5,
+      "start_timecode": "00:30:35",
+      "end_timecode": "00:30:36",
+      "start_seconds": 1835.244244,
+      "end_seconds": 1836.745746,
+      "duration_seconds": 1.501502,
+      "video_filename": "meet_john_doe_ipod_scene_5_1s_1080p.mp4",
+      "keyframe_filename": "meet_john_doe_ipod_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_5_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/meet_john_doe_ipod_scene_5_thumb.jpg",
+      "transcription": "wait",
+      "visual_description": "Sequence from 'Meet John Doe' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Meet John Doe' (1941).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Winds_of_the_Wasteland_scene_1",
+      "movie_id": "Winds_of_the_Wasteland",
+      "scene_number": 1,
+      "start_timecode": "00:12:04",
+      "end_timecode": "00:12:08",
+      "start_seconds": 724.0,
+      "end_seconds": 728.6800000000001,
+      "duration_seconds": 4.68,
+      "video_filename": "Winds_of_the_Wasteland_scene_1_4s_1080p.mp4",
+      "keyframe_filename": "Winds_of_the_Wasteland_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_1_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_1_thumb.jpg",
+      "transcription": "The word is yes yeah come along I'll show you.",
+      "visual_description": "Sequence from 'Winds of the Wasteland' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Winds of the Wasteland' (1936).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Winds_of_the_Wasteland_scene_2",
+      "movie_id": "Winds_of_the_Wasteland",
+      "scene_number": 2,
+      "start_timecode": "00:12:54",
+      "end_timecode": "00:12:55",
+      "start_seconds": 774.04,
+      "end_seconds": 775.24,
+      "duration_seconds": 1.2,
+      "video_filename": "Winds_of_the_Wasteland_scene_2_1s_1080p.mp4",
+      "keyframe_filename": "Winds_of_the_Wasteland_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_2_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_2_thumb.jpg",
+      "transcription": "much to look at.",
+      "visual_description": "Sequence from 'Winds of the Wasteland' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Winds of the Wasteland' (1936).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Winds_of_the_Wasteland_scene_3",
+      "movie_id": "Winds_of_the_Wasteland",
+      "scene_number": 3,
+      "start_timecode": "00:12:55",
+      "end_timecode": "00:12:59",
+      "start_seconds": 775.24,
+      "end_seconds": 779.6800000000001,
+      "duration_seconds": 4.44,
+      "video_filename": "Winds_of_the_Wasteland_scene_3_4s_1080p.mp4",
+      "keyframe_filename": "Winds_of_the_Wasteland_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_3_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_3_thumb.jpg",
+      "transcription": "Who are you still carrying passengers? We can get them.",
+      "visual_description": "Sequence from 'Winds of the Wasteland' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Winds of the Wasteland' (1936).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Winds_of_the_Wasteland_scene_4",
+      "movie_id": "Winds_of_the_Wasteland",
+      "scene_number": 4,
+      "start_timecode": "00:17:14",
+      "end_timecode": "00:17:15",
+      "start_seconds": 1034.08,
+      "end_seconds": 1035.88,
+      "duration_seconds": 1.8,
+      "video_filename": "Winds_of_the_Wasteland_scene_4_1s_1080p.mp4",
+      "keyframe_filename": "Winds_of_the_Wasteland_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_4_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_4_thumb.jpg",
       "transcription": "You",
-      "visual_description": "Sequence from 'DELUGE image quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'DELUGE image quality upgrade' (1950).",
+      "visual_description": "Sequence from 'Winds of the Wasteland' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Winds of the Wasteland' (1936).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Winds_of_the_Wasteland_scene_5",
+      "movie_id": "Winds_of_the_Wasteland",
+      "scene_number": 5,
+      "start_timecode": "00:20:32",
+      "end_timecode": "00:20:34",
+      "start_seconds": 1232.2,
+      "end_seconds": 1234.0,
+      "duration_seconds": 1.8,
+      "video_filename": "Winds_of_the_Wasteland_scene_5_1s_1080p.mp4",
+      "keyframe_filename": "Winds_of_the_Wasteland_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_5_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Winds_of_the_Wasteland_scene_5_thumb.jpg",
+      "transcription": "What do you got?",
+      "visual_description": "Sequence from 'Winds of the Wasteland' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Winds of the Wasteland' (1936).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -101,161 +509,188 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "delugeimagequalityupgrade_scene_2",
-      "movie_id": "delugeimagequalityupgrade",
+      "scene_id": "ParadiseCanyon_scene_1",
+      "movie_id": "ParadiseCanyon",
+      "scene_number": 1,
+      "start_timecode": "00:17:53",
+      "end_timecode": "00:17:56",
+      "start_seconds": 1073.498749,
+      "end_seconds": 1076.75146,
+      "duration_seconds": 3.252711,
+      "video_filename": "ParadiseCanyon_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "ParadiseCanyon_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_1_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Paradise Canyon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Paradise Canyon' (1935).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ParadiseCanyon_scene_2",
+      "movie_id": "ParadiseCanyon",
       "scene_number": 2,
-      "start_timecode": "00:22:21",
-      "end_timecode": "00:22:49",
-      "start_seconds": 1341.0576,
-      "end_seconds": 1369.2948999999999,
-      "duration_seconds": 28.2373,
-      "video_filename": "delugeimagequalityupgrade_scene_2_28s_1080p.mp4",
-      "keyframe_filename": "delugeimagequalityupgrade_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_2_28s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_2_thumb.jpg",
-      "transcription": "Norwood here was worrying about who's going to take care of you. I don't mind tending to everything. I think I can take very good care of myself. You hit on your Norwood? Well, I guess I'll go out and work on the boat. Come on.",
-      "visual_description": "Sequence from 'DELUGE image quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'DELUGE image quality upgrade' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "delugeimagequalityupgrade_scene_3",
-      "movie_id": "delugeimagequalityupgrade",
-      "scene_number": 3,
-      "start_timecode": "00:22:58",
-      "end_timecode": "00:23:22",
-      "start_seconds": 1378.086733,
-      "end_seconds": 1402.9107330000002,
-      "duration_seconds": 24.824,
-      "video_filename": "delugeimagequalityupgrade_scene_3_24s_1080p.mp4",
-      "keyframe_filename": "delugeimagequalityupgrade_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_3_24s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_3_thumb.jpg",
-      "transcription": "I'll probably end up by killing that swine. You'll have to bury him without any help from me if you do.",
-      "visual_description": "Sequence from 'DELUGE image quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'DELUGE image quality upgrade' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "delugeimagequalityupgrade_scene_4",
-      "movie_id": "delugeimagequalityupgrade",
-      "scene_number": 4,
-      "start_timecode": "00:24:44",
-      "end_timecode": "00:25:03",
-      "start_seconds": 1484.209333,
-      "end_seconds": 1503.447933,
-      "duration_seconds": 19.2386,
-      "video_filename": "delugeimagequalityupgrade_scene_4_19s_1080p.mp4",
-      "keyframe_filename": "delugeimagequalityupgrade_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_4_19s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_4_thumb.jpg",
+      "start_timecode": "00:17:56",
+      "end_timecode": "00:18:00",
+      "start_seconds": 1076.75146,
+      "end_seconds": 1080.8799,
+      "duration_seconds": 4.12844,
+      "video_filename": "ParadiseCanyon_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "ParadiseCanyon_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_2_thumb.jpg",
       "transcription": "You",
-      "visual_description": "Sequence from 'DELUGE image quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'DELUGE image quality upgrade' (1950).",
-      "mood": "Tense / Suspense",
+      "visual_description": "Sequence from 'Paradise Canyon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Paradise Canyon' (1935).",
+      "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "delugeimagequalityupgrade_scene_5",
-      "movie_id": "delugeimagequalityupgrade",
-      "scene_number": 5,
-      "start_timecode": "00:26:52",
-      "end_timecode": "00:27:07",
-      "start_seconds": 1612.2598,
-      "end_seconds": 1627.4645,
-      "duration_seconds": 15.2047,
-      "video_filename": "delugeimagequalityupgrade_scene_5_15s_1080p.mp4",
-      "keyframe_filename": "delugeimagequalityupgrade_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_5_15s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/delugeimagequalityupgrade_scene_5_thumb.jpg",
+      "scene_id": "ParadiseCanyon_scene_3",
+      "movie_id": "ParadiseCanyon",
+      "scene_number": 3,
+      "start_timecode": "00:18:12",
+      "end_timecode": "00:18:14",
+      "start_seconds": 1092.514595,
+      "end_seconds": 1094.0158470000001,
+      "duration_seconds": 1.501252,
+      "video_filename": "ParadiseCanyon_scene_3_1s_1080p.mp4",
+      "keyframe_filename": "ParadiseCanyon_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_3_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_3_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'DELUGE image quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'DELUGE image quality upgrade' (1950).",
-      "mood": "Melancholic",
+      "visual_description": "Sequence from 'Paradise Canyon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Paradise Canyon' (1935).",
+      "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_1",
-      "movie_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade",
+      "scene_id": "ParadiseCanyon_scene_4",
+      "movie_id": "ParadiseCanyon",
+      "scene_number": 4,
+      "start_timecode": "00:25:57",
+      "end_timecode": "00:25:59",
+      "start_seconds": 1557.777314,
+      "end_seconds": 1559.778982,
+      "duration_seconds": 2.001668,
+      "video_filename": "ParadiseCanyon_scene_4_2s_1080p.mp4",
+      "keyframe_filename": "ParadiseCanyon_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_4_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_4_thumb.jpg",
+      "transcription": "and better and that's",
+      "visual_description": "Sequence from 'Paradise Canyon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Paradise Canyon' (1935).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ParadiseCanyon_scene_5",
+      "movie_id": "ParadiseCanyon",
+      "scene_number": 5,
+      "start_timecode": "00:28:29",
+      "end_timecode": "00:28:30",
+      "start_seconds": 1709.5287739999999,
+      "end_seconds": 1710.9049209999998,
+      "duration_seconds": 1.376147,
+      "video_filename": "ParadiseCanyon_scene_5_1s_1080p.mp4",
+      "keyframe_filename": "ParadiseCanyon_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_5_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ParadiseCanyon_scene_5_thumb.jpg",
+      "transcription": "Thanks for watching. Okay, thanks. I'm done. Thank you. I hope you enjoy this video. Thanks for watching. I hope you enjoy it. And I will see you next time. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye. Bye.",
+      "visual_description": "Sequence from 'Paradise Canyon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Paradise Canyon' (1935).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Death_Rides_A_Horse_pan_and_scan_scene_1",
+      "movie_id": "Death_Rides_A_Horse_pan_and_scan",
       "scene_number": 1,
-      "start_timecode": "00:28:34",
-      "end_timecode": "00:28:56",
-      "start_seconds": 1714.9119,
-      "end_seconds": 1736.4334,
-      "duration_seconds": 21.5215,
-      "video_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_1_21s_1080p.mp4",
-      "keyframe_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_1_21s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_1_thumb.jpg",
+      "start_timecode": "00:14:16",
+      "end_timecode": "00:14:18",
+      "start_seconds": 856.4071,
+      "end_seconds": 858.6093000000001,
+      "duration_seconds": 2.2022,
+      "video_filename": "Death_Rides_A_Horse_pan_and_scan_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "Death_Rides_A_Horse_pan_and_scan_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_1_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' (1950).",
-      "mood": "Paranoid",
+      "visual_description": "Sequence from 'Death Rides A Horse' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death Rides A Horse' (1967).",
+      "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_2",
-      "movie_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade",
+      "scene_id": "Death_Rides_A_Horse_pan_and_scan_scene_2",
+      "movie_id": "Death_Rides_A_Horse_pan_and_scan",
       "scene_number": 2,
-      "start_timecode": "00:29:20",
-      "end_timecode": "00:29:54",
-      "start_seconds": 1760.2572,
-      "end_seconds": 1794.6916,
-      "duration_seconds": 34.4344,
-      "video_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_2_34s_1080p.mp4",
-      "keyframe_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_2_34s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_2_thumb.jpg",
-      "transcription": "Well, at least you might have not. Well, I did. Your father told me to open the door and come in. He would. Would you mind handing me those things there? Surely. Thanks. Is father expecting you? Yes. No.",
-      "visual_description": "Sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' (1950).",
+      "start_timecode": "00:14:51",
+      "end_timecode": "00:14:56",
+      "start_seconds": 891.7424,
+      "end_seconds": 896.6473,
+      "duration_seconds": 4.9049,
+      "video_filename": "Death_Rides_A_Horse_pan_and_scan_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "Death_Rides_A_Horse_pan_and_scan_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_2_thumb.jpg",
+      "transcription": "Kavanagh, I'll tell you he's a scorpion, he's a snake, a bee!",
+      "visual_description": "Sequence from 'Death Rides A Horse' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death Rides A Horse' (1967).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -263,323 +698,80 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_3",
-      "movie_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade",
+      "scene_id": "Death_Rides_A_Horse_pan_and_scan_scene_3",
+      "movie_id": "Death_Rides_A_Horse_pan_and_scan",
       "scene_number": 3,
-      "start_timecode": "00:34:52",
-      "end_timecode": "00:35:04",
-      "start_seconds": 2092.0887000000002,
-      "end_seconds": 2104.9015,
-      "duration_seconds": 12.8128,
-      "video_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_3_12s_1080p.mp4",
-      "keyframe_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_3_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_3_thumb.jpg",
-      "transcription": "Well, I haven't overlooked that possibility. Through a matter of pure science alone, I've been inclined to examine you most closely. However, there's another element.",
-      "visual_description": "Sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_4",
-      "movie_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade",
-      "scene_number": 4,
-      "start_timecode": "00:36:44",
-      "end_timecode": "00:36:57",
-      "start_seconds": 2204.167333,
-      "end_seconds": 2217.1803330000002,
-      "duration_seconds": 13.013,
-      "video_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_4_13s_1080p.mp4",
-      "keyframe_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_4_13s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_4_thumb.jpg",
-      "transcription": "Ethel, I consider you an intelligent woman, a bit bitter, perhaps, no great lover of mankind, but still intelligent. I'd like your opinion.",
-      "visual_description": "Sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_5",
-      "movie_id": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade",
-      "scene_number": 5,
-      "start_timecode": "00:37:31",
-      "end_timecode": "00:37:45",
-      "start_seconds": 2251.714833,
-      "end_seconds": 2265.028133,
-      "duration_seconds": 13.3133,
-      "video_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_5_13s_1080p.mp4",
-      "keyframe_filename": "ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_5_13s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ThePhantomFrom10000LeaguesWidescreenQualityUpgrade_scene_5_thumb.jpg",
-      "transcription": "No matter. You can tell me some other time.",
-      "visual_description": "Sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THE PHANTOM FROM 10,000 LEAGUES widescreen & quality upgrade' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_1",
-      "movie_id": "ShockerInternetDriveInWeek10-ChristmasSpecial",
-      "scene_number": 1,
-      "start_timecode": "00:18:41",
-      "end_timecode": "00:18:59",
-      "start_seconds": 1121.3,
-      "end_seconds": 1139.7,
-      "duration_seconds": 18.4,
-      "video_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_1_18s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_1_18s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_1_thumb.jpg",
-      "transcription": "All right, I'll tell them to nice the both of you. Oh, I told them to jump over the water. You've had a drink already. Now children, it's time to go to sleep.",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_2",
-      "movie_id": "ShockerInternetDriveInWeek10-ChristmasSpecial",
-      "scene_number": 2,
-      "start_timecode": "00:19:17",
-      "end_timecode": "00:19:31",
-      "start_seconds": 1157.8,
-      "end_seconds": 1171.7,
-      "duration_seconds": 13.9,
-      "video_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_2_13s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_2_13s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_2_thumb.jpg",
+      "start_timecode": "00:16:45",
+      "end_timecode": "00:16:48",
+      "start_seconds": 1005.2558,
+      "end_seconds": 1008.5591,
+      "duration_seconds": 3.3033,
+      "video_filename": "Death_Rides_A_Horse_pan_and_scan_scene_3_3s_1080p.mp4",
+      "keyframe_filename": "Death_Rides_A_Horse_pan_and_scan_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_3_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_3_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' (1950).",
-      "mood": "Paranoid",
+      "visual_description": "Sequence from 'Death Rides A Horse' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death Rides A Horse' (1967).",
+      "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_3",
-      "movie_id": "ShockerInternetDriveInWeek10-ChristmasSpecial",
-      "scene_number": 3,
-      "start_timecode": "00:20:29",
-      "end_timecode": "00:20:43",
-      "start_seconds": 1229.1,
-      "end_seconds": 1243.1,
-      "duration_seconds": 14.0,
-      "video_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_3_14s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_3_14s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_3_thumb.jpg",
-      "transcription": "There it is, it says castle at the north pole, whole tight kids were coming in for a snowy landing.",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_4",
-      "movie_id": "ShockerInternetDriveInWeek10-ChristmasSpecial",
+      "scene_id": "Death_Rides_A_Horse_pan_and_scan_scene_4",
+      "movie_id": "Death_Rides_A_Horse_pan_and_scan",
       "scene_number": 4,
-      "start_timecode": "00:25:03",
-      "end_timecode": "00:25:26",
-      "start_seconds": 1503.8,
-      "end_seconds": 1526.2,
-      "duration_seconds": 22.4,
-      "video_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_4_22s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_4_22s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_4_thumb.jpg",
-      "transcription": "There's bears and dogs and cats galore. There's lions, tigers too. They won't fight and they don't fight because they're just made for you. Those busy elves are everywhere and Santa needs them too.",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' (1950).",
-      "mood": "Paranoid",
+      "start_timecode": "00:19:02",
+      "end_timecode": "00:19:03",
+      "start_seconds": 1142.1925999999999,
+      "end_seconds": 1143.594,
+      "duration_seconds": 1.4014,
+      "video_filename": "Death_Rides_A_Horse_pan_and_scan_scene_4_1s_1080p.mp4",
+      "keyframe_filename": "Death_Rides_A_Horse_pan_and_scan_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_4_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Death Rides A Horse' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death Rides A Horse' (1967).",
+      "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_5",
-      "movie_id": "ShockerInternetDriveInWeek10-ChristmasSpecial",
+      "scene_id": "Death_Rides_A_Horse_pan_and_scan_scene_5",
+      "movie_id": "Death_Rides_A_Horse_pan_and_scan",
       "scene_number": 5,
-      "start_timecode": "00:27:58",
-      "end_timecode": "00:28:10",
-      "start_seconds": 1678.7,
-      "end_seconds": 1690.7,
-      "duration_seconds": 12.0,
-      "video_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_5_12s_1080p.mp4",
-      "keyframe_filename": "ShockerInternetDriveInWeek10-ChristmasSpecial_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_5_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek10-ChristmasSpecial_scene_5_thumb.jpg",
-      "transcription": "Look out children, don't let that train run over you.",
-      "visual_description": "Sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 10 - Christmas Special' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-woman-1940_202105_scene_1",
-      "movie_id": "the-invisible-woman-1940_202105",
-      "scene_number": 1,
-      "start_timecode": "00:34:57",
-      "end_timecode": "00:35:24",
-      "start_seconds": 2097.075075,
-      "end_seconds": 2124.002002,
-      "duration_seconds": 26.926927,
-      "video_filename": "the-invisible-woman-1940_202105_scene_1_26s_1080p.mp4",
-      "keyframe_filename": "the-invisible-woman-1940_202105_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_1_26s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_1_thumb.jpg",
-      "transcription": "Bush, for you to undress behind. What for? I do want anyone but Richard to know that you're here. Oh, come on. Let me go in this way. It's scared today. Do as I say, when I bring you to, I will give you the wrong face. Hurry up. Why couldn't you have done this in the desert? Certainly would have been warmer. Ouch! I know, rose it.",
-      "visual_description": "Sequence from 'The Invisible Woman ( 1940)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Woman ( 1940)' (1940).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-woman-1940_202105_scene_2",
-      "movie_id": "the-invisible-woman-1940_202105",
-      "scene_number": 2,
-      "start_timecode": "00:38:37",
-      "end_timecode": "00:38:50",
-      "start_seconds": 2317.395395,
-      "end_seconds": 2330.708709,
-      "duration_seconds": 13.313314,
-      "video_filename": "the-invisible-woman-1940_202105_scene_2_13s_1080p.mp4",
-      "keyframe_filename": "the-invisible-woman-1940_202105_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_2_13s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_2_thumb.jpg",
-      "transcription": "Well, for a minute, you had me worried there, I think. You see what I see? Hey, you're so dabbled in magic. Help, help, Mr. Russell! Spooks, spooks, Mr. Russell!",
-      "visual_description": "Sequence from 'The Invisible Woman ( 1940)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Woman ( 1940)' (1940).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-woman-1940_202105_scene_3",
-      "movie_id": "the-invisible-woman-1940_202105",
-      "scene_number": 3,
-      "start_timecode": "00:41:15",
-      "end_timecode": "00:41:29",
-      "start_seconds": 2475.053053,
-      "end_seconds": 2489.467467,
-      "duration_seconds": 14.414414,
-      "video_filename": "the-invisible-woman-1940_202105_scene_3_14s_1080p.mp4",
-      "keyframe_filename": "the-invisible-woman-1940_202105_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_3_14s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_3_thumb.jpg",
-      "transcription": "You know, it looks like a hot yourself. What's... Very powerful of you. Oh... Drink, stick, and drink, drink, drink, drink... Come on, let's go. Put yourself together. Tell him it's nothing supernatural, just a simple little adventure. Oh, I beg your pardon.",
-      "visual_description": "Sequence from 'The Invisible Woman ( 1940)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Woman ( 1940)' (1940).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-woman-1940_202105_scene_4",
-      "movie_id": "the-invisible-woman-1940_202105",
-      "scene_number": 4,
-      "start_timecode": "00:42:10",
-      "end_timecode": "00:42:22",
-      "start_seconds": 2530.308308,
-      "end_seconds": 2542.42042,
-      "duration_seconds": 12.112112,
-      "video_filename": "the-invisible-woman-1940_202105_scene_4_12s_1080p.mp4",
-      "keyframe_filename": "the-invisible-woman-1940_202105_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_4_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_4_thumb.jpg",
-      "transcription": "Oh, I still don't believe it. Say, Professor, is this the guy who's going to promote your cute little machine? Yes, yes, of course. Pardon me. Mr. Carroll, Mr. Richard.",
-      "visual_description": "Sequence from 'The Invisible Woman ( 1940)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Woman ( 1940)' (1940).",
+      "start_timecode": "00:19:07",
+      "end_timecode": "00:19:09",
+      "start_seconds": 1147.598,
+      "end_seconds": 1149.0995,
+      "duration_seconds": 1.5015,
+      "video_filename": "Death_Rides_A_Horse_pan_and_scan_scene_5_1s_1080p.mp4",
+      "keyframe_filename": "Death_Rides_A_Horse_pan_and_scan_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_5_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Death_Rides_A_Horse_pan_and_scan_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Death Rides A Horse' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death Rides A Horse' (1967).",
       "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
@@ -587,107 +779,134 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "the-invisible-woman-1940_202105_scene_5",
-      "movie_id": "the-invisible-woman-1940_202105",
+      "scene_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_1",
+      "movie_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1",
+      "scene_number": 1,
+      "start_timecode": "00:26:04",
+      "end_timecode": "00:26:09",
+      "start_seconds": 1564.614615,
+      "end_seconds": 1569.119119,
+      "duration_seconds": 4.504504,
+      "video_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_1_4s_1080p.mp4",
+      "keyframe_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_1_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_1_thumb.jpg",
+      "transcription": "or a wall, kneeling in the shelf.",
+      "visual_description": "Sequence from 'Rifle Marksmanship with the M1 Rifle' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rifle Marksmanship with the M1 Rifle' (1942).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_2",
+      "movie_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1",
+      "scene_number": 2,
+      "start_timecode": "00:26:09",
+      "end_timecode": "00:26:13",
+      "start_seconds": 1569.119119,
+      "end_seconds": 1573.623624,
+      "duration_seconds": 4.504505,
+      "video_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_2_thumb.jpg",
+      "transcription": "or heavy undergrowth, sitting in a sniper's post.",
+      "visual_description": "Sequence from 'Rifle Marksmanship with the M1 Rifle' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rifle Marksmanship with the M1 Rifle' (1942).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_3",
+      "movie_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1",
+      "scene_number": 3,
+      "start_timecode": "00:32:27",
+      "end_timecode": "00:32:29",
+      "start_seconds": 1947.897898,
+      "end_seconds": 1949.399399,
+      "duration_seconds": 1.501501,
+      "video_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_3_1s_1080p.mp4",
+      "keyframe_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_3_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_3_thumb.jpg",
+      "transcription": "We",
+      "visual_description": "Sequence from 'Rifle Marksmanship with the M1 Rifle' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rifle Marksmanship with the M1 Rifle' (1942).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_4",
+      "movie_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1",
+      "scene_number": 4,
+      "start_timecode": "00:33:26",
+      "end_timecode": "00:33:28",
+      "start_seconds": 2006.756757,
+      "end_seconds": 2008.558559,
+      "duration_seconds": 1.801802,
+      "video_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_4_1s_1080p.mp4",
+      "keyframe_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_4_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Rifle Marksmanship with the M1 Rifle' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rifle Marksmanship with the M1 Rifle' (1942).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_5",
+      "movie_id": "Rifle_Marksmanship_with_M1_Rifle_Part_1",
       "scene_number": 5,
-      "start_timecode": "00:42:22",
-      "end_timecode": "00:42:41",
-      "start_seconds": 2542.42042,
-      "end_seconds": 2561.239239,
-      "duration_seconds": 18.818819,
-      "video_filename": "the-invisible-woman-1940_202105_scene_5_18s_1080p.mp4",
-      "keyframe_filename": "the-invisible-woman-1940_202105_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_5_18s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-woman-1940_202105_scene_5_thumb.jpg",
-      "transcription": "I don't think much of him. He's no business man. He's a playboy. I've seen his pictures in the papers. They call him the Patsy of the Pacific. Yeah, well listen Miss. Nothing. I'll have you know I'm perfectly capable of handling any business deals of any kind or size. Oh I see.",
-      "visual_description": "Sequence from 'The Invisible Woman ( 1940)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Woman ( 1940)' (1940).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "invisible-agent_202106_scene_1",
-      "movie_id": "invisible-agent_202106",
-      "scene_number": 1,
-      "start_timecode": "00:22:42",
-      "end_timecode": "00:24:52",
-      "start_seconds": 1362.0,
-      "end_seconds": 1492.9309309999999,
-      "duration_seconds": 130.930931,
-      "video_filename": "invisible-agent_202106_scene_1_130s_1080p.mp4",
-      "keyframe_filename": "invisible-agent_202106_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_1_130s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_1_thumb.jpg",
-      "transcription": "I, uh, I couldn't wait to be with you. Hello. No, calm. I feel much safer with him to Chaperona. You ought to forget about him, Maria. Oh, God. Missions like his take time. Sometimes a lifetime. He never told me why he left. Oh, he never told anyone. He has his own ideas. And that's dangerous. The photo doesn't bite people who think their own thoughts. I hope you will be satisfied with what my cook had told. Think nothing of it. Think nothing of it. I brought a little snack from my me, garashions. Cheese. From Holland. Champagne. From occupied France. More chambon. 1929. Foul from Denmark. And lobster from Norway. Delicious! Oh. Every country we conquer feeds us. And these are just a few of the good things we'll have when this war is over. Caviar. From Russia. Very difficult to get. Slaves working for us everywhere. While we sit back with a fork in our hands and a whip on our knees. A little strange. A little strange. Very strange.",
-      "visual_description": "Sequence from 'Invisible Agent' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Invisible Agent' (1942).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "invisible-agent_202106_scene_2",
-      "movie_id": "invisible-agent_202106",
-      "scene_number": 2,
-      "start_timecode": "00:24:52",
-      "end_timecode": "00:25:33",
-      "start_seconds": 1492.9309309999999,
-      "end_seconds": 1533.371371,
-      "duration_seconds": 40.44044,
-      "video_filename": "invisible-agent_202106_scene_2_40s_1080p.mp4",
-      "keyframe_filename": "invisible-agent_202106_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_2_40s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_2_thumb.jpg",
-      "transcription": "Sorry, Carl. I couldn't wait. More champagne, please. Of course. Now, let's drink to the golden age of the German Reich. So the people are bound to win the war? Pause it. Pause it. Pause it. Shield enough. Excuse me. God!",
-      "visual_description": "Sequence from 'Invisible Agent' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Invisible Agent' (1942).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "invisible-agent_202106_scene_3",
-      "movie_id": "invisible-agent_202106",
-      "scene_number": 3,
-      "start_timecode": "00:25:33",
-      "end_timecode": "00:26:01",
-      "start_seconds": 1533.371371,
-      "end_seconds": 1561.7998,
-      "duration_seconds": 28.428429,
-      "video_filename": "invisible-agent_202106_scene_3_28s_1080p.mp4",
-      "keyframe_filename": "invisible-agent_202106_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_3_28s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_3_thumb.jpg",
-      "transcription": "Bring your wine buckets. Hi, Hitler. How do you like him? Who? You're new, buddy, God. I'd feel better if you'd accept his protection. Oh, I can't. I never realized I was in danger. Beautiful women are always in danger. Always.",
-      "visual_description": "Sequence from 'Invisible Agent' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Invisible Agent' (1942).",
+      "start_timecode": "00:33:28",
+      "end_timecode": "00:33:32",
+      "start_seconds": 2008.558559,
+      "end_seconds": 2012.862863,
+      "duration_seconds": 4.304304,
+      "video_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_5_4s_1080p.mp4",
+      "keyframe_filename": "Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_5_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Rifle_Marksmanship_with_M1_Rifle_Part_1_scene_5_thumb.jpg",
+      "transcription": "There's another mistake all of us make when we first start shooting the rifle.",
+      "visual_description": "Sequence from 'Rifle Marksmanship with the M1 Rifle' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rifle Marksmanship with the M1 Rifle' (1942).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -695,53 +914,26 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "invisible-agent_202106_scene_4",
-      "movie_id": "invisible-agent_202106",
-      "scene_number": 4,
-      "start_timecode": "00:26:01",
-      "end_timecode": "00:27:28",
-      "start_seconds": 1561.7998,
-      "end_seconds": 1648.186186,
-      "duration_seconds": 86.386386,
-      "video_filename": "invisible-agent_202106_scene_4_86s_1080p.mp4",
-      "keyframe_filename": "invisible-agent_202106_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_4_86s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/invisible-agent_202106_scene_4_thumb.jpg",
-      "transcription": "Oh, yes, all we have. Shelby? Yes. Eat. Of course. Corn. I forgot the jam. No, let's see. Where did I put that? Plum, apple, strawberry. Ah, here it is. Especially prepared for me. Who's buried? Oh. Place it over there. And, uh, I don't want to be disturbed under any circumstances. Hile Hitler, hile. I won't. That's strange. I will show you I put some chicken on my plate. Maybe you have eaten it already. Oh, have I? I really mustn't eat it. Maybe you have eaten it already. Oh, have I? I really mustn't eat it so fast. I'll give you some more. Isn't that way? It really looks delicious. Yes. And some potatoes? Mm-hmm. That's fine. That'll be enough for a while. You know, I'm overworked. A three-hour conference with a further nearly killed me. Not car. Don't tell me the further with you personally. Of course you did. If you'd said the other conference was gurring or ribbon-drop, I might believe you. But not... But I tell you the fair record me in himself just before...",
-      "visual_description": "Sequence from 'Invisible Agent' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Invisible Agent' (1942).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "morespacealiensattacksatthebijoudoublefeature_scene_1",
-      "movie_id": "morespacealiensattacksatthebijoudoublefeature",
+      "scene_id": "HolyGhostPeople_scene_1",
+      "movie_id": "HolyGhostPeople",
       "scene_number": 1,
-      "start_timecode": "00:24:40",
-      "end_timecode": "00:24:57",
-      "start_seconds": 1480.5,
-      "end_seconds": 1497.0,
-      "duration_seconds": 16.5,
-      "video_filename": "morespacealiensattacksatthebijoudoublefeature_scene_1_16s_1080p.mp4",
-      "keyframe_filename": "morespacealiensattacksatthebijoudoublefeature_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_1_16s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_1_thumb.jpg",
-      "transcription": "If we resume operations today, we will not have lost much time.",
-      "visual_description": "Sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' (1950).",
+      "start_timecode": "00:23:03",
+      "end_timecode": "00:23:05",
+      "start_seconds": 1383.0,
+      "end_seconds": 1385.702703,
+      "duration_seconds": 2.702703,
+      "video_filename": "HolyGhostPeople_scene_1_2s_1080p.mp4",
+      "keyframe_filename": "HolyGhostPeople_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_1_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_1_thumb.jpg",
+      "transcription": "Thank you very much.",
+      "visual_description": "Sequence from 'The Holy Ghost People' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Holy Ghost People' (1967).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -749,350 +941,26 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "morespacealiensattacksatthebijoudoublefeature_scene_2",
-      "movie_id": "morespacealiensattacksatthebijoudoublefeature",
+      "scene_id": "HolyGhostPeople_scene_2",
+      "movie_id": "HolyGhostPeople",
       "scene_number": 2,
-      "start_timecode": "00:26:27",
-      "end_timecode": "00:26:42",
-      "start_seconds": 1587.3,
-      "end_seconds": 1602.7,
-      "duration_seconds": 15.4,
-      "video_filename": "morespacealiensattacksatthebijoudoublefeature_scene_2_15s_1080p.mp4",
-      "keyframe_filename": "morespacealiensattacksatthebijoudoublefeature_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_2_15s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_2_thumb.jpg",
-      "transcription": "to have this happen what are your orders princess shall we call in the rest of the patrols and take off we cannot we must commence phase two immediately",
-      "visual_description": "Sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "morespacealiensattacksatthebijoudoublefeature_scene_3",
-      "movie_id": "morespacealiensattacksatthebijoudoublefeature",
-      "scene_number": 3,
-      "start_timecode": "00:26:42",
-      "end_timecode": "00:26:54",
-      "start_seconds": 1602.7,
-      "end_seconds": 1614.8,
-      "duration_seconds": 12.1,
-      "video_filename": "morespacealiensattacksatthebijoudoublefeature_scene_3_12s_1080p.mp4",
-      "keyframe_filename": "morespacealiensattacksatthebijoudoublefeature_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_3_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_3_thumb.jpg",
-      "transcription": "But we have not completed the survey yet. What if this area does not prove it? We have no choice. I will talk to our men on the communicator. May we take this man in for...",
-      "visual_description": "Sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "morespacealiensattacksatthebijoudoublefeature_scene_4",
-      "movie_id": "morespacealiensattacksatthebijoudoublefeature",
-      "scene_number": 4,
-      "start_timecode": "00:30:24",
-      "end_timecode": "00:30:46",
-      "start_seconds": 1824.7,
-      "end_seconds": 1846.2,
-      "duration_seconds": 21.5,
-      "video_filename": "morespacealiensattacksatthebijoudoublefeature_scene_4_21s_1080p.mp4",
-      "keyframe_filename": "morespacealiensattacksatthebijoudoublefeature_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_4_21s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_4_thumb.jpg",
-      "transcription": "Unless, of course, we can find some good breeding stock and repopulate our planet. We have won the war, but we have no women. We have come here to this planet for one purpose only to acquire breeding stock to repopulate our planet.",
-      "visual_description": "Sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "morespacealiensattacksatthebijoudoublefeature_scene_5",
-      "movie_id": "morespacealiensattacksatthebijoudoublefeature",
-      "scene_number": 5,
-      "start_timecode": "00:30:46",
-      "end_timecode": "00:31:03",
-      "start_seconds": 1846.2,
-      "end_seconds": 1863.6,
-      "duration_seconds": 17.4,
-      "video_filename": "morespacealiensattacksatthebijoudoublefeature_scene_5_17s_1080p.mp4",
-      "keyframe_filename": "morespacealiensattacksatthebijoudoublefeature_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_5_17s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/morespacealiensattacksatthebijoudoublefeature_scene_5_thumb.jpg",
-      "transcription": "We have been placed in danger of detection by the recent failure of one of our patrols. And as a consequence, we must immediately begin Phase 2 of our plan. Capture of the Earth Women.",
-      "visual_description": "Sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'MORE SPACE ALIEN ATTACKS AT THE BIJOU! (double Feature)' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "CaptainZ-ro-ChristopherColumbus_scene_1",
-      "movie_id": "CaptainZ-ro-ChristopherColumbus",
-      "scene_number": 1,
-      "start_timecode": "00:17:03",
-      "end_timecode": "00:18:42",
-      "start_seconds": 1023.0,
-      "end_seconds": 1122.7997,
-      "duration_seconds": 99.7997,
-      "video_filename": "CaptainZ-ro-ChristopherColumbus_scene_1_99s_1080p.mp4",
-      "keyframe_filename": "CaptainZ-ro-ChristopherColumbus_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_1_99s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_1_thumb.jpg",
-      "transcription": "Oh, but we must find him quickly. Gone will be breaking soon. Catch some help and search the ship. I will watch for him at Colobus cabin. Bye. Thanks, Captain. October 12, and still no sign of land. Could my calculations be wrong? Enter. Admiral Colobus. Why? I've got to talk to you. Well, what is it, lad? I know. I know how it is with you, deck boys. You have been listening to the crew. Well, yes. And they tell tales of monsters rising up out of the sea, and swallowing ships from stem to stern, and of falling off the edge of the world into empty space. Well, yes, they do. Believe me.",
-      "visual_description": "Sequence from 'Captain Z-Ro - Christopher Columbus' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Captain Z-Ro - Christopher Columbus' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "CaptainZ-ro-ChristopherColumbus_scene_2",
-      "movie_id": "CaptainZ-ro-ChristopherColumbus",
-      "scene_number": 2,
-      "start_timecode": "00:18:42",
-      "end_timecode": "00:19:30",
-      "start_seconds": 1122.7997,
-      "end_seconds": 1170.5474,
-      "duration_seconds": 47.7477,
-      "video_filename": "CaptainZ-ro-ChristopherColumbus_scene_2_47s_1080p.mp4",
-      "keyframe_filename": "CaptainZ-ro-ChristopherColumbus_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_2_47s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_2_thumb.jpg",
-      "transcription": "the world is round. I have seen proof and no one has ever seen these monsters they speak of. Listen to me lad. Do you still think we should give Senor Columbus the choice to turn back? No. He talks us out of one mutiny before. We do not let him talk us out of another good. Now you know the plan. Rousey others and at the first sign of daybreak. We will dispose of Senor Columbus and all who side with him. What about the tech boy? He will not show his face again. And if he does now do your pulse. Even you must have seen a ship on the distant horizon.",
-      "visual_description": "Sequence from 'Captain Z-Ro - Christopher Columbus' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Captain Z-Ro - Christopher Columbus' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "CaptainZ-ro-ChristopherColumbus_scene_3",
-      "movie_id": "CaptainZ-ro-ChristopherColumbus",
-      "scene_number": 3,
-      "start_timecode": "00:19:30",
-      "end_timecode": "00:19:43",
-      "start_seconds": 1170.5474,
-      "end_seconds": 1183.2601,
-      "duration_seconds": 12.7127,
-      "video_filename": "CaptainZ-ro-ChristopherColumbus_scene_3_12s_1080p.mp4",
-      "keyframe_filename": "CaptainZ-ro-ChristopherColumbus_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_3_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_3_thumb.jpg",
-      "transcription": "As it sails closer, first the top-sills come into view, then the cabin and presently the whole ship. This could not be unless the world were round. You don't have to convince me Admiral Columbus. I know you're right, but your crew doesn't. And I... I know.",
-      "visual_description": "Sequence from 'Captain Z-Ro - Christopher Columbus' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Captain Z-Ro - Christopher Columbus' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "CaptainZ-ro-ChristopherColumbus_scene_4",
-      "movie_id": "CaptainZ-ro-ChristopherColumbus",
-      "scene_number": 4,
-      "start_timecode": "00:19:43",
-      "end_timecode": "00:19:48",
-      "start_seconds": 1183.2601,
-      "end_seconds": 1188.3652,
-      "duration_seconds": 5.1051,
-      "video_filename": "CaptainZ-ro-ChristopherColumbus_scene_4_5s_1080p.mp4",
-      "keyframe_filename": "CaptainZ-ro-ChristopherColumbus_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_4_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_4_thumb.jpg",
-      "transcription": "Unless land is sighted before daybreak, they will mutiny and return to Spain.",
-      "visual_description": "Sequence from 'Captain Z-Ro - Christopher Columbus' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Captain Z-Ro - Christopher Columbus' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "CaptainZ-ro-ChristopherColumbus_scene_5",
-      "movie_id": "CaptainZ-ro-ChristopherColumbus",
-      "scene_number": 5,
-      "start_timecode": "00:19:48",
-      "end_timecode": "00:19:49",
-      "start_seconds": 1188.3652,
-      "end_seconds": 1189.6665,
-      "duration_seconds": 1.3013,
-      "video_filename": "CaptainZ-ro-ChristopherColumbus_scene_5_1s_1080p.mp4",
-      "keyframe_filename": "CaptainZ-ro-ChristopherColumbus_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_5_1s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZ-ro-ChristopherColumbus_scene_5_thumb.jpg",
-      "transcription": "Can't you throw them in iron? No.",
-      "visual_description": "Sequence from 'Captain Z-Ro - Christopher Columbus' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Captain Z-Ro - Christopher Columbus' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TeenageZombiesVideoQualityUpgrade_scene_1",
-      "movie_id": "TeenageZombiesVideoQualityUpgrade",
-      "scene_number": 1,
-      "start_timecode": "00:12:11",
-      "end_timecode": "00:12:26",
-      "start_seconds": 731.4044,
-      "end_seconds": 746.5195,
-      "duration_seconds": 15.1151,
-      "video_filename": "TeenageZombiesVideoQualityUpgrade_scene_1_15s_1080p.mp4",
-      "keyframe_filename": "TeenageZombiesVideoQualityUpgrade_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_1_15s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_1_thumb.jpg",
+      "start_timecode": "00:24:33",
+      "end_timecode": "00:24:37",
+      "start_seconds": 1473.590591,
+      "end_seconds": 1477.894895,
+      "duration_seconds": 4.304304,
+      "video_filename": "HolyGhostPeople_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "HolyGhostPeople_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_2_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'TEENAGE ZOMBIES video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'TEENAGE ZOMBIES video quality upgrade' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TeenageZombiesVideoQualityUpgrade_scene_2",
-      "movie_id": "TeenageZombiesVideoQualityUpgrade",
-      "scene_number": 2,
-      "start_timecode": "00:12:26",
-      "end_timecode": "00:12:48",
-      "start_seconds": 746.5195,
-      "end_seconds": 768.7417,
-      "duration_seconds": 22.2222,
-      "video_filename": "TeenageZombiesVideoQualityUpgrade_scene_2_22s_1080p.mp4",
-      "keyframe_filename": "TeenageZombiesVideoQualityUpgrade_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_2_22s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_2_thumb.jpg",
-      "transcription": "Hey, I'm doing it! I'll do it once! Come on now!",
-      "visual_description": "Sequence from 'TEENAGE ZOMBIES video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'TEENAGE ZOMBIES video quality upgrade' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TeenageZombiesVideoQualityUpgrade_scene_3",
-      "movie_id": "TeenageZombiesVideoQualityUpgrade",
-      "scene_number": 3,
-      "start_timecode": "00:21:07",
-      "end_timecode": "00:21:34",
-      "start_seconds": 1267.6401,
-      "end_seconds": 1294.2667000000001,
-      "duration_seconds": 26.6266,
-      "video_filename": "TeenageZombiesVideoQualityUpgrade_scene_3_26s_1080p.mp4",
-      "keyframe_filename": "TeenageZombiesVideoQualityUpgrade_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_3_26s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_3_thumb.jpg",
-      "transcription": "I told you I saw somebody. Come on!",
-      "visual_description": "Sequence from 'TEENAGE ZOMBIES video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'TEENAGE ZOMBIES video quality upgrade' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TeenageZombiesVideoQualityUpgrade_scene_4",
-      "movie_id": "TeenageZombiesVideoQualityUpgrade",
-      "scene_number": 4,
-      "start_timecode": "00:23:22",
-      "end_timecode": "00:23:52",
-      "start_seconds": 1402.675,
-      "end_seconds": 1432.0043,
-      "duration_seconds": 29.3293,
-      "video_filename": "TeenageZombiesVideoQualityUpgrade_scene_4_29s_1080p.mp4",
-      "keyframe_filename": "TeenageZombiesVideoQualityUpgrade_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_4_29s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_4_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'TEENAGE ZOMBIES video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'TEENAGE ZOMBIES video quality upgrade' (1950).",
+      "visual_description": "Sequence from 'The Holy Ghost People' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Holy Ghost People' (1967).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -1100,26 +968,26 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
         "black and white"
       ]
     },
     {
-      "scene_id": "TeenageZombiesVideoQualityUpgrade_scene_5",
-      "movie_id": "TeenageZombiesVideoQualityUpgrade",
-      "scene_number": 5,
-      "start_timecode": "00:23:52",
-      "end_timecode": "00:24:08",
-      "start_seconds": 1432.0043,
-      "end_seconds": 1448.8211000000001,
-      "duration_seconds": 16.8168,
-      "video_filename": "TeenageZombiesVideoQualityUpgrade_scene_5_16s_1080p.mp4",
-      "keyframe_filename": "TeenageZombiesVideoQualityUpgrade_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_5_16s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenageZombiesVideoQualityUpgrade_scene_5_thumb.jpg",
+      "scene_id": "HolyGhostPeople_scene_3",
+      "movie_id": "HolyGhostPeople",
+      "scene_number": 3,
+      "start_timecode": "00:24:46",
+      "end_timecode": "00:24:50",
+      "start_seconds": 1486.003003,
+      "end_seconds": 1490.707708,
+      "duration_seconds": 4.704705,
+      "video_filename": "HolyGhostPeople_scene_3_4s_1080p.mp4",
+      "keyframe_filename": "HolyGhostPeople_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_3_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_3_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'TEENAGE ZOMBIES video quality upgrade' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'TEENAGE ZOMBIES video quality upgrade' (1950).",
+      "visual_description": "Sequence from 'The Holy Ghost People' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Holy Ghost People' (1967).",
       "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
@@ -1127,7 +995,466 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "HolyGhostPeople_scene_4",
+      "movie_id": "HolyGhostPeople",
+      "scene_number": 4,
+      "start_timecode": "00:25:40",
+      "end_timecode": "00:25:43",
+      "start_seconds": 1540.457457,
+      "end_seconds": 1543.46046,
+      "duration_seconds": 3.003003,
+      "video_filename": "HolyGhostPeople_scene_4_3s_1080p.mp4",
+      "keyframe_filename": "HolyGhostPeople_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_4_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_4_thumb.jpg",
+      "transcription": "I'm leaving a lot of things beside taking up temperature.",
+      "visual_description": "Sequence from 'The Holy Ghost People' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Holy Ghost People' (1967).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "HolyGhostPeople_scene_5",
+      "movie_id": "HolyGhostPeople",
+      "scene_number": 5,
+      "start_timecode": "00:26:49",
+      "end_timecode": "00:26:53",
+      "start_seconds": 1609.626627,
+      "end_seconds": 1613.830831,
+      "duration_seconds": 4.204204,
+      "video_filename": "HolyGhostPeople_scene_5_4s_1080p.mp4",
+      "keyframe_filename": "HolyGhostPeople_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_5_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HolyGhostPeople_scene_5_thumb.jpg",
+      "transcription": "So that's why I live and do the way I do because that's the way I believe. Praise God.",
+      "visual_description": "Sequence from 'The Holy Ghost People' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Holy Ghost People' (1967).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Fed_Up_Genetic_Engineering_scene_1",
+      "movie_id": "Fed_Up_Genetic_Engineering",
+      "scene_number": 1,
+      "start_timecode": "00:30:14",
+      "end_timecode": "00:30:17",
+      "start_seconds": 1814.5544,
+      "end_seconds": 1817.6575,
+      "duration_seconds": 3.1031,
+      "video_filename": "Fed_Up_Genetic_Engineering_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "Fed_Up_Genetic_Engineering_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_1_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_1_thumb.jpg",
+      "transcription": "Two four-doll weed killers.",
+      "visual_description": "Sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Fed_Up_Genetic_Engineering_scene_2",
+      "movie_id": "Fed_Up_Genetic_Engineering",
+      "scene_number": 2,
+      "start_timecode": "00:38:29",
+      "end_timecode": "00:38:31",
+      "start_seconds": 2309.1485000000002,
+      "end_seconds": 2311.1504999999997,
+      "duration_seconds": 2.002,
+      "video_filename": "Fed_Up_Genetic_Engineering_scene_2_2s_1080p.mp4",
+      "keyframe_filename": "Fed_Up_Genetic_Engineering_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_2_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_2_thumb.jpg",
+      "transcription": "Farmers fight a never-ending battle.",
+      "visual_description": "Sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Fed_Up_Genetic_Engineering_scene_3",
+      "movie_id": "Fed_Up_Genetic_Engineering",
+      "scene_number": 3,
+      "start_timecode": "00:38:31",
+      "end_timecode": "00:38:33",
+      "start_seconds": 2311.1504999999997,
+      "end_seconds": 2313.8532,
+      "duration_seconds": 2.7027,
+      "video_filename": "Fed_Up_Genetic_Engineering_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "Fed_Up_Genetic_Engineering_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_3_thumb.jpg",
+      "transcription": "against the plant pests crowding in on their range.",
+      "visual_description": "Sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Fed_Up_Genetic_Engineering_scene_4",
+      "movie_id": "Fed_Up_Genetic_Engineering",
+      "scene_number": 4,
+      "start_timecode": "00:40:57",
+      "end_timecode": "00:41:01",
+      "start_seconds": 2457.2965,
+      "end_seconds": 2461.4006,
+      "duration_seconds": 4.1041,
+      "video_filename": "Fed_Up_Genetic_Engineering_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "Fed_Up_Genetic_Engineering_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_4_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_4_thumb.jpg",
+      "transcription": "is indigo.",
+      "visual_description": "Sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Fed_Up_Genetic_Engineering_scene_5",
+      "movie_id": "Fed_Up_Genetic_Engineering",
+      "scene_number": 5,
+      "start_timecode": "00:41:01",
+      "end_timecode": "00:41:04",
+      "start_seconds": 2461.4006,
+      "end_seconds": 2464.2034,
+      "duration_seconds": 2.8028,
+      "video_filename": "Fed_Up_Genetic_Engineering_scene_5_2s_1080p.mp4",
+      "keyframe_filename": "Fed_Up_Genetic_Engineering_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_5_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Fed_Up_Genetic_Engineering_scene_5_thumb.jpg",
+      "transcription": "Part of a test field was sprayed with 2-4D.",
+      "visual_description": "Sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Fed Up! Genetic Engineering, Industrial Agriculture, and Sustainable Alternatives' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "in-the-realm-of-the-senses_scene_1",
+      "movie_id": "in-the-realm-of-the-senses",
+      "scene_number": 1,
+      "start_timecode": "00:18:45",
+      "end_timecode": "00:18:49",
+      "start_seconds": 1125.816817,
+      "end_seconds": 1129.32032,
+      "duration_seconds": 3.503503,
+      "video_filename": "in-the-realm-of-the-senses_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "in-the-realm-of-the-senses_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_1_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_1_thumb.jpg",
+      "transcription": "What's new to you?",
+      "visual_description": "Sequence from 'In The Realm Of The Senses' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'In The Realm Of The Senses' (1976).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "in-the-realm-of-the-senses_scene_2",
+      "movie_id": "in-the-realm-of-the-senses",
+      "scene_number": 2,
+      "start_timecode": "00:18:49",
+      "end_timecode": "00:18:53",
+      "start_seconds": 1129.32032,
+      "end_seconds": 1133.924925,
+      "duration_seconds": 4.604605,
+      "video_filename": "in-the-realm-of-the-senses_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "in-the-realm-of-the-senses_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_2_thumb.jpg",
+      "transcription": "Oh",
+      "visual_description": "Sequence from 'In The Realm Of The Senses' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'In The Realm Of The Senses' (1976).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "in-the-realm-of-the-senses_scene_3",
+      "movie_id": "in-the-realm-of-the-senses",
+      "scene_number": 3,
+      "start_timecode": "00:20:37",
+      "end_timecode": "00:20:38",
+      "start_seconds": 1237.128128,
+      "end_seconds": 1238.92993,
+      "duration_seconds": 1.801802,
+      "video_filename": "in-the-realm-of-the-senses_scene_3_1s_1080p.mp4",
+      "keyframe_filename": "in-the-realm-of-the-senses_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_3_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_3_thumb.jpg",
+      "transcription": "How about the jewelry chicken?",
+      "visual_description": "Sequence from 'In The Realm Of The Senses' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'In The Realm Of The Senses' (1976).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "in-the-realm-of-the-senses_scene_4",
+      "movie_id": "in-the-realm-of-the-senses",
+      "scene_number": 4,
+      "start_timecode": "00:21:45",
+      "end_timecode": "00:21:49",
+      "start_seconds": 1305.296296,
+      "end_seconds": 1309.8008009999999,
+      "duration_seconds": 4.504505,
+      "video_filename": "in-the-realm-of-the-senses_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "in-the-realm-of-the-senses_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_4_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_4_thumb.jpg",
+      "transcription": "Ha ha ha ha ha ha ha.",
+      "visual_description": "Sequence from 'In The Realm Of The Senses' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'In The Realm Of The Senses' (1976).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "in-the-realm-of-the-senses_scene_5",
+      "movie_id": "in-the-realm-of-the-senses",
+      "scene_number": 5,
+      "start_timecode": "00:28:55",
+      "end_timecode": "00:28:57",
+      "start_seconds": 1735.026026,
+      "end_seconds": 1737.828829,
+      "duration_seconds": 2.802803,
+      "video_filename": "in-the-realm-of-the-senses_scene_5_2s_1080p.mp4",
+      "keyframe_filename": "in-the-realm-of-the-senses_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_5_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/in-the-realm-of-the-senses_scene_5_thumb.jpg",
+      "transcription": "Oh!",
+      "visual_description": "Sequence from 'In The Realm Of The Senses' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'In The Realm Of The Senses' (1976).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Nosferatu_DVD_quality_scene_1",
+      "movie_id": "Nosferatu_DVD_quality",
+      "scene_number": 1,
+      "start_timecode": "00:25:05",
+      "end_timecode": "00:25:09",
+      "start_seconds": 1505.363363,
+      "end_seconds": 1509.567568,
+      "duration_seconds": 4.204205,
+      "video_filename": "Nosferatu_DVD_quality_scene_1_4s_1080p.mp4",
+      "keyframe_filename": "Nosferatu_DVD_quality_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_1_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Nosferatu_DVD_quality' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Nosferatu_DVD_quality' (1922).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Nosferatu_DVD_quality_scene_2",
+      "movie_id": "Nosferatu_DVD_quality",
+      "scene_number": 2,
+      "start_timecode": "00:30:54",
+      "end_timecode": "00:30:57",
+      "start_seconds": 1854.0120120000001,
+      "end_seconds": 1857.815816,
+      "duration_seconds": 3.803804,
+      "video_filename": "Nosferatu_DVD_quality_scene_2_3s_1080p.mp4",
+      "keyframe_filename": "Nosferatu_DVD_quality_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_2_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Nosferatu_DVD_quality' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Nosferatu_DVD_quality' (1922).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Nosferatu_DVD_quality_scene_3",
+      "movie_id": "Nosferatu_DVD_quality",
+      "scene_number": 3,
+      "start_timecode": "00:32:01",
+      "end_timecode": "00:32:06",
+      "start_seconds": 1921.97998,
+      "end_seconds": 1926.784785,
+      "duration_seconds": 4.804805,
+      "video_filename": "Nosferatu_DVD_quality_scene_3_4s_1080p.mp4",
+      "keyframe_filename": "Nosferatu_DVD_quality_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_3_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Nosferatu_DVD_quality' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Nosferatu_DVD_quality' (1922).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Nosferatu_DVD_quality_scene_4",
+      "movie_id": "Nosferatu_DVD_quality",
+      "scene_number": 4,
+      "start_timecode": "00:42:30",
+      "end_timecode": "00:42:34",
+      "start_seconds": 2550.3083079999997,
+      "end_seconds": 2554.312312,
+      "duration_seconds": 4.004004,
+      "video_filename": "Nosferatu_DVD_quality_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "Nosferatu_DVD_quality_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_4_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Nosferatu_DVD_quality' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Nosferatu_DVD_quality' (1922).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Nosferatu_DVD_quality_scene_5",
+      "movie_id": "Nosferatu_DVD_quality",
+      "scene_number": 5,
+      "start_timecode": "00:42:34",
+      "end_timecode": "00:42:38",
+      "start_seconds": 2554.312312,
+      "end_seconds": 2558.216216,
+      "duration_seconds": 3.903904,
+      "video_filename": "Nosferatu_DVD_quality_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "Nosferatu_DVD_quality_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_5_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Nosferatu_DVD_quality_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Nosferatu_DVD_quality' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Nosferatu_DVD_quality' (1922).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
         "black and white"
       ]
     }
