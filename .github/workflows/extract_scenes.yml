@@ -128,6 +128,9 @@ jobs:
           END_YEAR: ${{ inputs.end_year || '1960' }}
           LICENSE_TYPE: ${{ inputs.license_type || 'any' }}
         run: python extract_and_index.py
+        
+      - name: Clean Up Clips Over 50MB
+        run: python cleanup_large_files.py
 
       - name: Regenerate Catalog from Output Files
         run: python regenerate_catalog.py
