@@ -240,35 +240,58 @@ def index_to_supabase(movie, scenes):
         return False
 
 def update_catalog_json(all_movies, all_scenes):
-    """Writes catalog.json for GitHub Pages web view in output/ and repository root."""
-    clean_scenes = []
+    """Merges new batch records with existing historical scenes so catalog.json grows over time."""
+    root_cat = BASE_DIR / "catalog.json"
+    existing_movies = []
+    existing_scenes = []
+
+    # Load existing history if catalog.json exists
+    if root_cat.exists():
+        try:
+            with open(root_cat, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                existing_movies = old_data.get("movies", [])
+                existing_scenes = old_data.get("scenes", [])
+        except Exception as e:
+            print(f"[*] Notice loading existing catalog.json ({e})")
+
+    # Combine & deduplicate movies by archive_id
+    movie_dict = {m["archive_id"]: m for m in existing_movies}
+    for m in all_movies:
+        movie_dict[m["archive_id"]] = m
+
+    # Combine & deduplicate scenes by scene_id
+    scene_dict = {s["scene_id"]: s for s in existing_scenes}
     for s in all_scenes:
         s_copy = dict(s)
         if "clip_path" in s_copy:
             s_copy["clip_path"] = str(s_copy["clip_path"])
         if "thumb_path" in s_copy:
             s_copy["thumb_path"] = str(s_copy["thumb_path"])
-        clean_scenes.append(s_copy)
+        scene_dict[s["scene_id"]] = s_copy
+
+    combined_movies = list(movie_dict.values())
+    combined_scenes = list(scene_dict.values())
 
     catalog_data = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "total_movies": len(all_movies),
-        "total_scenes": len(clean_scenes),
+        "total_movies": len(combined_movies),
+        "total_scenes": len(combined_scenes),
         "genre": GENRE_KEYWORD,
         "source": SOURCE_PROVIDER,
         "category": ARCHIVE_CATEGORY,
-        "movies": all_movies,
-        "scenes": clean_scenes
+        "movies": combined_movies,
+        "scenes": combined_scenes
     }
 
     out_cat = OUTPUT_DIR / "catalog.json"
     with open(out_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
 
-    root_cat = BASE_DIR / "catalog.json"
     with open(root_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
-    print(f"✅ Generated catalog.json in {out_cat} and {root_cat}")
+        
+    print(f"✅ Catalog updated! Total archive size: {len(combined_movies)} movies & {len(combined_scenes)} scenes.")
 
 def main():
     ffmpeg_exe = get_ffmpeg()
