@@ -84,12 +84,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   run-pipeline:
@@ -107,10 +101,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests scenedetect[opencv] faster-whisper imageio-ffmpeg supabase google-genai
-          
+
       - name: Migrate Release Assets to Output
-        run: python migrate_releases.py
-        
+        run: python migrate_releases.py || echo "No migration script executed"
+
       - name: Run Extraction Pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -137,12 +131,3 @@ jobs:
           git add -f output/
           git commit -m "Auto-update catalog and MP4 scenes from workflow run ${{ github.run_number }}" || echo "No changes to commit"
           git push origin main || echo "Nothing to push"
-
-      - name: Upload GitHub Pages Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
