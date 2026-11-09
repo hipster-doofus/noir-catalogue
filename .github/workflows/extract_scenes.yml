@@ -12,7 +12,6 @@ on:
           - 'Internet Archive'
           - 'Library of Congress'
           - 'Any / Blended'
-
       archive_category:
         description: 'Archive Sub-Category (Internet Archive)'
         required: true
@@ -23,7 +22,6 @@ on:
           - 'moviesandfilms'
           - 'prelinger'
           - 'all_movies'
-
       genre_keyword:
         description: 'Genre / Search Keyword'
         required: true
@@ -38,7 +36,6 @@ on:
           - 'horror'
           - 'western'
           - 'silent film'
-
       num_movies:
         description: 'Number of Movies to Process'
         required: true
@@ -49,7 +46,6 @@ on:
           - '3'
           - '5'
           - '10'
-
       clips_per_movie:
         description: 'Clips to Extract Per Movie'
         required: true
@@ -60,27 +56,22 @@ on:
           - '2'
           - '3'
           - '5'
-
       min_clip_len:
         description: 'Min Clip Duration (Seconds)'
         required: true
         default: '8'
-
       max_clip_len:
         description: 'Max Clip Duration (Seconds)'
         required: true
         default: '60'
-
       start_year:
         description: 'Filter Release Year Start'
         required: false
         default: '1930'
-
       end_year:
         description: 'Filter Release Year End'
         required: false
         default: '1960'
-
       license_type:
         description: 'License Type'
         required: true
@@ -135,24 +126,13 @@ jobs:
           LICENSE_TYPE: ${{ inputs.license_type || 'any' }}
         run: python extract_and_index.py
 
-      - name: Commit & Push Updated catalog.json to Branch
+      - name: Commit & Push MP4 Clips and Catalog to Main
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add catalog.json
-          git commit -m "Auto-update catalog.json from run ${{ github.run_number }}" || echo "No catalog changes to commit"
+          git add catalog.json output/
+          git commit -m "Auto-update catalog and MP4 scenes from workflow run ${{ github.run_number }}" || echo "No changes to commit"
           git push origin main || echo "Nothing to push"
-
-      - name: Upload Extracted Media Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: noir-vault-assets-${{ github.run_id }}
-          path: |
-            output/**/*.mp4
-            output/*.zip
-            output/*.db
-            output/catalog.json
-            output/*.jpg
 
       - name: Upload GitHub Pages Artifact
         uses: actions/upload-pages-artifact@v3
