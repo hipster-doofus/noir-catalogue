@@ -1,318 +1,59 @@
 {
-  "updated_at": "2026-11-08T22:13:54.653852+00:00",
-  "total_movies": 10,
-  "total_scenes": 50,
-  "genre": "sci-fi",
-  "source": "Any / Blended",
+  "updated_at": "2026-11-09T10:09:12.467768+00:00",
+  "total_movies": 3,
+  "total_scenes": 9,
+  "genre": "film noir",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
-      "title": "The Brain That Wouldn't Die Theatrical Version (82 min.)",
-      "year": 1962,
-      "director": "Joseph Green",
-      "archive_id": "TheBrainThatWouldntDieTheatricalVersion82Min.",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/TheBrainThatWouldntDieTheatricalVersion82Min./TheBrainThatWouldntDie82Min..mp4",
-      "license": "Open Archive",
-      "description": "This is The Brain That Wouldn't Die, but this is a better transfer than what I have seen on the Archive with all 82 min, plus this is widescreen, unlike most of the other copies on the Archive. IMDB for this movie: http://www.imdb.com/title/tt0052646/ (p.s. I'm not calling this the uncut version because the uncut version, according to wikipedia (http://en.wikipedia.org/wiki/The_Brain_That_Wouldn%27t_Die#DVD_releases), is 85 min. long and wasn't shown in theaters. This version is widely accepted as extended) The AVI File is Marked as DivX but is in fact an AVI with a wmv2 codec (So that it will play in wmp without a codec pack) EDIT: I have uploaded a .torrent file. Please, if you could, download it and seed for everyone so that everyone else can have a faster downloading experience."
-    },
-    {
-      "title": "THEY'RE BACK AT THE BIJOU! (double feature)",
-      "year": 1950,
-      "director": "The 2am Theater",
-      "archive_id": "THEYREBACKATTHEBIJOUdoubleFeature",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/THEYREBACKATTHEBIJOUdoubleFeature/THEY'RE BACK AT THE BIJOU (double feature).mp4",
-      "license": "Open Archive",
-      "description": "Those pesky undocumemted space aliens are again raising hell. This time it\u2019s in Europe and the U.K. in this simulated second-run house double feature program. The mayhem begins with coming attractions and a cartoon followed by the killer plants from outer space in John Wyndham\u2019s \u201cThe Day of the Triffids.\u201d Next interstella migrants turn nice British scientists into nasties in \u201cThey Came from Beyond Space.\u201d They're like from nowhere, man! CAST NOTE: If You were wondering what happened to Robert Hutton after \u201cThe Slime People,\u201d now you know. https://archive.org/details/TheSlimePeopleTrailer2\u00a0"
-    },
-    {
-      "title": "The Day the Earth Stood Still -1951",
-      "year": 1951,
-      "director": "Robert Wise",
-      "archive_id": "the-day-the-earth-stood-still-1951_202106",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/the-day-the-earth-stood-still-1951_202106/The Day the Earth Stood Still - 1951.mp4",
-      "license": "Open Archive",
-      "description": "An alien lands and tells the people of Earth that they must live peacefully or be destroyed as a danger to other planets."
-    },
-    {
-      "title": "Ghost Patrol",
-      "year": 1936,
-      "director": "Sig Neufeld",
-      "archive_id": "ghost_patrol",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/ghost_patrol/ghost_patrol.mp4",
-      "license": "Open Archive",
-      "description": "Professor Brent (Lloyd Ingraham) invents a radium tube that gives off previously undiscovered rays which can control electricity. He rather foolishly trusts Kincaid (Wheeler Oakman) who imprisons him and forces him to use his invention to crash mail planes, so Kincaid and his gang can rob them. Tim Caverly, alias Tim Toomey (Tim McCoy), an FBI agent, goes to find out what's going on, posing as an outlaw wanting in on Kincaid's racket. With the inadvertent aid of Brent's daughter Natalie (Claudia Dell), Tim discovers Brent and the details of the recent plane crashes. But even when victory is within reach, anything can, and since this is a classic western, it will happen... [Synopsis by uniQ .] [Note from uniQ : This file is probably the epitome of all bad science plot films from the 20s and 30s up to the 50s. It's (probably) the grandaddy of films that have 'evil computer hackers' that can turn your lights on and off in them these days. Not real science, but plot-exploitable, potentially panic-inducing science.] You can find more information regarding this film on its IMDb page ."
-    },
-    {
-      "title": "Atomic Rulers Of The World",
+      "title": "1950 - Outrage - Ida Lupino - VOSE",
       "year": 1950,
       "director": "Unknown Director",
-      "archive_id": "AtomicRulersOfTheWorld",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/AtomicRulersOfTheWorld/AtomicRulersOfTheWorld.mp4",
+      "archive_id": "1950-outrage-ida-lupino-vose",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/1950-outrage-ida-lupino-vose/1950 - Outrage - Ida Lupino - VOSE.mp4",
       "license": "Open Archive",
-      "description": "It's Starman to the rescue again in this Japanese movie"
+      "description": "For Academic - Educational Use Only https://derechonoir.wordpress.com/"
     },
     {
-      "title": "First Spaceship on Venus, The (Schweigende Stern, Der)",
-      "year": 1960,
-      "director": "Hans Mahlich",
-      "archive_id": "the_first_spaceship_on_venus",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/the_first_spaceship_on_venus/First_Spaceship_on_Venus.mp4",
+      "title": "A Life At Stake ( 1955) Featuring Angela Lansbury Film Noir",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "alifeatstake1955",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/alifeatstake1955/A Life at Stake (1955, UK) Featuring Angela Lansbury - Film Noir Full Movie.mp4",
       "license": "Open Archive",
-      "description": "Taken from IMDB : (U.S. Version) A mysterious magnetic spool found during a construction project is discovered to have originated from Venus. A rocket expedition to Venus is launched to discover the origin of the spool and the race that created it."
+      "description": "A Life at Stake is a 1955 American film noir directed by Paul Guilfoyle. It stars Angela Lansbury and Keith Andes. Wikipedia: https://en.wikipedia.org/wiki/A_Life_at_Stake Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     },
     {
-      "title": "Warning From Space",
-      "year": 1956,
-      "director": "Masaichi Nagata",
-      "archive_id": "Warning_From_Space_ACM",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/Warning_From_Space_ACM/Warning_From_Space.mp4",
+      "title": "The Crooked Way (1949) John Payne, Sonny Tufts, Ellen Drew",
+      "year": 1949,
+      "director": "Unknown Director",
+      "archive_id": "thecrookedway1949",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thecrookedway1949/The Crooked Way (1949, USA) Featuring  John Payne, Sonny Tufts, Ellen Drew - Film Noir Full Movie.mp4",
       "license": "Open Archive",
-      "description": "Taken from IMDB : UFO's are seen around Tokyo. Because they look like giant starfish the aliens cannot approach us without creating panic. Hence one of them sacrifices itself and takes the form of a popular female singer. It/she warns mankind that a meteor will crash on Earth. While the approaching meteor causes hotter and hotter weather, mankind runs and builds a last-chance anti-meteor weapon."
-    },
-    {
-      "title": "Women in the Night",
-      "year": 1948,
-      "director": "Joseph C. Ansell",
-      "archive_id": "women_in_the_night_ipod",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/women_in_the_night_ipod/women_in_the_night.mp4",
-      "license": "Open Archive",
-      "description": "A group of women (one from each of the bigger Allied countries) is held by Nazis in Shanghai, who have developed a super weapon more devastating than the atomic bomb. A flash video version of this film is also available from the URLs below. Web Page FLV file Right Click to Download"
-    },
-    {
-      "title": "The Invisible Man (1933)",
-      "year": 1933,
-      "director": "James Whale",
-      "archive_id": "the-invisible-man-1933_202105",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/the-invisible-man-1933_202105/The Invisible Man (1933).mp4",
-      "license": "Open Archive",
-      "description": "A mysterious man, whose head is completely covered in bandages, wants a room. The proprietors of the pub aren't used to making their house an inn during the winter months, but the man insists. They soon come to regret their decision. The man quickly runs out of money, and he has a violent temper besides. Worse still, he seems to be some kind of chemist and has filled his room with messy chemicals, test tubes, beakers and the like. When they try to throw him out, they make a ghastly discovery. Meanwhile, Flora Cranley appeals to her father to do something about the mysterious disappearance of Dr. Griffin, his assistant and her sweetheart. Her father's other assistant, the cowardly Dr. Kemp, is no help. He wants her for himself. Little does Flora guess that the wild tales, from newspapers and radio broadcasts, of an invisible homicidal maniac are stories of Dr. Griffin himself, who has discovered the secret of invisibility and gone mad in the process."
-    },
-    {
-      "title": "Assignment Outer Space",
-      "year": 1960,
-      "director": "Titanus",
-      "archive_id": "AssignmentOuterSpace",
-      "source_provider": "Any / Blended",
-      "video_url": "https://archive.org/download/AssignmentOuterSpace/AssignmentOuterSpacePresentedByMoviePowder.mp4",
-      "license": "Open Archive",
-      "description": "In the 21st century Ray Peterson, reporter for the Interplanetary News, is assigned to write a story aboard a space station. - IMDB Description"
+      "description": "The Crooked Way is a 1949 film noir crime film directed by Robert Florey. The film was based on a radio play No Blade Too Sharp and features John Payne, Sonny Tufts, Ellen Drew and others. Find out more about the movie here ."
     }
   ],
   "scenes": [
     {
-      "scene_id": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_1",
-      "movie_id": "TheBrainThatWouldntDieTheatricalVersion82Min.",
+      "scene_id": "1950-outrage-ida-lupino-vose_scene_1",
+      "movie_id": "1950-outrage-ida-lupino-vose",
       "scene_number": 1,
-      "start_timecode": "00:24:59",
-      "end_timecode": "00:25:04",
-      "start_seconds": 1499.2649999999999,
-      "end_seconds": 1504.0698,
-      "duration_seconds": 4.8048,
-      "video_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_1_4s_1080p.mp4",
-      "keyframe_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_1_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' (1962).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_2",
-      "movie_id": "TheBrainThatWouldntDieTheatricalVersion82Min.",
-      "scene_number": 2,
-      "start_timecode": "00:25:37",
-      "end_timecode": "00:25:43",
-      "start_seconds": 1537.0027,
-      "end_seconds": 1543.7094,
-      "duration_seconds": 6.7067,
-      "video_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_2_6s_1080p.mp4",
-      "keyframe_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_2_6s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_2_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' (1962).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_3",
-      "movie_id": "TheBrainThatWouldntDieTheatricalVersion82Min.",
-      "scene_number": 3,
-      "start_timecode": "00:27:44",
-      "end_timecode": "00:27:49",
-      "start_seconds": 1664.3299,
-      "end_seconds": 1669.7353,
-      "duration_seconds": 5.4054,
-      "video_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_3_5s_1080p.mp4",
-      "keyframe_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_3_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_3_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' (1962).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_4",
-      "movie_id": "TheBrainThatWouldntDieTheatricalVersion82Min.",
-      "scene_number": 4,
-      "start_timecode": "00:29:14",
-      "end_timecode": "00:29:17",
-      "start_seconds": 1754.4198999999999,
-      "end_seconds": 1757.7232,
-      "duration_seconds": 3.3033,
-      "video_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_4_3s_1080p.mp4",
-      "keyframe_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_4_thumb.jpg",
-      "transcription": "Oh",
-      "visual_description": "Sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' (1962).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_5",
-      "movie_id": "TheBrainThatWouldntDieTheatricalVersion82Min.",
-      "scene_number": 5,
-      "start_timecode": "00:33:30",
-      "end_timecode": "00:33:35",
-      "start_seconds": 2010.6759,
-      "end_seconds": 2015.6808999999998,
-      "duration_seconds": 5.005,
-      "video_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_5_5s_1080p.mp4",
-      "keyframe_filename": "TheBrainThatWouldntDieTheatricalVersion82Min._scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_5_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheBrainThatWouldntDieTheatricalVersion82Min._scene_5_thumb.jpg",
-      "transcription": "Yeah, come on back later. I'll remember you.",
-      "visual_description": "Sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Brain That Wouldn't Die Theatrical Version (82 min.)' (1962).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THEYREBACKATTHEBIJOUdoubleFeature_scene_1",
-      "movie_id": "THEYREBACKATTHEBIJOUdoubleFeature",
-      "scene_number": 1,
-      "start_timecode": "00:30:20",
-      "end_timecode": "00:30:24",
-      "start_seconds": 1820.1,
-      "end_seconds": 1824.4,
-      "duration_seconds": 4.3,
-      "video_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_1_4s_1080p.mp4",
-      "keyframe_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_1_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THEYREBACKATTHEBIJOUdoubleFeature_scene_2",
-      "movie_id": "THEYREBACKATTHEBIJOUdoubleFeature",
-      "scene_number": 2,
-      "start_timecode": "00:33:52",
-      "end_timecode": "00:33:57",
-      "start_seconds": 2032.7,
-      "end_seconds": 2037.2,
-      "duration_seconds": 4.5,
-      "video_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_2_4s_1080p.mp4",
-      "keyframe_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_2_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_2_thumb.jpg",
-      "transcription": "AHHHHHHH!",
-      "visual_description": "Sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THEYREBACKATTHEBIJOUdoubleFeature_scene_3",
-      "movie_id": "THEYREBACKATTHEBIJOUdoubleFeature",
-      "scene_number": 3,
-      "start_timecode": "00:38:15",
-      "end_timecode": "00:38:20",
-      "start_seconds": 2295.2,
-      "end_seconds": 2300.2,
-      "duration_seconds": 5.0,
-      "video_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_3_5s_1080p.mp4",
-      "keyframe_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_3_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_3_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' (1950).",
+      "start_timecode": "00:26:33",
+      "end_timecode": "00:27:05",
+      "start_seconds": 1593.381375,
+      "end_seconds": 1625.5385,
+      "duration_seconds": 32.157125,
+      "video_filename": "1950-outrage-ida-lupino-vose_scene_1_32s_1080p.mp4",
+      "keyframe_filename": "1950-outrage-ida-lupino-vose_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1950-outrage-ida-lupino-vose_scene_1_32s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1950-outrage-ida-lupino-vose_scene_1_thumb.jpg",
+      "transcription": "Right. Is that the man, Miss Walton? I can't remember. I can't. That's all right. Take your time. I don't know. I can't. I can't. Try to concentrate, Miss Walton. Try to remember. We don't want this man on the streets tonight. Try to remember. We don't want this man on the streets tonight.",
+      "visual_description": "Sequence from '1950 - Outrage - Ida Lupino - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1950 - Outrage - Ida Lupino - VOSE' (1950).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -320,215 +61,26 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "film noir",
         "black and white"
       ]
     },
     {
-      "scene_id": "THEYREBACKATTHEBIJOUdoubleFeature_scene_4",
-      "movie_id": "THEYREBACKATTHEBIJOUdoubleFeature",
-      "scene_number": 4,
-      "start_timecode": "00:40:57",
-      "end_timecode": "00:41:03",
-      "start_seconds": 2457.7,
-      "end_seconds": 2463.1,
-      "duration_seconds": 5.4,
-      "video_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_4_5s_1080p.mp4",
-      "keyframe_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_4_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_4_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "THEYREBACKATTHEBIJOUdoubleFeature_scene_5",
-      "movie_id": "THEYREBACKATTHEBIJOUdoubleFeature",
-      "scene_number": 5,
-      "start_timecode": "00:42:30",
-      "end_timecode": "00:42:37",
-      "start_seconds": 2550.5,
-      "end_seconds": 2557.7,
-      "duration_seconds": 7.2,
-      "video_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_5_7s_1080p.mp4",
-      "keyframe_filename": "THEYREBACKATTHEBIJOUdoubleFeature_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_5_7s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/THEYREBACKATTHEBIJOUdoubleFeature_scene_5_thumb.jpg",
-      "transcription": "that you will injure yourselves or accidentally start fires. Do not smoke. Do not light match it.",
-      "visual_description": "Sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'THEY'RE BACK AT THE BIJOU! (double feature)' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-day-the-earth-stood-still-1951_202106_scene_1",
-      "movie_id": "the-day-the-earth-stood-still-1951_202106",
-      "scene_number": 1,
-      "start_timecode": "00:20:41",
-      "end_timecode": "00:20:45",
-      "start_seconds": 1241.022022,
-      "end_seconds": 1245.3263259999999,
-      "duration_seconds": 4.304304,
-      "video_filename": "the-day-the-earth-stood-still-1951_202106_scene_1_4s_1080p.mp4",
-      "keyframe_filename": "the-day-the-earth-stood-still-1951_202106_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_1_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still -1951' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still -1951' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-day-the-earth-stood-still-1951_202106_scene_2",
-      "movie_id": "the-day-the-earth-stood-still-1951_202106",
+      "scene_id": "1950-outrage-ida-lupino-vose_scene_2",
+      "movie_id": "1950-outrage-ida-lupino-vose",
       "scene_number": 2,
-      "start_timecode": "00:21:11",
-      "end_timecode": "00:21:18",
-      "start_seconds": 1271.852853,
-      "end_seconds": 1278.75976,
-      "duration_seconds": 6.906907,
-      "video_filename": "the-day-the-earth-stood-still-1951_202106_scene_2_6s_1080p.mp4",
-      "keyframe_filename": "the-day-the-earth-stood-still-1951_202106_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_2_6s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_2_thumb.jpg",
-      "transcription": "Okay. Thank you.",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still -1951' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still -1951' (1951).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-day-the-earth-stood-still-1951_202106_scene_3",
-      "movie_id": "the-day-the-earth-stood-still-1951_202106",
-      "scene_number": 3,
-      "start_timecode": "00:21:18",
-      "end_timecode": "00:21:21",
-      "start_seconds": 1278.75976,
-      "end_seconds": 1281.762763,
-      "duration_seconds": 3.003003,
-      "video_filename": "the-day-the-earth-stood-still-1951_202106_scene_3_3s_1080p.mp4",
-      "keyframe_filename": "the-day-the-earth-stood-still-1951_202106_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_3_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_3_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still -1951' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still -1951' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-day-the-earth-stood-still-1951_202106_scene_4",
-      "movie_id": "the-day-the-earth-stood-still-1951_202106",
-      "scene_number": 4,
-      "start_timecode": "00:22:10",
-      "end_timecode": "00:22:13",
-      "start_seconds": 1330.011011,
-      "end_seconds": 1333.214214,
-      "duration_seconds": 3.203203,
-      "video_filename": "the-day-the-earth-stood-still-1951_202106_scene_4_3s_1080p.mp4",
-      "keyframe_filename": "the-day-the-earth-stood-still-1951_202106_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_4_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_4_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still -1951' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still -1951' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-day-the-earth-stood-still-1951_202106_scene_5",
-      "movie_id": "the-day-the-earth-stood-still-1951_202106",
-      "scene_number": 5,
-      "start_timecode": "00:31:46",
-      "end_timecode": "00:31:49",
-      "start_seconds": 1906.187187,
-      "end_seconds": 1909.690691,
-      "duration_seconds": 3.503504,
-      "video_filename": "the-day-the-earth-stood-still-1951_202106_scene_5_3s_1080p.mp4",
-      "keyframe_filename": "the-day-the-earth-stood-still-1951_202106_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_5_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-day-the-earth-stood-still-1951_202106_scene_5_thumb.jpg",
-      "transcription": "I don't know, spaceman I guess.",
-      "visual_description": "Sequence from 'The Day the Earth Stood Still -1951' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Day the Earth Stood Still -1951' (1951).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ghost_patrol_scene_1",
-      "movie_id": "ghost_patrol",
-      "scene_number": 1,
-      "start_timecode": "00:30:14",
-      "end_timecode": "00:30:20",
-      "start_seconds": 1814.5194,
-      "end_seconds": 1820.6255,
-      "duration_seconds": 6.1061,
-      "video_filename": "ghost_patrol_scene_1_6s_1080p.mp4",
-      "keyframe_filename": "ghost_patrol_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_1_6s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_1_thumb.jpg",
-      "transcription": "I never bluff.",
-      "visual_description": "Sequence from 'Ghost Patrol' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Ghost Patrol' (1936).",
+      "start_timecode": "00:27:05",
+      "end_timecode": "00:27:15",
+      "start_seconds": 1625.5385,
+      "end_seconds": 1635.29825,
+      "duration_seconds": 9.75975,
+      "video_filename": "1950-outrage-ida-lupino-vose_scene_2_9s_1080p.mp4",
+      "keyframe_filename": "1950-outrage-ida-lupino-vose_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1950-outrage-ida-lupino-vose_scene_2_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1950-outrage-ida-lupino-vose_scene_2_thumb.jpg",
+      "transcription": "That looked like the man was woken. Let's see the scar. How about it? Try to remember.",
+      "visual_description": "Sequence from '1950 - Outrage - Ida Lupino - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1950 - Outrage - Ida Lupino - VOSE' (1950).",
       "mood": "Paranoid",
       "noir_tropes": [
         "low-key lighting",
@@ -536,107 +88,26 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "film noir",
         "black and white"
       ]
     },
     {
-      "scene_id": "ghost_patrol_scene_2",
-      "movie_id": "ghost_patrol",
-      "scene_number": 2,
-      "start_timecode": "00:32:06",
-      "end_timecode": "00:32:09",
-      "start_seconds": 1926.1309,
-      "end_seconds": 1929.1339,
-      "duration_seconds": 3.003,
-      "video_filename": "ghost_patrol_scene_2_3s_1080p.mp4",
-      "keyframe_filename": "ghost_patrol_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_2_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_2_thumb.jpg",
-      "transcription": "letting those male pilots live was a great mistake.",
-      "visual_description": "Sequence from 'Ghost Patrol' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Ghost Patrol' (1936).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ghost_patrol_scene_3",
-      "movie_id": "ghost_patrol",
+      "scene_id": "1950-outrage-ida-lupino-vose_scene_3",
+      "movie_id": "1950-outrage-ida-lupino-vose",
       "scene_number": 3,
-      "start_timecode": "00:32:59",
-      "end_timecode": "00:33:02",
-      "start_seconds": 1979.0837999999999,
-      "end_seconds": 1982.4872,
-      "duration_seconds": 3.4034,
-      "video_filename": "ghost_patrol_scene_3_3s_1080p.mp4",
-      "keyframe_filename": "ghost_patrol_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_3_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_3_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Ghost Patrol' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Ghost Patrol' (1936).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ghost_patrol_scene_4",
-      "movie_id": "ghost_patrol",
-      "scene_number": 4,
-      "start_timecode": "00:38:01",
-      "end_timecode": "00:38:06",
-      "start_seconds": 2281.9864,
-      "end_seconds": 2286.3908,
-      "duration_seconds": 4.4044,
-      "video_filename": "ghost_patrol_scene_4_4s_1080p.mp4",
-      "keyframe_filename": "ghost_patrol_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_4_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_4_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Ghost Patrol' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Ghost Patrol' (1936).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "ghost_patrol_scene_5",
-      "movie_id": "ghost_patrol",
-      "scene_number": 5,
-      "start_timecode": "00:41:51",
-      "end_timecode": "00:41:55",
-      "start_seconds": 2511.7159,
-      "end_seconds": 2515.4196,
-      "duration_seconds": 3.7037,
-      "video_filename": "ghost_patrol_scene_5_3s_1080p.mp4",
-      "keyframe_filename": "ghost_patrol_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_5_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ghost_patrol_scene_5_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Ghost Patrol' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Ghost Patrol' (1936).",
+      "start_timecode": "00:41:02",
+      "end_timecode": "00:41:27",
+      "start_seconds": 2462.12425,
+      "end_seconds": 2487.024125,
+      "duration_seconds": 24.899875,
+      "video_filename": "1950-outrage-ida-lupino-vose_scene_3_24s_1080p.mp4",
+      "keyframe_filename": "1950-outrage-ida-lupino-vose_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1950-outrage-ida-lupino-vose_scene_3_24s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1950-outrage-ida-lupino-vose_scene_3_thumb.jpg",
+      "transcription": "There's a room that a man can get an orange in this place. Well, thanks.",
+      "visual_description": "Sequence from '1950 - Outrage - Ida Lupino - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1950 - Outrage - Ida Lupino - VOSE' (1950).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -644,134 +115,107 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "film noir",
         "black and white"
       ]
     },
     {
-      "scene_id": "AtomicRulersOfTheWorld_scene_1",
-      "movie_id": "AtomicRulersOfTheWorld",
+      "scene_id": "alifeatstake1955_scene_1",
+      "movie_id": "alifeatstake1955",
       "scene_number": 1,
-      "start_timecode": "00:21:56",
-      "end_timecode": "00:22:00",
-      "start_seconds": 1316.82983,
-      "end_seconds": 1320.233233,
-      "duration_seconds": 3.403403,
-      "video_filename": "AtomicRulersOfTheWorld_scene_1_3s_1080p.mp4",
-      "keyframe_filename": "AtomicRulersOfTheWorld_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_1_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_1_thumb.jpg",
-      "transcription": "way of life. The emerald men are basically creatures of peace.",
-      "visual_description": "Sequence from 'Atomic Rulers Of The World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atomic Rulers Of The World' (1950).",
-      "mood": "Paranoid",
+      "start_timecode": "00:24:02",
+      "end_timecode": "00:24:10",
+      "start_seconds": 1442.4084,
+      "end_seconds": 1450.7167,
+      "duration_seconds": 8.3083,
+      "video_filename": "alifeatstake1955_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "alifeatstake1955_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/alifeatstake1955_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/alifeatstake1955_scene_1_thumb.jpg",
+      "transcription": "It doesn't have to be a quarter of a million dollars. I know that too. 200 th-",
+      "visual_description": "Sequence from 'A Life At Stake ( 1955) Featuring Angela Lansbury Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'A Life At Stake ( 1955) Featuring Angela Lansbury Film Noir' (1950).",
+      "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "film noir",
         "black and white"
       ]
     },
     {
-      "scene_id": "AtomicRulersOfTheWorld_scene_2",
-      "movie_id": "AtomicRulersOfTheWorld",
+      "scene_id": "alifeatstake1955_scene_2",
+      "movie_id": "alifeatstake1955",
       "scene_number": 2,
-      "start_timecode": "00:27:21",
-      "end_timecode": "00:27:25",
-      "start_seconds": 1641.754755,
-      "end_seconds": 1645.858859,
-      "duration_seconds": 4.104104,
-      "video_filename": "AtomicRulersOfTheWorld_scene_2_4s_1080p.mp4",
-      "keyframe_filename": "AtomicRulersOfTheWorld_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_2_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_2_thumb.jpg",
+      "start_timecode": "00:34:28",
+      "end_timecode": "00:34:36",
+      "start_seconds": 2068.2336,
+      "end_seconds": 2076.4418,
+      "duration_seconds": 8.2082,
+      "video_filename": "alifeatstake1955_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "alifeatstake1955_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/alifeatstake1955_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/alifeatstake1955_scene_2_thumb.jpg",
+      "transcription": "Gee, you scare easily. The brakes just slipped, that's all. Brake slipped. I'll get Mr. Hanauer. He promised to show us around.",
+      "visual_description": "Sequence from 'A Life At Stake ( 1955) Featuring Angela Lansbury Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'A Life At Stake ( 1955) Featuring Angela Lansbury Film Noir' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "alifeatstake1955_scene_3",
+      "movie_id": "alifeatstake1955",
+      "scene_number": 3,
+      "start_timecode": "00:38:22",
+      "end_timecode": "00:38:44",
+      "start_seconds": 2302.1673,
+      "end_seconds": 2324.7898999999998,
+      "duration_seconds": 22.6226,
+      "video_filename": "alifeatstake1955_scene_3_22s_1080p.mp4",
+      "keyframe_filename": "alifeatstake1955_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/alifeatstake1955_scene_3_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/alifeatstake1955_scene_3_thumb.jpg",
+      "transcription": "Nothing wrong with these brakes, stops in a dime, stays there. Thanks. Want to try it yourself? No, no, no. I told the owner I'd bring it right back after the test. Oh, there you are.",
+      "visual_description": "Sequence from 'A Life At Stake ( 1955) Featuring Angela Lansbury Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'A Life At Stake ( 1955) Featuring Angela Lansbury Film Noir' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thecrookedway1949_scene_1",
+      "movie_id": "thecrookedway1949",
+      "scene_number": 1,
+      "start_timecode": "00:08:45",
+      "end_timecode": "00:08:56",
+      "start_seconds": 525.4084,
+      "end_seconds": 536.6196,
+      "duration_seconds": 11.2112,
+      "video_filename": "thecrookedway1949_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "thecrookedway1949_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thecrookedway1949_scene_1_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thecrookedway1949_scene_1_thumb.jpg",
       "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Atomic Rulers Of The World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atomic Rulers Of The World' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AtomicRulersOfTheWorld_scene_3",
-      "movie_id": "AtomicRulersOfTheWorld",
-      "scene_number": 3,
-      "start_timecode": "00:28:06",
-      "end_timecode": "00:28:12",
-      "start_seconds": 1686.399399,
-      "end_seconds": 1692.505506,
-      "duration_seconds": 6.106107,
-      "video_filename": "AtomicRulersOfTheWorld_scene_3_6s_1080p.mp4",
-      "keyframe_filename": "AtomicRulersOfTheWorld_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_3_6s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_3_thumb.jpg",
-      "transcription": "Go ahead. I don't think that you'll dare. I'm certain it's the last thing you...",
-      "visual_description": "Sequence from 'Atomic Rulers Of The World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atomic Rulers Of The World' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AtomicRulersOfTheWorld_scene_4",
-      "movie_id": "AtomicRulersOfTheWorld",
-      "scene_number": 4,
-      "start_timecode": "00:30:45",
-      "end_timecode": "00:30:49",
-      "start_seconds": 1845.058058,
-      "end_seconds": 1849.062062,
-      "duration_seconds": 4.004004,
-      "video_filename": "AtomicRulersOfTheWorld_scene_4_4s_1080p.mp4",
-      "keyframe_filename": "AtomicRulersOfTheWorld_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_4_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_4_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Atomic Rulers Of The World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atomic Rulers Of The World' (1950).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AtomicRulersOfTheWorld_scene_5",
-      "movie_id": "AtomicRulersOfTheWorld",
-      "scene_number": 5,
-      "start_timecode": "00:31:31",
-      "end_timecode": "00:31:34",
-      "start_seconds": 1891.004004,
-      "end_seconds": 1894.607608,
-      "duration_seconds": 3.603604,
-      "video_filename": "AtomicRulersOfTheWorld_scene_5_3s_1080p.mp4",
-      "keyframe_filename": "AtomicRulersOfTheWorld_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_5_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AtomicRulersOfTheWorld_scene_5_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'Atomic Rulers Of The World' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Atomic Rulers Of The World' (1950).",
+      "visual_description": "Sequence from 'The Crooked Way (1949) John Payne, Sonny Tufts, Ellen Drew' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Crooked Way (1949) John Payne, Sonny Tufts, Ellen Drew' (1949).",
       "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
@@ -779,80 +223,53 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "film noir",
         "black and white"
       ]
     },
     {
-      "scene_id": "the_first_spaceship_on_venus_scene_1",
-      "movie_id": "the_first_spaceship_on_venus",
-      "scene_number": 1,
-      "start_timecode": "00:30:58",
-      "end_timecode": "00:31:03",
-      "start_seconds": 1858.710375,
-      "end_seconds": 1863.465125,
-      "duration_seconds": 4.75475,
-      "video_filename": "the_first_spaceship_on_venus_scene_1_4s_1080p.mp4",
-      "keyframe_filename": "the_first_spaceship_on_venus_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_1_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_1_thumb.jpg",
-      "transcription": "Congratulations. You won it last.",
-      "visual_description": "Sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' (1960).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the_first_spaceship_on_venus_scene_2",
-      "movie_id": "the_first_spaceship_on_venus",
+      "scene_id": "thecrookedway1949_scene_2",
+      "movie_id": "thecrookedway1949",
       "scene_number": 2,
-      "start_timecode": "00:31:15",
-      "end_timecode": "00:31:19",
-      "start_seconds": 1875.977625,
-      "end_seconds": 1879.230875,
-      "duration_seconds": 3.25325,
-      "video_filename": "the_first_spaceship_on_venus_scene_2_3s_1080p.mp4",
-      "keyframe_filename": "the_first_spaceship_on_venus_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_2_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_2_thumb.jpg",
-      "transcription": "Too much on it.",
-      "visual_description": "Sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' (1960).",
-      "mood": "Fatalistic",
+      "start_timecode": "00:09:30",
+      "end_timecode": "00:09:39",
+      "start_seconds": 570.053,
+      "end_seconds": 579.6626,
+      "duration_seconds": 9.6096,
+      "video_filename": "thecrookedway1949_scene_2_9s_1080p.mp4",
+      "keyframe_filename": "thecrookedway1949_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thecrookedway1949_scene_2_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thecrookedway1949_scene_2_thumb.jpg",
+      "transcription": "I'm happy. Nick, keep your mind on your business. But Vince worry about here, huh? Sure, beautiful, sure. Forget I mentioned it.",
+      "visual_description": "Sequence from 'The Crooked Way (1949) John Payne, Sonny Tufts, Ellen Drew' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Crooked Way (1949) John Payne, Sonny Tufts, Ellen Drew' (1949).",
+      "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
+        "film noir",
         "black and white"
       ]
     },
     {
-      "scene_id": "the_first_spaceship_on_venus_scene_3",
-      "movie_id": "the_first_spaceship_on_venus",
+      "scene_id": "thecrookedway1949_scene_3",
+      "movie_id": "thecrookedway1949",
       "scene_number": 3,
-      "start_timecode": "00:31:19",
-      "end_timecode": "00:31:24",
-      "start_seconds": 1879.230875,
-      "end_seconds": 1884.736375,
-      "duration_seconds": 5.5055,
-      "video_filename": "the_first_spaceship_on_venus_scene_3_5s_1080p.mp4",
-      "keyframe_filename": "the_first_spaceship_on_venus_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_3_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_3_thumb.jpg",
-      "transcription": "Want to try? Why not? Will you all come to the Maddox, please?",
-      "visual_description": "Sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' (1960).",
+      "start_timecode": "00:11:59",
+      "end_timecode": "00:12:15",
+      "start_seconds": 719.8026,
+      "end_seconds": 735.8186000000001,
+      "duration_seconds": 16.016,
+      "video_filename": "thecrookedway1949_scene_3_16s_1080p.mp4",
+      "keyframe_filename": "thecrookedway1949_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thecrookedway1949_scene_3_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thecrookedway1949_scene_3_thumb.jpg",
+      "transcription": "Thanks for the lift. Coming in. Who said this was the end of the road? Who's complaining? Not me.",
+      "visual_description": "Sequence from 'The Crooked Way (1949) John Payne, Sonny Tufts, Ellen Drew' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Crooked Way (1949) John Payne, Sonny Tufts, Ellen Drew' (1949).",
       "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
@@ -860,601 +277,7 @@
         "dramatic framing"
       ],
       "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the_first_spaceship_on_venus_scene_4",
-      "movie_id": "the_first_spaceship_on_venus",
-      "scene_number": 4,
-      "start_timecode": "00:37:25",
-      "end_timecode": "00:37:32",
-      "start_seconds": 2245.7219999999998,
-      "end_seconds": 2252.854125,
-      "duration_seconds": 7.132125,
-      "video_filename": "the_first_spaceship_on_venus_scene_4_7s_1080p.mp4",
-      "keyframe_filename": "the_first_spaceship_on_venus_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_4_7s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_4_thumb.jpg",
-      "transcription": "Ready!",
-      "visual_description": "Sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' (1960).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the_first_spaceship_on_venus_scene_5",
-      "movie_id": "the_first_spaceship_on_venus",
-      "scene_number": 5,
-      "start_timecode": "00:38:49",
-      "end_timecode": "00:38:57",
-      "start_seconds": 2329.806,
-      "end_seconds": 2337.06325,
-      "duration_seconds": 7.25725,
-      "video_filename": "the_first_spaceship_on_venus_scene_5_7s_1080p.mp4",
-      "keyframe_filename": "the_first_spaceship_on_venus_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_5_7s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the_first_spaceship_on_venus_scene_5_thumb.jpg",
-      "transcription": "Brinkman is not receiving us. I can't make contact.",
-      "visual_description": "Sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'First Spaceship on Venus, The (Schweigende Stern, Der)' (1960).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Warning_From_Space_ACM_scene_1",
-      "movie_id": "Warning_From_Space_ACM",
-      "scene_number": 1,
-      "start_timecode": "00:27:45",
-      "end_timecode": "00:27:48",
-      "start_seconds": 1665.0,
-      "end_seconds": 1668.003003,
-      "duration_seconds": 3.003003,
-      "video_filename": "Warning_From_Space_ACM_scene_1_3s_1080p.mp4",
-      "keyframe_filename": "Warning_From_Space_ACM_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_1_3s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_1_thumb.jpg",
-      "transcription": "In this life to come.",
-      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Warning_From_Space_ACM_scene_2",
-      "movie_id": "Warning_From_Space_ACM",
-      "scene_number": 2,
-      "start_timecode": "00:34:01",
-      "end_timecode": "00:34:05",
-      "start_seconds": 2041.176176,
-      "end_seconds": 2045.38038,
-      "duration_seconds": 4.204204,
-      "video_filename": "Warning_From_Space_ACM_scene_2_4s_1080p.mp4",
-      "keyframe_filename": "Warning_From_Space_ACM_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_2_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_2_thumb.jpg",
-      "transcription": "What happened? A girl did he go...",
-      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Warning_From_Space_ACM_scene_3",
-      "movie_id": "Warning_From_Space_ACM",
-      "scene_number": 3,
-      "start_timecode": "00:36:13",
-      "end_timecode": "00:36:17",
-      "start_seconds": 2173.4084080000002,
-      "end_seconds": 2177.712713,
-      "duration_seconds": 4.304305,
-      "video_filename": "Warning_From_Space_ACM_scene_3_4s_1080p.mp4",
-      "keyframe_filename": "Warning_From_Space_ACM_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_3_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_3_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Warning_From_Space_ACM_scene_4",
-      "movie_id": "Warning_From_Space_ACM",
-      "scene_number": 4,
-      "start_timecode": "00:38:46",
-      "end_timecode": "00:38:54",
-      "start_seconds": 2326.961962,
-      "end_seconds": 2334.369369,
-      "duration_seconds": 7.407407,
-      "video_filename": "Warning_From_Space_ACM_scene_4_7s_1080p.mp4",
-      "keyframe_filename": "Warning_From_Space_ACM_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_4_7s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_4_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Warning_From_Space_ACM_scene_5",
-      "movie_id": "Warning_From_Space_ACM",
-      "scene_number": 5,
-      "start_timecode": "00:42:37",
-      "end_timecode": "00:42:42",
-      "start_seconds": 2557.992993,
-      "end_seconds": 2562.3973969999997,
-      "duration_seconds": 4.404404,
-      "video_filename": "Warning_From_Space_ACM_scene_5_4s_1080p.mp4",
-      "keyframe_filename": "Warning_From_Space_ACM_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_5_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_ACM_scene_5_thumb.jpg",
-      "transcription": "The super explosive, so strong that even the HPOM in comparison is a toy.",
-      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "women_in_the_night_ipod_scene_1",
-      "movie_id": "women_in_the_night_ipod",
-      "scene_number": 1,
-      "start_timecode": "00:21:39",
-      "end_timecode": "00:21:45",
-      "start_seconds": 1299.356356,
-      "end_seconds": 1305.062062,
-      "duration_seconds": 5.705706,
-      "video_filename": "women_in_the_night_ipod_scene_1_5s_1080p.mp4",
-      "keyframe_filename": "women_in_the_night_ipod_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_1_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_1_thumb.jpg",
-      "transcription": "They're all bothering you that much, I... ...these constant barbeques. Stay at night!",
-      "visual_description": "Sequence from 'Women in the Night' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Women in the Night' (1948).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "women_in_the_night_ipod_scene_2",
-      "movie_id": "women_in_the_night_ipod",
-      "scene_number": 2,
-      "start_timecode": "00:27:51",
-      "end_timecode": "00:27:55",
-      "start_seconds": 1671.028028,
-      "end_seconds": 1675.732733,
-      "duration_seconds": 4.704705,
-      "video_filename": "women_in_the_night_ipod_scene_2_4s_1080p.mp4",
-      "keyframe_filename": "women_in_the_night_ipod_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_2_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_2_thumb.jpg",
-      "transcription": "See to it that no wine is filled on you, too many gowns are being ruined.",
-      "visual_description": "Sequence from 'Women in the Night' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Women in the Night' (1948).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "women_in_the_night_ipod_scene_3",
-      "movie_id": "women_in_the_night_ipod",
-      "scene_number": 3,
-      "start_timecode": "00:28:28",
-      "end_timecode": "00:28:33",
-      "start_seconds": 1708.165165,
-      "end_seconds": 1713.770771,
-      "duration_seconds": 5.605606,
-      "video_filename": "women_in_the_night_ipod_scene_3_5s_1080p.mp4",
-      "keyframe_filename": "women_in_the_night_ipod_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_3_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_3_thumb.jpg",
-      "transcription": "Well, I'm ready.",
-      "visual_description": "Sequence from 'Women in the Night' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Women in the Night' (1948).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "women_in_the_night_ipod_scene_4",
-      "movie_id": "women_in_the_night_ipod",
-      "scene_number": 4,
-      "start_timecode": "00:28:44",
-      "end_timecode": "00:28:51",
-      "start_seconds": 1724.981982,
-      "end_seconds": 1731.388388,
-      "duration_seconds": 6.406406,
-      "video_filename": "women_in_the_night_ipod_scene_4_6s_1080p.mp4",
-      "keyframe_filename": "women_in_the_night_ipod_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_4_6s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_4_thumb.jpg",
-      "transcription": "the memory of the exalted fear, and to the great German leaders who survived it.",
-      "visual_description": "Sequence from 'Women in the Night' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Women in the Night' (1948).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "women_in_the_night_ipod_scene_5",
-      "movie_id": "women_in_the_night_ipod",
-      "scene_number": 5,
-      "start_timecode": "00:29:16",
-      "end_timecode": "00:29:20",
-      "start_seconds": 1756.213213,
-      "end_seconds": 1760.7177179999999,
-      "duration_seconds": 4.504505,
-      "video_filename": "women_in_the_night_ipod_scene_5_4s_1080p.mp4",
-      "keyframe_filename": "women_in_the_night_ipod_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_5_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/women_in_the_night_ipod_scene_5_thumb.jpg",
-      "transcription": "and my crew for that purpose. Then shall we proceed with the demonstration?",
-      "visual_description": "Sequence from 'Women in the Night' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Women in the Night' (1948).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-man-1933_202105_scene_1",
-      "movie_id": "the-invisible-man-1933_202105",
-      "scene_number": 1,
-      "start_timecode": "00:12:17",
-      "end_timecode": "00:14:04",
-      "start_seconds": 737.0,
-      "end_seconds": 844.807808,
-      "duration_seconds": 107.807808,
-      "video_filename": "the-invisible-man-1933_202105_scene_1_107s_1080p.mp4",
-      "keyframe_filename": "the-invisible-man-1933_202105_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_1_107s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_1_thumb.jpg",
-      "transcription": "Go and tell him if he ain't picked up in gold in half and now we'll have a low end to tell him it. And take him his bill. Three p.m.s. ten. And see you get it before you come out. Go on. Let's leave him a bit, Janie, till he cools off. Go on, do it now. I mean, he's got this in his chemist shop. If you don't kick him out, I'm peering at myself and that's the truth. And I mean it this time. But the whole day's work ruined by a foolies cigarette morning. There must be a way back. God knows there's a way back. If only this leave me alone. Look here, mister. We can't have this now more. You've grown the wise best, Janie. You're weak behind with the red. You've got to pack up and go. I'm expecting some money, mister Hall. I'll pay you directly, it comes. You said that last week and it hasn't come yet. I came here for quiet and secrecy. I'm carrying out a difficult experiment. I must be left alone. It's vital. It's life and death that I should be left alone. You don't understand. I understand all right. You don't pay. And what's more, you're driving folks away from our house. Mr. Hall, I've had a serious accident. It's disfigured me. Affected my eyes. I don't mean that. I mean the way you carry on. Throwing things about on the carpets and swearing.",
-      "visual_description": "Sequence from 'The Invisible Man (1933)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Man (1933)' (1933).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-man-1933_202105_scene_2",
-      "movie_id": "the-invisible-man-1933_202105",
-      "scene_number": 2,
-      "start_timecode": "00:14:04",
-      "end_timecode": "00:14:29",
-      "start_seconds": 844.807808,
-      "end_seconds": 869.5325330000001,
-      "duration_seconds": 24.724725,
-      "video_filename": "the-invisible-man-1933_202105_scene_2_24s_1080p.mp4",
-      "keyframe_filename": "the-invisible-man-1933_202105_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_2_24s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_2_thumb.jpg",
-      "transcription": "It's no good mister, you've got to go. I implore you to let me stay. I beg of you. The wife says, if you don't go, she is. There's got to be you. Come on, all over to get this stuff picked up. Leave that alone and get out of here. Look here, but this is my answer, yours.",
-      "visual_description": "Sequence from 'The Invisible Man (1933)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Man (1933)' (1933).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-man-1933_202105_scene_3",
-      "movie_id": "the-invisible-man-1933_202105",
-      "scene_number": 3,
-      "start_timecode": "00:14:29",
-      "end_timecode": "00:15:05",
-      "start_seconds": 869.5325330000001,
-      "end_seconds": 905.468468,
-      "duration_seconds": 35.935935,
-      "video_filename": "the-invisible-man-1933_202105_scene_3_35s_1080p.mp4",
-      "keyframe_filename": "the-invisible-man-1933_202105_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_3_35s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_3_thumb.jpg",
-      "transcription": "Ah! You're going to hell! Get her! Get her! Ugh! Oh! Oh! It's me! It's me! No! I don't understand. No! No! No! No! No! I don't understand. I don't understand. I don't understand. He's a Roman lunatic! Ah! Go and get the police! Please don't try not to do anything. Ah, no, no! He's all. Ah! Please don't. Oh, he is all right. Ah! Ah! He is all right. Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah! Ah!",
-      "visual_description": "Sequence from 'The Invisible Man (1933)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Man (1933)' (1933).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-man-1933_202105_scene_4",
-      "movie_id": "the-invisible-man-1933_202105",
-      "scene_number": 4,
-      "start_timecode": "00:15:05",
-      "end_timecode": "00:17:01",
-      "start_seconds": 905.468468,
-      "end_seconds": 1021.784785,
-      "duration_seconds": 116.316317,
-      "video_filename": "the-invisible-man-1933_202105_scene_4_116s_1080p.mp4",
-      "keyframe_filename": "the-invisible-man-1933_202105_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_4_116s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_4_thumb.jpg",
-      "transcription": "Come on, Jeffers! Yeah, or surely. It's the stranger with the goggles. He's gone mad. He's assaulted Mrs. Hall and nearly killed her husband. Huh? Well, no, no, no. That ain't nobody, sir. What kind of words are you doing in the building? I don't know. I don't know. Where is he? He's upstairs in the sitting room. I can't wait to see him. He's in there, in this cooking room. He's only silent. Oh. Oh, my God. Oh, my God. He's being lost. I'm here. Oh, my God. No! No! No! Ah! Ah! Ah! Ah! Ah! Ah! Oh! Oh! Oh! Ah! Kid back, you kids there. Oh, my God. Oh, my God! Oh, my God! Oh, my God! Oh, my God! Oh, my God! That's it. Good. Good. Yeah, what's all this? Keep back there. Keep back me? Do you know who you're talking to? I give you a last chance to leave me alone. Give me a last chance. You've committed a sort this when you've done and you can come along to the station with me. Come along, you'll come quietly unless you want me to put the handcuffs on. Stop where you are. You don't know what you're doing. I know what I'm doing, all right. Come on, get all of me. Lock him up. All right, you fools. You've brought it on yourselves. Everything would have come right if you only left me alone. You've fed me near madness with your peering through the keyholes and dipping through the curtains. And now you'll suffer for it. You're crazy to know who I am, aren't you? All right, I'll show you.",
-      "visual_description": "Sequence from 'The Invisible Man (1933)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Man (1933)' (1933).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "the-invisible-man-1933_202105_scene_5",
-      "movie_id": "the-invisible-man-1933_202105",
-      "scene_number": 5,
-      "start_timecode": "00:17:01",
-      "end_timecode": "00:17:03",
-      "start_seconds": 1021.784785,
-      "end_seconds": 1023.286286,
-      "duration_seconds": 1.501501,
-      "video_filename": "the-invisible-man-1933_202105_scene_5_1s_1080p.mp4",
-      "keyframe_filename": "the-invisible-man-1933_202105_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_5_1s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-invisible-man-1933_202105_scene_5_thumb.jpg",
-      "transcription": "Yeah, that's.",
-      "visual_description": "Sequence from 'The Invisible Man (1933)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Invisible Man (1933)' (1933).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AssignmentOuterSpace_scene_1",
-      "movie_id": "AssignmentOuterSpace",
-      "scene_number": 1,
-      "start_timecode": "00:30:49",
-      "end_timecode": "00:30:57",
-      "start_seconds": 1849.780781,
-      "end_seconds": 1857.488488,
-      "duration_seconds": 7.707707,
-      "video_filename": "AssignmentOuterSpace_scene_1_7s_1080p.mp4",
-      "keyframe_filename": "AssignmentOuterSpace_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_1_7s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_1_thumb.jpg",
-      "transcription": "I don't feel like getting my days in the truck! David Stone!",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AssignmentOuterSpace_scene_2",
-      "movie_id": "AssignmentOuterSpace",
-      "scene_number": 2,
-      "start_timecode": "00:31:45",
-      "end_timecode": "00:31:52",
-      "start_seconds": 1905.436436,
-      "end_seconds": 1912.0430430000001,
-      "duration_seconds": 6.606607,
-      "video_filename": "AssignmentOuterSpace_scene_2_6s_1080p.mp4",
-      "keyframe_filename": "AssignmentOuterSpace_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_2_6s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_2_thumb.jpg",
-      "transcription": "Now, engines at seven gammas.",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AssignmentOuterSpace_scene_3",
-      "movie_id": "AssignmentOuterSpace",
-      "scene_number": 3,
-      "start_timecode": "00:32:48",
-      "end_timecode": "00:32:52",
-      "start_seconds": 1968.5996,
-      "end_seconds": 1972.903904,
-      "duration_seconds": 4.304304,
-      "video_filename": "AssignmentOuterSpace_scene_3_4s_1080p.mp4",
-      "keyframe_filename": "AssignmentOuterSpace_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_3_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_3_thumb.jpg",
-      "transcription": "What's going on? We're going down there, eh?",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AssignmentOuterSpace_scene_4",
-      "movie_id": "AssignmentOuterSpace",
-      "scene_number": 4,
-      "start_timecode": "00:40:00",
-      "end_timecode": "00:40:05",
-      "start_seconds": 2400.131131,
-      "end_seconds": 2405.536537,
-      "duration_seconds": 5.405406,
-      "video_filename": "AssignmentOuterSpace_scene_4_5s_1080p.mp4",
-      "keyframe_filename": "AssignmentOuterSpace_scene_4_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_4_5s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_4_thumb.jpg",
-      "transcription": "was taken immediately by firing an atomic missile at Alpha-2 in an attempt to destroy",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "AssignmentOuterSpace_scene_5",
-      "movie_id": "AssignmentOuterSpace",
-      "scene_number": 5,
-      "start_timecode": "00:42:15",
-      "end_timecode": "00:42:20",
-      "start_seconds": 2535.566567,
-      "end_seconds": 2540.371371,
-      "duration_seconds": 4.804804,
-      "video_filename": "AssignmentOuterSpace_scene_5_4s_1080p.mp4",
-      "keyframe_filename": "AssignmentOuterSpace_scene_5_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_5_4s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/AssignmentOuterSpace_scene_5_thumb.jpg",
-      "transcription": "Thank you. It's fantastic.",
-      "visual_description": "Sequence from 'Assignment Outer Space' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Assignment Outer Space' (1960).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
+        "film noir",
         "black and white"
       ]
     }
