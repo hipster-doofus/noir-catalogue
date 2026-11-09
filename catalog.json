@@ -1,276 +1,40 @@
 {
-  "updated_at": "2026-11-09T10:45:39.479141+00:00",
-  "total_movies": 3,
-  "total_scenes": 9,
+  "updated_at": "2026-11-09T14:28:01.570414+00:00",
+  "total_movies": 1,
+  "total_scenes": 1,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
-      "title": "Port of New York",
-      "year": 1949,
-      "director": "Aubrey Schenck, James T. Vaughn",
-      "archive_id": "Port_of_New_York",
+      "title": "Night And The City (1950, UK) Richard Widmark, Gene Tierney- Film Noir Full Movie",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "nightandthecity1950",
       "source_provider": "Internet Archive",
-      "video_url": "https://archive.org/download/Port_of_New_York/Port_of_New_York.mp4",
+      "video_url": "https://archive.org/download/nightandthecity1950/Night and the City (1950, UK) Featuring Richard Widmark, Gene Tierney - Film Noir Full Movie.mp4",
       "license": "Open Archive",
-      "description": "Port of New York is a 1949 film shot in semidocumentary style. The film is notable for being Yul Brynner's first movie. The film tells the story of a customs and treasury agent out to stop the distribution of opium, that came in on a ship in the Port of New York but was smuggled off by drug dealers. The leader of the drug dealers is the suave Vicola (Brynner)."
-    },
-    {
-      "title": "Breathless (1960)",
-      "year": 1960,
-      "director": "Soci\u00e9t\u00e9 nouvelle de cin\u00e9matographie",
-      "archive_id": "breathless-1960",
-      "source_provider": "Internet Archive",
-      "video_url": "https://archive.org/download/breathless-1960/Breathless (1960).mp4",
-      "license": "Open Archive",
-      "description": "Breathless\u00a0( French :\u00a0\u00c0 bout de souffle,\u2009'Out of Breath') is a 1960 French\u00a0 New Wave \u00a0film noir crime\u00a0 drama . \u00a0written and directed by\u00a0 Jean-Luc Godard . It stars\u00a0 Jean-Paul Belmondo \u00a0as a wandering criminal named Michel, and\u00a0 Jean Seberg \u00a0as his American girlfriend Patricia. The film was Godard's first feature-length work and represented Belmondo's breakthrough as an actor. Upon its initial release in France, the film attracted over two million viewers. It has since been considered\u00a0 one of the best films ever made , In May 2010, a fully restored version of the film was released in the United States to coincide with the film's 50th anniversary.-Wikipedia \u00a0 Fully restored version with English subtitles."
-    },
-    {
-      "title": "C-Man",
-      "year": 1949,
-      "director": "Irving Lerner, Joseph Lerner",
-      "archive_id": "C-Man",
-      "source_provider": "Internet Archive",
-      "video_url": "https://archive.org/download/C-Man/C-Man.mp4",
-      "license": "Open Archive",
-      "description": "When his best friend is murdered in pursuit of jewel smugglers, customs agent Cliff Holden (Dean Jagger) finds himself assigned to track down the killers and close the case. He flies to Europe in order to catch a return flight on which a chief suspect (R\u00e9n\u00e9 Paul) will be traveling."
+      "description": "Night and the City is a 1950 film noir directed by Jules Dassin and starring Richard Widmark, Gene Tierney, Hugh Marlowe and Googie Withers. It is based on the novel of the same name by Gerald Kersh. Shot on location in London and at Shepperton Studios, the plot revolves around an ambitious hustler whose plans keep going wrong. \u00a0 The film contains a very tough and prolonged fight scene between Stanislaus Zbyszko, a celebrated professional wrestler in real life, and Mike Mazurki, who before becoming an actor was himself a professional wrestler. Wikipedia: https://en.wikipedia.org/wiki/Night_and_the_City Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
     {
-      "scene_id": "Port_of_New_York_scene_1",
-      "movie_id": "Port_of_New_York",
+      "scene_id": "nightandthecity1950_scene_1",
+      "movie_id": "nightandthecity1950",
       "scene_number": 1,
-      "start_timecode": "00:19:03",
-      "end_timecode": "00:19:13",
-      "start_seconds": 1143.948949,
-      "end_seconds": 1153.558559,
-      "duration_seconds": 9.60961,
-      "video_filename": "Port_of_New_York_scene_1_9s_1080p.mp4",
-      "keyframe_filename": "Port_of_New_York_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Port_of_New_York_scene_1_9s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Port_of_New_York_scene_1_thumb.jpg",
-      "transcription": "Who is this somebody you know? You don't have to tell us everything.",
-      "visual_description": "Sequence from 'Port of New York' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Port of New York' (1949).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Port_of_New_York_scene_2",
-      "movie_id": "Port_of_New_York",
-      "scene_number": 2,
-      "start_timecode": "00:21:48",
-      "end_timecode": "00:21:57",
-      "start_seconds": 1308.713714,
-      "end_seconds": 1317.022022,
-      "duration_seconds": 8.308308,
-      "video_filename": "Port_of_New_York_scene_2_8s_1080p.mp4",
-      "keyframe_filename": "Port_of_New_York_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Port_of_New_York_scene_2_8s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Port_of_New_York_scene_2_thumb.jpg",
-      "transcription": "You look so startled, don't you? As if you never expected to see me again.",
-      "visual_description": "Sequence from 'Port of New York' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Port of New York' (1949).",
+      "start_timecode": "00:09:33",
+      "end_timecode": "00:09:51",
+      "start_seconds": 573.0,
+      "end_seconds": 591.643625,
+      "duration_seconds": 18.643625,
+      "video_filename": "nightandthecity1950_scene_1_18s_1080p.mp4",
+      "keyframe_filename": "nightandthecity1950_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/nightandthecity1950_scene_1_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/nightandthecity1950_scene_1_thumb.jpg",
+      "transcription": "There. You just some time to enjoy the most heavenly spaghetti dinner. Ah, thanks, but I just had breakfast, unfortunately. I admit it doesn't look a little overdone. Oh, well, try again next week. Probably start doing it, but I'll master it in the end, and I promise.",
+      "visual_description": "Sequence from 'Night And The City (1950, UK) Richard Widmark, Gene Tierney- Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Night And The City (1950, UK) Richard Widmark, Gene Tierney- Film Noir Full Movie' (1950).",
       "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "Port_of_New_York_scene_3",
-      "movie_id": "Port_of_New_York",
-      "scene_number": 3,
-      "start_timecode": "00:27:47",
-      "end_timecode": "00:27:56",
-      "start_seconds": 1667.472472,
-      "end_seconds": 1676.8818820000001,
-      "duration_seconds": 9.40941,
-      "video_filename": "Port_of_New_York_scene_3_9s_1080p.mp4",
-      "keyframe_filename": "Port_of_New_York_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Port_of_New_York_scene_3_9s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Port_of_New_York_scene_3_thumb.jpg",
-      "transcription": "Row after row of lockers was checked and any parcel that might possibly contain narcotics had to be opened away from the eyes of the curious in the",
-      "visual_description": "Sequence from 'Port of New York' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Port of New York' (1949).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "breathless-1960_scene_1",
-      "movie_id": "breathless-1960",
-      "scene_number": 1,
-      "start_timecode": "00:17:51",
-      "end_timecode": "00:18:13",
-      "start_seconds": 1071.0,
-      "end_seconds": 1093.0,
-      "duration_seconds": 22.0,
-      "video_filename": "breathless-1960_scene_1_22s_1080p.mp4",
-      "keyframe_filename": "breathless-1960_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/breathless-1960_scene_1_22s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/breathless-1960_scene_1_thumb.jpg",
-      "transcription": "Are you okay? You're not tired. You are so little. There are more more social issues. You're still here? I'm not sure. I'm not sure. I want to talk. I'll leave you then.",
-      "visual_description": "Sequence from 'Breathless (1960)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Breathless (1960)' (1960).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "breathless-1960_scene_2",
-      "movie_id": "breathless-1960",
-      "scene_number": 2,
-      "start_timecode": "00:18:13",
-      "end_timecode": "00:18:41",
-      "start_seconds": 1093.0,
-      "end_seconds": 1121.125,
-      "duration_seconds": 28.125,
-      "video_filename": "breathless-1960_scene_2_28s_1080p.mp4",
-      "keyframe_filename": "breathless-1960_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/breathless-1960_scene_2_28s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/breathless-1960_scene_2_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'Breathless (1960)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Breathless (1960)' (1960).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "breathless-1960_scene_3",
-      "movie_id": "breathless-1960",
-      "scene_number": 3,
-      "start_timecode": "00:28:51",
-      "end_timecode": "00:29:18",
-      "start_seconds": 1731.125,
-      "end_seconds": 1758.75,
-      "duration_seconds": 27.625,
-      "video_filename": "breathless-1960_scene_3_27s_1080p.mp4",
-      "keyframe_filename": "breathless-1960_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/breathless-1960_scene_3_27s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/breathless-1960_scene_3_thumb.jpg",
-      "transcription": "I'm not going to say it. I'm not going to say it. You are going to be a plane. I'll do it. You are going to be a complete morphe. I'll do it. And I'll never be alone when I want to be. And I'll do it. Say it once,",
-      "visual_description": "Sequence from 'Breathless (1960)' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Breathless (1960)' (1960).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "C-Man_scene_1",
-      "movie_id": "C-Man",
-      "scene_number": 1,
-      "start_timecode": "00:07:41",
-      "end_timecode": "00:08:25",
-      "start_seconds": 461.0,
-      "end_seconds": 505.54454499999997,
-      "duration_seconds": 44.544545,
-      "video_filename": "C-Man_scene_1_44s_1080p.mp4",
-      "keyframe_filename": "C-Man_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/C-Man_scene_1_44s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/C-Man_scene_1_thumb.jpg",
-      "transcription": "You know, oh, oh, Minnie, if anybody should ask any questions. I'm William Herra, got an office and secretary. Well, it's all down on this card. You know, just like we've done before. And now, Minnie, scram, I want to get dressed. Okay, kid. I mean, William. William Herra, 249, Nassau Street, New York City. Okay, get aboard. Miss you, William Herra, New New York. May I see Miss you? We'll be back here soon.",
-      "visual_description": "Sequence from 'C-Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'C-Man' (1949).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "C-Man_scene_2",
-      "movie_id": "C-Man",
-      "scene_number": 2,
-      "start_timecode": "00:14:41",
-      "end_timecode": "00:14:53",
-      "start_seconds": 881.4204199999999,
-      "end_seconds": 893.6326329999999,
-      "duration_seconds": 12.212213,
-      "video_filename": "C-Man_scene_2_12s_1080p.mp4",
-      "keyframe_filename": "C-Man_scene_2_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/C-Man_scene_2_12s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/C-Man_scene_2_thumb.jpg",
-      "transcription": "[Instrumental soundtrack / ambient score]",
-      "visual_description": "Sequence from 'C-Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'C-Man' (1949).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
-      "scene_id": "C-Man_scene_3",
-      "movie_id": "C-Man",
-      "scene_number": 3,
-      "start_timecode": "00:21:43",
-      "end_timecode": "00:21:54",
-      "start_seconds": 1303.542543,
-      "end_seconds": 1314.7537539999998,
-      "duration_seconds": 11.211211,
-      "video_filename": "C-Man_scene_3_11s_1080p.mp4",
-      "keyframe_filename": "C-Man_scene_3_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/C-Man_scene_3_11s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/C-Man_scene_3_thumb.jpg",
-      "transcription": "Your friends know they like to do nothing to me.",
-      "visual_description": "Sequence from 'C-Man' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'C-Man' (1949).",
-      "mood": "Melancholic",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
