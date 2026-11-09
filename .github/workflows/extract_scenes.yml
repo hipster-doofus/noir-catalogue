@@ -145,12 +145,14 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    
+          # -A (or --all) stages new untracked files AND resolves deleted file markers
+          git add -A output/
           git add catalog.json
-          git add -f output/
+    
           git status
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update catalog and MP4 scenes from workflow run ${{ github.run_number }}"
-          
-          # Retry mechanism to handle HTTP 500 / transient network drops during push
+    
           for i in {1..3}; do
             git push origin main && break || {
               echo "Push failed, retrying in $((i * 5)) seconds..."
