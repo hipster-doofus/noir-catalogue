@@ -62,9 +62,7 @@ def get_already_processed_movie_ids():
         return set()
 
 def fetch_random_archive_candidates(candidate_count=20):
-    """
-    Queries the Internet Archive API dynamically based on workflow form parameters.
-    """
+    """Queries the Internet Archive API dynamically based on workflow form parameters."""
     already_done = get_already_processed_movie_ids()
     search_url = "https://archive.org/advancedsearch.php"
     query_parts = ['mediatype:movies', 'format:"MPEG4"']
