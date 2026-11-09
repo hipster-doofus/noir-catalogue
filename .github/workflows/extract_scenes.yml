@@ -123,6 +123,9 @@ jobs:
           LICENSE_TYPE: ${{ inputs.license_type || 'any' }}
         run: python extract_and_index.py
 
+      - name: Regenerate Catalog from Output Files
+        run: python regenerate_catalog.py
+
       - name: Commit & Push MP4 Clips and Catalog to Main
         run: |
           git config --global user.name "github-actions[bot]"
