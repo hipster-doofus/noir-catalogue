@@ -1,39 +1,59 @@
 {
-  "updated_at": "2026-11-09T14:28:01.570414+00:00",
-  "total_movies": 1,
-  "total_scenes": 1,
-  "genre": "film noir",
+  "updated_at": "2026-11-09T15:23:27.841894+00:00",
+  "total_movies": 3,
+  "total_scenes": 9,
+  "genre": "any",
   "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
-      "title": "Night And The City (1950, UK) Richard Widmark, Gene Tierney- Film Noir Full Movie",
+      "title": "DOUBLE FEATURE HELL 8 (Grindhouse 3)",
       "year": 1950,
-      "director": "Unknown Director",
-      "archive_id": "nightandthecity1950",
+      "director": "The 2am Theater",
+      "archive_id": "DoubleFeatureHell8grindhouse3",
       "source_provider": "Internet Archive",
-      "video_url": "https://archive.org/download/nightandthecity1950/Night and the City (1950, UK) Featuring Richard Widmark, Gene Tierney - Film Noir Full Movie.mp4",
+      "video_url": "https://archive.org/download/DoubleFeatureHell8grindhouse3/DoubleFeatureHell8grindhouse3.mp4",
       "license": "Open Archive",
-      "description": "Night and the City is a 1950 film noir directed by Jules Dassin and starring Richard Widmark, Gene Tierney, Hugh Marlowe and Googie Withers. It is based on the novel of the same name by Gerald Kersh. Shot on location in London and at Shepperton Studios, the plot revolves around an ambitious hustler whose plans keep going wrong. \u00a0 The film contains a very tough and prolonged fight scene between Stanislaus Zbyszko, a celebrated professional wrestler in real life, and Mike Mazurki, who before becoming an actor was himself a professional wrestler. Wikipedia: https://en.wikipedia.org/wiki/Night_and_the_City Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+      "description": "ADULT CONTENT -- NUDITY The 2am Theater staff was out on parole just long enough to cobble together this third and final grindhouse double feature simulation: Your cinematic dumpster diving begins with previews of coming infractions, followed by the short, \"These Girls Are fools.\" The first feature presentation, in blushing color, is the topless sci fi anti-classic, \"Nude on the Moon.\" Next an intermission short, \"All Men Are Apes,\" is followed by the second feature presentation, \"Scum of the Earth,\" which teaches us how to run a girly photos racket. Take notes. (Special thanks to content-contributing member Freddie Jaye for making \"Nude on the Moon\" available.)"
+    },
+    {
+      "title": "Beneath the 12-Mile Reef",
+      "year": 1953,
+      "director": "Unknown Director",
+      "archive_id": "beneath_the_12-mile_reef",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/beneath_the_12-mile_reef/beneath_the_12-mile_reef.mp4",
+      "license": "Open Archive",
+      "description": "You can find more information regarding this film on its IMDb page . This film contributed courtesy of SabuCat Productions ."
+    },
+    {
+      "title": "Gulliver's Travels [720p]",
+      "year": 1939,
+      "director": "Fleischer Studios",
+      "archive_id": "GulliversTravels720p_652",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/GulliversTravels720p_652/GulliversTravels.mp4",
+      "license": "Open Archive",
+      "description": "Gulliver's Travels (1939) is a public domain cartoon. This is a 720p scene rip (gullivers.travels.1939.720p.bluray.x264-cinefile) of the Blu-Ray. IMDB Link ~~~~ Watch movies on Youtube @ PDFREETV Watch movie trailers on Youtube @ TheTrailerArchive"
     }
   ],
   "scenes": [
     {
-      "scene_id": "nightandthecity1950_scene_1",
-      "movie_id": "nightandthecity1950",
+      "scene_id": "DoubleFeatureHell8grindhouse3_scene_1",
+      "movie_id": "DoubleFeatureHell8grindhouse3",
       "scene_number": 1,
-      "start_timecode": "00:09:33",
-      "end_timecode": "00:09:51",
-      "start_seconds": 573.0,
-      "end_seconds": 591.643625,
-      "duration_seconds": 18.643625,
-      "video_filename": "nightandthecity1950_scene_1_18s_1080p.mp4",
-      "keyframe_filename": "nightandthecity1950_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/nightandthecity1950_scene_1_18s_1080p.mp4",
-      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/nightandthecity1950_scene_1_thumb.jpg",
-      "transcription": "There. You just some time to enjoy the most heavenly spaghetti dinner. Ah, thanks, but I just had breakfast, unfortunately. I admit it doesn't look a little overdone. Oh, well, try again next week. Probably start doing it, but I'll master it in the end, and I promise.",
-      "visual_description": "Sequence from 'Night And The City (1950, UK) Richard Widmark, Gene Tierney- Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Night And The City (1950, UK) Richard Widmark, Gene Tierney- Film Noir Full Movie' (1950).",
+      "start_timecode": "00:18:49",
+      "end_timecode": "00:19:04",
+      "start_seconds": 1129.0878,
+      "end_seconds": 1144.5032,
+      "duration_seconds": 15.4154,
+      "video_filename": "DoubleFeatureHell8grindhouse3_scene_1_15s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell8grindhouse3_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DoubleFeatureHell8grindhouse3_scene_1_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DoubleFeatureHell8grindhouse3_scene_1_thumb.jpg",
+      "transcription": "Professor. What are you so excited about, Jeff? I'll tell you when I get there, Professor. I didn't want you to leave before I got back. I have the most wonderful news. But what's it all about?",
+      "visual_description": "Sequence from 'DOUBLE FEATURE HELL 8 (Grindhouse 3)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'DOUBLE FEATURE HELL 8 (Grindhouse 3)' (1950).",
       "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
@@ -41,7 +61,223 @@
         "dramatic framing"
       ],
       "tags": [
-        "film noir",
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DoubleFeatureHell8grindhouse3_scene_2",
+      "movie_id": "DoubleFeatureHell8grindhouse3",
+      "scene_number": 2,
+      "start_timecode": "00:23:21",
+      "end_timecode": "00:23:42",
+      "start_seconds": 1401.7602000000002,
+      "end_seconds": 1422.5810000000001,
+      "duration_seconds": 20.8208,
+      "video_filename": "DoubleFeatureHell8grindhouse3_scene_2_20s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell8grindhouse3_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DoubleFeatureHell8grindhouse3_scene_2_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DoubleFeatureHell8grindhouse3_scene_2_thumb.jpg",
+      "transcription": "marriage me no sir now we can be the very first the first to make it to the moon I know we can do it we've worked so hard on our formulas and on the fuel it'll work we'll make it work",
+      "visual_description": "Sequence from 'DOUBLE FEATURE HELL 8 (Grindhouse 3)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'DOUBLE FEATURE HELL 8 (Grindhouse 3)' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DoubleFeatureHell8grindhouse3_scene_3",
+      "movie_id": "DoubleFeatureHell8grindhouse3",
+      "scene_number": 3,
+      "start_timecode": "00:23:42",
+      "end_timecode": "00:23:59",
+      "start_seconds": 1422.5810000000001,
+      "end_seconds": 1439.9984,
+      "duration_seconds": 17.4174,
+      "video_filename": "DoubleFeatureHell8grindhouse3_scene_3_17s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell8grindhouse3_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DoubleFeatureHell8grindhouse3_scene_3_17s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DoubleFeatureHell8grindhouse3_scene_3_thumb.jpg",
+      "transcription": "But I never planned to go along. I'm too old. This... This for someone young like yourself. You've worked just as hard as I have. You've earned the right to be the first. Have you ever thought about the dangers involved? Maybe I'm more practical. Isn't it worth a chance?",
+      "visual_description": "Sequence from 'DOUBLE FEATURE HELL 8 (Grindhouse 3)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'DOUBLE FEATURE HELL 8 (Grindhouse 3)' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "beneath_the_12-mile_reef_scene_1",
+      "movie_id": "beneath_the_12-mile_reef",
+      "scene_number": 1,
+      "start_timecode": "00:41:48",
+      "end_timecode": "00:41:57",
+      "start_seconds": 2508.5248,
+      "end_seconds": 2517.3336,
+      "duration_seconds": 8.8088,
+      "video_filename": "beneath_the_12-mile_reef_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "beneath_the_12-mile_reef_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/beneath_the_12-mile_reef_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/beneath_the_12-mile_reef_scene_1_thumb.jpg",
+      "transcription": "That's why you're going to stay here this time.",
+      "visual_description": "Sequence from 'Beneath the 12-Mile Reef' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Beneath the 12-Mile Reef' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "beneath_the_12-mile_reef_scene_2",
+      "movie_id": "beneath_the_12-mile_reef",
+      "scene_number": 2,
+      "start_timecode": "00:43:15",
+      "end_timecode": "00:43:27",
+      "start_seconds": 2595.812,
+      "end_seconds": 2607.9241,
+      "duration_seconds": 12.1121,
+      "video_filename": "beneath_the_12-mile_reef_scene_2_12s_1080p.mp4",
+      "keyframe_filename": "beneath_the_12-mile_reef_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/beneath_the_12-mile_reef_scene_2_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/beneath_the_12-mile_reef_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Beneath the 12-Mile Reef' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Beneath the 12-Mile Reef' (1953).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "beneath_the_12-mile_reef_scene_3",
+      "movie_id": "beneath_the_12-mile_reef",
+      "scene_number": 3,
+      "start_timecode": "00:43:43",
+      "end_timecode": "00:44:06",
+      "start_seconds": 2623.4396,
+      "end_seconds": 2646.1623,
+      "duration_seconds": 22.7227,
+      "video_filename": "beneath_the_12-mile_reef_scene_3_22s_1080p.mp4",
+      "keyframe_filename": "beneath_the_12-mile_reef_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/beneath_the_12-mile_reef_scene_3_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/beneath_the_12-mile_reef_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Beneath the 12-Mile Reef' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Beneath the 12-Mile Reef' (1953).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "GulliversTravels720p_652_scene_1",
+      "movie_id": "GulliversTravels720p_652",
+      "scene_number": 1,
+      "start_timecode": "00:25:56",
+      "end_timecode": "00:26:05",
+      "start_seconds": 1556.5,
+      "end_seconds": 1565.125,
+      "duration_seconds": 8.625,
+      "video_filename": "GulliversTravels720p_652_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "GulliversTravels720p_652_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/GulliversTravels720p_652_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/GulliversTravels720p_652_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Gulliver's Travels [720p]' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gulliver's Travels [720p]' (1939).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "GulliversTravels720p_652_scene_2",
+      "movie_id": "GulliversTravels720p_652",
+      "scene_number": 2,
+      "start_timecode": "00:31:05",
+      "end_timecode": "00:31:21",
+      "start_seconds": 1865.25,
+      "end_seconds": 1881.625,
+      "duration_seconds": 16.375,
+      "video_filename": "GulliversTravels720p_652_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "GulliversTravels720p_652_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/GulliversTravels720p_652_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/GulliversTravels720p_652_scene_2_thumb.jpg",
+      "transcription": "Well, we did it, you little rascal, you hoe! We did it! Yes, we certainly did, didn't we? Just a couple of old dad cupids, I think! Ho, ho, ho, ho, ho!",
+      "visual_description": "Sequence from 'Gulliver's Travels [720p]' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gulliver's Travels [720p]' (1939).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "GulliversTravels720p_652_scene_3",
+      "movie_id": "GulliversTravels720p_652",
+      "scene_number": 3,
+      "start_timecode": "00:32:59",
+      "end_timecode": "00:33:10",
+      "start_seconds": 1979.25,
+      "end_seconds": 1990.875,
+      "duration_seconds": 11.625,
+      "video_filename": "GulliversTravels720p_652_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "GulliversTravels720p_652_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/GulliversTravels720p_652_scene_3_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/GulliversTravels720p_652_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Gulliver's Travels [720p]' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gulliver's Travels [720p]' (1939).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
         "black and white"
       ]
     }
