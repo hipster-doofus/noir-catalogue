@@ -7,7 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "hipster-doofus/noir-catalogue")
+#GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "hipster-doofus/noir-catalogue")
+GITHUB_REPO = os.environ.get("SOURCE_REPO", "hipster-doofus/noir-vault-v2")
 HEADERS = {"User-Agent": "GitHub-Actions-Migrator"}
 
 def migrate_release_assets():
