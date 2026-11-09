@@ -1,0 +1,285 @@
+{
+  "updated_at": "2026-11-09T16:34:25.438240+00:00",
+  "total_movies": 3,
+  "total_scenes": 9,
+  "genre": "film noir",
+  "source": "Internet Archive",
+  "category": "feature_films",
+  "movies": [
+    {
+      "title": "Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "tryandgetme1950",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/tryandgetme1950/Try and Get Me (1950, USA) Featuring Frank Lovejoy, Lloyd Bridges - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "The Sound of Fury (reissued as Try and Get Me) is a 1950 crime film noir directed by Cy Endfield starring Frank Lovejoy, Kathleen Ryan, Richard Carlson, and Lloyd Bridges. The film is based on the 1947 novel The Condemned by Jo Pagano. Wikipedia: https://en.wikipedia.org/wiki/The_Sound_of_Fury_(film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Phantom Lady 1944 colorized (Ella Raines)",
+      "year": 1944,
+      "director": "Universal Pictures",
+      "archive_id": "phantom-lady-1944-colorized",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/phantom-lady-1944-colorized/Phantom Lady 1944.mp4",
+      "license": "Open Archive",
+      "description": "An unhappily married man (Alan Curtis) spends the evening with a woman he picked up in a bar. Returning home, he finds his wife strangled and becomes the prime suspect in her murder. Every effort to establish his alibi fails, as no one seems to remember seeing this \"phantom\" lady, or her distinctive hat. In prison, he gives up hope, but his devoted secretary (Ella Raines) doggedly pursues ephemeral clues through shadowy nocturnal streets, putting her own life in danger from the real killer. Based on the novel by Cornell Woolrich Ella Raines as Carol Richman Franchot Tone as Jack Marlow Alan Curtis as Scott Henderson Aurora Miranda as Estela Monteiro Thomas Gomez as Inspector Burgess Fay Helm as Ann Terry Elisha Cook Jr. as Cliff Andrew Tombes as Bartender Regis Toomey as Detective I colorized this using AI software that doesn't always get the colors right, but I think it looks fairly natural. Hopefully a more professional job will be done someday. For questions or general comments, please use the Colorized Movies Forum at https://archive.org/details/colorized-movies?tab=forum"
+    },
+    {
+      "title": "Undertow (1949) Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie",
+      "year": 1949,
+      "director": "Unknown Director",
+      "archive_id": "undertow1949_202002",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/undertow1949_202002/Undertow (1949, USA) Featuring Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Undertow is a 1949 American film noir crime film directed by William Castle and starring Scott Brady, John Russell, Dorothy Hart and Peggy Dow. The movie marks the second film to feature a young actor named Rock Hudson and the first in which he received a film credit for his work. \u00a0 Wikipedia: https://en.wikipedia.org/wiki/Undertow_(1949_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "tryandgetme1950_scene_1",
+      "movie_id": "tryandgetme1950",
+      "scene_number": 1,
+      "start_timecode": "00:11:32",
+      "end_timecode": "00:12:30",
+      "start_seconds": 692.0,
+      "end_seconds": 750.2582,
+      "duration_seconds": 58.2582,
+      "video_filename": "tryandgetme1950_scene_1_58s_1080p.mp4",
+      "keyframe_filename": "tryandgetme1950_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tryandgetme1950_scene_1_58s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tryandgetme1950_scene_1_thumb.jpg",
+      "transcription": "Same break. Do you ever notice one thing all women have in common? They're all partial with the same color. Cari. Yeah, I know what you mean. Not bad, huh? Oh, de noe. Well, that smells good. Smells expensive. $6.50 a bottle. I think I've got to keep himself in shape. I used to play a little handball at the Y. Huh? You never know when you're going to get in a beef. How much so scully you wear? Um, $15,000. That's too bad. I don't know at least I can spare you, but, uh, hey, feel that. That's real sick. The cow itself makes my skin itch. Hey, first I fall over there? Sure. That's platinum, you know. Not silver. Boy, you sure treat yourself all right. Hey, you think I'm gonna shave? No, no, you look.",
+      "visual_description": "Sequence from 'Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tryandgetme1950_scene_2",
+      "movie_id": "tryandgetme1950",
+      "scene_number": 2,
+      "start_timecode": "00:12:30",
+      "end_timecode": "00:12:37",
+      "start_seconds": 750.2582,
+      "end_seconds": 757.7657,
+      "duration_seconds": 7.5075,
+      "video_filename": "tryandgetme1950_scene_2_7s_1080p.mp4",
+      "keyframe_filename": "tryandgetme1950_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tryandgetme1950_scene_2_7s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tryandgetme1950_scene_2_thumb.jpg",
+      "transcription": "Good. Jerry. Yeah? Got any idea what time it's going to be?",
+      "visual_description": "Sequence from 'Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tryandgetme1950_scene_3",
+      "movie_id": "tryandgetme1950",
+      "scene_number": 3,
+      "start_timecode": "00:12:37",
+      "end_timecode": "00:13:58",
+      "start_seconds": 757.7657,
+      "end_seconds": 838.4463000000001,
+      "duration_seconds": 80.6806,
+      "video_filename": "tryandgetme1950_scene_3_80s_1080p.mp4",
+      "keyframe_filename": "tryandgetme1950_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tryandgetme1950_scene_3_80s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tryandgetme1950_scene_3_thumb.jpg",
+      "transcription": "to be. Like foodie. What? You want some blood? Well, I got to get home. Jerry about that job you mentioned. My wife doesn't know where I am. Keep a guess and they respect you more that way. Hey, you like this one? Oh, yeah, that's good. Uh, Jerry. What do you mind giving to me? I liked it. We took it right off his neck. I'll have to introduce you to him sometime. He's quite a character. Well, he can afford it. The average is 20 bucks an hour, five hours a night. You forget that. 20 bucks an hour? What does this guy do? Run a diamond mine? What diamond mine? Oh, he doesn't pick up five little cards. It's his five little cards. Only he knows what they are before he picks them up. That's some job. And another guy at average is four, five and a week, sometimes more. He'll be willing to split with the right partner. He's the guy I was thinking about for you. For me? Oh, you have to do his driver's car. They could be interested. What makes you think he want me for a partner? My personal recommendation. What are you going to do, his driver's car? He does all the work. What kind of work? Oh, you know, knock over a gas station, maybe a hamburger, journalist, sir. Nothing risky. Oh, no. Oh, wait a minute.",
+      "visual_description": "Sequence from 'Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "phantom-lady-1944-colorized_scene_1",
+      "movie_id": "phantom-lady-1944-colorized",
+      "scene_number": 1,
+      "start_timecode": "00:32:36",
+      "end_timecode": "00:32:46",
+      "start_seconds": 1956.6399999999999,
+      "end_seconds": 1966.6,
+      "duration_seconds": 9.96,
+      "video_filename": "phantom-lady-1944-colorized_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "phantom-lady-1944-colorized_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/phantom-lady-1944-colorized_scene_1_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/phantom-lady-1944-colorized_scene_1_thumb.jpg",
+      "transcription": "Okay. Okay. Okay. Okay. Okay.",
+      "visual_description": "Sequence from 'Phantom Lady 1944 colorized (Ella Raines)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom Lady 1944 colorized (Ella Raines)' (1944).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "phantom-lady-1944-colorized_scene_2",
+      "movie_id": "phantom-lady-1944-colorized",
+      "scene_number": 2,
+      "start_timecode": "00:33:23",
+      "end_timecode": "00:33:47",
+      "start_seconds": 2003.72,
+      "end_seconds": 2027.72,
+      "duration_seconds": 24.0,
+      "video_filename": "phantom-lady-1944-colorized_scene_2_24s_1080p.mp4",
+      "keyframe_filename": "phantom-lady-1944-colorized_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/phantom-lady-1944-colorized_scene_2_24s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/phantom-lady-1944-colorized_scene_2_thumb.jpg",
+      "transcription": "I'll see you in the next one.",
+      "visual_description": "Sequence from 'Phantom Lady 1944 colorized (Ella Raines)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom Lady 1944 colorized (Ella Raines)' (1944).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "phantom-lady-1944-colorized_scene_3",
+      "movie_id": "phantom-lady-1944-colorized",
+      "scene_number": 3,
+      "start_timecode": "00:39:06",
+      "end_timecode": "00:39:17",
+      "start_seconds": 2346.84,
+      "end_seconds": 2357.76,
+      "duration_seconds": 10.92,
+      "video_filename": "phantom-lady-1944-colorized_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "phantom-lady-1944-colorized_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/phantom-lady-1944-colorized_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/phantom-lady-1944-colorized_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Phantom Lady 1944 colorized (Ella Raines)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Phantom Lady 1944 colorized (Ella Raines)' (1944).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "undertow1949_202002_scene_1",
+      "movie_id": "undertow1949_202002",
+      "scene_number": 1,
+      "start_timecode": "00:06:05",
+      "end_timecode": "00:06:17",
+      "start_seconds": 365.6046,
+      "end_seconds": 377.7167,
+      "duration_seconds": 12.1121,
+      "video_filename": "undertow1949_202002_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "undertow1949_202002_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/undertow1949_202002_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/undertow1949_202002_scene_1_thumb.jpg",
+      "transcription": "Get him from the caterpillar. Six, six, he's looking for an eight. Play the team, folks, play the come. Still looking for an eight. Dice, please be kind. Come on now, eight, eight. Ten.",
+      "visual_description": "Sequence from 'Undertow (1949) Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Undertow (1949) Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie' (1949).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "undertow1949_202002_scene_2",
+      "movie_id": "undertow1949_202002",
+      "scene_number": 2,
+      "start_timecode": "00:17:17",
+      "end_timecode": "00:17:31",
+      "start_seconds": 1037.0754,
+      "end_seconds": 1051.0893999999998,
+      "duration_seconds": 14.014,
+      "video_filename": "undertow1949_202002_scene_2_14s_1080p.mp4",
+      "keyframe_filename": "undertow1949_202002_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/undertow1949_202002_scene_2_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/undertow1949_202002_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Undertow (1949) Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Undertow (1949) Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie' (1949).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "undertow1949_202002_scene_3",
+      "movie_id": "undertow1949_202002",
+      "scene_number": 3,
+      "start_timecode": "00:20:17",
+      "end_timecode": "00:20:30",
+      "start_seconds": 1217.856,
+      "end_seconds": 1230.4686000000002,
+      "duration_seconds": 12.6126,
+      "video_filename": "undertow1949_202002_scene_3_12s_1080p.mp4",
+      "keyframe_filename": "undertow1949_202002_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/undertow1949_202002_scene_3_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/undertow1949_202002_scene_3_thumb.jpg",
+      "transcription": "Seven long years, but I must have been crazy. You look wonderful, Tony. Just wonderful.",
+      "visual_description": "Sequence from 'Undertow (1949) Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Undertow (1949) Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie' (1949).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    }
+  ]
+}
