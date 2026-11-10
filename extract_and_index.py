@@ -1,9 +1,8 @@
 """
 Multi-Source Film & Genre Scene Extractor & Cloud Indexer
-Dynamically queries Internet Archive based on workflow parameters, extracts scenes, 
-generates AI metadata, and updates Supabase & GitHub Pages.
+Dynamically queries Internet Archive based on workflow parameters,
+extracts scenes, generates AI metadata, and updates Supabase & GitHub Pages.
 """
-
 import os
 import sys
 import json
@@ -18,17 +17,17 @@ from pathlib import Path
 import requests
 import imageio_ffmpeg
 
-# Seed random with entropy
+# Seed entropy
 random.seed(int(time.time() * 1000) ^ os.getpid())
 
-# Setup directories
+# Setup workspace directories
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "output"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 WORK_DIR = BASE_DIR / "temp_workspace"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
 
-# --- Dynamic Configuration from Workflow Inputs ---
+# Dynamic Environment Variables
 SOURCE_PROVIDER = os.environ.get("SOURCE_PROVIDER", "Internet Archive").strip()
 ARCHIVE_CATEGORY = os.environ.get("ARCHIVE_CATEGORY", "feature_films").strip()
 GENRE_KEYWORD = os.environ.get("GENRE_KEYWORD", "film noir").strip().lower()
@@ -40,14 +39,16 @@ START_YEAR = int(os.environ.get("START_YEAR", "1930"))
 END_YEAR = int(os.environ.get("END_YEAR", "1960"))
 LICENSE_TYPE = os.environ.get("LICENSE_TYPE", "any").strip().lower()
 
+
 def get_ffmpeg():
     sys_ffmpeg = shutil.which("ffmpeg")
     if sys_ffmpeg:
         return sys_ffmpeg
     return imageio_ffmpeg.get_ffmpeg_exe()
 
+
 def get_already_processed_movie_ids():
-    """Queries Supabase to find movies already indexed."""
+    """Queries Supabase to locate films that were previously extracted."""
     supabase_url = os.environ.get("SUPABASE_URL", "").strip()
     supabase_key = os.environ.get("SUPABASE_KEY", "").strip()
     if not supabase_url or not supabase_key:
@@ -58,114 +59,148 @@ def get_already_processed_movie_ids():
         res = client.table("movies").select("movie_id").execute()
         return {r["movie_id"] for r in res.data}
     except Exception as e:
-        print(f"[*] Note on Supabase check ({e}); proceeding.")
+        print(f"[*] Supabase duplicate check notice ({e}); continuing execution.")
         return set()
 
+
 def fetch_random_archive_candidates(candidate_count=20):
-    """Queries the Internet Archive API dynamically based on workflow form parameters."""
+    """Searches the Internet Archive API based on dynamic workflow inputs."""
     already_done = get_already_processed_movie_ids()
     search_url = "https://archive.org/advancedsearch.php"
-    query_parts = ['mediatype:movies', 'format:"MPEG4"']
     
+    query_parts = ['mediatype:movies', 'format:"MPEG4"']
     if ARCHIVE_CATEGORY != "all_movies":
         query_parts.append(f'collection:"{ARCHIVE_CATEGORY}"')
-        
     if GENRE_KEYWORD != "any":
         query_parts.append(f'subject:"{GENRE_KEYWORD}"')
-        
     if LICENSE_TYPE != "any":
-        query_parts.append(f'licenseurl:*"{LICENSE_TYPE.replace(" ", "")}"* OR rights:"*{LICENSE_TYPE}*"')
-        
-    query = " AND ".join(query_parts)
-    random_page = random.randint(1, 5)
+        query_parts.append(f'licenseurl:*"http://creativecommons.org/publicdomain/zero/1.0/"* OR rights:*"Public Domain*"')
     
+    query = " AND ".join(query_parts)
+    print(f"🔎 Querying Archive API ({SOURCE_PROVIDER} / {ARCHIVE_CATEGORY}) | Keyword: '{GENRE_KEYWORD}'...")
+
     params = {
         "q": query,
-        "fl[]": "identifier,title,year,creator,description",
+        "fl[]": ["identifier", "title", "year", "creator", "description"],
         "sort[]": "downloads desc",
         "rows": 50,
-        "page": random_page,
+        "page": random.randint(1, 4),
         "output": "json"
     }
-    
+
     try:
-        print(f"🔎 Searching Archive API ({SOURCE_PROVIDER} / {ARCHIVE_CATEGORY}) | Genre: '{GENRE_KEYWORD}' | License: '{LICENSE_TYPE}' ({START_YEAR}-{END_YEAR})...")
-        resp = requests.get(search_url, params=params, timeout=15)
-        if resp.status_code == 200:
-            docs = resp.json().get("response", {}).get("docs", [])
-            print(f"    [✓] Retrieved {len(docs)} candidate items from Archive API.")
-            random.shuffle(docs)
-            candidates = []
-            for doc in docs:
-                archive_id = doc.get("identifier")
-                if not archive_id or archive_id in already_done:
-                    continue
-                
-                rel_year = int(doc.get("year", 1950)) if str(doc.get("year", "")).isdigit() else 1950
-                if not (START_YEAR <= rel_year <= END_YEAR):
-                    continue
-                
-                meta_url = f"https://archive.org/metadata/{archive_id}"
-                try:
-                    m_resp = requests.get(meta_url, timeout=10)
-                    if m_resp.status_code == 200:
-                        files = m_resp.json().get("files", [])
-                        mp4_files = [f for f in files if f.get("name", "").endswith(".mp4") and not f.get("name", "").endswith("_512kb.mp4")]
-                        if not mp4_files:
-                            mp4_files = [f for f in files if f.get("name", "").endswith(".mp4")]
-                        if mp4_files:
-                            mp4_files.sort(key=lambda x: int(x.get("size", 0)), reverse=True)
-                            best_mp4 = mp4_files[0]["name"]
-                            candidates.append({
-                                "title": doc.get("title", archive_id.replace("_", " ").title()),
-                                "year": rel_year,
-                                "director": doc.get("creator", "Unknown Director"),
-                                "archive_id": archive_id,
-                                "source_provider": SOURCE_PROVIDER,
-                                "video_url": f"https://archive.org/download/{archive_id}/{best_mp4}",
-                                "license": LICENSE_TYPE.title() if LICENSE_TYPE != "any" else "Open Archive",
-                                "description": doc.get("description", f"Archival video feature.")
-                            })
-                except Exception:
-                    continue
-                if len(candidates) >= candidate_count:
-                    break
-            return candidates
+        r = requests.get(search_url, params=params, timeout=20)
+        r.raise_for_status()
+        docs = r.json().get("response", {}).get("docs", [])
+        random.shuffle(docs)
+
+        candidates = []
+        for d in docs:
+            movie_id = d.get("identifier")
+            if not movie_id or movie_id in already_done:
+                continue
+
+            raw_year = d.get("year")
+            try:
+                year_val = int(raw_year) if raw_year else 1950
+            except ValueError:
+                year_val = 1950
+
+            if not (START_YEAR <= year_val <= END_YEAR):
+                continue
+
+            meta_url = f"https://archive.org/metadata/{movie_id}"
+            try:
+                m_resp = requests.get(meta_url, timeout=10)
+                if m_resp.status_code == 200:
+                    files = m_resp.json().get("files", [])
+                    mp4_files = [f for f in files if f.get("name", "").endswith(".mp4") and not f.get("name", "").endswith("_512kb.mp4")]
+                    if not mp4_files:
+                        mp4_files = [f for f in files if f.get("name", "").endswith(".mp4")]
+                    
+                    if mp4_files:
+                        mp4_files.sort(key=lambda x: int(x.get("size", 0)), reverse=True)
+                        best_mp4 = mp4_files[0]["name"]
+                        candidates.append({
+                            "title": d.get("title", movie_id.replace("_", " ").title()),
+                            "year": year_val,
+                            "director": d.get("creator", "Unknown Director"),
+                            "archive_id": movie_id,
+                            "source_provider": SOURCE_PROVIDER,
+                            "video_url": f"https://archive.org/download/{movie_id}/{best_mp4}",
+                            "license": LICENSE_TYPE.title() if LICENSE_TYPE != "any" else "Open Archive",
+                            "description": d.get("description", "Archival video feature.")
+                        })
+            except Exception:
+                continue
+
+            if len(candidates) >= candidate_count:
+                break
+
+        print(f"  [✓] Found {len(candidates)} valid candidate films.")
+        return candidates
+
     except Exception as e:
-        print(f"  [!] Dynamic catalog fetch error: {e}")
-    return []
+        print(f"  [!] Failed to query Internet Archive API: {e}")
+        return []
+
 
 def analyze_multimodal(clip_path, movie_info, scene_index, duration):
-    """Multi-Tier AI Metadata Generator (Gemini -> Hugging Face -> Faster-Whisper)."""
+    """Multi-Tier AI metadata extractor (Gemini 2.0 -> Hugging Face -> Whisper)."""
     gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if gemini_key:
         try:
-            print(f"    🤖 [1/3] Calling Gemini API for Scene {scene_index}...")
+            print(f"    🤖 [1/3] Processing with Gemini API for Scene {scene_index}...")
             from google import genai
             from google.genai import types
+
             client = genai.Client(api_key=gemini_key)
             uploaded_file = client.files.upload(file=str(clip_path))
+            time.sleep(2)
+
             prompt = f"""
-            Analyze this scene clip from '{movie_info['title']}' ({movie_info['year']}) and respond in strict JSON format:
-            {{"transcription": "Verbatim spoken dialogue or [Instrumental/Ambient]", "visual_description": "Detailed staging, lighting, and camera framing", "synopsis": "Concise 2-3 sentence narrative summary of the dramatic beat", "mood": "Dominant emotional tone", "noir_tropes": ["list", "of", "tropes", "detected"], "tags": ["relevant", "keywords"]}}
+            Analyze this film scene clip from '{movie_info['title']}' ({movie_info['year']}).
+            Return a strict JSON object:
+            {{
+              "transcription": "spoken dialogue or audio description",
+              "visual_description": "lighting, framing, and camera work",
+              "synopsis": "2-3 sentence narrative beat breakdown",
+              "mood": "dominant atmosphere (e.g., Fatalistic, Melancholic, Tense / Suspense, Paranoid)",
+              "noir_tropes": ["array", "of", "tropes"],
+              "tags": ["array", "of", "keywords"]
+            }}
             """
+
             response = client.models.generate_content(
                 model='gemini-2.0-flash',
                 contents=[uploaded_file, prompt],
                 config=types.GenerateContentConfig(response_mime_type="application/json")
             )
+            
+            try:
+                client.files.delete(name=uploaded_file.name)
+            except Exception:
+                pass
+
             return json.loads(response.text)
+
         except Exception as e:
             print(f"    [!] Gemini notice ({e}), attempting Hugging Face fallback...")
 
     hf_token = os.environ.get("HF_TOKEN", "").strip()
     if hf_token:
         try:
-            print(f"    🤗 [2/3] Calling Hugging Face Free AI Inference for Scene {scene_index}...")
+            print(f"    🤗 [2/3] Processing with Hugging Face API for Scene {scene_index}...")
             headers = {"Authorization": f"Bearer {hf_token}"}
             hf_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
+            
             prompt = f"<s>[INST] Generate JSON analysis metadata for a scene in the film '{movie_info['title']}' ({movie_info['year']}). Respond ONLY in valid JSON with keys: transcription, visual_description, synopsis, mood, noir_tropes, tags. [/INST]"
-            resp = requests.post(hf_url, headers=headers, json={"inputs": prompt, "parameters": {"max_new_tokens": 350}}, timeout=15)
+            resp = requests.post(
+                hf_url, 
+                headers=headers, 
+                json={"inputs": prompt, "parameters": {"max_new_tokens": 350}}, 
+                timeout=15
+            )
             if resp.status_code == 200:
                 raw_text = resp.json()[0]["generated_text"]
                 clean_json = raw_text.split("[/INST]")[-1].strip()
@@ -179,8 +214,8 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
         model = WhisperModel("base.en", device="cpu", compute_type="int8")
         segments, _ = model.transcribe(str(clip_path))
         transcript = " ".join([seg.text.strip() for seg in segments]).strip()
-    except Exception as e:
-        transcript = "[Ambient orchestral score and environmental sound]"
+    except Exception:
+        transcript = "[Ambient score and environmental dialogue]"
 
     if not transcript:
         transcript = "[Instrumental soundtrack / ambient score]"
@@ -194,14 +229,18 @@ def analyze_multimodal(clip_path, movie_info, scene_index, duration):
         "tags": [GENRE_KEYWORD if GENRE_KEYWORD != "any" else "classic cinema", "black and white"]
     }
 
+
 def index_to_supabase(movie, scenes):
+    """Upserts movie metadata and scene details into Supabase."""
     supabase_url = os.environ.get("SUPABASE_URL", "").strip()
     supabase_key = os.environ.get("SUPABASE_KEY", "").strip()
     if not supabase_url or not supabase_key:
         return False
+
     try:
         from supabase import create_client
         client = create_client(supabase_url, supabase_key)
+        
         client.table("movies").upsert({
             "movie_id": movie["archive_id"],
             "title": movie["title"],
@@ -239,13 +278,13 @@ def index_to_supabase(movie, scenes):
         print(f"❌ Supabase notice: {e}")
         return False
 
+
 def update_catalog_json(all_movies, all_scenes):
-    """Merges new batch records with existing historical scenes so catalog.json grows over time."""
+    """Merges new batch records with existing history in catalog.json."""
     root_cat = BASE_DIR / "catalog.json"
     existing_movies = []
     existing_scenes = []
 
-    # Load existing history if catalog.json exists
     if root_cat.exists():
         try:
             with open(root_cat, "r", encoding="utf-8") as f:
@@ -255,12 +294,10 @@ def update_catalog_json(all_movies, all_scenes):
         except Exception as e:
             print(f"[*] Notice loading existing catalog.json ({e})")
 
-    # Combine & deduplicate movies by archive_id
     movie_dict = {m["archive_id"]: m for m in existing_movies}
     for m in all_movies:
         movie_dict[m["archive_id"]] = m
 
-    # Combine & deduplicate scenes by scene_id
     scene_dict = {s["scene_id"]: s for s in existing_scenes}
     for s in all_scenes:
         s_copy = dict(s)
@@ -290,16 +327,17 @@ def update_catalog_json(all_movies, all_scenes):
 
     with open(root_cat, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
-        
-    print(f"✅ Catalog updated! Total archive size: {len(combined_movies)} movies & {len(combined_scenes)} scenes.")
+
+    print(f"✅ Catalog synced! Archive total: {len(combined_movies)} movies & {len(combined_scenes)} scenes.")
+
 
 def main():
     ffmpeg_exe = get_ffmpeg()
     movie_pool = fetch_random_archive_candidates(candidate_count=20)
     
     print("=" * 65)
-    print(f"🎬 TARGET GOAL: Successfully Extract Scenes for {NUM_MOVIES} Film(s)")
-    print(f"📋 Candidate Pool: {len(movie_pool)} films | Source: {SOURCE_PROVIDER} ({ARCHIVE_CATEGORY}) | Genre: '{GENRE_KEYWORD}'")
+    print(f"🎬 TARGET GOAL: Extract Scenes for {NUM_MOVIES} Film(s)")
+    print(f"📋 Candidate Pool Size: {len(movie_pool)} films")
     print("=" * 65)
 
     all_batch_movies = []
@@ -309,7 +347,8 @@ def main():
     while len(all_batch_movies) < NUM_MOVIES and pool_index < len(movie_pool):
         movie = movie_pool[pool_index]
         pool_index += 1
-        print(f"\n[{len(all_batch_movies) + 1}/{NUM_MOVIES}] 📽️ Attempting '{movie['title']}' ({movie['year']})...")
+
+        print(f"\n[{len(all_batch_movies) + 1}/{NUM_MOVIES}] 📽️ Processing '{movie['title']}' ({movie['year']})...")
         sample_file = WORK_DIR / f"{movie['archive_id']}_sample.mp4"
 
         try:
@@ -317,41 +356,43 @@ def main():
             random_start_sec = random.randint(300, 1800)
             start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
             
-            print(f"  🌐 Streaming 15-minute window from {start_time_str}...")
+            print(f"  🌐 Slicing 15-minute sample stream starting at {start_time_str}...")
             t0 = time.time()
+
             cmd = [
-                ffmpeg_exe, "-y", "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
-                "-ss", start_time_str, "-i", stream_url, "-t", "00:15:00",
+                ffmpeg_exe, "-y",
+                "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
+                "-ss", start_time_str,
+                "-i", stream_url,
+                "-t", "00:15:00",
                 "-c:v", "libx264", "-preset", "ultrafast", "-crf", "26",
-                "-c:a", "aac", str(sample_file)
+                "-c:a", "aac",
+                str(sample_file)
             ]
             res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=240)
 
             if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
-                print(f"  [!] FFmpeg stream slice dropped. Running Python HTTP chunk fallback...")
-                try:
-                    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-                    with requests.get(stream_url, headers=headers, stream=True, timeout=30) as r:
-                        r.raise_for_status()
-                        downloaded = 0
-                        with open(sample_file, "wb") as f:
-                            for chunk in r.iter_content(chunk_size=1024*1024):
-                                if chunk:
-                                    f.write(chunk)
-                                    downloaded += len(chunk)
-                                if downloaded >= 80 * 1024 * 1024:
-                                    break
-                except Exception as dl_err:
-                    print(f"  [!] Fallback download notice: {dl_err}")
+                print("  [!] Direct FFmpeg stream slice dropped. Using HTTP chunk fallback...")
+                headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+                with requests.get(stream_url, headers=headers, stream=True, timeout=30) as r:
+                    r.raise_for_status()
+                    downloaded = 0
+                    with open(sample_file, "wb") as f:
+                        for chunk in r.iter_content(chunk_size=1024*1024):
+                            if chunk:
+                                f.write(chunk)
+                            downloaded += len(chunk)
+                            if downloaded >= 80 * 1024 * 1024:
+                                break
 
             if not sample_file.exists() or sample_file.stat().st_size < 100000:
-                print(f"  [!] Download failed for '{movie['title']}'. Moving on...")
+                print(f"  [!] Failed to cache video sample for '{movie['title']}'. Moving on...")
                 continue
 
-            print(f"  [✓] Segment cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
+            print(f"  [✓] Sample cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
 
             from scenedetect import open_video, SceneManager, AdaptiveDetector
-            print("  🔍 Running AI Scene Detection...")
+            print("  🔍 Detecting scene boundaries...")
             video = open_video(str(sample_file))
             sm = SceneManager()
             sm.add_detector(AdaptiveDetector(adaptive_threshold=3.0, min_scene_len=24))
@@ -365,7 +406,7 @@ def main():
                 valid = [(st, en, (en - st).seconds) for st, en in scene_list[:CLIPS_PER_MOVIE]]
 
             if not valid:
-                print(f"  [!] No valid scenes detected for '{movie['title']}'. Moving on...")
+                print(f"  [!] No valid scene cuts detected for '{movie['title']}'. Skipping...")
                 continue
 
             chosen = random.sample(valid, min(CLIPS_PER_MOVIE, len(valid)))
@@ -379,23 +420,31 @@ def main():
                 thumb_path = OUTPUT_DIR / thumb_name
 
                 transcode_cmd = [
-                    ffmpeg_exe, "-y", "-ss", st.get_timecode(), "-to", en.get_timecode(), "-i", str(sample_file),
+                    ffmpeg_exe, "-y",
+                    "-ss", st.get_timecode(),
+                    "-to", en.get_timecode(),
+                    "-i", str(sample_file),
                     "-vf", "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1",
                     "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
                     "-c:v", "libx264", "-preset", "fast", "-crf", "19",
-                    "-c:a", "aac", "-b:a", "192k", "-fflags", "+genpts", "-movflags", "+faststart",
+                    "-c:a", "aac", "-b:a", "192k",
+                    "-fflags", "+genpts", "-movflags", "+faststart",
                     str(clip_path)
                 ]
                 subprocess.run(transcode_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
 
                 mid_sec = (st.seconds + en.seconds) / 2.0
                 thumb_cmd = [
-                    ffmpeg_exe, "-y", "-ss", f"{mid_sec:.3f}", "-i", str(sample_file),
-                    "-vframes", "1", "-q:v", "2", str(thumb_path)
+                    ffmpeg_exe, "-y",
+                    "-ss", f"{mid_sec:.3f}",
+                    "-i", str(sample_file),
+                    "-vframes", "1", "-q:v", "2",
+                    str(thumb_path)
                 ]
                 subprocess.run(thumb_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=60)
 
                 meta = analyze_multimodal(clip_path, movie, idx, dur)
+
                 abs_start = random_start_sec + st.seconds
                 abs_end = random_start_sec + en.seconds
                 abs_tc_start = f"{int(abs_start)//3600:02d}:{(int(abs_start)%3600)//60:02d}:{int(abs_start)%60:02d}"
@@ -424,50 +473,79 @@ def main():
             print(f"  [✓] Successfully processed '{movie['title']}' ({len(all_batch_movies)}/{NUM_MOVIES})")
 
         except Exception as e:
-            print(f"  [!] Exception processing {movie['title']}: {e}")
+            print(f"  [!] Exception during extraction of {movie['title']}: {e}")
         finally:
-            try:
-                gc.collect()
-                if sample_file.exists():
-                    sample_file.unlink(missing_ok=True)
-            except Exception:
-                pass
+            gc.collect()
+            if sample_file.exists():
+                sample_file.unlink(missing_ok=True)
 
     if not all_batch_movies:
-        print("[!] Could not process any movies from dynamic pool.")
+        print("[!] No candidate movies were successfully processed.")
         return
 
-    # Save to local SQLite
+    # Update local SQLite database
     sqlite_db_path = OUTPUT_DIR / "film_noir_scenes.db"
     conn = sqlite3.connect(sqlite_db_path)
     cur = conn.cursor()
     cur.execute("""
         CREATE TABLE IF NOT EXISTS movies (
-            movie_id TEXT PRIMARY KEY, title TEXT, director TEXT, release_year INTEGER, source_archive_url TEXT
-        );""")
+            movie_id TEXT PRIMARY KEY,
+            title TEXT,
+            director TEXT,
+            release_year INTEGER,
+            source_archive_url TEXT
+        );
+    """)
     cur.execute("""
         CREATE TABLE IF NOT EXISTS scenes (
-            scene_id TEXT PRIMARY KEY, movie_id TEXT, scene_number INTEGER, start_seconds REAL, end_seconds REAL, duration_seconds REAL, start_timecode TEXT, end_timecode TEXT, transcription TEXT, visual_description TEXT, synopsis TEXT, mood TEXT, noir_tropes TEXT, tags TEXT, keyframe_filename TEXT, video_filename TEXT
-        );""")
+            scene_id TEXT PRIMARY KEY,
+            movie_id TEXT,
+            scene_number INTEGER,
+            start_seconds REAL,
+            end_seconds REAL,
+            duration_seconds REAL,
+            start_timecode TEXT,
+            end_timecode TEXT,
+            transcription TEXT,
+            visual_description TEXT,
+            synopsis TEXT,
+            mood TEXT,
+            noir_tropes TEXT,
+            tags TEXT,
+            keyframe_filename TEXT,
+            video_filename TEXT
+        );
+    """)
 
     for m in all_batch_movies:
-        cur.execute("INSERT OR REPLACE INTO movies VALUES (?, ?, ?, ?, ?)", (m["archive_id"], m["title"], m["director"], m["year"], m["video_url"]))
+        cur.execute(
+            "INSERT OR REPLACE INTO movies VALUES (?, ?, ?, ?, ?)",
+            (m["archive_id"], m["title"], m["director"], m["year"], m["video_url"])
+        )
+
     for s in all_batch_scenes:
-        cur.execute("INSERT OR REPLACE INTO scenes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", (
-            s["scene_id"], s["movie_id"], s["scene_number"], s["start_seconds"], s["end_seconds"], s["duration_seconds"],
-            s["start_timecode"], s["end_timecode"], s["transcription"], s["visual_description"], s["synopsis"], s["mood"],
-            json.dumps(s.get("noir_tropes", [])), json.dumps(s.get("tags", [])), s["keyframe_filename"], s["video_filename"]
-        ))
+        cur.execute(
+            "INSERT OR REPLACE INTO scenes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            (
+                s["scene_id"], s["movie_id"], s["scene_number"],
+                s["start_seconds"], s["end_seconds"], s["duration_seconds"],
+                s["start_timecode"], s["end_timecode"],
+                s["transcription"], s["visual_description"], s["synopsis"], s["mood"],
+                json.dumps(s.get("noir_tropes", [])),
+                json.dumps(s.get("tags", [])),
+                s["keyframe_filename"], s["video_filename"]
+            )
+        )
+
     conn.commit()
     conn.close()
 
-    # Update catalog.json for GitHub Pages website
     update_catalog_json(all_batch_movies, all_batch_scenes)
 
     print("=" * 65)
-    print(f"🎉 BATCH RUN COMPLETE! Processed {len(all_batch_movies)} films & {len(all_batch_scenes)} clips.")
-    print(f"🌐 Website ready at: index.html")
+    print(f"🎉 BATCH COMPLETE! Extracted {len(all_batch_movies)} film(s) & {len(all_batch_scenes)} clip(s).")
     print("=" * 65)
+
 
 if __name__ == "__main__":
     main()
