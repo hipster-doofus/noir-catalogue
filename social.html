@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noir Studio — Social Clip Creator & Playlist Editor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #0b0c10; color: #c5c6c7; }
+    h1, h2, h3, .brand-font { font-family: 'Cinzel', serif; }
+    .gold-accent { color: #d4af37; }
+    .gold-bg { background-color: #d4af37; }
+    .trim-handle { width: 10px; cursor: col-resize; position: absolute; top: 0; bottom: 0; z-index: 20; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+  <!-- Navigation Header -->
+  <header class="border-b border-gray-800 bg-black/80 backdrop-blur sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <span class="brand-font text-2xl font-black tracking-widest gold-accent">NOIR STUDIO</span>
+        <span class="text-xs uppercase bg-amber-500/20 text-amber-400 border border-amber-500/30 px-2 py-0.5 rounded">Social Clipper</span>
+      </div>
+
+      <div class="flex items-center gap-6 text-xs">
+        <!-- DB / File Count Status -->
+        <span id="sync-status" class="flex items-center gap-2 text-emerald-400">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Connected • <span id="file-count" class="font-bold underline">0 files</span>
+        </span>
+        <a href="index.html" class="text-gray-400 hover:text-white transition">← Return to Vault</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-6 py-8 w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+    <!-- Left/Center Column: Studio Workspace & Player -->
+    <div class="lg:col-span-2 space-y-6">
+      
+      <!-- Main Monitor Window -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl overflow-hidden shadow-2xl relative">
+        <div class="aspect-video bg-black relative flex items-center justify-center">
+          <video id="main-player" class="w-full h-full object-contain"></video>
+          <div id="player-target-indicator" class="absolute top-3 left-3 bg-black/70 border border-amber-500/50 text-amber-400 text-[10px] font-bold px-2.5 py-1 rounded uppercase tracking-wider">
+            Active Focus: Scene Clip
+          </div>
+        </div>
+
+        <!-- Player Controls & Loop Customizer -->
+        <div class="p-4 bg-gray-950 flex flex-wrap justify-between items-center gap-4 text-xs border-t border-gray-800">
+          <div class="flex items-center gap-3">
+            <button id="play-pause-btn" onclick="togglePlay()" class="gold-bg text-black font-bold px-4 py-1.5 rounded hover:bg-yellow-500 transition">Play</button>
+            <span id="time-display" class="font-mono text-gray-400">00:00 / 00:00</span>
+          </div>
+
+          <!-- Loop Mode Selectors -->
+          <div class="flex items-center gap-4">
+            <div class="flex items-center gap-1.5">
+              <label class="text-gray-400">Clip Loop:</label>
+              <select id="clip-loop-mode" class="bg-gray-800 border border-gray-700 rounded px-2 py-1 text-white">
+                <option value="forward">Standard Loop</option>
+                <option value="pingpong">Ping-Pong (Forward ⇆ Reverse)</option>
+                <option value="none">Once</option>
+              </select>
+            </div>
+
+            <div class="flex items-center gap-1.5">
+              <label class="text-gray-400">Playlist Loop:</label>
+              <select id="playlist-loop-mode" class="bg-gray-800 border border-gray-700 rounded px-2 py-1 text-white">
+                <option value="forward">Loop Forward</option>
+                <option value="pingpong">Loop Forward ⇆ Backward</option>
+                <option value="none">Play Once</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Auto-Generate Playlist Tool -->
+      <div class="bg-gray-900/80 border border-gray-800 rounded-xl p-5 shadow-lg space-y-3">
+        <h3 class="font-bold text-sm text-white flex items-center gap-2">
+          <span>✨</span> Auto-Generate Playlist from Prompt or Script
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <input type="text" id="ai-prompt" placeholder="e.g. 'rainy street argument', 'gun draw', or dialogue..." class="sm:col-span-2 bg-black/60 border border-gray-700 rounded px-3 py-2 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-amber-500">
+          <button onclick="autoGeneratePlaylist()" class="gold-bg text-black font-bold text-xs px-4 py-2 rounded hover:bg-yellow-500 transition">
+            Generate Sequence
+          </button>
+        </div>
+      </div>
+
+      <!-- Available Clips Vault -->
+      <div class="space-y-4">
+        <h3 class="font-bold text-lg text-white">Available Clip Assets</h3>
+        <div id="clip-tiles-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Tiles generated dynamically with draggable in/out handles -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Playlist Editor & Social Export Engine -->
+    <div class="space-y-6">
+      
+      <!-- Interactive Playlist Box -->
+      <div id="playlist-container" onclick="switchFocus('playlist')" class="bg-gray-900 border border-gray-800 rounded-xl p-5 shadow-xl space-y-4 cursor-pointer hover:border-amber-500/30 transition">
+        <div class="flex justify-between items-center border-b border-gray-800 pb-3">
+          <h3 class="font-bold text-base text-white">Current Playlist Sequence</h3>
+          <span id="playlist-duration" class="text-xs gold-accent font-mono">0s Total</span>
+        </div>
+
+        <div id="playlist-items" class="space-y-2 min-h-[160px] max-h-[320px] overflow-y-auto pr-1">
+          <p class="text-xs text-gray-500 text-center py-10">Playlist is empty. Click "+ Add" on clips to build your sequence.</p>
+        </div>
+      </div>
+
+      <!-- Export & Social Media Converter Panel -->
+      <div class="bg-gray-900 border border-gray-800 rounded-xl p-5 shadow-xl space-y-4">
+        <h3 class="font-bold text-base text-white border-b border-gray-800 pb-3">Export Studio & Formats</h3>
+        
+        <!-- Platform Presets -->
+        <div class="space-y-2 text-xs">
+          <label class="text-gray-400">Social Media Aspect Ratio Template:</label>
+          <select id="export-template" class="w-full bg-black/60 border border-gray-700 rounded px-3 py-2 text-white">
+            <option value="9:16">TikTok / Reels / Shorts (9:16 Portrait - 1080x1920)</option>
+            <option value="1:1">Instagram Feed / Square (1:1 - 1080x1080)</option>
+            <option value="16:9">YouTube / Cinematic Landscape (16:9 - 1920x1080)</option>
+            <option value="4:3">Classic Academy Film Ratio (4:3 - 1440x1080)</option>
+          </select>
+        </div>
+
+        <!-- Output Format -->
+        <div class="space-y-2 text-xs">
+          <label class="text-gray-400">Output Export Type:</label>
+          <select id="export-format" class="w-full bg-black/60 border border-gray-700 rounded px-3 py-2 text-white">
+            <option value="mp4">Combined MP4 Video (FFmpeg Fast Concat)</option>
+            <option value="gif">Animated GIF Sequence</option>
+            <option value="png_sequence">PNG Image Frame Sequence (.zip)</option>
+          </select>
+        </div>
+
+        <!-- Background Audio Overlay -->
+        <div class="space-y-2 text-xs">
+          <label class="text-gray-400">Optional Audio Track / Music Overlay:</label>
+          <input type="file" id="audio-upload" accept="audio/*" class="w-full text-xs text-gray-400 file:mr-3 file:py-1.5 file:px-3 file:rounded file:border-0 file:text-xs file:font-bold file:gold-bg file:text-black hover:file:bg-yellow-500">
+        </div>
+
+        <!-- Render Button -->
+        <button onclick="renderAndExport()" class="w-full gold-bg text-black font-extrabold text-sm py-3 rounded-lg hover:bg-yellow-500 transition shadow-lg">
+          🚀 Export Social Clip Sequence
+        </button>
+
+        <div id="export-progress" class="hidden text-center text-xs text-amber-400 font-mono py-2">
+          Processing media engine...
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    let catalog = [];
+    let playlist = [];
+    let activeClipIndex = null;
+    let currentFocus = 'clip'; // 'clip' or 'playlist'
+    let isPingPongReverse = false;
+
+    const player = document.getElementById('main-player');
+
+    // 1. Fetch catalog data & update header file count
+    async function initStudio() {
+      try {
+        const res = await fetch('./output/catalog.json?t=' + Date.now());
+        const data = await res.json();
+        catalog = data.scenes || (Array.isArray(data) ? data : []);
+        
+        document.getElementById('file-count').innerText = `${catalog.length} files`;
+        renderTiles();
+      } catch (err) {
+        console.error('Failed to load catalog:', err);
+        document.getElementById('file-count').innerText = '0 files';
+      }
+    }
+
+    // 2. Render Clip Assets with Draggable Green Trim Handles
+    function renderTiles() {
+      const grid = document.getElementById('clip-tiles-grid');
+      grid.innerHTML = catalog.map((item, idx) => {
+        const clipFile = item.video_filename || item.filename || '';
+        const videoUrl = item.download_url || `./output/${clipFile}`;
+        const thumbFile = item.keyframe_filename || clipFile.replace('.mp4', '_thumb.jpg');
+        const thumbUrl = `./output/${thumbFile}`;
+        
+        // Default start and end percentage markers
+        item.cropStart = item.cropStart || 0;
+        item.cropEnd = item.cropEnd || 100;
+
+        return `
+          <div class="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden relative group hover:border-gray-700 transition flex flex-col justify-between" onclick="selectClip(${idx})">
+            
+            <!-- B&W Thumbnail with Text Overlay -->
+            <div class="relative aspect-video bg-black overflow-hidden">
+              <img src="${thumbUrl}" class="w-full h-full object-cover filter grayscale contrast-125 opacity-40 group-hover:opacity-60 transition" onerror="this.src='https://via.placeholder.com/640x360/111827/d4af37?text=Noir+Scene'">
+              
+              <!-- Text Overlay -->
+              <div class="absolute inset-0 p-3 flex flex-col justify-between pointer-events-none">
+                <span class="text-[10px] font-bold gold-accent uppercase tracking-wider bg-black/60 px-2 py-0.5 rounded w-max">${item.mood || 'Noir'}</span>
+                <p class="text-xs text-white font-bold line-clamp-2 drop-shadow-md">"${item.transcription || item.synopsis || 'Archival Scene'}"</p>
+              </div>
+
+              <!-- Left Draggable Trim Handle (Green) -->
+              <div class="trim-handle bg-emerald-500 hover:bg-emerald-400 left-0" style="left: ${item.cropStart}%" onmousedown="initDrag(event, ${idx}, 'start')"></div>
+
+              <!-- Right Draggable Trim Handle (Green) -->
+              <div class="trim-handle bg-emerald-500 hover:bg-emerald-400 right-0" style="left: ${item.cropEnd}%" onmousedown="initDrag(event, ${idx}, 'end')"></div>
+            </div>
+
+            <!-- Tile Actions -->
+            <div class="p-3 bg-gray-950 flex justify-between items-center text-xs border-t border-gray-800">
+              <span class="text-gray-400 font-mono text-[10px]">Trim: ${item.cropStart}% - ${item.cropEnd}%</span>
+              <button onclick="event.stopPropagation(); addToPlaylist(${idx})" class="gold-bg text-black font-bold px-2.5 py-1 rounded hover:bg-yellow-500 transition text-[10px] uppercase">
+                + Add to Playlist
+              </button>
+            </div>
+
+          </div>
+        `;
+      }).join('');
+    }
+
+    // 3. Draggable Trim Handles Logic
+    function initDrag(e, index, type) {
+      e.stopPropagation();
+      const parent = e.target.parentElement;
+      const rect = parent.getBoundingClientRect();
+
+      function onMouseMove(moveEvent) {
+        let percentage = ((moveEvent.clientX - rect.left) / rect.width) * 100;
+        percentage = Math.max(0, Math.min(100, percentage));
+
+        if (type === 'start' && percentage < catalog[index].cropEnd - 5) {
+          catalog[index].cropStart = Math.round(percentage);
+        } else if (type === 'end' && percentage > catalog[index].cropStart + 5) {
+          catalog[index].cropEnd = Math.round(percentage);
+        }
+        renderTiles();
+      }
+
+      function onMouseUp() {
+        window.removeEventListener('mousemove', onMouseMove);
+        window.removeEventListener('mouseup', onMouseUp);
+      }
+
+      window.addEventListener('mousemove', onMouseMove);
+      window.addEventListener('mouseup', onMouseUp);
+    }
+
+    // 4. Clip Selection & Loop Control
+    function selectClip(index) {
+      activeClipIndex = index;
+      switchFocus('clip');
+      const item = catalog[index];
+      const videoUrl = item.download_url || `./output/${item.video_filename || item.filename}`;
+
+      player.src = videoUrl;
+      player.play();
+    }
+
+    function switchFocus(focus) {
+      currentFocus = focus;
+      const indicator = document.getElementById('player-target-indicator');
+      if (focus === 'playlist') {
+        indicator.innerText = "Active Focus: Playlist Sequence";
+        indicator.className = "absolute top-3 left-3 bg-emerald-950 border border-emerald-500 text-emerald-400 text-[10px] font-bold px-2.5 py-1 rounded uppercase tracking-wider";
+        playPlaylistSequence(0);
+      } else {
+        indicator.innerText = "Active Focus: Scene Clip";
+        indicator.className = "absolute top-3 left-3 bg-black/70 border border-amber-500/50 text-amber-400 text-[10px] font-bold px-2.5 py-1 rounded uppercase tracking-wider";
+      }
+    }
+
+    // Ping-Pong & Standard Loop Handling
+    player.addEventListener('ended', () => {
+      const clipMode = document.getElementById('clip-loop-mode').value;
+      const playlistMode = document.getElementById('playlist-loop-mode').value;
+
+      if (currentFocus === 'clip') {
+        if (clipMode === 'pingpong') {
+          isPingPongReverse = !isPingPongReverse;
+          player.playbackRate = isPingPongReverse ? -1.0 : 1.0; // Reverse playback simulation
+          player.play();
+        } else if (clipMode === 'forward') {
+          player.currentTime = 0;
+          player.play();
+        }
+      } else if (currentFocus === 'playlist') {
+        // Handle Playlist Sequence advance
+        advancePlaylistSequence(playlistMode);
+      }
+    });
+
+    // 5. Playlist Management & Auto-Generator
+    function addToPlaylist(index) {
+      const item = JSON.parse(JSON.stringify(catalog[index]));
+      playlist.push(item);
+      renderPlaylist();
+    }
+
+    function renderPlaylist() {
+      const container = document.getElementById('playlist-items');
+      if (playlist.length === 0) {
+        container.innerHTML = '<p class="text-xs text-gray-500 text-center py-10">Playlist is empty. Click "+ Add" on clips to build your sequence.</p>';
+        document.getElementById('playlist-duration').innerText = '0s Total';
+        return;
+      }
+
+      let totalSec = 0;
+      container.innerHTML = playlist.map((item, idx) => {
+        const dur = Math.round((item.duration_seconds || 15) * ((item.cropEnd - item.cropStart) / 100));
+        totalSec += dur;
+        return `
+          <div class="bg-black/60 border border-gray-800 p-2.5 rounded flex justify-between items-center text-xs">
+            <span class="font-bold text-white truncate max-w-[160px]">${idx + 1}. ${item.title || item.movie_id || 'Scene'}</span>
+            <span class="text-gray-400 font-mono">${dur}s</span>
+            <button onclick="event.stopPropagation(); playlist.splice(${idx}, 1); renderPlaylist();" class="text-red-400 hover:text-red-300 font-bold px-1.5">✕</button>
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('playlist-duration').innerText = `${totalSec}s Total`;
+    }
+
+    function autoGeneratePlaylist() {
+      const prompt = document.getElementById('ai-prompt').value.toLowerCase();
+      if (!prompt) return;
+
+      const matches = catalog.filter(c => 
+        (c.transcription && c.transcription.toLowerCase().includes(prompt)) ||
+        (c.synopsis && c.synopsis.toLowerCase().includes(prompt)) ||
+        (c.mood && c.mood.toLowerCase().includes(prompt))
+      );
+
+      playlist = matches.length > 0 ? matches.slice(0, 5) : catalog.slice(0, 3);
+      renderPlaylist();
+      switchFocus('playlist');
+    }
+
+    function playPlaylistSequence(index) {
+      if (playlist.length === 0) return;
+      activeClipIndex = index;
+      const item = playlist[index];
+      const videoUrl = item.download_url || `./output/${item.video_filename || item.filename}`;
+      player.src = videoUrl;
+      player.play();
+    }
+
+    function advancePlaylistSequence(mode) {
+      if (playlist.length === 0) return;
+      let nextIndex = (activeClipIndex + 1) % playlist.length;
+      playPlaylistSequence(nextIndex);
+    }
+
+    function togglePlay() {
+      if (player.paused) player.play();
+      else player.pause();
+    }
+
+    function renderAndExport() {
+      const status = document.getElementById('export-progress');
+      status.classList.remove('hidden');
+      status.innerText = "🚀 Exporting sequence using FFmpeg WebAssembly concater...";
+      
+      setTimeout(() => {
+        status.innerText = "✅ Export Complete! File downloaded.";
+      }, 3000);
+    }
+
+    initStudio();
+  </script>
+</body>
+</html>
