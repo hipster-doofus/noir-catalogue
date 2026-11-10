@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-10T16:20:54.627881+00:00",
-  "total_movies": 16,
-  "total_scenes": 72,
-  "genre": "film noir",
-  "source": "Library of Congress",
+  "updated_at": "2026-11-10T20:46:25.067060+00:00",
+  "total_movies": 19,
+  "total_scenes": 81,
+  "genre": "mystery",
+  "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
@@ -165,6 +165,36 @@
       "video_url": "https://archive.org/download/1946-notorious-encadenados-alfred-hitchcock-vose/1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE.mp4",
       "license": "Open Archive",
       "description": "For Academic / Educational Use Only derechonoir.wordpress.com"
+    },
+    {
+      "title": "The Fat Man (1951) Rock Hudson, Julie London - Film Noir Full Movie",
+      "year": 1951,
+      "director": "Unknown Director",
+      "archive_id": "thefatman1951_202002",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/thefatman1951_202002/The Fat Man (1951, USA) Featuring Rock Hudson, Julie London - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "The Fat Man is a 1951 American film noir crime film directed by William Castle. It is based on a radio drama of the same name and the cast includes Rock Hudson, Julie London and J. Scott Smart. Wikipedia: https://en.wikipedia.org/wiki/The_Fat_Man_(film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Murder at Glen Athol",
+      "year": 1936,
+      "director": "Unknown Director",
+      "archive_id": "Murder_at_Glen_Athol_1936",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Murder_at_Glen_Athol_1936/Murder_at_Glen_Athol_1936.mp4",
+      "license": "Open Archive",
+      "description": "John Miljan in an Invincible mystery."
+    },
+    {
+      "title": "Human Desire (1954) |Fritz Lang| Glenn Ford, Broderick Crawford - Film Noir",
+      "year": 1954,
+      "director": "Unknown Director",
+      "archive_id": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir/Human Desire  (1954, USA) Director Fritz Lang Featuring Glenn Ford, Broderick Crawford - Film Noir.mp4",
+      "license": "Open Archive",
+      "description": "Human Desire is a 1954 black-and-white film noir directed by Fritz Lang and starring Glenn Ford, Gloria Grahame and Broderick Crawford. It is loosely based on \u00c9mile Zola's novel La B\u00eate humaine. The story had been filmed twice before: La B\u00eate humaine (1938) directed by Jean Renoir and Die Bestie im Menschen starring Ilka Gr\u00fcning (1920). Wikipedia: https://en.wikipedia.org/wiki/Human_Desire \u00a0Suggested Film Noirs : http://bit.ly/36oLNCR The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -2109,6 +2139,249 @@
       ],
       "tags": [
         "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thefatman1951_202002_scene_1",
+      "movie_id": "thefatman1951_202002",
+      "scene_number": 1,
+      "start_timecode": "00:20:18",
+      "end_timecode": "00:20:28",
+      "start_seconds": 1218.9939,
+      "end_seconds": 1228.7036,
+      "duration_seconds": 9.7097,
+      "video_filename": "thefatman1951_202002_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "thefatman1951_202002_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thefatman1951_202002_scene_1_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thefatman1951_202002_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'The Fat Man (1951) Rock Hudson, Julie London - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Fat Man (1951) Rock Hudson, Julie London - Film Noir Full Movie' (1951).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thefatman1951_202002_scene_2",
+      "movie_id": "thefatman1951_202002",
+      "scene_number": 2,
+      "start_timecode": "00:23:16",
+      "end_timecode": "00:23:36",
+      "start_seconds": 1396.1709,
+      "end_seconds": 1416.291,
+      "duration_seconds": 20.1201,
+      "video_filename": "thefatman1951_202002_scene_2_20s_1080p.mp4",
+      "keyframe_filename": "thefatman1951_202002_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thefatman1951_202002_scene_2_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thefatman1951_202002_scene_2_thumb.jpg",
+      "transcription": "Roy Clark. Roy Clark? I never heard of him. What about Gordon? Nice coat. Give me some glasses. You wouldn't be mean in Gene Gordon.",
+      "visual_description": "Sequence from 'The Fat Man (1951) Rock Hudson, Julie London - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Fat Man (1951) Rock Hudson, Julie London - Film Noir Full Movie' (1951).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thefatman1951_202002_scene_3",
+      "movie_id": "thefatman1951_202002",
+      "scene_number": 3,
+      "start_timecode": "00:23:56",
+      "end_timecode": "00:24:19",
+      "start_seconds": 1436.311,
+      "end_seconds": 1459.9346,
+      "duration_seconds": 23.6236,
+      "video_filename": "thefatman1951_202002_scene_3_23s_1080p.mp4",
+      "keyframe_filename": "thefatman1951_202002_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thefatman1951_202002_scene_3_23s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thefatman1951_202002_scene_3_thumb.jpg",
+      "transcription": "What about that chauffeur that works for him? Anthony? Yeah, that's the one. You're the two-bit phony. I gotta get something on him. Something I can hold over him and make him talk. You're getting in up to your neck. What's mine, Nick? Come on, spill it. Okay, Tony and Gordon's wife have been two-timey in them. I figured as much. I wind up with a shiv and a throat of Gordon finds out about it.",
+      "visual_description": "Sequence from 'The Fat Man (1951) Rock Hudson, Julie London - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Fat Man (1951) Rock Hudson, Julie London - Film Noir Full Movie' (1951).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Murder_at_Glen_Athol_1936_scene_1",
+      "movie_id": "Murder_at_Glen_Athol_1936",
+      "scene_number": 1,
+      "start_timecode": "00:22:08",
+      "end_timecode": "00:22:44",
+      "start_seconds": 1328.4334330000002,
+      "end_seconds": 1364.4694690000001,
+      "duration_seconds": 36.036036,
+      "video_filename": "Murder_at_Glen_Athol_1936_scene_1_36s_1080p.mp4",
+      "keyframe_filename": "Murder_at_Glen_Athol_1936_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Murder_at_Glen_Athol_1936_scene_1_36s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Murder_at_Glen_Athol_1936_scene_1_thumb.jpg",
+      "transcription": "I want to thank you for a splendid evening, Mrs. Randall. Why, you're not going already. Yes, I must. It's only 10 minutes past 12. How's New York, mother? Oh, boy, dear. She fell asleep. The ears and her head touched the pillow. Oh, good. I'm ready for bed myself. I think that coffee must have had some sleep-producing quality. Well, the rest of them seem wide away enough. Oh, yes, they do. Well, not that you're our neighbor. I hope you'll see you often. Oh, thank you. Good night. Good night. Good night. Good night.",
+      "visual_description": "Sequence from 'Murder at Glen Athol' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder at Glen Athol' (1936).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Murder_at_Glen_Athol_1936_scene_2",
+      "movie_id": "Murder_at_Glen_Athol_1936",
+      "scene_number": 2,
+      "start_timecode": "00:27:23",
+      "end_timecode": "00:27:43",
+      "start_seconds": 1643.148148,
+      "end_seconds": 1663.068068,
+      "duration_seconds": 19.91992,
+      "video_filename": "Murder_at_Glen_Athol_1936_scene_2_19s_1080p.mp4",
+      "keyframe_filename": "Murder_at_Glen_Athol_1936_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Murder_at_Glen_Athol_1936_scene_2_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Murder_at_Glen_Athol_1936_scene_2_thumb.jpg",
+      "transcription": "Yes, I heard you. Don't you think so? Oh, I never jump at conclusions. Oh, gentlemen, the famous Mr. Holt, Mr. McDougall, artistic attorney. A dollar. And Sergeant Olson of the homicide squad. Oh, yeah. And this is Mike Jeffries, my right-hand man. Mr. Holt was present when Harry confessed.",
+      "visual_description": "Sequence from 'Murder at Glen Athol' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder at Glen Athol' (1936).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Murder_at_Glen_Athol_1936_scene_3",
+      "movie_id": "Murder_at_Glen_Athol_1936",
+      "scene_number": 3,
+      "start_timecode": "00:27:43",
+      "end_timecode": "00:28:14",
+      "start_seconds": 1663.068068,
+      "end_seconds": 1694.5996,
+      "duration_seconds": 31.531532,
+      "video_filename": "Murder_at_Glen_Athol_1936_scene_3_31s_1080p.mp4",
+      "keyframe_filename": "Murder_at_Glen_Athol_1936_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Murder_at_Glen_Athol_1936_scene_3_31s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Murder_at_Glen_Athol_1936_scene_3_thumb.jpg",
+      "transcription": "Yes, that's right. I understand you're out of vacation, Mr. Holt, so I imagine you won't cut interest yourself in this case. Oh, I'm sure that you, gentlemen, will be able to handle it most satisfactorily. Hello, Doc. We've been waiting for you. All right? Oh, Dr. Bergen, Mr. Holt. Well, let's get it over. Well, it won't take long. Your work will be merely routine. Upstairs, Doc. Nothing's been touched, gentlemen. Tough luck. No chance for fingerprints there. That carved handle won't take them.",
+      "visual_description": "Sequence from 'Murder at Glen Athol' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Murder at Glen Athol' (1936).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_1",
+      "movie_id": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir",
+      "scene_number": 1,
+      "start_timecode": "00:19:48",
+      "end_timecode": "00:19:56",
+      "start_seconds": 1188.0,
+      "end_seconds": 1196.75875,
+      "duration_seconds": 8.75875,
+      "video_filename": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_1_thumb.jpg",
+      "transcription": "But it all evens up. He's got more money. Tawvik, I couldn't wait. And be sure and lock up if...",
+      "visual_description": "Sequence from 'Human Desire (1954) |Fritz Lang| Glenn Ford, Broderick Crawford - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Human Desire (1954) |Fritz Lang| Glenn Ford, Broderick Crawford - Film Noir' (1954).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_2",
+      "movie_id": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir",
+      "scene_number": 2,
+      "start_timecode": "00:24:09",
+      "end_timecode": "00:24:45",
+      "start_seconds": 1449.386125,
+      "end_seconds": 1485.54725,
+      "duration_seconds": 36.161125,
+      "video_filename": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_2_36s_1080p.mp4",
+      "keyframe_filename": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_2_36s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_2_thumb.jpg",
+      "transcription": "Get up! Get up! Get up! You said I was going to Chicago tonight. Oh, Carl, please! Here. Right, but I tell you to, right. Go ahead. What do you call it? Sweetheart, lover. Carl! Right. John Owens. Message for Mr. John Owens.",
+      "visual_description": "Sequence from 'Human Desire (1954) |Fritz Lang| Glenn Ford, Broderick Crawford - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Human Desire (1954) |Fritz Lang| Glenn Ford, Broderick Crawford - Film Noir' (1954).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_3",
+      "movie_id": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir",
+      "scene_number": 3,
+      "start_timecode": "00:24:59",
+      "end_timecode": "00:25:08",
+      "start_seconds": 1499.686375,
+      "end_seconds": 1508.695375,
+      "duration_seconds": 9.009,
+      "video_filename": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_3_9s_1080p.mp4",
+      "keyframe_filename": "humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_3_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Human Desire (1954) |Fritz Lang| Glenn Ford, Broderick Crawford - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Human Desire (1954) |Fritz Lang| Glenn Ford, Broderick Crawford - Film Noir' (1954).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
         "black and white"
       ]
     }
