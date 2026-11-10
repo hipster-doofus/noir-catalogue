@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-10T14:50:37.743600+00:00",
-  "total_movies": 6,
-  "total_scenes": 18,
-  "genre": "sci-fi",
-  "source": "Any / Blended",
+  "updated_at": "2026-11-10T16:20:54.627881+00:00",
+  "total_movies": 16,
+  "total_scenes": 72,
+  "genre": "film noir",
+  "source": "Library of Congress",
   "category": "feature_films",
   "movies": [
     {
@@ -65,6 +65,106 @@
       "video_url": "https://archive.org/download/Warning_From_Space_MPEG/Warning_From_Space.mp4",
       "license": "Open Archive",
       "description": "Aliens come to Earth to warn humanity about a planetoid that'll destroy both Earth and the aliens' world. The fate of both planets rests in the hands of one scientist and his formula for a new bomb. You can find out more about this movie on its IMDB page ."
+    },
+    {
+      "title": "The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)",
+      "year": 1946,
+      "director": "Paramount Pictures",
+      "archive_id": "blue-dahlia-1946",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/blue-dahlia-1946/Blue Dahlia 1946.mp4",
+      "license": "Open Archive",
+      "description": "When a former bomber pilot (Alan Ladd) comes home from the war, he finds his wife kissing her substitute boyfriend (Howard Da Silva), the owner of the Blue Dahlia nightclub. When she also confesses that her drunkenness caused their son's death, he walks out on her, but later she is found dead and he becomes the prime suspect. Written by Raymond Chandler. Alan Ladd as Johnny Morrison Veronica Lake as Joyce Harwood William Bendix as Buzz Wanchek Howard Da Silva as Eddie Harwood Doris Dowling as Helen Morrison Tom Powers as Capt. Hendrickson Hugh Beaumont as George Copeland If you have a request or a comment for me, please go to the Colorized Movies Forum at https://archive.org/details/colorized-movies?tab=forum I colorized this using AI software that doesn't always get the colors right, but I think it looks fairly natural. Hopefully a more professional job will be done someday."
+    },
+    {
+      "title": "Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie",
+      "year": 1956,
+      "director": "Unknown Director",
+      "archive_id": "wickedastheycome1954",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/wickedastheycome1954/Wicked as They Come (1954, UK) Featuring Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Wicked as They Come (Portrait in Smoke in the United States) is a 1956 British film directed by Ken Hughes and starring Arlene Dahl, Philip Carey and Herbert Marshall. Wikipedia: https://en.wikipedia.org/wiki/Wicked_as_They_Come Suggested Film Noirs: http://bit.ly/36oLNCR Suggested British Film Noirs: http://bit.ly/3aMND3W The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir",
+      "year": 1959,
+      "director": "Unknown Director",
+      "archive_id": "cityoffear1959",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/cityoffear1959/City of Fear (1959) Featuring Vince Edwards, Lyle Talbot and Patricia Blair - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "City of Fear (1959) is a black-and-white film noir directed by Irving Lerner. It stars Vince Edwards, Lyle Talbot and Patricia Blair. Wikipedia: https://en.wikipedia.org/wiki/City_of_Fear_(film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s. \u00a0"
+    },
+    {
+      "title": "I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir",
+      "year": 1941,
+      "director": "Unknown Director",
+      "archive_id": "iwakeupscreaming1941",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/iwakeupscreaming1941/I Wake Up Screaming (1941, USA) Featuring Betty Grable, Victor Mature, Carole Landis - Film Noir.mp4",
+      "license": "Open Archive",
+      "description": "I Wake Up Screaming (also known.as Hot Spot) is a 1941 film noir. It is based on the novel of the same name by Steve Fisher, who co-wrote the screenplay with Dwight Taylor. The film stars Betty Grable, Victor Mature and Carole Landis. Wikipedia: https://en.wikipedia.org/wiki/I_Wake_Up_Screaming Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE",
+      "year": 1959,
+      "director": "Unknown Director",
+      "archive_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose/1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE.mp4",
+      "license": "Open Archive",
+      "description": "For Academic - Educational Use Only https://derechonoir.wordpress.com/"
+    },
+    {
+      "title": "I, the Jury",
+      "year": 1953,
+      "director": "Parklane Pictures Inc.",
+      "archive_id": "TheJury_444",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/TheJury_444/I_The_Jury_-1953.mp4",
+      "license": "Open Archive",
+      "description": "Title: I, the Jury Summary: Dectective Mike Hammer is determined to catch and kill the person who shot his close friend dead, so he follows clues that lead to a beautiful, seductive woman. Directed by: Harry Essex Actors: Biff Elliot, Preston Foster, Peggie Castle Production Company: Parklane Pictures Inc. Release Date: 14 August 1953 (USA) Aspect Ratio: 1.37 : 1 It's nearly Christmas, but Mike Hammer is on the vengeance trail when Jack, his wartime buddy, is murdered. Hotheaded Hammer sets out to find the killer, working his way through an increasingly large pile of suspects (and corpses). Along the way, he meets a new love interest, psychologist Charlotte Manning, a treacherous Santa, a gangster named Kalecki, and two weird sisters, the Bellamy twins."
+    },
+    {
+      "title": "Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir",
+      "year": 1955,
+      "director": "Unknown Director",
+      "archive_id": "hellsisland1955",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/hellsisland1955/Hell's Island (1955, USA) Featuring  John Payne, Mary Murphy - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Hell's Island is a 1955 American Technicolor film noir directed by Phil Karlson starring John Payne and Mary Murphy. The film is told as a flashback with Payne narrating the story.The film was shot in the VistaVision wide-screen format. Hell's Island was re-released in 1962 under the title South Sea Fury. John Payne made a number of Film Noirs including Larceny, The Crooked Way, Kansas City Confidential, 99 River Street, Hell's Island and The Boss.Film director Karlson directed 99 River Street, Kansas City Confidential and Hell's Island, all with actor John Payne, in the early 1950s. Wikipedia: https://en.wikipedia.org/wiki/Hell%27s_Island Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight",
+      "year": 1951,
+      "director": "Unknown Director",
+      "archive_id": "shockproof1949",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/shockproof1949/Shockproof 1949 - Cornel Wilde, Patricia Knight, John Baragrey_x264.ia.mp4",
+      "license": "Open Archive",
+      "description": "Shockproof is a 1949 American film noir directed by Douglas Sirk and starring Cornel Wilde and Patricia Knight. Wilde and Knight were husband and wife during filming. They divorced in 1951."
+    },
+    {
+      "title": "Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie",
+      "year": 1947,
+      "director": "Unknown Director",
+      "archive_id": "dearmurderer1957",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/dearmurderer1957/Dear Murderer  (1957, UK) Featuring Eric Portman, Greta Gynt. - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Dear Murderer is a 1947 British film noir crime, drama, thriller, directed by Arthur Crabtree for Gainsborough Pictures, and starring Eric Portman and Greta Gynt. The film has come to be regarded as one of the best movies made under the supervision of Sydney Box at Gainsborough. Wikipedia: https://en.wikipedia.org/wiki/Dear_Murderer Suggested British Film Noirs: http://bit.ly/3aMND3W The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE",
+      "year": 1946,
+      "director": "Unknown Director",
+      "archive_id": "1946-notorious-encadenados-alfred-hitchcock-vose",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/1946-notorious-encadenados-alfred-hitchcock-vose/1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE.mp4",
+      "license": "Open Archive",
+      "description": "For Academic / Educational Use Only derechonoir.wordpress.com"
     }
   ],
   "scenes": [
@@ -551,6 +651,1464 @@
       ],
       "tags": [
         "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "themanwiththegoldenarm1955_202001_scene_1",
+      "movie_id": "themanwiththegoldenarm1955_202001",
+      "scene_number": 1,
+      "start_timecode": "00:14:34",
+      "end_timecode": "00:14:44",
+      "start_seconds": 874.0,
+      "end_seconds": 884.5105,
+      "duration_seconds": 10.5105,
+      "video_filename": "themanwiththegoldenarm1955_202001_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "themanwiththegoldenarm1955_202001_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_1_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_1_thumb.jpg",
+      "transcription": "I think I got caught on now. Now? Let's talk about it tomorrow. It'll be right up, Zeiss. You ain't even tasted the cake. It'll only be a minute. I'll be right up. No, no.",
+      "visual_description": "Sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' (1955).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "blue-dahlia-1946_scene_1",
+      "movie_id": "blue-dahlia-1946",
+      "scene_number": 1,
+      "start_timecode": "00:14:56",
+      "end_timecode": "00:15:10",
+      "start_seconds": 896.88,
+      "end_seconds": 910.92,
+      "duration_seconds": 14.04,
+      "video_filename": "blue-dahlia-1946_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "blue-dahlia-1946_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_1_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_1_thumb.jpg",
+      "transcription": "Thanks for watching!",
+      "visual_description": "Sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' (1946).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "blue-dahlia-1946_scene_2",
+      "movie_id": "blue-dahlia-1946",
+      "scene_number": 2,
+      "start_timecode": "00:18:57",
+      "end_timecode": "00:19:32",
+      "start_seconds": 1137.56,
+      "end_seconds": 1172.84,
+      "duration_seconds": 35.28,
+      "video_filename": "blue-dahlia-1946_scene_2_35s_1080p.mp4",
+      "keyframe_filename": "blue-dahlia-1946_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_2_35s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_2_thumb.jpg",
+      "transcription": "We're going to water. Uh, Bourbon, in a minute. Didn't we beat out the blue valley the other night? I may have been there. We certainly didn't meet. Sure, we have neutral friends. Hey, that's my seat. Don't pick yourself an arcade. Masterful type. All I want is a drink and quick. Hey, how about that? Take one of mine.",
+      "visual_description": "Sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' (1946).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "blue-dahlia-1946_scene_3",
+      "movie_id": "blue-dahlia-1946",
+      "scene_number": 3,
+      "start_timecode": "00:20:16",
+      "end_timecode": "00:20:30",
+      "start_seconds": 1216.88,
+      "end_seconds": 1230.2,
+      "duration_seconds": 13.32,
+      "video_filename": "blue-dahlia-1946_scene_3_13s_1080p.mp4",
+      "keyframe_filename": "blue-dahlia-1946_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_3_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_3_thumb.jpg",
+      "transcription": "very minute you can buy me a drink only not in this joint i've had enough of it",
+      "visual_description": "Sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' (1946).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "blue-dahlia-1946_scene_4",
+      "movie_id": "blue-dahlia-1946",
+      "scene_number": 4,
+      "start_timecode": "00:20:38",
+      "end_timecode": "00:20:57",
+      "start_seconds": 1238.84,
+      "end_seconds": 1257.44,
+      "duration_seconds": 18.6,
+      "video_filename": "blue-dahlia-1946_scene_4_18s_1080p.mp4",
+      "keyframe_filename": "blue-dahlia-1946_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_4_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_4_thumb.jpg",
+      "transcription": "Anyway, I came here to see somebody, and I ought to stick around what you get here. Well, you can find from my place and leave where do you are? You live here? Sure. Come on. What's the matter? Scared?",
+      "visual_description": "Sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' (1946).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "blue-dahlia-1946_scene_5",
+      "movie_id": "blue-dahlia-1946",
+      "scene_number": 5,
+      "start_timecode": "00:25:24",
+      "end_timecode": "00:25:40",
+      "start_seconds": 1524.44,
+      "end_seconds": 1540.52,
+      "duration_seconds": 16.08,
+      "video_filename": "blue-dahlia-1946_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "blue-dahlia-1946_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_5_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/blue-dahlia-1946_scene_5_thumb.jpg",
+      "transcription": "I told you she was poison. They're all poison sooner or later. Almost all. Anyway.",
+      "visual_description": "Sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Dahlia 1946 colorized (Alan Ladd, Veronica Lake)' (1946).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "wickedastheycome1954_scene_1",
+      "movie_id": "wickedastheycome1954",
+      "scene_number": 1,
+      "start_timecode": "00:20:05",
+      "end_timecode": "00:20:27",
+      "start_seconds": 1205.0,
+      "end_seconds": 1227.8,
+      "duration_seconds": 22.8,
+      "video_filename": "wickedastheycome1954_scene_1_22s_1080p.mp4",
+      "keyframe_filename": "wickedastheycome1954_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_1_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_1_thumb.jpg",
+      "transcription": "I guess I must why don't you try walking back to your seat if you need me I'll press a button",
+      "visual_description": "Sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "wickedastheycome1954_scene_2",
+      "movie_id": "wickedastheycome1954",
+      "scene_number": 2,
+      "start_timecode": "00:20:56",
+      "end_timecode": "00:21:08",
+      "start_seconds": 1256.96,
+      "end_seconds": 1268.72,
+      "duration_seconds": 11.76,
+      "video_filename": "wickedastheycome1954_scene_2_11s_1080p.mp4",
+      "keyframe_filename": "wickedastheycome1954_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_2_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_2_thumb.jpg",
+      "transcription": "Excuse me, excuse me, it's the Reisner. I forgot to tell you Mrs. Reisner is here.",
+      "visual_description": "Sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' (1956).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "wickedastheycome1954_scene_3",
+      "movie_id": "wickedastheycome1954",
+      "scene_number": 3,
+      "start_timecode": "00:22:54",
+      "end_timecode": "00:23:13",
+      "start_seconds": 1374.08,
+      "end_seconds": 1393.04,
+      "duration_seconds": 18.96,
+      "video_filename": "wickedastheycome1954_scene_3_18s_1080p.mp4",
+      "keyframe_filename": "wickedastheycome1954_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_3_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_3_thumb.jpg",
+      "transcription": "You know it's a reasonable deduction that you have my key and I have yours. Thank you quite, quite, sir. There you are, minute. Thank you. Pleasure.",
+      "visual_description": "Sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' (1956).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "wickedastheycome1954_scene_4",
+      "movie_id": "wickedastheycome1954",
+      "scene_number": 4,
+      "start_timecode": "00:23:13",
+      "end_timecode": "00:23:40",
+      "start_seconds": 1393.04,
+      "end_seconds": 1420.6399999999999,
+      "duration_seconds": 27.6,
+      "video_filename": "wickedastheycome1954_scene_4_27s_1080p.mp4",
+      "keyframe_filename": "wickedastheycome1954_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_4_27s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_4_thumb.jpg",
+      "transcription": "Is there anything more you'll define, madam? No, thank you. Thanks very much, madam. Oh, uh, just a minute. Hope you don't mind American money. Not at all, madam. There you are. Thank you very much, madam.",
+      "visual_description": "Sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "wickedastheycome1954_scene_5",
+      "movie_id": "wickedastheycome1954",
+      "scene_number": 5,
+      "start_timecode": "00:25:25",
+      "end_timecode": "00:25:46",
+      "start_seconds": 1525.52,
+      "end_seconds": 1546.4,
+      "duration_seconds": 20.88,
+      "video_filename": "wickedastheycome1954_scene_5_20s_1080p.mp4",
+      "keyframe_filename": "wickedastheycome1954_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_5_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/wickedastheycome1954_scene_5_thumb.jpg",
+      "transcription": "I'm not quite sure what sort of a mood I should catch you in your face and change is common. Huh? I told that, would you? I'm moving your chair? Hmm? Your chair, oh man. I can't get through. Well, why are you trying to get through here anyway? I do, man. All I'm asking you to do is... All you're asking me to do is to completely disorganise myself simply because you want to get by and you haven't got the common sense to go around there. Anything...",
+      "visual_description": "Sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Wicked As They Come (1954, UK) Arlene Dahl, Philip Carey, Herbert Marshall - Film Noir Full Movie' (1956).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "cityoffear1959_scene_1",
+      "movie_id": "cityoffear1959",
+      "scene_number": 1,
+      "start_timecode": "00:12:19",
+      "end_timecode": "00:12:30",
+      "start_seconds": 739.5625,
+      "end_seconds": 750.073,
+      "duration_seconds": 10.5105,
+      "video_filename": "cityoffear1959_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "cityoffear1959_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_1_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_1_thumb.jpg",
+      "transcription": "Quentin escaped last night. The other body is now listed as a John Doe. A tri-state alarm has been issued for Vincent Riker. It is suspected Riker killed a",
+      "visual_description": "Sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' (1959).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "cityoffear1959_scene_2",
+      "movie_id": "cityoffear1959",
+      "scene_number": 2,
+      "start_timecode": "00:14:03",
+      "end_timecode": "00:14:14",
+      "start_seconds": 843.91675,
+      "end_seconds": 854.3021249999999,
+      "duration_seconds": 10.385375,
+      "video_filename": "cityoffear1959_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "cityoffear1959_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_2_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_2_thumb.jpg",
+      "transcription": "And it's been such a long time, so...",
+      "visual_description": "Sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' (1959).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "cityoffear1959_scene_3",
+      "movie_id": "cityoffear1959",
+      "scene_number": 3,
+      "start_timecode": "00:17:53",
+      "end_timecode": "00:18:03",
+      "start_seconds": 1073.270875,
+      "end_seconds": 1083.65625,
+      "duration_seconds": 10.385375,
+      "video_filename": "cityoffear1959_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "cityoffear1959_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_3_thumb.jpg",
+      "transcription": "What are you doing? That thing. Come here. I'm going to make this night last.",
+      "visual_description": "Sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' (1959).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "cityoffear1959_scene_4",
+      "movie_id": "cityoffear1959",
+      "scene_number": 4,
+      "start_timecode": "00:19:23",
+      "end_timecode": "00:19:39",
+      "start_seconds": 1163.611125,
+      "end_seconds": 1179.1266249999999,
+      "duration_seconds": 15.5155,
+      "video_filename": "cityoffear1959_scene_4_15s_1080p.mp4",
+      "keyframe_filename": "cityoffear1959_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_4_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_4_thumb.jpg",
+      "transcription": "Washington, D.C. and the surgeon, please. I'll be my office.",
+      "visual_description": "Sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' (1959).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "cityoffear1959_scene_5",
+      "movie_id": "cityoffear1959",
+      "scene_number": 5,
+      "start_timecode": "00:20:40",
+      "end_timecode": "00:20:50",
+      "start_seconds": 1240.0625,
+      "end_seconds": 1250.5729999999999,
+      "duration_seconds": 10.5105,
+      "video_filename": "cityoffear1959_scene_5_10s_1080p.mp4",
+      "keyframe_filename": "cityoffear1959_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_5_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/cityoffear1959_scene_5_thumb.jpg",
+      "transcription": "John Wallace. Yes, sir. Yes, sir. Yes, sir. Excuse me, Lieutenant, but I have three of them waiting, including the girlfriend. Only three.",
+      "visual_description": "Sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City Of Fear (1959) Vince Edwards, Lyle Talbot, Patricia Blair - Film Noir' (1959).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "iwakeupscreaming1941_scene_1",
+      "movie_id": "iwakeupscreaming1941",
+      "scene_number": 1,
+      "start_timecode": "00:25:38",
+      "end_timecode": "00:26:07",
+      "start_seconds": 1538.0,
+      "end_seconds": 1567.404375,
+      "duration_seconds": 29.404375,
+      "video_filename": "iwakeupscreaming1941_scene_1_29s_1080p.mp4",
+      "keyframe_filename": "iwakeupscreaming1941_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_1_29s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_1_thumb.jpg",
+      "transcription": "See, Christopher in his office right away. Hey, uh, Frankie, you see? He probably wants to apologize. Thanks. What's the idea of riding him so hard? Donald, I've had 15 years' experience in this racket. If that isn't the look of a guilty man, I'll take the rap myself.",
+      "visual_description": "Sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' (1941).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "iwakeupscreaming1941_scene_2",
+      "movie_id": "iwakeupscreaming1941",
+      "scene_number": 2,
+      "start_timecode": "00:28:56",
+      "end_timecode": "00:29:38",
+      "start_seconds": 1736.823625,
+      "end_seconds": 1778.365125,
+      "duration_seconds": 41.5415,
+      "video_filename": "iwakeupscreaming1941_scene_2_41s_1080p.mp4",
+      "keyframe_filename": "iwakeupscreaming1941_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_2_41s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_2_thumb.jpg",
+      "transcription": "It's no use, Cornell. I'm not the type. Have you got a warrant? No. This is strictly my own idea. I'm working on my own time. Then get out of here. I don't like rats in my bedroom. No way. You don't seem to realize I'm doing your favor. I'm keeping you posted on the progress in this case. For instance, I found this cigarette but crushed out in a clothes closet. There was also an evening slip that had been stepped on as if somebody had waited there. Do you often smoke in clothes closets? Not since I was a kid. It happens to be your brand.",
+      "visual_description": "Sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' (1941).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "iwakeupscreaming1941_scene_3",
+      "movie_id": "iwakeupscreaming1941",
+      "scene_number": 3,
+      "start_timecode": "00:36:17",
+      "end_timecode": "00:36:47",
+      "start_seconds": 2177.764125,
+      "end_seconds": 2207.91925,
+      "duration_seconds": 30.155125,
+      "video_filename": "iwakeupscreaming1941_scene_3_30s_1080p.mp4",
+      "keyframe_filename": "iwakeupscreaming1941_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_3_30s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_3_thumb.jpg",
+      "transcription": "Follow me. No lights. You're lucky. Go ahead. You're an actor. Pretend you're going to your execution. Sit right away, father. The blood-blower sunset in the summer sky.",
+      "visual_description": "Sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' (1941).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "iwakeupscreaming1941_scene_4",
+      "movie_id": "iwakeupscreaming1941",
+      "scene_number": 4,
+      "start_timecode": "00:36:57",
+      "end_timecode": "00:37:18",
+      "start_seconds": 2217.804125,
+      "end_seconds": 2238.1994999999997,
+      "duration_seconds": 20.395375,
+      "video_filename": "iwakeupscreaming1941_scene_4_20s_1080p.mp4",
+      "keyframe_filename": "iwakeupscreaming1941_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_4_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_4_thumb.jpg",
+      "transcription": "These are the things I love A silver moonbeam peeping through the trees A bed of tulips nodding in the breeze A look you give in answer to my praise",
+      "visual_description": "Sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' (1941).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "iwakeupscreaming1941_scene_5",
+      "movie_id": "iwakeupscreaming1941",
+      "scene_number": 5,
+      "start_timecode": "00:38:49",
+      "end_timecode": "00:39:00",
+      "start_seconds": 2329.165375,
+      "end_seconds": 2340.802,
+      "duration_seconds": 11.636625,
+      "video_filename": "iwakeupscreaming1941_scene_5_11s_1080p.mp4",
+      "keyframe_filename": "iwakeupscreaming1941_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_5_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/iwakeupscreaming1941_scene_5_thumb.jpg",
+      "transcription": "I was on the sanitarium on E-77th Street. I go there occasionally when things get tough and they take care of me. You can verify that if you like by calling the doctor. Check up on that.",
+      "visual_description": "Sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I Wake Up Screaming (1941, U) Betty Grable, Victor Mature, Carole Landis - Film Noir' (1941).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_1",
+      "movie_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose",
+      "scene_number": 1,
+      "start_timecode": "00:20:08",
+      "end_timecode": "00:20:40",
+      "start_seconds": 1208.3600000000001,
+      "end_seconds": 1240.6399999999999,
+      "duration_seconds": 32.28,
+      "video_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_1_32s_1080p.mp4",
+      "keyframe_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_1_32s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_1_thumb.jpg",
+      "transcription": "Do I, uh, get you nervous watching? Well, it's just that I... Well, I... Look, a lot of citizens cave in at the last minute when they think their identification might send somebody at the gas chamber. That's what's bothering me. You know, you used a lot of, uh, little strokes on that kimono paint instead of mixing them up on the palate. You're not critic? No, I'm just repeating what a friend told me. She called your word total useful vibration.",
+      "visual_description": "Sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' (1959).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_2",
+      "movie_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose",
+      "scene_number": 2,
+      "start_timecode": "00:20:45",
+      "end_timecode": "00:21:19",
+      "start_seconds": 1245.44,
+      "end_seconds": 1279.4,
+      "duration_seconds": 33.96,
+      "video_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_2_33s_1080p.mp4",
+      "keyframe_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_2_33s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_2_thumb.jpg",
+      "transcription": "You know, I, uh, I like the way you look in that smock. I wish I could have heard that on the different circumstances. You, uh, suppose when you're finished with that sketch that I could have a little more of your time. You don't look like a cop. Well, now that word doesn't fit those full lips of yours. Well, you see, we don't like being called cops. Like girls don't like being called broads. I'm sorry. I'm sorry. Um, may I ask what you, uh, wanted me?",
+      "visual_description": "Sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' (1959).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_3",
+      "movie_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose",
+      "scene_number": 3,
+      "start_timecode": "00:23:22",
+      "end_timecode": "00:23:38",
+      "start_seconds": 1402.6399999999999,
+      "end_seconds": 1418.24,
+      "duration_seconds": 15.6,
+      "video_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_3_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_3_thumb.jpg",
+      "transcription": "Well, that street will explode with braids, bands, gorgeous girls, and kimonos. It should give a lot of ideas for paintings. I'd just like to see it with me. I'd love to. Fine! Let's get back to work.",
+      "visual_description": "Sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' (1959).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_4",
+      "movie_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose",
+      "scene_number": 4,
+      "start_timecode": "00:23:43",
+      "end_timecode": "00:23:54",
+      "start_seconds": 1423.6399999999999,
+      "end_seconds": 1434.56,
+      "duration_seconds": 10.92,
+      "video_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' (1959).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_5",
+      "movie_id": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose",
+      "scene_number": 5,
+      "start_timecode": "00:29:01",
+      "end_timecode": "00:29:45",
+      "start_seconds": 1741.88,
+      "end_seconds": 1785.44,
+      "duration_seconds": 43.56,
+      "video_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_5_43s_1080p.mp4",
+      "keyframe_filename": "1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_5_43s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1959-the-crimson-kimono-el-kimono-rojo-samuel-fuller-vose_scene_5_thumb.jpg",
+      "transcription": "Now we're doing. Oh, no luck yet. Oh, no. Now we've got a whole library of these mug books. Give you a chance to study portraits. I'll take landscapes from now on. Is something wrong? No. I'm just trying to figure out something. What? Well, we've got to lose. You think they'll worry about you tonight if you don't turn up to your sorority? Straighten up. Put your hat on. Return.",
+      "visual_description": "Sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1959 - The Crimson Kimono - El kimono rojo - Samuel Fuller - VOSE' (1959).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheJury_444_scene_1",
+      "movie_id": "TheJury_444",
+      "scene_number": 1,
+      "start_timecode": "00:29:22",
+      "end_timecode": "00:29:42",
+      "start_seconds": 1762.189,
+      "end_seconds": 1782.6094,
+      "duration_seconds": 20.4204,
+      "video_filename": "TheJury_444_scene_1_20s_1080p.mp4",
+      "keyframe_filename": "TheJury_444_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_1_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_1_thumb.jpg",
+      "transcription": "Didn't you? Yeah. Okay, now. Again. Okay. Heh. Again. Ah! Yeah! Heh. Gonna be FRZG. Heh. So what's that? Okay. Okay. Heh. Can you get. Heh. Enough. Hey.",
+      "visual_description": "Sequence from 'I, the Jury' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I, the Jury' (1953).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheJury_444_scene_2",
+      "movie_id": "TheJury_444",
+      "scene_number": 2,
+      "start_timecode": "00:34:12",
+      "end_timecode": "00:34:56",
+      "start_seconds": 2052.1787,
+      "end_seconds": 2096.3228,
+      "duration_seconds": 44.1441,
+      "video_filename": "TheJury_444_scene_2_44s_1080p.mp4",
+      "keyframe_filename": "TheJury_444_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_2_44s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_2_thumb.jpg",
+      "transcription": "There was an old diary Jack kept. A habit he had picked up while he was still on the police force. He had even hung on to it through all the action in the Pacific. If the cops didn't get it who did.",
+      "visual_description": "Sequence from 'I, the Jury' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I, the Jury' (1953).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheJury_444_scene_3",
+      "movie_id": "TheJury_444",
+      "scene_number": 3,
+      "start_timecode": "00:34:56",
+      "end_timecode": "00:35:07",
+      "start_seconds": 2096.3228,
+      "end_seconds": 2107.2336999999998,
+      "duration_seconds": 10.9109,
+      "video_filename": "TheJury_444_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "TheJury_444_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'I, the Jury' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I, the Jury' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheJury_444_scene_4",
+      "movie_id": "TheJury_444",
+      "scene_number": 4,
+      "start_timecode": "00:37:21",
+      "end_timecode": "00:38:02",
+      "start_seconds": 2241.4678,
+      "end_seconds": 2282.5088,
+      "duration_seconds": 41.041,
+      "video_filename": "TheJury_444_scene_4_41s_1080p.mp4",
+      "keyframe_filename": "TheJury_444_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_4_41s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_4_thumb.jpg",
+      "transcription": "She hasn't heard her anything. Sometimes I think I would welcome the news that Eileen was dead. That shot should end. Are you married, Mr. Hammer? No. Well, I knew it wouldn't understand what it means to have a daughter and try to make something out of her and learn to fail. Well, I'm trying to figure out as how Jack Williams fits into the picture. Oh, well, I asked him to help my daughter. He knew her once she was a little baby. You see, Eileen met a fellow at school and ran away with him. Since then, it's been one scrape after another.",
+      "visual_description": "Sequence from 'I, the Jury' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I, the Jury' (1953).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheJury_444_scene_5",
+      "movie_id": "TheJury_444",
+      "scene_number": 5,
+      "start_timecode": "00:38:15",
+      "end_timecode": "00:38:31",
+      "start_seconds": 2295.6219,
+      "end_seconds": 2311.6378999999997,
+      "duration_seconds": 16.016,
+      "video_filename": "TheJury_444_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "TheJury_444_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_5_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheJury_444_scene_5_thumb.jpg",
+      "transcription": "It was frightening the way she loved. She said she changed her name to Mary Wright. Said she was working for some people called Carlos and Bonita. She said she was a dance instructor.",
+      "visual_description": "Sequence from 'I, the Jury' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'I, the Jury' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "hellsisland1955_scene_1",
+      "movie_id": "hellsisland1955",
+      "scene_number": 1,
+      "start_timecode": "00:28:00",
+      "end_timecode": "00:28:15",
+      "start_seconds": 1680.4,
+      "end_seconds": 1695.04,
+      "duration_seconds": 14.64,
+      "video_filename": "hellsisland1955_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "hellsisland1955_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_1_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_1_thumb.jpg",
+      "transcription": "Mr. Cormac, big night tonight, see? Salim.",
+      "visual_description": "Sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' (1955).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "hellsisland1955_scene_2",
+      "movie_id": "hellsisland1955",
+      "scene_number": 2,
+      "start_timecode": "00:28:51",
+      "end_timecode": "00:29:07",
+      "start_seconds": 1731.04,
+      "end_seconds": 1747.3600000000001,
+      "duration_seconds": 16.32,
+      "video_filename": "hellsisland1955_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "hellsisland1955_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_2_thumb.jpg",
+      "transcription": "What's he saying? What's he saying? That's what he's saying.",
+      "visual_description": "Sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' (1955).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "hellsisland1955_scene_3",
+      "movie_id": "hellsisland1955",
+      "scene_number": 3,
+      "start_timecode": "00:29:34",
+      "end_timecode": "00:29:58",
+      "start_seconds": 1774.6,
+      "end_seconds": 1798.84,
+      "duration_seconds": 24.24,
+      "video_filename": "hellsisland1955_scene_3_24s_1080p.mp4",
+      "keyframe_filename": "hellsisland1955_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_3_24s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_3_thumb.jpg",
+      "transcription": "I regret the inconvenience to a visitor, not at all, it's very tiring to interrogate each person attending the cockpit, very odd, a very unusual murder weapon.",
+      "visual_description": "Sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' (1955).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "hellsisland1955_scene_4",
+      "movie_id": "hellsisland1955",
+      "scene_number": 4,
+      "start_timecode": "00:32:43",
+      "end_timecode": "00:33:01",
+      "start_seconds": 1963.6,
+      "end_seconds": 1981.6,
+      "duration_seconds": 18.0,
+      "video_filename": "hellsisland1955_scene_4_18s_1080p.mp4",
+      "keyframe_filename": "hellsisland1955_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_4_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_4_thumb.jpg",
+      "transcription": "by Paul Armand. Yes, undoubtedly, Armand is advising her. You can tell him for me, he's a fool. Completely ridiculous. Will that be all? About Panasco, I mean? For the present, yes.",
+      "visual_description": "Sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' (1955).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "hellsisland1955_scene_5",
+      "movie_id": "hellsisland1955",
+      "scene_number": 5,
+      "start_timecode": "00:35:48",
+      "end_timecode": "00:36:04",
+      "start_seconds": 2148.16,
+      "end_seconds": 2164.96,
+      "duration_seconds": 16.8,
+      "video_filename": "hellsisland1955_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "hellsisland1955_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_5_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/hellsisland1955_scene_5_thumb.jpg",
+      "transcription": "On what ground? By the very chemistry of the man. There was a spoiled child of much boasting of many words, even of threats. But never of deeds. Eduardo could never have killed anyone.",
+      "visual_description": "Sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Hell's Island (1955) Dir: Phil Karlson Starring John Payne, Mary Murphy - Film Noir' (1955).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thekillerthatstalkednewyork1950_scene_1",
+      "movie_id": "thekillerthatstalkednewyork1950",
+      "scene_number": 1,
+      "start_timecode": "00:23:37",
+      "end_timecode": "00:23:55",
+      "start_seconds": 1417.0,
+      "end_seconds": 1435.643625,
+      "duration_seconds": 18.643625,
+      "video_filename": "thekillerthatstalkednewyork1950_scene_1_18s_1080p.mp4",
+      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thekillerthatstalkednewyork1950_scene_1_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thekillerthatstalkednewyork1950_scene_1_thumb.jpg",
+      "transcription": "The circle of friends is a person with smallpox. Find that person when we stop the disease and its tracks. Good morning. Well, got something for you today.",
+      "visual_description": "Sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thekillerthatstalkednewyork1950_scene_2",
+      "movie_id": "thekillerthatstalkednewyork1950",
+      "scene_number": 2,
+      "start_timecode": "00:23:55",
+      "end_timecode": "00:25:36",
+      "start_seconds": 1435.643625,
+      "end_seconds": 1536.36925,
+      "duration_seconds": 100.725625,
+      "video_filename": "thekillerthatstalkednewyork1950_scene_2_100s_1080p.mp4",
+      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thekillerthatstalkednewyork1950_scene_2_100s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thekillerthatstalkednewyork1950_scene_2_thumb.jpg",
+      "transcription": "Oh, Mr. Crane. Mr. Crane, how about that cheese special? Look, it comes in a painted glass, and when it's empty, it goes right into my wife's body. You can use it as a... What's your name? Not now. Tomorrow. The fellow who sells the most this month gets a gold button. Are you mad? Yeah. Did it come? No. Tomorrow. Sure, honey. Tomorrow. I don't get up. Just rest there.",
+      "visual_description": "Sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thekillerthatstalkednewyork1950_scene_3",
+      "movie_id": "thekillerthatstalkednewyork1950",
+      "scene_number": 3,
+      "start_timecode": "00:25:36",
+      "end_timecode": "00:26:28",
+      "start_seconds": 1536.36925,
+      "end_seconds": 1588.4212499999999,
+      "duration_seconds": 52.052,
+      "video_filename": "thekillerthatstalkednewyork1950_scene_3_52s_1080p.mp4",
+      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thekillerthatstalkednewyork1950_scene_3_52s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thekillerthatstalkednewyork1950_scene_3_thumb.jpg",
+      "transcription": "I'm going out for one of you. I'm not very good company. No company. Oh, uh, nothing gets you medicine. We'd appreciate your calling us if anything like that comes along.",
+      "visual_description": "Sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "shockproof1949_scene_1",
+      "movie_id": "shockproof1949",
+      "scene_number": 1,
+      "start_timecode": "00:26:42",
+      "end_timecode": "00:30:03",
+      "start_seconds": 1602.0,
+      "end_seconds": 1803.6,
+      "duration_seconds": 201.6,
+      "video_filename": "shockproof1949_scene_1_201s_1080p.mp4",
+      "keyframe_filename": "shockproof1949_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_1_201s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_1_thumb.jpg",
+      "transcription": "Well, there's her, anybody's. My mother doesn't know. I'm like, you are about bar. She doesn't care. Anybody I bring home is okay. And that story about being married. What was that for? Freedom might make a pass at you. I always say that. To the female parellis. Sure, if I'm asked, why not? You didn't have to. Believe me, it wasn't necessary. I didn't think it was. It's a regular procedure in the office. Regulation 86B. Then the better fix the regulation. Makes a liar out of you. And a liar's a bad example for the weak characters you deal with. Jenny, please try to get that chip off your shoulder. I'm the one that stopped kidding each other. I want to talk straight to you. You're different, Jenny. You have a promising life ahead of you, Phil. I know. If I keep away from Harry Wesson. But why can't you? It isn't complicated. How would you feel if somebody had waited five years just for you? Are you sure he did? Yes. He's the only man who's ever really kind to me. He was patient and kind. Taught me what folk to use. How to dress correctly. How to speak correctly. Everything but how to think correctly. You'd do a great deal for Harry Wesson, wouldn't you? Yes, I'd do anything for him. You did. You even killed for him. That's right. I did. Thank you, sir. Oh, grip. Yeah. What about Jenny Marsh? And what about her? You've been trying to land her a job for more than a week. I checked. Four employers turned her down flat as soon as they learned she was a violator. Yeah, well, she's got a job. No kidding. I had to find her one where Harry Wesson couldn't get to her. I found it. She lives where she works. She eats their sleeves there. She gets 100 a month one day off a week. And she reports to me every day. What's the job? Taking care of a blind woman. Say, get easy. Hi. Home already? Have a good workout? Yeah. Where's everybody? Mom went to bed. She's tired. Jenny's somewhere. Oh. Okay, ma'am. That's true. Oh, hello. Hello. I thought this was your night of the why. Why was there? Uh, uh, mourning somebody? I found to see what time a movie went on. Your mother said she wouldn't need me. Oh. Why? Did you think I was calling Harry Wesson? I didn't think you were. I was just... Is that why you got me this job here so you could spy on me? I'm not spying on you, Jenny. It's my job to check on you. You're making it more than that because of Harry. That's not true. Isn't it? Okay, I admit that. Because he loves me and wants to be with me. What's wrong with that? He doesn't love anybody but himself. He's done everything for me. He gives you things with money he never earned. Without denying himself anything. You don't know what love is. And you, teacher. Do you know? Uh-oh. Not from experience, but I've imagined it differently. When you fall in love, really in love, I think you'd know it for sure. A man would feel for the first time a wonderful life could be. When he has someone to share it with. And he'd want to give her the good things of life, not just the trimmings.",
+      "visual_description": "Sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' (1951).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "shockproof1949_scene_2",
+      "movie_id": "shockproof1949",
+      "scene_number": 2,
+      "start_timecode": "00:30:03",
+      "end_timecode": "00:30:22",
+      "start_seconds": 1803.6,
+      "end_seconds": 1822.32,
+      "duration_seconds": 18.72,
+      "video_filename": "shockproof1949_scene_2_18s_1080p.mp4",
+      "keyframe_filename": "shockproof1949_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_2_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_2_thumb.jpg",
+      "transcription": "friends, friends, home, children. You'd think of her before himself and everything. Her welfare, her future, her happiness. And if she loved him, we'd be rich. Most men don't think like that. You only know Harry Weston.",
+      "visual_description": "Sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' (1951).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "shockproof1949_scene_3",
+      "movie_id": "shockproof1949",
+      "scene_number": 3,
+      "start_timecode": "00:30:22",
+      "end_timecode": "00:30:25",
+      "start_seconds": 1822.32,
+      "end_seconds": 1825.56,
+      "duration_seconds": 3.24,
+      "video_filename": "shockproof1949_scene_3_3s_1080p.mp4",
+      "keyframe_filename": "shockproof1949_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_3_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_3_thumb.jpg",
+      "transcription": "I'm sorry, Chania. I don't want to hurt you.",
+      "visual_description": "Sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' (1951).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "shockproof1949_scene_4",
+      "movie_id": "shockproof1949",
+      "scene_number": 4,
+      "start_timecode": "00:30:25",
+      "end_timecode": "00:31:08",
+      "start_seconds": 1825.56,
+      "end_seconds": 1868.04,
+      "duration_seconds": 42.48,
+      "video_filename": "shockproof1949_scene_4_42s_1080p.mp4",
+      "keyframe_filename": "shockproof1949_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_4_42s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_4_thumb.jpg",
+      "transcription": "I know that, Greg. At what time does that movie go on? 8.24. Well, we better hurry. Greg, can I come too? Come on. Whoa!",
+      "visual_description": "Sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' (1951).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "shockproof1949_scene_5",
+      "movie_id": "shockproof1949",
+      "scene_number": 5,
+      "start_timecode": "00:31:08",
+      "end_timecode": "00:31:14",
+      "start_seconds": 1868.04,
+      "end_seconds": 1874.6399999999999,
+      "duration_seconds": 6.6,
+      "video_filename": "shockproof1949_scene_5_6s_1080p.mp4",
+      "keyframe_filename": "shockproof1949_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_5_6s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/shockproof1949_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' (1951).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dearmurderer1957_scene_1",
+      "movie_id": "dearmurderer1957",
+      "scene_number": 1,
+      "start_timecode": "00:24:49",
+      "end_timecode": "00:25:22",
+      "start_seconds": 1489.6,
+      "end_seconds": 1522.6,
+      "duration_seconds": 33.0,
+      "video_filename": "dearmurderer1957_scene_1_33s_1080p.mp4",
+      "keyframe_filename": "dearmurderer1957_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_1_33s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_1_thumb.jpg",
+      "transcription": "Don't forget to subscribe! Subs by www.zeoranger.co.uk",
+      "visual_description": "Sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' (1947).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dearmurderer1957_scene_2",
+      "movie_id": "dearmurderer1957",
+      "scene_number": 2,
+      "start_timecode": "00:25:53",
+      "end_timecode": "00:26:16",
+      "start_seconds": 1553.56,
+      "end_seconds": 1576.24,
+      "duration_seconds": 22.68,
+      "video_filename": "dearmurderer1957_scene_2_22s_1080p.mp4",
+      "keyframe_filename": "dearmurderer1957_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_2_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_2_thumb.jpg",
+      "transcription": "Darling, relax. What I don't see is why you've got a key to his flight. There was really nothing between him. It's no use my pretending, Jimmy. You're right. There was something between us, but it's all over now. I haven't seen him or spoken to him since I met you. And you expect me to believe that? You must, Jimmy, because it's true.",
+      "visual_description": "Sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' (1947).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dearmurderer1957_scene_3",
+      "movie_id": "dearmurderer1957",
+      "scene_number": 3,
+      "start_timecode": "00:26:32",
+      "end_timecode": "00:26:43",
+      "start_seconds": 1592.8,
+      "end_seconds": 1603.96,
+      "duration_seconds": 11.16,
+      "video_filename": "dearmurderer1957_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "dearmurderer1957_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_3_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_3_thumb.jpg",
+      "transcription": "I'm glad you know the truth now. I don't want there to be any secret between us. It's far too important to me for that. And anyway, it's not a crime to have had an affair.",
+      "visual_description": "Sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' (1947).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dearmurderer1957_scene_4",
+      "movie_id": "dearmurderer1957",
+      "scene_number": 4,
+      "start_timecode": "00:30:42",
+      "end_timecode": "00:30:54",
+      "start_seconds": 1842.6399999999999,
+      "end_seconds": 1854.16,
+      "duration_seconds": 11.52,
+      "video_filename": "dearmurderer1957_scene_4_11s_1080p.mp4",
+      "keyframe_filename": "dearmurderer1957_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_4_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_4_thumb.jpg",
+      "transcription": "I, um, bought you a little prison today. You shouldn't have done that. It's only a note signetring I came across in a junk shop. But just you read what's inside.",
+      "visual_description": "Sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' (1947).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dearmurderer1957_scene_5",
+      "movie_id": "dearmurderer1957",
+      "scene_number": 5,
+      "start_timecode": "00:33:45",
+      "end_timecode": "00:34:00",
+      "start_seconds": 2025.76,
+      "end_seconds": 2040.04,
+      "duration_seconds": 14.28,
+      "video_filename": "dearmurderer1957_scene_5_14s_1080p.mp4",
+      "keyframe_filename": "dearmurderer1957_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_5_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dearmurderer1957_scene_5_thumb.jpg",
+      "transcription": "But darling, that was only a figure of speech. You know, I was thinking of you every minute, missing you dreadfully. But I couldn't just go on saying that over and over again, could I? It would have been so boring, and I've never bored you yet.",
+      "visual_description": "Sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dear Murderer (1947, UK) Eric Portman, Greta Gynt - Film Noir Full Movie' (1947).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_1",
+      "movie_id": "1946-notorious-encadenados-alfred-hitchcock-vose",
+      "scene_number": 1,
+      "start_timecode": "00:17:34",
+      "end_timecode": "00:17:58",
+      "start_seconds": 1054.68,
+      "end_seconds": 1078.44,
+      "duration_seconds": 23.76,
+      "video_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_1_23s_1080p.mp4",
+      "keyframe_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_1_23s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_1_thumb.jpg",
+      "transcription": "I wonder if the embassy is somewhere to get me a maid. It's a nice apartment and I don't mind dusting and sweeping but I hate it.",
+      "visual_description": "Sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' (1946).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_2",
+      "movie_id": "1946-notorious-encadenados-alfred-hitchcock-vose",
+      "scene_number": 2,
+      "start_timecode": "00:19:20",
+      "end_timecode": "00:19:30",
+      "start_seconds": 1160.28,
+      "end_seconds": 1170.6,
+      "duration_seconds": 10.32,
+      "video_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_2_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_2_thumb.jpg",
+      "transcription": "I'm making fun of myself, I'm pretending I'm a nice unspoiled child, as hard as full of dazes and buttercups.",
+      "visual_description": "Sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' (1946).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_3",
+      "movie_id": "1946-notorious-encadenados-alfred-hitchcock-vose",
+      "scene_number": 3,
+      "start_timecode": "00:19:42",
+      "end_timecode": "00:19:59",
+      "start_seconds": 1182.96,
+      "end_seconds": 1199.6399999999999,
+      "duration_seconds": 16.68,
+      "video_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_3_16s_1080p.mp4",
+      "keyframe_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_3_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_3_thumb.jpg",
+      "transcription": "Don't do it. Make it a double. Let's go and serve it to a plow. Do it. Why won't you believe in me, then? Just a minute. Why won't you believe in me?",
+      "visual_description": "Sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' (1946).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_4",
+      "movie_id": "1946-notorious-encadenados-alfred-hitchcock-vose",
+      "scene_number": 4,
+      "start_timecode": "00:27:09",
+      "end_timecode": "00:27:39",
+      "start_seconds": 1629.72,
+      "end_seconds": 1659.12,
+      "duration_seconds": 29.4,
+      "video_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_4_29s_1080p.mp4",
+      "keyframe_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_4_29s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_4_thumb.jpg",
+      "transcription": "Don't look so tense troubles Well hence my think you better tell mama what's going on all this secrets is going to ruin my little dinner Come on mr. D what is darkening your brow? After dinner? No now Now I'll make it easy for you The time has come when you must tell me that you have a wife and two adorable children And this madness between us can't go on any longer I bet you've heard that by now",
+      "visual_description": "Sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' (1946).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_5",
+      "movie_id": "1946-notorious-encadenados-alfred-hitchcock-vose",
+      "scene_number": 5,
+      "start_timecode": "00:29:47",
+      "end_timecode": "00:30:17",
+      "start_seconds": 1787.76,
+      "end_seconds": 1817.6399999999999,
+      "duration_seconds": 29.88,
+      "video_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_5_29s_1080p.mp4",
+      "keyframe_filename": "1946-notorious-encadenados-alfred-hitchcock-vose_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_5_29s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/1946-notorious-encadenados-alfred-hitchcock-vose_scene_5_thumb.jpg",
+      "transcription": "Don't get sorda, I'm only fishing for a little bird call from my dream man. One little remark such as, how dare you gentlemen suggest that Alicia Hubermann, the new Miss Hubermann, be submitted to so ugly a fate. That's not funny. Do you want me to take the job? You're answering for yourself. I am I.",
+      "visual_description": "Sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from '1946 - Notorious - Encadenados - Alfred Hitchcock - VOSE' (1946).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
         "black and white"
       ]
     }
