@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-09T16:34:25.438240+00:00",
-  "total_movies": 3,
-  "total_scenes": 9,
-  "genre": "film noir",
-  "source": "Internet Archive",
+  "updated_at": "2026-11-10T14:50:37.743600+00:00",
+  "total_movies": 6,
+  "total_scenes": 18,
+  "genre": "sci-fi",
+  "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
@@ -35,6 +35,36 @@
       "video_url": "https://archive.org/download/undertow1949_202002/Undertow (1949, USA) Featuring Scott Brady, John Russell, Dorothy Hart - Film Noir Full Movie.mp4",
       "license": "Open Archive",
       "description": "Undertow is a 1949 American film noir crime film directed by William Castle and starring Scott Brady, John Russell, Dorothy Hart and Peggy Dow. The movie marks the second film to feature a young actor named Rock Hudson and the first in which he received a film credit for his work. \u00a0 Wikipedia: https://en.wikipedia.org/wiki/Undertow_(1949_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "It Came From Beneath the Sea",
+      "year": 1955,
+      "director": "Robert Gordon, Ray Harryhausen",
+      "archive_id": "it-came-from-beneath-the-sea",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/it-came-from-beneath-the-sea/It Came From Beneath the Sea.mp4",
+      "license": "Open Archive",
+      "description": "A giant, radioactive octopus rises from the Philippine Trench to terrorize the North American Pacific Coast."
+    },
+    {
+      "title": "Shocker Internet Drive In Week 4 - Night of the Living Dead Double Feature",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature/ShockerWeek4GOOD.mp4",
+      "license": "Open Archive",
+      "description": "Another week and we say \"Welcome back to 'Shocker Internet Drive In'\". Once again we invite you relive the great old days of warm summer nights (or cool fall evenings), stale popcorn, dry hamburgers, bad movies, fun cartoons and,everyone's favorite drive in activity, backseat love. Tonight we present are presenting a black & white double feature in \"Deadland\". After an early Porky Pig cartoon, we proudly present the George A. Romero classic \"Night of the LIving Dead\", sourced from a nice print by the way (parental discreation is advised). And if that wasn't enough, we close out our show with another \"dead\" cult classic - \"Carnival of Souls\"! (FYI - per request!) Of course, as always, our feature includes the usual movie previews, drive-in advertisements and fun. So sit back, put your speaker in the car window and enjoy. For more information and fun stuff, don't forget to visit our website: https://www.facebook.com/Shocker-Internet-Drive-In-1079848878843455 or http://beatlbay7900.hostoutfitter.com/home.html"
+    },
+    {
+      "title": "Warning From Space",
+      "year": 1956,
+      "director": "Masaichi Nagata",
+      "archive_id": "Warning_From_Space_MPEG",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Warning_From_Space_MPEG/Warning_From_Space.mp4",
+      "license": "Open Archive",
+      "description": "Aliens come to Earth to warn humanity about a planetoid that'll destroy both Earth and the aliens' world. The fate of both planets rests in the hands of one scientist and his formula for a new bomb. You can find out more about this movie on its IMDB page ."
     }
   ],
   "scenes": [
@@ -278,6 +308,249 @@
       ],
       "tags": [
         "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "it-came-from-beneath-the-sea_scene_1",
+      "movie_id": "it-came-from-beneath-the-sea",
+      "scene_number": 1,
+      "start_timecode": "00:21:47",
+      "end_timecode": "00:22:04",
+      "start_seconds": 1307.841842,
+      "end_seconds": 1324.558559,
+      "duration_seconds": 16.716717,
+      "video_filename": "it-came-from-beneath-the-sea_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "it-came-from-beneath-the-sea_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/it-came-from-beneath-the-sea_scene_1_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/it-came-from-beneath-the-sea_scene_1_thumb.jpg",
+      "transcription": "I'm going to take a look at this.",
+      "visual_description": "Sequence from 'It Came From Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Came From Beneath the Sea' (1955).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "it-came-from-beneath-the-sea_scene_2",
+      "movie_id": "it-came-from-beneath-the-sea",
+      "scene_number": 2,
+      "start_timecode": "00:24:51",
+      "end_timecode": "00:24:59",
+      "start_seconds": 1491.325325,
+      "end_seconds": 1499.733734,
+      "duration_seconds": 8.408409,
+      "video_filename": "it-came-from-beneath-the-sea_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "it-came-from-beneath-the-sea_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/it-came-from-beneath-the-sea_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/it-came-from-beneath-the-sea_scene_2_thumb.jpg",
+      "transcription": "in the papers. About a month ago, part of the Japanese fishing fleet disappeared in these waters without a trace. Siberian seal fishing has been reported...",
+      "visual_description": "Sequence from 'It Came From Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Came From Beneath the Sea' (1955).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "it-came-from-beneath-the-sea_scene_3",
+      "movie_id": "it-came-from-beneath-the-sea",
+      "scene_number": 3,
+      "start_timecode": "00:25:14",
+      "end_timecode": "00:25:24",
+      "start_seconds": 1514.648649,
+      "end_seconds": 1524.758759,
+      "duration_seconds": 10.11011,
+      "video_filename": "it-came-from-beneath-the-sea_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "it-came-from-beneath-the-sea_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/it-came-from-beneath-the-sea_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/it-came-from-beneath-the-sea_scene_3_thumb.jpg",
+      "transcription": "Perhaps Professor Joyce has another opinion to advance. No, I'm afraid not. We've had too little sleep in the last few days. There's anything further you want to discuss about...",
+      "visual_description": "Sequence from 'It Came From Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Came From Beneath the Sea' (1955).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_1",
+      "movie_id": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature",
+      "scene_number": 1,
+      "start_timecode": "00:09:05",
+      "end_timecode": "00:09:22",
+      "start_seconds": 545.4,
+      "end_seconds": 562.2,
+      "duration_seconds": 16.8,
+      "video_filename": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_1_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_1_thumb.jpg",
+      "transcription": "Thanks for watching, and I'll see you in the next video.",
+      "visual_description": "Sequence from 'Shocker Internet Drive In Week 4 - Night of the Living Dead Double Feature' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 4 - Night of the Living Dead Double Feature' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_2",
+      "movie_id": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature",
+      "scene_number": 2,
+      "start_timecode": "00:12:32",
+      "end_timecode": "00:12:40",
+      "start_seconds": 752.0,
+      "end_seconds": 760.4,
+      "duration_seconds": 8.4,
+      "video_filename": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_2_thumb.jpg",
+      "transcription": "Now I'm going to have a look. Now I'm going to have a look.",
+      "visual_description": "Sequence from 'Shocker Internet Drive In Week 4 - Night of the Living Dead Double Feature' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 4 - Night of the Living Dead Double Feature' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_3",
+      "movie_id": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature",
+      "scene_number": 3,
+      "start_timecode": "00:17:11",
+      "end_timecode": "00:17:22",
+      "start_seconds": 1031.7,
+      "end_seconds": 1042.2,
+      "duration_seconds": 10.5,
+      "video_filename": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ShockerInternetDriveInWeek4-NightOfTheLivingDeadDoubleFeature_scene_3_thumb.jpg",
+      "transcription": "I wonder what happened to the one from last year, each year we spend good money on these things, we come out here and the one from last year is gone.",
+      "visual_description": "Sequence from 'Shocker Internet Drive In Week 4 - Night of the Living Dead Double Feature' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shocker Internet Drive In Week 4 - Night of the Living Dead Double Feature' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Warning_From_Space_MPEG_scene_1",
+      "movie_id": "Warning_From_Space_MPEG",
+      "scene_number": 1,
+      "start_timecode": "00:33:02",
+      "end_timecode": "00:33:15",
+      "start_seconds": 1982.3276,
+      "end_seconds": 1995.0403000000001,
+      "duration_seconds": 12.7127,
+      "video_filename": "Warning_From_Space_MPEG_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "Warning_From_Space_MPEG_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_MPEG_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_MPEG_scene_1_thumb.jpg",
+      "transcription": "Beautiful, isn't it? Yes. Look at that mountain. All that color.",
+      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Warning_From_Space_MPEG_scene_2",
+      "movie_id": "Warning_From_Space_MPEG",
+      "scene_number": 2,
+      "start_timecode": "00:33:35",
+      "end_timecode": "00:33:51",
+      "start_seconds": 2015.2604999999999,
+      "end_seconds": 2031.6769,
+      "duration_seconds": 16.4164,
+      "video_filename": "Warning_From_Space_MPEG_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "Warning_From_Space_MPEG_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_MPEG_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_MPEG_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Warning_From_Space_MPEG_scene_3",
+      "movie_id": "Warning_From_Space_MPEG",
+      "scene_number": 3,
+      "start_timecode": "00:34:49",
+      "end_timecode": "00:35:06",
+      "start_seconds": 2089.3345,
+      "end_seconds": 2106.3514999999998,
+      "duration_seconds": 17.017,
+      "video_filename": "Warning_From_Space_MPEG_scene_3_17s_1080p.mp4",
+      "keyframe_filename": "Warning_From_Space_MPEG_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_MPEG_scene_3_17s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Warning_From_Space_MPEG_scene_3_thumb.jpg",
+      "transcription": "Ms. Aosara. Ms. Aosara. Just... Could we have a statement on the accident? Say what? A girl that he'd rather be a Nico. She was what, double? My daughter? Yes. Oh, hell. Is that right?",
+      "visual_description": "Sequence from 'Warning From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Warning From Space' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
         "black and white"
       ]
     }
