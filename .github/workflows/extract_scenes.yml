@@ -1,6 +1,8 @@
 name: Extract Scenes & Publish Web Vault
 
 on:
+  schedule:
+    - cron: '0 4 * * *'
   workflow_dispatch:
     inputs:
       source_provider:
@@ -98,18 +100,16 @@ jobs:
           python-version: '3.10'
           cache: 'pip'
 
-      - name: Install Python Dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests scenedetect[opencv] faster-whisper imageio-ffmpeg supabase google-genai
 
-      - name: Uncache Output Directory and Force Git Track
+      - name: Uncache Output Directory to Fix Git Tracking Cache
         run: |
           git rm -r --cached output/ 2>/dev/null || true
           mkdir -p output
-
-      - name: Migrate Release Assets to Output
-        run: python migrate_releases.py || echo "No migration script executed"
 
       - name: Run Extraction Pipeline
         env:
@@ -128,33 +128,34 @@ jobs:
           END_YEAR: ${{ inputs.end_year || '1960' }}
           LICENSE_TYPE: ${{ inputs.license_type || 'any' }}
         run: python extract_and_index.py
-        
-      - name: Clean Up Clips Over 50MB
-        run: python cleanup_large_files.py
 
-      - name: Regenerate Catalog from Output Files
-        run: python regenerate_catalog.py
+      - name: Clean Up Files Over 50MB
+        run: |
+          if [ -f cleanup_large_files.py ]; then
+            python cleanup_large_files.py
+          fi
 
       - name: Verify Output Files
         run: |
-          echo "=== Output Folder Contents ==="
-          ls -lh output/ || echo "output directory does not exist"
+          echo "=== Files Present in output/ ==="
+          ls -lh output/ || echo "output folder does not exist"
           git status --ignored
 
-      - name: Commit & Push MP4 Clips and Catalog to Main
+      - name: Commit & Push MP4 Clips and Metadata to Main
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-    
-          # -A (or --all) stages new untracked files AND resolves deleted file markers
+          
+          # Stage untracked files and handle deleted file records
           git add -A output/
-          git add catalog.json
-    
+          git add index.html catalog.json 2>/dev/null || true
+          
           git status
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update catalog and MP4 scenes from workflow run ${{ github.run_number }}"
-    
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update catalog and MP4 scenes [skip ci]"
+          
+          # Retry loop to handle transient network drops during push
           for i in {1..3}; do
-            git push origin main && break || {
+            git push origin HEAD:main && break || {
               echo "Push failed, retrying in $((i * 5)) seconds..."
               sleep $((i * 5))
             }
