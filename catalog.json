@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-11T04:54:58.231141+00:00",
-  "total_movies": 22,
-  "total_scenes": 90,
-  "genre": "film noir",
-  "source": "Internet Archive",
+  "updated_at": "2026-11-11T08:41:04.342191+00:00",
+  "total_movies": 24,
+  "total_scenes": 102,
+  "genre": "sci-fi",
+  "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
@@ -225,6 +225,26 @@
       "video_url": "https://archive.org/download/thebluegardenia1953/The Blue Gardenia 1953.mp4",
       "license": "Open Archive",
       "description": "The Blue Gardenia is a 1953 film noir crime film directed by Fritz Lang and based on a novella by Vera Caspary, starring Anne Baxter, Richard Conte, Raymond Burr and Ann Sothern. The Blue Gardenia - a cynical take on press coverage of a sensational murder case - was the first installment of Lang's \"newspaper noir\" movie trio, being followed in 1956 by both While the City Sleeps and Beyond a Reasonable Doubt. The director of cinematography for The Blue Gardenia was Nicholas Musuraca. Wikipedia: https://en.wikipedia.org/wiki/The_Blue_Gardenia Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Mad Max(1979) BD RIP",
+      "year": 1979,
+      "director": "George Miller",
+      "archive_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg/Mad.Max.1979.1080p.BluRay.x265-RARBG.mp4",
+      "license": "Open Archive",
+      "description": "NOW IN WIDESCREEN AND HD \u00a0 \u00a0AUSSIE AUDIO The previous upload was an outdated VHS rip, so enjoy.\u00a0 Plot:\u00a0 In a self-destructing world, a vengeful Australian policeman sets out to stop a violent motorcycle gang."
+    },
+    {
+      "title": "The Amazing Transparent Man",
+      "year": 1960,
+      "director": "Edgar G. Ulmer",
+      "archive_id": "The_Amazing_Transparent_Man.avi",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/The_Amazing_Transparent_Man.avi/The_Amazing_Transparent_Man.mp4",
+      "license": "Open Archive",
+      "description": "A mad scientist invents an invisibility formula which he plans to use to build an invisible army. Director Edgar G. Ulmer (1904 \u2013 1972) is best remembered for the movies The Black Cat (1934) and Detour (1945). These stylish and eccentric works have achieved cult status, but Ulmer's other films remain relatively unknown."
     }
   ],
   "scenes": [
@@ -2655,6 +2675,330 @@
       ],
       "tags": [
         "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_1",
+      "movie_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg",
+      "scene_number": 1,
+      "start_timecode": "00:22:01",
+      "end_timecode": "00:22:15",
+      "start_seconds": 1321.772375,
+      "end_seconds": 1335.7863750000001,
+      "duration_seconds": 14.014,
+      "video_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_1_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_1_thumb.jpg",
+      "transcription": "They didn't leave much of him. Must have cut his heart out, eh? Yeah. That's all I meant. Poor bastard.",
+      "visual_description": "Sequence from 'Mad Max(1979) BD RIP' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Mad Max(1979) BD RIP' (1979).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_2",
+      "movie_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg",
+      "scene_number": 2,
+      "start_timecode": "00:23:32",
+      "end_timecode": "00:23:47",
+      "start_seconds": 1412.23775,
+      "end_seconds": 1427.0025,
+      "duration_seconds": 14.76475,
+      "video_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_2_14s_1080p.mp4",
+      "keyframe_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_2_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_2_thumb.jpg",
+      "transcription": "Oh",
+      "visual_description": "Sequence from 'Mad Max(1979) BD RIP' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Mad Max(1979) BD RIP' (1979).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_3",
+      "movie_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg",
+      "scene_number": 3,
+      "start_timecode": "00:24:49",
+      "end_timecode": "00:25:02",
+      "start_seconds": 1489.81525,
+      "end_seconds": 1502.578,
+      "duration_seconds": 12.76275,
+      "video_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_3_12s_1080p.mp4",
+      "keyframe_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_3_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Mad Max(1979) BD RIP' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Mad Max(1979) BD RIP' (1979).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_4",
+      "movie_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg",
+      "scene_number": 4,
+      "start_timecode": "00:26:39",
+      "end_timecode": "00:27:10",
+      "start_seconds": 1599.92525,
+      "end_seconds": 1630.8311250000002,
+      "duration_seconds": 30.905875,
+      "video_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_4_30s_1080p.mp4",
+      "keyframe_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_4_30s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Mad Max(1979) BD RIP' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Mad Max(1979) BD RIP' (1979).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_5",
+      "movie_id": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg",
+      "scene_number": 5,
+      "start_timecode": "00:27:27",
+      "end_timecode": "00:27:42",
+      "start_seconds": 1647.597875,
+      "end_seconds": 1662.9882499999999,
+      "duration_seconds": 15.390375,
+      "video_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_5_15s_1080p.mp4",
+      "keyframe_filename": "mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_5_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg_scene_5_thumb.jpg",
+      "transcription": "Come on Take that out of jail free car",
+      "visual_description": "Sequence from 'Mad Max(1979) BD RIP' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Mad Max(1979) BD RIP' (1979).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Amazing_Transparent_Man.avi_scene_1",
+      "movie_id": "The_Amazing_Transparent_Man.avi",
+      "scene_number": 1,
+      "start_timecode": "00:16:04",
+      "end_timecode": "00:16:30",
+      "start_seconds": 964.0,
+      "end_seconds": 990.146789,
+      "duration_seconds": 26.146789,
+      "video_filename": "The_Amazing_Transparent_Man.avi_scene_1_26s_1080p.mp4",
+      "keyframe_filename": "The_Amazing_Transparent_Man.avi_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_1_26s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_1_thumb.jpg",
+      "transcription": "I'll watch from the people. You'll find the dinner figures on heart.",
+      "visual_description": "Sequence from 'The Amazing Transparent Man' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Amazing Transparent Man' (1960).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Amazing_Transparent_Man.avi_scene_2",
+      "movie_id": "The_Amazing_Transparent_Man.avi",
+      "scene_number": 2,
+      "start_timecode": "00:16:30",
+      "end_timecode": "00:16:31",
+      "start_seconds": 990.146789,
+      "end_seconds": 991.898249,
+      "duration_seconds": 1.75146,
+      "video_filename": "The_Amazing_Transparent_Man.avi_scene_2_1s_1080p.mp4",
+      "keyframe_filename": "The_Amazing_Transparent_Man.avi_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_2_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Amazing Transparent Man' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Amazing Transparent Man' (1960).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Amazing_Transparent_Man.avi_scene_3",
+      "movie_id": "The_Amazing_Transparent_Man.avi",
+      "scene_number": 3,
+      "start_timecode": "00:16:31",
+      "end_timecode": "00:16:34",
+      "start_seconds": 991.898249,
+      "end_seconds": 994.400334,
+      "duration_seconds": 2.502085,
+      "video_filename": "The_Amazing_Transparent_Man.avi_scene_3_2s_1080p.mp4",
+      "keyframe_filename": "The_Amazing_Transparent_Man.avi_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_3_2s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Amazing Transparent Man' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Amazing Transparent Man' (1960).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Amazing_Transparent_Man.avi_scene_4",
+      "movie_id": "The_Amazing_Transparent_Man.avi",
+      "scene_number": 4,
+      "start_timecode": "00:16:34",
+      "end_timecode": "00:16:38",
+      "start_seconds": 994.400334,
+      "end_seconds": 998.778982,
+      "duration_seconds": 4.378648,
+      "video_filename": "The_Amazing_Transparent_Man.avi_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "The_Amazing_Transparent_Man.avi_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_4_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'The Amazing Transparent Man' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Amazing Transparent Man' (1960).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Amazing_Transparent_Man.avi_scene_5",
+      "movie_id": "The_Amazing_Transparent_Man.avi",
+      "scene_number": 5,
+      "start_timecode": "00:16:38",
+      "end_timecode": "00:17:31",
+      "start_seconds": 998.778982,
+      "end_seconds": 1051.07256,
+      "duration_seconds": 52.293578,
+      "video_filename": "The_Amazing_Transparent_Man.avi_scene_5_52s_1080p.mp4",
+      "keyframe_filename": "The_Amazing_Transparent_Man.avi_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_5_52s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Amazing_Transparent_Man.avi_scene_5_thumb.jpg",
+      "transcription": "Now, that should satisfy your curiosity, Mr. Poth. As you've been no doubt to do such a mechanism as this has unlimited possibilities. And I like what? Well, I will come later. First name's Hurst Please. See? No harm done at all. Perfectly out. I imagine you've seen enough of one day and you certainly must be tired after your trip. Yeah, you could use a little sleep. I'm not sure if Julian has found some clothes that will fit you.",
+      "visual_description": "Sequence from 'The Amazing Transparent Man' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Amazing Transparent Man' (1960).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "PhantomPlanet_286_scene_1",
+      "movie_id": "PhantomPlanet_286",
+      "scene_number": 1,
+      "start_timecode": "00:18:50",
+      "end_timecode": "00:19:14",
+      "start_seconds": 1130.0,
+      "end_seconds": 1154.066852,
+      "duration_seconds": 24.066852,
+      "video_filename": "PhantomPlanet_286_scene_1_24s_1080p.mp4",
+      "keyframe_filename": "PhantomPlanet_286_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/PhantomPlanet_286_scene_1_24s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/PhantomPlanet_286_scene_1_thumb.jpg",
+      "transcription": "Oh, no! Oh, no!",
+      "visual_description": "Sequence from 'The Phantom Planet' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Phantom Planet' (1961).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "PhantomPlanet_286_scene_2",
+      "movie_id": "PhantomPlanet_286",
+      "scene_number": 2,
+      "start_timecode": "00:19:14",
+      "end_timecode": "00:19:17",
+      "start_seconds": 1154.066852,
+      "end_seconds": 1157.576602,
+      "duration_seconds": 3.50975,
+      "video_filename": "PhantomPlanet_286_scene_2_3s_1080p.mp4",
+      "keyframe_filename": "PhantomPlanet_286_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/PhantomPlanet_286_scene_2_3s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/PhantomPlanet_286_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Phantom Planet' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Phantom Planet' (1961).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
         "black and white"
       ]
     }
