@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-10T20:46:25.067060+00:00",
-  "total_movies": 19,
-  "total_scenes": 81,
-  "genre": "mystery",
-  "source": "Any / Blended",
+  "updated_at": "2026-11-11T04:54:58.231141+00:00",
+  "total_movies": 22,
+  "total_scenes": 90,
+  "genre": "film noir",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
@@ -195,6 +195,36 @@
       "video_url": "https://archive.org/download/humandesire1954usadirectorfritzlangfeaturingglennfordbroderickcrawfordfilmnoir/Human Desire  (1954, USA) Director Fritz Lang Featuring Glenn Ford, Broderick Crawford - Film Noir.mp4",
       "license": "Open Archive",
       "description": "Human Desire is a 1954 black-and-white film noir directed by Fritz Lang and starring Glenn Ford, Gloria Grahame and Broderick Crawford. It is loosely based on \u00c9mile Zola's novel La B\u00eate humaine. The story had been filmed twice before: La B\u00eate humaine (1938) directed by Jean Renoir and Die Bestie im Menschen starring Ilka Gr\u00fcning (1920). Wikipedia: https://en.wikipedia.org/wiki/Human_Desire \u00a0Suggested Film Noirs : http://bit.ly/36oLNCR The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Detour - Weirdness Bad Movie",
+      "year": 1950,
+      "director": "reallybadmovie@rocketmail.com",
+      "archive_id": "Detour-WeirdnessBadMovie",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/Detour-WeirdnessBadMovie/WRBM_Detour_WS_AF_fixed.ia.mp4",
+      "license": "Open Archive",
+      "description": "Public Access TV show \"Weirdness Really Bad Movie\" hosts public domain movies and ads clean comedy sketches enjoyable for the whole family. Today's film is Detour from 1945."
+    },
+    {
+      "title": "The Hitch-Hiker - Weirdness Bad Movie",
+      "year": 1950,
+      "director": "reallybadmovie@rocketmail.com",
+      "archive_id": "TheHitch-hiker-WeirdnessBadMovie",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/TheHitch-hiker-WeirdnessBadMovie/WRBM_Hitch-Hiker_WS_AF_fixed.ia.mp4",
+      "license": "Open Archive",
+      "description": "Public Access TV show \"Weirdness Really Bad Movie\" hosts public domain movies and ads clean comedy sketches enjoyable for the whole family. Today's film is Ida Lupino's 1953 \"The Hitch-Hiker\""
+    },
+    {
+      "title": "The Blue Gardenia (1953) Dir: Fritz Lang, Featuring Anne Baxter, Richard Conte, Raymond Burr, Ann Sothern - Film Noir Full Movie",
+      "year": 1953,
+      "director": "Unknown Director",
+      "archive_id": "thebluegardenia1953",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thebluegardenia1953/The Blue Gardenia 1953.mp4",
+      "license": "Open Archive",
+      "description": "The Blue Gardenia is a 1953 film noir crime film directed by Fritz Lang and based on a novella by Vera Caspary, starring Anne Baxter, Richard Conte, Raymond Burr and Ann Sothern. The Blue Gardenia - a cynical take on press coverage of a sensational murder case - was the first installment of Lang's \"newspaper noir\" movie trio, being followed in 1956 by both While the City Sleeps and Beyond a Reasonable Doubt. The director of cinematography for The Blue Gardenia was Nicholas Musuraca. Wikipedia: https://en.wikipedia.org/wiki/The_Blue_Gardenia Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -2382,6 +2412,249 @@
       ],
       "tags": [
         "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Detour-WeirdnessBadMovie_scene_1",
+      "movie_id": "Detour-WeirdnessBadMovie",
+      "scene_number": 1,
+      "start_timecode": "00:14:53",
+      "end_timecode": "00:15:08",
+      "start_seconds": 893.8,
+      "end_seconds": 908.2,
+      "duration_seconds": 14.4,
+      "video_filename": "Detour-WeirdnessBadMovie_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "Detour-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Detour-WeirdnessBadMovie_scene_1_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Detour-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "transcription": "First, in the meantime, let's blow this trap.",
+      "visual_description": "Sequence from 'Detour - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour - Weirdness Bad Movie' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Detour-WeirdnessBadMovie_scene_2",
+      "movie_id": "Detour-WeirdnessBadMovie",
+      "scene_number": 2,
+      "start_timecode": "00:18:04",
+      "end_timecode": "00:18:13",
+      "start_seconds": 1084.9,
+      "end_seconds": 1093.0,
+      "duration_seconds": 8.1,
+      "video_filename": "Detour-WeirdnessBadMovie_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "Detour-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Detour-WeirdnessBadMovie_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Detour-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "transcription": ". . . . . . . .",
+      "visual_description": "Sequence from 'Detour - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour - Weirdness Bad Movie' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Detour-WeirdnessBadMovie_scene_3",
+      "movie_id": "Detour-WeirdnessBadMovie",
+      "scene_number": 3,
+      "start_timecode": "00:18:40",
+      "end_timecode": "00:19:07",
+      "start_seconds": 1120.0,
+      "end_seconds": 1147.6,
+      "duration_seconds": 27.6,
+      "video_filename": "Detour-WeirdnessBadMovie_scene_3_27s_1080p.mp4",
+      "keyframe_filename": "Detour-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Detour-WeirdnessBadMovie_scene_3_27s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Detour-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Detour - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour - Weirdness Bad Movie' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHitch-hiker-WeirdnessBadMovie_scene_1",
+      "movie_id": "TheHitch-hiker-WeirdnessBadMovie",
+      "scene_number": 1,
+      "start_timecode": "00:20:54",
+      "end_timecode": "00:21:10",
+      "start_seconds": 1254.0,
+      "end_seconds": 1270.2,
+      "duration_seconds": 16.2,
+      "video_filename": "TheHitch-hiker-WeirdnessBadMovie_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "TheHitch-hiker-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHitch-hiker-WeirdnessBadMovie_scene_1_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHitch-hiker-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "transcription": "Not bad. We're loaded with time. We can make that easy. After that, I won't be needing you guys any more.",
+      "visual_description": "Sequence from 'The Hitch-Hiker - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Hitch-Hiker - Weirdness Bad Movie' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHitch-hiker-WeirdnessBadMovie_scene_2",
+      "movie_id": "TheHitch-hiker-WeirdnessBadMovie",
+      "scene_number": 2,
+      "start_timecode": "00:22:13",
+      "end_timecode": "00:22:43",
+      "start_seconds": 1333.35,
+      "end_seconds": 1363.5,
+      "duration_seconds": 30.15,
+      "video_filename": "TheHitch-hiker-WeirdnessBadMovie_scene_2_30s_1080p.mp4",
+      "keyframe_filename": "TheHitch-hiker-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHitch-hiker-WeirdnessBadMovie_scene_2_30s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHitch-hiker-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Hitch-Hiker - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Hitch-Hiker - Weirdness Bad Movie' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHitch-hiker-WeirdnessBadMovie_scene_3",
+      "movie_id": "TheHitch-hiker-WeirdnessBadMovie",
+      "scene_number": 3,
+      "start_timecode": "00:27:02",
+      "end_timecode": "00:27:25",
+      "start_seconds": 1622.25,
+      "end_seconds": 1645.65,
+      "duration_seconds": 23.4,
+      "video_filename": "TheHitch-hiker-WeirdnessBadMovie_scene_3_23s_1080p.mp4",
+      "keyframe_filename": "TheHitch-hiker-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHitch-hiker-WeirdnessBadMovie_scene_3_23s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHitch-hiker-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "transcription": "That's it! All right, Collins, put the can't back on the rock. Don't forget this is loaded too. Let's see you try it. See how good you are.",
+      "visual_description": "Sequence from 'The Hitch-Hiker - Weirdness Bad Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Hitch-Hiker - Weirdness Bad Movie' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thebluegardenia1953_scene_1",
+      "movie_id": "thebluegardenia1953",
+      "scene_number": 1,
+      "start_timecode": "00:07:32",
+      "end_timecode": "00:07:41",
+      "start_seconds": 452.4493,
+      "end_seconds": 461.158,
+      "duration_seconds": 8.7087,
+      "video_filename": "thebluegardenia1953_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "thebluegardenia1953_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thebluegardenia1953_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thebluegardenia1953_scene_1_thumb.jpg",
+      "transcription": "Oh. Oh, you. If you've been listening, just forget what you heard.",
+      "visual_description": "Sequence from 'The Blue Gardenia (1953) Dir: Fritz Lang, Featuring Anne Baxter, Richard Conte, Raymond Burr, Ann Sothern - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Gardenia (1953) Dir: Fritz Lang, Featuring Anne Baxter, Richard Conte, Raymond Burr, Ann Sothern - Film Noir Full Movie' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thebluegardenia1953_scene_2",
+      "movie_id": "thebluegardenia1953",
+      "scene_number": 2,
+      "start_timecode": "00:16:52",
+      "end_timecode": "00:17:08",
+      "start_seconds": 1012.1084,
+      "end_seconds": 1028.8251,
+      "duration_seconds": 16.7167,
+      "video_filename": "thebluegardenia1953_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "thebluegardenia1953_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thebluegardenia1953_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thebluegardenia1953_scene_2_thumb.jpg",
+      "transcription": "So, well, even if you were wrong about the girl, you were right about, I mean, I was alone and I hadn't eaten so, I probably shouldn't have come, it was a silly impulse.",
+      "visual_description": "Sequence from 'The Blue Gardenia (1953) Dir: Fritz Lang, Featuring Anne Baxter, Richard Conte, Raymond Burr, Ann Sothern - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Gardenia (1953) Dir: Fritz Lang, Featuring Anne Baxter, Richard Conte, Raymond Burr, Ann Sothern - Film Noir Full Movie' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "thebluegardenia1953_scene_3",
+      "movie_id": "thebluegardenia1953",
+      "scene_number": 3,
+      "start_timecode": "00:17:56",
+      "end_timecode": "00:18:15",
+      "start_seconds": 1076.5728,
+      "end_seconds": 1095.8921,
+      "duration_seconds": 19.3193,
+      "video_filename": "thebluegardenia1953_scene_3_19s_1080p.mp4",
+      "keyframe_filename": "thebluegardenia1953_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thebluegardenia1953_scene_3_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/thebluegardenia1953_scene_3_thumb.jpg",
+      "transcription": "To achieve a mermaid's downfall, we begin with a seductive rum that insidiously lulls the sun. I think I'll stick to pearl doctors. It's good.",
+      "visual_description": "Sequence from 'The Blue Gardenia (1953) Dir: Fritz Lang, Featuring Anne Baxter, Richard Conte, Raymond Burr, Ann Sothern - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Blue Gardenia (1953) Dir: Fritz Lang, Featuring Anne Baxter, Richard Conte, Raymond Burr, Ann Sothern - Film Noir Full Movie' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
         "black and white"
       ]
     }
