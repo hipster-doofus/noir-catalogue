@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hybrid Media Studio Pro</title>
+    <style>
+        :root { 
+            --bg-primary: #0f1013; --bg-secondary: #17181c; --bg-tertiary: #22242a; 
+            --accent: #6366f1; --text-main: #f3f4f6; --text-muted: #9ca3af; --border: #2e323b; 
+            --badge-local: #3b82f6; --badge-git: #10b981; --badge-drive: #f59e0b; --badge-manual: #8b5cf6;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+        body { background-color: var(--bg-primary); color: var(--text-main); padding: 20px; }
+        .container { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 20px; }
+        @media (min-width: 1024px) { .container { grid-template-columns: 2fr 1fr; } .header-panel, .importer-card, .filter-panel, .catalog-panel, .sources-panel, .workspace-panel { grid-column: span 2; } }
+        .card { background-color: var(--bg-secondary); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+        .tabs { display: flex; gap: 5px; border-bottom: 2px solid var(--border); margin-bottom: 15px; overflow-x: auto; }
+        .tab-btn { background: none; color: var(--text-muted); border: none; padding: 10px; cursor: pointer; font-weight: bold; white-space: nowrap; }
+        .tab-btn.active { color: var(--text-main); border-bottom: 2px solid var(--accent); background: var(--bg-tertiary); }
+        .tab-content { display: none; } .tab-content.active { display: block; }
+        .form-group { margin-bottom: 12px; }
+        label { display: block; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px; }
+        input, select, textarea { width: 100%; background: var(--bg-tertiary); border: 1px solid var(--border); color: #fff; padding: 8px; border-radius: 6px; }
+        .inline-fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+        button { background: var(--accent); color: #fff; border: none; padding: 10px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+        button.secondary { background: var(--bg-tertiary); border: 1px solid var(--border); }
+        button.danger { background: #ef4444; }
+        .player-wrapper { position: relative; padding-bottom: 56.25%; height: 0; background: #000; border-radius: 8px; overflow: hidden; margin-bottom: 10px; }
+        video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .controls-row { display: flex; flex-wrap: wrap; gap: 15px; align-items: center; background: var(--bg-tertiary); padding: 10px; border-radius: 6px; }
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 15px; margin-top: 15px; }
+        .video-card { background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px; padding: 12px; display: flex; flex-direction: column; justify-content: space-between; gap: 8px; position: relative; border-left: 4px solid var(--accent); }
+        .video-card.local { border-left-color: var(--badge-local); }
+        .video-card.github { border-left-color: var(--badge-git); }
+        .video-card.gdrive { border-left-color: var(--badge-drive); }
+        .video-card.manual { border-left-color: var(--badge-manual); }
+        .video-card h4 { font-size: 0.95rem; margin-bottom: 4px; word-break: break-word; line-height: 1.3; }
+        .video-card p { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 8px; word-break: break-all; }
+        .source-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; font-weight: bold; display: inline-block; text-transform: uppercase; margin-bottom: 4px; }
+        .badge-local { background: var(--badge-local); color: #fff; }
+        .badge-github { background: var(--badge-git); color: #fff; }
+        .badge-gdrive { background: var(--badge-drive); color: #fff; }
+        .badge-manual { background: var(--badge-manual); color: #fff; }
+        .video-card-actions { display: flex; gap: 5px; margin-top: auto; }
+        .video-card-actions button { padding: 6px 10px; font-size: 0.8rem; flex: 1; }
+        .list-group { display: flex; flex-direction: column; gap: 5px; max-height: 300px; overflow-y: auto; }
+        .list-item { background: var(--bg-tertiary); border: 1px solid var(--border); padding: 10px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+        .list-item.active { border-color: var(--accent); background: rgba(99,102,241,0.1); }
+        .source-row { background: var(--bg-tertiary); padding: 10px; border-radius: 6px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--border); }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card header-panel">
+        <h1>Hybrid Media Studio Pro</h1>
+        <p style="color: var(--text-muted)">Manage multi-source workspaces, recursive subfolder scans (GitHub & Drive), and duplicate prevention.</p>
+    </div>
+
+    <!-- WORKSPACE MANAGEMENT PANEL -->
+    <div class="card workspace-panel">
+        <h2>🗂️ Workspaces</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 10px;">Switch between separate workspaces or create a new one with a fresh library & playlists.</p>
+        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+            <select id="ws-select" style="max-width: 300px;" onchange="switchWorkspace(this.value)"></select>
+            <button onclick="createNewWorkspace()">+ New Workspace</button>
+            <button class="danger" onclick="clearCurrentWorkspace()">🗑️ Clear/Reset Workspace</button>
+        </div>
+    </div>
+
+    <!-- SOURCES MANAGEMENT & TOGGLE PANEL -->
+    <div class="card sources-panel">
+        <h2>🔌 Connected Sources & Repositories (<span id="ws-name-display"></span>)</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 10px;">Connect or disconnect sources to show/hide their tiles in the catalog.</p>
+        <div id="sources-list" style="margin-bottom: 15px;"></div>
+    </div>
+
+    <div class="card importer-card">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="st('local-t', this)">💻 Local Files</button>
+            <button class="tab-btn" onclick="st('github-t', this)">GitHub Repo (Option 2)</button>
+            <button class="tab-btn" onclick="st('gdrive-t', this)">Google Drive (Recursive)</button>
+            <button class="tab-btn" onclick="st('manual-t', this)">Manual Link</button>
+        </div>
+        <div id="local-t" class="tab-content active">
+            <div class="form-group">
+                <label>Select MP4 Video Files</label>
+                <input type="file" id="lif" accept="video/mp4" multiple onchange="pLocal(event)">
+            </div>
+        </div>
+        <div id="github-t" class="tab-content">
+            <div class="inline-fields">
+                <div class="form-group"><label>Username / Org</label><input type="text" id="gu" value="hipster-doofus"></div>
+                <div class="form-group"><label>Repo Name</label><input type="text" id="gr" value="noir-catalogue"></div>
+                <div class="form-group"><label>Branch</label><input type="text" id="gb" value="main"></div>
+            </div>
+            <div class="form-group"><label>Access Token (Optional)</label><input type="password" id="gt"></div>
+            <button onclick="pGit()">Deep Scan All Repo Subfolders (Option 2)</button>
+        </div>
+        <div id="gdrive-t" class="tab-content">
+            <div class="form-group"><label>Google Drive API Key</label><input type="password" id="gdt"></div>
+            <div class="form-group"><label>Root Shared Folder ID</label><input type="text" id="gdf"></div>
+            <button onclick="pDrive()">Deep Scan All Subfolders (Recursive)</button>
+        </div>
+        <div id="manual-t" class="tab-content">
+            <div class="inline-fields">
+                <div class="form-group"><label>Title</label><input type="text" id="mt"></div>
+                <div class="form-group"><label>Direct MP4 URL</label><input type="text" id="mu"></div>
+            </div>
+            <button onclick="pManual()">Add Direct Link</button>
+        </div>
+    </div>
+
+    <div class="card filter-panel">
+        <h2>🔍 Filter Catalog</h2>
+        <div class="inline-fields">
+            <div class="form-group"><label>Keywords</label><input type="text" id="sf" oninput="fCat()"></div>
+            <div class="form-group"><label>Min Year</label><input type="number" id="fymin" oninput="fCat()"></div>
+            <div class="form-group"><label>Max Year</label><input type="number" id="fymax" oninput="fCat()"></div>
+        </div>
+        <div style="display:flex; gap:10px; margin-top:10px;">
+            <button onclick="bulkP(0)">▶ Play All Filtered</button>
+            <button onclick="bulkP(1)" class="secondary">🔀 Shuffle Filtered</button>
+        </div>
+    </div>
+
+    <div class="card player-panel">
+        <h2>📺 Media Player</h2>
+        <div class="player-wrapper"><video id="vid" controls></video></div>
+        <div class="controls-row">
+            <div id="npt" style="font-weight:bold; color:var(--accent); flex-grow:1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px;">No Video Loaded</div>
+            <label><input type="checkbox" id="auton" checked> Autoplay Next</label>
+            <label><input type="checkbox" id="ctrl-loop"> Loop Single</label>
+            <select id="vsp" style="width:auto;" onchange="document.getElementById('vid').playbackRate=parseFloat(this.value)">
+                <option value="0.5">0.5x</option><option value="1" selected>1.0x</option>
+                <option value="1.5">1.5x</option><option value="2">2.0x</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="card playlist-panel">
+        <h2>📋 Target Playlists</h2>
+        <div style="display:flex; gap:10px; margin-bottom:10px;">
+            <select id="pls" onchange="sList(this.value)"></select>
+            <button onclick="cList()">+</button>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:5px; margin-bottom:10px;">
+            <button onclick="expL()" class="secondary" style="font-size:0.8rem; padding:5px;">📥 Export</button>
+            <button onclick="document.getElementById('imf').click()" class="secondary" style="font-size:0.8rem; padding:5px;">📤 Import</button>
+            <button onclick="delL()" class="danger" style="font-size:0.8rem; padding:5px;">🗑️ Del</button>
+            <input type="file" id="imf" style="display:none;" accept=".json" onchange="impL(event)">
+        </div>
+        <div class="list-group" id="litems"></div>
+    </div>
+
+    <div class="card catalog-panel">
+        <h2>🗂️ Unified Catalog (<span id="ccnt">0</span> items)</h2>
+        <div class="video-grid" id="cgrid"></div>
+    </div>
+</div>
+
+<script>
+    let workspaces = JSON.parse(localStorage.getItem('hms_workspaces')) || { "Default Workspace": { cat: [], sources: [], lists: { "Default Playlist": [] }, curListName: "Default Playlist" } };
+    let currentWsName = localStorage.getItem('hms_current_ws') || Object.keys(workspaces)[0] || "Default Workspace";
+
+    if (!workspaces[currentWsName]) {
+        currentWsName = Object.keys(workspaces)[0] || "Default Workspace";
+    }
+
+    let ws = workspaces[currentWsName];
+    let curActiveIndex = -1; 
+    let playQueue = [];     
+
+    const vid = document.getElementById('vid');
+
+    window.addEventListener('DOMContentLoaded', () => {
+        if (!ws.lists[ws.curListName]) ws.curListName = Object.keys(ws.lists)[0] || "Default Playlist";
+        if (!ws.lists[ws.curListName]) ws.lists[ws.curListName] = [];
+        
+        loadSavedCredentials();
+        updateWorkspaceSelect();
+        document.getElementById('ws-name-display').innerText = currentWsName;
+        uListSelect();
+        renderSources();
+        fCat();
+        rListItems();
+
+        vid.addEventListener('ended', () => {
+            if (document.getElementById('ctrl-loop').checked) {
+                vid.play();
+            } else if (document.getElementById('auton').checked) {
+                playNext();
+            }
+        });
+    });
+
+    function loadSavedCredentials() {
+        if(localStorage.getItem('hms_git_token')) document.getElementById('gt').value = localStorage.getItem('hms_git_token');
+        if(localStorage.getItem('hms_drive_key')) document.getElementById('gdt').value = localStorage.getItem('hms_drive_key');
+    }
+
+    function saveCredentials() {
+        localStorage.setItem('hms_git_token', document.getElementById('gt').value.trim());
+        localStorage.setItem('hms_drive_key', document.getElementById('gdt').value.trim());
+    }
+
+    function st(tabId, btn) {
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById(tabId).classList.add('active');
+        btn.classList.add('active');
+    }
+
+    function isDuplicate(url, title) {
+        return ws.cat.some(item => item.url === url || (item.title.toLowerCase() === title.toLowerCase()));
+    }
+
+    function pLocal(e) {
+        const files = Array.from(e.target.files);
+        const sourceId = 'src_local_' + Date.now();
+        let added = 0;
+        let skipped = 0;
+
+        files.forEach(f => {
+            const url = URL.createObjectURL(f);
+            const meta = parseMetadata(f.name);
+            if (!isDuplicate(url, meta.title)) {
+                ws.cat.push({ id: 'loc_' + Date.now() + '_' + Math.random(), sourceId, title: meta.title, year: meta.year, url: url, type: 'local' });
+                added++;
+            } else {
+                skipped++;
+            }
+        });
+
+        if (added > 0) {
+            ws.sources.push({ id: sourceId, name: `Local Files Upload (${added} items)`, type: 'local', active: true });
+        }
+        persistState(); fCat(); renderSources();
+        alert(`Local import complete: ${added} added, ${skipped} duplicate(s) skipped.`);
+    }
+
+    async function pGit() {
+        saveCredentials();
+        const u = document.getElementById('gu').value.trim();
+        const r = document.getElementById('gr').value.trim();
+        const b = document.getElementById('gb').value.trim();
+        const t = document.getElementById('gt').value.trim();
+        if (!u || !r) return alert('Username and Repo are required.');
+
+        const sourceId = 'src_git_' + u + '_' + r;
+
+        try {
+            const url = `https://api.github.com/repos/${u}/${r}/git/trees/${b}?recursive=1`;
+            const headers = t ? { 'Authorization': `token ${t}` } : {};
+            
+            const res = await fetch(url, { headers });
+            if (!res.ok) {
+                if(res.status === 404) throw new Error('Repository or branch not found. Make sure your MP4 files are committed to the repo folders (Option 2).');
+                if(res.status === 401 || res.status === 403) throw new Error('Authentication failed or rate limit exceeded.');
+                throw new Error(`GitHub API error status ${res.status}`);
+            }
+
+            const data = await res.json();
+            if(!data.tree) throw new Error('Invalid response from GitHub API.');
+
+            let addedCount = 0;
+            let skippedCount = 0;
+
+            data.tree.forEach(file => {
+                if (file.type === 'blob' && file.path && file.path.toLowerCase().endsWith('.mp4')) {
+                    const rawUrl = `https://raw.githubusercontent.com/${u}/${r}/${b}/${file.path}`;
+                    const name = file.path.split('/').pop();
+                    const meta = parseMetadata(name);
+
+                    if (!isDuplicate(rawUrl, meta.title)) {
+                        ws.cat.push({ id: 'git_' + Date.now() + '_' + Math.random(), sourceId, title: meta.title, year: meta.year, url: rawUrl, type: 'github' });
+                        addedCount++;
+                    } else {
+                        skippedCount++;
+                    }
+                }
+            });
+
+            if (!ws.sources.some(s => s.id === sourceId)) {
+                ws.sources.push({ id: sourceId, name: `GitHub: ${u}/${r} (${b})`, type: 'github', active: true, config: { u, r, b } });
+            }
+
+            persistState(); fCat(); renderSources();
+            alert(`GitHub Option 2 scan complete! Added ${addedCount} new files (${skippedCount} duplicates skipped).`);
+        } catch (err) {
+            alert('Error scanning GitHub repository: ' + err.message);
+        }
+    }
+
+    // Recursive Google Drive Subfolder Scanner
+    async function pDrive() {
+        saveCredentials();
+        const k = document.getElementById('gdt').value.trim();
+        const rootFolderId = document.getElementById('gdf').value.trim();
+        if (!k || !rootFolderId) return alert('API Key and Root Folder ID are required.');
+
+        const sourceId = 'src_gdrive_' + rootFolderId;
+
+        try {
+            // Helper function to recursively find all files and folders
+            async function getDriveFilesRecursive(folderId) {
+                let mp4Files = [];
+                let subFolderIds = [];
+
+                // 1. Query items inside current folder
+                let query = `'${folderId}' in parents and trashed = false`;
+                let listUrl = `https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}&key=${k}&fields=files(id,name,mimeType)`;
+                
+                let res = await fetch(listUrl);
+                if (!res.ok) throw new Error('Google Drive authorization failure or invalid Folder ID.');
+                let data = await res.json();
+
+                if (data.files) {
+                    for (let file of data.files) {
+                        if (file.mimeType === 'application/vnd.google-apps.folder') {
+                            subFolderIds.push(file.id);
+                        } else if (file.name && file.name.toLowerCase().endsWith('.mp4')) {
+                            mp4Files.push(file);
+                        }
+                    }
+                }
+
+                // 2. Recursively scan all subfolders
+                for (let subId of subFolderIds) {
+                    let subFiles = await getDriveFilesRecursive(subId);
+                    mp4Files = mp4Files.concat(subFiles);
+                }
+
+                return mp4Files;
+            }
+
+            let allMp4s = await getDriveFilesRecursive(rootFolderId);
+
+            let addedCount = 0;
+            let skippedCount = 0;
+
+            allMp4s.forEach(file => {
+                const dUrl = `https://www.googleapis.com/drive/v3/files/${file.id}?alt=media&key=${k}`;
+                const meta = parseMetadata(file.name);
+
+                if (!isDuplicate(dUrl, meta.title)) {
+                    ws.cat.push({ id: 'gdr_' + Date.now() + '_' + Math.random(), sourceId, title: meta.title, year: meta.year, url: dUrl, type: 'gdrive' });
+                    addedCount++;
+                } else {
+                    skippedCount++;
+                }
+            });
+
+            if (!ws.sources.some(s => s.id === sourceId)) {
+                ws.sources.push({ id: sourceId, name: `Google Drive Folder (Recursive): ${rootFolderId}`, type: 'gdrive', active: true, config: { rootFolderId, k } });
+            }
+
+            persistState(); fCat(); renderSources();
+            alert(`Recursive Google Drive sync complete: Added ${addedCount} files from all subfolders (${skippedCount} duplicates skipped).`);
+        } catch(err) {
+            alert('Error scanning Google Drive subfolders: ' + err.message);
+        }
+    }
+
+    function pManual() {
+        let t = document.getElementById('mt').value.trim();
+        let u = document.getElementById('mu').value.trim();
+        if (!u) return alert('Valid URL required');
+        if (u.includes('github.com') && u.includes('/blob/')) {
+            u = u.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+        }
+        if(!t) t = u.split('/').pop().replace('.mp4', '');
+        const meta = parseMetadata(t);
+
+        if (isDuplicate(u, meta.title)) {
+            return alert('This link or video title already exists in your catalog!');
+        }
+
+        const sourceId = 'src_manual_links';
+        if(!ws.sources.some(s => s.id === sourceId)) {
+            ws.sources.push({ id: sourceId, name: 'Manual Links Collection', type: 'manual', active: true });
+        }
+
+        ws.cat.push({ id: 'man_' + Date.now() + '_' + Math.random(), sourceId, title: meta.title, year: meta.year, url: u, type: 'manual' });
+        persistState(); fCat(); renderSources();
+        document.getElementById('mt').value = '';
+        document.getElementById('mu').value = '';
+        alert('Direct link added successfully.');
+    }
+
+    function toggleSource(sourceId) {
+        const src = ws.sources.find(s => s.id === sourceId);
+        if(src) {
+            src.active = !src.active;
+            persistState(); fCat(); renderSources();
+        }
+    }
+
+    function removeSource(sourceId) {
+        if(!confirm("Remove this source and its catalogued media items?")) return;
+        ws.sources = ws.sources.filter(s => s.id !== sourceId);
+        ws.cat = ws.cat.filter(c => c.sourceId !== sourceId);
+        persistState(); fCat(); renderSources();
+    }
+
+    function renderSources() {
+        const container = document.getElementById('sources-list');
+        container.innerHTML = '';
+        if(ws.sources.length === 0) {
+            container.innerHTML = '<p style="color:var(--text-muted); font-size:0.85rem;">No active sources connected in this workspace.</p>';
+            return;
+        }
+        ws.sources.forEach(src => {
+            const row = document.createElement('div');
+            row.className = 'source-row';
+            row.innerHTML = `
+                <div>
+                    <span class="source-badge badge-${src.type}">${src.type}</span>
+                    <strong style="font-size:0.9rem; margin-left: 6px;">${escapeHTML(src.name)}</strong>
+                    <span style="font-size:0.75rem; color:var(--text-muted); margin-left: 10px;">(${src.active ? '🟢 Connected' : '🔴 Disconnected'})</span>
+                </div>
+                <div style="display:flex; gap:5px;">
+                    <button class="secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="toggleSource('${src.id}')">${src.active ? 'Disconnect' : 'Connect'}</button>
+                    <button class="danger" style="padding:4px 8px; font-size:0.75rem;" onclick="removeSource('${src.id}')">Delete</button>
+                </div>
+            `;
+            container.appendChild(row);
+        });
+    }
+
+    // Workspace Controls
+    function switchWorkspace(name) {
+        if(!workspaces[name]) return;
+        currentWsName = name;
+        ws = workspaces[currentWsName];
+        localStorage.setItem('hms_current_ws', currentWsName);
+        document.getElementById('ws-name-display').innerText = currentWsName;
+        updateWorkspaceSelect();
+        uListSelect();
+        renderSources();
+        fCat();
+        rListItems();
+    }
+
+    function createNewWorkspace() {
+        const name = prompt("Enter new workspace name:");
+        if(!name || !name.trim()) return;
+        const trimmed = name.trim();
+        if(workspaces[trimmed]) return alert("Workspace already exists.");
+
+        workspaces[trimmed] = { cat: [], sources: [], lists: { "Default Playlist": [] }, curListName: "Default Playlist" };
+        persistWorkspaces();
+        switchWorkspace(trimmed);
+    }
+
+    function clearCurrentWorkspace() {
+        if(!confirm(`Are you sure you want to completely clear all libraries, sources, and playlists in workspace "${currentWsName}"?`)) return;
+        ws.cat = [];
+        ws.sources = [];
+        ws.lists = { "Default Playlist": [] };
+        ws.curListName = "Default Playlist";
+        persistState();
+        switchWorkspace(currentWsName);
+        alert("Workspace cleared successfully.");
+    }
+
+    function updateWorkspaceSelect() {
+        const sel = document.getElementById('ws-select');
+        sel.innerHTML = '';
+        Object.keys(workspaces).forEach(name => {
+            const opt = document.createElement('option');
+            opt.value = name;
+            opt.innerText = name;
+            if(name === currentWsName) opt.selected = true;
+            sel.appendChild(opt);
+        });
+    }
+
+    function parseMetadata(filename) {
+        const cleanName = filename.replace('.mp4', '').replace(/[._]/g, ' ');
+        const match = cleanName.match(/\b(19\d{2}|20\d{2})\b/);
+        if (match) {
+            return { title: cleanName.replace(match[0], '').replace(/\s+/g, ' ').trim(), year: parseInt(match[0]) };
+        }
+        return { title: cleanName, year: null };
+    }
+
+    function fCat() {
+        const q = document.getElementById('sf').value.toLowerCase();
+        const ymin = parseInt(document.getElementById('fymin').value) || 0;
+        const ymax = parseInt(document.getElementById('fymax').value) || 3000;
+        
+        const activeSourceIds = ws.sources.filter(s => s.active).map(s => s.id);
+        const filtered = ws.cat.filter(item => {
+            if(item.sourceId && !activeSourceIds.includes(item.sourceId)) return false;
+            const mQ = item.title.toLowerCase().includes(q) || (item.url && item.url.toLowerCase().includes(q));
+            const itemYear = item.year || 0;
+            const mY = (ymin === 0 || itemYear >= ymin) && (ymax === 3000 || itemYear <= ymax);
+            return mQ && mY;
+        });
+
+        document.getElementById('ccnt').innerText = filtered.length;
+        const grid = document.getElementById('cgrid');
+        grid.innerHTML = '';
+        filtered.forEach(item => {
+            const div = document.createElement('div');
+            div.className = `video-card ${item.type}`;
+            div.innerHTML = `
+                <div>
+                    <span class="source-badge badge-${item.type}">${item.type}</span>
+                    <h4>${escapeHTML(item.title)}</h4>
+                    <p>${item.year ? '📅 ' + item.year : 'No Year Data'}</p>
+                </div>
+                <div class="video-card-actions">
+                    <button onclick="playDirect('${item.url}', '${escapeJS(item.title)}')">▶ Play</button>
+                    <button class="secondary" onclick="addToPlaylist('${escapeJS(item.id)}')">+ List</button>
+                </div>
+            `;
+            grid.appendChild(div);
+        });
+    }
+
+    function playDirect(url, title) {
+        vid.src = url;
+        document.getElementById('npt').innerText = title;
+        document.getElementById('npt').title = title;
+        vid.playbackRate = parseFloat(document.getElementById('vsp').value);
+        vid.load();
+        vid.play().catch(e => console.warn('Playback sequence halted natively:', e));
+    }
+
+    function playNext() {
+        if (playQueue.length > 0 && curActiveIndex + 1 < playQueue.length) {
+            curActiveIndex++;
+            const nextTrack = playQueue[curActiveIndex];
+            playDirect(nextTrack.url, nextTrack.title);
+            highlightActivePlaylistItem();
+        }
+    }
+
+    function bulkP(isShuffle) {
+        const q = document.getElementById('sf').value.toLowerCase();
+        const ymin = parseInt(document.getElementById('fymin').value) || 0;
+        const ymax = parseInt(document.getElementById('fymax').value) || 3000;
+        const activeSourceIds = ws.sources.filter(s => s.active).map(s => s.id);
+        
+        let filtered = ws.cat.filter(item => {
+            if(item.sourceId && !activeSourceIds.includes(item.sourceId)) return false;
+            const mQ = item.title.toLowerCase().includes(q);
+            const itemYear = item.year || 0;
+            const mY = (ymin === 0 || itemYear >= ymin) && (ymax === 3000 || itemYear <= ymax);
+            return mQ && mY;
+        });
+        if (filtered.length === 0) return alert('No items match current filters to build pipeline queue.');
+        if (isShuffle) filtered.sort(() => Math.random() - 0.5);
+        playQueue = filtered;
+        curActiveIndex = 0;
+        playDirect(playQueue[0].url, playQueue[0].title);
+    }
+
+    function rListItems() {
+        const container = document.getElementById('litems');
+        container.innerHTML = '';
+        const currentListItems = ws.lists[ws.curListName] || [];
+        currentListItems.forEach((itemId, idx) => {
+            const matchedAsset = ws.cat.find(c => c.id === itemId);
+            if (!matchedAsset) return;
+            const div = document.createElement('div');
+            div.className = 'list-item';
+            div.id = `li-item-${idx}`;
+            div.innerHTML = `
+                <span>${escapeHTML(matchedAsset.title)}</span>
+                <button class="danger" style="padding: 2px 6px; font-size: 0.75rem;" onclick="remFromPlaylist(${idx}, event)">&times;</button>
+            `;
+            div.addEventListener('click', () => {
+                playQueue = currentListItems.map(id => ws.cat.find(c => c.id === id)).filter(Boolean);
+                curActiveIndex = idx;
+                playDirect(matchedAsset.url, matchedAsset.title);
+                highlightActivePlaylistItem();
+            });
+            container.appendChild(div);
+        });
+    }
+
+    function highlightActivePlaylistItem() {
+        document.querySelectorAll('.list-item').forEach(el => el.classList.remove('active'));
+        const activeNode = document.getElementById(`li-item-${curActiveIndex}`);
+        if(activeNode) activeNode.classList.add('active');
+    }
+
+    function addToPlaylist(id) {
+        if(!ws.lists[ws.curListName]) ws.lists[ws.curListName] = [];
+        ws.lists[ws.curListName].push(id);
+        persistState(); rListItems();
+    }
+
+    function remFromPlaylist(idx, e) {
+        e.stopPropagation();
+        if(ws.lists[ws.curListName]) {
+            ws.lists[ws.curListName].splice(idx, 1);
+            persistState(); rListItems();
+        }
+    }
+
+    function cList() {
+        const name = prompt("Enter target list classification name:");
+        if (!name || name.trim() === "") return;
+        if (ws.lists[name.trim()]) return alert("Classification key descriptor already defined.");
+        ws.lists[name.trim()] = [];
+        ws.curListName = name.trim();
+        persistState(); uListSelect(); rListItems();
+    }
+
+    function delL() {
+        if (Object.keys(ws.lists).length <= 1) return alert("System core runtime state requires at least one list array tracking context.");
+        if (confirm(`Purge compilation playlist parameters for: "${ws.curListName}"?`)) {
+            delete ws.lists[ws.curListName];
+            ws.curListName = Object.keys(ws.lists)[0];
+            persistState(); uListSelect(); rListItems();
+        }
+    }
+
+    function sList(val) {
+        ws.curListName = val;
+        persistState();
+        rListItems();
+    }
+
+    function uListSelect() {
+        const select = document.getElementById('pls');
+        select.innerHTML = '';
+        Object.keys(ws.lists).forEach(name => {
+            const opt = document.createElement('option');
+            opt.value = name; opt.innerText = name;
+            if(name === ws.curListName) opt.selected = true;
+            select.appendChild(opt);
+        });
+    }
+
+    function persistState() { 
+        workspaces[currentWsName] = ws;
+        localStorage.setItem('hms_workspaces', JSON.stringify(workspaces));
+        localStorage.setItem('hms_current_ws', currentWsName);
+    }
+
+    function persistWorkspaces() {
+        localStorage.setItem('hms_workspaces', JSON.stringify(workspaces));
+    }
+
+    function expL() {
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify({ workspaceName: currentWsName, workspaceData: ws }));
+        const downloadAnchor = document.createElement('a');
+        downloadAnchor.setAttribute("href", dataStr);
+        downloadAnchor.setAttribute("download", `${currentWsName.toLowerCase().replace(/\s+/g, '_')}_manifest.json`);
+        document.body.appendChild(downloadAnchor);
+        downloadAnchor.click();
+        downloadAnchor.remove();
+    }
+
+    function impL(e) {
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            try {
+                const parsed = JSON.parse(event.target.result);
+                if (parsed.workspaceData && parsed.workspaceData.cat) {
+                    const wsName = parsed.workspaceName || "Imported Workspace";
+                    workspaces[wsName] = parsed.workspaceData;
+                    persistWorkspaces();
+                    switchWorkspace(wsName);
+                    alert("Workspace manifest imported successfully.");
+                } else {
+                    alert("Invalid structured workspace manifest signature format.");
+                }
+            } catch(err) {
+                alert("Failure compilation execution layout during parse runtime.");
+            }
+        };
+        reader.readAsText(e.target.files[0]);
+    }
+
+    function escapeHTML(str) {
+        if(!str) return '';
+        return str.replace(/[&<>'"]/g, tag => ({ '&': '&', '<': '<', '>': '>', "'": '&#39;', '"': '&quot;' }[tag] || tag));
+    }
+
+    function escapeJS(str) {
+        if(!str) return '';
+        return str.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
+    }
+</script>
+</body>
+</html>
