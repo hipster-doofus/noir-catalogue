@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-11T20:21:42.512213+00:00",
-  "total_movies": 34,
-  "total_scenes": 154,
-  "genre": "sci-fi",
-  "source": "Any / Blended",
+  "updated_at": "2026-11-12T04:55:24.735608+00:00",
+  "total_movies": 37,
+  "total_scenes": 163,
+  "genre": "film noir",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
@@ -345,6 +345,36 @@
       "video_url": "https://archive.org/download/BattleForTheWorlds10415/Battle_of_the_Worlds_1961.mp4",
       "license": "Open Archive",
       "description": "Title: Battle of the Worlds Summary: A runaway asteroid dubbed \"The Outsider\" mysteriously begins orbiting the Earth and threatens it with lethal flying saucers. Directed by: Antonio Margheriti Actors: Claude Rains, Bill Carter, Umberto Orsini Production Company: Ultra Film Release Date: March 1963 (USA) Aspect Ratio: 2.35 : 1 A stray planet on a collision course with Earth instead takes orbit around our blue marble. What seems like a dead planet suddenly launches a fleet of flying saucers which attack our space fleets."
+    },
+    {
+      "title": "Cinema Collection Film Noir",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "the-detective",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/the-detective/Leave Her to Heaven (1945) Criterion 1080p Enhanced.ia.mp4",
+      "license": "Open Archive",
+      "description": "A collection of Film Noir"
+    },
+    {
+      "title": "He Walked by Night",
+      "year": 1948,
+      "director": "Unknown Director",
+      "archive_id": "He_Walked_by_Night_1948",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/He_Walked_by_Night_1948/He_Walked_by_Night.mp4",
+      "license": "Open Archive",
+      "description": "Richard Basehart becomes the target of an intense manhunt. You'll find that this copy is sharper than the version that was already here at the Archive."
+    },
+    {
+      "title": "D.O.A.",
+      "year": 1955,
+      "director": "Leo C. Popkin",
+      "archive_id": "doa_ipod",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/doa_ipod/doa.mp4",
+      "license": "Open Archive",
+      "description": "Acclaimed film noir story of man trying desperately to find who has given him a slow-acting fatal dose of radium."
     }
   ],
   "scenes": [
@@ -4503,6 +4533,249 @@
       ],
       "tags": [
         "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "the-detective_scene_1",
+      "movie_id": "the-detective",
+      "scene_number": 1,
+      "start_timecode": "00:33:46",
+      "end_timecode": "00:34:02",
+      "start_seconds": 2026.625375,
+      "end_seconds": 2042.641375,
+      "duration_seconds": 16.016,
+      "video_filename": "the-detective_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "the-detective_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-detective_scene_1_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-detective_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Cinema Collection Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cinema Collection Film Noir' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "the-detective_scene_2",
+      "movie_id": "the-detective",
+      "scene_number": 2,
+      "start_timecode": "00:34:36",
+      "end_timecode": "00:35:18",
+      "start_seconds": 2076.3,
+      "end_seconds": 2118.467125,
+      "duration_seconds": 42.167125,
+      "video_filename": "the-detective_scene_2_42s_1080p.mp4",
+      "keyframe_filename": "the-detective_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-detective_scene_2_42s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-detective_scene_2_thumb.jpg",
+      "transcription": "Dad! Dick! Dick! Dick! Hahaha! Easy boy, easy! Hahaha! Oh, Dick! Hey, you put on weight! Say, I believe you're back to me grown! You look so different yourself! You get my telegram? Yeah, but I didn't sleep once at night. I just kept thinking, now he's left the ranch, and now he's in Chicago. I kept seeing that train coming nearer and nearer. I counted every turn of the wheel. May I come in?",
+      "visual_description": "Sequence from 'Cinema Collection Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cinema Collection Film Noir' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "the-detective_scene_3",
+      "movie_id": "the-detective",
+      "scene_number": 3,
+      "start_timecode": "00:44:13",
+      "end_timecode": "00:44:35",
+      "start_seconds": 2653.001125,
+      "end_seconds": 2675.982416,
+      "duration_seconds": 22.981291,
+      "video_filename": "the-detective_scene_3_22s_1080p.mp4",
+      "keyframe_filename": "the-detective_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-detective_scene_3_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/the-detective_scene_3_thumb.jpg",
+      "transcription": "Okay. And all the little chickens in my morning and... Morning Miss Harlan. Who gets up first? You and the Sun. Well mostly it's neck and neck. Don't maybe you like having me fix back the soy this morning. Oh no, that's my job. Yes I'm gonna steal salt like...",
+      "visual_description": "Sequence from 'Cinema Collection Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cinema Collection Film Noir' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "He_Walked_by_Night_1948_scene_1",
+      "movie_id": "He_Walked_by_Night_1948",
+      "scene_number": 1,
+      "start_timecode": "00:31:38",
+      "end_timecode": "00:31:58",
+      "start_seconds": 1898.174312,
+      "end_seconds": 1918.9416179999998,
+      "duration_seconds": 20.767306,
+      "video_filename": "He_Walked_by_Night_1948_scene_1_20s_1080p.mp4",
+      "keyframe_filename": "He_Walked_by_Night_1948_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/He_Walked_by_Night_1948_scene_1_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/He_Walked_by_Night_1948_scene_1_thumb.jpg",
+      "transcription": "There we go.",
+      "visual_description": "Sequence from 'He Walked by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'He Walked by Night' (1948).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "He_Walked_by_Night_1948_scene_2",
+      "movie_id": "He_Walked_by_Night_1948",
+      "scene_number": 2,
+      "start_timecode": "00:31:58",
+      "end_timecode": "00:32:51",
+      "start_seconds": 1918.9416179999998,
+      "end_seconds": 1971.3603,
+      "duration_seconds": 52.418682,
+      "video_filename": "He_Walked_by_Night_1948_scene_2_52s_1080p.mp4",
+      "keyframe_filename": "He_Walked_by_Night_1948_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/He_Walked_by_Night_1948_scene_2_52s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/He_Walked_by_Night_1948_scene_2_thumb.jpg",
+      "transcription": "I'm going to get out of here. Okay. Thank you.",
+      "visual_description": "Sequence from 'He Walked by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'He Walked by Night' (1948).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "He_Walked_by_Night_1948_scene_3",
+      "movie_id": "He_Walked_by_Night_1948",
+      "scene_number": 3,
+      "start_timecode": "00:32:51",
+      "end_timecode": "00:33:14",
+      "start_seconds": 1971.3603,
+      "end_seconds": 1994.254379,
+      "duration_seconds": 22.894079,
+      "video_filename": "He_Walked_by_Night_1948_scene_3_22s_1080p.mp4",
+      "keyframe_filename": "He_Walked_by_Night_1948_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/He_Walked_by_Night_1948_scene_3_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/He_Walked_by_Night_1948_scene_3_thumb.jpg",
+      "transcription": "Okay. Okay. . . . . . . . . . . . .",
+      "visual_description": "Sequence from 'He Walked by Night' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'He Walked by Night' (1948).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "doa_ipod_scene_1",
+      "movie_id": "doa_ipod",
+      "scene_number": 1,
+      "start_timecode": "00:11:09",
+      "end_timecode": "00:11:37",
+      "start_seconds": 669.0,
+      "end_seconds": 697.1281,
+      "duration_seconds": 28.1281,
+      "video_filename": "doa_ipod_scene_1_28s_1080p.mp4",
+      "keyframe_filename": "doa_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/doa_ipod_scene_1_28s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/doa_ipod_scene_1_thumb.jpg",
+      "transcription": "Is there anything else, Mr. Bigler? Oh, uh, yes, you can get me a dryer and hat and a hatter razor blade. Yes, sir. Thank you. Oh, and, uh, you can leave that door open. Hello, operator. I want to speak to Ms. Paula Gibson in banning California. And that's right. No, I'll wait. Hello? Hello, Paula. Oh, hello, Frank. How was the trip?",
+      "visual_description": "Sequence from 'D.O.A.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'D.O.A.' (1955).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "doa_ipod_scene_2",
+      "movie_id": "doa_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:12:54",
+      "end_timecode": "00:13:02",
+      "start_seconds": 774.6055,
+      "end_seconds": 782.6135,
+      "duration_seconds": 8.008,
+      "video_filename": "doa_ipod_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "doa_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/doa_ipod_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/doa_ipod_scene_2_thumb.jpg",
+      "transcription": "So I told him that he could reach you there this evening. We'll call him back. If it's as important as he says it is, he'll talk to you. Otherwise you'll just have to wait until I get home.",
+      "visual_description": "Sequence from 'D.O.A.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'D.O.A.' (1955).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "doa_ipod_scene_3",
+      "movie_id": "doa_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:21:40",
+      "end_timecode": "00:21:59",
+      "start_seconds": 1300.9313,
+      "end_seconds": 1319.7501,
+      "duration_seconds": 18.8188,
+      "video_filename": "doa_ipod_scene_3_18s_1080p.mp4",
+      "keyframe_filename": "doa_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/doa_ipod_scene_3_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/doa_ipod_scene_3_thumb.jpg",
+      "transcription": "My name is Jeannie. What's your name? Frank. I've never been here before, Frank. Well, I've never been here. This is mine. Mine was bourbon.",
+      "visual_description": "Sequence from 'D.O.A.' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'D.O.A.' (1955).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
         "black and white"
       ]
     }
