@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-12T04:55:24.735608+00:00",
-  "total_movies": 37,
-  "total_scenes": 163,
-  "genre": "film noir",
-  "source": "Internet Archive",
+  "updated_at": "2026-11-12T16:07:38.885686+00:00",
+  "total_movies": 47,
+  "total_scenes": 213,
+  "genre": "any",
+  "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
@@ -375,6 +375,106 @@
       "video_url": "https://archive.org/download/doa_ipod/doa.mp4",
       "license": "Open Archive",
       "description": "Acclaimed film noir story of man trying desperately to find who has given him a slow-acting fatal dose of radium."
+    },
+    {
+      "title": "Escape From Sobibor",
+      "year": 1987,
+      "director": "Jack Gold",
+      "archive_id": "Escape_From_Sobibor.avi",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Escape_From_Sobibor.avi/Escape_from_Sobibor.mp4",
+      "license": "Open Archive",
+      "description": "Alan Arkin and Rutger Hauer star in this award winning movie about the successful mass escape of 300 prisoners from the Sobibor Nazi death camp. Fine acting and production values make this film a worthwhile viewing experience."
+    },
+    {
+      "title": "Killers From Space",
+      "year": 1954,
+      "director": "Unknown Director",
+      "archive_id": "Killers_from_space",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Killers_from_space/Killers_from_space.mp4",
+      "license": "Open Archive",
+      "description": "Attack by monsters from another planet! IMDB page"
+    },
+    {
+      "title": "Utopia",
+      "year": 1951,
+      "director": "Raymond Eger",
+      "archive_id": "utopia",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/utopia/Utopia.mp4",
+      "license": "Open Archive",
+      "description": "Utopia (also known as Atoll K and Robinson Crusoe Land) is last film Laurel and Hardy made together. It was filmed and produced in Europe."
+    },
+    {
+      "title": "Grave of the Vampire",
+      "year": 1974,
+      "director": "Unknown Director",
+      "archive_id": "Grave_of_the_Vampire_movie",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Grave_of_the_Vampire_movie/Grave-of-the-Vampire.mp4",
+      "license": "Open Archive",
+      "description": "William Smith tracks down his father, a vampire who raped his mother. The IMDB entry is here . The mpeg2 file has nav-packets, so you can load it into DVDAuthorGUI (a free program) to create a DVD to watch on your television."
+    },
+    {
+      "title": "Carnival of Souls",
+      "year": 1962,
+      "director": "Unknown Director",
+      "archive_id": "CarnivalofSouls",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/CarnivalofSouls/CarnivalOfSouls.mp4",
+      "license": "Open Archive",
+      "description": "Atmospheric 60s B-horror film with a cult following. Mary Henry is enjoying the day by riding around with two friends but everything goes wrong when challenged to a drag race and their car gets forced off of a bridge. The car sinks into the murky depths, and all three women are assumed drowned. Some time later Mary emerges unscathed from the river. She tries to start a new life by becoming a church organist but Mary finds herself haunted by a ghostly figure that instills fear and dread into her. You can find more information regarding this film on its IMDb page . The director Herk Harvey was also a prolific industrial/educational filmmaker for Centron Productions. Some of those films can be found here"
+    },
+    {
+      "title": "Diary of a Nudist",
+      "year": 1961,
+      "director": "Doris Wishman",
+      "archive_id": "DiaryofaNudist",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/DiaryofaNudist/DiaryofaNudist.mp4",
+      "license": "Open Archive",
+      "description": "The Film follows a reporter (Davee Decker) as she infiltrates a nudist colony in the hopes of exposing its immoral ways. However, once there, she finds herself enjoying it a little bit more than she anticipated. This Film was extremely controversial in 1961 today, films like this are considered to be curiosity pieces."
+    },
+    {
+      "title": "Horror Express",
+      "year": 1973,
+      "director": "Unknown Director",
+      "archive_id": "Horror_Express",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Horror_Express/Horror_Express.mp4",
+      "license": "Open Archive",
+      "description": "In 1906, on a train racing through Siberia, Christopher Lee and Peter Cushing are engulfed in nightmare when a frozen missing link comes to life. You can load the mpeg2 file into DVDAuthorGUI (a free program) and, with the push of a button, quickly create the structure of a DVD to watch on your television (after burning with ImgBurn or the like)."
+    },
+    {
+      "title": "Sita Sings the Blues",
+      "year": 2008,
+      "director": "Nina Paley",
+      "archive_id": "Sita_Sings_the_Blues",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_1080p.mp4",
+      "license": "Open Archive",
+      "description": "Sita is a goddess separated from her beloved Lord and husband Rama. Nina is an animator whose husband moves to India, then dumps her by email. Three hilarious shadow puppets narrate both ancient tragedy and modern comedy in this beautifully animated interpretation of the Indian epic Ramayana. Set to the 1920's jazz vocals of Annette Hanshaw, Sita Sings the Blues earns its tagline as \"the Greatest Break-Up Story Ever Told.\""
+    },
+    {
+      "title": "Three Stooges Episodes",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "3stooges",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/3stooges/3stooges_NewApants2.mp4",
+      "license": "Open Archive",
+      "description": "4 Episodes Of The 3 Stooges. Downloads include: Disorder In The Court Brideless Groom Sing A Song Of Six Pants Malice In The Palace"
+    },
+    {
+      "title": "Invasion of the Bee girls",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "InvasionOfTheBeeGirls",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/InvasionOfTheBeeGirls/InvasionOfTheBeeGirls.mp4",
+      "license": "Open Archive",
+      "description": "This one's about strange women who love their men to death, literally! Maybe the fact that there's a research facility doing top secret experiments might have something to do with the suspicious deaths."
     }
   ],
   "scenes": [
@@ -4776,6 +4876,1356 @@
       ],
       "tags": [
         "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Escape_From_Sobibor.avi_scene_1",
+      "movie_id": "Escape_From_Sobibor.avi",
+      "scene_number": 1,
+      "start_timecode": "00:25:07",
+      "end_timecode": "00:25:25",
+      "start_seconds": 1507.0,
+      "end_seconds": 1525.265221,
+      "duration_seconds": 18.265221,
+      "video_filename": "Escape_From_Sobibor.avi_scene_1_18s_1080p.mp4",
+      "keyframe_filename": "Escape_From_Sobibor.avi_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_1_18s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_1_thumb.jpg",
+      "transcription": "Did you know they shot him? No. It's in the synagogue. Showing the service on Yom Kippur. I was there. Let's go outside.",
+      "visual_description": "Sequence from 'Escape From Sobibor' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Escape From Sobibor' (1987).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Escape_From_Sobibor.avi_scene_2",
+      "movie_id": "Escape_From_Sobibor.avi",
+      "scene_number": 2,
+      "start_timecode": "00:32:23",
+      "end_timecode": "00:32:40",
+      "start_seconds": 1943.238532,
+      "end_seconds": 1960.252711,
+      "duration_seconds": 17.014179,
+      "video_filename": "Escape_From_Sobibor.avi_scene_2_17s_1080p.mp4",
+      "keyframe_filename": "Escape_From_Sobibor.avi_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_2_17s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Escape From Sobibor' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Escape From Sobibor' (1987).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Escape_From_Sobibor.avi_scene_3",
+      "movie_id": "Escape_From_Sobibor.avi",
+      "scene_number": 3,
+      "start_timecode": "00:33:11",
+      "end_timecode": "00:33:28",
+      "start_seconds": 1991.1534609999999,
+      "end_seconds": 2008.042535,
+      "duration_seconds": 16.889074,
+      "video_filename": "Escape_From_Sobibor.avi_scene_3_16s_1080p.mp4",
+      "keyframe_filename": "Escape_From_Sobibor.avi_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_3_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Escape From Sobibor' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Escape From Sobibor' (1987).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Escape_From_Sobibor.avi_scene_4",
+      "movie_id": "Escape_From_Sobibor.avi",
+      "scene_number": 4,
+      "start_timecode": "00:38:34",
+      "end_timecode": "00:38:50",
+      "start_seconds": 2314.5479569999998,
+      "end_seconds": 2330.3110930000003,
+      "duration_seconds": 15.763136,
+      "video_filename": "Escape_From_Sobibor.avi_scene_4_15s_1080p.mp4",
+      "keyframe_filename": "Escape_From_Sobibor.avi_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_4_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_4_thumb.jpg",
+      "transcription": "What the hell is this?",
+      "visual_description": "Sequence from 'Escape From Sobibor' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Escape From Sobibor' (1987).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Escape_From_Sobibor.avi_scene_5",
+      "movie_id": "Escape_From_Sobibor.avi",
+      "scene_number": 5,
+      "start_timecode": "00:39:12",
+      "end_timecode": "00:39:21",
+      "start_seconds": 2352.204337,
+      "end_seconds": 2361.086739,
+      "duration_seconds": 8.882402,
+      "video_filename": "Escape_From_Sobibor.avi_scene_5_8s_1080p.mp4",
+      "keyframe_filename": "Escape_From_Sobibor.avi_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_5_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Escape_From_Sobibor.avi_scene_5_thumb.jpg",
+      "transcription": "Good morning ladies, and how is the work progressing this morning?",
+      "visual_description": "Sequence from 'Escape From Sobibor' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Escape From Sobibor' (1987).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Killers_from_space_scene_1",
+      "movie_id": "Killers_from_space",
+      "scene_number": 1,
+      "start_timecode": "00:31:38",
+      "end_timecode": "00:31:50",
+      "start_seconds": 1898.329,
+      "end_seconds": 1910.1408000000001,
+      "duration_seconds": 11.8118,
+      "video_filename": "Killers_from_space_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "Killers_from_space_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_1_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_1_thumb.jpg",
+      "transcription": "He's coming out of it. It's all right, Dr. Martin, you're with friends. You'll be all right. Let me go! Let me go! That ain't a half-setty duck.",
+      "visual_description": "Sequence from 'Killers From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Killers From Space' (1954).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Killers_from_space_scene_2",
+      "movie_id": "Killers_from_space",
+      "scene_number": 2,
+      "start_timecode": "00:32:09",
+      "end_timecode": "00:32:23",
+      "start_seconds": 1929.0597,
+      "end_seconds": 1943.2739000000001,
+      "duration_seconds": 14.2142,
+      "video_filename": "Killers_from_space_scene_2_14s_1080p.mp4",
+      "keyframe_filename": "Killers_from_space_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_2_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_2_thumb.jpg",
+      "transcription": "What did you give him? So do you, ma'am, at all. True serum to cry with his mind of any imagination. I guess he'll make sense now. I'll get the recorder ready.",
+      "visual_description": "Sequence from 'Killers From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Killers From Space' (1954).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Killers_from_space_scene_3",
+      "movie_id": "Killers_from_space",
+      "scene_number": 3,
+      "start_timecode": "00:32:54",
+      "end_timecode": "00:33:10",
+      "start_seconds": 1974.9055,
+      "end_seconds": 1990.1207,
+      "duration_seconds": 15.2152,
+      "video_filename": "Killers_from_space_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "Killers_from_space_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_3_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_3_thumb.jpg",
+      "transcription": "High five. Before, or you can ask him questions now. Dr. Martin, what were you doing with the information you took from Dr. Kruger's vault?",
+      "visual_description": "Sequence from 'Killers From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Killers From Space' (1954).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Killers_from_space_scene_4",
+      "movie_id": "Killers_from_space",
+      "scene_number": 4,
+      "start_timecode": "00:34:30",
+      "end_timecode": "00:35:00",
+      "start_seconds": 2070.8013,
+      "end_seconds": 2100.8313,
+      "duration_seconds": 30.03,
+      "video_filename": "Killers_from_space_scene_4_30s_1080p.mp4",
+      "keyframe_filename": "Killers_from_space_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_4_30s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_4_thumb.jpg",
+      "transcription": "pulsating in front of me, then one of them lowered it toward my chest, with my own heart. What happened? What is this place? What is this place?",
+      "visual_description": "Sequence from 'Killers From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Killers From Space' (1954).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Killers_from_space_scene_5",
+      "movie_id": "Killers_from_space",
+      "scene_number": 5,
+      "start_timecode": "00:40:35",
+      "end_timecode": "00:41:09",
+      "start_seconds": 2435.0652,
+      "end_seconds": 2469.032467,
+      "duration_seconds": 33.967267,
+      "video_filename": "Killers_from_space_scene_5_33s_1080p.mp4",
+      "keyframe_filename": "Killers_from_space_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_5_33s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Killers_from_space_scene_5_thumb.jpg",
+      "transcription": "During the twenty-third time rotation, our sun began to die. So, during the succeeding generations, as our planet began to cool, vegetation began to disappear. Our eyes developed to this state to combat the ever-growing darkness. We were forced to migrate. You left your planet? Where? We invaded these neighboring planets.",
+      "visual_description": "Sequence from 'Killers From Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Killers From Space' (1954).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "utopia_scene_1",
+      "movie_id": "utopia",
+      "scene_number": 1,
+      "start_timecode": "00:06:08",
+      "end_timecode": "00:06:19",
+      "start_seconds": 368.1581,
+      "end_seconds": 379.5695,
+      "duration_seconds": 11.4114,
+      "video_filename": "utopia_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "utopia_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_1_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_1_thumb.jpg",
+      "transcription": "Take a look. Here's your little boat channel.",
+      "visual_description": "Sequence from 'Utopia' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Utopia' (1951).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "utopia_scene_2",
+      "movie_id": "utopia",
+      "scene_number": 2,
+      "start_timecode": "00:06:25",
+      "end_timecode": "00:06:41",
+      "start_seconds": 385.075,
+      "end_seconds": 401.7917,
+      "duration_seconds": 16.7167,
+      "video_filename": "utopia_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "utopia_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_2_thumb.jpg",
+      "transcription": "I'm running this boat and let you get on it. Why beg your pardon? Don't be. How much? 19,000 away. Thank you, sir. I'm ball boy I. I mentioned the truth. Good day. From tomorrow. Thank you. It's a good thing you didn't take the truth.",
+      "visual_description": "Sequence from 'Utopia' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Utopia' (1951).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "utopia_scene_3",
+      "movie_id": "utopia",
+      "scene_number": 3,
+      "start_timecode": "00:06:41",
+      "end_timecode": "00:07:06",
+      "start_seconds": 401.7917,
+      "end_seconds": 426.2161,
+      "duration_seconds": 24.4244,
+      "video_filename": "utopia_scene_3_24s_1080p.mp4",
+      "keyframe_filename": "utopia_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_3_24s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_3_thumb.jpg",
+      "transcription": "Thanks a lot for reminding me. I forgot about it. Thank you. Thank you. It's much too much too much. What did you have to open your big mouth for? Well, I didn't know it was going to take it. Come on in. Let's take a look at the flow.",
+      "visual_description": "Sequence from 'Utopia' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Utopia' (1951).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "utopia_scene_4",
+      "movie_id": "utopia",
+      "scene_number": 4,
+      "start_timecode": "00:07:28",
+      "end_timecode": "00:07:40",
+      "start_seconds": 448.13800000000003,
+      "end_seconds": 460.15,
+      "duration_seconds": 12.012,
+      "video_filename": "utopia_scene_4_12s_1080p.mp4",
+      "keyframe_filename": "utopia_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_4_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_4_thumb.jpg",
+      "transcription": "Two.",
+      "visual_description": "Sequence from 'Utopia' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Utopia' (1951).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "utopia_scene_5",
+      "movie_id": "utopia",
+      "scene_number": 5,
+      "start_timecode": "00:14:01",
+      "end_timecode": "00:14:26",
+      "start_seconds": 841.3308,
+      "end_seconds": 866.1556,
+      "duration_seconds": 24.8248,
+      "video_filename": "utopia_scene_5_24s_1080p.mp4",
+      "keyframe_filename": "utopia_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_5_24s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/utopia_scene_5_thumb.jpg",
+      "transcription": "Thing sheet plywood. Vick sheet plywood.",
+      "visual_description": "Sequence from 'Utopia' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Utopia' (1951).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Grave_of_the_Vampire_movie_scene_1",
+      "movie_id": "Grave_of_the_Vampire_movie",
+      "scene_number": 1,
+      "start_timecode": "00:27:50",
+      "end_timecode": "00:28:02",
+      "start_seconds": 1670.002875,
+      "end_seconds": 1682.1399999999999,
+      "duration_seconds": 12.137125,
+      "video_filename": "Grave_of_the_Vampire_movie_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "Grave_of_the_Vampire_movie_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_1_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Grave of the Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Grave of the Vampire' (1974).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Grave_of_the_Vampire_movie_scene_2",
+      "movie_id": "Grave_of_the_Vampire_movie",
+      "scene_number": 2,
+      "start_timecode": "00:35:08",
+      "end_timecode": "00:35:20",
+      "start_seconds": 2108.0655,
+      "end_seconds": 2120.0775,
+      "duration_seconds": 12.012,
+      "video_filename": "Grave_of_the_Vampire_movie_scene_2_12s_1080p.mp4",
+      "keyframe_filename": "Grave_of_the_Vampire_movie_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_2_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_2_thumb.jpg",
+      "transcription": "I'm determined to destroy him. I've tracked him from country to country to the colleges and universities where he finds a fresh young bloody craze. Luck or an animal sense of danger keeps him always once.",
+      "visual_description": "Sequence from 'Grave of the Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Grave of the Vampire' (1974).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Grave_of_the_Vampire_movie_scene_3",
+      "movie_id": "Grave_of_the_Vampire_movie",
+      "scene_number": 3,
+      "start_timecode": "00:39:41",
+      "end_timecode": "00:39:51",
+      "start_seconds": 2381.713875,
+      "end_seconds": 2391.473625,
+      "duration_seconds": 9.75975,
+      "video_filename": "Grave_of_the_Vampire_movie_scene_3_9s_1080p.mp4",
+      "keyframe_filename": "Grave_of_the_Vampire_movie_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_3_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_3_thumb.jpg",
+      "transcription": "I know this.",
+      "visual_description": "Sequence from 'Grave of the Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Grave of the Vampire' (1974).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Grave_of_the_Vampire_movie_scene_4",
+      "movie_id": "Grave_of_the_Vampire_movie",
+      "scene_number": 4,
+      "start_timecode": "00:39:51",
+      "end_timecode": "00:40:04",
+      "start_seconds": 2391.473625,
+      "end_seconds": 2404.3615,
+      "duration_seconds": 12.887875,
+      "video_filename": "Grave_of_the_Vampire_movie_scene_4_12s_1080p.mp4",
+      "keyframe_filename": "Grave_of_the_Vampire_movie_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_4_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_4_thumb.jpg",
+      "transcription": "As some of you are lawyers, teachers, board house-wise with nothing better to do with their evening. But with any luck, a few may learn something.",
+      "visual_description": "Sequence from 'Grave of the Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Grave of the Vampire' (1974).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Grave_of_the_Vampire_movie_scene_5",
+      "movie_id": "Grave_of_the_Vampire_movie",
+      "scene_number": 5,
+      "start_timecode": "00:40:04",
+      "end_timecode": "00:40:17",
+      "start_seconds": 2404.3615,
+      "end_seconds": 2417.62475,
+      "duration_seconds": 13.26325,
+      "video_filename": "Grave_of_the_Vampire_movie_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "Grave_of_the_Vampire_movie_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_5_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Grave_of_the_Vampire_movie_scene_5_thumb.jpg",
+      "transcription": "My name is Lockwood, Professor Adrian Lockwood.",
+      "visual_description": "Sequence from 'Grave of the Vampire' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Grave of the Vampire' (1974).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CarnivalofSouls_scene_1",
+      "movie_id": "CarnivalofSouls",
+      "scene_number": 1,
+      "start_timecode": "00:28:02",
+      "end_timecode": "00:28:13",
+      "start_seconds": 1682.7317,
+      "end_seconds": 1693.7427,
+      "duration_seconds": 11.011,
+      "video_filename": "CarnivalofSouls_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "CarnivalofSouls_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_1_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Carnival of Souls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Carnival of Souls' (1962).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CarnivalofSouls_scene_2",
+      "movie_id": "CarnivalofSouls",
+      "scene_number": 2,
+      "start_timecode": "00:28:45",
+      "end_timecode": "00:29:09",
+      "start_seconds": 1725.7747,
+      "end_seconds": 1749.3983,
+      "duration_seconds": 23.6236,
+      "video_filename": "CarnivalofSouls_scene_2_23s_1080p.mp4",
+      "keyframe_filename": "CarnivalofSouls_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_2_23s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_2_thumb.jpg",
+      "transcription": "Mr. Chairman, it's Ms. Thomas. Mr. Chairman, please.",
+      "visual_description": "Sequence from 'Carnival of Souls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Carnival of Souls' (1962).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CarnivalofSouls_scene_3",
+      "movie_id": "CarnivalofSouls",
+      "scene_number": 3,
+      "start_timecode": "00:33:04",
+      "end_timecode": "00:33:14",
+      "start_seconds": 1984.7334,
+      "end_seconds": 1994.9436,
+      "duration_seconds": 10.2102,
+      "video_filename": "CarnivalofSouls_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "CarnivalofSouls_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_3_thumb.jpg",
+      "transcription": "I guess you took a wrong last night about the comin' to your door and all that. I'm not a very sociable person over the now. How can I resist an inducement like...",
+      "visual_description": "Sequence from 'Carnival of Souls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Carnival of Souls' (1962).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CarnivalofSouls_scene_4",
+      "movie_id": "CarnivalofSouls",
+      "scene_number": 4,
+      "start_timecode": "00:37:10",
+      "end_timecode": "00:37:28",
+      "start_seconds": 2230.7792,
+      "end_seconds": 2248.0965,
+      "duration_seconds": 17.3173,
+      "video_filename": "CarnivalofSouls_scene_4_17s_1080p.mp4",
+      "keyframe_filename": "CarnivalofSouls_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_4_17s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_4_thumb.jpg",
+      "transcription": "God bless you.",
+      "visual_description": "Sequence from 'Carnival of Souls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Carnival of Souls' (1962).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CarnivalofSouls_scene_5",
+      "movie_id": "CarnivalofSouls",
+      "scene_number": 5,
+      "start_timecode": "00:40:26",
+      "end_timecode": "00:40:35",
+      "start_seconds": 2426.775,
+      "end_seconds": 2435.1834,
+      "duration_seconds": 8.4084,
+      "video_filename": "CarnivalofSouls_scene_5_8s_1080p.mp4",
+      "keyframe_filename": "CarnivalofSouls_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_5_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CarnivalofSouls_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Carnival of Souls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Carnival of Souls' (1962).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DiaryofaNudist_scene_1",
+      "movie_id": "DiaryofaNudist",
+      "scene_number": 1,
+      "start_timecode": "00:19:33",
+      "end_timecode": "00:19:46",
+      "start_seconds": 1173.547548,
+      "end_seconds": 1186.960961,
+      "duration_seconds": 13.413413,
+      "video_filename": "DiaryofaNudist_scene_1_13s_1080p.mp4",
+      "keyframe_filename": "DiaryofaNudist_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_1_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_1_thumb.jpg",
+      "transcription": "We've solved that problem rather easily without air conditioners. I hope you'll excuse my frankness, but it's obvious that this is all new to you. You've never been a member of a nudist camp before, have you?",
+      "visual_description": "Sequence from 'Diary of a Nudist' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Diary of a Nudist' (1961).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DiaryofaNudist_scene_2",
+      "movie_id": "DiaryofaNudist",
+      "scene_number": 2,
+      "start_timecode": "00:20:45",
+      "end_timecode": "00:20:53",
+      "start_seconds": 1245.319319,
+      "end_seconds": 1253.827828,
+      "duration_seconds": 8.508509,
+      "video_filename": "DiaryofaNudist_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "DiaryofaNudist_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_2_thumb.jpg",
+      "transcription": "Well, that seems to tell me what I want to know. Of course, it is necessary that we do a certain amount of investigation before we can accept you.",
+      "visual_description": "Sequence from 'Diary of a Nudist' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Diary of a Nudist' (1961).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DiaryofaNudist_scene_3",
+      "movie_id": "DiaryofaNudist",
+      "scene_number": 3,
+      "start_timecode": "00:23:58",
+      "end_timecode": "00:24:12",
+      "start_seconds": 1438.712713,
+      "end_seconds": 1452.8268269999999,
+      "duration_seconds": 14.114114,
+      "video_filename": "DiaryofaNudist_scene_3_14s_1080p.mp4",
+      "keyframe_filename": "DiaryofaNudist_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_3_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_3_thumb.jpg",
+      "transcription": "Well, that's not it. There's no turning back now.",
+      "visual_description": "Sequence from 'Diary of a Nudist' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Diary of a Nudist' (1961).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DiaryofaNudist_scene_4",
+      "movie_id": "DiaryofaNudist",
+      "scene_number": 4,
+      "start_timecode": "00:29:51",
+      "end_timecode": "00:30:23",
+      "start_seconds": 1791.865866,
+      "end_seconds": 1823.697698,
+      "duration_seconds": 31.831832,
+      "video_filename": "DiaryofaNudist_scene_4_31s_1080p.mp4",
+      "keyframe_filename": "DiaryofaNudist_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_4_31s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_4_thumb.jpg",
+      "transcription": "Folks, this is Stacy. She's a new member. Oh, hello there. Why don't you all look as though you're having a good time? Oh, yes. It's just wonderful here. I understand it's your anniversary. Congratulations. Thank you. This is a beautiful spot here. Why don't you join us? Yes, why don't you? I'm going to show Stacy around. See you. It was nice meeting you all. Bye. Bye-bye. Come on. I'm trying this any time. Bye-bye.",
+      "visual_description": "Sequence from 'Diary of a Nudist' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Diary of a Nudist' (1961).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DiaryofaNudist_scene_5",
+      "movie_id": "DiaryofaNudist",
+      "scene_number": 5,
+      "start_timecode": "00:33:18",
+      "end_timecode": "00:33:45",
+      "start_seconds": 1998.672673,
+      "end_seconds": 2025.9666339999999,
+      "duration_seconds": 27.293961,
+      "video_filename": "DiaryofaNudist_scene_5_27s_1080p.mp4",
+      "keyframe_filename": "DiaryofaNudist_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_5_27s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DiaryofaNudist_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Diary of a Nudist' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Diary of a Nudist' (1961).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Horror_Express_scene_1",
+      "movie_id": "Horror_Express",
+      "scene_number": 1,
+      "start_timecode": "00:16:54",
+      "end_timecode": "00:17:24",
+      "start_seconds": 1014.2921249999999,
+      "end_seconds": 1044.071875,
+      "duration_seconds": 29.77975,
+      "video_filename": "Horror_Express_scene_1_29s_1080p.mp4",
+      "keyframe_filename": "Horror_Express_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_1_29s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_1_thumb.jpg",
+      "transcription": "The fresh food we will pick up. Who will pay for it, sir? Oh, just give me the count of how much you spend. If someone were to drill a little hole in this drape during the night and take a look at what's inside, I'd be very grateful.",
+      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Horror Express' (1973).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Horror_Express_scene_2",
+      "movie_id": "Horror_Express",
+      "scene_number": 2,
+      "start_timecode": "00:17:24",
+      "end_timecode": "00:17:32",
+      "start_seconds": 1044.071875,
+      "end_seconds": 1052.205,
+      "duration_seconds": 8.133125,
+      "video_filename": "Horror_Express_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "Horror_Express_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_2_thumb.jpg",
+      "transcription": "Mm hmm.",
+      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Horror Express' (1973).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Horror_Express_scene_3",
+      "movie_id": "Horror_Express",
+      "scene_number": 3,
+      "start_timecode": "00:20:10",
+      "end_timecode": "00:20:51",
+      "start_seconds": 1210.738375,
+      "end_seconds": 1251.779375,
+      "duration_seconds": 41.041,
+      "video_filename": "Horror_Express_scene_3_41s_1080p.mp4",
+      "keyframe_filename": "Horror_Express_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_3_41s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_3_thumb.jpg",
+      "transcription": "MUSIC You",
+      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Horror Express' (1973).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Horror_Express_scene_4",
+      "movie_id": "Horror_Express",
+      "scene_number": 4,
+      "start_timecode": "00:23:05",
+      "end_timecode": "00:23:13",
+      "start_seconds": 1385.162625,
+      "end_seconds": 1393.7962499999999,
+      "duration_seconds": 8.633625,
+      "video_filename": "Horror_Express_scene_4_8s_1080p.mp4",
+      "keyframe_filename": "Horror_Express_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_4_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_4_thumb.jpg",
+      "transcription": "Oh, forgive me your excellency, I'm concerned for the spiritual welfare of the",
+      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Horror Express' (1973).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Horror_Express_scene_5",
+      "movie_id": "Horror_Express",
+      "scene_number": 5,
+      "start_timecode": "00:24:08",
+      "end_timecode": "00:24:31",
+      "start_seconds": 1448.976375,
+      "end_seconds": 1471.37375,
+      "duration_seconds": 22.397375,
+      "video_filename": "Horror_Express_scene_5_22s_1080p.mp4",
+      "keyframe_filename": "Horror_Express_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_5_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Horror_Express_scene_5_thumb.jpg",
+      "transcription": "See you next time!",
+      "visual_description": "Sequence from 'Horror Express' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Horror Express' (1973).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Sita_Sings_the_Blues_scene_1",
+      "movie_id": "Sita_Sings_the_Blues",
+      "scene_number": 1,
+      "start_timecode": "00:17:51",
+      "end_timecode": "00:18:01",
+      "start_seconds": 1071.6105,
+      "end_seconds": 1081.12,
+      "duration_seconds": 9.5095,
+      "video_filename": "Sita_Sings_the_Blues_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "Sita_Sings_the_Blues_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_1_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_1_thumb.jpg",
+      "transcription": "Transform yourself into a beautiful golden deer to distract Rama while Sita is unguarded.",
+      "visual_description": "Sequence from 'Sita Sings the Blues' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sita Sings the Blues' (2008).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Sita_Sings_the_Blues_scene_2",
+      "movie_id": "Sita_Sings_the_Blues",
+      "scene_number": 2,
+      "start_timecode": "00:21:27",
+      "end_timecode": "00:22:02",
+      "start_seconds": 1287.951625,
+      "end_seconds": 1322.486125,
+      "duration_seconds": 34.5345,
+      "video_filename": "Sita_Sings_the_Blues_scene_2_34s_1080p.mp4",
+      "keyframe_filename": "Sita_Sings_the_Blues_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_2_34s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_2_thumb.jpg",
+      "transcription": "I'll never leave him alone, I'll make you troubled my own, I'll love that man better than I'd do myself, I'm just no good when his arms are about me, what wouldn't I do for that man, oh there's not a thing I wouldn't do for my man. That girl.",
+      "visual_description": "Sequence from 'Sita Sings the Blues' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sita Sings the Blues' (2008).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Sita_Sings_the_Blues_scene_3",
+      "movie_id": "Sita_Sings_the_Blues",
+      "scene_number": 3,
+      "start_timecode": "00:24:29",
+      "end_timecode": "00:24:45",
+      "start_seconds": 1469.633125,
+      "end_seconds": 1485.2737499999998,
+      "duration_seconds": 15.640625,
+      "video_filename": "Sita_Sings_the_Blues_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "Sita_Sings_the_Blues_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_3_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_3_thumb.jpg",
+      "transcription": "Thanks for watching, and I'll see you in the next video.",
+      "visual_description": "Sequence from 'Sita Sings the Blues' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sita Sings the Blues' (2008).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Sita_Sings_the_Blues_scene_4",
+      "movie_id": "Sita_Sings_the_Blues",
+      "scene_number": 4,
+      "start_timecode": "00:29:22",
+      "end_timecode": "00:29:36",
+      "start_seconds": 1762.05025,
+      "end_seconds": 1776.689875,
+      "duration_seconds": 14.639625,
+      "video_filename": "Sita_Sings_the_Blues_scene_4_14s_1080p.mp4",
+      "keyframe_filename": "Sita_Sings_the_Blues_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_4_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Sita Sings the Blues' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sita Sings the Blues' (2008).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Sita_Sings_the_Blues_scene_5",
+      "movie_id": "Sita_Sings_the_Blues",
+      "scene_number": 5,
+      "start_timecode": "00:30:03",
+      "end_timecode": "00:30:11",
+      "start_seconds": 1803.716875,
+      "end_seconds": 1811.975125,
+      "duration_seconds": 8.25825,
+      "video_filename": "Sita_Sings_the_Blues_scene_5_8s_1080p.mp4",
+      "keyframe_filename": "Sita_Sings_the_Blues_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_5_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Sita_Sings_the_Blues_scene_5_thumb.jpg",
+      "transcription": "We've got it, even the clock keeps ticking Daddy won't you please come home",
+      "visual_description": "Sequence from 'Sita Sings the Blues' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Sita Sings the Blues' (2008).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "3stooges_scene_1",
+      "movie_id": "3stooges",
+      "scene_number": 1,
+      "start_timecode": "00:13:57",
+      "end_timecode": "00:14:17",
+      "start_seconds": 837.6,
+      "end_seconds": 857.2,
+      "duration_seconds": 19.6,
+      "video_filename": "3stooges_scene_1_19s_1080p.mp4",
+      "keyframe_filename": "3stooges_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_1_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_1_thumb.jpg",
+      "transcription": "Where's that guy was here? He wasn't that away. Oh, I'll get him out. Why? I'll cut it out with you. Thank you.",
+      "visual_description": "Sequence from 'Three Stooges Episodes' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Three Stooges Episodes' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "3stooges_scene_2",
+      "movie_id": "3stooges",
+      "scene_number": 2,
+      "start_timecode": "00:14:23",
+      "end_timecode": "00:14:38",
+      "start_seconds": 863.0,
+      "end_seconds": 878.2,
+      "duration_seconds": 15.2,
+      "video_filename": "3stooges_scene_2_15s_1080p.mp4",
+      "keyframe_filename": "3stooges_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_2_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_2_thumb.jpg",
+      "transcription": "All right, come across with that paper. Oh, the paper? Yes, the paper. When did you say so? There it is. Whoa! Ow! Hey, Larry!",
+      "visual_description": "Sequence from 'Three Stooges Episodes' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Three Stooges Episodes' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "3stooges_scene_3",
+      "movie_id": "3stooges",
+      "scene_number": 3,
+      "start_timecode": "00:14:54",
+      "end_timecode": "00:15:03",
+      "start_seconds": 894.0,
+      "end_seconds": 903.8,
+      "duration_seconds": 9.8,
+      "video_filename": "3stooges_scene_3_9s_1080p.mp4",
+      "keyframe_filename": "3stooges_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_3_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_3_thumb.jpg",
+      "transcription": "You talk now. Hey, shut up. I wear that piece. Hey, I haven't got.",
+      "visual_description": "Sequence from 'Three Stooges Episodes' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Three Stooges Episodes' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "3stooges_scene_4",
+      "movie_id": "3stooges",
+      "scene_number": 4,
+      "start_timecode": "00:15:03",
+      "end_timecode": "00:15:14",
+      "start_seconds": 903.8,
+      "end_seconds": 914.2,
+      "duration_seconds": 10.4,
+      "video_filename": "3stooges_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "3stooges_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_4_thumb.jpg",
+      "transcription": "Oh, still won't talk. Oh, oh, oh, oh! Oh, I didn't mean it. I didn't mean it. Honest, I did. No, no, no. Oh, oh, oh!",
+      "visual_description": "Sequence from 'Three Stooges Episodes' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Three Stooges Episodes' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "3stooges_scene_5",
+      "movie_id": "3stooges",
+      "scene_number": 5,
+      "start_timecode": "00:15:16",
+      "end_timecode": "00:15:33",
+      "start_seconds": 916.4,
+      "end_seconds": 933.2,
+      "duration_seconds": 16.8,
+      "video_filename": "3stooges_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "3stooges_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_5_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/3stooges_scene_5_thumb.jpg",
+      "transcription": "Oh, he's had a steaming.",
+      "visual_description": "Sequence from 'Three Stooges Episodes' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Three Stooges Episodes' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirls_scene_1",
+      "movie_id": "InvasionOfTheBeeGirls",
+      "scene_number": 1,
+      "start_timecode": "00:10:18",
+      "end_timecode": "00:10:27",
+      "start_seconds": 618.878879,
+      "end_seconds": 627.987988,
+      "duration_seconds": 9.109109,
+      "video_filename": "InvasionOfTheBeeGirls_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirls_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_1_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Invasion of the Bee girls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Invasion of the Bee girls' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirls_scene_2",
+      "movie_id": "InvasionOfTheBeeGirls",
+      "scene_number": 2,
+      "start_timecode": "00:10:37",
+      "end_timecode": "00:10:58",
+      "start_seconds": 637.097097,
+      "end_seconds": 658.818819,
+      "duration_seconds": 21.721722,
+      "video_filename": "InvasionOfTheBeeGirls_scene_2_21s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirls_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_2_21s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_2_thumb.jpg",
+      "transcription": "a lot of sex games that go on and wife swapping and a lot of related nonsense. Scientists really aren't any different from the rest of humanity. Just a bit more inventive as all. Excuse me. Am I boring, illustrator? I'm sorry. You were saying?",
+      "visual_description": "Sequence from 'Invasion of the Bee girls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Invasion of the Bee girls' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirls_scene_3",
+      "movie_id": "InvasionOfTheBeeGirls",
+      "scene_number": 3,
+      "start_timecode": "00:16:35",
+      "end_timecode": "00:16:45",
+      "start_seconds": 995.155155,
+      "end_seconds": 1005.365365,
+      "duration_seconds": 10.21021,
+      "video_filename": "InvasionOfTheBeeGirls_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirls_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_3_thumb.jpg",
+      "transcription": "ice a bird. Remember boys there's always the six sevens below the surface.",
+      "visual_description": "Sequence from 'Invasion of the Bee girls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Invasion of the Bee girls' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirls_scene_4",
+      "movie_id": "InvasionOfTheBeeGirls",
+      "scene_number": 4,
+      "start_timecode": "00:16:50",
+      "end_timecode": "00:17:07",
+      "start_seconds": 1010.27027,
+      "end_seconds": 1027.0870869999999,
+      "duration_seconds": 16.816817,
+      "video_filename": "InvasionOfTheBeeGirls_scene_4_16s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirls_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_4_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_4_thumb.jpg",
+      "transcription": "If anyone can have you with Grubowski's preliminary state of health bio, Dr. Lyons can. Good. That's strange. He said he'd be here in a few minutes.",
+      "visual_description": "Sequence from 'Invasion of the Bee girls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Invasion of the Bee girls' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirls_scene_5",
+      "movie_id": "InvasionOfTheBeeGirls",
+      "scene_number": 5,
+      "start_timecode": "00:19:25",
+      "end_timecode": "00:19:41",
+      "start_seconds": 1165.125125,
+      "end_seconds": 1181.541542,
+      "duration_seconds": 16.416417,
+      "video_filename": "InvasionOfTheBeeGirls_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirls_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_5_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InvasionOfTheBeeGirls_scene_5_thumb.jpg",
+      "transcription": "One, all the victims have been men. Two, all the men have been residents of Peckham. And third, they've all died apparently, and they're like the stress of the word apparently, by over-exhaust in the act of sexual intercourse.",
+      "visual_description": "Sequence from 'Invasion of the Bee girls' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Invasion of the Bee girls' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "classic cinema",
         "black and white"
       ]
     }
