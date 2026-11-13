@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-12T16:07:38.885686+00:00",
-  "total_movies": 47,
-  "total_scenes": 213,
-  "genre": "any",
-  "source": "Any / Blended",
+  "updated_at": "2026-11-13T04:54:19.771789+00:00",
+  "total_movies": 50,
+  "total_scenes": 221,
+  "genre": "film noir",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
@@ -475,6 +475,36 @@
       "video_url": "https://archive.org/download/InvasionOfTheBeeGirls/InvasionOfTheBeeGirls.mp4",
       "license": "Open Archive",
       "description": "This one's about strange women who love their men to death, literally! Maybe the fact that there's a research facility doing top secret experiments might have something to do with the suspicious deaths."
+    },
+    {
+      "title": "The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies",
+      "year": 1955,
+      "director": "Unknown Director",
+      "archive_id": "themanwiththegoldenarm1955_202001",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/themanwiththegoldenarm1955_202001/The Man with the Golden Arm (1955, USA) Featuring Frank Sinatra, Kim Novak - Film Noir Full Movies.mp4",
+      "license": "Open Archive",
+      "description": "The Man with the Golden Arm is a 1955 American drama film with elements of film noir, based on the novel of the same name by Nelson Algren. The film stars Frank Sinatra, Eleanor Parker, Kim Novak, Arnold Stang and Darren McGavin. It was adapted for the screen by Walter Newman, Lewis Meltzer and Ben Hecht (uncredited), and directed by Otto Preminger. Wikipedia: https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Arm Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "City That Never Sleeps (1953) Gig Young, William Talman - Film Noir",
+      "year": 1953,
+      "director": "Unknown Director",
+      "archive_id": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie/City That Never Sleeps  (1953, USA) Featuring  Gig Young, William Talman - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "City That Never Sleeps is a 1953 American film noir crime film directed by John H. Auer and starring Gig Young, Mala Powers, William Talman, Edward Arnold, Chill Wills, Marie Windsor, and Paula Raymond, with cinematography by John L. Russell. Wikipedia: https://en.wikipedia.org/wiki/City_That_Never_Sleeps Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack",
+      "year": 1947,
+      "director": "Unknown Director",
+      "archive_id": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack/Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack.ia.mp4",
+      "license": "Open Archive",
+      "description": "Odd Man Out is a 1947 British film NOlR directed by Carol Reed, and starring James Mason, Robert Newton, Cyril Cusack, and Kathleen Ryan. Set in a Northern Irish city, it follows a wounded Nationalist leader who attempts to evade police in the aftermath of a robbery. It is based on the 1945 novel of the same name by F. L. Green. \u00a0 The film received the first BAFTA Award for Best British Film, and was also nominated for the Academy Award for Best Film Editing. Filmmaker Roman Polanski repeatedly cited Odd Man Out as his favourite film. \u00a0 You can find out more about this movie from Wikipedia and Film Noir of the Week and Irish Central and Deep Focus Review ."
     }
   ],
   "scenes": [
@@ -968,19 +998,19 @@
       "scene_id": "themanwiththegoldenarm1955_202001_scene_1",
       "movie_id": "themanwiththegoldenarm1955_202001",
       "scene_number": 1,
-      "start_timecode": "00:14:34",
-      "end_timecode": "00:14:44",
-      "start_seconds": 874.0,
-      "end_seconds": 884.5105,
-      "duration_seconds": 10.5105,
-      "video_filename": "themanwiththegoldenarm1955_202001_scene_1_10s_1080p.mp4",
+      "start_timecode": "00:25:51",
+      "end_timecode": "00:26:08",
+      "start_seconds": 1551.97775,
+      "end_seconds": 1568.244,
+      "duration_seconds": 16.26625,
+      "video_filename": "themanwiththegoldenarm1955_202001_scene_1_16s_1080p.mp4",
       "keyframe_filename": "themanwiththegoldenarm1955_202001_scene_1_thumb.jpg",
-      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_1_10s_1080p.mp4",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_1_16s_1080p.mp4",
       "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_1_thumb.jpg",
-      "transcription": "I think I got caught on now. Now? Let's talk about it tomorrow. It'll be right up, Zeiss. You ain't even tasted the cake. It'll only be a minute. I'll be right up. No, no.",
+      "transcription": "You want to die, and here we go, down and dirty. Hey.",
       "visual_description": "Sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' featuring dramatic lighting and atmospheric framing.",
       "synopsis": "Dramatic character sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' (1955).",
-      "mood": "Paranoid",
+      "mood": "Fatalistic",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
@@ -6226,6 +6256,222 @@
       ],
       "tags": [
         "classic cinema",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "themanwiththegoldenarm1955_202001_scene_2",
+      "movie_id": "themanwiththegoldenarm1955_202001",
+      "scene_number": 2,
+      "start_timecode": "00:29:33",
+      "end_timecode": "00:30:31",
+      "start_seconds": 1773.073625,
+      "end_seconds": 1831.75725,
+      "duration_seconds": 58.683625,
+      "video_filename": "themanwiththegoldenarm1955_202001_scene_2_58s_1080p.mp4",
+      "keyframe_filename": "themanwiththegoldenarm1955_202001_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_2_58s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_2_thumb.jpg",
+      "transcription": "I mean it. You got a natural rhythm. I was thinking maybe I'd take a stage name. Jack Duvall. Look Duvall. Yeah, that's real class. It is, ain't it? That's a swell name. Just picture Frank. This guy I'm going to see tomorrow. He books all the big bands. If I get in with him boy, wear a tux. You look swollen to us. I already got the drums. I... I need a buck. Addy up kiddo. I got lonely. I needed somebody and he's a... old big guy who needs somebody too. Everybody needs somebody. But you can do better than him.",
+      "visual_description": "Sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' (1955).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "themanwiththegoldenarm1955_202001_scene_3",
+      "movie_id": "themanwiththegoldenarm1955_202001",
+      "scene_number": 3,
+      "start_timecode": "00:34:00",
+      "end_timecode": "00:34:13",
+      "start_seconds": 2040.340625,
+      "end_seconds": 2053.97925,
+      "duration_seconds": 13.638625,
+      "video_filename": "themanwiththegoldenarm1955_202001_scene_3_13s_1080p.mp4",
+      "keyframe_filename": "themanwiththegoldenarm1955_202001_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_3_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/themanwiththegoldenarm1955_202001_scene_3_thumb.jpg",
+      "transcription": "Excuse me, I have. Hello? Oh.",
+      "visual_description": "Sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Man With The Golden Arm (1955) Frank Sinatra, Kim Novak - Film Noir Full Movies' (1955).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_1",
+      "movie_id": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie",
+      "scene_number": 1,
+      "start_timecode": "00:16:12",
+      "end_timecode": "00:16:25",
+      "start_seconds": 972.1,
+      "end_seconds": 985.0,
+      "duration_seconds": 12.9,
+      "video_filename": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_1_thumb.jpg",
+      "transcription": "I know you're busy darling, so I'm going over to Helen's for a while. Did you have to call me in here to tell her that? I wanted to say goodbye.",
+      "visual_description": "Sequence from 'City That Never Sleeps (1953) Gig Young, William Talman - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City That Never Sleeps (1953) Gig Young, William Talman - Film Noir' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_2",
+      "movie_id": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie",
+      "scene_number": 2,
+      "start_timecode": "00:16:33",
+      "end_timecode": "00:16:44",
+      "start_seconds": 993.4,
+      "end_seconds": 1004.3,
+      "duration_seconds": 10.9,
+      "video_filename": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_2_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_2_thumb.jpg",
+      "transcription": "Don't worry. I'm good. You're my best to hell, I'm...",
+      "visual_description": "Sequence from 'City That Never Sleeps (1953) Gig Young, William Talman - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City That Never Sleeps (1953) Gig Young, William Talman - Film Noir' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_3",
+      "movie_id": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie",
+      "scene_number": 3,
+      "start_timecode": "00:23:41",
+      "end_timecode": "00:23:51",
+      "start_seconds": 1421.7,
+      "end_seconds": 1431.2,
+      "duration_seconds": 9.5,
+      "video_filename": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_3_9s_1080p.mp4",
+      "keyframe_filename": "citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_3_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/citythatneversleeps1953usafeaturinggigyoungwilliamtalmanfilmnoirfullmovie_scene_3_thumb.jpg",
+      "transcription": "I am not alone I am not alone I am not alone",
+      "visual_description": "Sequence from 'City That Never Sleeps (1953) Gig Young, William Talman - Film Noir' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'City That Never Sleeps (1953) Gig Young, William Talman - Film Noir' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_1",
+      "movie_id": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack",
+      "scene_number": 1,
+      "start_timecode": "00:26:39",
+      "end_timecode": "00:26:59",
+      "start_seconds": 1599.5575,
+      "end_seconds": 1619.32725,
+      "duration_seconds": 19.76975,
+      "video_filename": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_1_19s_1080p.mp4",
+      "keyframe_filename": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_1_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_1_thumb.jpg",
+      "transcription": "It's all right here, Miley. No, but... Now what's wrong? I don't want to. Is that your word?",
+      "visual_description": "Sequence from 'Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack' (1947).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_2",
+      "movie_id": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack",
+      "scene_number": 2,
+      "start_timecode": "00:30:56",
+      "end_timecode": "00:31:35",
+      "start_seconds": 1856.4391249999999,
+      "end_seconds": 1895.8535,
+      "duration_seconds": 39.414375,
+      "video_filename": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_2_39s_1080p.mp4",
+      "keyframe_filename": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_2_39s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_2_thumb.jpg",
+      "transcription": "You're always saying I'm at that one and again the law, but I'm proven to you now that I'm always willing to help the police. I know, I know there's a big reward for this, but I'm not thinking of that. These boys are told me to hear about what Charlie is and they're sending someone to look for them. We'll talk about that later on. Oh, I... I wouldn't like any trouble in this house inspector. I see. Well, in a few moments, I'll do my best to get them out of here. Yes. Thanks.",
+      "visual_description": "Sequence from 'Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack' (1947).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_3",
+      "movie_id": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack",
+      "scene_number": 3,
+      "start_timecode": "00:32:49",
+      "end_timecode": "00:32:59",
+      "start_seconds": 1969.17675,
+      "end_seconds": 1979.9375,
+      "duration_seconds": 10.76075,
+      "video_filename": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/odd-man-out-1947-james-mason-kathleen-ryan-robert-newton-cyril-cusack_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Odd Man Out (1947) James Mason, Kathleen Ryan, Robert Newton, Cyril Cusack' (1947).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
         "black and white"
       ]
     }
