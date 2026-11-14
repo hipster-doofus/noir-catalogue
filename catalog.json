@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-14T04:00:12.194683+00:00",
-  "total_movies": 80,
-  "total_scenes": 366,
-  "genre": "sci-fi",
+  "updated_at": "2026-11-14T04:42:04.902099+00:00",
+  "total_movies": 90,
+  "total_scenes": 416,
+  "genre": "mystery",
   "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
@@ -805,6 +805,106 @@
       "video_url": "https://archive.org/download/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris/Y2Mate.is - Santa Claus Conquers the Martians (1964) Adventure, Comedy, Sci-Fi, Christmas Movie-L4SZyeUGSM4-1080p-1639926880939.ia.mp4",
       "license": "Open Archive",
       "description": "HD VERSION\u00a0 IN GLORIOUS 1080P Plot:\u00a0 The Martians kidnap Santa Claus because there is nobody on Mars to give their children presents."
+    },
+    {
+      "title": "The Human Monster",
+      "year": 1939,
+      "director": "John Argyle Productions",
+      "archive_id": "TheHumanMonster720p1939",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/TheHumanMonster720p1939/HumanMonster720p.mp4",
+      "license": "Open Archive",
+      "description": "Title: The Human Monster Summary: Insurance agent-physician collects on policies of men murdered by a disfigured resident of the home for the blind where he acts as doctor-on-call. Directed by: Walter Summers Actors: Bela Lugosi, Hugh Williams, Greta Gynt Production Company: John Argyle Productions Release Date: 24 March 1940 (USA) Aspect Ratio: 1.37 : 1 A series of strange deaths takes place in London. All are accidents but the victims are single men with no family and they all have a link to a life insurance company run by the mysterious Dr. Orloff."
+    },
+    {
+      "title": "Detour (iPod)",
+      "year": 1945,
+      "director": "Leon Fromkess",
+      "archive_id": "detour_ipod",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/detour_ipod/Detour.mp4",
+      "license": "Open Archive",
+      "description": "\"Man is involved in two freakish accidents that make him look like a murderer. Poverty row masterwork that is the most precise elucidation of the noir theme of explicit fatalism.\" - noir expert Spencer Selby A B-movie, it was shot in six days. The film, budgeted for $89,000, but cost $117,000 to make. Cast: Tom Neal, Ann Savage, Claudia Drake, Edmund MacDonald, Tim Ryan, Roger Clark, Pat Gleason, Esther Howard. Originally uploaded by: www.k-otic.com"
+    },
+    {
+      "title": "The Death Kiss",
+      "year": 1932,
+      "director": "Unknown Director",
+      "archive_id": "TheDeathKiss",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/TheDeathKiss/DeathKiss.mp4",
+      "license": "Open Archive",
+      "description": "Actor killed by a bullet while filming. Was it murder? Bela Lugosi has a small role."
+    },
+    {
+      "title": "The Shadow",
+      "year": 1933,
+      "director": "Unknown Director",
+      "archive_id": "The_Shadow_1933",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/The_Shadow_1933/The_Shadow_1933.mp4",
+      "license": "Open Archive",
+      "description": "The Shadow knows, and he'll tell unless you fork over a princely sum."
+    },
+    {
+      "title": "Death From a Distance",
+      "year": 1935,
+      "director": "Maury M. Cohen",
+      "archive_id": "death_from_a_distance",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/death_from_a_distance/death_from_a_distance.mp4",
+      "license": "Open Archive",
+      "description": "Taken from IMDB : While a distinguished astronomer is giving a lecture in a planetarium, a shot rings out and one of the audience members is found dead. A tough detective and a brassy female reporter lock horns as they both try to break the case."
+    },
+    {
+      "title": "Bulldog Drummond's Peril",
+      "year": 1938,
+      "director": "James P Hogan",
+      "archive_id": "BulldogDrummondsPerilJPHogan1938",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/BulldogDrummondsPerilJPHogan1938/BulldogDrummondsPerilJPHogan1938.mp4",
+      "license": "Open Archive",
+      "description": "http://www.imdb.com/title/tt0029952/ The intended wedding of Captain Hugh \"Bulldog\" Drummond (John Howard) to Phyllis Clavering (Louise Campbell) at her villa in Switzerland is stopped short (once again) when someone murders the Swiss policeman who is guarding their wedding presents. The killer makes off with their prize possession, a synthetic diamond, made by a secret process by Professor Bernard Goodman (Halliwell Hobbes), the father of their good friend Gwen Longworth (Nydia Westman). A guest, Sir Raymond Blantyre (Matthew Boulton), head of the Metropolitan Diamond Syndicate, disappears at the same time, and Drummond suspects that Sir Raymond, who has the most to lose if Professor Goodman proceeds with his plans to publish his secret process, has something to do with the theft. He leaves Phyllis and chases back to England. Colonel Nielsen (John Barrymore), of Scotland Yard, as usual scoffs at Drummond's suspicions and insists that a man as respected as Sir Raymond could not possibly be involved in such a crime. But, as usual, he has Drummond followed just in the event he turns up something unexpected...... Ya think? What could happen?"
+    },
+    {
+      "title": "International Crime",
+      "year": 1938,
+      "director": "M & A Alexander Productions Inc.",
+      "archive_id": "InternationalCrime1938",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/InternationalCrime1938/InternationalCrime720p.mp4",
+      "license": "Open Archive",
+      "description": "Title: International Crime Summary: Lamont Cranston ( Rod La Rocque ), amateur criminologist and detective, with a daily radio program, sponsored by the Daily Classic newspaper, has developed a friendly feud that sometimes ... Directed by: Charles Lamont Actors: Rod La Rocque, Astrid Allwyn, Thomas E. Jackson Production Company: M & A Alexander Productions Inc. Release Date: 23 April 1938 (USA) Aspect Ratio: 1.37 : 1 Lamont Cranston ("
+    },
+    {
+      "title": "Cosmo Jones, Crime Smasher",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "CosmoJonesCrimeSmasher",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/CosmoJonesCrimeSmasher/CosmoJonesCrimeSmasher.mp4",
+      "license": "Open Archive",
+      "description": "From IMDb: An amateur detective and a janitor try to find a kidnapped heiress."
+    },
+    {
+      "title": "The Monster Walks",
+      "year": 1932,
+      "director": "Cliff P. Broughton and Ralph M. Like",
+      "archive_id": "The_Monster_Walks",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/The_Monster_Walks/The_Monster_Walks.mp4",
+      "license": "Open Archive",
+      "description": "Family and servants gather to hear the reading of a will in a spooky old house on a stormy night. Afterward, the household retires for the night, and a plot against the sole heir is hatched. Stars: Rex Lease, Vera Reynolds, Sheldon Lewis, Mischa Auer, Martha Mattox, Sidney Bracey, and Willie Best IMDb Page The 584MB MPEG4 file was derived from the 3.5GB MPEG2 found on this page ."
+    },
+    {
+      "title": "Dressed to Kill",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "dressed_to_kill_ipod",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/dressed_to_kill_ipod/dressed_to_kill.mp4",
+      "license": "Open Archive",
+      "description": "Aka 'Sherlock Holmes in Dressed To Kill' - features Basil Rathbone as Sherlock Holmes."
     }
   ],
   "scenes": [
@@ -10687,6 +10787,1356 @@
       ],
       "tags": [
         "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHumanMonster720p1939_scene_1",
+      "movie_id": "TheHumanMonster720p1939",
+      "scene_number": 1,
+      "start_timecode": "00:16:58",
+      "end_timecode": "00:17:33",
+      "start_seconds": 1018.9549,
+      "end_seconds": 1053.1891,
+      "duration_seconds": 34.2342,
+      "video_filename": "TheHumanMonster720p1939_scene_1_34s_1080p.mp4",
+      "keyframe_filename": "TheHumanMonster720p1939_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_1_34s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_1_thumb.jpg",
+      "transcription": "BL ooOoOoOoOoOoOoOoOoOo..... BL ooOOoOoOoOoOoOoOOo Swan BL pap noise sean . . . . . .",
+      "visual_description": "Sequence from 'The Human Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Human Monster' (1939).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHumanMonster720p1939_scene_2",
+      "movie_id": "TheHumanMonster720p1939",
+      "scene_number": 2,
+      "start_timecode": "00:21:24",
+      "end_timecode": "00:21:47",
+      "start_seconds": 1284.6203,
+      "end_seconds": 1307.0427,
+      "duration_seconds": 22.4224,
+      "video_filename": "TheHumanMonster720p1939_scene_2_22s_1080p.mp4",
+      "keyframe_filename": "TheHumanMonster720p1939_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_2_22s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_2_thumb.jpg",
+      "transcription": "Hey, what is this, quicksand? Take a treasure a couple of weeks to get out of. Hey, man. Hillingdon and Curtis. Name Henry Stewart. 142, Bellingham Manchin.",
+      "visual_description": "Sequence from 'The Human Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Human Monster' (1939).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHumanMonster720p1939_scene_3",
+      "movie_id": "TheHumanMonster720p1939",
+      "scene_number": 3,
+      "start_timecode": "00:23:02",
+      "end_timecode": "00:23:29",
+      "start_seconds": 1382.3179,
+      "end_seconds": 1409.7453,
+      "duration_seconds": 27.4274,
+      "video_filename": "TheHumanMonster720p1939_scene_3_27s_1080p.mp4",
+      "keyframe_filename": "TheHumanMonster720p1939_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_3_27s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_3_thumb.jpg",
+      "transcription": "You remember me I remember what's happened to my father has been an accident he's dead well it may not be our father but we have to make sure he must be brave you ready yeah",
+      "visual_description": "Sequence from 'The Human Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Human Monster' (1939).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHumanMonster720p1939_scene_4",
+      "movie_id": "TheHumanMonster720p1939",
+      "scene_number": 4,
+      "start_timecode": "00:26:49",
+      "end_timecode": "00:26:59",
+      "start_seconds": 1609.3447,
+      "end_seconds": 1619.5549,
+      "duration_seconds": 10.2102,
+      "video_filename": "TheHumanMonster720p1939_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "TheHumanMonster720p1939_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_4_thumb.jpg",
+      "transcription": "No, I don't go over that much either. Give me a gun and a bunch of hijackers, and I'm okay. Tell me I'm seeing things. What is that?",
+      "visual_description": "Sequence from 'The Human Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Human Monster' (1939).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheHumanMonster720p1939_scene_5",
+      "movie_id": "TheHumanMonster720p1939",
+      "scene_number": 5,
+      "start_timecode": "00:27:32",
+      "end_timecode": "00:28:07",
+      "start_seconds": 1652.3877,
+      "end_seconds": 1687.6228999999998,
+      "duration_seconds": 35.2352,
+      "video_filename": "TheHumanMonster720p1939_scene_5_35s_1080p.mp4",
+      "keyframe_filename": "TheHumanMonster720p1939_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_5_35s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheHumanMonster720p1939_scene_5_thumb.jpg",
+      "transcription": "I'm sorry I had to keep you waiting pull up a chair all right I need hard to say how deeply I sympathize with it now I said once that I know my father couldn't have committed suicide won't you sit down now sure no father wasn't worried about anything no I don't think so was he in any kind of difficult it well it wasn't an accident",
+      "visual_description": "Sequence from 'The Human Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Human Monster' (1939).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "detour_ipod_scene_1",
+      "movie_id": "detour_ipod",
+      "scene_number": 1,
+      "start_timecode": "00:28:14",
+      "end_timecode": "00:28:34",
+      "start_seconds": 1694.584585,
+      "end_seconds": 1714.304304,
+      "duration_seconds": 19.719719,
+      "video_filename": "detour_ipod_scene_1_19s_1080p.mp4",
+      "keyframe_filename": "detour_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_1_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_1_thumb.jpg",
+      "transcription": "I couldn't drive any farther without some sweet cops and old cops. I knew I had to hit the hay and hit it hard. I was dead tired.",
+      "visual_description": "Sequence from 'Detour (iPod)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour (iPod)' (1945).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "detour_ipod_scene_2",
+      "movie_id": "detour_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:34:36",
+      "end_timecode": "00:34:55",
+      "start_seconds": 2076.266266,
+      "end_seconds": 2095.985986,
+      "duration_seconds": 19.71972,
+      "video_filename": "detour_ipod_scene_2_19s_1080p.mp4",
+      "keyframe_filename": "detour_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_2_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_2_thumb.jpg",
+      "transcription": "tired because she fell asleep not 20 minutes after she stepped into the car. She lay sprawled out with her head resting against the front door like Haskell. I didn't like that part of a punch but I didn't wake her up. It wasn't that this girl's still worried me. I've gotten over that funny feeling I had when she looked.",
+      "visual_description": "Sequence from 'Detour (iPod)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour (iPod)' (1945).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "detour_ipod_scene_3",
+      "movie_id": "detour_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:37:12",
+      "end_timecode": "00:37:26",
+      "start_seconds": 2232.422422,
+      "end_seconds": 2246.636637,
+      "duration_seconds": 14.214215,
+      "video_filename": "detour_ipod_scene_3_14s_1080p.mp4",
+      "keyframe_filename": "detour_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_3_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_3_thumb.jpg",
+      "transcription": "Now wait a minute what I told you was true. You see that's why I had to do it. You think I killed him Well, I cocks would have thought so too. Yeah, well, maybe they still think so What made you so sure I'll shut up about this girl? I'm innocent give me a break will you?",
+      "visual_description": "Sequence from 'Detour (iPod)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour (iPod)' (1945).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "detour_ipod_scene_4",
+      "movie_id": "detour_ipod",
+      "scene_number": 4,
+      "start_timecode": "00:38:55",
+      "end_timecode": "00:39:22",
+      "start_seconds": 2335.8258260000002,
+      "end_seconds": 2362.052052,
+      "duration_seconds": 26.226226,
+      "video_filename": "detour_ipod_scene_4_26s_1080p.mp4",
+      "keyframe_filename": "detour_ipod_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_4_26s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_4_thumb.jpg",
+      "transcription": "Doesn't make a difference one way or another. I'm not a mornin'. I like tasco even less than I like you. Yeah, I saw what you did to him. What do you mean? Scratches on his wrist. Sure, I scratched him. I don't say you did. So your idea was to drive the car a little way. Maybe into San Bernardino, then leave it. You weren't gonna sell it? Sell it. You think I'm crazy? Somebody else's car? See, all I wanna do is leave it somewhere and forget I ever saw it.",
+      "visual_description": "Sequence from 'Detour (iPod)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour (iPod)' (1945).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "detour_ipod_scene_5",
+      "movie_id": "detour_ipod",
+      "scene_number": 5,
+      "start_timecode": "00:39:22",
+      "end_timecode": "00:39:34",
+      "start_seconds": 2362.052052,
+      "end_seconds": 2374.064064,
+      "duration_seconds": 12.012012,
+      "video_filename": "detour_ipod_scene_5_12s_1080p.mp4",
+      "keyframe_filename": "detour_ipod_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_5_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/detour_ipod_scene_5_thumb.jpg",
+      "transcription": "Not only don't you have any screw, but you don't have any brains. I don't get you. Maybe it's a good thing you met me. You've got yourself caught sure. Why you dope? Don't you know what deserted automobile always rates an investigation?",
+      "visual_description": "Sequence from 'Detour (iPod)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Detour (iPod)' (1945).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheDeathKiss_scene_1",
+      "movie_id": "TheDeathKiss",
+      "scene_number": 1,
+      "start_timecode": "00:20:46",
+      "end_timecode": "00:21:44",
+      "start_seconds": 1246.5333,
+      "end_seconds": 1304.6914,
+      "duration_seconds": 58.1581,
+      "video_filename": "TheDeathKiss_scene_1_58s_1080p.mp4",
+      "keyframe_filename": "TheDeathKiss_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_1_58s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_1_thumb.jpg",
+      "transcription": "Alright, turn them over. Rolling. Market. Action! Here, Joe Counsel. And it'll be right here. Nothing, though. Thanks, handsome. I just couldn't pass you up. Believe it or not, I've never seen her in my life before. I must have been overlooking something. Already saying so. Most enjoy it. Right under my very nose. Your nose. Oh, I get to pass.",
+      "visual_description": "Sequence from 'The Death Kiss' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Death Kiss' (1932).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheDeathKiss_scene_2",
+      "movie_id": "TheDeathKiss",
+      "scene_number": 2,
+      "start_timecode": "00:28:29",
+      "end_timecode": "00:28:42",
+      "start_seconds": 1709.3957,
+      "end_seconds": 1722.3085999999998,
+      "duration_seconds": 12.9129,
+      "video_filename": "TheDeathKiss_scene_2_12s_1080p.mp4",
+      "keyframe_filename": "TheDeathKiss_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_2_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_2_thumb.jpg",
+      "transcription": "Who's in there? It's all right, Chien. Bow three. I found a gun that killed Brent. Where? Right here in this land.",
+      "visual_description": "Sequence from 'The Death Kiss' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Death Kiss' (1932).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheDeathKiss_scene_3",
+      "movie_id": "TheDeathKiss",
+      "scene_number": 3,
+      "start_timecode": "00:29:14",
+      "end_timecode": "00:29:48",
+      "start_seconds": 1754.0403000000001,
+      "end_seconds": 1788.0743,
+      "duration_seconds": 34.034,
+      "video_filename": "TheDeathKiss_scene_3_34s_1080p.mp4",
+      "keyframe_filename": "TheDeathKiss_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_3_34s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_3_thumb.jpg",
+      "transcription": "Who is charged with these night head gaffer, or what's that in English the chief of electrician who is he Al Payne? Working I find him there Tom will take you over Come here kid. Let me take a look at that hate Now, that's all right now listen You stop monkeying around with police matters. It's a tough racket that head of yours won't stand another wallop. Come on. Let's get going Mr. Drew I've been thinking no yeah, the first thing I asked myself when I investigated the motor is who done it well that sounds like",
+      "visual_description": "Sequence from 'The Death Kiss' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Death Kiss' (1932).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheDeathKiss_scene_4",
+      "movie_id": "TheDeathKiss",
+      "scene_number": 4,
+      "start_timecode": "00:30:27",
+      "end_timecode": "00:30:42",
+      "start_seconds": 1827.1133,
+      "end_seconds": 1842.6288,
+      "duration_seconds": 15.5155,
+      "video_filename": "TheDeathKiss_scene_4_15s_1080p.mp4",
+      "keyframe_filename": "TheDeathKiss_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_4_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_4_thumb.jpg",
+      "transcription": "Now when you run up to the casting office and investigate and find out where Chalmers lives sure What are you gonna do put the finger? I mean that pre-hand him. Maybe you want to come along. Oh boy. I'll say he's gone. Yeah Got my gun with the edge of me though. Come on. Let's get going",
+      "visual_description": "Sequence from 'The Death Kiss' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Death Kiss' (1932).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheDeathKiss_scene_5",
+      "movie_id": "TheDeathKiss",
+      "scene_number": 5,
+      "start_timecode": "00:31:01",
+      "end_timecode": "00:31:40",
+      "start_seconds": 1861.848,
+      "end_seconds": 1900.6868,
+      "duration_seconds": 38.8388,
+      "video_filename": "TheDeathKiss_scene_5_38s_1080p.mp4",
+      "keyframe_filename": "TheDeathKiss_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_5_38s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheDeathKiss_scene_5_thumb.jpg",
+      "transcription": "be truthful with you. We had a lot of arguments on that set. Mr. Steiner didn't like the photography and he wanted more light. Steiner? Was he there when it was rehearsed? Yes. Who else? Well, they're all there with the exception to extra people. Well, no extras there, huh? No, only Chalmers. You know, he's a sort of a previous character around this lot. He used to be our head gaffer. Chalmers used to be an electrician? Yes. Miss Lane fell sorry for him. Made Mr. Avery give him a bitter picture. Oh, Miss Lane got him the job. Yes. Could you give me the address of the cameraman and...",
+      "visual_description": "Sequence from 'The Death Kiss' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Death Kiss' (1932).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Shadow_1933_scene_1",
+      "movie_id": "The_Shadow_1933",
+      "scene_number": 1,
+      "start_timecode": "00:22:34",
+      "end_timecode": "00:23:15",
+      "start_seconds": 1354.50951,
+      "end_seconds": 1395.750751,
+      "duration_seconds": 41.241241,
+      "video_filename": "The_Shadow_1933_scene_1_41s_1080p.mp4",
+      "keyframe_filename": "The_Shadow_1933_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_1_41s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_1_thumb.jpg",
+      "transcription": "But what if strongly think do you know that reminds me of something that happened when I went to tea with my auntie Fanny some weeks ago Now I think and he's got an enormous Cat you say oh please be quiet. I want to hear some more about the shadow. Oh, I'd be a problem. I'm so sorry Well the Fleming who took charge of the case our failure to murder been trying to trace the juror from whom the child was bought But so far unfortunate you without any success. Oh, will it care this away? Yes Do you know sir, Richard? I believe I could help you over this the shadow champion you In fact, yeah, follow what you know about the shadow. Oh, nothing nothing absolutely nothing at all, but um I'm rather good at nosing out clues",
+      "visual_description": "Sequence from 'The Shadow' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Shadow' (1933).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Shadow_1933_scene_2",
+      "movie_id": "The_Shadow_1933",
+      "scene_number": 2,
+      "start_timecode": "00:23:15",
+      "end_timecode": "00:23:50",
+      "start_seconds": 1395.750751,
+      "end_seconds": 1430.885886,
+      "duration_seconds": 35.135135,
+      "video_filename": "The_Shadow_1933_scene_2_35s_1080p.mp4",
+      "keyframe_filename": "The_Shadow_1933_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_2_35s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_2_thumb.jpg",
+      "transcription": "things. Yes, Scotland Yard has several people. They're rather good at nosing out clues and things, but it hasn't got them very far with a shadow. Ah, but you see, that's what I come in. You have to have a peculiar sort of brain for getting on to these sort of criminal chaps, you know? You've certainly got that. You want it on the telephone to Richard? No, get away with it. If it's a shadow, shall I tell him that you're going to get him? Certainly. Oh, without a shadow of a doubt. Joke.",
+      "visual_description": "Sequence from 'The Shadow' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Shadow' (1933).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Shadow_1933_scene_3",
+      "movie_id": "The_Shadow_1933",
+      "scene_number": 3,
+      "start_timecode": "00:23:50",
+      "end_timecode": "00:24:31",
+      "start_seconds": 1430.885886,
+      "end_seconds": 1471.726727,
+      "duration_seconds": 40.840841,
+      "video_filename": "The_Shadow_1933_scene_3_40s_1080p.mp4",
+      "keyframe_filename": "The_Shadow_1933_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_3_40s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_3_thumb.jpg",
+      "transcription": "Hello. Sir Richard Brown speaking. Who is it you, Fenny? I'm coming along to see you at once, sir. As soon as this confounded fog will let me. I've got urgent news. The one moment must be something wrong with the line. I can hardly hear you. Hello. Where are you speaking from? Well, station, what on earth are you doing there? I'm on the track of the shadow, sir. I know who he is. I said, you know who the shadow is.",
+      "visual_description": "Sequence from 'The Shadow' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Shadow' (1933).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Shadow_1933_scene_4",
+      "movie_id": "The_Shadow_1933",
+      "scene_number": 4,
+      "start_timecode": "00:28:50",
+      "end_timecode": "00:29:27",
+      "start_seconds": 1730.685686,
+      "end_seconds": 1767.422422,
+      "duration_seconds": 36.736736,
+      "video_filename": "The_Shadow_1933_scene_4_36s_1080p.mp4",
+      "keyframe_filename": "The_Shadow_1933_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_4_36s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_4_thumb.jpg",
+      "transcription": "Would you believe that a woman of her age could be so foolish? I believe anything of that old girl, except her age. Do you think you really did see something? Well, if she did, I must have missed it in the mist. Oh, stop joking, Richie. You're trembling, Sunny. What's the matter? I don't know. I can't explain it. Just a feeling, that's all. You don't remember when I was quite small and tatters was run over and killed. Tatters? Who's tatters? My little dog. I knew he was going to be killed long before it happened. I've got the same feeling now. Somewhere. Around the house is something evil.",
+      "visual_description": "Sequence from 'The Shadow' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Shadow' (1933).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Shadow_1933_scene_5",
+      "movie_id": "The_Shadow_1933",
+      "scene_number": 5,
+      "start_timecode": "00:33:14",
+      "end_timecode": "00:33:56",
+      "start_seconds": 1994.049049,
+      "end_seconds": 2036.391391,
+      "duration_seconds": 42.342342,
+      "video_filename": "The_Shadow_1933_scene_5_42s_1080p.mp4",
+      "keyframe_filename": "The_Shadow_1933_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_5_42s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Shadow_1933_scene_5_thumb.jpg",
+      "transcription": "I wonder if you'd excuse me for a moment, Mr. Silverman. I've rather an important letter to write. I'm certain now, go and see how my sister's getting along.",
+      "visual_description": "Sequence from 'The Shadow' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Shadow' (1933).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "death_from_a_distance_scene_1",
+      "movie_id": "death_from_a_distance",
+      "scene_number": 1,
+      "start_timecode": "00:27:22",
+      "end_timecode": "00:27:39",
+      "start_seconds": 1642.458458,
+      "end_seconds": 1659.075075,
+      "duration_seconds": 16.616617,
+      "video_filename": "death_from_a_distance_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "death_from_a_distance_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_1_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_1_thumb.jpg",
+      "transcription": "Well, where's the gigantic intellect? Oh, be back in an hour. I suppose the Hindus confess, then the case is all solved. What do you think? I think they ought to take you and Mallory off the case and call in the boy's gut.",
+      "visual_description": "Sequence from 'Death From a Distance' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death From a Distance' (1935).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "death_from_a_distance_scene_2",
+      "movie_id": "death_from_a_distance",
+      "scene_number": 2,
+      "start_timecode": "00:28:37",
+      "end_timecode": "00:28:54",
+      "start_seconds": 1717.533534,
+      "end_seconds": 1734.15015,
+      "duration_seconds": 16.616616,
+      "video_filename": "death_from_a_distance_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "death_from_a_distance_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_2_thumb.jpg",
+      "transcription": "Turn his wonderful mind back to that state of the hour. Hey, wait a minute. Don't interrupt me when you're telling me a story like this, Regan. Then you'll see the murder in a vision. That's it. A vision. And you'll tell you who the murderer was. Is that right? Sister, you took the words right out of my mouth. Regan, you're a wonder. I take back everything.",
+      "visual_description": "Sequence from 'Death From a Distance' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death From a Distance' (1935).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "death_from_a_distance_scene_3",
+      "movie_id": "death_from_a_distance",
+      "scene_number": 3,
+      "start_timecode": "00:30:59",
+      "end_timecode": "00:31:15",
+      "start_seconds": 1859.275275,
+      "end_seconds": 1875.991992,
+      "duration_seconds": 16.716717,
+      "video_filename": "death_from_a_distance_scene_3_16s_1080p.mp4",
+      "keyframe_filename": "death_from_a_distance_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_3_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_3_thumb.jpg",
+      "transcription": "I gave you a chance to tell me everything you know. You should have told me instead of holding back information. I know absolutely nothing, Lieutenant. My best story is ridiculous. I can't go into a trance. Yet you hid it at the farmer, girl, that you knew who the murderer is.",
+      "visual_description": "Sequence from 'Death From a Distance' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death From a Distance' (1935).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "death_from_a_distance_scene_4",
+      "movie_id": "death_from_a_distance",
+      "scene_number": 4,
+      "start_timecode": "00:31:35",
+      "end_timecode": "00:31:49",
+      "start_seconds": 1895.311311,
+      "end_seconds": 1909.325325,
+      "duration_seconds": 14.014014,
+      "video_filename": "death_from_a_distance_scene_4_14s_1080p.mp4",
+      "keyframe_filename": "death_from_a_distance_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_4_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Death From a Distance' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death From a Distance' (1935).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "death_from_a_distance_scene_5",
+      "movie_id": "death_from_a_distance",
+      "scene_number": 5,
+      "start_timecode": "00:37:31",
+      "end_timecode": "00:38:04",
+      "start_seconds": 2251.367367,
+      "end_seconds": 2284.7007009999998,
+      "duration_seconds": 33.333334,
+      "video_filename": "death_from_a_distance_scene_5_33s_1080p.mp4",
+      "keyframe_filename": "death_from_a_distance_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_5_33s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/death_from_a_distance_scene_5_thumb.jpg",
+      "transcription": "Never did tell me why you tried to kill that man gridded. He never asked me, so what was the trouble? Griffin and I weren't in the same laboratory. I invented a valuable chemical form. He stole it and managed to patent it himself. When I found it out, well, what happened to Gridded? I don't know. I got the out of sight completely. You know, I don't think it's in astronomy. I wish I knew more about it. Why don't you drop up in the top of this whenever you get an opportunity? We'd be glad I didn't.",
+      "visual_description": "Sequence from 'Death From a Distance' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Death From a Distance' (1935).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondsPerilJPHogan1938_scene_1",
+      "movie_id": "BulldogDrummondsPerilJPHogan1938",
+      "scene_number": 1,
+      "start_timecode": "00:16:21",
+      "end_timecode": "00:17:05",
+      "start_seconds": 981.618619,
+      "end_seconds": 1025.562563,
+      "duration_seconds": 43.943944,
+      "video_filename": "BulldogDrummondsPerilJPHogan1938_scene_1_43s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondsPerilJPHogan1938_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_1_43s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_1_thumb.jpg",
+      "transcription": "So that's his answer to my little joke with the books. I've never seen anything so transparent, it's a good end of life. That's so funny, Greer. I'm sure I don't know, sir. You will, you will. It's all Captain Drummond. Rest the Raymond Blanchard. Take a cable grant. Well, tonight, when it comes to what happened, we've stopped at the station, sir. Now, Robert Captain Drummond. Good old Nelson, that's probably his answer to my capogram. Good old Nelson, he never fails.",
+      "visual_description": "Sequence from 'Bulldog Drummond's Peril' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond's Peril' (1938).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondsPerilJPHogan1938_scene_2",
+      "movie_id": "BulldogDrummondsPerilJPHogan1938",
+      "scene_number": 2,
+      "start_timecode": "00:25:40",
+      "end_timecode": "00:26:16",
+      "start_seconds": 1540.677678,
+      "end_seconds": 1576.913914,
+      "duration_seconds": 36.236236,
+      "video_filename": "BulldogDrummondsPerilJPHogan1938_scene_2_36s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondsPerilJPHogan1938_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_2_36s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_2_thumb.jpg",
+      "transcription": "Good morning. I'm in time, Serena. Good morning, Captain Drummond. Nice to see you again. And your friend, too. Submit me to return on your problem. And you search for his compartment. A book's no place to hide a diamond. The trouble is Raymond, isn't it? Oh. Stupid often, wasn't it?",
+      "visual_description": "Sequence from 'Bulldog Drummond's Peril' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond's Peril' (1938).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondsPerilJPHogan1938_scene_3",
+      "movie_id": "BulldogDrummondsPerilJPHogan1938",
+      "scene_number": 3,
+      "start_timecode": "00:27:34",
+      "end_timecode": "00:28:20",
+      "start_seconds": 1654.491491,
+      "end_seconds": 1700.437437,
+      "duration_seconds": 45.945946,
+      "video_filename": "BulldogDrummondsPerilJPHogan1938_scene_3_45s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondsPerilJPHogan1938_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_3_45s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_3_thumb.jpg",
+      "transcription": "You've made a 15 carat diamond. I'm a fine work professor. Congratulations. Yes, I understand. Well, no one out at the present time. I'll be glad to let you use my equipment. Yes, what time? Very well, I'll bring the equipment over to you at 9 o'clock tonight. Yes. Goodbye. You can't do that, Captain Drummond. Tell the commissioner a surgeon. I've already given him that medicine. Tell him it won't take five minutes. He said it won't take five minutes, sir. Take care of him!",
+      "visual_description": "Sequence from 'Bulldog Drummond's Peril' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond's Peril' (1938).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondsPerilJPHogan1938_scene_4",
+      "movie_id": "BulldogDrummondsPerilJPHogan1938",
+      "scene_number": 4,
+      "start_timecode": "00:28:20",
+      "end_timecode": "00:28:31",
+      "start_seconds": 1700.437437,
+      "end_seconds": 1711.2482479999999,
+      "duration_seconds": 10.810811,
+      "video_filename": "BulldogDrummondsPerilJPHogan1938_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondsPerilJPHogan1938_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_4_thumb.jpg",
+      "transcription": "I thought I told you not to land in England. Colonel, you told me not to land in Croydon, and I have banged you to the latter. I landed at Basingstook. Drummond, will you please go away? You don't want me to pull up when I know a man's going to be murdered?",
+      "visual_description": "Sequence from 'Bulldog Drummond's Peril' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond's Peril' (1938).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BulldogDrummondsPerilJPHogan1938_scene_5",
+      "movie_id": "BulldogDrummondsPerilJPHogan1938",
+      "scene_number": 5,
+      "start_timecode": "00:28:34",
+      "end_timecode": "00:29:07",
+      "start_seconds": 1714.351351,
+      "end_seconds": 1747.184184,
+      "duration_seconds": 32.832833,
+      "video_filename": "BulldogDrummondsPerilJPHogan1938_scene_5_32s_1080p.mp4",
+      "keyframe_filename": "BulldogDrummondsPerilJPHogan1938_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_5_32s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BulldogDrummondsPerilJPHogan1938_scene_5_thumb.jpg",
+      "transcription": "Professor Bernard Goodman, number 24, St. Laban's Road. And who's going to do the job? I can tell you that too, Sir Raymond Blanchry. Ha, ha, ha, ha. Don't see what's so funny. Come with me, my dear fellow, come with me. Sir Raymond, this impetuous young man has just warned me. You're about to murder Professor Goodman. Really? I can't help this. Sir Raymond has just asked me to have Professor Goodman placed in protective custody. You see, Drummond. I too share your feeling that the dear Professor has in danger.",
+      "visual_description": "Sequence from 'Bulldog Drummond's Peril' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bulldog Drummond's Peril' (1938).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InternationalCrime1938_scene_1",
+      "movie_id": "InternationalCrime1938",
+      "scene_number": 1,
+      "start_timecode": "00:10:08",
+      "end_timecode": "00:10:21",
+      "start_seconds": 608.8208,
+      "end_seconds": 621.2332,
+      "duration_seconds": 12.4124,
+      "video_filename": "InternationalCrime1938_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "InternationalCrime1938_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_1_thumb.jpg",
+      "transcription": "The boss of them all. Police Commissioner Weston in the flesh. And if this turns out to be a false alarm, he'll love me even less than he does now. Oh, but I'm sure it isn't because he had such an honest face.",
+      "visual_description": "Sequence from 'International Crime' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'International Crime' (1938).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InternationalCrime1938_scene_2",
+      "movie_id": "InternationalCrime1938",
+      "scene_number": 2,
+      "start_timecode": "00:12:24",
+      "end_timecode": "00:13:13",
+      "start_seconds": 744.9567999999999,
+      "end_seconds": 793.1049,
+      "duration_seconds": 48.1481,
+      "video_filename": "InternationalCrime1938_scene_2_48s_1080p.mp4",
+      "keyframe_filename": "InternationalCrime1938_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_2_48s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_2_thumb.jpg",
+      "transcription": "Come in the captain. McCabe reporting, sir. Expose in the 93-materre drive. Yes, sir. First you tell me to get all my cars down here to stop a robbery. Then you get me to rush them all back before the reserve robbery. What kind of a merry-go-robbery is this anyway? I know, but then that's calling all cars from District 9. Calling all cars from District 9. Explosion reported at 9-3-materre drive. Explosion reported at 9-3-materre drive.",
+      "visual_description": "Sequence from 'International Crime' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'International Crime' (1938).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InternationalCrime1938_scene_3",
+      "movie_id": "InternationalCrime1938",
+      "scene_number": 3,
+      "start_timecode": "00:16:00",
+      "end_timecode": "00:16:19",
+      "start_seconds": 960.5722000000001,
+      "end_seconds": 979.7914000000001,
+      "duration_seconds": 19.2192,
+      "video_filename": "InternationalCrime1938_scene_3_19s_1080p.mp4",
+      "keyframe_filename": "InternationalCrime1938_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_3_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_3_thumb.jpg",
+      "transcription": "I say you're wrong. That's great. I'll see that your opinion has given its proper on importance in my column tomorrow. There won't be any shadow column tomorrow. Oh, no. And for a long time to come. Inspect it. Kindly file this gentleman in one of our steel cabinets, somewhere out in the stick.",
+      "visual_description": "Sequence from 'International Crime' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'International Crime' (1938).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InternationalCrime1938_scene_4",
+      "movie_id": "InternationalCrime1938",
+      "scene_number": 4,
+      "start_timecode": "00:21:42",
+      "end_timecode": "00:21:52",
+      "start_seconds": 1302.1134,
+      "end_seconds": 1312.4237,
+      "duration_seconds": 10.3103,
+      "video_filename": "InternationalCrime1938_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "InternationalCrime1938_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_4_thumb.jpg",
+      "transcription": "You're looking for me, sir? With millions of people about to tune in on your broadcast in a few minutes, I should worry where you are. You don't think I'd miss an opportunity to pay my respects to Commissioner Weston, do you?",
+      "visual_description": "Sequence from 'International Crime' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'International Crime' (1938).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "InternationalCrime1938_scene_5",
+      "movie_id": "InternationalCrime1938",
+      "scene_number": 5,
+      "start_timecode": "00:23:09",
+      "end_timecode": "00:23:20",
+      "start_seconds": 1389.7009,
+      "end_seconds": 1400.812,
+      "duration_seconds": 11.1111,
+      "video_filename": "InternationalCrime1938_scene_5_11s_1080p.mp4",
+      "keyframe_filename": "InternationalCrime1938_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_5_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/InternationalCrime1938_scene_5_thumb.jpg",
+      "transcription": "Well, John, what can I do for you? So you're the guy that reminded the cops I was in town. But I spoke of you in a very complimentary way. I said you were tops in your profession. No man can ask for more than that, Kenny.",
+      "visual_description": "Sequence from 'International Crime' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'International Crime' (1938).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CosmoJonesCrimeSmasher_scene_1",
+      "movie_id": "CosmoJonesCrimeSmasher",
+      "scene_number": 1,
+      "start_timecode": "00:19:50",
+      "end_timecode": "00:20:02",
+      "start_seconds": 1190.737738,
+      "end_seconds": 1202.449449,
+      "duration_seconds": 11.711711,
+      "video_filename": "CosmoJonesCrimeSmasher_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "CosmoJonesCrimeSmasher_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_1_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Cosmo Jones, Crime Smasher' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cosmo Jones, Crime Smasher' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CosmoJonesCrimeSmasher_scene_2",
+      "movie_id": "CosmoJonesCrimeSmasher",
+      "scene_number": 2,
+      "start_timecode": "00:20:02",
+      "end_timecode": "00:20:17",
+      "start_seconds": 1202.449449,
+      "end_seconds": 1217.5645650000001,
+      "duration_seconds": 15.115116,
+      "video_filename": "CosmoJonesCrimeSmasher_scene_2_15s_1080p.mp4",
+      "keyframe_filename": "CosmoJonesCrimeSmasher_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_2_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Cosmo Jones, Crime Smasher' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cosmo Jones, Crime Smasher' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CosmoJonesCrimeSmasher_scene_3",
+      "movie_id": "CosmoJonesCrimeSmasher",
+      "scene_number": 3,
+      "start_timecode": "00:20:17",
+      "end_timecode": "00:20:51",
+      "start_seconds": 1217.5645650000001,
+      "end_seconds": 1251.698699,
+      "duration_seconds": 34.134134,
+      "video_filename": "CosmoJonesCrimeSmasher_scene_3_34s_1080p.mp4",
+      "keyframe_filename": "CosmoJonesCrimeSmasher_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_3_34s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_3_thumb.jpg",
+      "transcription": "You're fine honey, I've got to go now! You want my head back to this? I'm fine.",
+      "visual_description": "Sequence from 'Cosmo Jones, Crime Smasher' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cosmo Jones, Crime Smasher' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CosmoJonesCrimeSmasher_scene_4",
+      "movie_id": "CosmoJonesCrimeSmasher",
+      "scene_number": 4,
+      "start_timecode": "00:22:21",
+      "end_timecode": "00:23:18",
+      "start_seconds": 1341.188188,
+      "end_seconds": 1398.5455459999998,
+      "duration_seconds": 57.357358,
+      "video_filename": "CosmoJonesCrimeSmasher_scene_4_57s_1080p.mp4",
+      "keyframe_filename": "CosmoJonesCrimeSmasher_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_4_57s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_4_thumb.jpg",
+      "transcription": "Well, I'm relieved to hear that, considering recent criminal activities, I'm glad to know it was nothing more serious. But it was serious, Commissioner. Should be obvious, even if Miss Blake did it with a kidnap attempt. She'd only tell us. Just a moment, Sergeant. You're the one who sent her investigation, not Miss Blake. I'll be all back here, you may go now. Commissioner, my dad's out of town. And if there should be any unfavorable publicity... I understand this, Blake. I'll do what I can to keep your name out of any newspaper releases. Thank you very much. Goodbye. Goodbye. Sergeant Flanagan? This is a serious situation you find yourself in. Very serious. If Andrew should die. But I'm certain that none of my shots hit this fellow Andrew. Miss Blake has already stated the men employed no guns and accosting her. You were the only one who did any shooting. Young lady was suffering from shock at the time.",
+      "visual_description": "Sequence from 'Cosmo Jones, Crime Smasher' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cosmo Jones, Crime Smasher' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CosmoJonesCrimeSmasher_scene_5",
+      "movie_id": "CosmoJonesCrimeSmasher",
+      "scene_number": 5,
+      "start_timecode": "00:27:50",
+      "end_timecode": "00:28:07",
+      "start_seconds": 1670.817818,
+      "end_seconds": 1687.234234,
+      "duration_seconds": 16.416416,
+      "video_filename": "CosmoJonesCrimeSmasher_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "CosmoJonesCrimeSmasher_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_5_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CosmoJonesCrimeSmasher_scene_5_thumb.jpg",
+      "transcription": "By describing Sergeant Flanagan's dilemma, you know that's bad. You know I had that wanted and broke out all over my back. Now if I can just convince Mr. Blake that her concealment of the true facts in this case in parallel Sergeant Flanagan's position, she might go to the commissioner and tell the truth. Yeah, I know that, Professor. But you know...",
+      "visual_description": "Sequence from 'Cosmo Jones, Crime Smasher' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Cosmo Jones, Crime Smasher' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Walks_scene_1",
+      "movie_id": "The_Monster_Walks",
+      "scene_number": 1,
+      "start_timecode": "00:22:35",
+      "end_timecode": "00:22:45",
+      "start_seconds": 1355.529386,
+      "end_seconds": 1365.894226,
+      "duration_seconds": 10.36484,
+      "video_filename": "The_Monster_Walks_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Walks_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_1_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_1_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Monster Walks' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Walks' (1932).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Walks_scene_2",
+      "movie_id": "The_Monster_Walks",
+      "scene_number": 2,
+      "start_timecode": "00:23:42",
+      "end_timecode": "00:23:58",
+      "start_seconds": 1422.630282,
+      "end_seconds": 1438.905995,
+      "duration_seconds": 16.275713,
+      "video_filename": "The_Monster_Walks_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Walks_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_2_thumb.jpg",
+      "transcription": "hypocrite. Don't hypocrite. Why don't you tell your hater? Why don't you tell your want the money more than she does? You're all liars.",
+      "visual_description": "Sequence from 'The Monster Walks' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Walks' (1932).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Walks_scene_3",
+      "movie_id": "The_Monster_Walks",
+      "scene_number": 3,
+      "start_timecode": "00:24:19",
+      "end_timecode": "00:24:30",
+      "start_seconds": 1459.635676,
+      "end_seconds": 1470.37515,
+      "duration_seconds": 10.739474,
+      "video_filename": "The_Monster_Walks_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Walks_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_3_thumb.jpg",
+      "transcription": "That gentleman's aren't they? Yes. Saw the urchins. I think there's some sort of a distant relationship. There's a large fortune involved, isn't there?",
+      "visual_description": "Sequence from 'The Monster Walks' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Walks' (1932).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Walks_scene_4",
+      "movie_id": "The_Monster_Walks",
+      "scene_number": 4,
+      "start_timecode": "00:32:30",
+      "end_timecode": "00:32:45",
+      "start_seconds": 1950.779269,
+      "end_seconds": 1965.306696,
+      "duration_seconds": 14.527427,
+      "video_filename": "The_Monster_Walks_scene_4_14s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Walks_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_4_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Monster Walks' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Walks' (1932).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Walks_scene_5",
+      "movie_id": "The_Monster_Walks",
+      "scene_number": 5,
+      "start_timecode": "00:34:41",
+      "end_timecode": "00:35:03",
+      "start_seconds": 2081.859121,
+      "end_seconds": 2103.754326,
+      "duration_seconds": 21.895205,
+      "video_filename": "The_Monster_Walks_scene_5_21s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Walks_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_5_21s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Walks_scene_5_thumb.jpg",
+      "transcription": "The dreams always seem real dear. Now what could possibly harm you in the room where you have slept since you were a child? I'm an awful baby. I've disturbed and frightened you all. You let your doctor give you something to soothe your nerves and have Mrs. Groove put you back to bed. I'm awfully sorry.",
+      "visual_description": "Sequence from 'The Monster Walks' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Walks' (1932).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dressed_to_kill_ipod_scene_1",
+      "movie_id": "dressed_to_kill_ipod",
+      "scene_number": 1,
+      "start_timecode": "00:23:34",
+      "end_timecode": "00:23:59",
+      "start_seconds": 1414.4834,
+      "end_seconds": 1439.5084,
+      "duration_seconds": 25.025,
+      "video_filename": "dressed_to_kill_ipod_scene_1_25s_1080p.mp4",
+      "keyframe_filename": "dressed_to_kill_ipod_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_1_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_1_thumb.jpg",
+      "transcription": "the address of the young lady won the shop I told him the young lady usually come back on Thursday said he'd come back on Thursday the rest of our thank you Mr. Crabtree you've been very helpful thank you come on Watson where are we going to home well Mr. Kilgore and then about the third box but hang it all home how do you know those other two musical boxes are of any",
+      "visual_description": "Sequence from 'Dressed to Kill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dressed to Kill' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dressed_to_kill_ipod_scene_2",
+      "movie_id": "dressed_to_kill_ipod",
+      "scene_number": 2,
+      "start_timecode": "00:26:04",
+      "end_timecode": "00:26:18",
+      "start_seconds": 1564.6334,
+      "end_seconds": 1578.5473,
+      "duration_seconds": 13.9139,
+      "video_filename": "dressed_to_kill_ipod_scene_2_13s_1080p.mp4",
+      "keyframe_filename": "dressed_to_kill_ipod_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_2_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_2_thumb.jpg",
+      "transcription": "Get on the chair. It's all right, my dear. Yeah, man, yeah. Now, don't worry. It's all over. Then you don't cry anymore.",
+      "visual_description": "Sequence from 'Dressed to Kill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dressed to Kill' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dressed_to_kill_ipod_scene_3",
+      "movie_id": "dressed_to_kill_ipod",
+      "scene_number": 3,
+      "start_timecode": "00:28:43",
+      "end_timecode": "00:29:04",
+      "start_seconds": 1723.0917,
+      "end_seconds": 1744.413,
+      "duration_seconds": 21.3213,
+      "video_filename": "dressed_to_kill_ipod_scene_3_21s_1080p.mp4",
+      "keyframe_filename": "dressed_to_kill_ipod_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_3_21s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_3_thumb.jpg",
+      "transcription": "Next, we have a real museum feast, ladies and gentlemen. A fine 19th century doll. The cost-human exact replica of the holiday clothes born by the Hungarian peasant women. Now ladies and gentlemen, an article like this will cost them 15 to 20 pounds in a western shop. I'm not going to ask for anything like that. Who'll give me two pounds for it?",
+      "visual_description": "Sequence from 'Dressed to Kill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dressed to Kill' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dressed_to_kill_ipod_scene_4",
+      "movie_id": "dressed_to_kill_ipod",
+      "scene_number": 4,
+      "start_timecode": "00:34:49",
+      "end_timecode": "00:35:15",
+      "start_seconds": 2089.2575,
+      "end_seconds": 2115.1834,
+      "duration_seconds": 25.9259,
+      "video_filename": "dressed_to_kill_ipod_scene_4_25s_1080p.mp4",
+      "keyframe_filename": "dressed_to_kill_ipod_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_4_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_4_thumb.jpg",
+      "transcription": "He's been smuggled stuff into prison, but not out. Do you want us to break the box of parts, so to see if there's anything the x-ray hasn't caught? No, not yet. Do you mind if I take it? Certainly. Thanks. The governor of Darkmore Prison informed us, sir, in answer to Mr. Holmes' question, that all three men...",
+      "visual_description": "Sequence from 'Dressed to Kill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dressed to Kill' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "dressed_to_kill_ipod_scene_5",
+      "movie_id": "dressed_to_kill_ipod",
+      "scene_number": 5,
+      "start_timecode": "00:36:30",
+      "end_timecode": "00:36:41",
+      "start_seconds": 2190.2584,
+      "end_seconds": 2201.5697,
+      "duration_seconds": 11.3113,
+      "video_filename": "dressed_to_kill_ipod_scene_5_11s_1080p.mp4",
+      "keyframe_filename": "dressed_to_kill_ipod_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_5_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/dressed_to_kill_ipod_scene_5_thumb.jpg",
+      "transcription": "position of extreme trust by the engravings department of the Bank of England. The articles he stole are nothing less than the complete duplicate set of plates for printing five-pound notes. What?",
+      "visual_description": "Sequence from 'Dressed to Kill' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Dressed to Kill' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "mystery",
         "black and white"
       ]
     }
