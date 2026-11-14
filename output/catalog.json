@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-14T03:12:28.691047+00:00",
-  "total_movies": 70,
-  "total_scenes": 320,
+  "updated_at": "2026-11-14T04:00:12.194683+00:00",
+  "total_movies": 80,
+  "total_scenes": 366,
   "genre": "sci-fi",
-  "source": "Any / Blended",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
@@ -705,6 +705,106 @@
       "video_url": "https://archive.org/download/BelaLugosiMeetsaBrooklynGorilla/BelaLugosiMeetsaBrooklynGorilla.mp4",
       "license": "Open Archive",
       "description": "Entertainers Duke Mitchell and Sammy Petrillo parachute into the jungles of the Pacific island of Cola-Cola, where they meet primitive tribesmen, the chief's sarong-clad daughter Nona, and mad scientist Dr. Zabor (Bela Lugosi) conducting experiments in evolution. Jealous of Mitchell's relations with Nona, Zabor has just the thing to make a monkey of him..."
+    },
+    {
+      "title": "Voyage To The Planet Of Prehistoric Women",
+      "year": 1968,
+      "director": "Peter Bogdanovich",
+      "archive_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/VoyageToThePlanetOfPrehistoricWomen1968FullMovie/Voyage to the Planet of Prehistoric Women (1968 Full Movie).mp4",
+      "license": "Open Archive",
+      "description": "Astronauts encounter monsters and beautiful women after their spaceship crashes on Venus."
+    },
+    {
+      "title": "The Terror Beneath the Sea",
+      "year": 1966,
+      "director": "K. Fujita Associates Inc.",
+      "archive_id": "05516Tbtx",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/05516Tbtx/tbtx.mp4",
+      "license": "Open Archive",
+      "description": "Title: The Terror Beneath the Sea Summary: While covering a test of guided torpedoes, two reporters believe they saw what appeared to be a strange-looking swimming creature. They investigate the matter further and discover that ... Directed by: Hajime Sat\u00f4 Actors: Production Company: K. Fujita Associates Inc. Release Date: 1 July 1966 (Japan) Aspect Ratio: 1.33 : 1 Color: Color While covering a test of guided torpedoes, two reporters believe they saw what appeared to be a strange-looking swimming creature. They investigate the matter further and discover that there is a race of fish-men living under the sea. The fish-men capture the pair and keep them prisoner in their underwater city."
+    },
+    {
+      "title": "Captain Z-ro - Atilla The Hun",
+      "year": 1955,
+      "director": "Unknown Director",
+      "archive_id": "CaptainZero-AtillaTheHun",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/CaptainZero-AtillaTheHun/11AtillaTheHun.mp4",
+      "license": "Open Archive",
+      "description": "Episode 11 of the syndicated filmed series. Captain Z-ro uses his time machine to protect humankind at various junctions in history. Public domain status: Registered as a published film 14 Jan 55 (LP11100). No renewed. Subsequent copyright re-registration rejected in 1985: Captain Z-Ro/Attila the Hun. By Captain Z-Ro Productions, Inc. Type of Work: Cancelled Registration Cancelled Registration Number: PA0000216073 PA reg. cancelled. Title: Captain Z-Ro/Attila the Hun. By Captain Z-Ro Productions, Inc. Variant title: Captain Z-Ro/Attila the Hun."
+    },
+    {
+      "title": "The Bamboo Saucer",
+      "year": 1968,
+      "director": "National Telefilm Associates (NTA)",
+      "archive_id": "tbs5554477",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/tbs5554477/tbs5554477.mp4",
+      "license": "Open Archive",
+      "description": "Title: The Bamboo Saucer Summary: A flying saucer hidden in a Red Chinese peasant village is sought by teams from the United States and U.S.S.R. On finding it, they band together to explore the saucer and take a trip into ... Directed by: Frank Telford Actors: Dan Duryea, John Ericson, Lois Nettleton Production Company: National Telefilm Associates (NTA) Release Date: September 1974 (Turkey) Aspect Ratio: 1.85 : 1 A flying saucer hidden in a Red Chinese peasant village is sought by teams from the United States and U.S.S.R. On finding it, they band together to explore the saucer and take a trip into space."
+    },
+    {
+      "title": "The Other Dragon",
+      "year": 2003,
+      "director": "Jerry White Jr.",
+      "archive_id": "theotherdragon",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/theotherdragon/theotherdragon_lg.mp4",
+      "license": "Open Archive",
+      "description": "A black and white german existential sci-fi action movie. \"Der Andere Drache\" is in german with english subtitles."
+    },
+    {
+      "title": "The Creation of the Humanoids",
+      "year": 1962,
+      "director": "Genie Productions Inc.",
+      "archive_id": "tcoth44546478",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/tcoth44546478/tcoth44546478.mp4",
+      "license": "Open Archive",
+      "description": "Title: The Creation of the Humanoids Summary: In a post holocaust society, robots take it on their own to help the dying human race by giving them android bodies. Directed by: Wesley Barry Actors: Don Megowan, Erica Elliott, Frances McCann Production Company: Genie Productions Inc. Release Date: 3 July 1962 (USA) Aspect Ratio: 1.85 : 1 The survivors of a nuclear holocaust fuse man with machine, creating cyborgs to assist in the rebuilding of civilization. However, the blue-skinned androids rebel against their masters and go to war with the remnants of humanity."
+    },
+    {
+      "title": "A Trip To The Moon (20 fps)",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "ATripToTheMoon20Fps",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/ATripToTheMoon20Fps/TripToTheMoon20Fps.mp4",
+      "license": "Open Archive",
+      "description": "This is the same Trip To The Moon that you will find in three other places on the Archive, one of them mine. I realized after uploading that those versions went at the video speed of 30 frames per second. Those movies were originally projected at 18 frames per second. I went back to my editing program but the closest I could come to it was 20 fps. I thought I would have to replace the music, but slowing it down like that did something t it which is not unpleasant. enjoy. \u00e2\u00a0"
+    },
+    {
+      "title": "Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)",
+      "year": 1970,
+      "director": "Roger Corman",
+      "archive_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19/Gas-Or-.It.Became.Necessary.to.Destroy.the.World.in.Order.to.Save.It.1970.1080p.BluRay.H264.AAC-RARBG.ia.mp4",
+      "license": "Open Archive",
+      "description": "AKA Gas-s-s-s Plot: A gas is let loose upon the world that kills anyone over 25 years old"
+    },
+    {
+      "title": "It Conquered the World",
+      "year": 1956,
+      "director": "Sunset Productions (III)",
+      "archive_id": "HowItConqueredTheWorld",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/HowItConqueredTheWorld/IT_Conquered_The_World_1956.mp4",
+      "license": "Open Archive",
+      "description": "Title: It Conquered the World Summary: A well meaning scientist guides an alien monster to Earth from Venus, so that he can rid mankind of feelings and emotions - but only death and sorrow results. Directed by: Roger Corman Actors: Peter Graves, Beverly Garland, Lee Van Cleef Production Company: Sunset Productions (III) Release Date: 15 July 1956 (USA) Aspect Ratio: 1.37 : 1 One of several remaining members of its race, an alien from Venus is guided to Earth by disgruntled scientist Tom Anderson, who tells it which humans it should attach mind control devices to. Among them is his old friend, fellow scientist Paul Nelson. Nelson, after killing a flying bat-thing which carries the device, finally persuades the paranoid Anderson that he's been wrong to ally himself with an alien bent on world domination. They hurriedly leave when they discover Tom's wife has picked up a rifle and gone to the alien's cave to try to kill it."
+    },
+    {
+      "title": "Santa Claus Conquers The Martians ( 1964) HD VERSION",
+      "year": 1964,
+      "director": "Nicholas Webster",
+      "archive_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris/Y2Mate.is - Santa Claus Conquers the Martians (1964) Adventure, Comedy, Sci-Fi, Christmas Movie-L4SZyeUGSM4-1080p-1639926880939.ia.mp4",
+      "license": "Open Archive",
+      "description": "HD VERSION\u00a0 IN GLORIOUS 1080P Plot:\u00a0 The Martians kidnap Santa Claus because there is nobody on Mars to give their children presents."
     }
   ],
   "scenes": [
@@ -9338,6 +9438,1248 @@
       "visual_description": "Sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' featuring dramatic lighting and atmospheric framing.",
       "synopsis": "Dramatic character sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' (1952).",
       "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_1",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie",
+      "scene_number": 1,
+      "start_timecode": "00:10:25",
+      "end_timecode": "00:10:35",
+      "start_seconds": 625.2351,
+      "end_seconds": 635.5454,
+      "duration_seconds": 10.3103,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_1_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_1_thumb.jpg",
+      "transcription": "Because we were the command crew, and if anything went wrong, we were set to follow. There were three of us.",
+      "visual_description": "Sequence from 'Voyage To The Planet Of Prehistoric Women' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Voyage To The Planet Of Prehistoric Women' (1968).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_2",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie",
+      "scene_number": 2,
+      "start_timecode": "00:12:00",
+      "end_timecode": "00:12:10",
+      "start_seconds": 720.4302,
+      "end_seconds": 730.9407,
+      "duration_seconds": 10.5105,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_2_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Voyage To The Planet Of Prehistoric Women' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Voyage To The Planet Of Prehistoric Women' (1968).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_3",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie",
+      "scene_number": 3,
+      "start_timecode": "00:13:37",
+      "end_timecode": "00:13:51",
+      "start_seconds": 817.1268,
+      "end_seconds": 831.9416,
+      "duration_seconds": 14.8148,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_3_14s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_3_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_3_thumb.jpg",
+      "transcription": "And then...",
+      "visual_description": "Sequence from 'Voyage To The Planet Of Prehistoric Women' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Voyage To The Planet Of Prehistoric Women' (1968).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_4",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie",
+      "scene_number": 4,
+      "start_timecode": "00:14:11",
+      "end_timecode": "00:14:26",
+      "start_seconds": 851.8615,
+      "end_seconds": 866.0757,
+      "duration_seconds": 14.2142,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_4_14s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_4_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_4_thumb.jpg",
+      "transcription": "Wow, close call. We're watching on the location finder. The area is strange. This is truly a prehistoric planet. Landing location is square 73.",
+      "visual_description": "Sequence from 'Voyage To The Planet Of Prehistoric Women' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Voyage To The Planet Of Prehistoric Women' (1968).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_5",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie",
+      "scene_number": 5,
+      "start_timecode": "00:22:47",
+      "end_timecode": "00:23:01",
+      "start_seconds": 1367.2764,
+      "end_seconds": 1381.0902,
+      "duration_seconds": 13.8138,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_5_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/VoyageToThePlanetOfPrehistoricWomen1968FullMovie_scene_5_thumb.jpg",
+      "transcription": "If you raise them, tell them to report their position, then get yourself into a spacesuit. We're going to walk about it. I'll be right behind you. That'll be handy if I slip. Get popping now. It's 4.7 on oxygen. That's pretty close.",
+      "visual_description": "Sequence from 'Voyage To The Planet Of Prehistoric Women' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Voyage To The Planet Of Prehistoric Women' (1968).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "05516Tbtx_scene_1",
+      "movie_id": "05516Tbtx",
+      "scene_number": 1,
+      "start_timecode": "00:23:46",
+      "end_timecode": "00:23:57",
+      "start_seconds": 1426.84575,
+      "end_seconds": 1437.731625,
+      "duration_seconds": 10.885875,
+      "video_filename": "05516Tbtx_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "05516Tbtx_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_1_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_1_thumb.jpg",
+      "transcription": "Yes. We know who you are. We know all about you. Relax. You're going to be here for a while.",
+      "visual_description": "Sequence from 'The Terror Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Terror Beneath the Sea' (1966).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "05516Tbtx_scene_2",
+      "movie_id": "05516Tbtx",
+      "scene_number": 2,
+      "start_timecode": "00:25:48",
+      "end_timecode": "00:26:04",
+      "start_seconds": 1548.091875,
+      "end_seconds": 1564.7335,
+      "duration_seconds": 16.641625,
+      "video_filename": "05516Tbtx_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "05516Tbtx_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_2_thumb.jpg",
+      "transcription": "This is what I was talking about. The young lady we're searching for took this picture. Is that thing a live commander? We're going to find out. Whatever it is, we are going after it. Sean, a signal from the base. And the order has been rescinded.",
+      "visual_description": "Sequence from 'The Terror Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Terror Beneath the Sea' (1966).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "05516Tbtx_scene_3",
+      "movie_id": "05516Tbtx",
+      "scene_number": 3,
+      "start_timecode": "00:29:15",
+      "end_timecode": "00:29:26",
+      "start_seconds": 1755.298875,
+      "end_seconds": 1766.68525,
+      "duration_seconds": 11.386375,
+      "video_filename": "05516Tbtx_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "05516Tbtx_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_3_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_3_thumb.jpg",
+      "transcription": "I see. I'll show you some of the things that are going on in my underwater base. You can give me your answer then.",
+      "visual_description": "Sequence from 'The Terror Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Terror Beneath the Sea' (1966).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "05516Tbtx_scene_4",
+      "movie_id": "05516Tbtx",
+      "scene_number": 4,
+      "start_timecode": "00:32:33",
+      "end_timecode": "00:32:45",
+      "start_seconds": 1953.496875,
+      "end_seconds": 1965.38375,
+      "duration_seconds": 11.886875,
+      "video_filename": "05516Tbtx_scene_4_11s_1080p.mp4",
+      "keyframe_filename": "05516Tbtx_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_4_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Terror Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Terror Beneath the Sea' (1966).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "05516Tbtx_scene_5",
+      "movie_id": "05516Tbtx",
+      "scene_number": 5,
+      "start_timecode": "00:36:55",
+      "end_timecode": "00:37:10",
+      "start_seconds": 2215.3835,
+      "end_seconds": 2230.982416,
+      "duration_seconds": 15.598916,
+      "video_filename": "05516Tbtx_scene_5_15s_1080p.mp4",
+      "keyframe_filename": "05516Tbtx_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_5_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/05516Tbtx_scene_5_thumb.jpg",
+      "transcription": "Come on!",
+      "visual_description": "Sequence from 'The Terror Beneath the Sea' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Terror Beneath the Sea' (1966).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CaptainZero-AtillaTheHun_scene_1",
+      "movie_id": "CaptainZero-AtillaTheHun",
+      "scene_number": 1,
+      "start_timecode": "00:09:17",
+      "end_timecode": "00:12:54",
+      "start_seconds": 557.0,
+      "end_seconds": 774.1169,
+      "duration_seconds": 217.1169,
+      "video_filename": "CaptainZero-AtillaTheHun_scene_1_217s_1080p.mp4",
+      "keyframe_filename": "CaptainZero-AtillaTheHun_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_1_217s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_1_thumb.jpg",
+      "transcription": "Look here they come, even as the sand of the desert covers all in its path. So shall the Huns blanket the cities of the earth. Those who dare to resist will learn why they call me the scourge of God. Yeah, but Rome has been in power for centuries. A grandeur of Rome. Already the emperors of both the East and the West pay homage to Atalada Hun. Now they will give up their crowns or I take him, still on their heads. As another Hun will rule the world or strike the bones of its people over the face of the house. You seem certain the men will follow you. Even as you would have come, the sword. Do I not have the sword of Mars? Yeah, it is true. In whose ever reign the sword of Mars is found. He shall rule the world. Both that I had such a weapon. It is not for the likes of you with a car. Go. Prepare them in for battle. Yeah, my lord. I will await this arm alone. Come! They will follow the sword of Mars. Well, that boy is really tough. One of the toughest in history. What's all this business about a sword? You mean the sword of Mars? Yeah. Well, you know that Mars was the ancient Roman god of war. Yeah. Seeing that ancient times, Mars lost his sword. And according to an old city and legend, in his ever reign, the sword of Mars is found. That king shall rule the world. Now, all the Huns believed the legend. And that's one reason they followed Atalada. Well, the sword like that in his hand, I'd be persuaded to follow him myself. Boy, you going to shut down the time machine, Captain? No, I want you to materialize me back to the tent of Atalada Huns. What? Something strange happened this night, micro, causing fear in the camp of Atalada. And I intend to find out what it was. Now, wait a minute, Captain, that Atalada just as soon will lock your head off and look at you. Stand by and activate the materialization chamber. Yes, sir. It's going to be mighty lonelier out here without you, Captain. I can take care of myself. Wait a minute, Captain. It's pretty.",
+      "visual_description": "Sequence from 'Captain Z-ro - Atilla The Hun' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Captain Z-ro - Atilla The Hun' (1955).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CaptainZero-AtillaTheHun_scene_2",
+      "movie_id": "CaptainZero-AtillaTheHun",
+      "scene_number": 2,
+      "start_timecode": "00:12:54",
+      "end_timecode": "00:13:03",
+      "start_seconds": 774.1169,
+      "end_seconds": 783.3261,
+      "duration_seconds": 9.2092,
+      "video_filename": "CaptainZero-AtillaTheHun_scene_2_9s_1080p.mp4",
+      "keyframe_filename": "CaptainZero-AtillaTheHun_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_2_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_2_thumb.jpg",
+      "transcription": "far back for materialization and we better test it. After all I'd hate to see you get lost somewhere in time. Whenever you're right. Let's try that chair.",
+      "visual_description": "Sequence from 'Captain Z-ro - Atilla The Hun' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Captain Z-ro - Atilla The Hun' (1955).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CaptainZero-AtillaTheHun_scene_3",
+      "movie_id": "CaptainZero-AtillaTheHun",
+      "scene_number": 3,
+      "start_timecode": "00:13:03",
+      "end_timecode": "00:14:20",
+      "start_seconds": 783.3261,
+      "end_seconds": 860.7034,
+      "duration_seconds": 77.3773,
+      "video_filename": "CaptainZero-AtillaTheHun_scene_3_77s_1080p.mp4",
+      "keyframe_filename": "CaptainZero-AtillaTheHun_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_3_77s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_3_thumb.jpg",
+      "transcription": "Beel. Okay. Stand by to materialize. Microwave condenses are opening. They're void activities increasing. Quality is building up. Smart gaps are closing. Wait a minute. What's wrong? You've got me. Tetra, what's happening down there? What do the high new cars burn out, Captain? So I cut down the materialization unit from here. Okay, we'll be right there. Let's go down and help him. Leave the switch on. We can activate it from below. All right. Come on, Captain. Microwave? Hi, Jeff. You finally woke up, huh? Yeah, I really didn't mean to fall asleep. It's all right. Forget it. What are you going? Don't let your chamber. Just sit tight and don't touch anything. I'll be right back. Okay. Okay. Man, I'm tired. What's it you're doing in here? Okay, Microwave. Not to do it. Switch on the materialization unit. All set, sir.",
+      "visual_description": "Sequence from 'Captain Z-ro - Atilla The Hun' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Captain Z-ro - Atilla The Hun' (1955).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CaptainZero-AtillaTheHun_scene_4",
+      "movie_id": "CaptainZero-AtillaTheHun",
+      "scene_number": 4,
+      "start_timecode": "00:14:20",
+      "end_timecode": "00:14:35",
+      "start_seconds": 860.7034,
+      "end_seconds": 875.8185,
+      "duration_seconds": 15.1151,
+      "video_filename": "CaptainZero-AtillaTheHun_scene_4_15s_1080p.mp4",
+      "keyframe_filename": "CaptainZero-AtillaTheHun_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_4_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_4_thumb.jpg",
+      "transcription": "I'll see you in the next video.",
+      "visual_description": "Sequence from 'Captain Z-ro - Atilla The Hun' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Captain Z-ro - Atilla The Hun' (1955).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "CaptainZero-AtillaTheHun_scene_5",
+      "movie_id": "CaptainZero-AtillaTheHun",
+      "scene_number": 5,
+      "start_timecode": "00:14:35",
+      "end_timecode": "00:14:37",
+      "start_seconds": 875.8185,
+      "end_seconds": 877.7203999999999,
+      "duration_seconds": 1.9019,
+      "video_filename": "CaptainZero-AtillaTheHun_scene_5_1s_1080p.mp4",
+      "keyframe_filename": "CaptainZero-AtillaTheHun_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_5_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/CaptainZero-AtillaTheHun_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Captain Z-ro - Atilla The Hun' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Captain Z-ro - Atilla The Hun' (1955).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tbs5554477_scene_1",
+      "movie_id": "tbs5554477",
+      "scene_number": 1,
+      "start_timecode": "00:27:23",
+      "end_timecode": "00:28:16",
+      "start_seconds": 1643.6399999999999,
+      "end_seconds": 1696.92,
+      "duration_seconds": 53.28,
+      "video_filename": "tbs5554477_scene_1_53s_1080p.mp4",
+      "keyframe_filename": "tbs5554477_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_1_53s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_1_thumb.jpg",
+      "transcription": "It's just the Chinese regime. What a guy. Routine, but full? Yeah. It's too close for comfort. There's going to be a long, hard journey. All right. Take a rest, everybody. Joshy. Joshy. How much per the sand? Well.",
+      "visual_description": "Sequence from 'The Bamboo Saucer' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Bamboo Saucer' (1968).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tbs5554477_scene_2",
+      "movie_id": "tbs5554477",
+      "scene_number": 2,
+      "start_timecode": "00:29:51",
+      "end_timecode": "00:30:09",
+      "start_seconds": 1791.72,
+      "end_seconds": 1809.24,
+      "duration_seconds": 17.52,
+      "video_filename": "tbs5554477_scene_2_17s_1080p.mp4",
+      "keyframe_filename": "tbs5554477_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_2_17s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_2_thumb.jpg",
+      "transcription": "Hey, wait a minute, meeting, I won't hurt you.",
+      "visual_description": "Sequence from 'The Bamboo Saucer' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Bamboo Saucer' (1968).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tbs5554477_scene_3",
+      "movie_id": "tbs5554477",
+      "scene_number": 3,
+      "start_timecode": "00:31:40",
+      "end_timecode": "00:32:00",
+      "start_seconds": 1900.8,
+      "end_seconds": 1920.6,
+      "duration_seconds": 19.8,
+      "video_filename": "tbs5554477_scene_3_19s_1080p.mp4",
+      "keyframe_filename": "tbs5554477_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_3_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_3_thumb.jpg",
+      "transcription": "Any more shooting will attract the Chinese soldiers, if it hasn't already. I'd try to stop after them. Well, we can't steepen down here. Maybe we ought to pull out. It wouldn't help. They run us down easily unless we abandon all of our equipment. Sam, go back and see if we can get any porters left. OK.",
+      "visual_description": "Sequence from 'The Bamboo Saucer' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Bamboo Saucer' (1968).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tbs5554477_scene_4",
+      "movie_id": "tbs5554477",
+      "scene_number": 4,
+      "start_timecode": "00:32:42",
+      "end_timecode": "00:32:52",
+      "start_seconds": 1962.12,
+      "end_seconds": 1972.2,
+      "duration_seconds": 10.08,
+      "video_filename": "tbs5554477_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "tbs5554477_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_4_thumb.jpg",
+      "transcription": "Thanks for watching, and I'll see you in the next video.",
+      "visual_description": "Sequence from 'The Bamboo Saucer' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Bamboo Saucer' (1968).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tbs5554477_scene_5",
+      "movie_id": "tbs5554477",
+      "scene_number": 5,
+      "start_timecode": "00:33:32",
+      "end_timecode": "00:33:54",
+      "start_seconds": 2012.4,
+      "end_seconds": 2034.0,
+      "duration_seconds": 21.6,
+      "video_filename": "tbs5554477_scene_5_21s_1080p.mp4",
+      "keyframe_filename": "tbs5554477_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_5_21s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tbs5554477_scene_5_thumb.jpg",
+      "transcription": "What are you Americans doing here? Yes, it's almost as good as I do. But you're not good, and you're not good. I'm not good. Isn't it like you're here? No, that's not true. If you're found by our friends and allies, the soldiers of Chinese socialist republic, you will be shot. Reversal",
+      "visual_description": "Sequence from 'The Bamboo Saucer' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Bamboo Saucer' (1968).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "theotherdragon_scene_1",
+      "movie_id": "theotherdragon",
+      "scene_number": 1,
+      "start_timecode": "00:20:44",
+      "end_timecode": "00:23:06",
+      "start_seconds": 1244.0,
+      "end_seconds": 1386.042042,
+      "duration_seconds": 142.042042,
+      "video_filename": "theotherdragon_scene_1_142s_1080p.mp4",
+      "keyframe_filename": "theotherdragon_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/theotherdragon_scene_1_142s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/theotherdragon_scene_1_thumb.jpg",
+      "transcription": "oh, it is heavy I have been in the forest and I have been eating this so I'm just going to eat it and I'm going to eat it because it's a little fast and I don't know what I'm saying that's fine but I'm just going to eat with you so I will eat you that's fine but this is fine here I will dance to fear to write us fuck How big is your finger sharp to come back? You're okay. Ah! No! You're okay. Please stop. You're dead. You're dead, it's not. Okay, okay. Okay, okay, okay. You're not allowed to look at me. That's... I know, I'm just... Please. Please, I'm wiling up, I can't guess this. All right. Did you hear them? They're like, you're breathing? Yeah, no, it's really. I'm breathing. Yeah. Why this was, I got plastic. This is updating stuff. I'll take this evening to shot. I'll call it. I'll call it. I'll call it. I'll call it. I'll call it. I'll call it. I'll call it. I'll call it. I'll call it. I'll call it. Employment, I'll call it. And you'll know what? Oh shit. I'll tell you this doesn't even observe me. Get up. Oh, she said... Oh, she said... If you have an iron of all, just keep naving the doitumen, una hem, god damn, it's hard forward to say, we're not panning, okay c-",
+      "visual_description": "Sequence from 'The Other Dragon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Other Dragon' (2003).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "theotherdragon_scene_2",
+      "movie_id": "theotherdragon",
+      "scene_number": 2,
+      "start_timecode": "00:23:06",
+      "end_timecode": "00:23:22",
+      "start_seconds": 1386.042042,
+      "end_seconds": 1402.458458,
+      "duration_seconds": 16.416416,
+      "video_filename": "theotherdragon_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "theotherdragon_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/theotherdragon_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/theotherdragon_scene_2_thumb.jpg",
+      "transcription": "\ud83c\udfb5",
+      "visual_description": "Sequence from 'The Other Dragon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Other Dragon' (2003).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "theotherdragon_scene_3",
+      "movie_id": "theotherdragon",
+      "scene_number": 3,
+      "start_timecode": "00:23:22",
+      "end_timecode": "00:23:23",
+      "start_seconds": 1402.458458,
+      "end_seconds": 1403.993327,
+      "duration_seconds": 1.534869,
+      "video_filename": "theotherdragon_scene_3_1s_1080p.mp4",
+      "keyframe_filename": "theotherdragon_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/theotherdragon_scene_3_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/theotherdragon_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Other Dragon' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Other Dragon' (2003).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tcoth44546478_scene_1",
+      "movie_id": "tcoth44546478",
+      "scene_number": 1,
+      "start_timecode": "00:10:52",
+      "end_timecode": "00:11:04",
+      "start_seconds": 652.155125,
+      "end_seconds": 664.5425,
+      "duration_seconds": 12.387375,
+      "video_filename": "tcoth44546478_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "tcoth44546478_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_1_thumb.jpg",
+      "transcription": "I still have an occasional doubt. You may withdraw, if you're conscious circuited. I'm unoffended.",
+      "visual_description": "Sequence from 'The Creation of the Humanoids' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Creation of the Humanoids' (1962).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tcoth44546478_scene_2",
+      "movie_id": "tcoth44546478",
+      "scene_number": 2,
+      "start_timecode": "00:16:07",
+      "end_timecode": "00:16:23",
+      "start_seconds": 967.8455,
+      "end_seconds": 983.11075,
+      "duration_seconds": 15.26525,
+      "video_filename": "tcoth44546478_scene_2_15s_1080p.mp4",
+      "keyframe_filename": "tcoth44546478_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_2_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_2_thumb.jpg",
+      "transcription": "Your supplier, will they take his identity? His memory will be dispersed tomorrow. What a waste. Why don't they just kill him? The effect of personal cessation is the same in either case. They just leave a hollow shell walking around.",
+      "visual_description": "Sequence from 'The Creation of the Humanoids' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Creation of the Humanoids' (1962).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tcoth44546478_scene_3",
+      "movie_id": "tcoth44546478",
+      "scene_number": 3,
+      "start_timecode": "00:17:46",
+      "end_timecode": "00:18:33",
+      "start_seconds": 1066.444,
+      "end_seconds": 1113.365875,
+      "duration_seconds": 46.921875,
+      "video_filename": "tcoth44546478_scene_3_46s_1080p.mp4",
+      "keyframe_filename": "tcoth44546478_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_3_46s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_3_thumb.jpg",
+      "transcription": "Humans aren't allowed to set foot in a robot temple. Yet we saw a man come out of company by a robot. I want to know why. Those guys from the Brotherhood should be here by now. I wonder what the leg them. Watch it. What do you self-appointed defenders of the human race up to now? Why don't you beat it while you still have a beat to beat? You have so much to say, I think I'll take you in for questioning. That's as good a way as I need to get your rating lowered. I'm a captain of the order and my professional rank is eight. Eight? Well, just stay out of trouble. Are you threatening me? Sorry, sir. Good night, sir.",
+      "visual_description": "Sequence from 'The Creation of the Humanoids' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Creation of the Humanoids' (1962).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tcoth44546478_scene_4",
+      "movie_id": "tcoth44546478",
+      "scene_number": 4,
+      "start_timecode": "00:23:45",
+      "end_timecode": "00:23:59",
+      "start_seconds": 1425.427625,
+      "end_seconds": 1439.691875,
+      "duration_seconds": 14.26425,
+      "video_filename": "tcoth44546478_scene_4_14s_1080p.mp4",
+      "keyframe_filename": "tcoth44546478_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_4_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_4_thumb.jpg",
+      "transcription": "This is something, isn't it? Yes. It's something.",
+      "visual_description": "Sequence from 'The Creation of the Humanoids' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Creation of the Humanoids' (1962).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "tcoth44546478_scene_5",
+      "movie_id": "tcoth44546478",
+      "scene_number": 5,
+      "start_timecode": "00:24:09",
+      "end_timecode": "00:24:24",
+      "start_seconds": 1449.827,
+      "end_seconds": 1464.3415,
+      "duration_seconds": 14.5145,
+      "video_filename": "tcoth44546478_scene_5_14s_1080p.mp4",
+      "keyframe_filename": "tcoth44546478_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_5_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/tcoth44546478_scene_5_thumb.jpg",
+      "transcription": "May I have quiet? Since this is an emergency session, we will dispense with the formal rights. Two and a half hours ago, members of our surveillance committee captured two robots.",
+      "visual_description": "Sequence from 'The Creation of the Humanoids' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Creation of the Humanoids' (1962).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ATripToTheMoon20Fps_scene_1",
+      "movie_id": "ATripToTheMoon20Fps",
+      "scene_number": 1,
+      "start_timecode": "00:11:06",
+      "end_timecode": "00:11:11",
+      "start_seconds": 666.0,
+      "end_seconds": 671.85,
+      "duration_seconds": 5.85,
+      "video_filename": "ATripToTheMoon20Fps_scene_1_5s_1080p.mp4",
+      "keyframe_filename": "ATripToTheMoon20Fps_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ATripToTheMoon20Fps_scene_1_5s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ATripToTheMoon20Fps_scene_1_thumb.jpg",
+      "transcription": "Thanks for watching!",
+      "visual_description": "Sequence from 'A Trip To The Moon (20 fps)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'A Trip To The Moon (20 fps)' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ATripToTheMoon20Fps_scene_2",
+      "movie_id": "ATripToTheMoon20Fps",
+      "scene_number": 2,
+      "start_timecode": "00:11:11",
+      "end_timecode": "00:11:16",
+      "start_seconds": 671.85,
+      "end_seconds": 676.65,
+      "duration_seconds": 4.8,
+      "video_filename": "ATripToTheMoon20Fps_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "ATripToTheMoon20Fps_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ATripToTheMoon20Fps_scene_2_4s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ATripToTheMoon20Fps_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'A Trip To The Moon (20 fps)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'A Trip To The Moon (20 fps)' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ATripToTheMoon20Fps_scene_3",
+      "movie_id": "ATripToTheMoon20Fps",
+      "scene_number": 3,
+      "start_timecode": "00:11:16",
+      "end_timecode": "00:11:18",
+      "start_seconds": 676.65,
+      "end_seconds": 678.2,
+      "duration_seconds": 1.55,
+      "video_filename": "ATripToTheMoon20Fps_scene_3_1s_1080p.mp4",
+      "keyframe_filename": "ATripToTheMoon20Fps_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ATripToTheMoon20Fps_scene_3_1s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ATripToTheMoon20Fps_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'A Trip To The Moon (20 fps)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'A Trip To The Moon (20 fps)' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_1",
+      "movie_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19",
+      "scene_number": 1,
+      "start_timecode": "00:27:00",
+      "end_timecode": "00:27:12",
+      "start_seconds": 1620.946947,
+      "end_seconds": 1632.083083,
+      "duration_seconds": 11.136136,
+      "video_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_1_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_1_thumb.jpg",
+      "transcription": "All that and more, yes, guys and girls, cats and kitties, I'm just close to you, I've got figures anyone who ever lived. As a matter of fact, if I'm not Godhead, get a gang, God",
+      "visual_description": "Sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' (1970).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_2",
+      "movie_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19",
+      "scene_number": 2,
+      "start_timecode": "00:32:51",
+      "end_timecode": "00:33:16",
+      "start_seconds": 1971.422422,
+      "end_seconds": 1996.572573,
+      "duration_seconds": 25.150151,
+      "video_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_2_25s_1080p.mp4",
+      "keyframe_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_2_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_2_thumb.jpg",
+      "transcription": "You're off-sized. Five yards. Hey, we demand an explanation. You're officially red shirts for the Warriors. Champions of the Texas grid are in a life. Now, you'll be given certain assignments. If you carry them out, you'll be applauded as part of the team. If you fail...",
+      "visual_description": "Sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' (1970).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_3",
+      "movie_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19",
+      "scene_number": 3,
+      "start_timecode": "00:33:36",
+      "end_timecode": "00:33:51",
+      "start_seconds": 2016.0920919999999,
+      "end_seconds": 2031.2322319999998,
+      "duration_seconds": 15.14014,
+      "video_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_3_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' (1970).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_4",
+      "movie_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19",
+      "scene_number": 4,
+      "start_timecode": "00:33:51",
+      "end_timecode": "00:34:03",
+      "start_seconds": 2031.2322319999998,
+      "end_seconds": 2043.744745,
+      "duration_seconds": 12.512513,
+      "video_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_4_12s_1080p.mp4",
+      "keyframe_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_4_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_4_thumb.jpg",
+      "transcription": "We've got to kill, we've got to kill, we've got to kill!",
+      "visual_description": "Sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' (1970).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_5",
+      "movie_id": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19",
+      "scene_number": 5,
+      "start_timecode": "00:36:36",
+      "end_timecode": "00:36:49",
+      "start_seconds": 2196.022022,
+      "end_seconds": 2209.16016,
+      "duration_seconds": 13.138138,
+      "video_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_5_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/gas-or-.-it.-became.-necessary.to.-destroy.the.-world.in.-order.to.-save.-it.-19_scene_5_thumb.jpg",
+      "transcription": "You all know El Paso is a good city. And on any given Saturday, she can be a great city. And I don't have to tell you that El Paso is going to be up for us. I only hope we're ready for us.",
+      "visual_description": "Sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Gas! -Or -It Became Necessary to Destroy the World in Order to Save It(1970)' (1970).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "HowItConqueredTheWorld_scene_1",
+      "movie_id": "HowItConqueredTheWorld",
+      "scene_number": 1,
+      "start_timecode": "00:20:37",
+      "end_timecode": "00:20:48",
+      "start_seconds": 1237.8056,
+      "end_seconds": 1248.9167,
+      "duration_seconds": 11.1111,
+      "video_filename": "HowItConqueredTheWorld_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "HowItConqueredTheWorld_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_1_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_1_thumb.jpg",
+      "transcription": "I get some ice What's your pleasure? I'll have some bourbon and soda somebody can just pour a bucket of water over my head and then shrink my feet",
+      "visual_description": "Sequence from 'It Conquered the World' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Conquered the World' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "HowItConqueredTheWorld_scene_2",
+      "movie_id": "HowItConqueredTheWorld",
+      "scene_number": 2,
+      "start_timecode": "00:22:26",
+      "end_timecode": "00:22:37",
+      "start_seconds": 1346.4141,
+      "end_seconds": 1357.325,
+      "duration_seconds": 10.9109,
+      "video_filename": "HowItConqueredTheWorld_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "HowItConqueredTheWorld_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_2_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_2_thumb.jpg",
+      "transcription": "I'm sorry, Tom. I can't bring myself to believe what you're saying. It's nothing new. It's been years since anyone's believed in me. All right, let's assume you're right. It's a period.",
+      "visual_description": "Sequence from 'It Conquered the World' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Conquered the World' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "HowItConqueredTheWorld_scene_3",
+      "movie_id": "HowItConqueredTheWorld",
+      "scene_number": 3,
+      "start_timecode": "00:25:47",
+      "end_timecode": "00:25:57",
+      "start_seconds": 1547.0145,
+      "end_seconds": 1557.525,
+      "duration_seconds": 10.5105,
+      "video_filename": "HowItConqueredTheWorld_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "HowItConqueredTheWorld_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_3_thumb.jpg",
+      "transcription": "Your reconnaissance. Take a position south of Baker's Ridge and observe the country to the east. But take no action. Hey, senior general, sir. How are we going to know when it's...",
+      "visual_description": "Sequence from 'It Conquered the World' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Conquered the World' (1956).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "HowItConqueredTheWorld_scene_4",
+      "movie_id": "HowItConqueredTheWorld",
+      "scene_number": 4,
+      "start_timecode": "00:27:05",
+      "end_timecode": "00:27:21",
+      "start_seconds": 1625.4929,
+      "end_seconds": 1641.0084000000002,
+      "duration_seconds": 15.5155,
+      "video_filename": "HowItConqueredTheWorld_scene_4_15s_1080p.mp4",
+      "keyframe_filename": "HowItConqueredTheWorld_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_4_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_4_thumb.jpg",
+      "transcription": "I'll see you in the next video.",
+      "visual_description": "Sequence from 'It Conquered the World' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Conquered the World' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "HowItConqueredTheWorld_scene_5",
+      "movie_id": "HowItConqueredTheWorld",
+      "scene_number": 5,
+      "start_timecode": "00:30:10",
+      "end_timecode": "00:30:24",
+      "start_seconds": 1810.5778,
+      "end_seconds": 1824.4917,
+      "duration_seconds": 13.9139,
+      "video_filename": "HowItConqueredTheWorld_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "HowItConqueredTheWorld_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_5_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/HowItConqueredTheWorld_scene_5_thumb.jpg",
+      "transcription": "That's the nearest point that I wrote to Vegas Ridge. We'll turn off here and watch cross country to the south. Ooh! Why don't you watch where you're going? I've seen a funny-looking bird. That was no bird. That was the guy in front of you. Alright, let's move.",
+      "visual_description": "Sequence from 'It Conquered the World' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'It Conquered the World' (1956).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_1",
+      "movie_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris",
+      "scene_number": 1,
+      "start_timecode": "00:29:28",
+      "end_timecode": "00:29:46",
+      "start_seconds": 1768.3600000000001,
+      "end_seconds": 1786.24,
+      "duration_seconds": 17.88,
+      "video_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_1_17s_1080p.mp4",
+      "keyframe_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_1_17s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_1_thumb.jpg",
+      "transcription": "Come on, Betty!",
+      "visual_description": "Sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' (1964).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_2",
+      "movie_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris",
+      "scene_number": 2,
+      "start_timecode": "00:36:05",
+      "end_timecode": "00:36:20",
+      "start_seconds": 2165.44,
+      "end_seconds": 2180.32,
+      "duration_seconds": 14.88,
+      "video_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_2_14s_1080p.mp4",
+      "keyframe_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_2_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_2_thumb.jpg",
+      "transcription": "forward. You are very lucky. Now don't try to escape again. You may not be so lucky next time. Hider, take them back to the ship, lock them up and rejoin us. You won't get away on this. You do more sh-",
+      "visual_description": "Sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' (1964).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_3",
+      "movie_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris",
+      "scene_number": 3,
+      "start_timecode": "00:36:33",
+      "end_timecode": "00:36:46",
+      "start_seconds": 2193.16,
+      "end_seconds": 2206.12,
+      "duration_seconds": 12.96,
+      "video_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_3_12s_1080p.mp4",
+      "keyframe_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_3_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_3_thumb.jpg",
+      "transcription": "They get in our way. No one is to be harm. What has happened to the great warriors of our planet? Mars used to be the planet of war. Mark my words, Kima.",
+      "visual_description": "Sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' (1964).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_4",
+      "movie_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris",
+      "scene_number": 4,
+      "start_timecode": "00:37:43",
+      "end_timecode": "00:37:58",
+      "start_seconds": 2263.84,
+      "end_seconds": 2278.36,
+      "duration_seconds": 14.52,
+      "video_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_4_14s_1080p.mp4",
+      "keyframe_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_4_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_4_thumb.jpg",
+      "transcription": "Where did you come from? You're the biggest toy I've ever seen! And very well made too!",
+      "visual_description": "Sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' (1964).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_5",
+      "movie_id": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris",
+      "scene_number": 5,
+      "start_timecode": "00:37:58",
+      "end_timecode": "00:38:13",
+      "start_seconds": 2278.36,
+      "end_seconds": 2293.12,
+      "duration_seconds": 14.76,
+      "video_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_5_14s_1080p.mp4",
+      "keyframe_filename": "y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_5_14s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/y-2-mate.is-santa-claus-conquers-the-martians-1964-adventure-comedy-sci-fi-chris_scene_5_thumb.jpg",
+      "transcription": "By the great dog star, Sansa's treating him like a toy. Get it, Tor, grab him! He's become a toy. Wigner, we'll have to get Sans to ourselves. Come on, Voldar.",
+      "visual_description": "Sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Santa Claus Conquers The Martians ( 1964) HD VERSION' (1964).",
+      "mood": "Tense / Suspense",
       "noir_tropes": [
         "low-key lighting",
         "cynical dialogue",
