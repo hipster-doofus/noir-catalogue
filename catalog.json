@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-14T02:20:03.081555+00:00",
-  "total_movies": 60,
-  "total_scenes": 270,
-  "genre": "film noir",
+  "updated_at": "2026-11-14T03:12:28.691047+00:00",
+  "total_movies": 70,
+  "total_scenes": 320,
+  "genre": "sci-fi",
   "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
@@ -605,6 +605,106 @@
       "video_url": "https://archive.org/download/the-web-1947/The Web (1947).mp4",
       "license": "Open Archive",
       "description": "UMA AVENTURA ARRISCADA (The Web, 1947 - USA) (Filme Completo / Legendado em Portugu\u00eas) Data de Lan\u00e7amento: 25 de Maio de 1947 \u00bb SINOPSE: Um advogado que atua como guarda-costas mata um homem em defesa da vida de seu chefe. Posteriormente, ele acredita que a v\u00edtima foi configurada para ser assassinada. \u00bb \u00bb SOBRE O FILME: A narrativa \u00e9 linear e a mulher, uma secret\u00e1ria interpretada pela bel\u00edssima Ella Raines, n\u00e3o \u00e9 t\u00e3o fatal assim (como, ali\u00e1s, nunca foram as personagens de Raines). Mas a boa hist\u00f3ria (do advogado que, atra\u00eddo pela beleza de Raines, aceita o trabalho de guarda-costas de um rico empres\u00e1rio e acaba envolvido em alguns crimes) e as \u00f3timas interpreta\u00e7\u00f5es do quarteto principal (Raines, Edmond O'Brien, Vincent Price e William Bendix) tornam o filme bastante interessante. Sem d\u00favida, merecia ser bem mais conhecido. . \u00bb \u00bb DIRE\u00c7\u00c3O: Michael Gordon ROTEIRO: William Bowers, Bertram Millhauser(screenplay) and Harry Kurnitz (story) G\u00caNERO: Crime, Drama, Film-Noir\u00a0 ORIGEM: USA DURA\u00c7\u00c3O: 1h 27min \u00bb \u00bb ELENCO PRINCIPAL: Ella Raines ... Noel Faraday Edmond O'Brien ... Bob Regan William Bendix ... Lt. Damico Vincent Price ... Andrew Colby Maria Palmer ... Martha Kroner John Abbott ... Charles Murdock Fritz Leiber ... Leopold Kroner Howland Chamberlain ... James Nolan Tito Vuolo ... Emilio Canepa Wilton Graff ... District Attorney Robin Raymond ... Newspaper Librarian \u00bb \u00bb Fontes de Pesquisa/Textos: IMDb, Filmow, Cine Players."
+    },
+    {
+      "title": "Man with Two Lives",
+      "year": 1942,
+      "director": "A.W. Hackel",
+      "archive_id": "ManwithTwoLives",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/ManwithTwoLives/ManwithTwoLives.mp4",
+      "license": "Open Archive",
+      "description": "A man is brought back from death at the same time a vicious criminal dies in the electric chair. However, the man's soul is now taken over by the electrocuted gangster, who embarks on a vengeful crime wave."
+    },
+    {
+      "title": "Teenagers From Outer Space",
+      "year": 1959,
+      "director": "Tom Graeff",
+      "archive_id": "TeenagersFromOuterSpace",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/TeenagersFromOuterSpace/TeenagersFromOuterSpace.mp4",
+      "license": "Open Archive",
+      "description": "A young alien (David Love) falls for a pretty teenage Earth girl (Dawn Anderson) and they team up to try to stop the plans of his invading cohorts. NOTE: This is the MPEG2 (and derivative versions). An AVI version is available here ."
+    },
+    {
+      "title": "The Mad Monster",
+      "year": 1942,
+      "director": "Sigmund Neufeld",
+      "archive_id": "The.Mad.Monster",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/The.Mad.Monster/The.Mad.Monster.mp4",
+      "license": "Open Archive",
+      "description": "From IMDb : A mad scientist changes his simple-minded handyman into a werewolf in order to prove his supposedly crazy scientific theories - and exact revenge. Isn't that always the way? Stars: Johnny Downs, George Zucco, Anne Nagel, and Glenn Strange The 916MB MPEG4 file here was derived from the 3.8GB MPEG2 file found on this page . The reason being to provide a quality copy in a smaller size for downloading."
+    },
+    {
+      "title": "The Monster Maker",
+      "year": 1944,
+      "director": "Sigmund Neufeld",
+      "archive_id": "The_Monster_Maker",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/The_Monster_Maker/The_Monster_Maker.mp4",
+      "license": "Open Archive",
+      "description": "A mad scientist infects a concert pianist with acromegaly in hopes of convincing the daughter to marry him in exchange for the cure. You can find out more about this movie on its IMDB page ."
+    },
+    {
+      "title": "The Chinese Room",
+      "year": 1950,
+      "director": "Nate Rulf & J.J. Gould",
+      "archive_id": "TheChineseRoom",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/TheChineseRoom/thechineseroom.mp4",
+      "license": "Open Archive",
+      "description": "The Chinese Room is an award-winning 2009 independent feature. It was shot on location in Washington, DC with an all-local cast and crew. It is a self-financed thriller inspired by the famous thought experiment by John Searle. Synopsis: John is a \"real live John Doe,\" on the run when he finds the perfect job: quiet work, cash under the table, no questions asked. But in this office, the manager Bouchard enforces his list of freakish rules with charisma and cruelty, and forces John to betray his colleagues, filing reports on their lives. The more John learns to fear the office, the more he becomes a part of it. But - what is The Chinese Room?"
+    },
+    {
+      "title": "Arrest Bulldog Drummond",
+      "year": 1939,
+      "director": "William LeBaron and Stuart Walker",
+      "archive_id": "Arrest_Bulldog_Drummond",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Arrest_Bulldog_Drummond/Arrest_Bulldog_Drummond_1939.mp4",
+      "license": "Open Archive",
+      "description": "A British scientist has created a death ray which can destroy an entire army in seconds. A villain murders him, steals his invention, and plans to sell it. Drummond discovers the killing and takes the case, but soon finds himself in trouble with scotland yard, and accused of murder. Now he must clear his name as well as stop the crooks. Stars: John Howard, George Zucco, Heather Angel, H. B. Warner, Reginald Denny, and E. E. Clive New MPEG4 file uploaded Oct. 2009 More at IMDb Bulldog Drummond Movies Bulldog Drummond Escapes Bulldog Drummond Comes Back Bulldog Drummond's Revenge Bulldog Drummond at Bay Bulldog Drummond in Africa Bulldog Drummond's Peril Bulldog Drummond's Secret Police Bulldog Drummond's Bride Arrest Bulldog Drummond"
+    },
+    {
+      "title": "Planet Outlaws",
+      "year": 1953,
+      "director": "Unknown Director",
+      "archive_id": "planet_outlaws",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/planet_outlaws/PLANET_OUTLAWS.mp4",
+      "license": "Open Archive",
+      "description": "Buck Rogers and his pal Buddy (Jackie Moran) are released from suspended animation after 500 years. They discover that the world is under the thumb of modernistic mobster Killer Kane (Anthony Warde), and are enlisted in the fight against Kane by Wilma Deering (Constance Moore) and Dr. Huer (C. Montague Shaw)."
+    },
+    {
+      "title": "Destroy All Planets (1968)",
+      "year": 1950,
+      "director": "Daiei Studios",
+      "archive_id": "DestroyAllPlanets1968",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/DestroyAllPlanets1968/DestroyAllPlanets1968.mp4",
+      "license": "Open Archive",
+      "description": "widescreen version and quality color. Gamera falls under the control of evil aliens, but two captured boy scouts help free him . Upon he freedom he returns to fight the aliens' monster Viras. A totally gut wrenching movie"
+    },
+    {
+      "title": "Rocky Jones, Space Ranger - Menace from Outer Space",
+      "year": 1956,
+      "director": "Arthur Pierson, Guy V. Thayer Jr.",
+      "archive_id": "MenacefromOuterSpace",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/MenacefromOuterSpace/MenacefromOuterSpace.mp4",
+      "license": "Open Archive",
+      "description": "Cruising the galaxy in his space ship \"The Orbit Jet\" Space Ranger, Rocky Jones (Richard Crane), Vena Ray (Sally Mansfield), and 10 year-old Bobby (Robert Lyden) defend the Earth and themselves against space-bound evil doers. A couple of missiles strike earth and Rocky and the gang go to find out where they are coming from. They end up on a moon of Jupiter which is perfect for their survival. They are lucky to land because they have run out of gas. At least their gas gauge says so."
+    },
+    {
+      "title": "Bela Lugosi Meets a Brooklyn Gorilla",
+      "year": 1952,
+      "director": "Maurice Duke",
+      "archive_id": "BelaLugosiMeetsaBrooklynGorilla",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/BelaLugosiMeetsaBrooklynGorilla/BelaLugosiMeetsaBrooklynGorilla.mp4",
+      "license": "Open Archive",
+      "description": "Entertainers Duke Mitchell and Sammy Petrillo parachute into the jungles of the Pacific island of Cola-Cola, where they meet primitive tribesmen, the chief's sarong-clad daughter Nona, and mad scientist Dr. Zabor (Bela Lugosi) conducting experiments in evolution. Jealous of Mitchell's relations with Nona, Zabor has just the thing to make a monkey of him..."
     }
   ],
   "scenes": [
@@ -7895,6 +7995,1356 @@
       ],
       "tags": [
         "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ManwithTwoLives_scene_1",
+      "movie_id": "ManwithTwoLives",
+      "scene_number": 1,
+      "start_timecode": "00:07:02",
+      "end_timecode": "00:07:12",
+      "start_seconds": 422.301918,
+      "end_seconds": 432.810676,
+      "duration_seconds": 10.508758,
+      "video_filename": "ManwithTwoLives_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "ManwithTwoLives_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_1_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_1_thumb.jpg",
+      "transcription": "I didn't mean to say anything. I was thinking about a chap by the name of Pannino, Wolf Pannino. He's going to be electrocuted at midnight. How dredge?",
+      "visual_description": "Sequence from 'Man with Two Lives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Man with Two Lives' (1942).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ManwithTwoLives_scene_2",
+      "movie_id": "ManwithTwoLives",
+      "scene_number": 2,
+      "start_timecode": "00:14:49",
+      "end_timecode": "00:15:05",
+      "start_seconds": 889.316097,
+      "end_seconds": 905.954962,
+      "duration_seconds": 16.638865,
+      "video_filename": "ManwithTwoLives_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "ManwithTwoLives_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_2_thumb.jpg",
+      "transcription": "How do you do, Professor Tola? Mr. Bennet N. He's in the drawing room, sir. Oh, well. Thank you, sir.",
+      "visual_description": "Sequence from 'Man with Two Lives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Man with Two Lives' (1942).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ManwithTwoLives_scene_3",
+      "movie_id": "ManwithTwoLives",
+      "scene_number": 3,
+      "start_timecode": "00:17:06",
+      "end_timecode": "00:17:21",
+      "start_seconds": 1026.805671,
+      "end_seconds": 1041.943286,
+      "duration_seconds": 15.137615,
+      "video_filename": "ManwithTwoLives_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "ManwithTwoLives_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_3_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_3_thumb.jpg",
+      "transcription": "He's been standing like that ever since you left. I want Professor Tola to talk to him. Hello. I understand. Philip.",
+      "visual_description": "Sequence from 'Man with Two Lives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Man with Two Lives' (1942).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ManwithTwoLives_scene_4",
+      "movie_id": "ManwithTwoLives",
+      "scene_number": 4,
+      "start_timecode": "00:17:39",
+      "end_timecode": "00:18:01",
+      "start_seconds": 1059.958299,
+      "end_seconds": 1081.851543,
+      "duration_seconds": 21.893244,
+      "video_filename": "ManwithTwoLives_scene_4_21s_1080p.mp4",
+      "keyframe_filename": "ManwithTwoLives_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_4_21s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_4_thumb.jpg",
+      "transcription": "I'd rather stand in order that you may feel perfectly at ease. I want to assure you that outside of Dr. Clark, I've been closer to your family than anyone else. I've watched you grow from a boy of ten. Suppose you tell me what you've been thinking of since your accident.",
+      "visual_description": "Sequence from 'Man with Two Lives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Man with Two Lives' (1942).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "ManwithTwoLives_scene_5",
+      "movie_id": "ManwithTwoLives",
+      "scene_number": 5,
+      "start_timecode": "00:19:32",
+      "end_timecode": "00:19:41",
+      "start_seconds": 1172.05171,
+      "end_seconds": 1181.434529,
+      "duration_seconds": 9.382819,
+      "video_filename": "ManwithTwoLives_scene_5_9s_1080p.mp4",
+      "keyframe_filename": "ManwithTwoLives_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_5_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/ManwithTwoLives_scene_5_thumb.jpg",
+      "transcription": "We're going out for a walk. Tired Ben cooped up in there. I think he'll do you good, I'll go with you. I'll go long.",
+      "visual_description": "Sequence from 'Man with Two Lives' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Man with Two Lives' (1942).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TeenagersFromOuterSpace_scene_1",
+      "movie_id": "TeenagersFromOuterSpace",
+      "scene_number": 1,
+      "start_timecode": "00:23:58",
+      "end_timecode": "00:24:07",
+      "start_seconds": 1438.9249,
+      "end_seconds": 1447.2332,
+      "duration_seconds": 8.3083,
+      "video_filename": "TeenagersFromOuterSpace_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "TeenagersFromOuterSpace_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_1_thumb.jpg",
+      "transcription": "AHHHHHHHHHHH!!!!",
+      "visual_description": "Sequence from 'Teenagers From Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers From Outer Space' (1959).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TeenagersFromOuterSpace_scene_2",
+      "movie_id": "TeenagersFromOuterSpace",
+      "scene_number": 2,
+      "start_timecode": "00:26:09",
+      "end_timecode": "00:26:20",
+      "start_seconds": 1569.7556,
+      "end_seconds": 1580.5664,
+      "duration_seconds": 10.8108,
+      "video_filename": "TeenagersFromOuterSpace_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "TeenagersFromOuterSpace_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_2_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_2_thumb.jpg",
+      "transcription": "That is what I wanted to tell you about, the reason I came to your place, when I did not know where else to go. Heck, I thought it was a 50 cent...",
+      "visual_description": "Sequence from 'Teenagers From Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers From Outer Space' (1959).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TeenagersFromOuterSpace_scene_3",
+      "movie_id": "TeenagersFromOuterSpace",
+      "scene_number": 3,
+      "start_timecode": "00:29:07",
+      "end_timecode": "00:29:18",
+      "start_seconds": 1747.4331,
+      "end_seconds": 1758.5442,
+      "duration_seconds": 11.1111,
+      "video_filename": "TeenagersFromOuterSpace_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "TeenagersFromOuterSpace_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_3_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_3_thumb.jpg",
+      "transcription": "It projects an isolated beam which separates the molecules of living material and chain reaction, all but the solids, the skeletal braces.",
+      "visual_description": "Sequence from 'Teenagers From Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers From Outer Space' (1959).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TeenagersFromOuterSpace_scene_4",
+      "movie_id": "TeenagersFromOuterSpace",
+      "scene_number": 4,
+      "start_timecode": "00:29:18",
+      "end_timecode": "00:29:29",
+      "start_seconds": 1758.5442,
+      "end_seconds": 1769.1548,
+      "duration_seconds": 10.6106,
+      "video_filename": "TeenagersFromOuterSpace_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "TeenagersFromOuterSpace_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_4_thumb.jpg",
+      "transcription": "Horrible, and you mean, Sparky, but...",
+      "visual_description": "Sequence from 'Teenagers From Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers From Outer Space' (1959).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TeenagersFromOuterSpace_scene_5",
+      "movie_id": "TeenagersFromOuterSpace",
+      "scene_number": 5,
+      "start_timecode": "00:33:55",
+      "end_timecode": "00:34:09",
+      "start_seconds": 2035.9213,
+      "end_seconds": 2049.0344,
+      "duration_seconds": 13.1131,
+      "video_filename": "TeenagersFromOuterSpace_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "TeenagersFromOuterSpace_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_5_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TeenagersFromOuterSpace_scene_5_thumb.jpg",
+      "transcription": "We're not sure yet, Gramps. There's only a couple of skeletons. We'll know more when the coroner gets here. We're gonna get busy now, Gramps. I'll talk to you later. Bye-bye. Joe! Joe! I just found a note! Joe! Hello! Hello!",
+      "visual_description": "Sequence from 'Teenagers From Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Teenagers From Outer Space' (1959).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The.Mad.Monster_scene_1",
+      "movie_id": "The.Mad.Monster",
+      "scene_number": 1,
+      "start_timecode": "00:07:07",
+      "end_timecode": "00:07:18",
+      "start_seconds": 427.8148,
+      "end_seconds": 438.025,
+      "duration_seconds": 10.2102,
+      "video_filename": "The.Mad.Monster_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "The.Mad.Monster_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_1_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_1_thumb.jpg",
+      "transcription": "I'm glad you asked that question for Professor Hatfield. You also were one of those stupid fools who raised their voices against me.",
+      "visual_description": "Sequence from 'The Mad Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Mad Monster' (1942).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The.Mad.Monster_scene_2",
+      "movie_id": "The.Mad.Monster",
+      "scene_number": 2,
+      "start_timecode": "00:07:41",
+      "end_timecode": "00:07:51",
+      "start_seconds": 461.4484,
+      "end_seconds": 471.4584,
+      "duration_seconds": 10.01,
+      "video_filename": "The.Mad.Monster_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "The.Mad.Monster_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_2_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_2_thumb.jpg",
+      "transcription": "My serum will make it possible to one loose millions of such animal men. Men who are governed by one collective thought, the animal has to kill without regard to personal...",
+      "visual_description": "Sequence from 'The Mad Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Mad Monster' (1942).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The.Mad.Monster_scene_3",
+      "movie_id": "The.Mad.Monster",
+      "scene_number": 3,
+      "start_timecode": "00:10:46",
+      "end_timecode": "00:11:06",
+      "start_seconds": 646.6333999999999,
+      "end_seconds": 666.4532,
+      "duration_seconds": 19.8198,
+      "video_filename": "The.Mad.Monster_scene_3_19s_1080p.mp4",
+      "keyframe_filename": "The.Mad.Monster_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_3_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_3_thumb.jpg",
+      "transcription": "How long have I been asleep? Well, about an hour, I should say. How do you feel? I got a terrible headache. And I had some kind of an awful dream. I was running all over the country, starting chasing people and trying to kill them.",
+      "visual_description": "Sequence from 'The Mad Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Mad Monster' (1942).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The.Mad.Monster_scene_4",
+      "movie_id": "The.Mad.Monster",
+      "scene_number": 4,
+      "start_timecode": "00:12:35",
+      "end_timecode": "00:13:07",
+      "start_seconds": 755.0417,
+      "end_seconds": 787.9746,
+      "duration_seconds": 32.9329,
+      "video_filename": "The.Mad.Monster_scene_4_32s_1080p.mp4",
+      "keyframe_filename": "The.Mad.Monster_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_4_32s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_4_thumb.jpg",
+      "transcription": "Why? Because the place gets on my nerves. I hate it. You're hating it has nothing to do with being separated from that young reporter friend of yours, has it? It has. And I want to know when we're going back to the city. Very soon now, there are my works practically finished. What was that? What? Well, that noise, it sounded like a wild animal hollering. I heard the same thing last night. Oh, that's probably some dog in the neighborhood. Dogs do hollering. You mustn't have things like that, upset you.",
+      "visual_description": "Sequence from 'The Mad Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Mad Monster' (1942).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The.Mad.Monster_scene_5",
+      "movie_id": "The.Mad.Monster",
+      "scene_number": 5,
+      "start_timecode": "00:18:58",
+      "end_timecode": "00:19:12",
+      "start_seconds": 1138.725,
+      "end_seconds": 1152.1384,
+      "duration_seconds": 13.4134,
+      "video_filename": "The.Mad.Monster_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "The.Mad.Monster_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_5_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The.Mad.Monster_scene_5_thumb.jpg",
+      "transcription": "It's the devil missing the small lamb. I could smell evil in it. Oh, we could stop talking like that. I'm some other smell I could scream.",
+      "visual_description": "Sequence from 'The Mad Monster' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Mad Monster' (1942).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Maker_scene_1",
+      "movie_id": "The_Monster_Maker",
+      "scene_number": 1,
+      "start_timecode": "00:15:27",
+      "end_timecode": "00:15:43",
+      "start_seconds": 927.0,
+      "end_seconds": 943.1161,
+      "duration_seconds": 16.1161,
+      "video_filename": "The_Monster_Maker_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Maker_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_1_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_1_thumb.jpg",
+      "transcription": "Thanks for watching!",
+      "visual_description": "Sequence from 'The Monster Maker' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Maker' (1944).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Maker_scene_2",
+      "movie_id": "The_Monster_Maker",
+      "scene_number": 2,
+      "start_timecode": "00:16:08",
+      "end_timecode": "00:16:24",
+      "start_seconds": 968.2412,
+      "end_seconds": 984.4574,
+      "duration_seconds": 16.2162,
+      "video_filename": "The_Monster_Maker_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Maker_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_2_16s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Monster Maker' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Maker' (1944).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Maker_scene_3",
+      "movie_id": "The_Monster_Maker",
+      "scene_number": 3,
+      "start_timecode": "00:16:54",
+      "end_timecode": "00:17:33",
+      "start_seconds": 1014.2872,
+      "end_seconds": 1053.126,
+      "duration_seconds": 38.8388,
+      "video_filename": "The_Monster_Maker_scene_3_38s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Maker_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_3_38s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Monster Maker' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Maker' (1944).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Maker_scene_4",
+      "movie_id": "The_Monster_Maker",
+      "scene_number": 4,
+      "start_timecode": "00:18:00",
+      "end_timecode": "00:18:13",
+      "start_seconds": 1080.6535,
+      "end_seconds": 1093.5664,
+      "duration_seconds": 12.9129,
+      "video_filename": "The_Monster_Maker_scene_4_12s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Maker_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_4_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_4_thumb.jpg",
+      "transcription": "Oh, Miss Lawrence, your father has had a slight attack of vertigo. Yes, he's here in my office. It was probably brought down by overwrought nerves. I was wondering if you had not better come and get him.",
+      "visual_description": "Sequence from 'The Monster Maker' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Maker' (1944).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Monster_Maker_scene_5",
+      "movie_id": "The_Monster_Maker",
+      "scene_number": 5,
+      "start_timecode": "00:18:23",
+      "end_timecode": "00:18:37",
+      "start_seconds": 1103.7766,
+      "end_seconds": 1117.3902,
+      "duration_seconds": 13.6136,
+      "video_filename": "The_Monster_Maker_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "The_Monster_Maker_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_5_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Monster_Maker_scene_5_thumb.jpg",
+      "transcription": "And then, oh no, I'll be right there. Where is it? 13, 35, left drive. Thank you.",
+      "visual_description": "Sequence from 'The Monster Maker' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Monster Maker' (1944).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheChineseRoom_scene_1",
+      "movie_id": "TheChineseRoom",
+      "scene_number": 1,
+      "start_timecode": "00:07:32",
+      "end_timecode": "00:07:41",
+      "start_seconds": 452.752333,
+      "end_seconds": 461.260833,
+      "duration_seconds": 8.5085,
+      "video_filename": "TheChineseRoom_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "TheChineseRoom_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_1_thumb.jpg",
+      "transcription": "It's a short story called rules it's a poem with one word rules",
+      "visual_description": "Sequence from 'The Chinese Room' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Chinese Room' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheChineseRoom_scene_2",
+      "movie_id": "TheChineseRoom",
+      "scene_number": 2,
+      "start_timecode": "00:07:41",
+      "end_timecode": "00:07:52",
+      "start_seconds": 461.260833,
+      "end_seconds": 472.89745800000003,
+      "duration_seconds": 11.636625,
+      "video_filename": "TheChineseRoom_scene_2_11s_1080p.mp4",
+      "keyframe_filename": "TheChineseRoom_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_2_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_2_thumb.jpg",
+      "transcription": "I should tell you that I fire people often and easily, and these rules go into effect as I say them, so please do listen carefully. The first rule...",
+      "visual_description": "Sequence from 'The Chinese Room' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Chinese Room' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheChineseRoom_scene_3",
+      "movie_id": "TheChineseRoom",
+      "scene_number": 3,
+      "start_timecode": "00:09:08",
+      "end_timecode": "00:09:18",
+      "start_seconds": 548.4729580000001,
+      "end_seconds": 558.608083,
+      "duration_seconds": 10.135125,
+      "video_filename": "TheChineseRoom_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "TheChineseRoom_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_3_thumb.jpg",
+      "transcription": "Carmen, you're in financial trouble. I'm shocked. How did this happen? Well, I got... I mean...",
+      "visual_description": "Sequence from 'The Chinese Room' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Chinese Room' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheChineseRoom_scene_4",
+      "movie_id": "TheChineseRoom",
+      "scene_number": 4,
+      "start_timecode": "00:13:58",
+      "end_timecode": "00:14:08",
+      "start_seconds": 838.637833,
+      "end_seconds": 848.647833,
+      "duration_seconds": 10.01,
+      "video_filename": "TheChineseRoom_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "TheChineseRoom_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_4_thumb.jpg",
+      "transcription": "You know, you're my favorite kind of employee. You're, I don't think you could believe in anything more abstract than alive.",
+      "visual_description": "Sequence from 'The Chinese Room' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Chinese Room' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "TheChineseRoom_scene_5",
+      "movie_id": "TheChineseRoom",
+      "scene_number": 5,
+      "start_timecode": "00:18:44",
+      "end_timecode": "00:19:22",
+      "start_seconds": 1124.1730830000001,
+      "end_seconds": 1162.711583,
+      "duration_seconds": 38.5385,
+      "video_filename": "TheChineseRoom_scene_5_38s_1080p.mp4",
+      "keyframe_filename": "TheChineseRoom_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_5_38s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/TheChineseRoom_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'The Chinese Room' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Chinese Room' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Arrest_Bulldog_Drummond_scene_1",
+      "movie_id": "Arrest_Bulldog_Drummond",
+      "scene_number": 1,
+      "start_timecode": "00:18:34",
+      "end_timecode": "00:18:47",
+      "start_seconds": 1114.6696,
+      "end_seconds": 1127.3823,
+      "duration_seconds": 12.7127,
+      "video_filename": "Arrest_Bulldog_Drummond_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "Arrest_Bulldog_Drummond_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_1_thumb.jpg",
+      "transcription": "Oh, he'll be here at last. Oh, you answered. I'm too nervous. Yes, it's like living on the volcano. Hello? Are you there?",
+      "visual_description": "Sequence from 'Arrest Bulldog Drummond' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Arrest Bulldog Drummond' (1939).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Arrest_Bulldog_Drummond_scene_2",
+      "movie_id": "Arrest_Bulldog_Drummond",
+      "scene_number": 2,
+      "start_timecode": "00:19:22",
+      "end_timecode": "00:19:38",
+      "start_seconds": 1162.3172,
+      "end_seconds": 1178.133,
+      "duration_seconds": 15.8158,
+      "video_filename": "Arrest_Bulldog_Drummond_scene_2_15s_1080p.mp4",
+      "keyframe_filename": "Arrest_Bulldog_Drummond_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_2_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_2_thumb.jpg",
+      "transcription": "Pardon me. Have you a specimen of the matter, Barastus viridans? The washer? Stingray. Oh, yes, sir. Right this way, sir. Red and butter. Here he is, sir. A very small one. But they're very hard to keep alive in captivity.",
+      "visual_description": "Sequence from 'Arrest Bulldog Drummond' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Arrest Bulldog Drummond' (1939).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Arrest_Bulldog_Drummond_scene_3",
+      "movie_id": "Arrest_Bulldog_Drummond",
+      "scene_number": 3,
+      "start_timecode": "00:20:26",
+      "end_timecode": "00:21:05",
+      "start_seconds": 1226.9818,
+      "end_seconds": 1265.4202,
+      "duration_seconds": 38.4384,
+      "video_filename": "Arrest_Bulldog_Drummond_scene_3_38s_1080p.mp4",
+      "keyframe_filename": "Arrest_Bulldog_Drummond_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_3_38s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_3_thumb.jpg",
+      "transcription": "Why did you let him out of your sight, Teney? It wasn't my fault, sir. How many times have you tried to marry him five times, sir? And have you done it? No, sir. This is the last time I am going to best man without a grove. Phew! You're dewits, sir, all buten's in eight minutes. I know, I know, I know. I laid out your striped closet. I'm as clever as marrying my striped closet. He's marrying me. As you wish. Have you got the ring, Elsie? Very absolutely. Yeah, I think so, boy. Oh, for heaven's sake, Elsie. Oh, pardon me, sir. Someone's playing a joke on you. Well, what did it say? Just a joke.",
+      "visual_description": "Sequence from 'Arrest Bulldog Drummond' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Arrest Bulldog Drummond' (1939).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Arrest_Bulldog_Drummond_scene_4",
+      "movie_id": "Arrest_Bulldog_Drummond",
+      "scene_number": 4,
+      "start_timecode": "00:25:43",
+      "end_timecode": "00:25:52",
+      "start_seconds": 1543.8984,
+      "end_seconds": 1552.3068,
+      "duration_seconds": 8.4084,
+      "video_filename": "Arrest_Bulldog_Drummond_scene_4_8s_1080p.mp4",
+      "keyframe_filename": "Arrest_Bulldog_Drummond_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_4_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Arrest Bulldog Drummond' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Arrest Bulldog Drummond' (1939).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Arrest_Bulldog_Drummond_scene_5",
+      "movie_id": "Arrest_Bulldog_Drummond",
+      "scene_number": 5,
+      "start_timecode": "00:31:35",
+      "end_timecode": "00:31:56",
+      "start_seconds": 1895.1493,
+      "end_seconds": 1916.7709,
+      "duration_seconds": 21.6216,
+      "video_filename": "Arrest_Bulldog_Drummond_scene_5_21s_1080p.mp4",
+      "keyframe_filename": "Arrest_Bulldog_Drummond_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_5_21s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Arrest_Bulldog_Drummond_scene_5_thumb.jpg",
+      "transcription": "Do you think they'll let us in? Well, sir, if they won't, they've got to come out sometime, wouldn't they? I'm not going to wait. Come on, Alfie.",
+      "visual_description": "Sequence from 'Arrest Bulldog Drummond' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Arrest Bulldog Drummond' (1939).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_scene_1",
+      "movie_id": "planet_outlaws",
+      "scene_number": 1,
+      "start_timecode": "00:18:34",
+      "end_timecode": "00:18:46",
+      "start_seconds": 1114.375875,
+      "end_seconds": 1126.76325,
+      "duration_seconds": 12.387375,
+      "video_filename": "planet_outlaws_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_1_12s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_1_thumb.jpg",
+      "transcription": "Take care of me with this gun. Take the control, Sucker. I'll find a starting market. Right. Dog, down the door, buddy. See you at the bottom of the port home, Sucker.",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_scene_2",
+      "movie_id": "planet_outlaws",
+      "scene_number": 2,
+      "start_timecode": "00:19:24",
+      "end_timecode": "00:19:43",
+      "start_seconds": 1164.0505,
+      "end_seconds": 1183.4448750000001,
+      "duration_seconds": 19.394375,
+      "video_filename": "planet_outlaws_scene_2_19s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_2_19s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_2_thumb.jpg",
+      "transcription": "Willman Rogers must prevail on this eternity and surrender the spaceship to return to our best knows attorney in fact doctor It's one of killer claims spaceships possible I know that championship too well to be mistaken If you try to contact them on our way brain as a matter of fact I have we must do so at once",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_scene_3",
+      "movie_id": "planet_outlaws",
+      "scene_number": 3,
+      "start_timecode": "00:21:37",
+      "end_timecode": "00:21:51",
+      "start_seconds": 1297.93425,
+      "end_seconds": 1311.6979999999999,
+      "duration_seconds": 13.76375,
+      "video_filename": "planet_outlaws_scene_3_13s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_3_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_3_thumb.jpg",
+      "transcription": "The air marshal ordered me to arrest anyone who escaped from the wreck ship, sir. You mean you were in that spaceship? Yes, sir. But it's one of killer killing spaceships. That's why I ordered it destroyed. The only way we get escaped from Saturn, sir, after a man at that planet turned against us. We better discuss this in my own...",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_scene_4",
+      "movie_id": "planet_outlaws",
+      "scene_number": 4,
+      "start_timecode": "00:22:23",
+      "end_timecode": "00:22:33",
+      "start_seconds": 1343.98025,
+      "end_seconds": 1353.114375,
+      "duration_seconds": 9.134125,
+      "video_filename": "planet_outlaws_scene_4_9s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_4_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "planet_outlaws_scene_5",
+      "movie_id": "planet_outlaws",
+      "scene_number": 5,
+      "start_timecode": "00:23:24",
+      "end_timecode": "00:23:45",
+      "start_seconds": 1404.415625,
+      "end_seconds": 1425.186375,
+      "duration_seconds": 20.77075,
+      "video_filename": "planet_outlaws_scene_5_20s_1080p.mp4",
+      "keyframe_filename": "planet_outlaws_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_5_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/planet_outlaws_scene_5_thumb.jpg",
+      "transcription": "Uh, it's a sister ship to the one we came back from Saturn, isn't it? Then that means that Killer Kane's men are probably completed their mission on Saturn. If we only knew who they made the alliance with the Saturnians. Well, haven't we got any spies working with the Killer Kane people? Well, we've tried it. Every one of them has been captured and put into Kane's Robert battalion. So, what was done with this stuff taken from the wrecked space?",
+      "visual_description": "Sequence from 'Planet Outlaws' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Planet Outlaws' (1953).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DestroyAllPlanets1968_scene_1",
+      "movie_id": "DestroyAllPlanets1968",
+      "scene_number": 1,
+      "start_timecode": "00:21:19",
+      "end_timecode": "00:21:35",
+      "start_seconds": 1279.5,
+      "end_seconds": 1295.1,
+      "duration_seconds": 15.6,
+      "video_filename": "DestroyAllPlanets1968_scene_1_15s_1080p.mp4",
+      "keyframe_filename": "DestroyAllPlanets1968_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_1_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_1_thumb.jpg",
+      "transcription": "The supercatchery will not be able to hold him for more than fifteen minutes. We must use the time we have left to discover a way to capture Kamara and make him our slave. To do this, we will check his past by exploring his...",
+      "visual_description": "Sequence from 'Destroy All Planets (1968)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Destroy All Planets (1968)' (1950).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DestroyAllPlanets1968_scene_2",
+      "movie_id": "DestroyAllPlanets1968",
+      "scene_number": 2,
+      "start_timecode": "00:27:14",
+      "end_timecode": "00:27:27",
+      "start_seconds": 1634.1,
+      "end_seconds": 1647.4,
+      "duration_seconds": 13.3,
+      "video_filename": "DestroyAllPlanets1968_scene_2_13s_1080p.mp4",
+      "keyframe_filename": "DestroyAllPlanets1968_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_2_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Destroy All Planets (1968)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Destroy All Planets (1968)' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DestroyAllPlanets1968_scene_3",
+      "movie_id": "DestroyAllPlanets1968",
+      "scene_number": 3,
+      "start_timecode": "00:27:30",
+      "end_timecode": "00:27:41",
+      "start_seconds": 1650.7,
+      "end_seconds": 1661.0,
+      "duration_seconds": 10.3,
+      "video_filename": "DestroyAllPlanets1968_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "DestroyAllPlanets1968_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Destroy All Planets (1968)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Destroy All Planets (1968)' (1950).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DestroyAllPlanets1968_scene_4",
+      "movie_id": "DestroyAllPlanets1968",
+      "scene_number": 4,
+      "start_timecode": "00:29:41",
+      "end_timecode": "00:29:49",
+      "start_seconds": 1781.5,
+      "end_seconds": 1789.7,
+      "duration_seconds": 8.2,
+      "video_filename": "DestroyAllPlanets1968_scene_4_8s_1080p.mp4",
+      "keyframe_filename": "DestroyAllPlanets1968_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_4_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Destroy All Planets (1968)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Destroy All Planets (1968)' (1950).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "DestroyAllPlanets1968_scene_5",
+      "movie_id": "DestroyAllPlanets1968",
+      "scene_number": 5,
+      "start_timecode": "00:32:46",
+      "end_timecode": "00:33:06",
+      "start_seconds": 1966.0,
+      "end_seconds": 1986.8,
+      "duration_seconds": 20.8,
+      "video_filename": "DestroyAllPlanets1968_scene_5_20s_1080p.mp4",
+      "keyframe_filename": "DestroyAllPlanets1968_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_5_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/DestroyAllPlanets1968_scene_5_thumb.jpg",
+      "transcription": "Kindness to children perhaps this can be used against him quick. The ray has lost his power He's free attack camera at once",
+      "visual_description": "Sequence from 'Destroy All Planets (1968)' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Destroy All Planets (1968)' (1950).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "MenacefromOuterSpace_scene_1",
+      "movie_id": "MenacefromOuterSpace",
+      "scene_number": 1,
+      "start_timecode": "00:11:44",
+      "end_timecode": "00:12:07",
+      "start_seconds": 704.525526,
+      "end_seconds": 727.748749,
+      "duration_seconds": 23.223223,
+      "video_filename": "MenacefromOuterSpace_scene_1_23s_1080p.mp4",
+      "keyframe_filename": "MenacefromOuterSpace_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_1_23s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_1_thumb.jpg",
+      "transcription": "I saw it land, Mr. Secretary, and dispatched the Ranger Station here to investigate. Regardless of what they find, you ought to report simply that a meteor fell. I don't want the real story to leak out. What is the real story, Mr. Secretary? Two missiles with fantastic power have been projected to Earth from Pawnax. Pawnax?",
+      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' (1956).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "MenacefromOuterSpace_scene_2",
+      "movie_id": "MenacefromOuterSpace",
+      "scene_number": 2,
+      "start_timecode": "00:15:02",
+      "end_timecode": "00:15:25",
+      "start_seconds": 902.023023,
+      "end_seconds": 925.246246,
+      "duration_seconds": 23.223223,
+      "video_filename": "MenacefromOuterSpace_scene_2_23s_1080p.mp4",
+      "keyframe_filename": "MenacefromOuterSpace_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_2_23s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_2_thumb.jpg",
+      "transcription": "Keep ready for blast-offs, sir. The ground crew is ready to rock you. The propulsion necessary to get you off Earth is 20 tons, against a power setting of eight. The acceleration for us will be G4.6. Shall I alert the blast-off synchronization, sir? I'll do it, Mikey. Take positions.",
+      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "MenacefromOuterSpace_scene_3",
+      "movie_id": "MenacefromOuterSpace",
+      "scene_number": 3,
+      "start_timecode": "00:17:04",
+      "end_timecode": "00:17:18",
+      "start_seconds": 1024.445445,
+      "end_seconds": 1038.159159,
+      "duration_seconds": 13.713714,
+      "video_filename": "MenacefromOuterSpace_scene_3_13s_1080p.mp4",
+      "keyframe_filename": "MenacefromOuterSpace_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_3_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' (1956).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "MenacefromOuterSpace_scene_4",
+      "movie_id": "MenacefromOuterSpace",
+      "scene_number": 4,
+      "start_timecode": "00:21:08",
+      "end_timecode": "00:21:18",
+      "start_seconds": 1268.98999,
+      "end_seconds": 1278.6997000000001,
+      "duration_seconds": 9.70971,
+      "video_filename": "MenacefromOuterSpace_scene_4_9s_1080p.mp4",
+      "keyframe_filename": "MenacefromOuterSpace_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_4_9s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_4_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' (1956).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "MenacefromOuterSpace_scene_5",
+      "movie_id": "MenacefromOuterSpace",
+      "scene_number": 5,
+      "start_timecode": "00:25:36",
+      "end_timecode": "00:25:47",
+      "start_seconds": 1536.157157,
+      "end_seconds": 1547.568569,
+      "duration_seconds": 11.411412,
+      "video_filename": "MenacefromOuterSpace_scene_5_11s_1080p.mp4",
+      "keyframe_filename": "MenacefromOuterSpace_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_5_11s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/MenacefromOuterSpace_scene_5_thumb.jpg",
+      "transcription": "This means there is life, some kind of life here. Have a good time.",
+      "visual_description": "Sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Rocky Jones, Space Ranger - Menace from Outer Space' (1956).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BelaLugosiMeetsaBrooklynGorilla_scene_1",
+      "movie_id": "BelaLugosiMeetsaBrooklynGorilla",
+      "scene_number": 1,
+      "start_timecode": "00:22:10",
+      "end_timecode": "00:22:19",
+      "start_seconds": 1330.689829,
+      "end_seconds": 1339.350453,
+      "duration_seconds": 8.660624,
+      "video_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_1_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_1_thumb.jpg",
+      "transcription": "Oh gosh, I'm sorry, mister idiot. I don't mean to go, you creep join a creep join. Oh, I think nothing go it.",
+      "visual_description": "Sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' (1952).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BelaLugosiMeetsaBrooklynGorilla_scene_2",
+      "movie_id": "BelaLugosiMeetsaBrooklynGorilla",
+      "scene_number": 2,
+      "start_timecode": "00:23:59",
+      "end_timecode": "00:24:59",
+      "start_seconds": 1439.954683,
+      "end_seconds": 1499.370594,
+      "duration_seconds": 59.415911,
+      "video_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_2_59s_1080p.mp4",
+      "keyframe_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_2_59s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_2_thumb.jpg",
+      "transcription": "Yes, Master. Take this man to my room. Yes, Master. Pick out anything you want from my wardrobe. And when you have changed, Chula will bring you to the study. Follow Chula. Come. A most interesting venue. Strange. But interesting. Really think so. Oh, it's coming, Captain. It was very thoughtful for you to bring this man here. I'm sure I can help them. I was hoping you would. I would do anything for you in my power. Please, Doctor Zegor. I'll be in the laboratory, Doctor. Thank you.",
+      "visual_description": "Sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' (1952).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BelaLugosiMeetsaBrooklynGorilla_scene_3",
+      "movie_id": "BelaLugosiMeetsaBrooklynGorilla",
+      "scene_number": 3,
+      "start_timecode": "00:26:32",
+      "end_timecode": "00:26:40",
+      "start_seconds": 1592.0191340000001,
+      "end_seconds": 1600.579053,
+      "duration_seconds": 8.559919,
+      "video_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_3_8s_1080p.mp4",
+      "keyframe_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_3_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_3_thumb.jpg",
+      "transcription": "I can see that. What kind of experiments are you making, Doctor? Oh, I'm performing a series of experiments in evolution. Evolution, what's evolution?",
+      "visual_description": "Sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' (1952).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BelaLugosiMeetsaBrooklynGorilla_scene_4",
+      "movie_id": "BelaLugosiMeetsaBrooklynGorilla",
+      "scene_number": 4,
+      "start_timecode": "00:27:56",
+      "end_timecode": "00:28:07",
+      "start_seconds": 1676.309164,
+      "end_seconds": 1687.0845920000002,
+      "duration_seconds": 10.775428,
+      "video_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_4_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_4_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_4_thumb.jpg",
+      "transcription": "Pappy Bordeaux, here to see you. I didn't conclude, and I like to add, that if you took the embryonic myth from war...",
+      "visual_description": "Sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' (1952).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "BelaLugosiMeetsaBrooklynGorilla_scene_5",
+      "movie_id": "BelaLugosiMeetsaBrooklynGorilla",
+      "scene_number": 5,
+      "start_timecode": "00:29:11",
+      "end_timecode": "00:29:34",
+      "start_seconds": 1751.837865,
+      "end_seconds": 1774.9664309999998,
+      "duration_seconds": 23.128566,
+      "video_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_5_23s_1080p.mp4",
+      "keyframe_filename": "BelaLugosiMeetsaBrooklynGorilla_scene_5_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_5_23s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/BelaLugosiMeetsaBrooklynGorilla_scene_5_thumb.jpg",
+      "transcription": "Heh heh heh! Oh no! Fabius, come for some acid for his batteries, no na! Very well, doctor! Come on, Ramona! That's so good, girl! Are you okay, Dad? That's a good little girl! Alright, Fabius! Thank you! This is Fabius Bordeaux, Mr. Mitchell... Fabius Bordeaux, Fabius Bordeaux... I am. How are you, Mr. Bordeaux? Fabius Bordeaux... Fabius Bordeaux... Fabius Bordeaux... Fabius Bordeaux... Fabius Bordeaux... Fabius Bordeaux...",
+      "visual_description": "Sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Bela Lugosi Meets a Brooklyn Gorilla' (1952).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "sci-fi",
         "black and white"
       ]
     }
