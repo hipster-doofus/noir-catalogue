@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-14T04:42:04.902099+00:00",
-  "total_movies": 90,
-  "total_scenes": 416,
-  "genre": "mystery",
+  "updated_at": "2026-11-15T04:52:16.083078+00:00",
+  "total_movies": 93,
+  "total_scenes": 425,
+  "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
@@ -905,6 +905,36 @@
       "video_url": "https://archive.org/download/dressed_to_kill_ipod/dressed_to_kill.mp4",
       "license": "Open Archive",
       "description": "Aka 'Sherlock Holmes in Dressed To Kill' - features Basil Rathbone as Sherlock Holmes."
+    },
+    {
+      "title": "Shock",
+      "year": 1946,
+      "director": "Unknown Director",
+      "archive_id": "Shock_623",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/Shock_623/ShockPresentedByMoviePowder.mp4",
+      "license": "Open Archive",
+      "description": "A psychologically distraught woman is committed to a private sanitarium by the man whom she witnessed commit a murder. - IMDB Description"
+    },
+    {
+      "title": "The Scar",
+      "year": 1948,
+      "director": "Steve Sekely",
+      "archive_id": "The_Scar_1948",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/The_Scar_1948/THE_SCAR.mp4",
+      "license": "Open Archive",
+      "description": "\"Harsh tale of an alienated criminal's attempt to impersonate his psychiatrist-double. Important fatalistic noir, with classy visuals and a very fine script that features a creative doppelganger theme.\" - noir expert Spencer Selby Also titled \"Hollow Triumph\". Cast: Paul Henreid, Joan Bennett, Eduard Franz, Leslie Brooks, John Qualen. 82 min."
+    },
+    {
+      "title": "the Scar",
+      "year": 1948,
+      "director": "Steve Sekely",
+      "archive_id": "The_Scar-1948",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/The_Scar-1948/The_Scar-complete-512kb.mp4",
+      "license": "Open Archive",
+      "description": "\"Harsh tale of an alienated criminal's attempt to impersonate his psychiatrist-double. Important fatalistic noir, with classy visuals and a very fine script that features a creative doppelganger theme.\" - noir expert Spencer Selby Also titled \"Hollow Triumph\". Cast: Paul Henreid, Joan Bennett, Eduard Franz, Leslie Brooks, John Qualen. 82 min."
     }
   ],
   "scenes": [
@@ -12137,6 +12167,249 @@
       ],
       "tags": [
         "mystery",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Shock_623_scene_1",
+      "movie_id": "Shock_623",
+      "scene_number": 1,
+      "start_timecode": "00:34:32",
+      "end_timecode": "00:35:03",
+      "start_seconds": 2072.8,
+      "end_seconds": 2103.4,
+      "duration_seconds": 30.6,
+      "video_filename": "Shock_623_scene_1_30s_1080p.mp4",
+      "keyframe_filename": "Shock_623_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Shock_623_scene_1_30s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Shock_623_scene_1_thumb.jpg",
+      "transcription": "Not at all. It's kind of rough, isn't it? Yeah. She's out of her head. She's got a crazy idea. She saw a murder. What am I going to do? Ah, you're going to sit tight. She's in good hands. So they keep telling me, but... Oh, she's getting worse. Now I'm thinking of taking her back to San Francisco to the hospital there. I, uh... I wouldn't do that if I were you lieutenant. Dr. Cross's tops, you know that. You brought Harvey into consult. You can't do any better than that.",
+      "visual_description": "Sequence from 'Shock' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shock' (1946).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Shock_623_scene_2",
+      "movie_id": "Shock_623",
+      "scene_number": 2,
+      "start_timecode": "00:35:13",
+      "end_timecode": "00:35:22",
+      "start_seconds": 2113.48,
+      "end_seconds": 2122.36,
+      "duration_seconds": 8.88,
+      "video_filename": "Shock_623_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "Shock_623_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Shock_623_scene_2_8s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Shock_623_scene_2_thumb.jpg",
+      "transcription": "Now, there are a dozen other things we can do. Electric therapy, insulin shock, insulin shock. They use that in the army on guys who blow their tops.",
+      "visual_description": "Sequence from 'Shock' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shock' (1946).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "Shock_623_scene_3",
+      "movie_id": "Shock_623",
+      "scene_number": 3,
+      "start_timecode": "00:39:13",
+      "end_timecode": "00:39:33",
+      "start_seconds": 2353.0,
+      "end_seconds": 2373.2799999999997,
+      "duration_seconds": 20.28,
+      "video_filename": "Shock_623_scene_3_20s_1080p.mp4",
+      "keyframe_filename": "Shock_623_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Shock_623_scene_3_20s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/Shock_623_scene_3_thumb.jpg",
+      "transcription": "He killed her, he killed his wife, he picked something up Paul and he hit her with it, he was arguing with her, and he killed it. I know, I know dear, you've upset her lieutenant, you shouldn't have come in here, come outside with me, give her a hypodermic nurse.",
+      "visual_description": "Sequence from 'Shock' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'Shock' (1946).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Scar_1948_scene_1",
+      "movie_id": "The_Scar_1948",
+      "scene_number": 1,
+      "start_timecode": "00:19:40",
+      "end_timecode": "00:20:06",
+      "start_seconds": 1180.903904,
+      "end_seconds": 1206.329329,
+      "duration_seconds": 25.425425,
+      "video_filename": "The_Scar_1948_scene_1_25s_1080p.mp4",
+      "keyframe_filename": "The_Scar_1948_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar_1948_scene_1_25s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar_1948_scene_1_thumb.jpg",
+      "transcription": "What do you think, Dad Ringer? But what a difference. Don't kill yourself. If you knew me the way you know him, you'd probably change your mind. So long. You've been away from your desk for three hours. Three hours and ten minutes to be exact. Don't you think you owe me an explanation? I was delayed. Very interesting. What if I may ask to lage you?",
+      "visual_description": "Sequence from 'The Scar' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Scar' (1948).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Scar_1948_scene_2",
+      "movie_id": "The_Scar_1948",
+      "scene_number": 2,
+      "start_timecode": "00:26:50",
+      "end_timecode": "00:27:03",
+      "start_seconds": 1610.133133,
+      "end_seconds": 1623.146146,
+      "duration_seconds": 13.013013,
+      "video_filename": "The_Scar_1948_scene_2_13s_1080p.mp4",
+      "keyframe_filename": "The_Scar_1948_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar_1948_scene_2_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar_1948_scene_2_thumb.jpg",
+      "transcription": "There are a lot of people like that, they don't know what they're running around, however they keep it up.",
+      "visual_description": "Sequence from 'The Scar' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Scar' (1948).",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Scar_1948_scene_3",
+      "movie_id": "The_Scar_1948",
+      "scene_number": 3,
+      "start_timecode": "00:32:58",
+      "end_timecode": "00:33:08",
+      "start_seconds": 1978.2012009999999,
+      "end_seconds": 1988.911912,
+      "duration_seconds": 10.710711,
+      "video_filename": "The_Scar_1948_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "The_Scar_1948_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar_1948_scene_3_10s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar_1948_scene_3_thumb.jpg",
+      "transcription": "Well, it's good, but it's right in that pocket.",
+      "visual_description": "Sequence from 'The Scar' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'The Scar' (1948).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Scar-1948_scene_1",
+      "movie_id": "The_Scar-1948",
+      "scene_number": 1,
+      "start_timecode": "00:34:13",
+      "end_timecode": "00:34:55",
+      "start_seconds": 2053.2418,
+      "end_seconds": 2095.484,
+      "duration_seconds": 42.2422,
+      "video_filename": "The_Scar-1948_scene_1_42s_1080p.mp4",
+      "keyframe_filename": "The_Scar-1948_scene_1_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar-1948_scene_1_42s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar-1948_scene_1_thumb.jpg",
+      "transcription": "This isn't coming from the five and ten. You don't like it? It just goes to show how wrong a girl can be. What do you mean? I was positive this beautiful thing between us was good for another ten or fifteen weeks at least. It isn't?",
+      "visual_description": "Sequence from 'the Scar' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'the Scar' (1948).",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Scar-1948_scene_2",
+      "movie_id": "The_Scar-1948",
+      "scene_number": 2,
+      "start_timecode": "00:39:54",
+      "end_timecode": "00:40:08",
+      "start_seconds": 2394.6829,
+      "end_seconds": 2408.3966,
+      "duration_seconds": 13.7137,
+      "video_filename": "The_Scar-1948_scene_2_13s_1080p.mp4",
+      "keyframe_filename": "The_Scar-1948_scene_2_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar-1948_scene_2_13s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar-1948_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'the Scar' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'the Scar' (1948).",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
+        "black and white"
+      ]
+    },
+    {
+      "scene_id": "The_Scar-1948_scene_3",
+      "movie_id": "The_Scar-1948",
+      "scene_number": 3,
+      "start_timecode": "00:41:01",
+      "end_timecode": "00:41:16",
+      "start_seconds": 2461.0492,
+      "end_seconds": 2476.0642,
+      "duration_seconds": 15.015,
+      "video_filename": "The_Scar-1948_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "The_Scar-1948_scene_3_thumb.jpg",
+      "clip_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar-1948_scene_3_15s_1080p.mp4",
+      "thumb_path": "/home/runner/work/noir-catalogue/noir-catalogue/output/The_Scar-1948_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Sequence from 'the Scar' featuring dramatic lighting and atmospheric framing.",
+      "synopsis": "Dramatic character sequence from 'the Scar' (1948).",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "low-key lighting",
+        "cynical dialogue",
+        "dramatic framing"
+      ],
+      "tags": [
+        "film noir",
         "black and white"
       ]
     }
