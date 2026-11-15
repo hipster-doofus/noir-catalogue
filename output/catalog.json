@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T04:52:16.083078+00:00",
-  "total_movies": 93,
-  "total_scenes": 425,
+  "updated_at": "2026-11-15T18:51:12.165438+00:00",
+  "total_movies": 96,
+  "total_scenes": 434,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -935,6 +935,36 @@
       "video_url": "https://archive.org/download/The_Scar-1948/The_Scar-complete-512kb.mp4",
       "license": "Open Archive",
       "description": "\"Harsh tale of an alienated criminal's attempt to impersonate his psychiatrist-double. Important fatalistic noir, with classy visuals and a very fine script that features a creative doppelganger theme.\" - noir expert Spencer Selby Also titled \"Hollow Triumph\". Cast: Paul Henreid, Joan Bennett, Eduard Franz, Leslie Brooks, John Qualen. 82 min."
+    },
+    {
+      "title": "Leave Her To Heaven (1945) Gene Tierney, Cornel Wilde, Jeanne Crain, Vincent Price",
+      "year": 1945,
+      "director": "Unknown Director",
+      "archive_id": "leave-her-to-heaven-1945_202110",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/leave-her-to-heaven-1945_202110/Leave Her to Heaven (1945) Gene Tierney, Cornel Wilde, Jeanne Crain, Vincent Price.mp4",
+      "license": "Open Archive",
+      "description": "Leave Her to Heaven is a 1945 American psychological thriller FILM NOlR directed by John M. Stahl and starring Gene Tierney, Cornel Wilde, Jeanne Crain, and Vincent Price. It is based on the 1944 novel of same name by Ben Ames Williams, adapted by screenwriter Jo Swerling. \u00a0 Shot in Technicolor, filming took place in several locations in California, as well as Arizona and New Mexico in the summer of 1945. Leave Her to Heaven was a box-office hit, grossing over $8 million, and was Twentieth Century-Fox's highest-grossing film of the entire decade. \u00a0 You can find out more about this movie from Wikipedia .\u00a0 \u00a0 \u00a0"
+    },
+    {
+      "title": "The Third Man (1949)",
+      "year": 1943,
+      "director": "Carol Reed",
+      "archive_id": "the-third-man-1949_202511",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/the-third-man-1949_202511/The Third Man - 1949/The Third Man(1949).ia.mp4",
+      "license": "Open Archive",
+      "description": "The Third Man is a 1949 film noir directed by Carol Reed, written by Graham Greene, and starring Joseph Cotten as Holly Martins, Alida Valli as Anna Schmidt, Orson Welles as Harry Lime and Trevor Howard as Major Calloway. The story\u00a0 follows Holly Martins, an American writer who travels to post-World War II Vienna to visit his friend Harry Lime, only to find out that Lime has died in a suspicious accident. As Martins investigates the circumstances of Lime's death, he uncovers a web of deceit involving a mysterious \"third man\" and Lime's involvement in a black market penicillin operation, leading to moral dilemmas and a shocking revelation about Lime's true fate."
+    },
+    {
+      "title": "Too Late For Tears ( 1949)",
+      "year": 1949,
+      "director": "Unknown Director",
+      "archive_id": "TooLateForTears1949",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/TooLateForTears1949/Too Late for Tears (1949).mp4",
+      "license": "Open Archive",
+      "description": "Movie. Public Domain. Film Noir"
     }
   ],
   "scenes": [
@@ -12403,6 +12433,276 @@
       ],
       "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/The_Scar-1948_scene_3_15s_1080p.mp4",
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/The_Scar-1948_scene_3_thumb.jpg"
+    },
+    {
+      "scene_id": "leave-her-to-heaven-1945_202110_scene_1",
+      "movie_id": "leave-her-to-heaven-1945_202110",
+      "scene_number": 1,
+      "start_timecode": "00:17:01",
+      "end_timecode": "00:17:23",
+      "start_seconds": 1021.92475,
+      "end_seconds": 1043.196,
+      "duration_seconds": 21.27125000000001,
+      "video_filename": "leave-her-to-heaven-1945_202110_scene_1_21s_1080p.mp4",
+      "keyframe_filename": "leave-her-to-heaven-1945_202110_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/leave-her-to-heaven-1945_202110_scene_1_21s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/leave-her-to-heaven-1945_202110_scene_1_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Leave Her To Heaven (1945) Gene Tierney, Cornel Wilde, Jeanne Crain, Vincent Price' (1945), dialogue centers on \"You\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "leave-her-to-heaven-1945_202110_scene_2",
+      "movie_id": "leave-her-to-heaven-1945_202110",
+      "scene_number": 2,
+      "start_timecode": "00:17:26",
+      "end_timecode": "00:18:24",
+      "start_seconds": 1046.824625,
+      "end_seconds": 1104.882625,
+      "duration_seconds": 58.05800000000002,
+      "video_filename": "leave-her-to-heaven-1945_202110_scene_2_58s_1080p.mp4",
+      "keyframe_filename": "leave-her-to-heaven-1945_202110_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/leave-her-to-heaven-1945_202110_scene_2_58s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/leave-her-to-heaven-1945_202110_scene_2_thumb.jpg",
+      "transcription": "Don't you think somebody ought to go look for Ellen? What for? Well, it's a pretty wild country up there. Perhaps she's lost. Oh, Ellen knows her way home. Why, nobody's been over 12 hours, suppose something happened to her. Nothing ever happens to Ellen. Well, I think I'll take a ride before I turn it.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Leave Her To Heaven (1945) Gene Tierney, Cornel Wilde, Jeanne Crain, Vincent Price' (1945), dialogue centers on \"Don't you think somebody ought to go look for Ellen? What for? Well, it's a pretty wild country up there. Perhaps she's lost. Oh, Ellen...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "leave-her-to-heaven-1945_202110_scene_3",
+      "movie_id": "leave-her-to-heaven-1945_202110",
+      "scene_number": 3,
+      "start_timecode": "00:26:51",
+      "end_timecode": "00:27:07",
+      "start_seconds": 1611.2635,
+      "end_seconds": 1627.02925,
+      "duration_seconds": 15.765750000000025,
+      "video_filename": "leave-her-to-heaven-1945_202110_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "leave-her-to-heaven-1945_202110_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/leave-her-to-heaven-1945_202110_scene_3_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/leave-her-to-heaven-1945_202110_scene_3_thumb.jpg",
+      "transcription": "You letting Robey? How did he happen to tell you? I asked him. Why? Because I hated Quentin. Do you know him? No. Then why do you hate him? Because you knew him. That's nice. You're going to hate everybody on now?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, fedora & trenchcoat.",
+      "synopsis": "In a melancholic exchange from 'Leave Her To Heaven (1945) Gene Tierney, Cornel Wilde, Jeanne Crain, Vincent Price' (1945), dialogue centers on \"You letting Robey? How did he happen to tell you? I asked him. Why? Because I hated Quentin. Do you know him? No. Then why do you hate...\" framed against dutch angle framing, fedora & trenchcoat.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-third-man-1949_202511_scene_1",
+      "movie_id": "the-third-man-1949_202511",
+      "scene_number": 1,
+      "start_timecode": "00:14:47",
+      "end_timecode": "00:15:07",
+      "start_seconds": 887.125,
+      "end_seconds": 907.375,
+      "duration_seconds": 20.25,
+      "video_filename": "the-third-man-1949_202511_scene_1_20s_1080p.mp4",
+      "keyframe_filename": "the-third-man-1949_202511_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-third-man-1949_202511_scene_1_20s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-third-man-1949_202511_scene_1_thumb.jpg",
+      "transcription": "Even if he and his thoughts were of you, what did he say? I can't remember the exact words, Holly. I may call you Holly, mate. He always called you that to us. He was anxious. I should look after you when you arrive to see that you got safely home, tickets, you know, and all that. But he said he died instantaneously.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Third Man (1949)' (1943), dialogue centers on \"Even if he and his thoughts were of you, what did he say? I can't remember the exact words, Holly. I may call you Holly, mate. He always...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "the-third-man-1949_202511_scene_2",
+      "movie_id": "the-third-man-1949_202511",
+      "scene_number": 2,
+      "start_timecode": "00:18:59",
+      "end_timecode": "00:19:28",
+      "start_seconds": 1139.125,
+      "end_seconds": 1168.0,
+      "duration_seconds": 28.875,
+      "video_filename": "the-third-man-1949_202511_scene_2_28s_1080p.mp4",
+      "keyframe_filename": "the-third-man-1949_202511_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-third-man-1949_202511_scene_2_28s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-third-man-1949_202511_scene_2_thumb.jpg",
+      "transcription": "Thank you sit down. Thank you. I enjoy the play very much You were you were awfully good No, no, excuse me. I could follow it fine. Perhaps Harry told you about me. My name is Holly Martins No, he never told me about his friends. Oh, did you like some tea? Thank you Someone threw me this back at last week. Sometimes the British do instead of flowers, you know on the first night That was a bouquet to from an American",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'The Third Man (1949)' (1943), dialogue centers on \"Thank you sit down. Thank you. I enjoy the play very much You were you were awfully good No, no, excuse me. I could follow it fine....\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "the-third-man-1949_202511_scene_3",
+      "movie_id": "the-third-man-1949_202511",
+      "scene_number": 3,
+      "start_timecode": "00:22:41",
+      "end_timecode": "00:22:51",
+      "start_seconds": 1361.625,
+      "end_seconds": 1371.25,
+      "duration_seconds": 9.625,
+      "video_filename": "the-third-man-1949_202511_scene_3_9s_1080p.mp4",
+      "keyframe_filename": "the-third-man-1949_202511_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-third-man-1949_202511_scene_3_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-third-man-1949_202511_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "An atmospheric 10-second sequence from 'The Third Man (1949)' (1943) driven by femme fatale, telephone / late-night call and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "TooLateForTears1949_scene_1",
+      "movie_id": "TooLateForTears1949",
+      "scene_number": 1,
+      "start_timecode": "00:35:57",
+      "end_timecode": "00:36:14",
+      "start_seconds": 2157.857,
+      "end_seconds": 2174.3735,
+      "duration_seconds": 16.516500000000065,
+      "video_filename": "TooLateForTears1949_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "TooLateForTears1949_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TooLateForTears1949_scene_1_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TooLateForTears1949_scene_1_thumb.jpg",
+      "transcription": "Jane, you have a whole shelf of whiskey out there, you told me Allen has gone to get a bottle. That's right. That proves it. He never intended to go to the drug store at all.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Too Late For Tears ( 1949)' (1949), dialogue centers on \"Jane, you have a whole shelf of whiskey out there, you told me Allen has gone to get a bottle. That's right. That proves it. He never...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "TooLateForTears1949_scene_2",
+      "movie_id": "TooLateForTears1949",
+      "scene_number": 2,
+      "start_timecode": "00:36:14",
+      "end_timecode": "00:36:22",
+      "start_seconds": 2174.3735,
+      "end_seconds": 2182.882,
+      "duration_seconds": 8.508499999999913,
+      "video_filename": "TooLateForTears1949_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "TooLateForTears1949_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TooLateForTears1949_scene_2_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TooLateForTears1949_scene_2_thumb.jpg",
+      "transcription": "There's something I haven't told you, Cathy.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Too Late For Tears ( 1949)' (1949), dialogue centers on \"There's something I haven't told you, Cathy.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "TooLateForTears1949_scene_3",
+      "movie_id": "TooLateForTears1949",
+      "scene_number": 3,
+      "start_timecode": "00:36:22",
+      "end_timecode": "00:36:38",
+      "start_seconds": 2182.882,
+      "end_seconds": 2198.2974,
+      "duration_seconds": 15.41540000000009,
+      "video_filename": "TooLateForTears1949_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "TooLateForTears1949_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TooLateForTears1949_scene_3_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TooLateForTears1949_scene_3_thumb.jpg",
+      "transcription": "I've known it for a long time. Alan doesn't love me anymore. He's beginning to get tired of me. That's ridiculous and you know it. It's true, Kathy. We've been crawling a lot lately about little unimportant things. I bought some clothes the other day and made him...",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Too Late For Tears ( 1949)' (1949), dialogue centers on \"I've known it for a long time. Alan doesn't love me anymore. He's beginning to get tired of me. That's ridiculous and you know it. It's...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "fatalistic"
+      ]
     }
   ]
 }
