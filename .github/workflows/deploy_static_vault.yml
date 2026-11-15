@@ -1,163 +1,180 @@
-name: Deploy Static Vault to Multi-Cloud Hosts
+name: Deploy Static Web Vault (Cloudflare / Netlify / Vercel / Render)
 
 on:
   push:
     branches:
       - main
-      - 'feat/**'
-      - 'dev/**'
-      - 'test/**'
+      - big_tidy
     paths:
       - 'index.html'
       - 'social.html'
       - 'studio.html'
       - 'vj_scratch.html'
       - 'catalog.json'
-      - 'output/**'
+      - 'output/catalog.json'
       - '.github/workflows/deploy_static_vault.yml'
   workflow_run:
-    workflows: ["Extract Scenes & Publish Web Vault"]
+    workflows:
+      - 'Extract Scenes & Publish Web Vault'
+      - 'Migrate Existing Media to Cloudflare R2'
     types:
       - completed
   workflow_dispatch:
 
-permissions:
-  contents: read
-  deployments: write
-
 jobs:
-  # ---------------------------------------------------------
-  # 1. Cloudflare Pages (Top Pick - Unlimited Bandwidth)
-  # ---------------------------------------------------------
   deploy-cloudflare-pages:
-    if: ${{ vars.ENABLE_CLOUDFLARE != 'false' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check Cloudflare Secrets
-        id: check_cf
+        id: check
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          if [ -n "${{ secrets.CLOUDFLARE_API_TOKEN }}" ] && [ -n "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+          if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then
             echo "ready=true" >> $GITHUB_OUTPUT
           else
             echo "ready=false" >> $GITHUB_OUTPUT
             echo "Skipping Cloudflare Pages: CLOUDFLARE_API_TOKEN or CLOUDFLARE_ACCOUNT_ID not set."
           fi
 
-      - name: Checkout Repository
-        if: steps.check_cf.outputs.ready == 'true'
+      - name: Checkout Repository (Lightweight)
+        if: steps.check.outputs.ready == 'true'
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            index.html
+            social.html
+            studio.html
+            vj_scratch.html
+            catalog.json
+            output/catalog.json
+          sparse-checkout-cone-mode: false
 
-      - name: Prepare Clean Static Bundle
-        if: steps.check_cf.outputs.ready == 'true'
+      - name: Prepare Static Bundle (_site)
+        if: steps.check.outputs.ready == 'true'
         run: |
           mkdir -p _site/output
           cp -f index.html social.html studio.html vj_scratch.html catalog.json _site/ 2>/dev/null || true
-          cp -rf output/* _site/output/ 2>/dev/null || true
+          cp -f output/catalog.json _site/output/ 2>/dev/null || true
 
-      - name: Publish to Cloudflare Pages
-        if: steps.check_cf.outputs.ready == 'true'
+      - name: Ensure Cloudflare Pages Project Exists
+        if: steps.check.outputs.ready == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME || 'noir-vault' }}
+        run: |
+          npx wrangler@3.90.0 pages project create "$PROJECT_NAME" --production-branch=main || true
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.check.outputs.ready == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy _site --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME || 'noir-vault' }} --branch=${{ github.ref_name }}
+          command: pages deploy _site --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME || 'noir-vault' }} --branch=${{ github.ref_name }} --commit-dirty=true
 
-  # ---------------------------------------------------------
-  # 2. Netlify (Branch Previews & 100GB/mo Free)
-  # ---------------------------------------------------------
   deploy-netlify:
-    if: ${{ vars.ENABLE_NETLIFY != 'false' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check Netlify Secrets
-        id: check_netlify
+        id: check
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: |
-          if [ -n "${{ secrets.NETLIFY_AUTH_TOKEN }}" ] && [ -n "${{ secrets.NETLIFY_SITE_ID }}" ]; then
+          if [ -n "$NETLIFY_AUTH_TOKEN" ] && [ -n "$NETLIFY_SITE_ID" ]; then
             echo "ready=true" >> $GITHUB_OUTPUT
           else
             echo "ready=false" >> $GITHUB_OUTPUT
             echo "Skipping Netlify: NETLIFY_AUTH_TOKEN or NETLIFY_SITE_ID not set."
           fi
 
-      - name: Checkout Repository
-        if: steps.check_netlify.outputs.ready == 'true'
+      - name: Checkout Repository (Lightweight)
+        if: steps.check.outputs.ready == 'true'
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            index.html
+            social.html
+            studio.html
+            vj_scratch.html
+            catalog.json
+            output/catalog.json
+          sparse-checkout-cone-mode: false
 
-      - name: Prepare Clean Static Bundle
-        if: steps.check_netlify.outputs.ready == 'true'
+      - name: Prepare Static Bundle (_site)
+        if: steps.check.outputs.ready == 'true'
         run: |
           mkdir -p _site/output
           cp -f index.html social.html studio.html vj_scratch.html catalog.json _site/ 2>/dev/null || true
-          cp -rf output/* _site/output/ 2>/dev/null || true
+          cp -f output/catalog.json _site/output/ 2>/dev/null || true
 
       - name: Deploy to Netlify
-        if: steps.check_netlify.outputs.ready == 'true'
-        uses: nwtgck/actions-netlify@v3.0
-        with:
-          publish-dir: './_site'
-          production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deploy Noir Vault (${{ github.ref_name }})"
-          enable-pull-request-comment: false
-          enable-commit-comment: false
+        if: steps.check.outputs.ready == 'true'
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npx netlify-cli deploy --prod --dir=_site
 
-  # ---------------------------------------------------------
-  # 3. Vercel (Global Edge CDN & 100GB/mo Free)
-  # ---------------------------------------------------------
   deploy-vercel:
-    if: ${{ vars.ENABLE_VERCEL != 'false' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check Vercel Secrets
-        id: check_vercel
+        id: check
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
         run: |
-          if [ -n "${{ secrets.VERCEL_TOKEN }}" ] && [ -n "${{ secrets.VERCEL_ORG_ID }}" ] && [ -n "${{ secrets.VERCEL_PROJECT_ID }}" ]; then
+          if [ -n "$VERCEL_TOKEN" ] && [ -n "$VERCEL_ORG_ID" ] && [ -n "$VERCEL_PROJECT_ID" ]; then
             echo "ready=true" >> $GITHUB_OUTPUT
           else
             echo "ready=false" >> $GITHUB_OUTPUT
             echo "Skipping Vercel: VERCEL_TOKEN, VERCEL_ORG_ID, or VERCEL_PROJECT_ID not set."
           fi
 
-      - name: Checkout Repository
-        if: steps.check_vercel.outputs.ready == 'true'
+      - name: Checkout Repository (Lightweight)
+        if: steps.check.outputs.ready == 'true'
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            index.html
+            social.html
+            studio.html
+            vj_scratch.html
+            catalog.json
+            output/catalog.json
+          sparse-checkout-cone-mode: false
 
-      - name: Prepare Clean Static Bundle
-        if: steps.check_vercel.outputs.ready == 'true'
+      - name: Prepare Static Bundle (_site)
+        if: steps.check.outputs.ready == 'true'
         run: |
           mkdir -p _site/output
           cp -f index.html social.html studio.html vj_scratch.html catalog.json _site/ 2>/dev/null || true
-          cp -rf output/* _site/output/ 2>/dev/null || true
+          cp -f output/catalog.json _site/output/ 2>/dev/null || true
 
       - name: Deploy to Vercel
-        if: steps.check_vercel.outputs.ready == 'true'
+        if: steps.check.outputs.ready == 'true'
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
         run: |
-          npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
-          if [ "${{ github.ref_name }}" = "main" ]; then
-            npx --yes vercel@latest deploy --prod --yes --token="$VERCEL_TOKEN" _site
-          else
-            npx --yes vercel@latest deploy --yes --token="$VERCEL_TOKEN" _site
-          fi
+          npx vercel deploy --prod --yes --token="$VERCEL_TOKEN" _site
 
-  # ---------------------------------------------------------
-  # 4. Render Static Site (Deploy Hook Trigger)
-  # ---------------------------------------------------------
-  deploy-render:
-    if: ${{ vars.ENABLE_RENDER != 'false' }}
+  trigger-render-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Render Deploy Hook
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
         run: |
-          if [ -n "${{ secrets.RENDER_DEPLOY_HOOK_URL }}" ]; then
-            curl -fsSL -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
-            echo "Render static site deployment triggered."
+          if [ -n "$RENDER_DEPLOY_HOOK_URL" ]; then
+            curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
+            echo "Render deploy triggered!"
           else
             echo "Skipping Render: RENDER_DEPLOY_HOOK_URL not set."
           fi
