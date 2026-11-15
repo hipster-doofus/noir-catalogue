@@ -7,7 +7,7 @@
         :root { 
             --bg-primary: #0f1013; --bg-secondary: #17181c; --bg-tertiary: #22242a; 
             --accent: #6366f1; --text-main: #f3f4f6; --text-muted: #9ca3af; --border: #2e323b; 
-            --badge-local: #3b82f6; --badge-git: #10b981; --badge-drive: #f59e0b; --badge-manual: #8b5cf6;
+            --badge-local: #3b82f6; --badge-git: #10b981; --badge-drive: #f59e0b; --badge-manual: #8b5cf6; --badge-vault: #d4af37;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
         body { background-color: var(--bg-primary); color: var(--text-main); padding: 20px; }
@@ -34,6 +34,7 @@
         .video-card.github { border-left-color: var(--badge-git); }
         .video-card.gdrive { border-left-color: var(--badge-drive); }
         .video-card.manual { border-left-color: var(--badge-manual); }
+        .video-card.vault { border-left-color: var(--badge-vault); }
         .video-card h4 { font-size: 0.95rem; margin-bottom: 4px; word-break: break-word; line-height: 1.3; }
         .video-card p { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 8px; word-break: break-all; }
         .source-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; font-weight: bold; display: inline-block; text-transform: uppercase; margin-bottom: 4px; }
@@ -41,6 +42,7 @@
         .badge-github { background: var(--badge-git); color: #fff; }
         .badge-gdrive { background: var(--badge-drive); color: #fff; }
         .badge-manual { background: var(--badge-manual); color: #fff; }
+        .badge-vault { background: var(--badge-vault); color: #000; }
         .video-card-actions { display: flex; gap: 5px; margin-top: auto; }
         .video-card-actions button { padding: 6px 10px; font-size: 0.8rem; flex: 1; }
         .list-group { display: flex; flex-direction: column; gap: 5px; max-height: 300px; overflow-y: auto; }
@@ -51,37 +53,49 @@
 </head>
 <body>
 <div class="container">
-    <div class="card header-panel">
-        <h1>Hybrid Media Studio Pro</h1>
-        <p style="color: var(--text-muted)">Manage multi-source workspaces, recursive subfolder scans (GitHub & Drive), and duplicate prevention.</p>
+    <div class="card header-panel" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <div>
+            <h1>Hybrid Media Studio Pro</h1>
+            <p style="color: var(--text-muted)">Manage multi-source workspaces, Noir Vault cloud catalog, recursive subfolder scans (GitHub &amp; Drive), and duplicate prevention.</p>
+        </div>
+        <div style="display:flex; gap:12px; font-size:0.85rem;">
+            <a href="index.html" style="color:#d4af37; text-decoration:none; font-weight:bold;">&larr; Vault</a>
+            <a href="social.html" style="color:#9ca3af; text-decoration:none;">Social Studio</a>
+            <a href="vj_scratch.html" style="color:#9ca3af; text-decoration:none;">VJ Scratch</a>
+        </div>
     </div>
 
     <!-- WORKSPACE MANAGEMENT PANEL -->
     <div class="card workspace-panel">
-        <h2>🗂️ Workspaces</h2>
-        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 10px;">Switch between separate workspaces or create a new one with a fresh library & playlists.</p>
+        <h2>Workspaces</h2>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 10px;">Switch between separate workspaces or create a new one with a fresh library &amp; playlists.</p>
         <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
             <select id="ws-select" style="max-width: 300px;" onchange="switchWorkspace(this.value)"></select>
             <button onclick="createNewWorkspace()">+ New Workspace</button>
-            <button class="danger" onclick="clearCurrentWorkspace()">🗑️ Clear/Reset Workspace</button>
+            <button class="danger" onclick="clearCurrentWorkspace()">Clear/Reset Workspace</button>
         </div>
     </div>
 
     <!-- SOURCES MANAGEMENT & TOGGLE PANEL -->
     <div class="card sources-panel">
-        <h2>🔌 Connected Sources & Repositories (<span id="ws-name-display"></span>)</h2>
+        <h2>Connected Sources &amp; Repositories (<span id="ws-name-display"></span>)</h2>
         <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 10px;">Connect or disconnect sources to show/hide their tiles in the catalog.</p>
         <div id="sources-list" style="margin-bottom: 15px;"></div>
     </div>
 
     <div class="card importer-card">
         <div class="tabs">
-            <button class="tab-btn active" onclick="st('local-t', this)">💻 Local Files</button>
-            <button class="tab-btn" onclick="st('github-t', this)">GitHub Repo (Option 2)</button>
+            <button class="tab-btn active" onclick="st('vault-t', this)">Noir Vault Cloud / JSON</button>
+            <button class="tab-btn" onclick="st('local-t', this)">Local Files</button>
+            <button class="tab-btn" onclick="st('github-t', this)">GitHub Repo</button>
             <button class="tab-btn" onclick="st('gdrive-t', this)">Google Drive (Recursive)</button>
             <button class="tab-btn" onclick="st('manual-t', this)">Manual Link</button>
         </div>
-        <div id="local-t" class="tab-content active">
+        <div id="vault-t" class="tab-content active">
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 12px;">Sync indexed clips (including offloaded R2 / GitHub Release CDN links, moods, and transcripts) directly from your Noir Vault database or catalog.json.</p>
+            <button onclick="pVault()" style="background:#d4af37; color:#000;">Sync Noir Vault Catalog</button>
+        </div>
+        <div id="local-t" class="tab-content">
             <div class="form-group">
                 <label>Select MP4 Video Files</label>
                 <input type="file" id="lif" accept="video/mp4" multiple onchange="pLocal(event)">
@@ -94,7 +108,7 @@
                 <div class="form-group"><label>Branch</label><input type="text" id="gb" value="main"></div>
             </div>
             <div class="form-group"><label>Access Token (Optional)</label><input type="password" id="gt"></div>
-            <button onclick="pGit()">Deep Scan All Repo Subfolders (Option 2)</button>
+            <button onclick="pGit()">Deep Scan All Repo Subfolders</button>
         </div>
         <div id="gdrive-t" class="tab-content">
             <div class="form-group"><label>Google Drive API Key</label><input type="password" id="gdt"></div>
@@ -111,21 +125,21 @@
     </div>
 
     <div class="card filter-panel">
-        <h2>🔍 Filter Catalog</h2>
+        <h2>Filter Catalog</h2>
         <div class="inline-fields">
-            <div class="form-group"><label>Keywords</label><input type="text" id="sf" oninput="fCat()"></div>
+            <div class="form-group"><label>Keywords (Title, Dialogue, Mood, Tropes)</label><input type="text" id="sf" oninput="fCat()"></div>
             <div class="form-group"><label>Min Year</label><input type="number" id="fymin" oninput="fCat()"></div>
             <div class="form-group"><label>Max Year</label><input type="number" id="fymax" oninput="fCat()"></div>
         </div>
         <div style="display:flex; gap:10px; margin-top:10px;">
-            <button onclick="bulkP(0)">▶ Play All Filtered</button>
-            <button onclick="bulkP(1)" class="secondary">🔀 Shuffle Filtered</button>
+            <button onclick="bulkP(0)">Play All Filtered</button>
+            <button onclick="bulkP(1)" class="secondary">Shuffle Filtered</button>
         </div>
     </div>
 
     <div class="card player-panel">
-        <h2>📺 Media Player</h2>
-        <div class="player-wrapper"><video id="vid" controls></video></div>
+        <h2>Media Player</h2>
+        <div class="player-wrapper"><video id="vid" controls crossOrigin="anonymous"></video></div>
         <div class="controls-row">
             <div id="npt" style="font-weight:bold; color:var(--accent); flex-grow:1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 250px;">No Video Loaded</div>
             <label><input type="checkbox" id="auton" checked> Autoplay Next</label>
@@ -138,27 +152,30 @@
     </div>
 
     <div class="card playlist-panel">
-        <h2>📋 Target Playlists</h2>
+        <h2>Target Playlists</h2>
         <div style="display:flex; gap:10px; margin-bottom:10px;">
             <select id="pls" onchange="sList(this.value)"></select>
             <button onclick="cList()">+</button>
         </div>
         <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:5px; margin-bottom:10px;">
-            <button onclick="expL()" class="secondary" style="font-size:0.8rem; padding:5px;">📥 Export</button>
-            <button onclick="document.getElementById('imf').click()" class="secondary" style="font-size:0.8rem; padding:5px;">📤 Import</button>
-            <button onclick="delL()" class="danger" style="font-size:0.8rem; padding:5px;">🗑️ Del</button>
+            <button onclick="expL()" class="secondary" style="font-size:0.8rem; padding:5px;">Export</button>
+            <button onclick="document.getElementById('imf').click()" class="secondary" style="font-size:0.8rem; padding:5px;">Import</button>
+            <button onclick="delL()" class="danger" style="font-size:0.8rem; padding:5px;">Del</button>
             <input type="file" id="imf" style="display:none;" accept=".json" onchange="impL(event)">
         </div>
         <div class="list-group" id="litems"></div>
     </div>
 
     <div class="card catalog-panel">
-        <h2>🗂️ Unified Catalog (<span id="ccnt">0</span> items)</h2>
+        <h2>Unified Catalog (<span id="ccnt">0</span> items)</h2>
         <div class="video-grid" id="cgrid"></div>
     </div>
 </div>
 
 <script>
+    const SUPABASE_URL = "https://tbtjnqthvdijepraqlvn.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_pLAWtrhug37M1sEX2uXORA_dHumFUli";
+
     let workspaces = JSON.parse(localStorage.getItem('hms_workspaces')) || { "Default Workspace": { cat: [], sources: [], lists: { "Default Playlist": [] }, curListName: "Default Playlist" } };
     let currentWsName = localStorage.getItem('hms_current_ws') || Object.keys(workspaces)[0] || "Default Workspace";
 
@@ -214,6 +231,74 @@
         return ws.cat.some(item => item.url === url || (item.title.toLowerCase() === title.toLowerCase()));
     }
 
+    async function pVault() {
+        const sourceId = 'src_noir_vault';
+        let scenes = [];
+        let moviesMap = {};
+
+        try {
+            const res = await fetch(`${SUPABASE_URL}/rest/v1/scenes?select=*,movies(title,release_year,director)&order=created_at.desc&limit=500`, {
+                headers: { "apikey": SUPABASE_ANON_KEY, "Authorization": `Bearer ${SUPABASE_ANON_KEY}` }
+            });
+            if (res.ok) {
+                scenes = await res.json();
+            }
+        } catch (e) {
+            console.warn("Supabase fetch notice, trying catalog.json...", e);
+        }
+
+        if (!scenes.length) {
+            try {
+                let res = await fetch('./output/catalog.json?t=' + Date.now());
+                if (!res.ok) res = await fetch('catalog.json?t=' + Date.now());
+                if (res.ok) {
+                    const data = await res.json();
+                    scenes = data.scenes || [];
+                    (data.movies || []).forEach(m => { moviesMap[m.archive_id] = m; });
+                }
+            } catch (err) {
+                return alert('Failed to fetch Noir Vault catalog: ' + err.message);
+            }
+        }
+
+        let added = 0;
+        let skipped = 0;
+
+        scenes.forEach(s => {
+            const clipFile = s.video_filename || s.clip_filename || '';
+            const url = s.download_url || (clipFile ? `./output/${clipFile}` : '');
+            if (!url) return;
+
+            const mObj = s.movies || moviesMap[s.movie_id] || {};
+            const baseTitle = mObj.title || parseMetadata(s.movie_id || clipFile).title;
+            const year = mObj.release_year || mObj.year || parseMetadata(s.movie_id || clipFile).year;
+            const title = `${baseTitle} - Scene ${s.scene_number || 1}`;
+            const metaText = [s.mood, s.transcription, s.synopsis, Array.isArray(s.noir_tropes) ? s.noir_tropes.join(' ') : ''].filter(Boolean).join(' | ');
+
+            if (!isDuplicate(url, title)) {
+                ws.cat.push({
+                    id: 'vlt_' + (s.scene_id || Date.now() + '_' + Math.random()),
+                    sourceId,
+                    title,
+                    year,
+                    url,
+                    metaText,
+                    type: 'vault'
+                });
+                added++;
+            } else {
+                skipped++;
+            }
+        });
+
+        if (!ws.sources.some(s => s.id === sourceId)) {
+            ws.sources.push({ id: sourceId, name: 'Noir Vault AI Archive', type: 'vault', active: true });
+        }
+
+        persistState(); fCat(); renderSources();
+        alert(`Noir Vault sync complete: Added ${added} clips (${skipped} duplicates skipped).`);
+    }
+
     function pLocal(e) {
         const files = Array.from(e.target.files);
         const sourceId = 'src_local_' + Date.now();
@@ -254,7 +339,7 @@
             
             const res = await fetch(url, { headers });
             if (!res.ok) {
-                if(res.status === 404) throw new Error('Repository or branch not found. Make sure your MP4 files are committed to the repo folders (Option 2).');
+                if(res.status === 404) throw new Error('Repository or branch not found.');
                 if(res.status === 401 || res.status === 403) throw new Error('Authentication failed or rate limit exceeded.');
                 throw new Error(`GitHub API error status ${res.status}`);
             }
@@ -285,13 +370,12 @@
             }
 
             persistState(); fCat(); renderSources();
-            alert(`GitHub Option 2 scan complete! Added ${addedCount} new files (${skippedCount} duplicates skipped).`);
+            alert(`GitHub scan complete! Added ${addedCount} new files (${skippedCount} duplicates skipped).`);
         } catch (err) {
             alert('Error scanning GitHub repository: ' + err.message);
         }
     }
 
-    // Recursive Google Drive Subfolder Scanner
     async function pDrive() {
         saveCredentials();
         const k = document.getElementById('gdt').value.trim();
@@ -301,12 +385,10 @@
         const sourceId = 'src_gdrive_' + rootFolderId;
 
         try {
-            // Helper function to recursively find all files and folders
             async function getDriveFilesRecursive(folderId) {
                 let mp4Files = [];
                 let subFolderIds = [];
 
-                // 1. Query items inside current folder
                 let query = `'${folderId}' in parents and trashed = false`;
                 let listUrl = `https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}&key=${k}&fields=files(id,name,mimeType)`;
                 
@@ -324,7 +406,6 @@
                     }
                 }
 
-                // 2. Recursively scan all subfolders
                 for (let subId of subFolderIds) {
                     let subFiles = await getDriveFilesRecursive(subId);
                     mp4Files = mp4Files.concat(subFiles);
@@ -416,7 +497,7 @@
                 <div>
                     <span class="source-badge badge-${src.type}">${src.type}</span>
                     <strong style="font-size:0.9rem; margin-left: 6px;">${escapeHTML(src.name)}</strong>
-                    <span style="font-size:0.75rem; color:var(--text-muted); margin-left: 10px;">(${src.active ? '🟢 Connected' : '🔴 Disconnected'})</span>
+                    <span style="font-size:0.75rem; color:var(--text-muted); margin-left: 10px;">(${src.active ? 'Connected' : 'Disconnected'})</span>
                 </div>
                 <div style="display:flex; gap:5px;">
                     <button class="secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="toggleSource('${src.id}')">${src.active ? 'Disconnect' : 'Connect'}</button>
@@ -427,7 +508,6 @@
         });
     }
 
-    // Workspace Controls
     function switchWorkspace(name) {
         if(!workspaces[name]) return;
         currentWsName = name;
@@ -492,7 +572,9 @@
         const activeSourceIds = ws.sources.filter(s => s.active).map(s => s.id);
         const filtered = ws.cat.filter(item => {
             if(item.sourceId && !activeSourceIds.includes(item.sourceId)) return false;
-            const mQ = item.title.toLowerCase().includes(q) || (item.url && item.url.toLowerCase().includes(q));
+            const mQ = item.title.toLowerCase().includes(q)
+                || (item.url && item.url.toLowerCase().includes(q))
+                || (item.metaText && item.metaText.toLowerCase().includes(q));
             const itemYear = item.year || 0;
             const mY = (ymin === 0 || itemYear >= ymin) && (ymax === 3000 || itemYear <= ymax);
             return mQ && mY;
@@ -508,10 +590,11 @@
                 <div>
                     <span class="source-badge badge-${item.type}">${item.type}</span>
                     <h4>${escapeHTML(item.title)}</h4>
-                    <p>${item.year ? '📅 ' + item.year : 'No Year Data'}</p>
+                    <p>${item.year ? 'Year: ' + item.year : 'No Year Data'}</p>
+                    ${item.metaText ? `<p style="color:#d4af37; font-style:italic;">${escapeHTML(item.metaText.slice(0, 95))}...</p>` : ''}
                 </div>
                 <div class="video-card-actions">
-                    <button onclick="playDirect('${item.url}', '${escapeJS(item.title)}')">▶ Play</button>
+                    <button onclick="playDirect('${escapeJS(item.url)}', '${escapeJS(item.title)}')">Play</button>
                     <button class="secondary" onclick="addToPlaylist('${escapeJS(item.id)}')">+ List</button>
                 </div>
             `;
@@ -545,7 +628,7 @@
         
         let filtered = ws.cat.filter(item => {
             if(item.sourceId && !activeSourceIds.includes(item.sourceId)) return false;
-            const mQ = item.title.toLowerCase().includes(q);
+            const mQ = item.title.toLowerCase().includes(q) || (item.metaText && item.metaText.toLowerCase().includes(q));
             const itemYear = item.year || 0;
             const mY = (ymin === 0 || itemYear >= ymin) && (ymax === 3000 || itemYear <= ymax);
             return mQ && mY;
@@ -679,12 +762,12 @@
 
     function escapeHTML(str) {
         if(!str) return '';
-        return str.replace(/[&<>'"]/g, tag => ({ '&': '&', '<': '<', '>': '>', "'": '&#39;', '"': '&quot;' }[tag] || tag));
+        return String(str).replace(/[&<>'"]/g, tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag));
     }
 
     function escapeJS(str) {
         if(!str) return '';
-        return str.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
+        return String(str).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
     }
 </script>
 </body>
