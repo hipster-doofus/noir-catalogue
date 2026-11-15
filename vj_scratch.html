@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noir VJ Scratch & Randomizer Engine</title>
     <style>
         body { background: #050505; color: #eee; font-family: monospace; margin: 0; padding: 20px; overflow-x: hidden; }
-        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; padding-bottom: 15px; margin-bottom: 20px; }
+        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; padding-bottom: 15px; margin-bottom: 20px; flex-wrap: wrap; gap: 10px; }
         h1 { margin: 0; font-size: 1.5rem; letter-spacing: 2px; color: #ff5555; }
         .nav-links a { color: #888; text-decoration: none; margin-left: 15px; font-size: 0.9rem; }
         .nav-links a:hover { color: #fff; }
@@ -17,6 +18,8 @@
         .stage { position: relative; background: #000; border: 1px solid #222; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; overflow: hidden; box-shadow: 0 0 30px rgba(0,0,0,0.8); }
         video { position: absolute; width: 100%; height: 100%; object-fit: contain; background: #000; opacity: 0; transition: opacity 0.05s ease; }
         video.active { opacity: 1; z-index: 2; }
+        .deck-hud { position: absolute; bottom: 10px; left: 10px; right: 10px; z-index: 5; display: flex; justify-content: space-between; pointer-events: none; font-size: 0.75rem; }
+        .hud-badge { background: rgba(0,0,0,0.75); border: 1px solid #333; padding: 3px 8px; color: #ff5555; }
 
         /* Control Panel */
         .panel { background: #111; border: 1px solid #222; padding: 20px; border-radius: 4px; display: flex; flex-direction: column; gap: 15px; }
@@ -30,17 +33,20 @@
         button.active-mode { background: #ff5555; border-color: #ff5555; color: #000; }
 
         /* Playlist Drawer */
-        .playlist-box { margin-top: 20px; background: #111; border: 1px solid #222; padding: 15px; max-height: 250px; overflow-y: auto; }
-        .playlist-item { font-size: 0.8rem; padding: 6px; border-bottom: 1px solid #1a1a1a; display: flex; justify-content: space-between; color: #888; }
+        .playlist-box { margin-top: 20px; background: #111; border: 1px solid #222; padding: 15px; max-height: 260px; overflow-y: auto; }
+        .playlist-item { font-size: 0.8rem; padding: 6px; border-bottom: 1px solid #1a1a1a; display: flex; justify-content: space-between; gap: 12px; color: #888; cursor: pointer; }
+        .playlist-item:hover { background: #181818; color: #ccc; }
         .playlist-item.playing { color: #ff5555; font-weight: bold; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>NOIR VJ SCRATCH ENGINE v1.0</h1>
+    <h1>NOIR VJ SCRATCH ENGINE v1.1</h1>
     <div class="nav-links">
-        <a href="index.html">← Back to Catalog</a>
+        <a href="index.html">← Vault Gallery</a>
+        <a href="social.html">Social Clipper</a>
+        <a href="studio.html">Media Studio</a>
         <a href="https://github.com/hipster-doofus/noir-catalogue" target="_blank">GitHub Repo</a>
     </div>
 </header>
@@ -49,10 +55,14 @@
     <!-- Visual Stage / Dual Deck -->
     <div style="display: flex; flex-direction: column; gap: 15px;">
         <div class="stage" id="stage">
-            <video id="deckA" muted playsinline></video>
-            <video id="deckB" muted playsinline></video>
+            <video id="deckA" muted playsinline crossorigin="anonymous"></video>
+            <video id="deckB" muted playsinline crossorigin="anonymous"></video>
+            <div class="deck-hud">
+                <span class="hud-badge" id="hudDeck">DECK: STANDBY</span>
+                <span class="hud-badge" id="hudMode">MODE: NORMAL</span>
+            </div>
         </div>
-        <div style="font-size: 0.85rem; color: #666;" id="statusText">Status: Standby. Load catalog to begin scratching.</div>
+        <div style="font-size: 0.85rem; color: #888;" id="statusText">Status: Standby. Load catalog to begin scratching.</div>
     </div>
 
     <!-- Live VJ Control Panel -->
@@ -92,38 +102,94 @@
 </div>
 
 <script>
+    const SUPABASE_URL = "https://tbtjnqthvdijepraqlvn.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_pLAWtrhug37M1sEX2uXORA_dHumFUli";
+
     let playlist = [];
     let currentIndex = 0;
     let isPlaying = false;
     let activeDeck = 'A';
     let timer = null;
+    let scratchInterval = null;
     let strobeMode = false;
 
     const deckA = document.getElementById('deckA');
     const deckB = document.getElementById('deckB');
     const statusText = document.getElementById('statusText');
+    const hudDeck = document.getElementById('hudDeck');
+    const hudMode = document.getElementById('hudMode');
 
     function updateVal(id, val) {
         document.getElementById('val' + id).innerText = val;
     }
 
-    async function loadCatalogAndPlay() {
-        statusText.innerText = "Status: Fetching catalog.json and media sources...";
-        try {
-            const res = await fetch('catalog.json');
-            const data = await res.json();
-            playlist = data.scenes.map(s => ({
-                title: s.scene_id,
-                url: 'output/' + s.video_filename
-            }));
+    function escapeHTML(str) {
+        if (!str) return '';
+        return String(str).replace(/[&<>'"]/g, tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag));
+    }
 
-            // Add custom demo stream or backup samples if needed
+    function resolveVideoUrl(scene) {
+        if (scene.download_url && scene.download_url.startsWith('http')) {
+            return scene.download_url;
+        }
+        if (scene.video_url && scene.video_url.startsWith('http')) {
+            return scene.video_url;
+        }
+        const fn = scene.video_filename || scene.clip_filename || scene.filename || '';
+        return fn ? 'output/' + fn : '';
+    }
+
+    async function fetchScenesList() {
+        if (SUPABASE_URL && SUPABASE_ANON_KEY) {
+            try {
+                const res = await fetch(`${SUPABASE_URL}/rest/v1/scenes?select=scene_id,movie_id,mood,video_filename,download_url&order=created_at.desc&limit=250`, {
+                    headers: { "apikey": SUPABASE_ANON_KEY, "Authorization": `Bearer ${SUPABASE_ANON_KEY}` }
+                });
+                if (res.ok) {
+                    const rows = await res.json();
+                    if (Array.isArray(rows) && rows.length > 0) return rows;
+                }
+            } catch (e) {
+                console.warn("Supabase fetch skipped, trying local catalog.json:", e);
+            }
+        }
+
+        for (const path of ['output/catalog.json', 'catalog.json']) {
+            try {
+                const res = await fetch(path + '?t=' + Date.now());
+                if (res.ok) {
+                    const data = await res.json();
+                    const scenes = data.scenes || (Array.isArray(data) ? data : []);
+                    if (scenes.length > 0) return scenes;
+                }
+            } catch (e) {}
+        }
+        return [];
+    }
+
+    async function loadCatalogAndPlay() {
+        statusText.innerText = "Status: Fetching Supabase / catalog.json media sources...";
+        try {
+            const rawScenes = await fetchScenesList();
+            playlist = rawScenes
+                .map(s => ({
+                    title: s.scene_id || s.movie_id || 'Untitled Scene',
+                    mood: s.mood || 'Noir',
+                    url: resolveVideoUrl(s)
+                }))
+                .filter(item => Boolean(item.url));
+
+            if (playlist.length === 0) {
+                statusText.innerText = "Status: No playable clips found in Supabase or catalog.json.";
+                return;
+            }
+
             document.getElementById('itemCount').innerText = playlist.length;
             renderPlaylistUI();
             statusText.innerText = `Status: Loaded ${playlist.length} clips into VJ memory buffer.`;
-            if(!isPlaying) togglePlay();
+            if (!isPlaying) togglePlay();
         } catch (e) {
-            statusText.innerText = "Status: Error loading catalog.json. Ensure files are in output/.";
+            statusText.innerText = "Status: Error loading media sources.";
             console.error(e);
         }
     }
@@ -131,11 +197,21 @@
     function renderPlaylistUI() {
         const container = document.getElementById('playlistContainer');
         container.innerHTML = playlist.map((item, idx) => `
-            <div class="playlist-item ${idx === currentIndex ? 'playing' : ''}" id="pl-${idx}">
-                <span>${idx + 1}. ${item.title}</span>
-                <span>${item.url}</span>
+            <div class="playlist-item ${idx === currentIndex ? 'playing' : ''}" id="pl-${idx}" onclick="jumpToClip(${idx})">
+                <span>${idx + 1}. ${escapeHTML(item.title)} [${escapeHTML(item.mood)}]</span>
+                <span style="max-width: 45%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${escapeHTML(item.url)}</span>
             </div>
         `).join('');
+    }
+
+    function jumpToClip(idx) {
+        currentIndex = idx;
+        clearTimeout(timer);
+        executeCut(true);
+        if (isPlaying) {
+            const durationSec = parseFloat(document.getElementById('sliderDuration').value);
+            scheduleNextCut(durationSec * 1000);
+        }
     }
 
     function togglePlay() {
@@ -153,58 +229,89 @@
             btn.innerText = "Start VJ Loop";
             btn.classList.remove('active-mode');
             clearTimeout(timer);
+            clearInterval(scratchInterval);
             deckA.pause();
             deckB.pause();
+            hudDeck.innerText = "DECK: PAUSED";
         }
     }
 
     function toggleStrobe() {
         strobeMode = !strobeMode;
         document.getElementById('strobeToggle').classList.toggle('active-mode', strobeMode);
-        if(strobeMode) {
+        if (strobeMode) {
             document.getElementById('sliderDuration').value = 0.2;
             updateVal('Duration', '0.2s');
+            hudMode.innerText = "MODE: STROBE";
+        } else {
+            hudMode.innerText = "MODE: NORMAL";
         }
     }
 
     function scheduleNextCut(delayMs) {
         if (!isPlaying) return;
         timer = setTimeout(() => {
-            executeCut();
+            executeCut(false);
             const durationSec = parseFloat(document.getElementById('sliderDuration').value);
-            // Apply jitter in strobe mode
             const jitter = strobeMode ? (Math.random() * 0.1) : (Math.random() * 0.5);
             scheduleNextCut((durationSec + jitter) * 1000);
         }, delayMs);
     }
 
-    function executeCut() {
+    function applyScratchEffect(deckEl, isScratching) {
+        clearInterval(scratchInterval);
+        if (!isScratching) {
+            hudMode.innerText = strobeMode ? "MODE: STROBE" : "MODE: NORMAL";
+            return;
+        }
+
+        hudMode.innerText = "MODE: SCRATCH / REV";
+        deckEl.pause();
+        scratchInterval = setInterval(() => {
+            if (!isPlaying || !deckEl.classList.contains('active')) {
+                clearInterval(scratchInterval);
+                return;
+            }
+            const nextTime = deckEl.currentTime - 0.08;
+            if (nextTime <= 0.05) {
+                deckEl.currentTime = Math.max(0.5, (deckEl.duration || 5) * 0.8);
+            } else {
+                deckEl.currentTime = nextTime;
+            }
+        }, 45);
+    }
+
+    function executeCut(keepCurrentIndex = false) {
         if (playlist.length === 0) return;
 
-        // Calculate randomness & jump distance based on sliders
-        const chaos = parseInt(document.getElementById('sliderChaos').value) / 100;
-        const spread = parseInt(document.getElementById('sliderSpread').value) / 100;
-        const scratchProb = parseInt(document.getElementById('sliderScratch').value) / 100;
+        const chaos = parseInt(document.getElementById('sliderChaos').value, 10) / 100;
+        const spread = parseInt(document.getElementById('sliderSpread').value, 10) / 100;
+        const scratchProb = parseInt(document.getElementById('sliderScratch').value, 10) / 100;
 
-        if (Math.random() < chaos) {
-            // Jump across archive
-            currentIndex = Math.floor(Math.random() * playlist.length);
-        } else {
-            // Step nearby
-            currentIndex = (currentIndex + 1) % playlist.length;
+        if (!keepCurrentIndex) {
+            if (Math.random() < chaos) {
+                currentIndex = Math.floor(Math.random() * playlist.length);
+            } else {
+                currentIndex = (currentIndex + 1) % playlist.length;
+            }
         }
 
         renderPlaylistUI();
         const clip = playlist[currentIndex];
-        
+        const triggerScratch = Math.random() < scratchProb;
+
+        const nextDeckName = activeDeck === 'A' ? 'B' : 'A';
         const nextDeckEl = activeDeck === 'A' ? deckB : deckA;
         const currDeckEl = activeDeck === 'A' ? deckA : deckB;
 
+        nextDeckEl.onerror = () => {
+            statusText.innerText = `Status: Skipped unreachable stream (${clip.title})`;
+        };
+
         nextDeckEl.src = clip.url;
         nextDeckEl.load();
-        
+
         nextDeckEl.onloadeddata = () => {
-            // Random timecode jump based on spread
             const maxDuration = nextDeckEl.duration || 10;
             const targetTime = Math.random() * (maxDuration * spread);
             nextDeckEl.currentTime = isNaN(targetTime) ? 0 : targetTime;
@@ -213,8 +320,12 @@
                 nextDeckEl.classList.add('active');
                 currDeckEl.classList.remove('active');
                 currDeckEl.pause();
-                activeDeck = activeDeck === 'A' ? 'B' : 'A';
-            }).catch(err => console.log("Autoplay constrained:", err));
+                activeDeck = nextDeckName;
+                hudDeck.innerText = `DECK ${nextDeckName}: ${clip.title.slice(0, 28)}`;
+                applyScratchEffect(nextDeckEl, triggerScratch);
+            }).catch(err => {
+                console.log("Autoplay constrained:", err);
+            });
         };
     }
 </script>

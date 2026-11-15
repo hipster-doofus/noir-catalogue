@@ -100,23 +100,37 @@ jobs:
           python-version: '3.10'
           cache: 'pip'
 
-      - name: Install Dependencies
+      - name: Cache Hugging Face & Whisper Models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: ${{ runner.os }}-hf-models-clip-whisper-v1
+          restore-keys: |
+            ${{ runner.os }}-hf-models-
+
+      - name: Install Dependencies (CPU-Optimized)
         run: |
           python -m pip install --upgrade pip
+          pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install requests scenedetect[opencv] faster-whisper imageio-ffmpeg supabase google-genai
+          pip install requests scenedetect[opencv] faster-whisper transformers pillow boto3 imageio-ffmpeg supabase google-genai
 
-      - name: Uncache Output Directory to Fix Git Tracking Cache
+      - name: Ensure Output Directory Exists
         run: |
-          git rm -r --cached output/ 2>/dev/null || true
           mkdir -p output
 
       - name: Run Extraction Pipeline
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
           SOURCE_PROVIDER: ${{ inputs.source_provider || 'Internet Archive' }}
           ARCHIVE_CATEGORY: ${{ inputs.archive_category || 'feature_films' }}
           GENRE_KEYWORD: ${{ inputs.genre_keyword || 'film noir' }}
@@ -137,25 +151,22 @@ jobs:
 
       - name: Verify Output Files
         run: |
-          echo "=== Files Present in output/ ==="
-          ls -lh output/ || echo "output folder does not exist"
-          git status --ignored
+          echo "=== Catalog & DB Files in output/ ==="
+          ls -lh output/catalog.json output/film_noir_scenes.db 2>/dev/null || true
 
-      - name: Commit & Push MP4 Clips and Metadata to Main
+      - name: Commit & Push Catalog Metadata to Current Branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Stage untracked files and handle deleted file records
-          git add -A output/
-          git add index.html catalog.json 2>/dev/null || true
-          
+
+          git add catalog.json output/catalog.json output/film_noir_scenes.db 2>/dev/null || true
+          git add output/*.jpg 2>/dev/null || true
+
           git status
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update catalog and MP4 scenes [skip ci]"
-          
-          # Retry loop to handle transient network drops during push
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update catalog metadata [skip ci]"
+
           for i in {1..3}; do
-            git push origin HEAD:main && break || {
+            git push origin HEAD && break || {
               echo "Push failed, retrying in $((i * 5)) seconds..."
               sleep $((i * 5))
             }

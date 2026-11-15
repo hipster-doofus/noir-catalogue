@@ -1,10 +1,12 @@
 """
 Multi-Source Film & Genre Scene Extractor & Cloud Indexer
 Dynamically queries Internet Archive based on workflow parameters,
-extracts scenes, generates AI metadata, and updates Supabase & GitHub Pages.
+slices streams via single-pass FFmpeg copy, extracts scenes, runs local
+CLIP + Whisper multimodal perception, offloads binaries to Cloudflare R2
+or GitHub Releases (zero repo bloat), and updates Supabase & GitHub Pages.
 """
 import os
-import sys
+import re
 import json
 import time
 import random
@@ -39,6 +41,49 @@ START_YEAR = int(os.environ.get("START_YEAR", "1930"))
 END_YEAR = int(os.environ.get("END_YEAR", "1960"))
 LICENSE_TYPE = os.environ.get("LICENSE_TYPE", "any").strip().lower()
 
+# Optional Zero-Bloat Cloud Storage (Cloudflare R2 or GitHub Releases)
+R2_ACCOUNT_ID = os.environ.get("R2_ACCOUNT_ID", "").strip()
+R2_ACCESS_KEY_ID = os.environ.get("R2_ACCESS_KEY_ID", "").strip()
+R2_SECRET_ACCESS_KEY = os.environ.get("R2_SECRET_ACCESS_KEY", "").strip()
+R2_BUCKET_NAME = os.environ.get("R2_BUCKET_NAME", "").strip()
+R2_PUBLIC_URL = os.environ.get("R2_PUBLIC_URL", "").strip().rstrip("/")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "hipster-doofus/noir-catalogue").strip()
+KEEP_LOCAL_MEDIA = os.environ.get("KEEP_LOCAL_MEDIA", "false").strip().lower() == "true"
+
+# Lazy-loaded local AI singletons
+_WHISPER_MODEL = None
+_CLIP_MODEL = None
+_CLIP_PROCESSOR = None
+_R2_CLIENT = None
+
+NOIR_MOOD_PROMPTS = {
+    "Fatalistic": "a dark fatalistic film noir scene of doomed characters in heavy shadows",
+    "Melancholic": "a lonely melancholic black and white movie scene with wistful reflection",
+    "Tense / Suspense": "a tense suspenseful thriller scene with danger and confrontation",
+    "Paranoid": "a paranoid shadowy noir scene of a detective looking over their shoulder"
+}
+
+NOIR_TROPE_PROMPTS = {
+    "low-key chiaroscuro": "high contrast chiaroscuro black and white lighting with deep shadows",
+    "venetian blind shadows": "dramatic venetian blind shadow stripes cast across a dark room",
+    "cigarette smoke": "character smoking a cigarette in dramatic atmospheric haze",
+    "rain-slicked streets": "wet rain-slicked city street at night reflecting streetlights",
+    "fedora & trenchcoat": "detective wearing a fedora hat and trenchcoat in shadow",
+    "femme fatale": "glamorous mysterious femme fatale woman in classic 1940s cinema",
+    "interrogation / standoff": "tense face-to-face confrontation or interrogation in a dim room",
+    "dutch angle framing": "tilted off-balance camera angle creating psychological tension",
+    "nightclub / jazz bar": "smoky vintage nightclub or bar scene with drinks and shadows",
+    "telephone / late-night call": "character making an urgent late-night telephone call in the dark"
+}
+
+SHOT_STYLE_PROMPTS = [
+    "an intimate close-up shot focusing on facial expression and shadow",
+    "a dramatic medium two-shot of characters in tense conversation",
+    "a wide atmospheric establishing shot showing deep architectural shadows",
+    "a stark silhouette framed against a bright doorway or window"
+]
+
 
 def get_ffmpeg():
     sys_ffmpeg = shutil.which("ffmpeg")
@@ -47,7 +92,213 @@ def get_ffmpeg():
     return imageio_ffmpeg.get_ffmpeg_exe()
 
 
-def get_already_processed_movie_ids():
+def get_whisper_model():
+    global _WHISPER_MODEL
+    if _WHISPER_MODEL is None:
+        from faster_whisper import WhisperModel
+        print("  🎙️ Loading local faster-whisper (base.en, int8)...")
+        _WHISPER_MODEL = WhisperModel("base.en", device="cpu", compute_type="int8")
+    return _WHISPER_MODEL
+
+
+def get_clip_components():
+    global _CLIP_MODEL, _CLIP_PROCESSOR
+    if _CLIP_MODEL is None or _CLIP_PROCESSOR is None:
+        from transformers import CLIPProcessor, CLIPModel
+        model_id = "openai/clip-vit-base-patch32"
+        print(f"  👁️ Loading local CLIP vision-language model ({model_id})...")
+        _CLIP_PROCESSOR = CLIPProcessor.from_pretrained(model_id)
+        _CLIP_MODEL = CLIPModel.from_pretrained(model_id)
+        _CLIP_MODEL.eval()
+    return _CLIP_MODEL, _CLIP_PROCESSOR
+
+
+def get_r2_client():
+    global _R2_CLIENT
+    if _R2_CLIENT is None and all([R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET_NAME, R2_PUBLIC_URL]):
+        import boto3
+        _R2_CLIENT = boto3.client(
+            "s3",
+            endpoint_url=f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com",
+            aws_access_key_id=R2_ACCESS_KEY_ID,
+            aws_secret_access_key=R2_SECRET_ACCESS_KEY,
+            region_name="auto",
+        )
+    return _R2_CLIENT
+
+
+def upload_to_r2(local_path: Path, object_key: str, content_type: str) -> str:
+    client = get_r2_client()
+    if client is None or not local_path.exists():
+        return ""
+    try:
+        client.upload_file(
+            str(local_path),
+            R2_BUCKET_NAME,
+            object_key,
+            ExtraArgs={"ContentType": content_type}
+        )
+        return f"{R2_PUBLIC_URL}/{object_key}"
+    except Exception as e:
+        print(f"    [!] Cloudflare R2 upload notice ({e})")
+        return ""
+
+
+def upload_to_github_release(local_path: Path, tag_name: str = "vault-media") -> str:
+    """Uploads an asset to a rolling GitHub Release so binaries stay out of Git history."""
+    if not GITHUB_TOKEN or not GITHUB_REPOSITORY or not local_path.exists():
+        return ""
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28"
+    }
+    api_base = f"https://api.github.com/repos/{GITHUB_REPOSITORY}"
+    try:
+        rel_resp = requests.get(f"{api_base}/releases/tags/{tag_name}", headers=headers, timeout=15)
+        if rel_resp.status_code == 404:
+            rel_resp = requests.post(
+                f"{api_base}/releases",
+                headers=headers,
+                json={
+                    "tag_name": tag_name,
+                    "name": "Noir Vault Media Assets",
+                    "body": "Automated binary storage for extracted clips and keyframes.",
+                    "draft": False,
+                    "prerelease": False
+                },
+                timeout=15
+            )
+        if rel_resp.status_code not in (200, 201):
+            return ""
+        rel_data = rel_resp.json()
+        upload_url = rel_data["upload_url"].split("{")[0]
+        asset_name = local_path.name
+
+        for asset in rel_data.get("assets", []):
+            if asset.get("name") == asset_name:
+                requests.delete(f"{api_base}/releases/assets/{asset['id']}", headers=headers, timeout=15)
+
+        content_type = "video/mp4" if asset_name.endswith(".mp4") else "image/jpeg"
+        with open(local_path, "rb") as f:
+            up_resp = requests.post(
+                f"{upload_url}?name={asset_name}",
+                headers={**headers, "Content-Type": content_type},
+                data=f,
+                timeout=180
+            )
+        if up_resp.status_code in (200, 201):
+            return up_resp.json().get("browser_download_url", "")
+    except Exception as e:
+        print(f"    [!] GitHub Release offload notice ({e})")
+    return ""
+
+
+def offload_media_file(local_path: Path, folder_prefix: str, content_type: str, fallback_rel: str) -> tuple:
+    """Offloads clip or keyframe to R2 or GitHub Releases. Returns (public_url, offloaded_bool)."""
+    object_key = f"{folder_prefix}/{local_path.name}"
+    cdn_url = upload_to_r2(local_path, object_key, content_type)
+    if not cdn_url:
+        cdn_url = upload_to_github_release(local_path)
+
+    if cdn_url:
+        if not KEEP_LOCAL_MEDIA and local_path.exists():
+            local_path.unlink(missing_ok=True)
+        return cdn_url, True
+
+    return fallback_rel, False
+
+
+def transcribe_clip_audio(clip_path: Path) -> str:
+    """Extracts spoken dialogue using local faster-whisper."""
+    try:
+        model = get_whisper_model()
+        segments, _ = model.transcribe(str(clip_path), vad_filter=True)
+        transcript = " ".join([seg.text.strip() for seg in segments if seg.text.strip()]).strip()
+        return transcript if transcript else "[Instrumental soundtrack / ambient score]"
+    except Exception as e:
+        print(f"    [!] Whisper transcription notice ({e})")
+        return "[Ambient score and environmental dialogue]"
+
+
+def analyze_keyframe_with_clip(thumb_path: Path) -> dict:
+    """Runs zero-shot CLIP classification AND extracts a 512-d normalized vector embedding."""
+    default_result = {
+        "mood": "Tense / Suspense",
+        "noir_tropes": ["low-key chiaroscuro", "dramatic framing"],
+        "shot_style": "a dramatic medium shot with classic noir lighting",
+        "tags": ["classic cinema", "black and white"],
+        "clip_embedding": None
+    }
+    if not thumb_path or not Path(thumb_path).exists():
+        return default_result
+
+    try:
+        import torch
+        from PIL import Image
+
+        model, processor = get_clip_components()
+        image = Image.open(thumb_path).convert("RGB")
+
+        mood_labels = list(NOIR_MOOD_PROMPTS.keys())
+        mood_texts = list(NOIR_MOOD_PROMPTS.values())
+
+        trope_labels = list(NOIR_TROPE_PROMPTS.keys())
+        trope_texts = list(NOIR_TROPE_PROMPTS.values())
+
+        all_texts = mood_texts + trope_texts + SHOT_STYLE_PROMPTS
+        inputs = processor(text=all_texts, images=image, return_tensors="pt", padding=True)
+
+        with torch.no_grad():
+            outputs = model(**inputs)
+            logits = outputs.logits_per_image[0]
+            img_embeds = outputs.image_embeds[0]
+            img_embeds = img_embeds / img_embeds.norm(p=2, dim=-1, keepdim=True)
+            embedding_list = [round(float(x), 6) for x in img_embeds.cpu().tolist()]
+
+            m_end = len(mood_texts)
+            t_end = m_end + len(trope_texts)
+
+            mood_probs = logits[:m_end].softmax(dim=-1)
+            trope_probs = logits[m_end:t_end].softmax(dim=-1)
+            shot_probs = logits[t_end:].softmax(dim=-1)
+
+            best_mood = mood_labels[int(mood_probs.argmax().item())]
+            top_trope_indices = torch.topk(trope_probs, k=3).indices.tolist()
+            detected_tropes = [trope_labels[i] for i in top_trope_indices]
+            best_shot = SHOT_STYLE_PROMPTS[int(shot_probs.argmax().item())]
+
+        tags = list(dict.fromkeys(
+            ([GENRE_KEYWORD] if GENRE_KEYWORD != "any" else ["classic cinema"])
+            + detected_tropes
+            + [best_mood.lower().split("/")[0].strip()]
+        ))
+
+        return {
+            "mood": best_mood,
+            "noir_tropes": detected_tropes,
+            "shot_style": best_shot,
+            "tags": tags,
+            "clip_embedding": embedding_list
+        }
+    except Exception as e:
+        print(f"    [!] CLIP visual perception notice ({e})")
+        return default_result
+
+
+def extract_json_object(raw_text: str) -> dict:
+    """Safely extracts a JSON object even if an LLM wraps it in markdown fences."""
+    cleaned = raw_text.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
+        cleaned = re.sub(r"\s*```$", "", cleaned)
+    match = re.search(r"\{.*\}", cleaned, re.DOTALL)
+    if match:
+        return json.loads(match.group(0))
+    return json.loads(cleaned)
+
+
+def get_already_processed_movie_ids() -> set:
     """Queries Supabase to locate films that were previously extracted."""
     supabase_url = os.environ.get("SUPABASE_URL", "").strip()
     supabase_key = os.environ.get("SUPABASE_KEY", "").strip()
@@ -63,19 +314,19 @@ def get_already_processed_movie_ids():
         return set()
 
 
-def fetch_random_archive_candidates(candidate_count=20):
+def fetch_random_archive_candidates(candidate_count: int = 20) -> list:
     """Searches the Internet Archive API based on dynamic workflow inputs."""
     already_done = get_already_processed_movie_ids()
     search_url = "https://archive.org/advancedsearch.php"
-    
+
     query_parts = ['mediatype:movies', 'format:"MPEG4"']
     if ARCHIVE_CATEGORY != "all_movies":
         query_parts.append(f'collection:"{ARCHIVE_CATEGORY}"')
     if GENRE_KEYWORD != "any":
         query_parts.append(f'subject:"{GENRE_KEYWORD}"')
     if LICENSE_TYPE != "any":
-        query_parts.append(f'licenseurl:*"http://creativecommons.org/publicdomain/zero/1.0/"* OR rights:*"Public Domain*"')
-    
+        query_parts.append('licenseurl:*"http://creativecommons.org/publicdomain/zero/1.0/"* OR rights:*"Public Domain*"')
+
     query = " AND ".join(query_parts)
     print(f"🔎 Querying Archive API ({SOURCE_PROVIDER} / {ARCHIVE_CATEGORY}) | Keyword: '{GENRE_KEYWORD}'...")
 
@@ -114,10 +365,13 @@ def fetch_random_archive_candidates(candidate_count=20):
                 m_resp = requests.get(meta_url, timeout=10)
                 if m_resp.status_code == 200:
                     files = m_resp.json().get("files", [])
-                    mp4_files = [f for f in files if f.get("name", "").endswith(".mp4") and not f.get("name", "").endswith("_512kb.mp4")]
+                    mp4_files = [
+                        f for f in files
+                        if f.get("name", "").endswith(".mp4") and not f.get("name", "").endswith("_512kb.mp4")
+                    ]
                     if not mp4_files:
                         mp4_files = [f for f in files if f.get("name", "").endswith(".mp4")]
-                    
+
                     if mp4_files:
                         mp4_files.sort(key=lambda x: int(x.get("size", 0)), reverse=True)
                         best_mp4 = mp4_files[0]["name"]
@@ -145,93 +399,119 @@ def fetch_random_archive_candidates(candidate_count=20):
         return []
 
 
-def analyze_multimodal(clip_path, movie_info, scene_index, duration):
-    """Multi-Tier AI metadata extractor (Gemini 2.0 -> Hugging Face -> Whisper)."""
+def analyze_multimodal(clip_path: Path, thumb_path: Path, movie_info: dict, scene_index: int, duration: float) -> dict:
+    """
+    Zero-Cost Hybrid Multimodal Analyzer:
+    1. Local faster-whisper extracts spoken dialogue.
+    2. Local CLIP visually classifies keyframe mood, framing, tropes, and 512-d vector embedding.
+    3. Optional free-tier text LLM (Gemini Flash or HF Router) synthesizes concise prose.
+    """
+    print(f"    🔍 [Local AI] Running Whisper + CLIP analysis for Scene {scene_index}...")
+    transcript = transcribe_clip_audio(clip_path)
+    visual = analyze_keyframe_with_clip(thumb_path)
+
+    detected_mood = visual["mood"]
+    detected_tropes = visual["noir_tropes"]
+    shot_style = visual["shot_style"]
+    base_tags = visual["tags"]
+    clip_embedding = visual.get("clip_embedding")
+
+    synthesis_prompt = f"""
+    You are a film noir archivist. Based on the extracted audio transcript and visual computer-vision signals below, write concise cinematic metadata for Scene {scene_index} ({duration:.1f}s) of '{movie_info['title']}' ({movie_info['year']}, dir. {movie_info['director']}).
+
+    Extracted Dialogue: "{transcript}"
+    Detected Visual Framing: {shot_style}
+    Detected Visual Tropes: {", ".join(detected_tropes)}
+    Detected Visual Mood: {detected_mood}
+
+    Return ONLY valid JSON with these exact keys:
+    {{
+      "transcription": "cleaned version of the dialogue above (keep exact meaning)",
+      "visual_description": "1-2 evocative sentences describing the cinematography, shadows, and framing",
+      "synopsis": "2 sentence narrative beat summary grounded in the dialogue and visual mood",
+      "mood": "{detected_mood}",
+      "noir_tropes": {json.dumps(detected_tropes)},
+      "tags": {json.dumps(base_tags)}
+    }}
+    """
+
     gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if gemini_key:
         try:
-            print(f"    🤖 [1/3] Processing with Gemini API for Scene {scene_index}...")
+            print("    🤖 [Enrich 1/2] Synthesizing prose via Gemini Free Tier (text-only)...")
             from google import genai
             from google.genai import types
 
             client = genai.Client(api_key=gemini_key)
-            uploaded_file = client.files.upload(file=str(clip_path))
-            time.sleep(2)
-
-            prompt = f"""
-            Analyze this film scene clip from '{movie_info['title']}' ({movie_info['year']}).
-            Return a strict JSON object:
-            {{
-              "transcription": "spoken dialogue or audio description",
-              "visual_description": "lighting, framing, and camera work",
-              "synopsis": "2-3 sentence narrative beat breakdown",
-              "mood": "dominant atmosphere (e.g., Fatalistic, Melancholic, Tense / Suspense, Paranoid)",
-              "noir_tropes": ["array", "of", "tropes"],
-              "tags": ["array", "of", "keywords"]
-            }}
-            """
-
             response = client.models.generate_content(
-                model='gemini-2.0-flash',
-                contents=[uploaded_file, prompt],
+                model="gemini-2.5-flash",
+                contents=synthesis_prompt,
                 config=types.GenerateContentConfig(response_mime_type="application/json")
             )
-            
-            try:
-                client.files.delete(name=uploaded_file.name)
-            except Exception:
-                pass
-
-            return json.loads(response.text)
-
+            parsed = extract_json_object(response.text)
+            parsed.setdefault("transcription", transcript)
+            parsed.setdefault("mood", detected_mood)
+            parsed.setdefault("noir_tropes", detected_tropes)
+            parsed.setdefault("tags", base_tags)
+            parsed["clip_embedding"] = clip_embedding
+            return parsed
         except Exception as e:
-            print(f"    [!] Gemini notice ({e}), attempting Hugging Face fallback...")
+            print(f"    [!] Gemini text synthesis notice ({e}), trying HF Router...")
 
     hf_token = os.environ.get("HF_TOKEN", "").strip()
     if hf_token:
         try:
-            print(f"    🤗 [2/3] Processing with Hugging Face API for Scene {scene_index}...")
-            headers = {"Authorization": f"Bearer {hf_token}"}
-            hf_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
-            
-            prompt = f"<s>[INST] Generate JSON analysis metadata for a scene in the film '{movie_info['title']}' ({movie_info['year']}). Respond ONLY in valid JSON with keys: transcription, visual_description, synopsis, mood, noir_tropes, tags. [/INST]"
-            resp = requests.post(
-                hf_url, 
-                headers=headers, 
-                json={"inputs": prompt, "parameters": {"max_new_tokens": 350}}, 
-                timeout=15
-            )
+            print("    🤗 [Enrich 2/2] Synthesizing prose via Hugging Face Router...")
+            headers = {
+                "Authorization": f"Bearer {hf_token}",
+                "Content-Type": "application/json"
+            }
+            hf_url = "https://router.huggingface.co/v1/chat/completions"
+            payload = {
+                "model": "Qwen/Qwen2.5-7B-Instruct",
+                "messages": [{"role": "user", "content": synthesis_prompt}],
+                "max_tokens": 300,
+                "temperature": 0.4
+            }
+            resp = requests.post(hf_url, headers=headers, json=payload, timeout=20)
             if resp.status_code == 200:
-                raw_text = resp.json()[0]["generated_text"]
-                clean_json = raw_text.split("[/INST]")[-1].strip()
-                return json.loads(clean_json)
+                content = resp.json()["choices"][0]["message"]["content"]
+                parsed = extract_json_object(content)
+                parsed.setdefault("transcription", transcript)
+                parsed.setdefault("mood", detected_mood)
+                parsed.setdefault("noir_tropes", detected_tropes)
+                parsed.setdefault("tags", base_tags)
+                parsed["clip_embedding"] = clip_embedding
+                return parsed
         except Exception as hf_err:
-            print(f"    [!] Hugging Face notice ({hf_err}), falling back to local whisper...")
+            print(f"    [!] Hugging Face synthesis notice ({hf_err}), using local CLIP+Whisper metadata...")
 
-    try:
-        from faster_whisper import WhisperModel
-        print(f"    🎙️ [3/3] Transcribing audio with local faster-whisper (Scene {scene_index})...")
-        model = WhisperModel("base.en", device="cpu", compute_type="int8")
-        segments, _ = model.transcribe(str(clip_path))
-        transcript = " ".join([seg.text.strip() for seg in segments]).strip()
-    except Exception:
-        transcript = "[Ambient score and environmental dialogue]"
-
-    if not transcript:
-        transcript = "[Instrumental soundtrack / ambient score]"
+    tropes_phrase = ", ".join(detected_tropes[:2])
+    if transcript.startswith("["):
+        synopsis_text = (
+            f"An atmospheric {duration:.0f}-second sequence from '{movie_info['title']}' ({movie_info['year']}) "
+            f"driven by {tropes_phrase} and a {detected_mood.lower()} tone."
+        )
+    else:
+        snippet = transcript if len(transcript) <= 140 else transcript[:137].rsplit(" ", 1)[0] + "..."
+        synopsis_text = (
+            f"In a {detected_mood.lower()} exchange from '{movie_info['title']}' ({movie_info['year']}), "
+            f"dialogue centers on \"{snippet}\" framed against {tropes_phrase}."
+        )
 
     return {
         "transcription": transcript,
-        "visual_description": f"Sequence from '{movie_info['title']}' featuring dramatic lighting and atmospheric framing.",
-        "synopsis": f"Dramatic character sequence from '{movie_info['title']}' ({movie_info['year']}).",
-        "mood": random.choice(["Fatalistic", "Melancholic", "Tense / Suspense", "Paranoid"]),
-        "noir_tropes": ["low-key lighting", "cynical dialogue", "dramatic framing"],
-        "tags": [GENRE_KEYWORD if GENRE_KEYWORD != "any" else "classic cinema", "black and white"]
+        "visual_description": f"Features {shot_style}, accented by {tropes_phrase}.",
+        "synopsis": synopsis_text,
+        "mood": detected_mood,
+        "noir_tropes": detected_tropes,
+        "tags": base_tags,
+        "clip_embedding": clip_embedding
     }
 
 
-def index_to_supabase(movie, scenes):
-    """Upserts movie metadata and scene details into Supabase."""
+def index_to_supabase(movie: dict, scenes: list) -> bool:
+    """Upserts movie metadata, scene details, CDN URLs, and CLIP embeddings into Supabase."""
     supabase_url = os.environ.get("SUPABASE_URL", "").strip()
     supabase_key = os.environ.get("SUPABASE_KEY", "").strip()
     if not supabase_url or not supabase_key:
@@ -240,7 +520,7 @@ def index_to_supabase(movie, scenes):
     try:
         from supabase import create_client
         client = create_client(supabase_url, supabase_key)
-        
+
         client.table("movies").upsert({
             "movie_id": movie["archive_id"],
             "title": movie["title"],
@@ -251,7 +531,7 @@ def index_to_supabase(movie, scenes):
         }).execute()
 
         for s in scenes:
-            client.table("scenes").upsert({
+            row = {
                 "scene_id": f"{movie['archive_id']}_scene_{s['scene_number']}",
                 "movie_id": movie["archive_id"],
                 "scene_number": s["scene_number"],
@@ -271,16 +551,26 @@ def index_to_supabase(movie, scenes):
                 "resolution": "1920x1080",
                 "video_codec": "h264",
                 "audio_codec": "aac",
-                "download_url": s.get("download_url", "")
-            }).execute()
+                "download_url": s.get("download_url", ""),
+                "thumbnail_url": s.get("thumbnail_url", "")
+            }
+            if s.get("clip_embedding"):
+                row["clip_embedding"] = s["clip_embedding"]
+
+            try:
+                client.table("scenes").upsert(row).execute()
+            except Exception:
+                row.pop("clip_embedding", None)
+                row.pop("thumbnail_url", None)
+                client.table("scenes").upsert(row).execute()
         return True
     except Exception as e:
         print(f"❌ Supabase notice: {e}")
         return False
 
 
-def update_catalog_json(all_movies, all_scenes):
-    """Merges new batch records with existing history in catalog.json."""
+def update_catalog_json(all_movies: list, all_scenes: list) -> None:
+    """Merges new batch records with existing history in catalog.json (without raw float vectors)."""
     root_cat = BASE_DIR / "catalog.json"
     existing_movies = []
     existing_scenes = []
@@ -301,10 +591,9 @@ def update_catalog_json(all_movies, all_scenes):
     scene_dict = {s["scene_id"]: s for s in existing_scenes}
     for s in all_scenes:
         s_copy = dict(s)
-        if "clip_path" in s_copy:
-            s_copy["clip_path"] = str(s_copy["clip_path"])
-        if "thumb_path" in s_copy:
-            s_copy["thumb_path"] = str(s_copy["thumb_path"])
+        s_copy.pop("clip_embedding", None)
+        s_copy.pop("clip_path", None)
+        s_copy.pop("thumb_path", None)
         scene_dict[s["scene_id"]] = s_copy
 
     combined_movies = list(movie_dict.values())
@@ -334,7 +623,7 @@ def update_catalog_json(all_movies, all_scenes):
 def main():
     ffmpeg_exe = get_ffmpeg()
     movie_pool = fetch_random_archive_candidates(candidate_count=20)
-    
+
     print("=" * 65)
     print(f"🎬 TARGET GOAL: Extract Scenes for {NUM_MOVIES} Film(s)")
     print(f"📋 Candidate Pool Size: {len(movie_pool)} films")
@@ -355,30 +644,31 @@ def main():
             stream_url = movie["video_url"]
             random_start_sec = random.randint(300, 1800)
             start_time_str = f"{random_start_sec // 3600:02d}:{(random_start_sec % 3600) // 60:02d}:{random_start_sec % 60:02d}"
-            
-            print(f"  🌐 Slicing 15-minute sample stream starting at {start_time_str}...")
+
+            print(f"  🌐 Fast stream-copy slicing 15-minute sample starting at {start_time_str}...")
             t0 = time.time()
 
+            # Single-pass stream copy (-c copy) preserves master quality and avoids double-encoding
             cmd = [
                 ffmpeg_exe, "-y",
                 "-headers", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n",
                 "-ss", start_time_str,
                 "-i", stream_url,
                 "-t", "00:15:00",
-                "-c:v", "libx264", "-preset", "ultrafast", "-crf", "26",
-                "-c:a", "aac",
+                "-c", "copy",
+                "-avoid_negative_ts", "make_zero",
                 str(sample_file)
             ]
-            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=240)
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=180)
 
             if res.returncode != 0 or not sample_file.exists() or sample_file.stat().st_size < 100000:
-                print("  [!] Direct FFmpeg stream slice dropped. Using HTTP chunk fallback...")
+                print("  [!] Direct FFmpeg stream copy dropped. Using HTTP chunk fallback...")
                 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
                 with requests.get(stream_url, headers=headers, stream=True, timeout=30) as r:
                     r.raise_for_status()
                     downloaded = 0
                     with open(sample_file, "wb") as f:
-                        for chunk in r.iter_content(chunk_size=1024*1024):
+                        for chunk in r.iter_content(chunk_size=1024 * 1024):
                             if chunk:
                                 f.write(chunk)
                             downloaded += len(chunk)
@@ -389,7 +679,7 @@ def main():
                 print(f"  [!] Failed to cache video sample for '{movie['title']}'. Moving on...")
                 continue
 
-            print(f"  [✓] Sample cached in {time.time()-t0:.1f}s ({sample_file.stat().st_size / (1024*1024):.1f} MB)")
+            print(f"  [✓] Sample cached in {time.time() - t0:.1f}s ({sample_file.stat().st_size / (1024 * 1024):.1f} MB)")
 
             from scenedetect import open_video, SceneManager, AdaptiveDetector
             print("  🔍 Detecting scene boundaries...")
@@ -401,16 +691,26 @@ def main():
             del video
             gc.collect()
 
-            valid = [(st, en, (en - st).seconds) for st, en in scene_list if MIN_CLIP_LEN <= (en - st).seconds <= MAX_CLIP_LEN]
+            scored_scenes = [
+                (st, en, en.get_seconds() - st.get_seconds())
+                for st, en in scene_list
+            ]
+            valid = [
+                (st, en, dur) for st, en, dur in scored_scenes
+                if MIN_CLIP_LEN <= dur <= MAX_CLIP_LEN
+            ]
             if len(valid) < CLIPS_PER_MOVIE:
-                valid = [(st, en, (en - st).seconds) for st, en in scene_list[:CLIPS_PER_MOVIE]]
+                valid = [
+                    (st, en, dur) for st, en, dur in scored_scenes
+                    if dur >= 3.0
+                ][:CLIPS_PER_MOVIE]
 
             if not valid:
                 print(f"  [!] No valid scene cuts detected for '{movie['title']}'. Skipping...")
                 continue
 
             chosen = random.sample(valid, min(CLIPS_PER_MOVIE, len(valid)))
-            chosen.sort(key=lambda s: s[0].seconds)
+            chosen.sort(key=lambda s: s[0].get_seconds())
 
             movie_scenes = []
             for idx, (st, en, dur) in enumerate(chosen, 1):
@@ -433,7 +733,7 @@ def main():
                 ]
                 subprocess.run(transcode_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=120)
 
-                mid_sec = (st.seconds + en.seconds) / 2.0
+                mid_sec = (st.get_seconds() + en.get_seconds()) / 2.0
                 thumb_cmd = [
                     ffmpeg_exe, "-y",
                     "-ss", f"{mid_sec:.3f}",
@@ -443,12 +743,22 @@ def main():
                 ]
                 subprocess.run(thumb_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=60)
 
-                meta = analyze_multimodal(clip_path, movie, idx, dur)
+                meta = analyze_multimodal(clip_path, thumb_path, movie, idx, dur)
 
-                abs_start = random_start_sec + st.seconds
-                abs_end = random_start_sec + en.seconds
-                abs_tc_start = f"{int(abs_start)//3600:02d}:{(int(abs_start)%3600)//60:02d}:{int(abs_start)%60:02d}"
-                abs_tc_end = f"{int(abs_end)//3600:02d}:{(int(abs_end)%3600)//60:02d}:{int(abs_end)%60:02d}"
+                # Offload binaries to Cloudflare R2 or GitHub Releases to prevent Git bloat
+                download_url, clip_offloaded = offload_media_file(
+                    clip_path, "clips", "video/mp4", f"./output/{clip_name}"
+                )
+                thumbnail_url, thumb_offloaded = offload_media_file(
+                    thumb_path, "thumbs", "image/jpeg", f"./output/{thumb_name}"
+                )
+                if clip_offloaded:
+                    print(f"    ☁️ Offloaded clip -> {download_url}")
+
+                abs_start = random_start_sec + st.get_seconds()
+                abs_end = random_start_sec + en.get_seconds()
+                abs_tc_start = f"{int(abs_start) // 3600:02d}:{(int(abs_start) % 3600) // 60:02d}:{int(abs_start) % 60:02d}"
+                abs_tc_end = f"{int(abs_end) // 3600:02d}:{(int(abs_end) % 3600) // 60:02d}:{int(abs_end) % 60:02d}"
 
                 scene_record = {
                     "scene_id": f"{movie['archive_id']}_scene_{idx}",
@@ -461,8 +771,8 @@ def main():
                     "duration_seconds": dur,
                     "video_filename": clip_name,
                     "keyframe_filename": thumb_name,
-                    "clip_path": clip_path,
-                    "thumb_path": thumb_path,
+                    "download_url": download_url,
+                    "thumbnail_url": thumbnail_url,
                     **meta
                 }
                 movie_scenes.append(scene_record)
