@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-15T18:51:12.165438+00:00",
-  "total_movies": 96,
-  "total_scenes": 434,
-  "genre": "film noir",
-  "source": "Internet Archive",
+  "updated_at": "2026-11-15T20:09:56.898666+00:00",
+  "total_movies": 105,
+  "total_scenes": 479,
+  "genre": "sci-fi",
+  "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
@@ -965,6 +965,96 @@
       "video_url": "https://archive.org/download/TooLateForTears1949/Too Late for Tears (1949).mp4",
       "license": "Open Archive",
       "description": "Movie. Public Domain. Film Noir"
+    },
+    {
+      "title": "The Day the Earth Caught Fire",
+      "year": 1961,
+      "director": "Val Guest",
+      "archive_id": "the-day-the-earth-caught-fire",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/the-day-the-earth-caught-fire/The Day the Earth Caught Fire.mp4",
+      "license": "Open Archive",
+      "description": "When the U.S. and Russia unwittingly test atomic bombs at the same time, it alters the nutation (axis of rotation) of the Earth."
+    },
+    {
+      "title": "The Lady and the Monster",
+      "year": 1950,
+      "director": "George Sherman",
+      "archive_id": "theladyandthemonster",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/theladyandthemonster/The Lady and the Monster.mp4",
+      "license": "Open Archive",
+      "description": "\u201cAn entertaining \u201840s thriller\u201d \u201cUnfortunately titled, but it is a good film\u201d \u201cNot a bad little sci-fi thriller\u201d (IMDB reviews quotes). A malevolent millionaire\u2019s brain is kept alive after his death. Which is fine and dandy until the brain starts controlling people. Good production values and a good cast -- that is with the exception of Vera Ralston. Remade in 1953 as \u201cDonovan\u2019s Brain\u201d and in 1962 as \u201cThe Brain.\u201d Save this sci-fi/horror for a dull Friday night when there is nothing happening on the cocktail party circuit. IMDB rating 5.6. Produced and directed by George Sherman. Released in 1944. Complete print AKA \u201cThe Lady and the Doctor\u201d (UK). TRIVIA: Longtime Republic director George Sherman quit Republic so he wouldn\u2019t have to direct Vera Ralston again. True story."
+    },
+    {
+      "title": "Invisible Agent",
+      "year": 1942,
+      "director": "Edwin L. Marin",
+      "archive_id": "invisible-agent_202106",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/invisible-agent_202106/Invisible Agent.mp4",
+      "license": "Open Archive",
+      "description": "Frank Raymond, grandson of the original Invisible Man, still has the old formula but considers it too dangerous to use, even when Axis agents try to get it. But Pearl Harbor brings him to volunteer his own services as an invisible agent in Germany.\u00a0"
+    },
+    {
+      "title": "Creatures The World Forgot",
+      "year": 1971,
+      "director": "Don Chaffey",
+      "archive_id": "creatures-the-world-forgot",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/creatures-the-world-forgot/Creatures the World Forgot.mp4",
+      "license": "Open Archive",
+      "description": "In prehistoric times, two brothers fight each other for the leadership of their tribe."
+    },
+    {
+      "title": "Reptillicus",
+      "year": 1961,
+      "director": "Poul Bang, Ray Harryhausen",
+      "archive_id": "Reptillicus",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Reptillicus/Reptillicus.mp4",
+      "license": "Open Archive",
+      "description": "After copper miners discover part of the frozen tail of a prehistoric monster in Lapland, scientists inadvertently bring it back to life."
+    },
+    {
+      "title": "The Wizard of Mars",
+      "year": 1965,
+      "director": "American General Pictures",
+      "archive_id": "WizardOfMars",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/WizardOfMars/TheWizardOfMars1965.mp4",
+      "license": "Open Archive",
+      "description": "Title: The Wizard of Mars Summary: In 1975, four astronauts, Dorothy, Doc, Charlie, and Steve, crash land on Mars when taking readings, with only four days of supplies. They must try to survive on the surface, which is ... Directed by: David L. Hewitt Actors: Production Company: American General Pictures Release Date: 1 January 1965 (USA) Aspect Ratio: REMOVE_TAG In 1975, four astronauts, Dorothy, Doc, Charlie, and Steve, crash land on Mars when taking readings, with only four days of supplies. They must try to survive on the surface, which is barren except for some canals with huge maggots with fins. After embarking through a golden igneous cavern, braving a storm and finding an unmanned Earth vessel, they discover a golden road which leads them to the unchanging ruins of what was once a beautiful Martian city. The Martians are modeled on the Flatheads of Oz, and their collective consciousness, the \"Wizard,\" forbids them to leave until they perform a very small task."
+    },
+    {
+      "title": "The Gamma People",
+      "year": 1950,
+      "director": "John W Gossage",
+      "archive_id": "thegammapeople",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/thegammapeople/The Gamma People.mp4",
+      "license": "Open Archive",
+      "description": "\u201cOne of a kind\u201d \u201cA head shaker and a mind melter\u201d \u201cWhat did I just see?\u201d (IMDB reviews quotes). Off-the-wall British science fiction that\u2019s a strange mix of mystery, social commentary, the red scare and comedy. The real mystery is how Paul Douglas was roped into staring. Well maybe he wanted a free trip to Austria. The supporting cast and production values are good enough to make this curiosity worth watching for dedicated \u201850s sci-fi fans. IMDB rating 5.3. Directed by John Gilling. Released in 1956. Complete print."
+    },
+    {
+      "title": "Fiend Without a Face",
+      "year": 1958,
+      "director": "Producers Associates",
+      "archive_id": "FriendWithoutAFace104",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/FriendWithoutAFace104/FiendWithoutAFace1958.mp4",
+      "license": "Open Archive",
+      "description": "Title: Fiend Without a Face Summary: Invisible atomic monsters attack a U.S. Armed Forces base and the local residents. Directed by: Arthur Crabtree Actors: Marshall Thompson, Terry Kilburn, Kynaston Reeves Production Company: Producers Associates Release Date: December 1958 (UK) Aspect Ratio: 1.66 : 1 A Scientist, experimenting with telekinetic powers enhanced by a nearby nuclear power plant succeeds in creating a new form of life. This new creature grows in intelligence until it finally escapes his laboratory. Once outside the lab, and closer to its nuclear power source it multiplies. The creature is also invisible, so no one knows what it looks like..."
+    },
+    {
+      "title": "Ghost Walks - Weirdness Bad Movie",
+      "year": 1950,
+      "director": "reallybadmovie@rocketmail.com",
+      "archive_id": "GhostWalks-WeirdnessBadMovie",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/GhostWalks-WeirdnessBadMovie/WRBM_Ghost Walkls_WS_AF_fixed.ia.mp4",
+      "license": "Open Archive",
+      "description": "Public Access TV show \"Weirdness Really Bad Movie\" hosts public domain movies and ads clean comedy sketches enjoyable for the whole family. Today's film is 1934 film \"The Ghost Walks\""
     }
   ],
   "scenes": [
@@ -12701,6 +12791,1356 @@
         "femme fatale",
         "interrogation / standoff",
         "cigarette smoke",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "the-day-the-earth-caught-fire_scene_1",
+      "movie_id": "the-day-the-earth-caught-fire",
+      "scene_number": 1,
+      "start_timecode": "00:24:42",
+      "end_timecode": "00:25:05",
+      "start_seconds": 1482.690691,
+      "end_seconds": 1505.313313,
+      "duration_seconds": 22.62262199999998,
+      "video_filename": "the-day-the-earth-caught-fire_scene_1_22s_1080p.mp4",
+      "keyframe_filename": "the-day-the-earth-caught-fire_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-day-the-earth-caught-fire_scene_1_22s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-day-the-earth-caught-fire_scene_1_thumb.jpg",
+      "transcription": "Right, let's go. Go away. I don't want to go on your way. Please, please, you'll get your roll back in the dozen free. Take your ten minutes. I don't care to think as damn about this eclipse of the sun as such. The evening papers will train it. It'll be dead by tomorrow morning. But what I do care about is why there's been an eclipse of the sun ten days before it was due. Bill, this is your department. I don't know why everybody regards me as Nostradamus. Your guess is as good as mine.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Day the Earth Caught Fire' (1961), dialogue centers on \"Right, let's go. Go away. I don't want to go on your way. Please, please, you'll get your roll back in the dozen free. Take your ten...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "the-day-the-earth-caught-fire_scene_2",
+      "movie_id": "the-day-the-earth-caught-fire",
+      "scene_number": 2,
+      "start_timecode": "00:27:28",
+      "end_timecode": "00:28:07",
+      "start_seconds": 1648.056056,
+      "end_seconds": 1687.7957959999999,
+      "duration_seconds": 39.73973999999998,
+      "video_filename": "the-day-the-earth-caught-fire_scene_2_39s_1080p.mp4",
+      "keyframe_filename": "the-day-the-earth-caught-fire_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-day-the-earth-caught-fire_scene_2_39s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-day-the-earth-caught-fire_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, low-key chiaroscuro.",
+      "synopsis": "An atmospheric 40-second sequence from 'The Day the Earth Caught Fire' (1961) driven by dutch angle framing, low-key chiaroscuro and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "low-key chiaroscuro",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "low-key chiaroscuro",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-day-the-earth-caught-fire_scene_3",
+      "movie_id": "the-day-the-earth-caught-fire",
+      "scene_number": 3,
+      "start_timecode": "00:29:07",
+      "end_timecode": "00:29:25",
+      "start_seconds": 1747.655656,
+      "end_seconds": 1765.773774,
+      "duration_seconds": 18.11811799999998,
+      "video_filename": "the-day-the-earth-caught-fire_scene_3_18s_1080p.mp4",
+      "keyframe_filename": "the-day-the-earth-caught-fire_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-day-the-earth-caught-fire_scene_3_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-day-the-earth-caught-fire_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, low-key chiaroscuro.",
+      "synopsis": "An atmospheric 18-second sequence from 'The Day the Earth Caught Fire' (1961) driven by interrogation / standoff, low-key chiaroscuro and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "low-key chiaroscuro",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "low-key chiaroscuro",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-day-the-earth-caught-fire_scene_4",
+      "movie_id": "the-day-the-earth-caught-fire",
+      "scene_number": 4,
+      "start_timecode": "00:29:25",
+      "end_timecode": "00:29:44",
+      "start_seconds": 1765.773774,
+      "end_seconds": 1784.192192,
+      "duration_seconds": 18.418417999999974,
+      "video_filename": "the-day-the-earth-caught-fire_scene_4_18s_1080p.mp4",
+      "keyframe_filename": "the-day-the-earth-caught-fire_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-day-the-earth-caught-fire_scene_4_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-day-the-earth-caught-fire_scene_4_thumb.jpg",
+      "transcription": "How are you? Let's go in again. I wish we had time, Mike. You shouldn't take him into that place, Mr. Standing. It makes him dream. We'll have to go back now. No, I'm going to stand here forever. I'm going to live here. Don't be silly. No, you better go now, Mike. It's almost one o'clock.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Day the Earth Caught Fire' (1961), dialogue centers on \"How are you? Let's go in again. I wish we had time, Mike. You shouldn't take him into that place, Mr. Standing. It makes him dream....\" framed against dutch angle framing, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "femme fatale",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-day-the-earth-caught-fire_scene_5",
+      "movie_id": "the-day-the-earth-caught-fire",
+      "scene_number": 5,
+      "start_timecode": "00:34:38",
+      "end_timecode": "00:34:54",
+      "start_seconds": 2078.586587,
+      "end_seconds": 2094.93627,
+      "duration_seconds": 16.349683000000027,
+      "video_filename": "the-day-the-earth-caught-fire_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "the-day-the-earth-caught-fire_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-day-the-earth-caught-fire_scene_5_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-day-the-earth-caught-fire_scene_5_thumb.jpg",
+      "transcription": "Not my friend. I just worked for him now. I'm gonna turn down all his passes. He's harmless Nobody's harmless not if they're normal and you're normal so far There's very few of us normals left you. We should always be nice to us. It's a tomorrow girl. Mm-hmm your child",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'The Day the Earth Caught Fire' (1961), dialogue centers on \"Not my friend. I just worked for him now. I'm gonna turn down all his passes. He's harmless Nobody's harmless not if they're normal and...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "theladyandthemonster_scene_1",
+      "movie_id": "theladyandthemonster",
+      "scene_number": 1,
+      "start_timecode": "00:29:46",
+      "end_timecode": "00:30:11",
+      "start_seconds": 1786.7597,
+      "end_seconds": 1811.8848,
+      "duration_seconds": 25.125099999999996,
+      "video_filename": "theladyandthemonster_scene_1_25s_1080p.mp4",
+      "keyframe_filename": "theladyandthemonster_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/theladyandthemonster_scene_1_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/theladyandthemonster_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, low-key chiaroscuro.",
+      "synopsis": "An atmospheric 25-second sequence from 'The Lady and the Monster' (1950) driven by femme fatale, low-key chiaroscuro and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "low-key chiaroscuro",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "low-key chiaroscuro",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "theladyandthemonster_scene_2",
+      "movie_id": "theladyandthemonster",
+      "scene_number": 2,
+      "start_timecode": "00:31:56",
+      "end_timecode": "00:32:35",
+      "start_seconds": 1916.8897,
+      "end_seconds": 1955.7285,
+      "duration_seconds": 38.83879999999999,
+      "video_filename": "theladyandthemonster_scene_2_38s_1080p.mp4",
+      "keyframe_filename": "theladyandthemonster_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/theladyandthemonster_scene_2_38s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/theladyandthemonster_scene_2_thumb.jpg",
+      "transcription": "Good night, Janice. Were you in the house? I was in the professor's laboratory. Well, what did you find out? Proof. They've stolen the brain. I'm going to call the police. Oh, no, dear. That would be stupid. Stupid, but what do you expect me to do? I expect you to remember what the rest of the world doesn't know yet. That the fabulously wealthy William H. Donovan left you without a dime. But you were so sure that there was money hidden.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'The Lady and the Monster' (1950), dialogue centers on \"Good night, Janice. Were you in the house? I was in the professor's laboratory. Well, what did you find out? Proof. They've stolen the...\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "theladyandthemonster_scene_3",
+      "movie_id": "theladyandthemonster",
+      "scene_number": 3,
+      "start_timecode": "00:38:17",
+      "end_timecode": "00:38:32",
+      "start_seconds": 2297.3698,
+      "end_seconds": 2312.585,
+      "duration_seconds": 15.215199999999982,
+      "video_filename": "theladyandthemonster_scene_3_15s_1080p.mp4",
+      "keyframe_filename": "theladyandthemonster_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/theladyandthemonster_scene_3_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/theladyandthemonster_scene_3_thumb.jpg",
+      "transcription": "he was being driven on by something stronger than himself. Night after night he would stay on the laboratory, long after Moller had retired. Finally, he moved a cart into the womb, so that he might remain constantly near the experiment.",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by nightclub / jazz bar, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Lady and the Monster' (1950), dialogue centers on \"he was being driven on by something stronger than himself. Night after night he would stay on the laboratory, long after Moller had...\" framed against nightclub / jazz bar, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "femme fatale",
+        "low-key chiaroscuro"
+      ],
+      "tags": [
+        "sci-fi",
+        "nightclub / jazz bar",
+        "femme fatale",
+        "low-key chiaroscuro",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "theladyandthemonster_scene_4",
+      "movie_id": "theladyandthemonster",
+      "scene_number": 4,
+      "start_timecode": "00:39:44",
+      "end_timecode": "00:40:18",
+      "start_seconds": 2384.7571,
+      "end_seconds": 2418.8912,
+      "duration_seconds": 34.13409999999999,
+      "video_filename": "theladyandthemonster_scene_4_34s_1080p.mp4",
+      "keyframe_filename": "theladyandthemonster_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/theladyandthemonster_scene_4_34s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/theladyandthemonster_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by nightclub / jazz bar, low-key chiaroscuro.",
+      "synopsis": "An atmospheric 34-second sequence from 'The Lady and the Monster' (1950) driven by nightclub / jazz bar, low-key chiaroscuro and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "low-key chiaroscuro",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "nightclub / jazz bar",
+        "low-key chiaroscuro",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "theladyandthemonster_scene_5",
+      "movie_id": "theladyandthemonster",
+      "scene_number": 5,
+      "start_timecode": "00:42:58",
+      "end_timecode": "00:43:15",
+      "start_seconds": 2578.7509,
+      "end_seconds": 2595.1673,
+      "duration_seconds": 16.416399999999953,
+      "video_filename": "theladyandthemonster_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "theladyandthemonster_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/theladyandthemonster_scene_5_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/theladyandthemonster_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by low-key chiaroscuro, telephone / late-night call.",
+      "synopsis": "An atmospheric 16-second sequence from 'The Lady and the Monster' (1950) driven by low-key chiaroscuro, telephone / late-night call and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "low-key chiaroscuro",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "low-key chiaroscuro",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "invisible-agent_202106_scene_1",
+      "movie_id": "invisible-agent_202106",
+      "scene_number": 1,
+      "start_timecode": "00:21:37",
+      "end_timecode": "00:23:24",
+      "start_seconds": 1297.0,
+      "end_seconds": 1404.107107,
+      "duration_seconds": 107.107107,
+      "video_filename": "invisible-agent_202106_scene_1_107s_1080p.mp4",
+      "keyframe_filename": "invisible-agent_202106_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/invisible-agent_202106_scene_1_107s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/invisible-agent_202106_scene_1_thumb.jpg",
+      "transcription": "Excellent. You work fast, don't you? I'm sure you'll find a gentleman extremely interesting. Oh, bath and a tenderloin steak. Those are the high points of a man's life. Or charming. Three people having dinner for two. Yes, three on a steak. Here he comes. Good evening, Carl. Thank you. I feel much safer with him to chaperona. You ought to forget about him, Maria. Oh, God. Missions like his take time. Sometimes... He never told me why he left. Oh, he never told anyone. He has his own ideas. And that's dangerous. The photo doesn't bite people who...",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a melancholic exchange from 'Invisible Agent' (1942), dialogue centers on \"Excellent. You work fast, don't you? I'm sure you'll find a gentleman extremely interesting. Oh, bath and a tenderloin steak. Those are...\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "telephone / late-night call",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "invisible-agent_202106_scene_2",
+      "movie_id": "invisible-agent_202106",
+      "scene_number": 2,
+      "start_timecode": "00:23:25",
+      "end_timecode": "00:24:37",
+      "start_seconds": 1405.108108,
+      "end_seconds": 1477.18018,
+      "duration_seconds": 72.072072,
+      "video_filename": "invisible-agent_202106_scene_2_72s_1080p.mp4",
+      "keyframe_filename": "invisible-agent_202106_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/invisible-agent_202106_scene_2_72s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/invisible-agent_202106_scene_2_thumb.jpg",
+      "transcription": "It will be satisfied with what my cook has taught. Think nothing of it. I brought a little snack from my meager actions. 1929. Foul from Denmark. Wishes. Uncle feeds us. And these are just a few of the good things we'll go to get. Slaves working for us everywhere.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Invisible Agent' (1942), dialogue centers on \"It will be satisfied with what my cook has taught. Think nothing of it. I brought a little snack from my meager actions. 1929. Foul from...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "invisible-agent_202106_scene_3",
+      "movie_id": "invisible-agent_202106",
+      "scene_number": 3,
+      "start_timecode": "00:24:37",
+      "end_timecode": "00:26:05",
+      "start_seconds": 1477.18018,
+      "end_seconds": 1565.6686690000001,
+      "duration_seconds": 88.48848900000002,
+      "video_filename": "invisible-agent_202106_scene_3_88s_1080p.mp4",
+      "keyframe_filename": "invisible-agent_202106_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/invisible-agent_202106_scene_3_88s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/invisible-agent_202106_scene_3_thumb.jpg",
+      "transcription": "Now we sit back with a fork in our hands and a whip on our knees. Strange, very strange. Sorry, Carl. I couldn't wait. More champagne fleas. Of course. Let's drink to the golden age of a German Reich. So the people who are bound to win the war. Prose it. You like him. Who? Your new bodyguard. Why Carl? I never realized I was in danger. Give it to four women.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, nightclub / jazz bar.",
+      "synopsis": "In a melancholic exchange from 'Invisible Agent' (1942), dialogue centers on \"Now we sit back with a fork in our hands and a whip on our knees. Strange, very strange. Sorry, Carl. I couldn't wait. More champagne...\" framed against femme fatale, nightclub / jazz bar.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "invisible-agent_202106_scene_4",
+      "movie_id": "invisible-agent_202106",
+      "scene_number": 4,
+      "start_timecode": "00:26:05",
+      "end_timecode": "00:26:31",
+      "start_seconds": 1565.6686690000001,
+      "end_seconds": 1591.394394,
+      "duration_seconds": 25.725724999999954,
+      "video_filename": "invisible-agent_202106_scene_4_25s_1080p.mp4",
+      "keyframe_filename": "invisible-agent_202106_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/invisible-agent_202106_scene_4_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/invisible-agent_202106_scene_4_thumb.jpg",
+      "transcription": "Always. Shelby. Yes. Eat. Forgot the jam. No. Let's see. When did I put that? Apple. Here it is.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Invisible Agent' (1942), dialogue centers on \"Always. Shelby. Yes. Eat. Forgot the jam. No. Let's see. When did I put that? Apple. Here it is.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "invisible-agent_202106_scene_5",
+      "movie_id": "invisible-agent_202106",
+      "scene_number": 5,
+      "start_timecode": "00:26:31",
+      "end_timecode": "00:27:34",
+      "start_seconds": 1591.394394,
+      "end_seconds": 1654.957958,
+      "duration_seconds": 63.56356400000004,
+      "video_filename": "invisible-agent_202106_scene_5_63s_1080p.mp4",
+      "keyframe_filename": "invisible-agent_202106_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/invisible-agent_202106_scene_5_63s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/invisible-agent_202106_scene_5_thumb.jpg",
+      "transcription": "especially prepared for me, gooseberry, place it over there, and uh, I don't want to be disturbed under any circumstances. I'll hit her, uh, that's strange. Oh, you have put some chicken on my plate. Maybe you have eaten it already? Oh, have I? I really mustn't eat so fast. I'll give you some more. It really looks delicious. Yes, and some potatoes, enough for a while. I'm overworked. A three-hour conference with a furah nearly killed me. Not car. Don't tell me the furah conferred with you personally. Of course he did. If you'd said the other conference was gurring or ribbon drop, I might believe you. But not. But I tell you the furah caught me in himself. Just before-",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Invisible Agent' (1942), dialogue centers on \"especially prepared for me, gooseberry, place it over there, and uh, I don't want to be disturbed under any circumstances. I'll hit her,...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "creatures-the-world-forgot_scene_1",
+      "movie_id": "creatures-the-world-forgot",
+      "scene_number": 1,
+      "start_timecode": "00:25:17",
+      "end_timecode": "00:25:34",
+      "start_seconds": 1517.608609,
+      "end_seconds": 1534.425425,
+      "duration_seconds": 16.816816000000003,
+      "video_filename": "creatures-the-world-forgot_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "creatures-the-world-forgot_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/creatures-the-world-forgot_scene_1_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/creatures-the-world-forgot_scene_1_thumb.jpg",
+      "transcription": "No",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, fedora & trenchcoat.",
+      "synopsis": "In a tense / suspense exchange from 'Creatures The World Forgot' (1971), dialogue centers on \"No\" framed against dutch angle framing, fedora & trenchcoat.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "creatures-the-world-forgot_scene_2",
+      "movie_id": "creatures-the-world-forgot",
+      "scene_number": 2,
+      "start_timecode": "00:26:51",
+      "end_timecode": "00:27:14",
+      "start_seconds": 1611.702703,
+      "end_seconds": 1634.725726,
+      "duration_seconds": 23.023022999999995,
+      "video_filename": "creatures-the-world-forgot_scene_2_23s_1080p.mp4",
+      "keyframe_filename": "creatures-the-world-forgot_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/creatures-the-world-forgot_scene_2_23s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/creatures-the-world-forgot_scene_2_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, dutch angle framing.",
+      "synopsis": "In a tense / suspense exchange from 'Creatures The World Forgot' (1971), dialogue centers on \"You\" framed against interrogation / standoff, dutch angle framing.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "dutch angle framing",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "creatures-the-world-forgot_scene_3",
+      "movie_id": "creatures-the-world-forgot",
+      "scene_number": 3,
+      "start_timecode": "00:29:53",
+      "end_timecode": "00:30:08",
+      "start_seconds": 1793.984985,
+      "end_seconds": 1808.299299,
+      "duration_seconds": 14.314314000000024,
+      "video_filename": "creatures-the-world-forgot_scene_3_14s_1080p.mp4",
+      "keyframe_filename": "creatures-the-world-forgot_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/creatures-the-world-forgot_scene_3_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/creatures-the-world-forgot_scene_3_thumb.jpg",
+      "transcription": "Raffy, Raffy, Raffy",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by fedora & trenchcoat, telephone / late-night call.",
+      "synopsis": "In a paranoid exchange from 'Creatures The World Forgot' (1971), dialogue centers on \"Raffy, Raffy, Raffy\" framed against fedora & trenchcoat, telephone / late-night call.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "cigarette smoke",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "creatures-the-world-forgot_scene_4",
+      "movie_id": "creatures-the-world-forgot",
+      "scene_number": 4,
+      "start_timecode": "00:32:29",
+      "end_timecode": "00:32:47",
+      "start_seconds": 1949.14014,
+      "end_seconds": 1967.858859,
+      "duration_seconds": 18.71871900000002,
+      "video_filename": "creatures-the-world-forgot_scene_4_18s_1080p.mp4",
+      "keyframe_filename": "creatures-the-world-forgot_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/creatures-the-world-forgot_scene_4_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/creatures-the-world-forgot_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "An atmospheric 19-second sequence from 'Creatures The World Forgot' (1971) driven by interrogation / standoff, femme fatale and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "creatures-the-world-forgot_scene_5",
+      "movie_id": "creatures-the-world-forgot",
+      "scene_number": 5,
+      "start_timecode": "00:33:33",
+      "end_timecode": "00:33:49",
+      "start_seconds": 2013.004004,
+      "end_seconds": 2029.02002,
+      "duration_seconds": 16.016016000000036,
+      "video_filename": "creatures-the-world-forgot_scene_5_16s_1080p.mp4",
+      "keyframe_filename": "creatures-the-world-forgot_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/creatures-the-world-forgot_scene_5_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/creatures-the-world-forgot_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by nightclub / jazz bar, interrogation / standoff.",
+      "synopsis": "An atmospheric 16-second sequence from 'Creatures The World Forgot' (1971) driven by nightclub / jazz bar, interrogation / standoff and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "femme fatale",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "Reptillicus_scene_1",
+      "movie_id": "Reptillicus",
+      "scene_number": 1,
+      "start_timecode": "00:31:26",
+      "end_timecode": "00:31:38",
+      "start_seconds": 1886.193193,
+      "end_seconds": 1898.805806,
+      "duration_seconds": 12.61261300000001,
+      "video_filename": "Reptillicus_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "Reptillicus_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Reptillicus_scene_1_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Reptillicus_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 13-second sequence from 'Reptillicus' (1961) driven by telephone / late-night call, fedora & trenchcoat and a paranoid tone.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "Reptillicus_scene_2",
+      "movie_id": "Reptillicus",
+      "scene_number": 2,
+      "start_timecode": "00:34:31",
+      "end_timecode": "00:35:12",
+      "start_seconds": 2071.478478,
+      "end_seconds": 2112.81982,
+      "duration_seconds": 41.341342,
+      "video_filename": "Reptillicus_scene_2_41s_1080p.mp4",
+      "keyframe_filename": "Reptillicus_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Reptillicus_scene_2_41s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Reptillicus_scene_2_thumb.jpg",
+      "transcription": "Oh, now see what you've done. I'm sorry. What's all this about, Peterson? What happened? The electricity went out all over. All over? Yeah, even the electric eel. Then what? Then it was so dark I couldn't see my own face in front of me. I wish I could be that lucky, Mr. Peterson. And what happened then? There was only a big hole left. The monster is loose! Yeah, sure, sure, sure, sure. Why don't you go and tell Dr. Dalby about it? I can't! He said be here to tell you! Why sure? Yeah!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Reptillicus' (1961), dialogue centers on \"Oh, now see what you've done. I'm sorry. What's all this about, Peterson? What happened? The electricity went out all over. All over?...\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "Reptillicus_scene_3",
+      "movie_id": "Reptillicus",
+      "scene_number": 3,
+      "start_timecode": "00:36:57",
+      "end_timecode": "00:37:13",
+      "start_seconds": 2217.024024,
+      "end_seconds": 2233.840841,
+      "duration_seconds": 16.816817000000015,
+      "video_filename": "Reptillicus_scene_3_16s_1080p.mp4",
+      "keyframe_filename": "Reptillicus_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Reptillicus_scene_3_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Reptillicus_scene_3_thumb.jpg",
+      "transcription": "Area F, K10, position, D, sector, out.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a tense / suspense exchange from 'Reptillicus' (1961), dialogue centers on \"Area F, K10, position, D, sector, out.\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "Reptillicus_scene_4",
+      "movie_id": "Reptillicus",
+      "scene_number": 4,
+      "start_timecode": "00:39:14",
+      "end_timecode": "00:39:26",
+      "start_seconds": 2354.461461,
+      "end_seconds": 2366.673674,
+      "duration_seconds": 12.21221300000002,
+      "video_filename": "Reptillicus_scene_4_12s_1080p.mp4",
+      "keyframe_filename": "Reptillicus_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Reptillicus_scene_4_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Reptillicus_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 12-second sequence from 'Reptillicus' (1961) driven by dutch angle framing, fedora & trenchcoat and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "Reptillicus_scene_5",
+      "movie_id": "Reptillicus",
+      "scene_number": 5,
+      "start_timecode": "00:43:24",
+      "end_timecode": "00:43:36",
+      "start_seconds": 2604.7117120000003,
+      "end_seconds": 2616.723724,
+      "duration_seconds": 12.012011999999913,
+      "video_filename": "Reptillicus_scene_5_12s_1080p.mp4",
+      "keyframe_filename": "Reptillicus_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Reptillicus_scene_5_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Reptillicus_scene_5_thumb.jpg",
+      "transcription": "We beat him down here. He can't be far away. Are you sure this is where he'd come out? Yes, he kept on going toward the beach.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, fedora & trenchcoat.",
+      "synopsis": "In a tense / suspense exchange from 'Reptillicus' (1961), dialogue centers on \"We beat him down here. He can't be far away. Are you sure this is where he'd come out? Yes, he kept on going toward the beach.\" framed against dutch angle framing, fedora & trenchcoat.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "WizardOfMars_scene_1",
+      "movie_id": "WizardOfMars",
+      "scene_number": 1,
+      "start_timecode": "00:30:52",
+      "end_timecode": "00:31:15",
+      "start_seconds": 1852.0,
+      "end_seconds": 1875.7,
+      "duration_seconds": 23.700000000000003,
+      "video_filename": "WizardOfMars_scene_1_23s_1080p.mp4",
+      "keyframe_filename": "WizardOfMars_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WizardOfMars_scene_1_23s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WizardOfMars_scene_1_thumb.jpg",
+      "transcription": "Let's go! You think you can get any kind of a bearing force, Charlie? My map certainly didn't show anything like this. Which way, now? Well, that way, if we can get through this.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, cigarette smoke.",
+      "synopsis": "In a tense / suspense exchange from 'The Wizard of Mars' (1965), dialogue centers on \"Let's go! You think you can get any kind of a bearing force, Charlie? My map certainly didn't show anything like this. Which way, now?...\" framed against interrogation / standoff, cigarette smoke.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "cigarette smoke",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "dutch angle framing",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "WizardOfMars_scene_2",
+      "movie_id": "WizardOfMars",
+      "scene_number": 2,
+      "start_timecode": "00:31:15",
+      "end_timecode": "00:31:40",
+      "start_seconds": 1875.7,
+      "end_seconds": 1900.9,
+      "duration_seconds": 25.200000000000003,
+      "video_filename": "WizardOfMars_scene_2_25s_1080p.mp4",
+      "keyframe_filename": "WizardOfMars_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WizardOfMars_scene_2_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WizardOfMars_scene_2_thumb.jpg",
+      "transcription": "Gabe goes in quite a way telling how far or if it's all like this We all made it this far. Let's see if there's a way out of this inferno I almost wish this weren't the right direction",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, cigarette smoke.",
+      "synopsis": "In a tense / suspense exchange from 'The Wizard of Mars' (1965), dialogue centers on \"Gabe goes in quite a way telling how far or if it's all like this We all made it this far. Let's see if there's a way out of this...\" framed against interrogation / standoff, cigarette smoke.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "cigarette smoke",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "dutch angle framing",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "WizardOfMars_scene_3",
+      "movie_id": "WizardOfMars",
+      "scene_number": 3,
+      "start_timecode": "00:35:44",
+      "end_timecode": "00:35:58",
+      "start_seconds": 2144.9,
+      "end_seconds": 2158.9,
+      "duration_seconds": 14.0,
+      "video_filename": "WizardOfMars_scene_3_14s_1080p.mp4",
+      "keyframe_filename": "WizardOfMars_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WizardOfMars_scene_3_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WizardOfMars_scene_3_thumb.jpg",
+      "transcription": "crummy desert every dune looks exactly like the last like a crummy cut it cut the chair wasting oxygen what oxygen he's right Steve it's almost gone",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, dutch angle framing.",
+      "synopsis": "In a tense / suspense exchange from 'The Wizard of Mars' (1965), dialogue centers on \"crummy desert every dune looks exactly like the last like a crummy cut it cut the chair wasting oxygen what oxygen he's right Steve it's...\" framed against interrogation / standoff, dutch angle framing.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "dutch angle framing",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "cigarette smoke",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "WizardOfMars_scene_4",
+      "movie_id": "WizardOfMars",
+      "scene_number": 4,
+      "start_timecode": "00:36:41",
+      "end_timecode": "00:36:54",
+      "start_seconds": 2201.1,
+      "end_seconds": 2214.4,
+      "duration_seconds": 13.299999999999955,
+      "video_filename": "WizardOfMars_scene_4_13s_1080p.mp4",
+      "keyframe_filename": "WizardOfMars_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WizardOfMars_scene_4_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WizardOfMars_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, cigarette smoke.",
+      "synopsis": "An atmospheric 13-second sequence from 'The Wizard of Mars' (1965) driven by dutch angle framing, cigarette smoke and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "cigarette smoke",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "cigarette smoke",
+        "telephone / late-night call",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "WizardOfMars_scene_5",
+      "movie_id": "WizardOfMars",
+      "scene_number": 5,
+      "start_timecode": "00:39:27",
+      "end_timecode": "00:39:41",
+      "start_seconds": 2367.5,
+      "end_seconds": 2381.3,
+      "duration_seconds": 13.799999999999955,
+      "video_filename": "WizardOfMars_scene_5_13s_1080p.mp4",
+      "keyframe_filename": "WizardOfMars_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WizardOfMars_scene_5_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WizardOfMars_scene_5_thumb.jpg",
+      "transcription": "I feel sort of silly about well",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, interrogation / standoff.",
+      "synopsis": "In a tense / suspense exchange from 'The Wizard of Mars' (1965), dialogue centers on \"I feel sort of silly about well\" framed against dutch angle framing, interrogation / standoff.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "interrogation / standoff",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "thegammapeople_scene_1",
+      "movie_id": "thegammapeople",
+      "scene_number": 1,
+      "start_timecode": "00:26:55",
+      "end_timecode": "00:27:20",
+      "start_seconds": 1615.4,
+      "end_seconds": 1640.5,
+      "duration_seconds": 25.1,
+      "video_filename": "thegammapeople_scene_1_25s_1080p.mp4",
+      "keyframe_filename": "thegammapeople_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thegammapeople_scene_1_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thegammapeople_scene_1_thumb.jpg",
+      "transcription": "Oh, painter! I've been trying to get in touch with you. Yeah, why don't you stay in your office instead of parading around in that stupid uniform. Yeah, now what about this Baronsky deal or whatever his name is? Are you going to pick us up at 9 o'clock in the morning or not? Okay, we'll be ready at 9 o'clock on the nose. This is so spooky, gentlemen.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Gamma People' (1950), dialogue centers on \"Oh, painter! I've been trying to get in touch with you. Yeah, why don't you stay in your office instead of parading around in that...\" framed against telephone / late-night call, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "femme fatale",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thegammapeople_scene_2",
+      "movie_id": "thegammapeople",
+      "scene_number": 2,
+      "start_timecode": "00:29:39",
+      "end_timecode": "00:30:01",
+      "start_seconds": 1779.2,
+      "end_seconds": 1801.7,
+      "duration_seconds": 22.5,
+      "video_filename": "thegammapeople_scene_2_22s_1080p.mp4",
+      "keyframe_filename": "thegammapeople_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thegammapeople_scene_2_22s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thegammapeople_scene_2_thumb.jpg",
+      "transcription": "I'm sure you're much more interested in the present. You bet we are. I turn from old age to the guidance of the young. Today I'm merely a humble schoolmaster, but proud of my work. Come and see some of it for yourselves. These, what do you call them, gamma rays? Oh, I was speaking figuratively. Gentlemen, please.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Gamma People' (1950), dialogue centers on \"I'm sure you're much more interested in the present. You bet we are. I turn from old age to the guidance of the young. Today I'm merely...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thegammapeople_scene_3",
+      "movie_id": "thegammapeople",
+      "scene_number": 3,
+      "start_timecode": "00:30:42",
+      "end_timecode": "00:31:24",
+      "start_seconds": 1842.8,
+      "end_seconds": 1884.9,
+      "duration_seconds": 42.099999999999966,
+      "video_filename": "thegammapeople_scene_3_42s_1080p.mp4",
+      "keyframe_filename": "thegammapeople_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thegammapeople_scene_3_42s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thegammapeople_scene_3_thumb.jpg",
+      "transcription": "I should appreciate it if our little secret could remain our little secret from the time being. Your identity? My work. Sure. For the time being. May I produce you? I'll power up into my senior tutor. Mr. Mead, Mr. Wilson. How did you do? How did you? How do you do? Her rent is familiar to your country. She's traveled extensively in the eastern states, I believe. In New York, only. That's so. Do you want to go to Charlie Robbins? I'm afraid not. Well, if you don't mind, gentlemen, I'll leave you for a moment in province capable hands. Excuse me. I'd rather come with me.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'The Gamma People' (1950), dialogue centers on \"I should appreciate it if our little secret could remain our little secret from the time being. Your identity? My work. Sure. For the...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "thegammapeople_scene_4",
+      "movie_id": "thegammapeople",
+      "scene_number": 4,
+      "start_timecode": "00:35:27",
+      "end_timecode": "00:36:18",
+      "start_seconds": 2127.9,
+      "end_seconds": 2178.9,
+      "duration_seconds": 51.0,
+      "video_filename": "thegammapeople_scene_4_51s_1080p.mp4",
+      "keyframe_filename": "thegammapeople_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thegammapeople_scene_4_51s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thegammapeople_scene_4_thumb.jpg",
+      "transcription": "He was one of Dr. Barrowski's assistants. He helped with the experiments. What experiments? Well, just what did he want us to do, weren't you? He suspected Dr. Barrowski before the experiments began. He only stayed out of curiosity. Then it was too late, he couldn't leave. Nice, too late, weren't you? Yes. You don't understand, you're from a free country. Here it is not safe to ask questions or to answer them. Please, if you will go now.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'The Gamma People' (1950), dialogue centers on \"He was one of Dr. Barrowski's assistants. He helped with the experiments. What experiments? Well, just what did he want us to do,...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thegammapeople_scene_5",
+      "movie_id": "thegammapeople",
+      "scene_number": 5,
+      "start_timecode": "00:40:39",
+      "end_timecode": "00:41:12",
+      "start_seconds": 2439.3,
+      "end_seconds": 2472.3,
+      "duration_seconds": 33.0,
+      "video_filename": "thegammapeople_scene_5_33s_1080p.mp4",
+      "keyframe_filename": "thegammapeople_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thegammapeople_scene_5_33s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thegammapeople_scene_5_thumb.jpg",
+      "transcription": "You mind if I come in? Please do. Thank you. Most interesting. Who is black? My American friend. Do you mind explaining to me? You know he can make you in four moves. I do suggest you watch out for your king's pawns. It is in a dangerous position. When? How did you get in here? Oh, you left the door open. I saw the chessboard. I could not resist. Is that so? I never can resist the game of chess. It is like the game of life, only not nearly so dangerous.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'The Gamma People' (1950), dialogue centers on \"You mind if I come in? Please do. Thank you. Most interesting. Who is black? My American friend. Do you mind explaining to me? You know...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "FriendWithoutAFace104_scene_1",
+      "movie_id": "FriendWithoutAFace104",
+      "scene_number": 1,
+      "start_timecode": "00:08:54",
+      "end_timecode": "00:09:08",
+      "start_seconds": 534.0,
+      "end_seconds": 548.04,
+      "duration_seconds": 14.04,
+      "video_filename": "FriendWithoutAFace104_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "FriendWithoutAFace104_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FriendWithoutAFace104_scene_1_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FriendWithoutAFace104_scene_1_thumb.jpg",
+      "transcription": "I don't know, I guess I was looking for a way to say I, well, I understand what you've been for. Do you? What the heck? I'm human. We're all human here. We're not monsters from outer space.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Fiend Without a Face' (1958), dialogue centers on \"I don't know, I guess I was looking for a way to say I, well, I understand what you've been for. Do you? What the heck? I'm human. We're...\" framed against fedora & trenchcoat, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "FriendWithoutAFace104_scene_2",
+      "movie_id": "FriendWithoutAFace104",
+      "scene_number": 2,
+      "start_timecode": "00:13:41",
+      "end_timecode": "00:13:58",
+      "start_seconds": 821.64,
+      "end_seconds": 838.56,
+      "duration_seconds": 16.920000000000016,
+      "video_filename": "FriendWithoutAFace104_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "FriendWithoutAFace104_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FriendWithoutAFace104_scene_2_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FriendWithoutAFace104_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by dutch angle framing, interrogation / standoff.",
+      "synopsis": "An atmospheric 17-second sequence from 'Fiend Without a Face' (1958) driven by dutch angle framing, interrogation / standoff and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "FriendWithoutAFace104_scene_3",
+      "movie_id": "FriendWithoutAFace104",
+      "scene_number": 3,
+      "start_timecode": "00:15:10",
+      "end_timecode": "00:15:30",
+      "start_seconds": 910.6800000000001,
+      "end_seconds": 930.24,
+      "duration_seconds": 19.560000000000002,
+      "video_filename": "FriendWithoutAFace104_scene_3_19s_1080p.mp4",
+      "keyframe_filename": "FriendWithoutAFace104_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FriendWithoutAFace104_scene_3_19s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FriendWithoutAFace104_scene_3_thumb.jpg",
+      "transcription": "And now we consecrate the world and the remains of our beloved Jack to the good earth from Wednesday's spring.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Fiend Without a Face' (1958), dialogue centers on \"And now we consecrate the world and the remains of our beloved Jack to the good earth from Wednesday's spring.\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "FriendWithoutAFace104_scene_4",
+      "movie_id": "FriendWithoutAFace104",
+      "scene_number": 4,
+      "start_timecode": "00:16:59",
+      "end_timecode": "00:17:46",
+      "start_seconds": 1019.28,
+      "end_seconds": 1066.8,
+      "duration_seconds": 47.51999999999998,
+      "video_filename": "FriendWithoutAFace104_scene_4_47s_1080p.mp4",
+      "keyframe_filename": "FriendWithoutAFace104_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FriendWithoutAFace104_scene_4_47s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FriendWithoutAFace104_scene_4_thumb.jpg",
+      "transcription": "But Mayor Hawkins, you're taking a great deal for granted. There is absolutely no evidence pointing to radioactive fallout or radioactive contamination of any kind. Yes, we'll do everything we can, I assure you. Yes? Yes, goodbye. In addition to our headaches with a panda gun, we're now being accused of killing off the people in this town. Perhaps they'd cooperate, sir, if we could explain more about our anti-missile program. I mean, not the secret stone. You know that's impossible, Jeff.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Fiend Without a Face' (1958), dialogue centers on \"But Mayor Hawkins, you're taking a great deal for granted. There is absolutely no evidence pointing to radioactive fallout or...\" framed against telephone / late-night call, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "FriendWithoutAFace104_scene_5",
+      "movie_id": "FriendWithoutAFace104",
+      "scene_number": 5,
+      "start_timecode": "00:21:24",
+      "end_timecode": "00:22:09",
+      "start_seconds": 1284.72,
+      "end_seconds": 1329.6,
+      "duration_seconds": 44.879999999999995,
+      "video_filename": "FriendWithoutAFace104_scene_5_44s_1080p.mp4",
+      "keyframe_filename": "FriendWithoutAFace104_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FriendWithoutAFace104_scene_5_44s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FriendWithoutAFace104_scene_5_thumb.jpg",
+      "transcription": "This was all I'm sorry for bargeing in like that, but I knocked and there was no answer and the door was open, so I... Make yourself at home, Major. I'll be out in a minute. Thank you.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Fiend Without a Face' (1958), dialogue centers on \"This was all I'm sorry for bargeing in like that, but I knocked and there was no answer and the door was open, so I... Make yourself at...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "GhostWalks-WeirdnessBadMovie_scene_1",
+      "movie_id": "GhostWalks-WeirdnessBadMovie",
+      "scene_number": 1,
+      "start_timecode": "00:06:33",
+      "end_timecode": "00:06:47",
+      "start_seconds": 393.3,
+      "end_seconds": 407.55,
+      "duration_seconds": 14.25,
+      "video_filename": "GhostWalks-WeirdnessBadMovie_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "GhostWalks-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/GhostWalks-WeirdnessBadMovie_scene_1_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/GhostWalks-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, femme fatale.",
+      "synopsis": "An atmospheric 14-second sequence from 'Ghost Walks - Weirdness Bad Movie' (1950) driven by dutch angle framing, femme fatale and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "GhostWalks-WeirdnessBadMovie_scene_2",
+      "movie_id": "GhostWalks-WeirdnessBadMovie",
+      "scene_number": 2,
+      "start_timecode": "00:10:56",
+      "end_timecode": "00:11:12",
+      "start_seconds": 656.55,
+      "end_seconds": 672.15,
+      "duration_seconds": 15.599999999999966,
+      "video_filename": "GhostWalks-WeirdnessBadMovie_scene_2_15s_1080p.mp4",
+      "keyframe_filename": "GhostWalks-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/GhostWalks-WeirdnessBadMovie_scene_2_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/GhostWalks-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, cigarette smoke.",
+      "synopsis": "An atmospheric 16-second sequence from 'Ghost Walks - Weirdness Bad Movie' (1950) driven by femme fatale, cigarette smoke and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "cigarette smoke",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "cigarette smoke",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "GhostWalks-WeirdnessBadMovie_scene_3",
+      "movie_id": "GhostWalks-WeirdnessBadMovie",
+      "scene_number": 3,
+      "start_timecode": "00:12:32",
+      "end_timecode": "00:12:45",
+      "start_seconds": 752.55,
+      "end_seconds": 765.75,
+      "duration_seconds": 13.199999999999989,
+      "video_filename": "GhostWalks-WeirdnessBadMovie_scene_3_13s_1080p.mp4",
+      "keyframe_filename": "GhostWalks-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/GhostWalks-WeirdnessBadMovie_scene_3_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/GhostWalks-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "transcription": "nice of you all to drop in like this your idea wasn't the names after all you were invited that had nothing to do with it and I'm sure you I wouldn't be here now if I could help it we were just driving to my place where Mr. Wood was going to hear me read my latest play",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Ghost Walks - Weirdness Bad Movie' (1950), dialogue centers on \"nice of you all to drop in like this your idea wasn't the names after all you were invited that had nothing to do with it and I'm sure...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "GhostWalks-WeirdnessBadMovie_scene_4",
+      "movie_id": "GhostWalks-WeirdnessBadMovie",
+      "scene_number": 4,
+      "start_timecode": "00:17:01",
+      "end_timecode": "00:17:14",
+      "start_seconds": 1021.2,
+      "end_seconds": 1034.25,
+      "duration_seconds": 13.049999999999955,
+      "video_filename": "GhostWalks-WeirdnessBadMovie_scene_4_13s_1080p.mp4",
+      "keyframe_filename": "GhostWalks-WeirdnessBadMovie_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/GhostWalks-WeirdnessBadMovie_scene_4_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/GhostWalks-WeirdnessBadMovie_scene_4_thumb.jpg",
+      "transcription": "In fact, I don't think I like anything about you so hard why must you two always act like gladiators be Sensible tonight of all nights must not be the time for any discord You know, I've never given you cause to think of me",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Ghost Walks - Weirdness Bad Movie' (1950), dialogue centers on \"In fact, I don't think I like anything about you so hard why must you two always act like gladiators be Sensible tonight of all nights...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "GhostWalks-WeirdnessBadMovie_scene_5",
+      "movie_id": "GhostWalks-WeirdnessBadMovie",
+      "scene_number": 5,
+      "start_timecode": "00:17:24",
+      "end_timecode": "00:18:22",
+      "start_seconds": 1044.15,
+      "end_seconds": 1102.65,
+      "duration_seconds": 58.5,
+      "video_filename": "GhostWalks-WeirdnessBadMovie_scene_5_58s_1080p.mp4",
+      "keyframe_filename": "GhostWalks-WeirdnessBadMovie_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/GhostWalks-WeirdnessBadMovie_scene_5_58s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/GhostWalks-WeirdnessBadMovie_scene_5_thumb.jpg",
+      "transcription": "We'll discuss this later. Listen. Did you hear that scream? Yes. It sounded like a grand opera star with a cute indigestion. Well, it's nice. It sounded like something on the human. Oh, pure imagination. If I allowed a noise like that to scare me, your voice would have killed me long ago. Look here. Are you kind of insinuating how afraid? I'm just nervous. What kind of a madhouse is this? Don't be so excitable. It's probably your liver acting up again. Have you your pills? My pills.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Ghost Walks - Weirdness Bad Movie' (1950), dialogue centers on \"We'll discuss this later. Listen. Did you hear that scream? Yes. It sounded like a grand opera star with a cute indigestion. Well, it's...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
         "fatalistic"
       ]
     }
