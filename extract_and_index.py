@@ -823,9 +823,17 @@ def main():
             noir_tropes TEXT,
             tags TEXT,
             keyframe_filename TEXT,
-            video_filename TEXT
+            video_filename TEXT,
+            download_url TEXT,
+            thumbnail_url TEXT
         );
     """)
+
+    existing_cols = {row[1] for row in cur.execute("PRAGMA table_info(scenes)").fetchall()}
+    if "download_url" not in existing_cols:
+        cur.execute("ALTER TABLE scenes ADD COLUMN download_url TEXT")
+    if "thumbnail_url" not in existing_cols:
+        cur.execute("ALTER TABLE scenes ADD COLUMN thumbnail_url TEXT")
 
     for m in all_batch_movies:
         cur.execute(
@@ -835,7 +843,7 @@ def main():
 
     for s in all_batch_scenes:
         cur.execute(
-            "INSERT OR REPLACE INTO scenes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT OR REPLACE INTO scenes VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (
                 s["scene_id"], s["movie_id"], s["scene_number"],
                 s["start_seconds"], s["end_seconds"], s["duration_seconds"],
@@ -843,12 +851,14 @@ def main():
                 s["transcription"], s["visual_description"], s["synopsis"], s["mood"],
                 json.dumps(s.get("noir_tropes", [])),
                 json.dumps(s.get("tags", [])),
-                s["keyframe_filename"], s["video_filename"]
+                s["keyframe_filename"], s["video_filename"],
+                s.get("download_url", ""), s.get("thumbnail_url", "")
             )
         )
 
     conn.commit()
     conn.close()
+
 
     update_catalog_json(all_batch_movies, all_batch_scenes)
 
