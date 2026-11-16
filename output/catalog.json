@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-16T07:41:59.465581+00:00",
-  "total_movies": 111,
-  "total_scenes": 486,
-  "genre": "sci-fi",
-  "source": "Any / Blended",
+  "updated_at": "2026-11-16T09:30:47.136961+00:00",
+  "total_movies": 114,
+  "total_scenes": 495,
+  "genre": "film noir",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
@@ -1115,6 +1115,36 @@
       "video_url": "https://archive.org/download/UcanDairelerIstanbuldaflyingSaucersOverIstanbul/FlyingSaucersOverIstanbulenglishSubs.mp4",
       "license": "Open Archive",
       "description": "Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) is a Turkish sci-fi comedy from 1955. It's recommended for fans of old Turkish movies and psychotronic cult films. It has a quite different feel than the more familiar superhero films from the country like Kilink Istanbulda, etc. It more closely resembles something like Abbot and Costello On Mars, with the addition of belly dancing. There are leotard-clad female aliens, a Plan 9-style spaceship, a Marilyn Monroe imitator. and a robot made out of a cardboard box. The leader of the female aliens tries her hand at interpretive dance. The plot, or what I can discern of it, involves a club founded by older unattractive wealthy women. The club uses sexy belly dancing to lure men in, then the womenfolk attempt to have their way with them. There are files with and without subtitles. It was directed by Orhan Ersin, and stars Orhan Ersin, Zafer Onen, Halide Piskin, Semiramis Guze, Ozcan Tekgul and Mirella Monro. I especially like the credit sequence- the featured dancer is unbearably cute. Give this a try- it's odd and interesting."
+    },
+    {
+      "title": "The Killers 1946 colorized (Burt Lancaster, Ava Gardner)",
+      "year": 1946,
+      "director": "Mark Hellinger Productions",
+      "archive_id": "killers-1946",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/killers-1946/Killers 1946.mp4",
+      "license": "Open Archive",
+      "description": "After a couple of hit men kill a gas station attendant (Burt Lancaster) who apparently was expecting them, an insurance investigator (Edmond O'Brien) pursues the case and uncovers a complex backstory of treachery and crime linked to a mysterious femme fatale (Ava Gardner). Based on a story by Ernest Heminsway. Burt Lancaster as Ole 'Swede' Anderson Ava Gardner as Kitty Collins Edmond O'Brien as Jim Reardon Albert Dekker as Big Jim Colfax Sam Levene as Police Lt. Sam Lubinsky Vince Barnett as Charleston Virginia Christine as Lilly Harmon Lubinsky Jack Lambert as 'Dum-Dum' Clarke Charles D. Brown as Packy Robinson Donald MacBride as R.S. Kenyon Charles McGraw as Al William Conrad as Max I colorized this using AI software that doesn't always get the colors right, but I think it looks fairly natural. Hopefully a more professional job will be done someday."
+    },
+    {
+      "title": "The Upturned Glass",
+      "year": 1950,
+      "director": "Sydney Box and James Mason",
+      "archive_id": "TheUpturnedGlass",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/TheUpturnedGlass/TheUpturnedGlass.mp4",
+      "license": "Open Archive",
+      "description": "James Mason stars in this tale of jealousy, murder and revenge set among the post-war British middle class, A well-directed compact production with a good supporting cast and a memorable background score. IMDB rating 7.0. Directed by Lawrence Huntington. Released in 1947. Complete print."
+    },
+    {
+      "title": "Fallen Angel (1945) Alice Faye, Dana Andrews, Linda Darnell",
+      "year": 1945,
+      "director": "Unknown Director",
+      "archive_id": "fallenangel1945_202002",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/fallenangel1945_202002/Fallen Angel (1945, USA) Featuring Alice Faye, Dana Andrews, Linda Darnell - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Fallen Angel is a 1945 film noir directed by Otto Preminger, with cinematography by Joseph LaShelle, who had also worked with Preminger on Laura a year before. The film features Alice Faye, Dana Andrews, Linda Darnell, and Charles Bickford. Wikipedia: https://en.wikipedia.org/wiki/Fallen_Angel_(1945_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -14454,6 +14484,276 @@
         "interrogation / standoff",
         "nightclub / jazz bar",
         "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "killers-1946_scene_1",
+      "movie_id": "killers-1946",
+      "scene_number": 1,
+      "start_timecode": "00:24:16",
+      "end_timecode": "00:25:13",
+      "start_seconds": 1456.126006,
+      "end_seconds": 1513.9337639999999,
+      "duration_seconds": 57.80775799999999,
+      "video_filename": "killers-1946_scene_1_57s_1080p.mp4",
+      "keyframe_filename": "killers-1946_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/killers-1946_scene_1_57s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/killers-1946_scene_1_thumb.jpg",
+      "transcription": "You saying for me? What are you working on? The one case. Look, one of those $2,500 death benefits. That's right. Forget it. There's a damage freight claim came in. Ever hear of anyone called Charleston? Charleston. There was a petty last night thief. Why? Does a green handkerchief decorated with golden harps mean anything to you? What are you talking about, a green handkerchief? Do you ever try to remember something like somebody's name? Have it on the tip of your tongue almost. And just as you're about to say it, lose it. I guess so. Well, that's how it is with me and this green handkerchief. Well, it's real soap. Who's wasn't? The dead man's. Listen, I'm trying to run an organization. The number of claims piled up here. I could use six other investigators and still be behind. And you're off fooling around with a two for a nickel shooting. But this isn't a two for a nickel shooting.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a paranoid exchange from 'The Killers 1946 colorized (Burt Lancaster, Ava Gardner)' (1946), dialogue centers on \"You saying for me? What are you working on? The one case. Look, one of those $2,500 death benefits. That's right. Forget it. There's a...\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "killers-1946_scene_2",
+      "movie_id": "killers-1946",
+      "scene_number": 2,
+      "start_timecode": "00:27:44",
+      "end_timecode": "00:28:22",
+      "start_seconds": 1664.584275,
+      "end_seconds": 1702.121752,
+      "duration_seconds": 37.537477000000024,
+      "video_filename": "killers-1946_scene_2_37s_1080p.mp4",
+      "keyframe_filename": "killers-1946_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/killers-1946_scene_2_37s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/killers-1946_scene_2_thumb.jpg",
+      "transcription": "When you're a cop or you're a cop, it seems like I was always in there when he was losing Did I see him fight? I don't think so. Not that I remember. It's pretty good Take an awful lot of punishment Yeah, I saw his face fight and I saw his last so I didn't get that at all the start of the last round He was fighting Tiger Lewis Hello, Janet",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, dutch angle framing.",
+      "synopsis": "In a paranoid exchange from 'The Killers 1946 colorized (Burt Lancaster, Ava Gardner)' (1946), dialogue centers on \"When you're a cop or you're a cop, it seems like I was always in there when he was losing Did I see him fight? I don't think so. Not...\" framed against fedora & trenchcoat, dutch angle framing.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "cigarette smoke",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "killers-1946_scene_3",
+      "movie_id": "killers-1946",
+      "scene_number": 3,
+      "start_timecode": "00:34:12",
+      "end_timecode": "00:34:57",
+      "start_seconds": 2052.138895,
+      "end_seconds": 2097.05877,
+      "duration_seconds": 44.919874999999934,
+      "video_filename": "killers-1946_scene_3_44s_1080p.mp4",
+      "keyframe_filename": "killers-1946_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/killers-1946_scene_3_44s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/killers-1946_scene_3_thumb.jpg",
+      "transcription": "Hello Lily. Oh, hi Hello, sweet. You all right? Yeah, I guess you don't feel like much celebration tonight Maybe you'd like to come over to my house. I'll cook up something to eat. Well Lily. I'll tell you right now I'm not hungry. You invited the wrong guy. Yeah, you you were born hungry See the fight I was in my regular seat. I didn't notice tonight. Hey, what was the matter with your right? He heard it too badly. You'd have taken him. Sure. Yeah",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Killers 1946 colorized (Burt Lancaster, Ava Gardner)' (1946), dialogue centers on \"Hello Lily. Oh, hi Hello, sweet. You all right? Yeah, I guess you don't feel like much celebration tonight Maybe you'd like to come over...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "TheUpturnedGlass_scene_1",
+      "movie_id": "TheUpturnedGlass",
+      "scene_number": 1,
+      "start_timecode": "00:20:50",
+      "end_timecode": "00:21:22",
+      "start_seconds": 1250.882625,
+      "end_seconds": 1282.414125,
+      "duration_seconds": 31.531499999999994,
+      "video_filename": "TheUpturnedGlass_scene_1_31s_1080p.mp4",
+      "keyframe_filename": "TheUpturnedGlass_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheUpturnedGlass_scene_1_31s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheUpturnedGlass_scene_1_thumb.jpg",
+      "transcription": "and they never did see each other again.",
+      "visual_description": "Features a stark silhouette framed against a bright doorway or window, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'The Upturned Glass' (1950), dialogue centers on \"and they never did see each other again.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "TheUpturnedGlass_scene_2",
+      "movie_id": "TheUpturnedGlass",
+      "scene_number": 2,
+      "start_timecode": "00:24:37",
+      "end_timecode": "00:24:56",
+      "start_seconds": 1477.2337499999999,
+      "end_seconds": 1496.25275,
+      "duration_seconds": 19.019000000000005,
+      "video_filename": "TheUpturnedGlass_scene_2_19s_1080p.mp4",
+      "keyframe_filename": "TheUpturnedGlass_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheUpturnedGlass_scene_2_19s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheUpturnedGlass_scene_2_thumb.jpg",
+      "transcription": "Come over here by me How am you understand what is made by telling the truth, don't you? Yes Very important that you do because I'm going to ask you a few questions, and I want you to answer them truthfully",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'The Upturned Glass' (1950), dialogue centers on \"Come over here by me How am you understand what is made by telling the truth, don't you? Yes Very important that you do because I'm...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "TheUpturnedGlass_scene_3",
+      "movie_id": "TheUpturnedGlass",
+      "scene_number": 3,
+      "start_timecode": "00:29:06",
+      "end_timecode": "00:29:41",
+      "start_seconds": 1746.878125,
+      "end_seconds": 1781.53775,
+      "duration_seconds": 34.659625000000005,
+      "video_filename": "TheUpturnedGlass_scene_3_34s_1080p.mp4",
+      "keyframe_filename": "TheUpturnedGlass_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheUpturnedGlass_scene_3_34s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheUpturnedGlass_scene_3_thumb.jpg",
+      "transcription": "But she'd do it. Put the staff on his son, will you? You. Excuse me. You're being very unsociable. Either someone here, I know you'll adore. She's longing to meet you. Silvia Darling, you don't know Peter, do you? I just died. What do you mean? You've got a drink, good. What is that waiter doing? Is your name really Silvia? What's wrong with Silvia? Nothing at all. None of mine isn't Peter. Excuse me, I must take this drink to somebody.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'The Upturned Glass' (1950), dialogue centers on \"But she'd do it. Put the staff on his son, will you? You. Excuse me. You're being very unsociable. Either someone here, I know you'll...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "fallenangel1945_202002_scene_1",
+      "movie_id": "fallenangel1945_202002",
+      "scene_number": 1,
+      "start_timecode": "00:20:30",
+      "end_timecode": "00:20:56",
+      "start_seconds": 1230.0,
+      "end_seconds": 1256.5,
+      "duration_seconds": 26.5,
+      "video_filename": "fallenangel1945_202002_scene_1_26s_1080p.mp4",
+      "keyframe_filename": "fallenangel1945_202002_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/fallenangel1945_202002_scene_1_26s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/fallenangel1945_202002_scene_1_thumb.jpg",
+      "transcription": "I like the way you talk. I like the way you dance. Yes, you're too perfect. Oh, order them. You want them? Thanks. You said you tell them I...",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, nightclub / jazz bar.",
+      "synopsis": "In a melancholic exchange from 'Fallen Angel (1945) Alice Faye, Dana Andrews, Linda Darnell' (1945), dialogue centers on \"I like the way you talk. I like the way you dance. Yes, you're too perfect. Oh, order them. You want them? Thanks. You said you tell...\" framed against femme fatale, nightclub / jazz bar.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "fallenangel1945_202002_scene_2",
+      "movie_id": "fallenangel1945_202002",
+      "scene_number": 2,
+      "start_timecode": "00:29:56",
+      "end_timecode": "00:30:52",
+      "start_seconds": 1796.625,
+      "end_seconds": 1852.5,
+      "duration_seconds": 55.875,
+      "video_filename": "fallenangel1945_202002_scene_2_55s_1080p.mp4",
+      "keyframe_filename": "fallenangel1945_202002_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/fallenangel1945_202002_scene_2_55s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/fallenangel1945_202002_scene_2_thumb.jpg",
+      "transcription": "Don't give me that smile. Okay, I don't smile. I thought you had something to say. Doesn't that say it? I heard that kind of talk before. Good night. I never said it before. Do anybody. Ever. I'll marry you, still, if that's what you want. You? You don't kid me. I'm not kidding. Last night? That night, I didn't know you. What made you tick? I know you now. I know I couldn't put out of here this morning. I'll get on that bus. I can't get away without you, still, and I'm not going away. What's in it for me? You said you wanted that, didn't you? A ring on your finger. That isn't enough. What goes with it? I want a home. I'll get it for you. What with? One dollar in your pocket?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Fallen Angel (1945) Alice Faye, Dana Andrews, Linda Darnell' (1945), dialogue centers on \"Don't give me that smile. Okay, I don't smile. I thought you had something to say. Doesn't that say it? I heard that kind of talk...\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "fallenangel1945_202002_scene_3",
+      "movie_id": "fallenangel1945_202002",
+      "scene_number": 3,
+      "start_timecode": "00:31:30",
+      "end_timecode": "00:32:29",
+      "start_seconds": 1890.25,
+      "end_seconds": 1949.375,
+      "duration_seconds": 59.125,
+      "video_filename": "fallenangel1945_202002_scene_3_59s_1080p.mp4",
+      "keyframe_filename": "fallenangel1945_202002_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/fallenangel1945_202002_scene_3_59s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/fallenangel1945_202002_scene_3_thumb.jpg",
+      "transcription": "Maybe I will",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by fedora & trenchcoat, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from 'Fallen Angel (1945) Alice Faye, Dana Andrews, Linda Darnell' (1945), dialogue centers on \"Maybe I will\" framed against fedora & trenchcoat, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "femme fatale",
+        "melancholic"
       ]
     }
   ]
