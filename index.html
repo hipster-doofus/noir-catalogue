@@ -51,17 +51,41 @@
     </div>
 
     <!-- Search & Filter Controls -->
-    <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-4 mb-10 shadow-lg">
-      <div class="flex flex-col md:flex-row gap-4 justify-between items-center">
-        <div class="relative w-full md:w-2/3">
-          <input type="text" id="search-input" placeholder="Search quotes, tropes, films, or moods..." class="w-full bg-black/50 border border-gray-700 rounded-lg px-4 py-2.5 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 transition">
+    <div class="bg-gray-900/70 border border-gray-800 rounded-2xl p-5 mb-8 shadow-2xl backdrop-blur">
+      <div class="flex flex-col lg:flex-row gap-4 justify-between items-stretch lg:items-center">
+        <!-- Search Input -->
+        <div class="relative w-full lg:w-1/2">
+          <input type="text" id="search-input" placeholder="Search quotes, lighting (e.g. 'chiaroscuro'), framing, or dialogue..." class="w-full bg-black/60 border border-gray-700 rounded-xl pl-10 pr-10 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-600 transition shadow-inner">
+          <span class="absolute left-3.5 top-3.5 text-gray-400 text-sm">🔍</span>
+          <button type="button" id="clear-search-btn" class="hidden absolute right-3.5 top-3 text-gray-400 hover:text-white text-sm font-bold bg-gray-800/80 hover:bg-gray-700 w-6 h-6 rounded-full items-center justify-center transition">&times;</button>
         </div>
-        <div class="flex flex-wrap gap-2 w-full md:w-auto text-xs">
-          <button type="button" data-mood="all" class="mood-btn active bg-yellow-600 text-black px-3 py-1.5 rounded font-semibold">All</button>
-          <button type="button" data-mood="Fatalistic" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded transition">Fatalistic</button>
-          <button type="button" data-mood="Melancholic" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded transition">Melancholic</button>
-          <button type="button" data-mood="Tense" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded transition">Tense</button>
-          <button type="button" data-mood="Paranoid" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded transition">Paranoid</button>
+
+        <!-- Mood Filter Buttons -->
+        <div class="flex flex-wrap gap-1.5 items-center text-xs">
+          <span class="text-gray-500 text-[11px] uppercase tracking-wider mr-1 font-semibold hidden sm:inline">Mood:</span>
+          <button type="button" data-mood="all" class="mood-btn active bg-yellow-600 text-black px-3 py-1.5 rounded-lg font-semibold transition">All</button>
+          <button type="button" data-mood="Fatalistic" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded-lg transition">Fatalistic</button>
+          <button type="button" data-mood="Melancholic" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded-lg transition">Melancholic</button>
+          <button type="button" data-mood="Tense" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded-lg transition">Tense</button>
+          <button type="button" data-mood="Paranoid" class="mood-btn bg-gray-800 text-gray-300 hover:bg-gray-700 px-3 py-1.5 rounded-lg transition">Paranoid</button>
+        </div>
+      </div>
+
+      <!-- Cinematography & Lighting Quick-Filter Chips -->
+      <div class="mt-4 pt-3 border-t border-gray-800/70 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div class="flex items-center gap-2 overflow-x-auto pb-1 text-xs no-scrollbar">
+          <span class="text-gray-500 text-[11px] uppercase tracking-wider font-semibold whitespace-nowrap">Cinematography:</span>
+          <button type="button" class="quick-chip bg-gray-800/90 text-gray-300 hover:bg-yellow-600 hover:text-black px-2.5 py-1 rounded-full whitespace-nowrap transition flex items-center gap-1 border border-gray-700/60" data-filter="low-key lighting">💡 Low-Key Light</button>
+          <button type="button" class="quick-chip bg-gray-800/90 text-gray-300 hover:bg-yellow-600 hover:text-black px-2.5 py-1 rounded-full whitespace-nowrap transition flex items-center gap-1 border border-gray-700/60" data-filter="chiaroscuro">🌓 Chiaroscuro</button>
+          <button type="button" class="quick-chip bg-gray-800/90 text-gray-300 hover:bg-yellow-600 hover:text-black px-2.5 py-1 rounded-full whitespace-nowrap transition flex items-center gap-1 border border-gray-700/60" data-filter="shadow">🪟 Shadows &amp; Blinds</button>
+          <button type="button" class="quick-chip bg-gray-800/90 text-gray-300 hover:bg-yellow-600 hover:text-black px-2.5 py-1 rounded-full whitespace-nowrap transition flex items-center gap-1 border border-gray-700/60" data-filter="dramatic framing">📐 Dramatic Framing</button>
+          <button type="button" class="quick-chip bg-gray-800/90 text-gray-300 hover:bg-yellow-600 hover:text-black px-2.5 py-1 rounded-full whitespace-nowrap transition flex items-center gap-1 border border-gray-700/60" data-filter="cynical dialogue">💬 Hardboiled Patter</button>
+        </div>
+
+        <!-- Result count & reset -->
+        <div class="flex items-center justify-between sm:justify-end gap-3 text-xs text-gray-400 shrink-0">
+          <span id="filter-result-count" class="font-mono text-gray-300"></span>
+          <button type="button" id="reset-all-filters-btn" class="hidden text-yellow-500 hover:text-yellow-400 underline font-semibold transition">Reset Filters ✕</button>
         </div>
       </div>
     </div>
@@ -347,7 +371,7 @@
               <h3 class="text-lg font-bold text-white mb-1">${escapeHTML(displayTitle)}</h3>
               <p class="text-xs text-gray-400 italic mb-3">"${escapeHTML(transcriptOrSynopsis)}"</p>
               <div class="flex flex-wrap gap-1.5 mb-4">
-                ${parseArray(scene.noir_tropes).map(t => `<span class="text-[10px] bg-gray-800 text-gray-300 px-2 py-0.5 rounded">${escapeHTML(t)}</span>`).join('')}
+                ${parseArray(scene.noir_tropes).map(t => `<button type="button" class="trope-badge text-[10px] bg-gray-800 hover:bg-yellow-600 hover:text-black text-gray-300 px-2 py-0.5 rounded cursor-pointer transition font-medium" data-tag="${escapeHTML(t)}">${escapeHTML(t)}</button>`).join('')}
               </div>
             </div>
           </div>
@@ -396,14 +420,59 @@
       });
     });
 
+    document.querySelectorAll('.quick-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const tag = chip.dataset.filter;
+        setSearchQuery(tag);
+      });
+    });
+
+    function setSearchQuery(val) {
+      const input = document.getElementById('search-input');
+      input.value = val;
+      const clearBtn = document.getElementById('clear-search-btn');
+      if (clearBtn) clearBtn.classList.toggle('hidden', !val);
+      applyFilters();
+    }
+
+    const clearSearchBtn = document.getElementById('clear-search-btn');
+    if (clearSearchBtn) {
+      clearSearchBtn.addEventListener('click', () => setSearchQuery(''));
+    }
+
+    const resetAllBtn = document.getElementById('reset-all-filters-btn');
+    if (resetAllBtn) {
+      resetAllBtn.addEventListener('click', () => {
+        activeMood = 'all';
+        document.querySelectorAll('.mood-btn').forEach(b => {
+          b.classList.remove('bg-yellow-600', 'text-black');
+          b.classList.add('bg-gray-800', 'text-gray-300');
+        });
+        const allBtn = document.querySelector('.mood-btn[data-mood="all"]');
+        if (allBtn) {
+          allBtn.classList.remove('bg-gray-800', 'text-gray-300');
+          allBtn.classList.add('bg-yellow-600', 'text-black');
+        }
+        setSearchQuery('');
+      });
+    }
+
     document.getElementById('search-input').addEventListener('input', () => {
+      const val = document.getElementById('search-input').value;
+      const clearBtn = document.getElementById('clear-search-btn');
+      if (clearBtn) clearBtn.classList.toggle('hidden', !val);
       clearTimeout(searchDebounce);
-      searchDebounce = setTimeout(applyFilters, 250);
+      searchDebounce = setTimeout(applyFilters, 200);
     });
 
     async function applyFilters() {
       const rawQuery = document.getElementById('search-input').value.trim();
       const query = rawQuery.toLowerCase();
+      const countEl = document.getElementById('filter-result-count');
+      const resetBtn = document.getElementById('reset-all-filters-btn');
+
+      const isFiltered = rawQuery.length > 0 || activeMood !== 'all';
+      if (resetBtn) resetBtn.classList.toggle('hidden', !isFiltered);
 
       // Server-side PostgreSQL full-text search via Supabase RPC when connected
       if (supabaseConnected && (rawQuery.length >= 2 || activeMood !== 'all')) {
@@ -427,6 +496,7 @@
               ...r,
               movies: r.movie_title ? { title: r.movie_title, release_year: r.release_year, director: r.director } : movieMetaMap[r.movie_id]
             }));
+            if (countEl) countEl.innerText = `${normalized.length} scenes found`;
             renderGrid(normalized);
             return;
           }
@@ -435,22 +505,45 @@
         }
       }
 
+      const queryTokens = query ? query.split(/\s+/).filter(Boolean) : [];
+
       const filtered = allScenes.filter(s => {
         const matchesMood = activeMood === 'all' || (s.mood && s.mood.toLowerCase().includes(activeMood.toLowerCase()));
+        if (!matchesMood) return false;
+        if (queryTokens.length === 0) return true;
+
         const movieTitle = (s.movies && s.movies.title) || (movieMetaMap[s.movie_id] && movieMetaMap[s.movie_id].title) || '';
+        const directorStr = (s.movies && s.movies.director) || '';
         const tropesStr = parseArray(s.noir_tropes).join(' ').toLowerCase();
-        const matchesQuery = !query ||
-          (s.transcription && s.transcription.toLowerCase().includes(query)) ||
-          (s.synopsis && s.synopsis.toLowerCase().includes(query)) ||
-          (s.movie_id && s.movie_id.toLowerCase().includes(query)) ||
-          movieTitle.toLowerCase().includes(query) ||
-          tropesStr.includes(query);
-        return matchesMood && matchesQuery;
+        const tagsStr = parseArray(s.tags).join(' ').toLowerCase();
+        const visualStr = (s.visual_description || '').toLowerCase();
+        const transcriptionStr = (s.transcription || '').toLowerCase();
+        const synopsisStr = (s.synopsis || '').toLowerCase();
+        const movieIdStr = (s.movie_id || '').toLowerCase();
+
+        const combinedHaystack = `${movieTitle.toLowerCase()} ${directorStr.toLowerCase()} ${tropesStr} ${tagsStr} ${visualStr} ${transcriptionStr} ${synopsisStr} ${movieIdStr} ${(s.mood || '').toLowerCase()}`;
+
+        // Match every token (AND condition for precise multi-term filtering)
+        return queryTokens.every(tok => combinedHaystack.includes(tok));
       });
+
+      if (countEl) {
+        countEl.innerText = isFiltered
+          ? `${filtered.length} of ${allScenes.length} scenes`
+          : `${allScenes.length} scenes indexed`;
+      }
       renderGrid(filtered);
     }
 
     document.getElementById('scenes-grid').addEventListener('click', (e) => {
+      const tropeBtn = e.target.closest('.trope-badge');
+      if (tropeBtn) {
+        e.preventDefault();
+        e.stopPropagation();
+        setSearchQuery(tropeBtn.dataset.tag);
+        return;
+      }
+
       const dlBtn = e.target.closest('.card-download-btn');
       if (dlBtn) {
         e.preventDefault();
