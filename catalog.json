@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-15T20:09:56.898666+00:00",
-  "total_movies": 105,
-  "total_scenes": 479,
-  "genre": "sci-fi",
-  "source": "Any / Blended",
+  "updated_at": "2026-11-16T05:30:29.289999+00:00",
+  "total_movies": 108,
+  "total_scenes": 489,
+  "genre": "film noir",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
@@ -1055,6 +1055,36 @@
       "video_url": "https://archive.org/download/GhostWalks-WeirdnessBadMovie/WRBM_Ghost Walkls_WS_AF_fixed.ia.mp4",
       "license": "Open Archive",
       "description": "Public Access TV show \"Weirdness Really Bad Movie\" hosts public domain movies and ads clean comedy sketches enjoyable for the whole family. Today's film is 1934 film \"The Ghost Walks\""
+    },
+    {
+      "title": "The Killers (1946) Burt Lancaster, Ava Gardner, Edmond O' Brien - Film Noir Full Movie",
+      "year": 1946,
+      "director": "Unknown Director",
+      "archive_id": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001/The Killers (1946, USA) Featuring Burt Lancaster, Ava Gardner, Edmond O'Brien - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "The Killers (also known as A Man Alone) is a 1946 American film noir directed by Robert Siodmak and based in part on the 1927 short story of the same name by Ernest Hemingway. It stars Burt Lancaster in his film debut, Ava Gardner, Edmond O'Brien and Sam Levene. The film also features William Conrad in his first credited role, as one of the killers referred to in the title. \u00a0 In 2008, The Killers was selected for preservation in the United States National Film Registry by the Library of Congress as being \"culturally, historically, or aesthetically significant.\" \u00a0 Hemingway, who was habitually disgusted with how Hollywood distorted his intentions was a fan of the film stating \"It is a good picture and the only good picture ever made of a story of mine.\" Wikipedia: https://en.wikipedia.org/wiki/The_Killers_(1946_film) \u00a0Suggested Film Noirs : http://bit.ly/36oLNCR The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Shock",
+      "year": 1946,
+      "director": "Aubrey Schenck",
+      "archive_id": "shock",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/shock/Shock.mp4",
+      "license": "Open Archive",
+      "description": "This post-World War II suspense thriller sets off an emotional roller coaster after the psychologically fragile wife of a POW (Anabel Shaw) witnesses a brutal murder from a hotel window while waiting to be reunited with her husband (Frank Latimer). By the time he arrives, she's nearly comatose with shock. The hotel's psychiatrist (Vincent Price) is called in to help Film noir classic, noted for its dark themes, stark camera angles and high-contrast lighting."
+    },
+    {
+      "title": "Whispering City (1947)",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "WhisperingCity",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/WhisperingCity/WhisperingCity1947.mp4",
+      "license": "Open Archive",
+      "description": "A reporter hears that a famous actress is dying in a hospital after being hit by a car. She goes to the hospital to interview the actress, who tells the reporter that her wealthy fiance, who was killed in an accident several years before, was actually murdered. Before long the reporter finds herself in a web of corruption, mental illness and murder."
     }
   ],
   "scenes": [
@@ -14141,6 +14171,306 @@
         "femme fatale",
         "interrogation / standoff",
         "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_1",
+      "movie_id": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001",
+      "scene_number": 1,
+      "start_timecode": "00:15:47",
+      "end_timecode": "00:16:07",
+      "start_seconds": 947.058875,
+      "end_seconds": 967.204,
+      "duration_seconds": 20.145125000000007,
+      "video_filename": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_1_20s_1080p.mp4",
+      "keyframe_filename": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_1_20s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_1_thumb.jpg",
+      "transcription": "I don't know, stomach or something. It started Thursday a week ago. I was at the filling station. About an hour before closing it, a guy drives in in a big black car. Caddy, I think it was. Fill her up, Ethel. Yes, sir?",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, low-key chiaroscuro.",
+      "synopsis": "In a fatalistic exchange from 'The Killers (1946) Burt Lancaster, Ava Gardner, Edmond O' Brien - Film Noir Full Movie' (1946), dialogue centers on \"I don't know, stomach or something. It started Thursday a week ago. I was at the filling station. About an hour before closing it, a guy...\" framed against femme fatale, low-key chiaroscuro.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "low-key chiaroscuro",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "low-key chiaroscuro",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_2",
+      "movie_id": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001",
+      "scene_number": 2,
+      "start_timecode": "00:21:05",
+      "end_timecode": "00:21:23",
+      "start_seconds": 1265.0015,
+      "end_seconds": 1283.77025,
+      "duration_seconds": 18.76875000000001,
+      "video_filename": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_2_18s_1080p.mp4",
+      "keyframe_filename": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_2_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_2_thumb.jpg",
+      "transcription": "Oh, the man in 1212, but what his name was never long it was Wilson that's who that is. That's mr. Nelson",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'The Killers (1946) Burt Lancaster, Ava Gardner, Edmond O' Brien - Film Noir Full Movie' (1946), dialogue centers on \"Oh, the man in 1212, but what his name was never long it was Wilson that's who that is. That's mr. Nelson\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_3",
+      "movie_id": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001",
+      "scene_number": 3,
+      "start_timecode": "00:26:36",
+      "end_timecode": "00:26:55",
+      "start_seconds": 1596.3325,
+      "end_seconds": 1615.60175,
+      "duration_seconds": 19.269250000000056,
+      "video_filename": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_3_19s_1080p.mp4",
+      "keyframe_filename": "thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_3_19s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillers1946usafeaturingburtlancasteravagardneredmondobrienfilmnoirfullmovie_202001_scene_3_thumb.jpg",
+      "transcription": "Mm-hmm. See you later. Yes? Someone to see you. Out here! Lieutenant Levensky? That's right. What can I do?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, cigarette smoke.",
+      "synopsis": "In a fatalistic exchange from 'The Killers (1946) Burt Lancaster, Ava Gardner, Edmond O' Brien - Film Noir Full Movie' (1946), dialogue centers on \"Mm-hmm. See you later. Yes? Someone to see you. Out here! Lieutenant Levensky? That's right. What can I do?\" framed against dutch angle framing, cigarette smoke.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "cigarette smoke",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "dutch angle framing",
+        "cigarette smoke",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "laura_202003_scene_1",
+      "movie_id": "laura_202003",
+      "scene_number": 1,
+      "start_timecode": "00:28:16",
+      "end_timecode": "00:32:03",
+      "start_seconds": 1696.0,
+      "end_seconds": 1923.227,
+      "duration_seconds": 227.227,
+      "video_filename": "laura_202003_scene_1_227s_1080p.mp4",
+      "keyframe_filename": "laura_202003_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/laura_202003_scene_1_227s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/laura_202003_scene_1_thumb.jpg",
+      "transcription": "I was in love with you. Yes, Laura. I heard everything you said. I went to call for you. I'm sorry, Walter. And that reminds me. Old Mother Hubbard has something in the cupboard. The results of my private investigation about sterling character Mr. Shelby Copper. If I was doing so low, you only'd grade yourself, Walter. Did you know that he almost went to jail for passing rubber checks? That he was suspected of stealing his hostess jewels when he was a house guest of Virginia? Naturally, they'd suspect him. Because he isn't rich. Those only insinuations. The cheapest kind. These aren't only insinuations, my dear. There you are. Read them. What happened? I know his thoughts. A man can change, can't he? People are always ready to hold out a hand and slap you down. But never to pick you up. Alright, I'm helping Shelby. He's passed in his own affair. I only care about the present. Speaking of the change, Mr. Carpenter, the present tense, he's now running around with a model from your own office. Her name is Diane Redford. Disprising him that I thought I ever would be. I should have told you before. Shelby and I are going to be married next week. I believe you presented him with a cigarette case on his last birthday. Rather valuable, isn't it? Where did you get it? From the pawn shop where Diane Redford took it after he gave it to her. I don't believe it. He probably needed money and was too proud to borrow. Carpenter proud. Perhaps that's why the pawn ticket was in her name. Before this goes any further, I'll just... He isn't whole. He's dining at Anne Treadwells. He can't be. He asked me to do that. We'll cancel his appointment with her if you had accepted. He treats her other badly these days. And the future will say he isn't there. Why are you doing this? I know he won't. Alright. You'll see. You want to take this little bobble along, Casey is there? Can you hear me? I'm sorry Mrs. Treadwell is not home. We know, dear.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Laura (1944) Dir: Otto Preminger, Starring Gene Tierney, Dana Andrews, Clifton Webb, Vincent Price, Judith Anderson.' (1944), dialogue centers on \"I was in love with you. Yes, Laura. I heard everything you said. I went to call for you. I'm sorry, Walter. And that reminds me. Old...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "shock_scene_1",
+      "movie_id": "shock",
+      "scene_number": 1,
+      "start_timecode": "00:28:04",
+      "end_timecode": "00:29:03",
+      "start_seconds": 1684.0,
+      "end_seconds": 1743.28,
+      "duration_seconds": 59.27999999999997,
+      "video_filename": "shock_scene_1_59s_1080p.mp4",
+      "keyframe_filename": "shock_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/shock_scene_1_59s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/shock_scene_1_thumb.jpg",
+      "transcription": "Will you have a cigar, sir? Yes, thank you. Let's continue the present treatment and see how she comes along. Yes. I noticed Richard, you've been giving her sedatives. Yes, I have. She's been pretty difficult at times. I go easy on them. If she's under sedation, there's no way of knowing when she comes back to normal. No, I'd plan to take her off them within the next 24 hours. Fine. By the way, how's Margaret? I'm joining her at the launch. Give her my regards when you see her. I will, thank you, sir. Well, I better talk with the young man. Sometimes I wonder which are more difficult. Patients or their families. Hi, beautiful. Hi. Yeah, what a night.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Shock' (1946), dialogue centers on \"Will you have a cigar, sir? Yes, thank you. Let's continue the present treatment and see how she comes along. Yes. I noticed Richard,...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "shock_scene_2",
+      "movie_id": "shock",
+      "scene_number": 2,
+      "start_timecode": "00:29:03",
+      "end_timecode": "00:29:47",
+      "start_seconds": 1743.28,
+      "end_seconds": 1787.2,
+      "duration_seconds": 43.920000000000016,
+      "video_filename": "shock_scene_2_43s_1080p.mp4",
+      "keyframe_filename": "shock_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/shock_scene_2_43s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/shock_scene_2_thumb.jpg",
+      "transcription": "You don't have no more blood, I'd like to relax with me, do you? That's what I thought you'd say. Coffee? Please. And poor Edward's east arm don't do him any good. He kept ducking into his closet and slamming the door after him. Finally had a locket. How's your patient? All right, I guess. He's talking with her husband. It's kind of tough coming up and finding a wife in that condition. Yes. Can't figure Dr. Cross his treatment. I keep the poor guy from seeing his wife. I think it would help snap her out of it if she saw more of him. Dr. Cross doesn't want to get her excited. After all the attack was brought on by worry over him. Yeah. Close.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Shock' (1946), dialogue centers on \"You don't have no more blood, I'd like to relax with me, do you? That's what I thought you'd say. Coffee? Please. And poor Edward's east...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "shock_scene_3",
+      "movie_id": "shock",
+      "scene_number": 3,
+      "start_timecode": "00:32:34",
+      "end_timecode": "00:32:52",
+      "start_seconds": 1954.8400000000001,
+      "end_seconds": 1972.24,
+      "duration_seconds": 17.399999999999977,
+      "video_filename": "shock_scene_3_17s_1080p.mp4",
+      "keyframe_filename": "shock_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/shock_scene_3_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/shock_scene_3_thumb.jpg",
+      "transcription": "Bye, Mr. Everett. You shouldn't be in here. Come out. Take your back. Don't worry.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by cigarette smoke, low-key chiaroscuro.",
+      "synopsis": "In a melancholic exchange from 'Shock' (1946), dialogue centers on \"Bye, Mr. Everett. You shouldn't be in here. Come out. Take your back. Don't worry.\" framed against cigarette smoke, low-key chiaroscuro.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "low-key chiaroscuro",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "cigarette smoke",
+        "low-key chiaroscuro",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "WhisperingCity_scene_1",
+      "movie_id": "WhisperingCity",
+      "scene_number": 1,
+      "start_timecode": "00:23:46",
+      "end_timecode": "00:24:16",
+      "start_seconds": 1426.0,
+      "end_seconds": 1456.43043,
+      "duration_seconds": 30.43043,
+      "video_filename": "WhisperingCity_scene_1_30s_1080p.mp4",
+      "keyframe_filename": "WhisperingCity_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WhisperingCity_scene_1_30s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WhisperingCity_scene_1_thumb.jpg",
+      "transcription": "You should be there, you must be, you must be, you must be, you must be, you must be.",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Whispering City (1947)' (1950), dialogue centers on \"You should be there, you must be, you must be, you must be, you must be, you must be.\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "WhisperingCity_scene_2",
+      "movie_id": "WhisperingCity",
+      "scene_number": 2,
+      "start_timecode": "00:24:32",
+      "end_timecode": "00:24:56",
+      "start_seconds": 1472.546547,
+      "end_seconds": 1496.27027,
+      "duration_seconds": 23.723723,
+      "video_filename": "WhisperingCity_scene_2_23s_1080p.mp4",
+      "keyframe_filename": "WhisperingCity_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WhisperingCity_scene_2_23s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WhisperingCity_scene_2_thumb.jpg",
+      "transcription": "Mr. Frederick, I was just thinking of you. And I was just thinking of having lunch at the shuttle comp now. May I have the pleasure of your company? All right, but just give me a few minutes to make myself presentable. Suppose we meet on the terrace in 15 minutes. Perfect.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Whispering City (1947)' (1950), dialogue centers on \"Mr. Frederick, I was just thinking of you. And I was just thinking of having lunch at the shuttle comp now. May I have the pleasure of...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "WhisperingCity_scene_3",
+      "movie_id": "WhisperingCity",
+      "scene_number": 3,
+      "start_timecode": "00:38:03",
+      "end_timecode": "00:38:53",
+      "start_seconds": 2283.557558,
+      "end_seconds": 2333.340674,
+      "duration_seconds": 49.783116000000064,
+      "video_filename": "WhisperingCity_scene_3_49s_1080p.mp4",
+      "keyframe_filename": "WhisperingCity_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/WhisperingCity_scene_3_49s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/WhisperingCity_scene_3_thumb.jpg",
+      "transcription": "Blanche the cost. Cause of death probably an overdose of sleeping medicine. When can we get to chemical analysis? Right. Let me know as soon as you can. What time did she die, Inspector? Approximately midnight. And, uh, what kind of drug did she use? Analysis is being made now. Shouldn't know this afternoon. And the heart is lasting.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Whispering City (1947)' (1950), dialogue centers on \"Blanche the cost. Cause of death probably an overdose of sleeping medicine. When can we get to chemical analysis? Right. Let me know as...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
         "fatalistic"
       ]
     }
