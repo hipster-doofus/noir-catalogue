@@ -1,5 +1,19 @@
+# Temporary processing directories
 temp_workspace/
 temp_reanalyze/
 new_files_from_gemini/
+ingest_clips/
+
+# Secrets & Environment
+.env
+.env.*
+
+# Python artifacts & environments
 *.pyc
 __pycache__/
+venv/
+.venv/
+
+# OS artifacts
+Thumbs.db
+.DS_Store
