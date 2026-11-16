@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T05:30:29.289999+00:00",
+  "updated_at": "2026-11-16T07:13:31.253464+00:00",
   "total_movies": 108,
-  "total_scenes": 489,
+  "total_scenes": 477,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -2547,112 +2547,6 @@
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/hellsisland1955_scene_5_thumb.jpg"
     },
     {
-      "scene_id": "thekillerthatstalkednewyork1950_scene_1",
-      "movie_id": "thekillerthatstalkednewyork1950",
-      "scene_number": 1,
-      "start_timecode": "00:23:37",
-      "end_timecode": "00:23:55",
-      "start_seconds": 1417.0,
-      "end_seconds": 1435.643625,
-      "duration_seconds": 18.643625,
-      "video_filename": "thekillerthatstalkednewyork1950_scene_1_18s_1080p.mp4",
-      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_1_thumb.jpg",
-      "transcription": "The circle of friends is a person with smallpox. Find that person when we stop the disease and its tracks. Good morning. Well, got something for you today.",
-      "visual_description": "Sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ],
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillerthatstalkednewyork1950_scene_1_18s_1080p.mp4",
-      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillerthatstalkednewyork1950_scene_1_thumb.jpg"
-    },
-    {
-      "scene_id": "thekillerthatstalkednewyork1950_scene_2",
-      "movie_id": "thekillerthatstalkednewyork1950",
-      "scene_number": 2,
-      "start_timecode": "00:23:55",
-      "end_timecode": "00:25:36",
-      "start_seconds": 1435.643625,
-      "end_seconds": 1536.36925,
-      "duration_seconds": 100.725625,
-      "video_filename": "thekillerthatstalkednewyork1950_scene_2_100s_1080p.mp4",
-      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_2_thumb.jpg",
-      "transcription": "Oh, Mr. Crane. Mr. Crane, how about that cheese special? Look, it comes in a painted glass, and when it's empty, it goes right into my wife's body. You can use it as a... What's your name? Not now. Tomorrow. The fellow who sells the most this month gets a gold button. Are you mad? Yeah. Did it come? No. Tomorrow. Sure, honey. Tomorrow. I don't get up. Just rest there.",
-      "visual_description": "Sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ],
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillerthatstalkednewyork1950_scene_2_100s_1080p.mp4",
-      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillerthatstalkednewyork1950_scene_2_thumb.jpg"
-    },
-    {
-      "scene_id": "thekillerthatstalkednewyork1950_scene_3",
-      "movie_id": "thekillerthatstalkednewyork1950",
-      "scene_number": 3,
-      "start_timecode": "00:25:36",
-      "end_timecode": "00:26:28",
-      "start_seconds": 1536.36925,
-      "end_seconds": 1588.4212499999999,
-      "duration_seconds": 52.052,
-      "video_filename": "thekillerthatstalkednewyork1950_scene_3_52s_1080p.mp4",
-      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_3_thumb.jpg",
-      "transcription": "I'm going out for one of you. I'm not very good company. No company. Oh, uh, nothing gets you medicine. We'd appreciate your calling us if anything like that comes along.",
-      "visual_description": "Sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ],
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillerthatstalkednewyork1950_scene_3_52s_1080p.mp4",
-      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillerthatstalkednewyork1950_scene_3_thumb.jpg"
-    },
-    {
-      "scene_id": "shockproof1949_scene_1",
-      "movie_id": "shockproof1949",
-      "scene_number": 1,
-      "start_timecode": "00:26:42",
-      "end_timecode": "00:30:03",
-      "start_seconds": 1602.0,
-      "end_seconds": 1803.6,
-      "duration_seconds": 201.6,
-      "video_filename": "shockproof1949_scene_1_201s_1080p.mp4",
-      "keyframe_filename": "shockproof1949_scene_1_thumb.jpg",
-      "transcription": "Well, there's her, anybody's. My mother doesn't know. I'm like, you are about bar. She doesn't care. Anybody I bring home is okay. And that story about being married. What was that for? Freedom might make a pass at you. I always say that. To the female parellis. Sure, if I'm asked, why not? You didn't have to. Believe me, it wasn't necessary. I didn't think it was. It's a regular procedure in the office. Regulation 86B. Then the better fix the regulation. Makes a liar out of you. And a liar's a bad example for the weak characters you deal with. Jenny, please try to get that chip off your shoulder. I'm the one that stopped kidding each other. I want to talk straight to you. You're different, Jenny. You have a promising life ahead of you, Phil. I know. If I keep away from Harry Wesson. But why can't you? It isn't complicated. How would you feel if somebody had waited five years just for you? Are you sure he did? Yes. He's the only man who's ever really kind to me. He was patient and kind. Taught me what folk to use. How to dress correctly. How to speak correctly. Everything but how to think correctly. You'd do a great deal for Harry Wesson, wouldn't you? Yes, I'd do anything for him. You did. You even killed for him. That's right. I did. Thank you, sir. Oh, grip. Yeah. What about Jenny Marsh? And what about her? You've been trying to land her a job for more than a week. I checked. Four employers turned her down flat as soon as they learned she was a violator. Yeah, well, she's got a job. No kidding. I had to find her one where Harry Wesson couldn't get to her. I found it. She lives where she works. She eats their sleeves there. She gets 100 a month one day off a week. And she reports to me every day. What's the job? Taking care of a blind woman. Say, get easy. Hi. Home already? Have a good workout? Yeah. Where's everybody? Mom went to bed. She's tired. Jenny's somewhere. Oh. Okay, ma'am. That's true. Oh, hello. Hello. I thought this was your night of the why. Why was there? Uh, uh, mourning somebody? I found to see what time a movie went on. Your mother said she wouldn't need me. Oh. Why? Did you think I was calling Harry Wesson? I didn't think you were. I was just... Is that why you got me this job here so you could spy on me? I'm not spying on you, Jenny. It's my job to check on you. You're making it more than that because of Harry. That's not true. Isn't it? Okay, I admit that. Because he loves me and wants to be with me. What's wrong with that? He doesn't love anybody but himself. He's done everything for me. He gives you things with money he never earned. Without denying himself anything. You don't know what love is. And you, teacher. Do you know? Uh-oh. Not from experience, but I've imagined it differently. When you fall in love, really in love, I think you'd know it for sure. A man would feel for the first time a wonderful life could be. When he has someone to share it with. And he'd want to give her the good things of life, not just the trimmings.",
-      "visual_description": "Sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Shockproof [1949] Dir.Douglas Sirk, Starring Cornel Wilde, Patricia Knight' (1951).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
       "scene_id": "shockproof1949_scene_2",
       "movie_id": "shockproof1949",
       "scene_number": 2,
@@ -3787,59 +3681,6 @@
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/The_Amazing_Transparent_Man.avi_scene_5_thumb.jpg"
     },
     {
-      "scene_id": "PhantomPlanet_286_scene_1",
-      "movie_id": "PhantomPlanet_286",
-      "scene_number": 1,
-      "start_timecode": "00:18:50",
-      "end_timecode": "00:19:14",
-      "start_seconds": 1130.0,
-      "end_seconds": 1154.066852,
-      "duration_seconds": 24.066852,
-      "video_filename": "PhantomPlanet_286_scene_1_24s_1080p.mp4",
-      "keyframe_filename": "PhantomPlanet_286_scene_1_thumb.jpg",
-      "transcription": "Oh, no! Oh, no!",
-      "visual_description": "Sequence from 'The Phantom Planet' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Phantom Planet' (1961).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ],
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/PhantomPlanet_286_scene_1_24s_1080p.mp4"
-    },
-    {
-      "scene_id": "PhantomPlanet_286_scene_2",
-      "movie_id": "PhantomPlanet_286",
-      "scene_number": 2,
-      "start_timecode": "00:19:14",
-      "end_timecode": "00:19:17",
-      "start_seconds": 1154.066852,
-      "end_seconds": 1157.576602,
-      "duration_seconds": 3.50975,
-      "video_filename": "PhantomPlanet_286_scene_2_3s_1080p.mp4",
-      "keyframe_filename": "PhantomPlanet_286_scene_2_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Phantom Planet' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Phantom Planet' (1961).",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ],
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/PhantomPlanet_286_scene_2_3s_1080p.mp4",
-      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/PhantomPlanet_286_scene_2_thumb.jpg"
-    },
-    {
       "scene_id": "y-2-mate.is-zaat-1971-hollywood-movie-k-8o-6-smgu-1-xu-720p-1629089739223_scene_1",
       "movie_id": "y-2-mate.is-zaat-1971-hollywood-movie-k-8o-6-smgu-1-xu-720p-1629089739223",
       "scene_number": 1,
@@ -4783,60 +4624,6 @@
       ],
       "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/ABoyAndHisDog1975FullHD_scene_5_19s_1080p.mp4",
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/ABoyAndHisDog1975FullHD_scene_5_thumb.jpg"
-    },
-    {
-      "scene_id": "ThePhantomPlanet_scene_1",
-      "movie_id": "ThePhantomPlanet",
-      "scene_number": 1,
-      "start_timecode": "00:16:31",
-      "end_timecode": "00:19:14",
-      "start_seconds": 991.0,
-      "end_seconds": 1154.010842,
-      "duration_seconds": 163.010842,
-      "video_filename": "ThePhantomPlanet_scene_1_163s_1080p.mp4",
-      "keyframe_filename": "ThePhantomPlanet_scene_1_thumb.jpg",
-      "transcription": "Frank! Caroline's broken. Frank! Oh father, who art in heaven. Hammer wouldn't be thy king. With all respect to the Colonel, sir, I don't think it's in use. Keep working that radar and keep working it. There we locate chap. Yes, sir. He's gotta be out there somewhere. He just has to be. Ray. Ray. Lieutenant McConan. Oh, no.",
-      "visual_description": "Sequence from 'The Phantom Planet' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Phantom Planet' (1961).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ],
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/ThePhantomPlanet_scene_1_163s_1080p.mp4",
-      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/ThePhantomPlanet_scene_1_thumb.jpg"
-    },
-    {
-      "scene_id": "ThePhantomPlanet_scene_2",
-      "movie_id": "ThePhantomPlanet",
-      "scene_number": 2,
-      "start_timecode": "00:19:14",
-      "end_timecode": "00:19:17",
-      "start_seconds": 1154.010842,
-      "end_seconds": 1157.513761,
-      "duration_seconds": 3.502919,
-      "video_filename": "ThePhantomPlanet_scene_2_3s_1080p.mp4",
-      "keyframe_filename": "ThePhantomPlanet_scene_2_thumb.jpg",
-      "transcription": "You",
-      "visual_description": "Sequence from 'The Phantom Planet' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Phantom Planet' (1961).",
-      "mood": "Tense / Suspense",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ],
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/ThePhantomPlanet_scene_2_3s_1080p.mp4",
-      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/ThePhantomPlanet_scene_2_thumb.jpg"
     },
     {
       "scene_id": "TheDayTheEarthCaughtFire1961_scene_1",
@@ -8187,31 +7974,6 @@
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/ThePostmanAlwaysRingsTwiceTrailer_scene_2_thumb.jpg"
     },
     {
-      "scene_id": "ThePostmanAlwaysRingsTwiceTrailer_scene_3",
-      "movie_id": "ThePostmanAlwaysRingsTwiceTrailer",
-      "scene_number": 3,
-      "start_timecode": "00:10:17",
-      "end_timecode": "00:12:39",
-      "start_seconds": 617.707,
-      "end_seconds": 759.749,
-      "duration_seconds": 142.042,
-      "video_filename": "ThePostmanAlwaysRingsTwiceTrailer_scene_3_142s_1080p.mp4",
-      "keyframe_filename": "ThePostmanAlwaysRingsTwiceTrailer_scene_3_thumb.jpg",
-      "transcription": "There's one thing we could do to him. It looks like everything for us. What? Pray for something to happen to Nick? Something like that. Car? Well, you suggested it yourself once, didn't you? I was only joking. Where are you? Yes, I was. Well, had you started to think about it, little? Maybe I said it, but I didn't really mean it. Well, I say it again now and I do mean it. Frank, Frank, listen to me. I'm not what you think I am. I've made a big mistake in my life and I've got to be this way just once to fix it. Hey, hang here for a thing like that. Well, but not if you do it right, and you're smart, Frank, you'll think of a way plenty of men have. You never did any harm to me? Darling, can't you see how happy you and I would be together here without him? I've been waiting a long time for that trip. When we get home, Frank, then there'll be kisses. The kisses would bring in the same love. The kisses that come from the lives are not there. I hope I can wait. It's done. Frank, look out!",
-      "visual_description": "Sequence from 'The Postman Always Rings Twice Trailer' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Postman Always Rings Twice Trailer' (1950).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "film noir",
-        "black and white"
-      ]
-    },
-    {
       "scene_id": "ThePostmanAlwaysRingsTwiceTrailer_scene_4",
       "movie_id": "ThePostmanAlwaysRingsTwiceTrailer",
       "scene_number": 4,
@@ -9994,31 +9756,6 @@
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/05516Tbtx_scene_5_thumb.jpg"
     },
     {
-      "scene_id": "CaptainZero-AtillaTheHun_scene_1",
-      "movie_id": "CaptainZero-AtillaTheHun",
-      "scene_number": 1,
-      "start_timecode": "00:09:17",
-      "end_timecode": "00:12:54",
-      "start_seconds": 557.0,
-      "end_seconds": 774.1169,
-      "duration_seconds": 217.1169,
-      "video_filename": "CaptainZero-AtillaTheHun_scene_1_217s_1080p.mp4",
-      "keyframe_filename": "CaptainZero-AtillaTheHun_scene_1_thumb.jpg",
-      "transcription": "Look here they come, even as the sand of the desert covers all in its path. So shall the Huns blanket the cities of the earth. Those who dare to resist will learn why they call me the scourge of God. Yeah, but Rome has been in power for centuries. A grandeur of Rome. Already the emperors of both the East and the West pay homage to Atalada Hun. Now they will give up their crowns or I take him, still on their heads. As another Hun will rule the world or strike the bones of its people over the face of the house. You seem certain the men will follow you. Even as you would have come, the sword. Do I not have the sword of Mars? Yeah, it is true. In whose ever reign the sword of Mars is found. He shall rule the world. Both that I had such a weapon. It is not for the likes of you with a car. Go. Prepare them in for battle. Yeah, my lord. I will await this arm alone. Come! They will follow the sword of Mars. Well, that boy is really tough. One of the toughest in history. What's all this business about a sword? You mean the sword of Mars? Yeah. Well, you know that Mars was the ancient Roman god of war. Yeah. Seeing that ancient times, Mars lost his sword. And according to an old city and legend, in his ever reign, the sword of Mars is found. That king shall rule the world. Now, all the Huns believed the legend. And that's one reason they followed Atalada. Well, the sword like that in his hand, I'd be persuaded to follow him myself. Boy, you going to shut down the time machine, Captain? No, I want you to materialize me back to the tent of Atalada Huns. What? Something strange happened this night, micro, causing fear in the camp of Atalada. And I intend to find out what it was. Now, wait a minute, Captain, that Atalada just as soon will lock your head off and look at you. Stand by and activate the materialization chamber. Yes, sir. It's going to be mighty lonelier out here without you, Captain. I can take care of myself. Wait a minute, Captain. It's pretty.",
-      "visual_description": "Sequence from 'Captain Z-ro - Atilla The Hun' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'Captain Z-ro - Atilla The Hun' (1955).",
-      "mood": "Paranoid",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
-    },
-    {
       "scene_id": "CaptainZero-AtillaTheHun_scene_2",
       "movie_id": "CaptainZero-AtillaTheHun",
       "scene_number": 2,
@@ -10125,31 +9862,6 @@
       ],
       "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CaptainZero-AtillaTheHun_scene_5_1s_1080p.mp4",
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CaptainZero-AtillaTheHun_scene_5_thumb.jpg"
-    },
-    {
-      "scene_id": "tbs5554477_scene_1",
-      "movie_id": "tbs5554477",
-      "scene_number": 1,
-      "start_timecode": "00:27:23",
-      "end_timecode": "00:28:16",
-      "start_seconds": 1643.6399999999999,
-      "end_seconds": 1696.92,
-      "duration_seconds": 53.28,
-      "video_filename": "tbs5554477_scene_1_53s_1080p.mp4",
-      "keyframe_filename": "tbs5554477_scene_1_thumb.jpg",
-      "transcription": "It's just the Chinese regime. What a guy. Routine, but full? Yeah. It's too close for comfort. There's going to be a long, hard journey. All right. Take a rest, everybody. Joshy. Joshy. How much per the sand? Well.",
-      "visual_description": "Sequence from 'The Bamboo Saucer' featuring dramatic lighting and atmospheric framing.",
-      "synopsis": "Dramatic character sequence from 'The Bamboo Saucer' (1968).",
-      "mood": "Fatalistic",
-      "noir_tropes": [
-        "low-key lighting",
-        "cynical dialogue",
-        "dramatic framing"
-      ],
-      "tags": [
-        "sci-fi",
-        "black and white"
-      ]
     },
     {
       "scene_id": "tbs5554477_scene_2",
@@ -14262,36 +13974,6 @@
         "cigarette smoke",
         "interrogation / standoff",
         "fatalistic"
-      ]
-    },
-    {
-      "scene_id": "laura_202003_scene_1",
-      "movie_id": "laura_202003",
-      "scene_number": 1,
-      "start_timecode": "00:28:16",
-      "end_timecode": "00:32:03",
-      "start_seconds": 1696.0,
-      "end_seconds": 1923.227,
-      "duration_seconds": 227.227,
-      "video_filename": "laura_202003_scene_1_227s_1080p.mp4",
-      "keyframe_filename": "laura_202003_scene_1_thumb.jpg",
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/laura_202003_scene_1_227s_1080p.mp4",
-      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/laura_202003_scene_1_thumb.jpg",
-      "transcription": "I was in love with you. Yes, Laura. I heard everything you said. I went to call for you. I'm sorry, Walter. And that reminds me. Old Mother Hubbard has something in the cupboard. The results of my private investigation about sterling character Mr. Shelby Copper. If I was doing so low, you only'd grade yourself, Walter. Did you know that he almost went to jail for passing rubber checks? That he was suspected of stealing his hostess jewels when he was a house guest of Virginia? Naturally, they'd suspect him. Because he isn't rich. Those only insinuations. The cheapest kind. These aren't only insinuations, my dear. There you are. Read them. What happened? I know his thoughts. A man can change, can't he? People are always ready to hold out a hand and slap you down. But never to pick you up. Alright, I'm helping Shelby. He's passed in his own affair. I only care about the present. Speaking of the change, Mr. Carpenter, the present tense, he's now running around with a model from your own office. Her name is Diane Redford. Disprising him that I thought I ever would be. I should have told you before. Shelby and I are going to be married next week. I believe you presented him with a cigarette case on his last birthday. Rather valuable, isn't it? Where did you get it? From the pawn shop where Diane Redford took it after he gave it to her. I don't believe it. He probably needed money and was too proud to borrow. Carpenter proud. Perhaps that's why the pawn ticket was in her name. Before this goes any further, I'll just... He isn't whole. He's dining at Anne Treadwells. He can't be. He asked me to do that. We'll cancel his appointment with her if you had accepted. He treats her other badly these days. And the future will say he isn't there. Why are you doing this? I know he won't. Alright. You'll see. You want to take this little bobble along, Casey is there? Can you hear me? I'm sorry Mrs. Treadwell is not home. We know, dear.",
-      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
-      "synopsis": "In a melancholic exchange from 'Laura (1944) Dir: Otto Preminger, Starring Gene Tierney, Dana Andrews, Clifton Webb, Vincent Price, Judith Anderson.' (1944), dialogue centers on \"I was in love with you. Yes, Laura. I heard everything you said. I went to call for you. I'm sorry, Walter. And that reminds me. Old...\" framed against femme fatale, interrogation / standoff.",
-      "mood": "Melancholic",
-      "noir_tropes": [
-        "femme fatale",
-        "interrogation / standoff",
-        "dutch angle framing"
-      ],
-      "tags": [
-        "film noir",
-        "femme fatale",
-        "interrogation / standoff",
-        "dutch angle framing",
-        "melancholic"
       ]
     },
     {
