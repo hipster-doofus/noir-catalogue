@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-16T07:13:31.253464+00:00",
-  "total_movies": 108,
-  "total_scenes": 477,
-  "genre": "film noir",
-  "source": "Internet Archive",
+  "updated_at": "2026-11-16T07:41:59.465581+00:00",
+  "total_movies": 111,
+  "total_scenes": 486,
+  "genre": "sci-fi",
+  "source": "Any / Blended",
   "category": "feature_films",
   "movies": [
     {
@@ -1085,6 +1085,36 @@
       "video_url": "https://archive.org/download/WhisperingCity/WhisperingCity1947.mp4",
       "license": "Open Archive",
       "description": "A reporter hears that a famous actress is dying in a hospital after being hit by a car. She goes to the hospital to interview the actress, who tells the reporter that her wealthy fiance, who was killed in an accident several years before, was actually murdered. Before long the reporter finds herself in a web of corruption, mental illness and murder."
+    },
+    {
+      "title": "The Phantom Empire",
+      "year": 1940,
+      "director": "Unknown Director",
+      "archive_id": "The_Phantom_Empire_1935",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/The_Phantom_Empire_1935/The_Phantom_Empire_1935.mp4",
+      "license": "Open Archive",
+      "description": "This movie is based on the movie serial . From IMDb : Cowboy singer Gene Autry stumbles upon a civilization buried beneath his own Radio Ranch. The Muranians have developed technology and weaponry such as television and ray guns. Their rich supply of radium draws unscrupulous speculators from the surface. The peaceful civilization of the Muranians is corrupted by the greed from above, and it becomes Autry's task to prevent all-out war, ideally without disrupting his regular radio show. Stars: Gene Autry, Frankie Darro, Betsy King Ross, and Dorothy Christy IMDb Page AKA Radio Ranch"
+    },
+    {
+      "title": "REVISED-Shocker Internet Drive In Week 7 REDO - Vampires",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "Revised-shockerInternetDriveInWeek7Redo-Vampires",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/Revised-shockerInternetDriveInWeek7Redo-Vampires/week_7_redo.mp4",
+      "license": "Open Archive",
+      "description": "Since it was decided that the \"Incredible Two Headed Transplant\" was copyrighted and my previous version of Week 7 was deleted, I took some advice and created a new presentation. This new feature is a mini vampire festival. It has \"Grave of the Vampire\" from my original Week 7, but I included a bunch of Hammer movie trailers for various Dracula flicks. So, this is not a double feature, just some trailers, a Bugs Bunny cartoon, some nifty advertisements and \"Grave of the Vampire\"! For those of you lucky enough to have downloaded the original Week 7, consider yourself blessed; and, the rest of you - enjoy our REVISED Shocker Internet Drive In Week 7 REDO. Confused? Don't sweat it - just visit http://shockerdrivein.freeoda.com/"
+    },
+    {
+      "title": "Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) (English Subtitles)",
+      "year": 1955,
+      "director": "Unknown Director",
+      "archive_id": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul",
+      "source_provider": "Any / Blended",
+      "video_url": "https://archive.org/download/UcanDairelerIstanbuldaflyingSaucersOverIstanbul/FlyingSaucersOverIstanbulenglishSubs.mp4",
+      "license": "Open Archive",
+      "description": "Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) is a Turkish sci-fi comedy from 1955. It's recommended for fans of old Turkish movies and psychotronic cult films. It has a quite different feel than the more familiar superhero films from the country like Kilink Istanbulda, etc. It more closely resembles something like Abbot and Costello On Mars, with the addition of belly dancing. There are leotard-clad female aliens, a Plan 9-style spaceship, a Marilyn Monroe imitator. and a robot made out of a cardboard box. The leader of the female aliens tries her hand at interpretive dance. The plot, or what I can discern of it, involves a club founded by older unattractive wealthy women. The club uses sexy belly dancing to lure men in, then the womenfolk attempt to have their way with them. There are files with and without subtitles. It was directed by Orhan Ersin, and stars Orhan Ersin, Zafer Onen, Halide Piskin, Semiramis Guze, Ozcan Tekgul and Mirella Monro. I especially like the credit sequence- the featured dancer is unbearably cute. Give this a try- it's odd and interesting."
     }
   ],
   "scenes": [
@@ -14153,6 +14183,276 @@
         "fedora & trenchcoat",
         "femme fatale",
         "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "The_Phantom_Empire_1935_scene_1",
+      "movie_id": "The_Phantom_Empire_1935",
+      "scene_number": 1,
+      "start_timecode": "00:26:25",
+      "end_timecode": "00:26:41",
+      "start_seconds": 1585.980296,
+      "end_seconds": 1601.004926,
+      "duration_seconds": 15.024630000000002,
+      "video_filename": "The_Phantom_Empire_1935_scene_1_15s_1080p.mp4",
+      "keyframe_filename": "The_Phantom_Empire_1935_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/The_Phantom_Empire_1935_scene_1_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/The_Phantom_Empire_1935_scene_1_thumb.jpg",
+      "transcription": "It's time to be on the air. Why don't we do?",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, nightclub / jazz bar.",
+      "synopsis": "In a melancholic exchange from 'The Phantom Empire' (1940), dialogue centers on \"It's time to be on the air. Why don't we do?\" framed against femme fatale, nightclub / jazz bar.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "nightclub / jazz bar",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "The_Phantom_Empire_1935_scene_2",
+      "movie_id": "The_Phantom_Empire_1935",
+      "scene_number": 2,
+      "start_timecode": "00:28:23",
+      "end_timecode": "00:28:43",
+      "start_seconds": 1703.344828,
+      "end_seconds": 1723.0492610000001,
+      "duration_seconds": 19.704432999999995,
+      "video_filename": "The_Phantom_Empire_1935_scene_2_19s_1080p.mp4",
+      "keyframe_filename": "The_Phantom_Empire_1935_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/The_Phantom_Empire_1935_scene_2_19s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/The_Phantom_Empire_1935_scene_2_thumb.jpg",
+      "transcription": "On to the show folks, yesterday when you cleaned out our radio show, the Thunder Riders were riding to the rescue. Well here's what happened after that.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Phantom Empire' (1940), dialogue centers on \"On to the show folks, yesterday when you cleaned out our radio show, the Thunder Riders were riding to the rescue. Well here's what...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "The_Phantom_Empire_1935_scene_3",
+      "movie_id": "The_Phantom_Empire_1935",
+      "scene_number": 3,
+      "start_timecode": "00:33:54",
+      "end_timecode": "00:34:50",
+      "start_seconds": 2034.995074,
+      "end_seconds": 2090.29064,
+      "duration_seconds": 55.29556600000001,
+      "video_filename": "The_Phantom_Empire_1935_scene_3_55s_1080p.mp4",
+      "keyframe_filename": "The_Phantom_Empire_1935_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/The_Phantom_Empire_1935_scene_3_55s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/The_Phantom_Empire_1935_scene_3_thumb.jpg",
+      "transcription": "with the field of our mission, after them.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'The Phantom Empire' (1940), dialogue centers on \"with the field of our mission, after them.\" framed against telephone / late-night call, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_1",
+      "movie_id": "Revised-shockerInternetDriveInWeek7Redo-Vampires",
+      "scene_number": 1,
+      "start_timecode": "00:34:05",
+      "end_timecode": "00:34:19",
+      "start_seconds": 2045.2,
+      "end_seconds": 2059.8,
+      "duration_seconds": 14.599999999999909,
+      "video_filename": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_1_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, telephone / late-night call.",
+      "synopsis": "An atmospheric 15-second sequence from 'REVISED-Shocker Internet Drive In Week 7 REDO - Vampires' (1950) driven by fedora & trenchcoat, telephone / late-night call and a paranoid tone.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "cigarette smoke",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_2",
+      "movie_id": "Revised-shockerInternetDriveInWeek7Redo-Vampires",
+      "scene_number": 2,
+      "start_timecode": "00:34:41",
+      "end_timecode": "00:34:54",
+      "start_seconds": 2081.9,
+      "end_seconds": 2094.9,
+      "duration_seconds": 13.0,
+      "video_filename": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_2_13s_1080p.mp4",
+      "keyframe_filename": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_2_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by cigarette smoke, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 13-second sequence from 'REVISED-Shocker Internet Drive In Week 7 REDO - Vampires' (1950) driven by cigarette smoke, fedora & trenchcoat and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_3",
+      "movie_id": "Revised-shockerInternetDriveInWeek7Redo-Vampires",
+      "scene_number": 3,
+      "start_timecode": "00:35:07",
+      "end_timecode": "00:35:19",
+      "start_seconds": 2107.3,
+      "end_seconds": 2119.9,
+      "duration_seconds": 12.600000000000023,
+      "video_filename": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_3_12s_1080p.mp4",
+      "keyframe_filename": "Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_3_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Revised-shockerInternetDriveInWeek7Redo-Vampires_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by dutch angle framing, telephone / late-night call.",
+      "synopsis": "An atmospheric 13-second sequence from 'REVISED-Shocker Internet Drive In Week 7 REDO - Vampires' (1950) driven by dutch angle framing, telephone / late-night call and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_1",
+      "movie_id": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul",
+      "scene_number": 1,
+      "start_timecode": "00:21:50",
+      "end_timecode": "00:22:03",
+      "start_seconds": 1310.8,
+      "end_seconds": 1323.52,
+      "duration_seconds": 12.720000000000013,
+      "video_filename": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_1_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_1_thumb.jpg",
+      "transcription": "Or do you want to change that? Do you want to change that? Alright? Let's go, relax. What? Why are you doing that? I'm sorry, I didn't tell you how it was supposed to be. But finish this, I'm not a good man, sir.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by nightclub / jazz bar, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) (English Subtitles)' (1955), dialogue centers on \"Or do you want to change that? Do you want to change that? Alright? Let's go, relax. What? Why are you doing that? I'm sorry, I didn't...\" framed against nightclub / jazz bar, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "nightclub / jazz bar",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_2",
+      "movie_id": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul",
+      "scene_number": 2,
+      "start_timecode": "00:22:15",
+      "end_timecode": "00:22:56",
+      "start_seconds": 1335.76,
+      "end_seconds": 1376.08,
+      "duration_seconds": 40.32000000000002,
+      "video_filename": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_2_40s_1080p.mp4",
+      "keyframe_filename": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_2_40s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_2_thumb.jpg",
+      "transcription": "I'm sorry, I'm sorry formalize, I don't have no seriously what I'm saying but it's contemplative",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) (English Subtitles)' (1955), dialogue centers on \"I'm sorry, I'm sorry formalize, I don't have no seriously what I'm saying but it's contemplative\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_3",
+      "movie_id": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul",
+      "scene_number": 3,
+      "start_timecode": "00:23:18",
+      "end_timecode": "00:24:07",
+      "start_seconds": 1398.76,
+      "end_seconds": 1447.12,
+      "duration_seconds": 48.360000000000014,
+      "video_filename": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_3_48s_1080p.mp4",
+      "keyframe_filename": "UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_3_48s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/UcanDairelerIstanbuldaflyingSaucersOverIstanbul_scene_3_thumb.jpg",
+      "transcription": "I",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Ucan Daireler Istanbulda (Flying Saucers Over Istanbul) (English Subtitles)' (1955), dialogue centers on \"I\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
         "fatalistic"
       ]
     }
