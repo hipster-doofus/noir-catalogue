@@ -1,0 +1,145 @@
+name: AI Clip Re-Analyzer & R2 DB Reconciliation
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'Task to Run'
+        required: true
+        default: 'reanalyze_r2'
+        type: choice
+        options:
+          - 'reanalyze_r2'
+          - 'ingest_local'
+          - 'cleanup_orphaned_db'
+          - 'cleanup_orphaned_db_dry_run'
+      ai_model:
+        description: 'AI Model for Analysis'
+        required: true
+        default: 'gemini-2.5-flash'
+        type: choice
+        options:
+          - 'gemini-2.5-flash'
+          - 'gemini-2.5-pro'
+          - 'hf-qwen'
+          - 'local-clip-whisper'
+      prompt_style:
+        description: 'Analysis Prompt Style'
+        required: true
+        default: 'cinematic_noir'
+        type: choice
+        options:
+          - 'cinematic_noir'
+          - 'technical_dp'
+          - 'archival_concise'
+      temperature:
+        description: 'Model Creativity / Temperature (0.0 - 1.0)'
+        required: true
+        default: '0.3'
+      batch_limit:
+        description: 'Max Clips to Process Per Run'
+        required: true
+        default: '20'
+      filter_mood:
+        description: 'Filter Existing Clips by Mood'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - 'all'
+          - 'Fatalistic'
+          - 'Melancholic'
+          - 'Tense'
+          - 'Paranoid'
+      update_main_scene:
+        description: 'Overwrite Main Scenes Table with New Analysis'
+        required: true
+        default: true
+        type: boolean
+      force_reanalyze:
+        description: 'Re-analyze Clips Already Scored by This Model/Style'
+        required: true
+        default: false
+        type: boolean
+      ingest_folder:
+        description: 'Local Folder Path (for ingest_local mode)'
+        required: false
+        default: 'ingest_clips'
+
+permissions:
+  contents: write
+
+jobs:
+  run-addon-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository (Lightweight)
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            *.py
+            *.txt
+            catalog.json
+            output/catalog.json
+            ingest_clips/*
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Cache Hugging Face & Whisper Models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: ${{ runner.os }}-hf-models-clip-whisper-v1
+          restore-keys: |
+            ${{ runner.os }}-hf-models-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install requests faster-whisper transformers pillow boto3 imageio-ffmpeg supabase google-genai
+
+      - name: Run Selected Task
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+          RUN_MODE: ${{ inputs.task || 'reanalyze_r2' }}
+          AI_MODEL: ${{ inputs.ai_model || 'gemini-2.5-flash' }}
+          PROMPT_STYLE: ${{ inputs.prompt_style || 'cinematic_noir' }}
+          TEMPERATURE: ${{ inputs.temperature || '0.3' }}
+          BATCH_LIMIT: ${{ inputs.batch_limit || '20' }}
+          FILTER_MOOD: ${{ inputs.filter_mood || 'all' }}
+          UPDATE_MAIN_SCENE: ${{ inputs.update_main_scene || 'true' }}
+          FORCE_REANALYZE: ${{ inputs.force_reanalyze || 'false' }}
+          INGEST_FOLDER: ${{ inputs.ingest_folder || 'ingest_clips' }}
+        run: |
+          TASK="${{ inputs.task || 'reanalyze_r2' }}"
+          if [ "$TASK" = "cleanup_orphaned_db" ]; then
+            python cleanup_orphaned_db.py
+          elif [ "$TASK" = "cleanup_orphaned_db_dry_run" ]; then
+            python cleanup_orphaned_db.py --dry-run
+          else
+            python analyze_existing_clips.py
+          fi
+
+      - name: Commit Updated Catalog (If Changed)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalog.json output/catalog.json 2>/dev/null || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "Sync catalog after DB reconciliation / AI analysis [skip ci]"
+          git push origin HEAD || true

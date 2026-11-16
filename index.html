@@ -37,7 +37,7 @@
   <main class="max-w-7xl mx-auto px-6 py-10 w-full">
     <!-- Hero Title -->
     <div class="text-center max-w-3xl mx-auto mb-12">
-      <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-wider mb-4">SHADOWS, SMOKE & DEAD ENDS</h1>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-wider mb-4">SHADOWS, SMOKE &amp; DEAD ENDS</h1>
       <p class="text-sm md:text-base text-gray-400 italic">
         “Fate stepped in and put the screws on.” — Curated classic scenes indexed with AI cut detection, speech transcription &amp; mood analysis.
       </p>
@@ -72,19 +72,66 @@
     </div>
   </main>
 
-  <!-- Video Modal Player -->
-  <div id="video-modal" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4">
-    <div class="max-w-4xl w-full bg-gray-900 border border-gray-800 rounded-xl overflow-hidden shadow-2xl relative">
+  <!-- Video Modal Player with Multi-Model AI Comparison -->
+  <div id="video-modal" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4 overflow-y-auto">
+    <div class="max-w-4xl w-full bg-gray-900 border border-gray-800 rounded-xl overflow-hidden shadow-2xl relative my-auto max-h-[92vh] flex flex-col">
       <button type="button" id="close-modal-btn" class="absolute top-3 right-4 text-gray-400 hover:text-white text-2xl font-bold z-10">&times;</button>
-      <div class="aspect-video w-full bg-black">
+      
+      <div class="aspect-video w-full bg-black shrink-0">
         <video id="modal-player" controls crossorigin="anonymous" class="w-full h-full"></video>
       </div>
-      <div class="p-6">
-        <h3 id="modal-title" class="text-xl font-bold text-white mb-2"></h3>
-        <p id="modal-transcription" class="text-sm text-gray-300 italic mb-4"></p>
-        <div class="flex justify-between items-center">
-          <span id="modal-timecode" class="text-xs text-gray-500"></span>
-          <a id="modal-download" download href="#" target="_blank" rel="noopener" class="gold-bg text-black px-4 py-2 rounded text-xs font-bold uppercase tracking-wider hover:bg-yellow-500 transition">Download MP4</a>
+
+      <div class="p-6 overflow-y-auto">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-4">
+          <div>
+            <h3 id="modal-title" class="text-xl font-bold text-white mb-0.5"></h3>
+            <span id="modal-timecode" class="text-xs text-gray-500 font-mono"></span>
+          </div>
+          <button type="button" id="modal-download-btn" class="gold-bg text-black px-4 py-2 rounded text-xs font-bold uppercase tracking-wider hover:bg-yellow-500 transition shadow flex items-center gap-1.5 shrink-0">
+            <span>Download MP4</span>
+            <span>↓</span>
+          </button>
+        </div>
+
+        <!-- AI Model Comparison Section -->
+        <div class="bg-black/50 border border-gray-800 rounded-lg p-4 mb-2">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-3 pb-3 border-b border-gray-800/80">
+            <div class="flex items-center gap-2">
+              <span class="text-xs uppercase tracking-wider font-bold gold-accent">AI Model Comparison</span>
+              <span id="modal-model-badge" class="text-[10px] bg-yellow-900/40 text-yellow-400 border border-yellow-700/50 px-2 py-0.5 rounded font-mono">Primary Index</span>
+            </div>
+            <div class="flex items-center gap-2 w-full sm:w-auto">
+              <label for="modal-model-select" class="text-xs text-gray-400 whitespace-nowrap">Model Run:</label>
+              <select id="modal-model-select" class="w-full sm:w-auto bg-gray-900 border border-gray-700 text-xs text-gray-200 rounded px-3 py-1.5 focus:outline-none focus:border-yellow-600 transition">
+                <option value="primary">Primary Scene Analysis (Default)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div>
+              <span class="text-[10px] uppercase tracking-wider text-gray-400 font-semibold block mb-1">Synopsis &amp; Narrative Beat</span>
+              <p id="modal-synopsis" class="text-xs text-gray-300 italic leading-relaxed"></p>
+            </div>
+
+            <div id="modal-visual-block">
+              <span class="text-[10px] uppercase tracking-wider text-gray-400 font-semibold block mb-1">Cinematography &amp; Visual Composition</span>
+              <p id="modal-visual" class="text-xs text-gray-300 leading-relaxed"></p>
+            </div>
+
+            <div>
+              <span class="text-[10px] uppercase tracking-wider text-gray-400 font-semibold block mb-1">Dialogue / Transcription</span>
+              <p id="modal-transcription" class="text-xs text-gray-300 bg-gray-950/70 p-3 rounded border border-gray-800/80 font-mono max-h-28 overflow-y-auto leading-relaxed"></p>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-gray-800/50">
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] text-gray-500 uppercase tracking-wider">Mood:</span>
+                <span id="modal-mood" class="text-[10px] font-bold bg-yellow-600/90 text-black px-2 py-0.5 rounded uppercase"></span>
+              </div>
+              <div id="modal-tropes" class="flex flex-wrap gap-1"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -97,11 +144,31 @@
   <script>
     const SUPABASE_URL = "https://tbtjnqthvdijepraqlvn.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_pLAWtrhug37M1sEX2uXORA_dHumFUli";
+    
+    // Inline dark-gold SVG fallback to replace third-party placeholder services
+    const NOIR_FALLBACK_SVG = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <rect width="640" height="360" fill="#0b0c10"/>
+  <rect x="16" y="16" width="608" height="328" rx="8" fill="#12141a" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.35"/>
+  <circle cx="320" cy="150" r="44" fill="none" stroke="#d4af37" stroke-width="2.5" stroke-opacity="0.8"/>
+  <circle cx="320" cy="150" r="14" fill="#d4af37" fill-opacity="0.2"/>
+  <circle cx="320" cy="122" r="5" fill="#d4af37"/>
+  <circle cx="320" cy="178" r="5" fill="#d4af37"/>
+  <circle cx="292" cy="150" r="5" fill="#d4af37"/>
+  <circle cx="348" cy="150" r="5" fill="#d4af37"/>
+  <polygon points="314,142 332,150 314,158" fill="#d4af37"/>
+  <text x="320" y="235" fill="#d4af37" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" letter-spacing="3" text-anchor="middle">FILM NOIR ARCHIVE</text>
+  <text x="320" y="260" fill="#71717a" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1.5" text-anchor="middle">SCENE KEYFRAME UNAVAILABLE</text>
+</svg>
+`.trim());
+
     let allScenes = [];
     let movieMetaMap = {};
     let activeMood = 'all';
     let supabaseConnected = false;
     let searchDebounce = null;
+    let activeModalScene = null;
+    let activeModalAnalyses = [];
 
     function escapeHTML(str) {
       return String(str || '').replace(/[&<>'"]/g, tag => ({
@@ -117,8 +184,63 @@
       const clipFile = scene.video_filename || scene.clip_filename || scene.filename || '';
       const videoUrl = scene.download_url || scene.video_url || (clipFile ? `./output/${clipFile}` : '#');
       const thumbFile = scene.keyframe_filename || scene.thumb_filename || (clipFile ? clipFile.replace('.mp4', '_thumb.jpg') : '');
-      const thumbUrl = scene.thumbnail_url || (thumbFile ? `./output/${thumbFile}` : 'https://via.placeholder.com/640x360/111827/d4af37?text=Keyframe+Missing');
+      const thumbUrl = scene.thumbnail_url || (thumbFile ? `./output/${thumbFile}` : NOIR_FALLBACK_SVG);
       return { clipFile, videoUrl, thumbUrl };
+    }
+
+    // Helper: downloads cross-origin video files via fetch -> Blob -> createObjectURL
+    async function downloadClip(url, filename) {
+      if (!url || url === '#' || url.startsWith('javascript:')) {
+        alert('Video stream URL is unavailable.');
+        return;
+      }
+      const cleanFilename = filename || url.split('/').pop().split('?')[0] || 'noir_scene.mp4';
+      try {
+        const res = await fetch(url, {
+          method: 'GET',
+          mode: 'cors'
+        });
+        if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+        const blob = await res.blob();
+        const blobUrl = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = blobUrl;
+        a.download = cleanFilename;
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => {
+          document.body.removeChild(a);
+          URL.revokeObjectURL(blobUrl);
+        }, 2000);
+      } catch (err) {
+        console.warn('Cross-origin blob fetch failed, falling back to direct open:', err);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = cleanFilename;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+    }
+
+    async function handleDownload(url, filename, buttonEl) {
+      if (!url || url === '#') return;
+      const originalHTML = buttonEl ? buttonEl.innerHTML : '';
+      if (buttonEl) {
+        buttonEl.disabled = true;
+        buttonEl.innerHTML = `<span class="inline-block animate-spin mr-1">⟳</span> Fetching Blob...`;
+      }
+      try {
+        await downloadClip(url, filename);
+      } finally {
+        if (buttonEl) {
+          buttonEl.disabled = false;
+          buttonEl.innerHTML = originalHTML;
+        }
+      }
     }
 
     async function loadVaultData() {
@@ -209,11 +331,12 @@
         card.innerHTML = `
           <div>
             <div class="scene-trigger relative aspect-video group cursor-pointer"
+                 data-scene-id="${escapeHTML(scene.scene_id || '')}"
                  data-video="${escapeHTML(videoUrl)}"
                  data-text="${escapeHTML(scene.synopsis || scene.transcription || '')}"
                  data-title="${escapeHTML(displayTitle)}"
                  data-tc="${escapeHTML(formatTC)}">
-              <img src="${escapeHTML(thumbUrl)}" alt="Scene Keyframe" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" onerror="this.src='https://via.placeholder.com/640x360/111827/d4af37?text=Film+Noir+Scene'">
+              <img src="${escapeHTML(thumbUrl)}" alt="Scene Keyframe" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" onerror="if(this.src!==NOIR_FALLBACK_SVG){this.onerror=null;this.src=NOIR_FALLBACK_SVG;}">
               <div class="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition flex items-center justify-center">
                 <div class="w-12 h-12 rounded-full bg-yellow-600/90 text-black flex items-center justify-center font-bold text-lg group-hover:scale-110 transition">▶</div>
               </div>
@@ -229,8 +352,10 @@
             </div>
           </div>
           <div class="px-5 pb-5 pt-0 flex justify-between items-center text-xs border-t border-gray-800/60 mt-2">
-            <span class="text-gray-500">TC: ${escapeHTML(formatTC)}</span>
-            <a href="${escapeHTML(videoUrl)}" download target="_blank" rel="noopener" class="text-yellow-500 hover:underline font-semibold flex items-center gap-1">Download MP4 ↓</a>
+            <span class="text-gray-500 font-mono">TC: ${escapeHTML(formatTC)}</span>
+            <button type="button" class="card-download-btn text-yellow-500 hover:text-yellow-400 hover:underline font-semibold flex items-center gap-1 transition" data-url="${escapeHTML(videoUrl)}" data-file="${escapeHTML(clipFile)}">
+              <span>Download MP4</span> <span>↓</span>
+            </button>
           </div>
         `;
         grid.appendChild(card);
@@ -239,7 +364,7 @@
 
     function formatMovieName(str) {
       if (!str) return 'Classic Noir';
-      return str.replace(/\.avi|\.mp4/gi, '').replace(/_/g, ' ').replace(/\w/g, c => c.toUpperCase());
+      return str.replace(/\.avi|\.mp4/gi, '').replace(/_/g, ' ').replace(/ \w/g, c => c.toUpperCase());
     }
 
     function formatSecondsToTimecode(sec) {
@@ -326,28 +451,148 @@
     }
 
     document.getElementById('scenes-grid').addEventListener('click', (e) => {
+      const dlBtn = e.target.closest('.card-download-btn');
+      if (dlBtn) {
+        e.preventDefault();
+        e.stopPropagation();
+        handleDownload(dlBtn.dataset.url, dlBtn.dataset.file, dlBtn);
+        return;
+      }
+
       const trigger = e.target.closest('.scene-trigger');
       if (!trigger) return;
-      openModal(
-        trigger.dataset.video,
-        trigger.dataset.text,
-        trigger.dataset.title,
-        trigger.dataset.tc
-      );
+      const sceneId = trigger.dataset.sceneId;
+      const scene = allScenes.find(s => String(s.scene_id) === String(sceneId)) || {
+        scene_id: sceneId,
+        video_url: trigger.dataset.video,
+        download_url: trigger.dataset.video,
+        synopsis: trigger.dataset.text,
+        transcription: trigger.dataset.text,
+        movie_title: trigger.dataset.title,
+        start_timecode: trigger.dataset.tc
+      };
+      openModal(scene);
     });
 
-    function openModal(url, text, title, timecode) {
+    async function openModal(scene) {
+      activeModalScene = scene;
+      activeModalAnalyses = [];
+
       const modal = document.getElementById('video-modal');
       const player = document.getElementById('modal-player');
-      player.src = url;
-      document.getElementById('modal-title').innerText = title || 'Scene Clip';
-      document.getElementById('modal-transcription').innerText = text ? `"${text}"` : '';
-      document.getElementById('modal-timecode').innerText = `Timecode: ${timecode || '00:00:00'}`;
-      document.getElementById('modal-download').href = url;
+      const select = document.getElementById('modal-model-select');
+
+      const { clipFile, videoUrl } = resolveMediaUrls(scene);
+      player.src = videoUrl;
+
+      const movieObj = scene.movies || movieMetaMap[scene.movie_id];
+      const displayTitle = scene.movie_title || (movieObj
+        ? `${movieObj.title}${movieObj.release_year ? ` (${movieObj.release_year})` : ''}`
+        : formatMovieName(scene.movie_id || clipFile));
+      const formatTC = scene.start_timecode || (scene.start_seconds ? formatSecondsToTimecode(scene.start_seconds) : '00:00:00');
+
+      document.getElementById('modal-title').innerText = displayTitle;
+      document.getElementById('modal-timecode').innerText = `Timecode: ${formatTC}`;
+
+      // Reset dropdown and display primary scene analysis
+      select.innerHTML = '<option value="primary">Primary Scene Analysis (Default)</option>';
+      applyAnalysisToModal(scene, 'primary');
+
       modal.classList.remove('hidden');
       modal.classList.add('flex');
       player.play().catch(() => {});
+
+      // Query public.scene_analyses for multi-model comparison runs
+      if (supabaseConnected && scene.scene_id) {
+        try {
+          const res = await fetch(`${SUPABASE_URL}/rest/v1/scene_analyses?scene_id=eq.${encodeURIComponent(scene.scene_id)}&order=created_at.desc`, {
+            headers: {
+              "apikey": SUPABASE_ANON_KEY,
+              "Authorization": `Bearer ${SUPABASE_ANON_KEY}`
+            }
+          });
+          if (res.ok) {
+            activeModalAnalyses = await res.json();
+            if (activeModalAnalyses && activeModalAnalyses.length > 0) {
+              activeModalAnalyses.forEach((item, idx) => {
+                const opt = document.createElement('option');
+                opt.value = `run_${idx}`;
+                const modelLabel = item.ai_model || item.ai_provider || 'AI Model';
+                const styleLabel = item.prompt_style ? ` [${item.prompt_style}]` : '';
+                opt.textContent = `${modelLabel}${styleLabel}`;
+                select.appendChild(opt);
+              });
+            }
+          }
+        } catch (e) {
+          console.warn('Could not query public.scene_analyses:', e);
+        }
+      }
     }
+
+    function applyAnalysisToModal(data, sourceKey) {
+      const badge = document.getElementById('modal-model-badge');
+      const synopsisEl = document.getElementById('modal-synopsis');
+      const visualEl = document.getElementById('modal-visual');
+      const visualBlock = document.getElementById('modal-visual-block');
+      const transcriptionEl = document.getElementById('modal-transcription');
+      const moodEl = document.getElementById('modal-mood');
+      const tropesEl = document.getElementById('modal-tropes');
+
+      if (sourceKey === 'primary') {
+        badge.innerText = 'Primary Index (Whisper + CLIP)';
+        badge.className = 'text-[10px] bg-yellow-900/40 text-yellow-400 border border-yellow-700/50 px-2 py-0.5 rounded font-mono';
+      } else {
+        const provider = data.ai_provider || 'ai';
+        const model = data.ai_model || 'model';
+        const temp = data.temperature !== undefined ? `T=${data.temperature}` : '';
+        badge.innerText = `${model} (${provider}${temp ? ` · ${temp}` : ''})`;
+        badge.className = 'text-[10px] bg-cyan-900/40 text-cyan-400 border border-cyan-700/50 px-2 py-0.5 rounded font-mono';
+      }
+
+      synopsisEl.innerText = data.synopsis || data.description || 'No synopsis recorded.';
+
+      if (data.visual_description) {
+        visualBlock.classList.remove('hidden');
+        visualEl.innerText = data.visual_description;
+      } else {
+        visualBlock.classList.add('hidden');
+      }
+
+      transcriptionEl.innerText = data.transcription ? `"${data.transcription}"` : '[Instrumental / Ambient soundtrack]';
+      moodEl.innerText = data.mood || 'Noir';
+
+      tropesEl.innerHTML = '';
+      const tropes = parseArray(data.noir_tropes);
+      if (tropes.length === 0) {
+        tropesEl.innerHTML = '<span class="text-[10px] text-gray-500 italic">No specific tropes tagged</span>';
+      } else {
+        tropes.forEach(t => {
+          const span = document.createElement('span');
+          span.className = 'text-[10px] bg-gray-800 text-gray-300 px-2 py-0.5 rounded';
+          span.innerText = t;
+          tropesEl.appendChild(span);
+        });
+      }
+    }
+
+    document.getElementById('modal-model-select').addEventListener('change', (e) => {
+      const val = e.target.value;
+      if (val === 'primary') {
+        if (activeModalScene) applyAnalysisToModal(activeModalScene, 'primary');
+      } else if (val.startsWith('run_')) {
+        const idx = parseInt(val.replace('run_', ''), 10);
+        const analysis = activeModalAnalyses[idx];
+        if (analysis) applyAnalysisToModal(analysis, val);
+      }
+    });
+
+    document.getElementById('modal-download-btn').addEventListener('click', () => {
+      if (activeModalScene) {
+        const { clipFile, videoUrl } = resolveMediaUrls(activeModalScene);
+        handleDownload(videoUrl, clipFile, document.getElementById('modal-download-btn'));
+      }
+    });
 
     function closeModal() {
       const modal = document.getElementById('video-modal');
@@ -356,11 +601,16 @@
       player.src = '';
       modal.classList.add('hidden');
       modal.classList.remove('flex');
+      activeModalScene = null;
+      activeModalAnalyses = [];
     }
 
     document.getElementById('close-modal-btn').addEventListener('click', closeModal);
     document.getElementById('video-modal').addEventListener('click', (e) => {
       if (e.target.id === 'video-modal') closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
     });
 
     loadVaultData();

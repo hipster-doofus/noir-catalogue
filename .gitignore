@@ -1,3 +1,5 @@
 temp_workspace/
+temp_reanalyze/
+new_files_from_gemini/
 *.pyc
 __pycache__/

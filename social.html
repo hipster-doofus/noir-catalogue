@@ -159,6 +159,18 @@
     const SUPABASE_URL = "https://tbtjnqthvdijepraqlvn.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_pLAWtrhug37M1sEX2uXORA_dHumFUli";
 
+    const NOIR_FALLBACK_SVG = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <rect width="640" height="360" fill="#0b0c10"/>
+  <rect x="16" y="16" width="608" height="328" rx="8" fill="#12141a" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.35"/>
+  <circle cx="320" cy="150" r="44" fill="none" stroke="#d4af37" stroke-width="2.5" stroke-opacity="0.8"/>
+  <circle cx="320" cy="150" r="14" fill="#d4af37" fill-opacity="0.2"/>
+  <polygon points="314,142 332,150 314,158" fill="#d4af37"/>
+  <text x="320" y="235" fill="#d4af37" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="700" letter-spacing="3" text-anchor="middle">FILM NOIR ARCHIVE</text>
+  <text x="320" y="260" fill="#71717a" font-family="'Inter', sans-serif" font-size="11" letter-spacing="1.5" text-anchor="middle">SCENE KEYFRAME UNAVAILABLE</text>
+</svg>
+`.trim());
+
     let catalog = [];
     let playlist = [];
     let activeClipIndex = null;
@@ -190,7 +202,7 @@
     function resolveThumbUrl(item) {
       const clipFile = item.video_filename || item.clip_filename || item.filename || '';
       const thumbFile = item.keyframe_filename || item.thumb_filename || (clipFile ? clipFile.replace('.mp4', '_thumb.jpg') : '');
-      return item.thumbnail_url || (thumbFile ? `./output/${thumbFile}` : 'https://via.placeholder.com/640x360/111827/d4af37?text=Noir+Scene');
+      return item.thumbnail_url || (thumbFile ? `./output/${thumbFile}` : NOIR_FALLBACK_SVG);
     }
 
     function formatTime(sec) {
@@ -261,7 +273,7 @@
         return `
           <div class="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden relative group hover:border-gray-700 transition flex flex-col justify-between cursor-pointer" onclick="selectClip(${idx})">
             <div class="relative aspect-video bg-black overflow-hidden">
-              <img src="${escapeHTML(thumbUrl)}" class="w-full h-full object-cover filter grayscale contrast-125 opacity-45 group-hover:opacity-65 transition" onerror="this.src='https://via.placeholder.com/640x360/111827/d4af37?text=Noir+Scene'">
+              <img src="${escapeHTML(thumbUrl)}" class="w-full h-full object-cover filter grayscale contrast-125 opacity-45 group-hover:opacity-65 transition" onerror="if(this.src!==NOIR_FALLBACK_SVG){this.onerror=null;this.src=NOIR_FALLBACK_SVG;}">
               
               <div class="absolute inset-0 p-3 flex flex-col justify-between pointer-events-none">
                 <span class="text-[10px] font-bold gold-accent uppercase tracking-wider bg-black/60 px-2 py-0.5 rounded w-max">${escapeHTML(item.mood || 'Noir')}</span>
