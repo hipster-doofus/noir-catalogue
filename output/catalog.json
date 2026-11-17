@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T09:30:47.136961+00:00",
-  "total_movies": 114,
-  "total_scenes": 495,
+  "updated_at": "2026-11-17T04:52:09.067840+00:00",
+  "total_movies": 117,
+  "total_scenes": 504,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1145,6 +1145,36 @@
       "video_url": "https://archive.org/download/fallenangel1945_202002/Fallen Angel (1945, USA) Featuring Alice Faye, Dana Andrews, Linda Darnell - Film Noir Full Movie.mp4",
       "license": "Open Archive",
       "description": "Fallen Angel is a 1945 film noir directed by Otto Preminger, with cinematography by Joseph LaShelle, who had also worked with Preminger on Laura a year before. The film features Alice Faye, Dana Andrews, Linda Darnell, and Charles Bickford. Wikipedia: https://en.wikipedia.org/wiki/Fallen_Angel_(1945_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Brute Force (1947) Burt Lancaster, Hume Cronyn, Charles Bickford",
+      "year": 1947,
+      "director": "Unknown Director",
+      "archive_id": "bruteforce1947_202003",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/bruteforce1947_202003/Brute Force (1947, USA) Featuring Burt Lancaster, Hume Cronyn and C. Bickford - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Brute Force is a 1947 American crime film noir directed by Jules Dassin, from a screenplay by Richard Brooks with cinematography by William H. Daniels. It stars Burt Lancaster, Hume Cronyn and Charles Bickford. \u00a0"
+    },
+    {
+      "title": "The Desperate Hours (1956) Humphrey Bogart, Fredric March",
+      "year": 1958,
+      "director": "Unknown Director",
+      "archive_id": "the-desperate-hours-1956",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/the-desperate-hours-1956/The Desperate Hours  (1956)  Humphrey Bogart, Fredric March.ia.mp4",
+      "license": "Open Archive",
+      "description": "The Desperate Hours is a 1955\u00a0 FILM NOlR starring Humphrey Bogart and Fredric March. It was produced and directed by William Wyler and based on the 1954 novel and 1955 play of the same name, written by Joseph Hayes, which were loosely built on actual events. \u00a0 You can find out more about this movie from Wikipedia . A digital transcript of the original New York Times review , written by legendary film critic Bosley Crowther, may still be available. There is also a good review of the movie from the movie blog\u00a0 D for Doom. \u00a0\u00a0"
+    },
+    {
+      "title": "Behind Locked Doors (1948) Richard Carlson, Lucille Bremer",
+      "year": 1948,
+      "director": "Unknown Director",
+      "archive_id": "behindlockeddoors1948_202002",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/behindlockeddoors1948_202002/Behind Locked Doors (1948, USA) Featuring Richard Carlson, Lucille Bremer - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Behind Locked Doors is a 1948 film noir directed by Budd Boetticher and starring Lucille Bremer, Richard Carlson and Tor Johnson. Carlson is often confused with actor Hugh Marlowe, to whom he bore a remarkable physical resemblance. Wikipedia: https://en.wikipedia.org/wiki/Behind_Locked_Doors Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -14754,6 +14784,276 @@
         "dutch angle framing",
         "femme fatale",
         "melancholic"
+      ]
+    },
+    {
+      "scene_id": "bruteforce1947_202003_scene_1",
+      "movie_id": "bruteforce1947_202003",
+      "scene_number": 1,
+      "start_timecode": "00:21:12",
+      "end_timecode": "00:21:30",
+      "start_seconds": 1272.207613,
+      "end_seconds": 1290.990483,
+      "duration_seconds": 18.782870000000003,
+      "video_filename": "bruteforce1947_202003_scene_1_18s_1080p.mp4",
+      "keyframe_filename": "bruteforce1947_202003_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/bruteforce1947_202003_scene_1_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/bruteforce1947_202003_scene_1_thumb.jpg",
+      "transcription": "Where are you going? I'm just here to Frank Wilson.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Brute Force (1947) Burt Lancaster, Hume Cronyn, Charles Bickford' (1947), dialogue centers on \"Where are you going? I'm just here to Frank Wilson.\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "bruteforce1947_202003_scene_2",
+      "movie_id": "bruteforce1947_202003",
+      "scene_number": 2,
+      "start_timecode": "00:22:51",
+      "end_timecode": "00:23:38",
+      "start_seconds": 1371.506386,
+      "end_seconds": 1418.964438,
+      "duration_seconds": 47.45805199999995,
+      "video_filename": "bruteforce1947_202003_scene_2_47s_1080p.mp4",
+      "keyframe_filename": "bruteforce1947_202003_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/bruteforce1947_202003_scene_2_47s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/bruteforce1947_202003_scene_2_thumb.jpg",
+      "transcription": "What? Yes, yes, I'll be right over. Wharton, when did it happen? I see. The prison I just killed. Yeah? Well, this is one rap they can't hang on new columns.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Brute Force (1947) Burt Lancaster, Hume Cronyn, Charles Bickford' (1947), dialogue centers on \"What? Yes, yes, I'll be right over. Wharton, when did it happen? I see. The prison I just killed. Yeah? Well, this is one rap they can't...\" framed against telephone / late-night call, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "bruteforce1947_202003_scene_3",
+      "movie_id": "bruteforce1947_202003",
+      "scene_number": 3,
+      "start_timecode": "00:24:10",
+      "end_timecode": "00:24:49",
+      "start_seconds": 1450.018783,
+      "end_seconds": 1489.212372,
+      "duration_seconds": 39.193588999999974,
+      "video_filename": "bruteforce1947_202003_scene_3_39s_1080p.mp4",
+      "keyframe_filename": "bruteforce1947_202003_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/bruteforce1947_202003_scene_3_39s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/bruteforce1947_202003_scene_3_thumb.jpg",
+      "transcription": "Human interest story. Remember that terrific third baseman got for all the couple of years ago? Dougherty? He'll be back for the book. Just knocked off his old lady. You don't say. Just shows you a guy don't think. If he'd done it last year, he might have beat the Patrolman's Benevolent Association.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Brute Force (1947) Burt Lancaster, Hume Cronyn, Charles Bickford' (1947), dialogue centers on \"Human interest story. Remember that terrific third baseman got for all the couple of years ago? Dougherty? He'll be back for the book....\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "the-desperate-hours-1956_scene_1",
+      "movie_id": "the-desperate-hours-1956",
+      "scene_number": 1,
+      "start_timecode": "00:19:55",
+      "end_timecode": "00:20:08",
+      "start_seconds": 1195.36,
+      "end_seconds": 1208.32,
+      "duration_seconds": 12.959999999999994,
+      "video_filename": "the-desperate-hours-1956_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "the-desperate-hours-1956_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-desperate-hours-1956_scene_1_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-desperate-hours-1956_scene_1_thumb.jpg",
+      "transcription": "Using his brain as he howl, look at him, clickety clickety click, I can see it purkin. Don't ever try to come in between you smart eyed slob. We're stickin'.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Desperate Hours (1956) Humphrey Bogart, Fredric March' (1958), dialogue centers on \"Using his brain as he howl, look at him, clickety clickety click, I can see it purkin. Don't ever try to come in between you smart eyed...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-desperate-hours-1956_scene_2",
+      "movie_id": "the-desperate-hours-1956",
+      "scene_number": 2,
+      "start_timecode": "00:20:45",
+      "end_timecode": "00:21:08",
+      "start_seconds": 1245.64,
+      "end_seconds": 1268.56,
+      "duration_seconds": 22.92,
+      "video_filename": "the-desperate-hours-1956_scene_2_22s_1080p.mp4",
+      "keyframe_filename": "the-desperate-hours-1956_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-desperate-hours-1956_scene_2_22s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-desperate-hours-1956_scene_2_thumb.jpg",
+      "transcription": "And I'll get out in the kitchen, cook that chicken I've seen in the icebox. Do it yourself. My wife's not your servant. I always wanted me a servant. I don't mind, Dan. Well, I do. Stay here. I'll be fascinated. You won't call in the tune. I got my guts for you shiny shoot. Down your nose, wise guys, with white hankages in their pockets.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'The Desperate Hours (1956) Humphrey Bogart, Fredric March' (1958), dialogue centers on \"And I'll get out in the kitchen, cook that chicken I've seen in the icebox. Do it yourself. My wife's not your servant. I always wanted...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "the-desperate-hours-1956_scene_3",
+      "movie_id": "the-desperate-hours-1956",
+      "scene_number": 3,
+      "start_timecode": "00:29:58",
+      "end_timecode": "00:30:08",
+      "start_seconds": 1798.6,
+      "end_seconds": 1808.56,
+      "duration_seconds": 9.959999999999923,
+      "video_filename": "the-desperate-hours-1956_scene_3_9s_1080p.mp4",
+      "keyframe_filename": "the-desperate-hours-1956_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-desperate-hours-1956_scene_3_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-desperate-hours-1956_scene_3_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'The Desperate Hours (1956) Humphrey Bogart, Fredric March' (1958), dialogue centers on \"You\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "behindlockeddoors1948_202002_scene_1",
+      "movie_id": "behindlockeddoors1948_202002",
+      "scene_number": 1,
+      "start_timecode": "00:12:34",
+      "end_timecode": "00:13:01",
+      "start_seconds": 754.0,
+      "end_seconds": 781.1271,
+      "duration_seconds": 27.1271,
+      "video_filename": "behindlockeddoors1948_202002_scene_1_27s_1080p.mp4",
+      "keyframe_filename": "behindlockeddoors1948_202002_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/behindlockeddoors1948_202002_scene_1_27s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/behindlockeddoors1948_202002_scene_1_thumb.jpg",
+      "transcription": "Want you to be good, dear, do everything they tell you. This is Mr. Hops, one of our attendants. Mrs. Hartman. Mrs. Hartman. And her husband? Mr. Hartman. Mr. Hartman is going to be with us a while, Hops. Fix him up and ward 10. Yes, sir. Will you come with me?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Behind Locked Doors (1948) Richard Carlson, Lucille Bremer' (1948), dialogue centers on \"Want you to be good, dear, do everything they tell you. This is Mr. Hops, one of our attendants. Mrs. Hartman. Mrs. Hartman. And her...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "behindlockeddoors1948_202002_scene_2",
+      "movie_id": "behindlockeddoors1948_202002",
+      "scene_number": 2,
+      "start_timecode": "00:23:42",
+      "end_timecode": "00:24:14",
+      "start_seconds": 1422.5679,
+      "end_seconds": 1454.8001,
+      "duration_seconds": 32.232200000000034,
+      "video_filename": "behindlockeddoors1948_202002_scene_2_32s_1080p.mp4",
+      "keyframe_filename": "behindlockeddoors1948_202002_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/behindlockeddoors1948_202002_scene_2_32s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/behindlockeddoors1948_202002_scene_2_thumb.jpg",
+      "transcription": "I haven't seen anyone who could possibly be Judge Drake. It was a rumor that he was seen in Florida. Florida? I mean, maybe I'm in here just for last? No, the police say it was just a folly. Anyway, Mad Mena came here again Thursday night. She had a briefcase with her. Obviously, she sees his outside contact. I've got to spot her and find out where she goes. You know what, Drake's in disguise. It may be kind of tough to recognize. I thought of that, sir, brought you a present. Well, you care.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Behind Locked Doors (1948) Richard Carlson, Lucille Bremer' (1948), dialogue centers on \"I haven't seen anyone who could possibly be Judge Drake. It was a rumor that he was seen in Florida. Florida? I mean, maybe I'm in here...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "behindlockeddoors1948_202002_scene_3",
+      "movie_id": "behindlockeddoors1948_202002",
+      "scene_number": 3,
+      "start_timecode": "00:24:22",
+      "end_timecode": "00:24:31",
+      "start_seconds": 1462.2075,
+      "end_seconds": 1471.0163,
+      "duration_seconds": 8.80880000000002,
+      "video_filename": "behindlockeddoors1948_202002_scene_3_8s_1080p.mp4",
+      "keyframe_filename": "behindlockeddoors1948_202002_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/behindlockeddoors1948_202002_scene_3_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/behindlockeddoors1948_202002_scene_3_thumb.jpg",
+      "transcription": "Good afternoon, Mrs. Hardin. Oh, good afternoon, doctor. May I see what you have in your hand?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Behind Locked Doors (1948) Richard Carlson, Lucille Bremer' (1948), dialogue centers on \"Good afternoon, Mrs. Hardin. Oh, good afternoon, doctor. May I see what you have in your hand?\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "fatalistic"
       ]
     }
   ]
