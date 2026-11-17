@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-17T04:52:09.067840+00:00",
-  "total_movies": 117,
-  "total_scenes": 504,
-  "genre": "film noir",
-  "source": "Internet Archive",
+  "updated_at": "2026-11-17T14:58:14.975378+00:00",
+  "total_movies": 127,
+  "total_scenes": 554,
+  "genre": "any",
+  "source": "Library of Congress",
   "category": "feature_films",
   "movies": [
     {
@@ -1175,6 +1175,112 @@
       "video_url": "https://archive.org/download/behindlockeddoors1948_202002/Behind Locked Doors (1948, USA) Featuring Richard Carlson, Lucille Bremer - Film Noir Full Movie.mp4",
       "license": "Open Archive",
       "description": "Behind Locked Doors is a 1948 film noir directed by Budd Boetticher and starring Lucille Bremer, Richard Carlson and Tor Johnson. Carlson is often confused with actor Hugh Marlowe, to whom he bore a remarkable physical resemblance. Wikipedia: https://en.wikipedia.org/wiki/Behind_Locked_Doors Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Disorder in the Court",
+      "year": 1936,
+      "director": "Jules White",
+      "archive_id": "disorder_in_the_court",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/disorder_in_the_court/disorder_in_the_court.mp4",
+      "license": "Open Archive",
+      "description": "You can find more information regarding this film on its IMDb page ."
+    },
+    {
+      "title": "DOUBLE FEATURE HELL 6 (Grindhouse 2)",
+      "year": 1950,
+      "director": "The 2am Theater",
+      "archive_id": "DoubleFeatureHell6grindhouse2",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/DoubleFeatureHell6grindhouse2/DoubleFeatureHell6grindhouse2.mp4",
+      "license": "Open Archive",
+      "description": "ADULT CONTENT ADVISORY: This grindhouse double feature simulation contains nudity and other content some viewers might find objectionable. The 2am Theater raises its ugly head to present an insomniac double feature dedicated to those who remember Manhattan's row of grindhouse palaces on 42nd Street between Times Square and 8th Avenue. (The whole damn block is now owned by Disney.) Our trip down the sleazy side of memory lane begins with coming attractions and a Betty Page bondage short, followed by the first feature, \"The Wild and Wicked.\" The intermission featurette is the vintage nudie \"The Forbidden Daughters\" followed by the second feature presentation, \"The Defilers.\" After which showering with disinfectant soap is recommended."
+    },
+    {
+      "title": "Charlie Chaplin's \"Tillies Punctured Romance\"",
+      "year": 1914,
+      "director": "Unknown Director",
+      "archive_id": "CC_1914_11_14_TilliesPuncturedRomance",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/CC_1914_11_14_TilliesPuncturedRomance/CC_1914_11_14_TilliesPuncturedRomance_512kb.mp4",
+      "license": "Open Archive",
+      "description": [
+        "Charlie Chaplin's 33rd Film Released Nov. 14 1914. Tillie's Punctured Romance was the first feature-length comedy film from Keystone Film Company and the Christie Film Company, produced in 1914. A silent film directed by Mack Sennett, the film stars Marie Dressler, Mabel Normand, and Charlie Chaplin, as well as the Keystone Kops. http://www.imdb.com/title/tt0004707/",
+        "Charlie Chaplin In The Internet Archive http://www.archive.org/details/CC_1914_02_02_MakingALiving http://www.archive.org/details/CC_1914_02_07_KidsAutoRaceAtVenice http://www.archive.org/details/CC_1914_02_09_MabelsStrangePredicament http://www.archive.org/details/CC_1914_02_28_BetweenShowers http://www.archive.org/details/CC_1914_03_02_FilmJohnny http://www.archive.org/details/CC_1914_03_16_HisFavoritePasttime http://www.archive.org/details/CC_1914_03_26_CruelCruelLove http://www.archive.org/details/CC_1914_04_04_TheLandladysPet http://www.archive.org/details/CC_1914_04_20_TwentyMinutesofLove http://www.archive.org/details/CC_1914_04_27_CaughtinaCaberet http://www.archive.org/details/CC_1914_05_07_ABusyDay http://www.archive.org/details/CC_1914_06_01_TheFatalMallet http://www.archive.org/details/CC_1914_06_11_TheKnockout http://www.archive.org/details/CC_1914_06_13_MabelsBusyDay http://www.archive.org/details/CC_1914_06_20_CharlottEtLeMannequin http://www.archive.org/details/CC_1914_07_09_LaffingGas http://www.archive.org/details/CC_1914_08_01_CharolotGargonDeTheater http://www.archive.org/details/CC_1914_08_10_FaceOnTheBarroomFloor http://www.archive.org/details/CC_1914_08_13_CharliesRecreation http://www.archive.org/details/CC_1914_08_27_TheMasquerader http://www.archive.org/details/CC_1914_08_31_TheGoodforNothing http://www.archive.org/details/CC_1914_09_07_TheRounders http://www.archive.org/details/CC_1914_09_14_TheNewJanitor http://www.archive.org/details/CC_1914_10_10_TheRivalMashers http://www.archive.org/details/CC_1914_10_26_DoughandDynamite http://www.archive.org/details/CC_1914_10_29_CharlottMabelAuxCourses http://www.archive.org/details/CC_1914_11_14_TilliesPuncturedRomance http://www.archive.org/details/CC_1914_11_07_MusicalTramps http://www.archive.org/details/CC_1914_11_09_HisTrystingPlace http://www.archive.org/details/CC_1914_12_05_AFairExchange http://www.archive.org/details/CC_1914_12_07_HisPrehistoricpast http://www.archive.org/details/CC_1915_02_01_HisNewJob http://www.archive.org/details/CC_1915_02_15_ANightOut http://www.archive.org/details/CC_1915_03_01_TheChampion http://www.archive.org/details/CC_1915_03_18_InThePark http://www.archive.org/details/CC_1915_04_11_TheTramp http://www.archive.org/details/CC_1915_04_29_ByTheSea http://www.archive.org/details/CC_1915_06_21_Work http://www.archive.org/details/CC_1915_07_12_AWoman http://www.archive.org/details/CC_1915_08_09_TheBank http://www.archive.org/details/CC_1915_10_04_CharlieShanghaied http://www.archive.org/details/CC_1915_11_20_ANightInTheShow http://www.archive.org/details/CC_1915_12_18_ABurlesqueOnCarmen http://www.archive.org/details/CC_1916_05_15_TheFloorwalker http://www.archive.org/details/CC_1916_05_27_Police http://www.archive.org/details/CC_1916_06_12_TheFireman http://www.archive.org/details/CC_1916_07_10_TheVagabond http://www.archive.org/details/CC_1916_08_07_One_A_M http://www.archive.org/details/CC_1916_09_04_TheCount http://www.archive.org/details/CC_1916_10_02_ThePawnshop http://www.archive.org/details/CC_1916_11_13_BehindtheScreen http://www.archive.org/details/CC_1916_12_04_TheRink http://www.archive.org/details/CC_1917_04_16_TheCure http://www.archive.org/details/CC_1917_06_17_TheImmigrant http://www.archive.org/details/CC_1917_10_22_TheAdventurer http://www.archive.org/details/CC_1918_09_29_TheBond http://www.archive.org/details/CC_1918_10_20_ShoulderArms http://www.archive.org/details/CC_1918_xx_xx_TripleTrouble http://www.archive.org/details/CC_1919_06_15_Sunnyside http://www.archive.org/details/CC_1919_12_15_ADaysPleasure __________________________________________________"
+      ]
+    },
+    {
+      "title": "Charlie Chaplin's \"Making A Living\"",
+      "year": 1914,
+      "director": "Unknown Director",
+      "archive_id": "CC_1914_02_02_MakingALiving",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/CC_1914_02_02_MakingALiving/CC_1914_02_02_MakingALiving_512kb.mp4",
+      "license": "Open Archive",
+      "description": [
+        "Charlie Chaplin's 1st Film Released Feb. 02 1914 Making a Living is the first film appearance of Charlie Chaplin, which premiered on February 2, 1914. Chaplin plays a lady-charming swindler, Edgar English, who runs afoul of the Keystone Kops. Chaplin's famed screen persona of \"the Little Tramp\" did not appear until the film Kid Auto Races at Venice. http://www.imdb.com/title/tt0004288/ Find more Chaplin films",
+        "Charlie Chaplin In The Internet Archive http://www.archive.org/details/CC_1914_02_02_MakingALiving http://www.archive.org/details/CC_1914_02_07_KidsAutoRaceAtVenice http://www.archive.org/details/CC_1914_02_09_MabelsStrangePredicament http://www.archive.org/details/CC_1914_02_28_BetweenShowers http://www.archive.org/details/CC_1914_03_02_FilmJohnny http://www.archive.org/details/CC_1914_03_16_HisFavoritePasttime http://www.archive.org/details/CC_1914_03_26_CruelCruelLove http://www.archive.org/details/CC_1914_04_04_TheLandladysPet http://www.archive.org/details/CC_1914_04_20_TwentyMinutesofLove http://www.archive.org/details/CC_1914_04_27_CaughtinaCaberet http://www.archive.org/details/CC_1914_05_07_ABusyDay http://www.archive.org/details/CC_1914_06_01_TheFatalMallet http://www.archive.org/details/CC_1914_06_11_TheKnockout http://www.archive.org/details/CC_1914_06_13_MabelsBusyDay http://www.archive.org/details/CC_1914_06_20_CharlottEtLeMannequin http://www.archive.org/details/CC_1914_07_09_LaffingGas http://www.archive.org/details/CC_1914_08_01_CharolotGargonDeTheater http://www.archive.org/details/CC_1914_08_10_FaceOnTheBarroomFloor http://www.archive.org/details/CC_1914_08_13_CharliesRecreation http://www.archive.org/details/CC_1914_08_27_TheMasquerader http://www.archive.org/details/CC_1914_08_31_TheGoodforNothing http://www.archive.org/details/CC_1914_09_07_TheRounders http://www.archive.org/details/CC_1914_09_14_TheNewJanitor http://www.archive.org/details/CC_1914_10_10_TheRivalMashers http://www.archive.org/details/CC_1914_10_26_DoughandDynamite http://www.archive.org/details/CC_1914_10_29_CharlottMabelAuxCourses http://www.archive.org/details/CC_1914_11_14_TilliesPuncturedRomance http://www.archive.org/details/CC_1914_11_07_MusicalTramps http://www.archive.org/details/CC_1914_11_09_HisTrystingPlace http://www.archive.org/details/CC_1914_12_05_AFairExchange http://www.archive.org/details/CC_1914_12_07_HisPrehistoricpast http://www.archive.org/details/CC_1915_02_01_HisNewJob http://www.archive.org/details/CC_1915_02_15_ANightOut http://www.archive.org/details/CC_1915_03_01_TheChampion http://www.archive.org/details/CC_1915_03_18_InThePark http://www.archive.org/details/CC_1915_04_11_TheTramp http://www.archive.org/details/CC_1915_04_29_ByTheSea http://www.archive.org/details/CC_1915_06_21_Work http://www.archive.org/details/CC_1915_07_12_AWoman http://www.archive.org/details/CC_1915_08_09_TheBank http://www.archive.org/details/CC_1915_10_04_CharlieShanghaied http://www.archive.org/details/CC_1915_11_20_ANightInTheShow http://www.archive.org/details/CC_1915_12_18_ABurlesqueOnCarmen http://www.archive.org/details/CC_1916_05_15_TheFloorwalker http://www.archive.org/details/CC_1916_05_27_Police http://www.archive.org/details/CC_1916_06_12_TheFireman http://www.archive.org/details/CC_1916_07_10_TheVagabond http://www.archive.org/details/CC_1916_08_07_One_A_M http://www.archive.org/details/CC_1916_09_04_TheCount http://www.archive.org/details/CC_1916_10_02_ThePawnshop http://www.archive.org/details/CC_1916_11_13_BehindtheScreen http://www.archive.org/details/CC_1916_12_04_TheRink http://www.archive.org/details/CC_1917_04_16_TheCure http://www.archive.org/details/CC_1917_06_17_TheImmigrant http://www.archive.org/details/CC_1917_10_22_TheAdventurer http://www.archive.org/details/CC_1918_09_29_TheBond http://www.archive.org/details/CC_1918_10_20_ShoulderArms http://www.archive.org/details/CC_1918_xx_xx_TripleTrouble http://www.archive.org/details/CC_1919_06_15_Sunnyside http://www.archive.org/details/CC_1919_12_15_ADaysPleasure __________________________________________________"
+      ]
+    },
+    {
+      "title": "Sagebrush Trail",
+      "year": 1933,
+      "director": "Paul Malvern, Trem Carr",
+      "archive_id": "SagebrushTrail",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/SagebrushTrail/SagebrushTrail.mp4",
+      "license": "Open Archive",
+      "description": "Imprisoned for a murder he did not commit, John Brant (John Wayne) escapes and ends up out west where, after giving the local lawmen the slip, he joins up with an outlaw gang. Brant finds out that 'Jones' (Nancy Shubert), one of the outlaws he has become friends with, committed the murder that Brant was sent up for, but has no knowledge that anyone was ever put in jail for his crime."
+    },
+    {
+      "title": "Angel on My Shoulder",
+      "year": 1946,
+      "director": "Unknown Director",
+      "archive_id": "angel_on_my_shoulder",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/angel_on_my_shoulder/angel_on_my_shoulder.mp4",
+      "license": "Open Archive",
+      "description": "You can find more information regarding this film on its IMDb page ."
+    },
+    {
+      "title": "The Little Shop Of Horrors",
+      "year": 1950,
+      "director": "Rodger Corman",
+      "archive_id": "Little_ShopOf_Horrors.avi",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/Little_ShopOf_Horrors.avi/The_Little_Shop_of_Horrors.mp4",
+      "license": "Open Archive",
+      "description": "Roger Corman classic about a nerdy flowershop clerk who grows a giant, man-eating plant. Jack Nicholson makes his film debut as a dental patient who loves pain."
+    },
+    {
+      "title": "Slaves in Bondage",
+      "year": 1937,
+      "director": "J.D. Kendis",
+      "archive_id": "slave_in_bondage",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/slave_in_bondage/slaves_in_bondage.mp4",
+      "license": "Open Archive",
+      "description": "Taken from IMDB : Mary Lou manages to escape abduction by a prostitution ring. She tells the Chief of Detectives they were planning to take her to the Berrywood road house, a well-known den of iniquity. Jim Murray and beautician Belle Harris are using her beauty shop to recruit floozies for their road house circuit. Dona Lee, who works at the beauty salon, is falling in love with young reporter wanna-be Phillip, but Murray gets jealous and makes life rough for him. Meanwhile Dona begins to figure out the racket, but becomes threatened by Murray's unwanted advances."
+    },
+    {
+      "title": "They Made Me a Criminal",
+      "year": 1939,
+      "director": "Hal Wallis",
+      "archive_id": "They_Made_Me_A_Criminal_1939",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/They_Made_Me_A_Criminal_1939/they_made_me_a_criminal_1939.mp4",
+      "license": "Open Archive",
+      "description": "Boxer Johnny Bradfield (John Garfield) knocks out a rival in a postfight brawl. Thinking he committed murder, he flees to an Arizona ranch run by hard-as-nails Goldie (Ann Sheridan) and her feisty mother(May Robson) and staffed by Leo Gorcey and the Dead End Kids. Though Johnny is relentlessly dogged by Detective Monty Phelan (Claude Rains), the Kids convince him to finance their future gas station by training for and winning a high stakes prizefight. But just as things seem to going \"swell\" for both Johnny and the Kids, Phelan shows up ready to take Johnny back east in handcuffs? Or is he?"
+    },
+    {
+      "title": "Brideless Groom",
+      "year": 1947,
+      "director": "Hugh McCollum, Jules White",
+      "archive_id": "brideless_groom",
+      "source_provider": "Library of Congress",
+      "video_url": "https://archive.org/download/brideless_groom/brideless_groom.mp4",
+      "license": "Open Archive",
+      "description": "You can find more information regarding this film on its IMDb page ."
     }
   ],
   "scenes": [
@@ -15053,6 +15159,1506 @@
         "femme fatale",
         "interrogation / standoff",
         "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "disorder_in_the_court_scene_1",
+      "movie_id": "disorder_in_the_court",
+      "scene_number": 1,
+      "start_timecode": "00:27:45",
+      "end_timecode": "00:27:54",
+      "start_seconds": 1665.5174,
+      "end_seconds": 1674.6265,
+      "duration_seconds": 9.109099999999998,
+      "video_filename": "disorder_in_the_court_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "disorder_in_the_court_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/disorder_in_the_court_scene_1_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/disorder_in_the_court_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "An atmospheric 9-second sequence from 'Disorder in the Court' (1936) driven by fedora & trenchcoat, femme fatale and a paranoid tone.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "disorder_in_the_court_scene_2",
+      "movie_id": "disorder_in_the_court",
+      "scene_number": 2,
+      "start_timecode": "00:31:40",
+      "end_timecode": "00:31:54",
+      "start_seconds": 1900.6523,
+      "end_seconds": 1914.4661,
+      "duration_seconds": 13.813799999999958,
+      "video_filename": "disorder_in_the_court_scene_2_13s_1080p.mp4",
+      "keyframe_filename": "disorder_in_the_court_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/disorder_in_the_court_scene_2_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/disorder_in_the_court_scene_2_thumb.jpg",
+      "transcription": "It pleases the court. May I suggest that Council be instructed to allow the witness to testify to what he saw. I say, yes. Welcome there for 75. 76. That's the spirit.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Disorder in the Court' (1936), dialogue centers on \"It pleases the court. May I suggest that Council be instructed to allow the witness to testify to what he saw. I say, yes. Welcome there...\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "disorder_in_the_court_scene_3",
+      "movie_id": "disorder_in_the_court",
+      "scene_number": 3,
+      "start_timecode": "00:32:39",
+      "end_timecode": "00:32:45",
+      "start_seconds": 1959.7113,
+      "end_seconds": 1965.6172000000001,
+      "duration_seconds": 5.905900000000031,
+      "video_filename": "disorder_in_the_court_scene_3_5s_1080p.mp4",
+      "keyframe_filename": "disorder_in_the_court_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/disorder_in_the_court_scene_3_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/disorder_in_the_court_scene_3_thumb.jpg",
+      "transcription": "Nuclear? That's a doiby! Drop the vernacular.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by fedora & trenchcoat, telephone / late-night call.",
+      "synopsis": "In a paranoid exchange from 'Disorder in the Court' (1936), dialogue centers on \"Nuclear? That's a doiby! Drop the vernacular.\" framed against fedora & trenchcoat, telephone / late-night call.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "disorder_in_the_court_scene_4",
+      "movie_id": "disorder_in_the_court",
+      "scene_number": 4,
+      "start_timecode": "00:33:49",
+      "end_timecode": "00:33:54",
+      "start_seconds": 2029.1807,
+      "end_seconds": 2034.2858,
+      "duration_seconds": 5.105099999999993,
+      "video_filename": "disorder_in_the_court_scene_4_5s_1080p.mp4",
+      "keyframe_filename": "disorder_in_the_court_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/disorder_in_the_court_scene_4_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/disorder_in_the_court_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 5-second sequence from 'Disorder in the Court' (1936) driven by telephone / late-night call, fedora & trenchcoat and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "classic cinema",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "disorder_in_the_court_scene_5",
+      "movie_id": "disorder_in_the_court",
+      "scene_number": 5,
+      "start_timecode": "00:36:38",
+      "end_timecode": "00:36:44",
+      "start_seconds": 2198.8502,
+      "end_seconds": 2204.1555,
+      "duration_seconds": 5.305299999999988,
+      "video_filename": "disorder_in_the_court_scene_5_5s_1080p.mp4",
+      "keyframe_filename": "disorder_in_the_court_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/disorder_in_the_court_scene_5_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/disorder_in_the_court_scene_5_thumb.jpg",
+      "transcription": "Look at the moon and the moon.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Disorder in the Court' (1936), dialogue centers on \"Look at the moon and the moon.\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "DoubleFeatureHell6grindhouse2_scene_1",
+      "movie_id": "DoubleFeatureHell6grindhouse2",
+      "scene_number": 1,
+      "start_timecode": "00:17:26",
+      "end_timecode": "00:17:42",
+      "start_seconds": 1046.3752,
+      "end_seconds": 1062.0909,
+      "duration_seconds": 15.715699999999998,
+      "video_filename": "DoubleFeatureHell6grindhouse2_scene_1_15s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell6grindhouse2_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/DoubleFeatureHell6grindhouse2_scene_1_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/DoubleFeatureHell6grindhouse2_scene_1_thumb.jpg",
+      "transcription": "Yeah, things this bad competition getting rough",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'DOUBLE FEATURE HELL 6 (Grindhouse 2)' (1950), dialogue centers on \"Yeah, things this bad competition getting rough\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "DoubleFeatureHell6grindhouse2_scene_2",
+      "movie_id": "DoubleFeatureHell6grindhouse2",
+      "scene_number": 2,
+      "start_timecode": "00:18:11",
+      "end_timecode": "00:18:18",
+      "start_seconds": 1091.3201,
+      "end_seconds": 1098.3271,
+      "duration_seconds": 7.007000000000005,
+      "video_filename": "DoubleFeatureHell6grindhouse2_scene_2_7s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell6grindhouse2_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/DoubleFeatureHell6grindhouse2_scene_2_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/DoubleFeatureHell6grindhouse2_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "An atmospheric 7-second sequence from 'DOUBLE FEATURE HELL 6 (Grindhouse 2)' (1950) driven by femme fatale, interrogation / standoff and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "DoubleFeatureHell6grindhouse2_scene_3",
+      "movie_id": "DoubleFeatureHell6grindhouse2",
+      "scene_number": 3,
+      "start_timecode": "00:24:54",
+      "end_timecode": "00:25:04",
+      "start_seconds": 1494.0223999999998,
+      "end_seconds": 1504.8332,
+      "duration_seconds": 10.810800000000086,
+      "video_filename": "DoubleFeatureHell6grindhouse2_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell6grindhouse2_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/DoubleFeatureHell6grindhouse2_scene_3_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/DoubleFeatureHell6grindhouse2_scene_3_thumb.jpg",
+      "transcription": "best. That is class. The colony, it's a private club, Miss Walker. It's really quite an honor to be asked to go, especially for one who, well, this is.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'DOUBLE FEATURE HELL 6 (Grindhouse 2)' (1950), dialogue centers on \"best. That is class. The colony, it's a private club, Miss Walker. It's really quite an honor to be asked to go, especially for one who,...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "DoubleFeatureHell6grindhouse2_scene_4",
+      "movie_id": "DoubleFeatureHell6grindhouse2",
+      "scene_number": 4,
+      "start_timecode": "00:26:06",
+      "end_timecode": "00:26:14",
+      "start_seconds": 1566.2946,
+      "end_seconds": 1574.3026,
+      "duration_seconds": 8.008000000000038,
+      "video_filename": "DoubleFeatureHell6grindhouse2_scene_4_8s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell6grindhouse2_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/DoubleFeatureHell6grindhouse2_scene_4_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/DoubleFeatureHell6grindhouse2_scene_4_thumb.jpg",
+      "transcription": "Edwards. Yes. I want to speak to you in the studio. Oh, all right. Hello, Vydon. Bunny.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a paranoid exchange from 'DOUBLE FEATURE HELL 6 (Grindhouse 2)' (1950), dialogue centers on \"Edwards. Yes. I want to speak to you in the studio. Oh, all right. Hello, Vydon. Bunny.\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "DoubleFeatureHell6grindhouse2_scene_5",
+      "movie_id": "DoubleFeatureHell6grindhouse2",
+      "scene_number": 5,
+      "start_timecode": "00:26:14",
+      "end_timecode": "00:26:31",
+      "start_seconds": 1574.3026,
+      "end_seconds": 1591.72,
+      "duration_seconds": 17.417400000000043,
+      "video_filename": "DoubleFeatureHell6grindhouse2_scene_5_17s_1080p.mp4",
+      "keyframe_filename": "DoubleFeatureHell6grindhouse2_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/DoubleFeatureHell6grindhouse2_scene_5_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/DoubleFeatureHell6grindhouse2_scene_5_thumb.jpg",
+      "transcription": "Yeah, I'll be down to see you soon. Listen, the reason I call them sending down another one. Name's Nancy Walker, quite a girl. Says she's had a lot of experience, but I doubt it. Anyhow, she's a good one. Show her the ropes and treat her right. She's valuable just the way she is.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'DOUBLE FEATURE HELL 6 (Grindhouse 2)' (1950), dialogue centers on \"Yeah, I'll be down to see you soon. Listen, the reason I call them sending down another one. Name's Nancy Walker, quite a girl. Says...\" framed against telephone / late-night call, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_11_14_TilliesPuncturedRomance_scene_1",
+      "movie_id": "CC_1914_11_14_TilliesPuncturedRomance",
+      "scene_number": 1,
+      "start_timecode": "00:09:09",
+      "end_timecode": "00:09:17",
+      "start_seconds": 549.35035,
+      "end_seconds": 557.058058,
+      "duration_seconds": 7.707708000000004,
+      "video_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_1_7s_1080p.mp4",
+      "keyframe_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_11_14_TilliesPuncturedRomance_scene_1_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_11_14_TilliesPuncturedRomance_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, dutch angle framing.",
+      "synopsis": "An atmospheric 8-second sequence from 'Charlie Chaplin's \"Tillies Punctured Romance\"' (1914) driven by fedora & trenchcoat, dutch angle framing and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_11_14_TilliesPuncturedRomance_scene_2",
+      "movie_id": "CC_1914_11_14_TilliesPuncturedRomance",
+      "scene_number": 2,
+      "start_timecode": "00:09:19",
+      "end_timecode": "00:09:30",
+      "start_seconds": 559.46046,
+      "end_seconds": 570.071071,
+      "duration_seconds": 10.610611000000006,
+      "video_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_11_14_TilliesPuncturedRomance_scene_2_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_11_14_TilliesPuncturedRomance_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, cigarette smoke.",
+      "synopsis": "An atmospheric 11-second sequence from 'Charlie Chaplin's \"Tillies Punctured Romance\"' (1914) driven by femme fatale, cigarette smoke and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "cigarette smoke",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "cigarette smoke",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_11_14_TilliesPuncturedRomance_scene_3",
+      "movie_id": "CC_1914_11_14_TilliesPuncturedRomance",
+      "scene_number": 3,
+      "start_timecode": "00:13:33",
+      "end_timecode": "00:13:40",
+      "start_seconds": 813.7147150000001,
+      "end_seconds": 820.521522,
+      "duration_seconds": 6.806806999999992,
+      "video_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_3_6s_1080p.mp4",
+      "keyframe_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_11_14_TilliesPuncturedRomance_scene_3_6s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_11_14_TilliesPuncturedRomance_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 7-second sequence from 'Charlie Chaplin's \"Tillies Punctured Romance\"' (1914) driven by femme fatale, fedora & trenchcoat and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_11_14_TilliesPuncturedRomance_scene_4",
+      "movie_id": "CC_1914_11_14_TilliesPuncturedRomance",
+      "scene_number": 4,
+      "start_timecode": "00:15:17",
+      "end_timecode": "00:15:25",
+      "start_seconds": 917.6186190000001,
+      "end_seconds": 925.826827,
+      "duration_seconds": 8.208207999999956,
+      "video_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_4_8s_1080p.mp4",
+      "keyframe_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_11_14_TilliesPuncturedRomance_scene_4_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_11_14_TilliesPuncturedRomance_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "An atmospheric 8-second sequence from 'Charlie Chaplin's \"Tillies Punctured Romance\"' (1914) driven by femme fatale, interrogation / standoff and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_11_14_TilliesPuncturedRomance_scene_5",
+      "movie_id": "CC_1914_11_14_TilliesPuncturedRomance",
+      "scene_number": 5,
+      "start_timecode": "00:19:52",
+      "end_timecode": "00:19:59",
+      "start_seconds": 1192.093093,
+      "end_seconds": 1199.0,
+      "duration_seconds": 6.9069070000000465,
+      "video_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_5_6s_1080p.mp4",
+      "keyframe_filename": "CC_1914_11_14_TilliesPuncturedRomance_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_11_14_TilliesPuncturedRomance_scene_5_6s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_11_14_TilliesPuncturedRomance_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by nightclub / jazz bar, femme fatale.",
+      "synopsis": "An atmospheric 7-second sequence from 'Charlie Chaplin's \"Tillies Punctured Romance\"' (1914) driven by nightclub / jazz bar, femme fatale and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "nightclub / jazz bar",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_02_02_MakingALiving_scene_1",
+      "movie_id": "CC_1914_02_02_MakingALiving",
+      "scene_number": 1,
+      "start_timecode": "00:25:40",
+      "end_timecode": "00:26:39",
+      "start_seconds": 1540.0,
+      "end_seconds": 1599.04,
+      "duration_seconds": 59.04,
+      "video_filename": "CC_1914_02_02_MakingALiving_scene_1_59s_1080p.mp4",
+      "keyframe_filename": "CC_1914_02_02_MakingALiving_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_02_02_MakingALiving_scene_1_59s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_02_02_MakingALiving_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 59-second sequence from 'Charlie Chaplin's \"Making A Living\"' (1914) driven by telephone / late-night call, fedora & trenchcoat and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "classic cinema",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_02_02_MakingALiving_scene_2",
+      "movie_id": "CC_1914_02_02_MakingALiving",
+      "scene_number": 2,
+      "start_timecode": "00:26:39",
+      "end_timecode": "00:27:49",
+      "start_seconds": 1599.04,
+      "end_seconds": 1669.84,
+      "duration_seconds": 70.80000000000001,
+      "video_filename": "CC_1914_02_02_MakingALiving_scene_2_70s_1080p.mp4",
+      "keyframe_filename": "CC_1914_02_02_MakingALiving_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_02_02_MakingALiving_scene_2_70s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_02_02_MakingALiving_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "An atmospheric 71-second sequence from 'Charlie Chaplin's \"Making A Living\"' (1914) driven by femme fatale, interrogation / standoff and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_02_02_MakingALiving_scene_3",
+      "movie_id": "CC_1914_02_02_MakingALiving",
+      "scene_number": 3,
+      "start_timecode": "00:27:49",
+      "end_timecode": "00:28:32",
+      "start_seconds": 1669.84,
+      "end_seconds": 1712.8,
+      "duration_seconds": 42.96000000000001,
+      "video_filename": "CC_1914_02_02_MakingALiving_scene_3_42s_1080p.mp4",
+      "keyframe_filename": "CC_1914_02_02_MakingALiving_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_02_02_MakingALiving_scene_3_42s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_02_02_MakingALiving_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, telephone / late-night call.",
+      "synopsis": "An atmospheric 43-second sequence from 'Charlie Chaplin's \"Making A Living\"' (1914) driven by fedora & trenchcoat, telephone / late-night call and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_02_02_MakingALiving_scene_4",
+      "movie_id": "CC_1914_02_02_MakingALiving",
+      "scene_number": 4,
+      "start_timecode": "00:28:32",
+      "end_timecode": "00:28:48",
+      "start_seconds": 1712.8,
+      "end_seconds": 1728.28,
+      "duration_seconds": 15.47999999999999,
+      "video_filename": "CC_1914_02_02_MakingALiving_scene_4_15s_1080p.mp4",
+      "keyframe_filename": "CC_1914_02_02_MakingALiving_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_02_02_MakingALiving_scene_4_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_02_02_MakingALiving_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, low-key chiaroscuro.",
+      "synopsis": "An atmospheric 15-second sequence from 'Charlie Chaplin's \"Making A Living\"' (1914) driven by fedora & trenchcoat, low-key chiaroscuro and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "low-key chiaroscuro",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "low-key chiaroscuro",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "CC_1914_02_02_MakingALiving_scene_5",
+      "movie_id": "CC_1914_02_02_MakingALiving",
+      "scene_number": 5,
+      "start_timecode": "00:28:48",
+      "end_timecode": "00:30:01",
+      "start_seconds": 1728.28,
+      "end_seconds": 1801.84,
+      "duration_seconds": 73.55999999999997,
+      "video_filename": "CC_1914_02_02_MakingALiving_scene_5_73s_1080p.mp4",
+      "keyframe_filename": "CC_1914_02_02_MakingALiving_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/CC_1914_02_02_MakingALiving_scene_5_73s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/CC_1914_02_02_MakingALiving_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "An atmospheric 74-second sequence from 'Charlie Chaplin's \"Making A Living\"' (1914) driven by femme fatale, interrogation / standoff and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "SagebrushTrail_scene_1",
+      "movie_id": "SagebrushTrail",
+      "scene_number": 1,
+      "start_timecode": "00:25:55",
+      "end_timecode": "00:26:07",
+      "start_seconds": 1555.8565469999999,
+      "end_seconds": 1567.7414509999999,
+      "duration_seconds": 11.884904000000006,
+      "video_filename": "SagebrushTrail_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "SagebrushTrail_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/SagebrushTrail_scene_1_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/SagebrushTrail_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by cigarette smoke, femme fatale.",
+      "synopsis": "An atmospheric 12-second sequence from 'Sagebrush Trail' (1933) driven by cigarette smoke, femme fatale and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "cigarette smoke",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "SagebrushTrail_scene_2",
+      "movie_id": "SagebrushTrail",
+      "scene_number": 2,
+      "start_timecode": "00:26:45",
+      "end_timecode": "00:27:00",
+      "start_seconds": 1605.898249,
+      "end_seconds": 1620.66055,
+      "duration_seconds": 14.76230099999998,
+      "video_filename": "SagebrushTrail_scene_2_14s_1080p.mp4",
+      "keyframe_filename": "SagebrushTrail_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/SagebrushTrail_scene_2_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/SagebrushTrail_scene_2_thumb.jpg",
+      "transcription": "All right, howdy came up behind us. We didn't even get a look at him. He must be telling the truth, Chief. He ain't a sign on the box anywhere. All right, get going. It is.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Sagebrush Trail' (1933), dialogue centers on \"All right, howdy came up behind us. We didn't even get a look at him. He must be telling the truth, Chief. He ain't a sign on the box...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "SagebrushTrail_scene_3",
+      "movie_id": "SagebrushTrail",
+      "scene_number": 3,
+      "start_timecode": "00:28:40",
+      "end_timecode": "00:28:51",
+      "start_seconds": 1720.493745,
+      "end_seconds": 1731.252711,
+      "duration_seconds": 10.758965999999987,
+      "video_filename": "SagebrushTrail_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "SagebrushTrail_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/SagebrushTrail_scene_3_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/SagebrushTrail_scene_3_thumb.jpg",
+      "transcription": "He could have saved me if he'd have wanted, but he let me go to jail. Tell some day I'll meet him. Can I do? I'm sorry.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from 'Sagebrush Trail' (1933), dialogue centers on \"He could have saved me if he'd have wanted, but he let me go to jail. Tell some day I'll meet him. Can I do? I'm sorry.\" framed against femme fatale, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "low-key chiaroscuro"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "dutch angle framing",
+        "low-key chiaroscuro",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "SagebrushTrail_scene_4",
+      "movie_id": "SagebrushTrail",
+      "scene_number": 4,
+      "start_timecode": "00:30:49",
+      "end_timecode": "00:30:57",
+      "start_seconds": 1849.976647,
+      "end_seconds": 1857.858215,
+      "duration_seconds": 7.881568000000016,
+      "video_filename": "SagebrushTrail_scene_4_7s_1080p.mp4",
+      "keyframe_filename": "SagebrushTrail_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/SagebrushTrail_scene_4_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/SagebrushTrail_scene_4_thumb.jpg",
+      "transcription": "I came out here to regain my health. When I went back, I found my wife in the arms of another man.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Sagebrush Trail' (1933), dialogue centers on \"I came out here to regain my health. When I went back, I found my wife in the arms of another man.\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "SagebrushTrail_scene_5",
+      "movie_id": "SagebrushTrail",
+      "scene_number": 5,
+      "start_timecode": "00:30:57",
+      "end_timecode": "00:31:03",
+      "start_seconds": 1857.858215,
+      "end_seconds": 1863.112594,
+      "duration_seconds": 5.254378999999972,
+      "video_filename": "SagebrushTrail_scene_5_5s_1080p.mp4",
+      "keyframe_filename": "SagebrushTrail_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/SagebrushTrail_scene_5_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/SagebrushTrail_scene_5_thumb.jpg",
+      "transcription": "We fought and I killed him Smith",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Sagebrush Trail' (1933), dialogue centers on \"We fought and I killed him Smith\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "angel_on_my_shoulder_scene_1",
+      "movie_id": "angel_on_my_shoulder",
+      "scene_number": 1,
+      "start_timecode": "00:30:31",
+      "end_timecode": "00:30:40",
+      "start_seconds": 1831.3533,
+      "end_seconds": 1840.8628,
+      "duration_seconds": 9.509500000000003,
+      "video_filename": "angel_on_my_shoulder_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "angel_on_my_shoulder_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/angel_on_my_shoulder_scene_1_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/angel_on_my_shoulder_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, femme fatale.",
+      "synopsis": "An atmospheric 10-second sequence from 'Angel on My Shoulder' (1946) driven by telephone / late-night call, femme fatale and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "classic cinema",
+        "telephone / late-night call",
+        "femme fatale",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "angel_on_my_shoulder_scene_2",
+      "movie_id": "angel_on_my_shoulder",
+      "scene_number": 2,
+      "start_timecode": "00:32:07",
+      "end_timecode": "00:32:17",
+      "start_seconds": 1927.6495,
+      "end_seconds": 1937.3591999999999,
+      "duration_seconds": 9.709699999999998,
+      "video_filename": "angel_on_my_shoulder_scene_2_9s_1080p.mp4",
+      "keyframe_filename": "angel_on_my_shoulder_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/angel_on_my_shoulder_scene_2_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/angel_on_my_shoulder_scene_2_thumb.jpg",
+      "transcription": "I never explained my actions. You've got to explain to me I don't like no surprises. I have many more surprises in store for you. You should try to run out on me again.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Angel on My Shoulder' (1946), dialogue centers on \"I never explained my actions. You've got to explain to me I don't like no surprises. I have many more surprises in store for you. You...\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "angel_on_my_shoulder_scene_3",
+      "movie_id": "angel_on_my_shoulder",
+      "scene_number": 3,
+      "start_timecode": "00:32:43",
+      "end_timecode": "00:32:48",
+      "start_seconds": 1963.5854,
+      "end_seconds": 1968.6905,
+      "duration_seconds": 5.105099999999993,
+      "video_filename": "angel_on_my_shoulder_scene_3_5s_1080p.mp4",
+      "keyframe_filename": "angel_on_my_shoulder_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/angel_on_my_shoulder_scene_3_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/angel_on_my_shoulder_scene_3_thumb.jpg",
+      "transcription": "Back to the field, a strange coincidence.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a melancholic exchange from 'Angel on My Shoulder' (1946), dialogue centers on \"Back to the field, a strange coincidence.\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "angel_on_my_shoulder_scene_4",
+      "movie_id": "angel_on_my_shoulder",
+      "scene_number": 4,
+      "start_timecode": "00:33:52",
+      "end_timecode": "00:34:02",
+      "start_seconds": 2032.1539,
+      "end_seconds": 2042.7645,
+      "duration_seconds": 10.610600000000005,
+      "video_filename": "angel_on_my_shoulder_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "angel_on_my_shoulder_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/angel_on_my_shoulder_scene_4_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/angel_on_my_shoulder_scene_4_thumb.jpg",
+      "transcription": "I only wish that were true. It's been most disturbing. I would have called Dr. Higgins, but I didn't have the opportunity. Well, I'll call him now. Very good, Miss Bob.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Angel on My Shoulder' (1946), dialogue centers on \"I only wish that were true. It's been most disturbing. I would have called Dr. Higgins, but I didn't have the opportunity. Well, I'll...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "angel_on_my_shoulder_scene_5",
+      "movie_id": "angel_on_my_shoulder",
+      "scene_number": 5,
+      "start_timecode": "00:43:05",
+      "end_timecode": "00:43:12",
+      "start_seconds": 2585.1063,
+      "end_seconds": 2592.2134,
+      "duration_seconds": 7.107099999999946,
+      "video_filename": "angel_on_my_shoulder_scene_5_7s_1080p.mp4",
+      "keyframe_filename": "angel_on_my_shoulder_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/angel_on_my_shoulder_scene_5_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/angel_on_my_shoulder_scene_5_thumb.jpg",
+      "transcription": "Hello Americans as the campaign for governor of this great state goes into its final phase",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, nightclub / jazz bar.",
+      "synopsis": "In a melancholic exchange from 'Angel on My Shoulder' (1946), dialogue centers on \"Hello Americans as the campaign for governor of this great state goes into its final phase\" framed against femme fatale, nightclub / jazz bar.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "Little_ShopOf_Horrors.avi_scene_1",
+      "movie_id": "Little_ShopOf_Horrors.avi",
+      "scene_number": 1,
+      "start_timecode": "00:12:02",
+      "end_timecode": "00:12:14",
+      "start_seconds": 722.113428,
+      "end_seconds": 734.373645,
+      "duration_seconds": 12.260217000000011,
+      "video_filename": "Little_ShopOf_Horrors.avi_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "Little_ShopOf_Horrors.avi_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Little_ShopOf_Horrors.avi_scene_1_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Little_ShopOf_Horrors.avi_scene_1_thumb.jpg",
+      "transcription": "I don't think it's so much, I should keep on spending $10 a week on your salary. What's wrong? He named it after me. I know, and if they keep it, they'll name it Mushnik's Folly because I'll be in jail for non-payment of taxes.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Little Shop Of Horrors' (1950), dialogue centers on \"I don't think it's so much, I should keep on spending $10 a week on your salary. What's wrong? He named it after me. I know, and if they...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "femme fatale",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "Little_ShopOf_Horrors.avi_scene_2",
+      "movie_id": "Little_ShopOf_Horrors.avi",
+      "scene_number": 2,
+      "start_timecode": "00:14:47",
+      "end_timecode": "00:15:04",
+      "start_seconds": 887.8765639999999,
+      "end_seconds": 904.265221,
+      "duration_seconds": 16.388657000000023,
+      "video_filename": "Little_ShopOf_Horrors.avi_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "Little_ShopOf_Horrors.avi_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Little_ShopOf_Horrors.avi_scene_2_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Little_ShopOf_Horrors.avi_scene_2_thumb.jpg",
+      "transcription": "So you must be kidding, you'll grow free. You know what I'm doing for you.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'The Little Shop Of Horrors' (1950), dialogue centers on \"So you must be kidding, you'll grow free. You know what I'm doing for you.\" framed against telephone / late-night call, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "classic cinema",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "Little_ShopOf_Horrors.avi_scene_3",
+      "movie_id": "Little_ShopOf_Horrors.avi",
+      "scene_number": 3,
+      "start_timecode": "00:15:11",
+      "end_timecode": "00:15:30",
+      "start_seconds": 911.521268,
+      "end_seconds": 930.1618020000001,
+      "duration_seconds": 18.640534000000002,
+      "video_filename": "Little_ShopOf_Horrors.avi_scene_3_18s_1080p.mp4",
+      "keyframe_filename": "Little_ShopOf_Horrors.avi_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Little_ShopOf_Horrors.avi_scene_3_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Little_ShopOf_Horrors.avi_scene_3_thumb.jpg",
+      "transcription": "Oh, who would have thought it? Well, I guess there's just no accounting for people's pay.",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by nightclub / jazz bar, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Little Shop Of Horrors' (1950), dialogue centers on \"Oh, who would have thought it? Well, I guess there's just no accounting for people's pay.\" framed against nightclub / jazz bar, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "nightclub / jazz bar",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "Little_ShopOf_Horrors.avi_scene_4",
+      "movie_id": "Little_ShopOf_Horrors.avi",
+      "scene_number": 4,
+      "start_timecode": "00:15:43",
+      "end_timecode": "00:15:50",
+      "start_seconds": 943.547957,
+      "end_seconds": 950.804003,
+      "duration_seconds": 7.256046000000026,
+      "video_filename": "Little_ShopOf_Horrors.avi_scene_4_7s_1080p.mp4",
+      "keyframe_filename": "Little_ShopOf_Horrors.avi_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Little_ShopOf_Horrors.avi_scene_4_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Little_ShopOf_Horrors.avi_scene_4_thumb.jpg",
+      "transcription": "So how come all of a sudden so wonderful? Five bees, one for each finger. Ten bees. If you say I was getting a $2 rate.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a melancholic exchange from 'The Little Shop Of Horrors' (1950), dialogue centers on \"So how come all of a sudden so wonderful? Five bees, one for each finger. Ten bees. If you say I was getting a $2 rate.\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "Little_ShopOf_Horrors.avi_scene_5",
+      "movie_id": "Little_ShopOf_Horrors.avi",
+      "scene_number": 5,
+      "start_timecode": "00:20:25",
+      "end_timecode": "00:20:42",
+      "start_seconds": 1225.658048,
+      "end_seconds": 1242.672227,
+      "duration_seconds": 17.014179000000013,
+      "video_filename": "Little_ShopOf_Horrors.avi_scene_5_17s_1080p.mp4",
+      "keyframe_filename": "Little_ShopOf_Horrors.avi_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/Little_ShopOf_Horrors.avi_scene_5_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/Little_ShopOf_Horrors.avi_scene_5_thumb.jpg",
+      "transcription": "You promised me a week, Mr. Mushnick. Upset up all night with that plant. It'll be healthy in the morning. You'll see. I promise. I promise.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, telephone / late-night call.",
+      "synopsis": "In a melancholic exchange from 'The Little Shop Of Horrors' (1950), dialogue centers on \"You promised me a week, Mr. Mushnick. Upset up all night with that plant. It'll be healthy in the morning. You'll see. I promise. I promise.\" framed against fedora & trenchcoat, telephone / late-night call.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "slave_in_bondage_scene_1",
+      "movie_id": "slave_in_bondage",
+      "scene_number": 1,
+      "start_timecode": "00:29:55",
+      "end_timecode": "00:30:00",
+      "start_seconds": 1795.796797,
+      "end_seconds": 1800.801802,
+      "duration_seconds": 5.005004999999997,
+      "video_filename": "slave_in_bondage_scene_1_5s_1080p.mp4",
+      "keyframe_filename": "slave_in_bondage_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/slave_in_bondage_scene_1_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/slave_in_bondage_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by telephone / late-night call, interrogation / standoff.",
+      "synopsis": "An atmospheric 5-second sequence from 'Slaves in Bondage' (1937) driven by telephone / late-night call, interrogation / standoff and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "slave_in_bondage_scene_2",
+      "movie_id": "slave_in_bondage",
+      "scene_number": 2,
+      "start_timecode": "00:32:07",
+      "end_timecode": "00:32:15",
+      "start_seconds": 1927.828829,
+      "end_seconds": 1935.236236,
+      "duration_seconds": 7.407406999999978,
+      "video_filename": "slave_in_bondage_scene_2_7s_1080p.mp4",
+      "keyframe_filename": "slave_in_bondage_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/slave_in_bondage_scene_2_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/slave_in_bondage_scene_2_thumb.jpg",
+      "transcription": "Oh, not much. He's trying to get a newspaper job, and he plays the races a little down a Tuffy's booking office.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Slaves in Bondage' (1937), dialogue centers on \"Oh, not much. He's trying to get a newspaper job, and he plays the races a little down a Tuffy's booking office.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "slave_in_bondage_scene_3",
+      "movie_id": "slave_in_bondage",
+      "scene_number": 3,
+      "start_timecode": "00:38:25",
+      "end_timecode": "00:38:30",
+      "start_seconds": 2305.206206,
+      "end_seconds": 2310.411411,
+      "duration_seconds": 5.205205000000092,
+      "video_filename": "slave_in_bondage_scene_3_5s_1080p.mp4",
+      "keyframe_filename": "slave_in_bondage_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/slave_in_bondage_scene_3_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/slave_in_bondage_scene_3_thumb.jpg",
+      "transcription": "Hey, why all the glue?",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Slaves in Bondage' (1937), dialogue centers on \"Hey, why all the glue?\" framed against fedora & trenchcoat, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "slave_in_bondage_scene_4",
+      "movie_id": "slave_in_bondage",
+      "scene_number": 4,
+      "start_timecode": "00:38:39",
+      "end_timecode": "00:38:45",
+      "start_seconds": 2319.02002,
+      "end_seconds": 2325.526527,
+      "duration_seconds": 6.506506999999942,
+      "video_filename": "slave_in_bondage_scene_4_6s_1080p.mp4",
+      "keyframe_filename": "slave_in_bondage_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/slave_in_bondage_scene_4_6s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/slave_in_bondage_scene_4_thumb.jpg",
+      "transcription": "Marked money. See, that's a dirty shame. But they can't get away with that.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Slaves in Bondage' (1937), dialogue centers on \"Marked money. See, that's a dirty shame. But they can't get away with that.\" framed against fedora & trenchcoat, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "classic cinema",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "slave_in_bondage_scene_5",
+      "movie_id": "slave_in_bondage",
+      "scene_number": 5,
+      "start_timecode": "00:39:16",
+      "end_timecode": "00:39:24",
+      "start_seconds": 2356.957958,
+      "end_seconds": 2364.365365,
+      "duration_seconds": 7.407407000000035,
+      "video_filename": "slave_in_bondage_scene_5_7s_1080p.mp4",
+      "keyframe_filename": "slave_in_bondage_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/slave_in_bondage_scene_5_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/slave_in_bondage_scene_5_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Slaves in Bondage' (1937), dialogue centers on \"You\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "They_Made_Me_A_Criminal_1939_scene_1",
+      "movie_id": "They_Made_Me_A_Criminal_1939",
+      "scene_number": 1,
+      "start_timecode": "00:30:06",
+      "end_timecode": "00:30:12",
+      "start_seconds": 1806.8888,
+      "end_seconds": 1812.6946,
+      "duration_seconds": 5.805799999999991,
+      "video_filename": "They_Made_Me_A_Criminal_1939_scene_1_5s_1080p.mp4",
+      "keyframe_filename": "They_Made_Me_A_Criminal_1939_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/They_Made_Me_A_Criminal_1939_scene_1_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/They_Made_Me_A_Criminal_1939_scene_1_thumb.jpg",
+      "transcription": "Hey, where you going?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by cigarette smoke, telephone / late-night call.",
+      "synopsis": "In a melancholic exchange from 'They Made Me a Criminal' (1939), dialogue centers on \"Hey, where you going?\" framed against cigarette smoke, telephone / late-night call.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "telephone / late-night call",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "cigarette smoke",
+        "telephone / late-night call",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "They_Made_Me_A_Criminal_1939_scene_2",
+      "movie_id": "They_Made_Me_A_Criminal_1939",
+      "scene_number": 2,
+      "start_timecode": "00:35:28",
+      "end_timecode": "00:35:43",
+      "start_seconds": 2128.41,
+      "end_seconds": 2143.1247,
+      "duration_seconds": 14.714699999999993,
+      "video_filename": "They_Made_Me_A_Criminal_1939_scene_2_14s_1080p.mp4",
+      "keyframe_filename": "They_Made_Me_A_Criminal_1939_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/They_Made_Me_A_Criminal_1939_scene_2_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/They_Made_Me_A_Criminal_1939_scene_2_thumb.jpg",
+      "transcription": "Come on! Go ahead, fight! Come on! Come on! Go ahead, fight! Come on!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a melancholic exchange from 'They Made Me a Criminal' (1939), dialogue centers on \"Come on! Go ahead, fight! Come on! Come on! Go ahead, fight! Come on!\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "They_Made_Me_A_Criminal_1939_scene_3",
+      "movie_id": "They_Made_Me_A_Criminal_1939",
+      "scene_number": 3,
+      "start_timecode": "00:36:26",
+      "end_timecode": "00:36:33",
+      "start_seconds": 2186.3679,
+      "end_seconds": 2193.3749,
+      "duration_seconds": 7.007000000000005,
+      "video_filename": "They_Made_Me_A_Criminal_1939_scene_3_7s_1080p.mp4",
+      "keyframe_filename": "They_Made_Me_A_Criminal_1939_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/They_Made_Me_A_Criminal_1939_scene_3_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/They_Made_Me_A_Criminal_1939_scene_3_thumb.jpg",
+      "transcription": "That guy is really up. That guy is really up. That guy is really up.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, dutch angle framing.",
+      "synopsis": "In a tense / suspense exchange from 'They Made Me a Criminal' (1939), dialogue centers on \"That guy is really up. That guy is really up. That guy is really up.\" framed against interrogation / standoff, dutch angle framing.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "They_Made_Me_A_Criminal_1939_scene_4",
+      "movie_id": "They_Made_Me_A_Criminal_1939",
+      "scene_number": 4,
+      "start_timecode": "00:39:15",
+      "end_timecode": "00:39:25",
+      "start_seconds": 2355.8372,
+      "end_seconds": 2365.1465,
+      "duration_seconds": 9.309299999999894,
+      "video_filename": "They_Made_Me_A_Criminal_1939_scene_4_9s_1080p.mp4",
+      "keyframe_filename": "They_Made_Me_A_Criminal_1939_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/They_Made_Me_A_Criminal_1939_scene_4_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/They_Made_Me_A_Criminal_1939_scene_4_thumb.jpg",
+      "transcription": "Well, it looks like he's degenerated, all right? Why'd you say that gas station was going to cost? Oh, about two grand. What do you expect to use for money?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'They Made Me a Criminal' (1939), dialogue centers on \"Well, it looks like he's degenerated, all right? Why'd you say that gas station was going to cost? Oh, about two grand. What do you...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "They_Made_Me_A_Criminal_1939_scene_5",
+      "movie_id": "They_Made_Me_A_Criminal_1939",
+      "scene_number": 5,
+      "start_timecode": "00:41:48",
+      "end_timecode": "00:41:53",
+      "start_seconds": 2508.2895,
+      "end_seconds": 2513.9952,
+      "duration_seconds": 5.705699999999979,
+      "video_filename": "They_Made_Me_A_Criminal_1939_scene_5_5s_1080p.mp4",
+      "keyframe_filename": "They_Made_Me_A_Criminal_1939_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/They_Made_Me_A_Criminal_1939_scene_5_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/They_Made_Me_A_Criminal_1939_scene_5_thumb.jpg",
+      "transcription": "I'm carrying me to top!",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'They Made Me a Criminal' (1939), dialogue centers on \"I'm carrying me to top!\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "brideless_groom_scene_1",
+      "movie_id": "brideless_groom",
+      "scene_number": 1,
+      "start_timecode": "00:09:32",
+      "end_timecode": "00:09:48",
+      "start_seconds": 572.9248,
+      "end_seconds": 588.7406,
+      "duration_seconds": 15.815799999999996,
+      "video_filename": "brideless_groom_scene_1_15s_1080p.mp4",
+      "keyframe_filename": "brideless_groom_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brideless_groom_scene_1_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brideless_groom_scene_1_thumb.jpg",
+      "transcription": "Oh, you look good. You look great kid. You're a sitch go to it",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a melancholic exchange from 'Brideless Groom' (1947), dialogue centers on \"Oh, you look good. You look great kid. You're a sitch go to it\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "brideless_groom_scene_2",
+      "movie_id": "brideless_groom",
+      "scene_number": 2,
+      "start_timecode": "00:12:07",
+      "end_timecode": "00:12:13",
+      "start_seconds": 727.1789,
+      "end_seconds": 733.4852000000001,
+      "duration_seconds": 6.3063000000000216,
+      "video_filename": "brideless_groom_scene_2_6s_1080p.mp4",
+      "keyframe_filename": "brideless_groom_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brideless_groom_scene_2_6s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brideless_groom_scene_2_thumb.jpg",
+      "transcription": "Come on, pal, we gotta make this fast. Have you got the ring? Why, certainly. Certainly I got it. Oh.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Brideless Groom' (1947), dialogue centers on \"Come on, pal, we gotta make this fast. Have you got the ring? Why, certainly. Certainly I got it. Oh.\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "brideless_groom_scene_3",
+      "movie_id": "brideless_groom",
+      "scene_number": 3,
+      "start_timecode": "00:15:07",
+      "end_timecode": "00:15:12",
+      "start_seconds": 907.6592,
+      "end_seconds": 912.8643999999999,
+      "duration_seconds": 5.205199999999991,
+      "video_filename": "brideless_groom_scene_3_5s_1080p.mp4",
+      "keyframe_filename": "brideless_groom_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brideless_groom_scene_3_5s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brideless_groom_scene_3_thumb.jpg",
+      "transcription": "Will you marry me? You'll never. No! No! Oh!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a melancholic exchange from 'Brideless Groom' (1947), dialogue centers on \"Will you marry me? You'll never. No! No! Oh!\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "femme fatale",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "brideless_groom_scene_4",
+      "movie_id": "brideless_groom",
+      "scene_number": 4,
+      "start_timecode": "00:15:14",
+      "end_timecode": "00:15:22",
+      "start_seconds": 914.466,
+      "end_seconds": 922.8743999999999,
+      "duration_seconds": 8.408399999999972,
+      "video_filename": "brideless_groom_scene_4_8s_1080p.mp4",
+      "keyframe_filename": "brideless_groom_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brideless_groom_scene_4_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brideless_groom_scene_4_thumb.jpg",
+      "transcription": "This is your name!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Brideless Groom' (1947), dialogue centers on \"This is your name!\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "brideless_groom_scene_5",
+      "movie_id": "brideless_groom",
+      "scene_number": 5,
+      "start_timecode": "00:15:40",
+      "end_timecode": "00:15:47",
+      "start_seconds": 940.3919000000001,
+      "end_seconds": 947.499,
+      "duration_seconds": 7.107100000000003,
+      "video_filename": "brideless_groom_scene_5_7s_1080p.mp4",
+      "keyframe_filename": "brideless_groom_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brideless_groom_scene_5_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brideless_groom_scene_5_thumb.jpg",
+      "transcription": "Larry, you're not supposed to get it! Larry, help it! Oh, still! Oh, still! Get it! Oh, no!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'Brideless Groom' (1947), dialogue centers on \"Larry, you're not supposed to get it! Larry, help it! Oh, still! Oh, still! Get it! Oh, no!\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "classic cinema",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
         "fatalistic"
       ]
     }
