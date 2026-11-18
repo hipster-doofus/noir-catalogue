@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-17T14:58:14.975378+00:00",
-  "total_movies": 127,
-  "total_scenes": 554,
-  "genre": "any",
-  "source": "Library of Congress",
+  "updated_at": "2026-11-18T04:55:19.567494+00:00",
+  "total_movies": 130,
+  "total_scenes": 563,
+  "genre": "film noir",
+  "source": "Internet Archive",
   "category": "feature_films",
   "movies": [
     {
@@ -1281,6 +1281,36 @@
       "video_url": "https://archive.org/download/brideless_groom/brideless_groom.mp4",
       "license": "Open Archive",
       "description": "You can find more information regarding this film on its IMDb page ."
+    },
+    {
+      "title": "Kiss Of Death (1947) Dir: Henry Hathaway, Starring Victor Mature, Richard Widmark - Film Noir Full Movie",
+      "year": 1947,
+      "director": "Unknown Director",
+      "archive_id": "kissofdeath1947",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/kissofdeath1947/Kiss of Death (1947, USA) Featuring Victor Mature, Richard Widmark - Film Noir Full Mo.mp4",
+      "license": "Open Archive",
+      "description": "Kiss of Death is a 1947 film noir directed by Henry Hathaway and written by Ben Hecht and Charles Lederer from a story by Eleazar Lipsky. The story revolves around an ex-con played by Victor Mature and his former partner-in-crime, Tommy Udo (Richard Widmark in his first film). The movie also starred Brian Donlevy and introduced Coleen Gray in her first billed role.\u00a0 The film received critical praise, with two Academy Award nominations.Kiss of Death is considered a significant example of film noir, and is also notable for giving Widmark a breakout role in his screen debut. Wikipedia: https://en.wikipedia.org/wiki/Kiss_of_Death_(1947_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "1949 - The Third Man - El tercer hombre - Carol Reed - VOSE",
+      "year": 1949,
+      "director": "Unknown Director",
+      "archive_id": "1949-the-third-man-el-tercer-hombre-carol-reed-vose",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/1949-the-third-man-el-tercer-hombre-carol-reed-vose/1949 - The Third Man - El tercer hombre - Carol Reed - VOSE.mp4",
+      "license": "Open Archive",
+      "description": "For Academic / Educational Use Only derechonoir.wordpress.com"
+    },
+    {
+      "title": "1944 - Double Indemnity - Perdici\u00f3n - Pacto de sangre - Billy Wilder - VOSE",
+      "year": 1944,
+      "director": "Unknown Director",
+      "archive_id": "1944-double-indemnity-billy-wilder-vose",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/1944-double-indemnity-billy-wilder-vose/1944 - Double Indemnity - Billy Wilder - VOSE.mp4",
+      "license": "Open Archive",
+      "description": "For Academic / Educational Use Only"
     }
   ],
   "scenes": [
@@ -16659,6 +16689,276 @@
         "interrogation / standoff",
         "telephone / late-night call",
         "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "kissofdeath1947_scene_1",
+      "movie_id": "kissofdeath1947",
+      "scene_number": 1,
+      "start_timecode": "00:30:18",
+      "end_timecode": "00:30:33",
+      "start_seconds": 1818.80575,
+      "end_seconds": 1833.445375,
+      "duration_seconds": 14.639624999999995,
+      "video_filename": "kissofdeath1947_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "kissofdeath1947_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/kissofdeath1947_scene_1_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/kissofdeath1947_scene_1_thumb.jpg",
+      "transcription": "like a little ride in the town. You knew what you wanted once. I'd like to know what changed you. It will give me a chance to decide on whether your story is reliable enough to go to work on.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Kiss Of Death (1947) Dir: Henry Hathaway, Starring Victor Mature, Richard Widmark - Film Noir Full Movie' (1947), dialogue centers on \"like a little ride in the town. You knew what you wanted once. I'd like to know what changed you. It will give me a chance to decide on...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "kissofdeath1947_scene_2",
+      "movie_id": "kissofdeath1947",
+      "scene_number": 2,
+      "start_timecode": "00:36:51",
+      "end_timecode": "00:37:20",
+      "start_seconds": 2211.322875,
+      "end_seconds": 2240.477,
+      "duration_seconds": 29.154124999999965,
+      "video_filename": "kissofdeath1947_scene_2_29s_1080p.mp4",
+      "keyframe_filename": "kissofdeath1947_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/kissofdeath1947_scene_2_29s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/kissofdeath1947_scene_2_thumb.jpg",
+      "transcription": "Nobody else here has a baby, have a sister from a can-nobody else. Daddy, mama got hurt, and we waited for you, and said prayers for you every night. And God sent you back.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Kiss Of Death (1947) Dir: Henry Hathaway, Starring Victor Mature, Richard Widmark - Film Noir Full Movie' (1947), dialogue centers on \"Nobody else here has a baby, have a sister from a can-nobody else. Daddy, mama got hurt, and we waited for you, and said prayers for you...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "kissofdeath1947_scene_3",
+      "movie_id": "kissofdeath1947",
+      "scene_number": 3,
+      "start_timecode": "00:42:42",
+      "end_timecode": "00:42:50",
+      "start_seconds": 2562.423625,
+      "end_seconds": 2570.807,
+      "duration_seconds": 8.383375000000001,
+      "video_filename": "kissofdeath1947_scene_3_8s_1080p.mp4",
+      "keyframe_filename": "kissofdeath1947_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/kissofdeath1947_scene_3_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/kissofdeath1947_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a stark silhouette framed against a bright doorway or window, accented by fedora & trenchcoat, telephone / late-night call.",
+      "synopsis": "An atmospheric 8-second sequence from 'Kiss Of Death (1947) Dir: Henry Hathaway, Starring Victor Mature, Richard Widmark - Film Noir Full Movie' (1947) driven by fedora & trenchcoat, telephone / late-night call and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_1",
+      "movie_id": "1949-the-third-man-el-tercer-hombre-carol-reed-vose",
+      "scene_number": 1,
+      "start_timecode": "00:26:10",
+      "end_timecode": "00:26:35",
+      "start_seconds": 1570.375,
+      "end_seconds": 1595.625,
+      "duration_seconds": 25.25,
+      "video_filename": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_1_25s_1080p.mp4",
+      "keyframe_filename": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_1_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_1_thumb.jpg",
+      "transcription": "You shouldn't get mixed up in this. Well, if I do find out something, can I look you up again? Why don't you leave this town? Go home. Un plopply. You've always taken this in front of each minute. The politicized organ is not appeared, only as an all-year-a-briefment. The politicized organ is not appeared, only as an all-year-a-briefment.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from '1949 - The Third Man - El tercer hombre - Carol Reed - VOSE' (1949), dialogue centers on \"You shouldn't get mixed up in this. Well, if I do find out something, can I look you up again? Why don't you leave this town? Go home....\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "low-key chiaroscuro"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "low-key chiaroscuro",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_2",
+      "movie_id": "1949-the-third-man-el-tercer-hombre-carol-reed-vose",
+      "scene_number": 2,
+      "start_timecode": "00:28:24",
+      "end_timecode": "00:28:40",
+      "start_seconds": 1704.25,
+      "end_seconds": 1720.25,
+      "duration_seconds": 16.0,
+      "video_filename": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_2_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_2_thumb.jpg",
+      "transcription": "Must you take those? They'll be returned, Miss. They're private letters. That's all right, Miss. Don't worry. We're used to it. Like doctors.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from '1949 - The Third Man - El tercer hombre - Carol Reed - VOSE' (1949), dialogue centers on \"Must you take those? They'll be returned, Miss. They're private letters. That's all right, Miss. Don't worry. We're used to it. Like...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_3",
+      "movie_id": "1949-the-third-man-el-tercer-hombre-carol-reed-vose",
+      "scene_number": 3,
+      "start_timecode": "00:30:33",
+      "end_timecode": "00:30:41",
+      "start_seconds": 1833.375,
+      "end_seconds": 1841.375,
+      "duration_seconds": 8.0,
+      "video_filename": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_3_8s_1080p.mp4",
+      "keyframe_filename": "1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_3_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1949-the-third-man-el-tercer-hombre-carol-reed-vose_scene_3_thumb.jpg",
+      "transcription": "and glad I can hear you. Sarge, he's not glad I can hear you. The mitch is up with you. She's over. Only complaining about the way they're behaving her house. Yes.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from '1949 - The Third Man - El tercer hombre - Carol Reed - VOSE' (1949), dialogue centers on \"and glad I can hear you. Sarge, he's not glad I can hear you. The mitch is up with you. She's over. Only complaining about the way...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "1944-double-indemnity-billy-wilder-vose_scene_1",
+      "movie_id": "1944-double-indemnity-billy-wilder-vose",
+      "scene_number": 1,
+      "start_timecode": "00:09:13",
+      "end_timecode": "00:09:34",
+      "start_seconds": 553.5845,
+      "end_seconds": 574.230111,
+      "duration_seconds": 20.645610999999988,
+      "video_filename": "1944-double-indemnity-billy-wilder-vose_scene_1_20s_1080p.mp4",
+      "keyframe_filename": "1944-double-indemnity-billy-wilder-vose_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1944-double-indemnity-billy-wilder-vose_scene_1_20s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1944-double-indemnity-billy-wilder-vose_scene_1_thumb.jpg",
+      "transcription": "They had a bowl of those little red goldfish on the table behind the big Davenport. But to tell you the truth keys, I wasn't a whole lot interested in goldfish right then. On all the renewals are on Mr. Dietrichson and his daughter Lola. I was thinking about that day upstairs and the way she had looked at me. And I wanted to see her again, close.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from '1944 - Double Indemnity - Perdici\u00f3n - Pacto de sangre - Billy Wilder - VOSE' (1944), dialogue centers on \"They had a bowl of those little red goldfish on the table behind the big Davenport. But to tell you the truth keys, I wasn't a whole lot...\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "1944-double-indemnity-billy-wilder-vose_scene_2",
+      "movie_id": "1944-double-indemnity-billy-wilder-vose",
+      "scene_number": 2,
+      "start_timecode": "00:13:01",
+      "end_timecode": "00:13:20",
+      "start_seconds": 781.6873780000001,
+      "end_seconds": 800.331,
+      "duration_seconds": 18.643621999999993,
+      "video_filename": "1944-double-indemnity-billy-wilder-vose_scene_2_18s_1080p.mp4",
+      "keyframe_filename": "1944-double-indemnity-billy-wilder-vose_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1944-double-indemnity-billy-wilder-vose_scene_2_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1944-double-indemnity-billy-wilder-vose_scene_2_thumb.jpg",
+      "transcription": "Remember keys? Oh, Mr. Knapp. Mr. Keys wants to see you. He's been yelling for you all afternoon. If you saw her, just frothing at the mouth. Park this for me, will you, sweetheart? Hello, Walter. I go in.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a melancholic exchange from '1944 - Double Indemnity - Perdici\u00f3n - Pacto de sangre - Billy Wilder - VOSE' (1944), dialogue centers on \"Remember keys? Oh, Mr. Knapp. Mr. Keys wants to see you. He's been yelling for you all afternoon. If you saw her, just frothing at the...\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "1944-double-indemnity-billy-wilder-vose_scene_3",
+      "movie_id": "1944-double-indemnity-billy-wilder-vose",
+      "scene_number": 3,
+      "start_timecode": "00:13:38",
+      "end_timecode": "00:13:49",
+      "start_seconds": 818.974611,
+      "end_seconds": 829.485111,
+      "duration_seconds": 10.510500000000036,
+      "video_filename": "1944-double-indemnity-billy-wilder-vose_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "1944-double-indemnity-billy-wilder-vose_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1944-double-indemnity-billy-wilder-vose_scene_3_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1944-double-indemnity-billy-wilder-vose_scene_3_thumb.jpg",
+      "transcription": "Yeah. Now look out of this. Every month, hundreds of claims come to this desk. Some of them are phonies, and I know which ones. How do I know? Because my little man tells me.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from '1944 - Double Indemnity - Perdici\u00f3n - Pacto de sangre - Billy Wilder - VOSE' (1944), dialogue centers on \"Yeah. Now look out of this. Every month, hundreds of claims come to this desk. Some of them are phonies, and I know which ones. How do I...\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
         "fatalistic"
       ]
     }
