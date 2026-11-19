@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T04:55:19.567494+00:00",
-  "total_movies": 130,
-  "total_scenes": 563,
+  "updated_at": "2026-11-19T05:05:26.730770+00:00",
+  "total_movies": 133,
+  "total_scenes": 573,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1311,6 +1311,36 @@
       "video_url": "https://archive.org/download/1944-double-indemnity-billy-wilder-vose/1944 - Double Indemnity - Billy Wilder - VOSE.mp4",
       "license": "Open Archive",
       "description": "For Academic / Educational Use Only"
+    },
+    {
+      "title": "The Judge",
+      "year": 1949,
+      "director": "Emerald Productions Inc.",
+      "archive_id": "TheJudge1949",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/TheJudge1949/The_Judge_(1949).mp4",
+      "license": "Open Archive",
+      "description": "Title: The Judge Summary: A crooked lawyer blackmails a client into a murder plot against his wife. Directed by: Elmer Clifton Actors: Milburn Stone, Katherine DeMille, Paul Guilfoyle Production Company: Emerald Productions Inc. Release Date: 31 January 1949 (USA) Aspect Ratio: 1.37 : 1 Martin Strong (Milburn Stone), prominent criminal attorney, becomes conscience-stricken when his is forced to come to the defense of an insane killer whom he had freed from a similar charge a year earlier. Goaded by his scheming wife, Lucille (Katherine deMille),who is in love with Dr. James Anderson (Stanley Waxman), the county police psychiatrist, Strang finally goes off the deep end when he realizes his career has become a king-size failure. In a dual plan to seek revenge for his wife's infidelity and betrayal, he writes a will leaving his fortune to the families who have been wronged by the guilty criminals he has aided. His plan is changed when he accidently becomes a witness to a crime committed by a stranger, William Jackson (Paul Guilfoyle). Certain legal aspects of the murder appeal to Strang's warped mind, and he comes to the defense of Jackson, and secures his temporary freedom by a clever legal trick. Trying to prove to himself whether he has been right or wrong in freeing..."
+    },
+    {
+      "title": "The Naked Street (1945, USA) Anthony Quinn, Anne Bancroft - Film Noir Full Movie",
+      "year": 1955,
+      "director": "Unknown Director",
+      "archive_id": "thenakedstreet1945",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thenakedstreet1945/The Naked Street (1945, USA) Featuring  Anthony Quinn, Anne Bancroft.  - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "The Naked Street is a 1955 American crime film noir directed by Maxwell Shane. The drama features Farley Granger, Anthony Quinn and Anne Bancroft. Wikipedia: https://en.wikipedia.org/wiki/The_Naked_Street Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Force of Evil (1948) John Garfield, Beatrice Pearson, Marie Windsor",
+      "year": 1948,
+      "director": "Unknown Director",
+      "archive_id": "force-of-evil-.-1948_202108",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/force-of-evil-.-1948_202108/Force of Evil .1948..ia.mp4",
+      "license": "Open Archive",
+      "description": "Force of Evil is a 1948 American crime FILM NOlR directed by Abraham Polonsky, who was previously known as a screenwriter for the boxing film Body and Soul (1947). Like Body and Soul, the film starred John Garfield. The film was adapted by Abraham Polonsky and Ira Wolfert from Wolfert's novel Tucker's People\u00a0 \u00a0 In 1994, Force of Evil was selected for preservation in the United States National Film Registry by the Library of Congress as being \"culturally, historically, or aesthetically significant\". \u00a0 You can find out more about this movie from Wikipedia . There is also a good review of the movie here from the movie blog Senses of Cinema .\u00a0 \u00a0"
     }
   ],
   "scenes": [
@@ -16960,6 +16990,306 @@
         "fedora & trenchcoat",
         "interrogation / standoff",
         "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "moonrise1948_202002_scene_1",
+      "movie_id": "moonrise1948_202002",
+      "scene_number": 1,
+      "start_timecode": "00:07:48",
+      "end_timecode": "00:10:21",
+      "start_seconds": 468.0,
+      "end_seconds": 621.558504,
+      "duration_seconds": 153.558504,
+      "video_filename": "moonrise1948_202002_scene_1_153s_1080p.mp4",
+      "keyframe_filename": "moonrise1948_202002_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/moonrise1948_202002_scene_1_153s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/moonrise1948_202002_scene_1_thumb.jpg",
+      "transcription": "Come on, Billy. Come on, Billy. Come on, Billy. Come on. Come on. That'll be it. That'll be it. That'll be it. What's the matter with you? What does he think he is? Hey, what's the big idea? That's my compact. Yeah, come on, back here. That's Janie's marriage. Get out the rustle. Lay off. Just because he's deaf and dumb. He's got a mind like a baby. Don't give you no right to make fun of him. Why don't you mind? We off him! Forget it, Jard. He looks like he's had enough fights tonight. Why's his name? Why's his name? He brought his pond bourbon and poker flam. Can't afford that kind of folk. It just dawned on me that there's magic in the moonrod. It just dawned on me.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a paranoid exchange from 'Moonrise (1948) Dane Clark, Gail Russell, Lloyd Bridges - Film Noir' (1948), dialogue centers on \"Come on, Billy. Come on, Billy. Come on, Billy. Come on. Come on. That'll be it. That'll be it. That'll be it. What's the matter with...\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "TheJudge1949_scene_1",
+      "movie_id": "TheJudge1949",
+      "scene_number": 1,
+      "start_timecode": "00:12:31",
+      "end_timecode": "00:13:02",
+      "start_seconds": 751.88,
+      "end_seconds": 782.36,
+      "duration_seconds": 30.480000000000018,
+      "video_filename": "TheJudge1949_scene_1_30s_1080p.mp4",
+      "keyframe_filename": "TheJudge1949_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheJudge1949_scene_1_30s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheJudge1949_scene_1_thumb.jpg",
+      "transcription": "I stopped by the jail to see Tilton. I said he was over here. Where is he? Inside. Your boys are getting a work pretty early, what's on your mind? I'd like to handle these cases as soon as possible after the crime. I have a theory about Tilton's. I'd like to try something on him if you don't mind. What?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from 'The Judge' (1949), dialogue centers on \"I stopped by the jail to see Tilton. I said he was over here. Where is he? Inside. Your boys are getting a work pretty early, what's on...\" framed against interrogation / standoff, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "TheJudge1949_scene_2",
+      "movie_id": "TheJudge1949",
+      "scene_number": 2,
+      "start_timecode": "00:15:15",
+      "end_timecode": "00:15:25",
+      "start_seconds": 915.3199999999999,
+      "end_seconds": 925.4,
+      "duration_seconds": 10.079999999999984,
+      "video_filename": "TheJudge1949_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "TheJudge1949_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheJudge1949_scene_2_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheJudge1949_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, cigarette smoke.",
+      "synopsis": "An atmospheric 10-second sequence from 'The Judge' (1949) driven by interrogation / standoff, cigarette smoke and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "cigarette smoke",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "TheJudge1949_scene_3",
+      "movie_id": "TheJudge1949",
+      "scene_number": 3,
+      "start_timecode": "00:19:17",
+      "end_timecode": "00:19:34",
+      "start_seconds": 1157.3600000000001,
+      "end_seconds": 1174.1599999999999,
+      "duration_seconds": 16.799999999999955,
+      "video_filename": "TheJudge1949_scene_3_16s_1080p.mp4",
+      "keyframe_filename": "TheJudge1949_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheJudge1949_scene_3_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheJudge1949_scene_3_thumb.jpg",
+      "transcription": "Letting him out.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'The Judge' (1949), dialogue centers on \"Letting him out.\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "nightclub / jazz bar",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "thenakedstreet1945_scene_1",
+      "movie_id": "thenakedstreet1945",
+      "scene_number": 1,
+      "start_timecode": "00:10:22",
+      "end_timecode": "00:10:33",
+      "start_seconds": 622.0,
+      "end_seconds": 633.4,
+      "duration_seconds": 11.4,
+      "video_filename": "thenakedstreet1945_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "thenakedstreet1945_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thenakedstreet1945_scene_1_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thenakedstreet1945_scene_1_thumb.jpg",
+      "transcription": "The boy who is in prison in seeing seeing no good 30-face punk You could go for a for a two-bit",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'The Naked Street (1945, USA) Anthony Quinn, Anne Bancroft - Film Noir Full Movie' (1955), dialogue centers on \"The boy who is in prison in seeing seeing no good 30-face punk You could go for a for a two-bit\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "thenakedstreet1945_scene_2",
+      "movie_id": "thenakedstreet1945",
+      "scene_number": 2,
+      "start_timecode": "00:19:37",
+      "end_timecode": "00:20:31",
+      "start_seconds": 1177.4,
+      "end_seconds": 1231.0,
+      "duration_seconds": 53.60000000000002,
+      "video_filename": "thenakedstreet1945_scene_2_53s_1080p.mp4",
+      "keyframe_filename": "thenakedstreet1945_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thenakedstreet1945_scene_2_53s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thenakedstreet1945_scene_2_thumb.jpg",
+      "transcription": "Oh, why didn't I tell her to the DA when Nicky was on trial? Well, yeah, it had your own troubles. He was in the hospital. Yeah, that lousy girl bladder. Now you want to do what's right. You want to go and see Michael X. Flanders, Mickey's lawyer, and give the kid an alibi. An alibi? Oh, yeah. Now I remember. I remember good. Here, duh. You don't much good your memories then, do you? No, Mr. Rico. How much? $3.12 worth. A lot's here, I said so, huh? Hope I didn't take the long line. Rosalie had a nice talk today with father Houdinik. Yeah, that's fine. Yes, I told him how ashamed I was and how sorry that I really want to have my baby. Make a good home for it. I asked him if it was possible for me to marry Nicky.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'The Naked Street (1945, USA) Anthony Quinn, Anne Bancroft - Film Noir Full Movie' (1955), dialogue centers on \"Oh, why didn't I tell her to the DA when Nicky was on trial? Well, yeah, it had your own troubles. He was in the hospital. Yeah, that...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thenakedstreet1945_scene_3",
+      "movie_id": "thenakedstreet1945",
+      "scene_number": 3,
+      "start_timecode": "00:20:31",
+      "end_timecode": "00:20:58",
+      "start_seconds": 1231.0,
+      "end_seconds": 1258.0,
+      "duration_seconds": 27.0,
+      "video_filename": "thenakedstreet1945_scene_3_27s_1080p.mp4",
+      "keyframe_filename": "thenakedstreet1945_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thenakedstreet1945_scene_3_27s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thenakedstreet1945_scene_3_thumb.jpg",
+      "transcription": "in the death house. You ain't marrying nobody in our death house. You want the papers, I suppose. And the society got them. So my husband's going to read about it. I got news for you, kid. You're marrying that boy in church. I'm getting you husband delivered. Not a cryover. Oh, Phil, you really mean it? Would I get about a thing like that? But this boy was sent up there for him.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Naked Street (1945, USA) Anthony Quinn, Anne Bancroft - Film Noir Full Movie' (1955), dialogue centers on \"in the death house. You ain't marrying nobody in our death house. You want the papers, I suppose. And the society got them. So my...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "force-of-evil-.-1948_202108_scene_1",
+      "movie_id": "force-of-evil-.-1948_202108",
+      "scene_number": 1,
+      "start_timecode": "00:29:01",
+      "end_timecode": "00:29:42",
+      "start_seconds": 1741.0,
+      "end_seconds": 1782.5415,
+      "duration_seconds": 41.5415,
+      "video_filename": "force-of-evil-.-1948_202108_scene_1_41s_1080p.mp4",
+      "keyframe_filename": "force-of-evil-.-1948_202108_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/force-of-evil-.-1948_202108_scene_1_41s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/force-of-evil-.-1948_202108_scene_1_thumb.jpg",
+      "transcription": "Verge, don't you see what it is? It's not natural. To go to great expense for something you want, that's natural. To reach out to take it, that's human, that's natural. But to get you a pleasure, if I'm not taking, I'm cheating yourself deliberately like my brother did today. I'm not getting, if I'm not taking it. Don't you see what a black thing that is for a man to do? How it is to hate yourself, your brother, make him feel that he's guilty. But I'm guilty. Just to live and be guilty.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Force of Evil (1948) John Garfield, Beatrice Pearson, Marie Windsor' (1948), dialogue centers on \"Verge, don't you see what it is? It's not natural. To go to great expense for something you want, that's natural. To reach out to take...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "force-of-evil-.-1948_202108_scene_2",
+      "movie_id": "force-of-evil-.-1948_202108",
+      "scene_number": 2,
+      "start_timecode": "00:41:54",
+      "end_timecode": "00:42:26",
+      "start_seconds": 2514.3726,
+      "end_seconds": 2546.7048999999997,
+      "duration_seconds": 32.33229999999992,
+      "video_filename": "force-of-evil-.-1948_202108_scene_2_32s_1080p.mp4",
+      "keyframe_filename": "force-of-evil-.-1948_202108_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/force-of-evil-.-1948_202108_scene_2_32s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/force-of-evil-.-1948_202108_scene_2_thumb.jpg",
+      "transcription": "Oh, wait for me, daras. I won't be long. That's on your mind, Edna. I couldn't telephone so I came down in person. Telephone, about what? Telephone, you about the telephone? What about the telephone?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Force of Evil (1948) John Garfield, Beatrice Pearson, Marie Windsor' (1948), dialogue centers on \"Oh, wait for me, daras. I won't be long. That's on your mind, Edna. I couldn't telephone so I came down in person. Telephone, about...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "force-of-evil-.-1948_202108_scene_3",
+      "movie_id": "force-of-evil-.-1948_202108",
+      "scene_number": 3,
+      "start_timecode": "00:42:28",
+      "end_timecode": "00:43:00",
+      "start_seconds": 2548.9071,
+      "end_seconds": 2580.7389,
+      "duration_seconds": 31.83179999999993,
+      "video_filename": "force-of-evil-.-1948_202108_scene_3_31s_1080p.mp4",
+      "keyframe_filename": "force-of-evil-.-1948_202108_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/force-of-evil-.-1948_202108_scene_3_31s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/force-of-evil-.-1948_202108_scene_3_thumb.jpg",
+      "transcription": "Well, Ben has to expect those things. All is in the business, and Ben Tucker is a stock and trade. That's why Ben sent me. So are you.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Force of Evil (1948) John Garfield, Beatrice Pearson, Marie Windsor' (1948), dialogue centers on \"Well, Ben has to expect those things. All is in the business, and Ben Tucker is a stock and trade. That's why Ben sent me. So are you.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
       ]
     }
   ]
