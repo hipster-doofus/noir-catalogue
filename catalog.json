@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T05:05:26.730770+00:00",
-  "total_movies": 133,
-  "total_scenes": 573,
+  "updated_at": "2026-11-20T04:55:37.282149+00:00",
+  "total_movies": 136,
+  "total_scenes": 582,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1341,6 +1341,36 @@
       "video_url": "https://archive.org/download/force-of-evil-.-1948_202108/Force of Evil .1948..ia.mp4",
       "license": "Open Archive",
       "description": "Force of Evil is a 1948 American crime FILM NOlR directed by Abraham Polonsky, who was previously known as a screenwriter for the boxing film Body and Soul (1947). Like Body and Soul, the film starred John Garfield. The film was adapted by Abraham Polonsky and Ira Wolfert from Wolfert's novel Tucker's People\u00a0 \u00a0 In 1994, Force of Evil was selected for preservation in the United States National Film Registry by the Library of Congress as being \"culturally, historically, or aesthetically significant\". \u00a0 You can find out more about this movie from Wikipedia . There is also a good review of the movie here from the movie blog Senses of Cinema .\u00a0 \u00a0"
+    },
+    {
+      "title": "Thieves' Highway (1949) Dir: Jules Dassin, Starring Richard Conte, Lee J Cobb, Valentina Cortese",
+      "year": 1949,
+      "director": "Unknown Director",
+      "archive_id": "thieveshighway1948",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thieveshighway1948/Thieves' Highway (1948, USA) Featuring Richard Carlson, Lucille Bremer - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Thieves' Highway is a 1949 film noir directed by Jules Dassin. starring Richard Conte, Lee J Cobb, Valentina Cortese. The screenplay was written by A. I. Bezzerides, based on his novel Thieves' Market. \u00a0 Find out more about the movie here ."
+    },
+    {
+      "title": "Jennifer (1953) Ida Lupino, Howard Duff, Robert Nichols - Film Noir",
+      "year": 1953,
+      "director": "Unknown Director",
+      "archive_id": "jennifer1953",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/jennifer1953/Jennifer (1953, USA) Featuring Ida Lupino, Howard Duff, Robert Nichols - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Jennifer is a 1953 film noir directed by Joel Newton and starring Ida Lupino, Howard Duff, and Robert Nichols. \u00a0 Time Out magazine (London) wrote of the film, \"This is gothic romance crossed with early '50s noir, worth a look for the sake of the great Wong Howe. He tackles this B-picture with unfailing artistry, creating images that are strong without being showy, atmospheric yet perfectly naturalistic. \u00a0 Wikipedia: https://en.wikipedia.org/wiki/Jennifer_(1953_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "1955 - The Night of The Hunter (La noche del cazador) w/Spanish Subtitles",
+      "year": 1955,
+      "director": "MGM",
+      "archive_id": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton/1955 - The Night of the Hunter - La noche del cazador - Charles Laughton - VOSE.ia.mp4",
+      "license": "Open Archive",
+      "description": "1955 - The Night of The Hunter - La noche del cazador - Charles Laughton English language version of the film subtitled in Spanish."
     }
   ],
   "scenes": [
@@ -17290,6 +17320,276 @@
         "interrogation / standoff",
         "nightclub / jazz bar",
         "melancholic"
+      ]
+    },
+    {
+      "scene_id": "thieveshighway1948_scene_1",
+      "movie_id": "thieveshighway1948",
+      "scene_number": 1,
+      "start_timecode": "00:10:52",
+      "end_timecode": "00:11:30",
+      "start_seconds": 652.0,
+      "end_seconds": 690.663625,
+      "duration_seconds": 38.663625,
+      "video_filename": "thieveshighway1948_scene_1_38s_1080p.mp4",
+      "keyframe_filename": "thieveshighway1948_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thieveshighway1948_scene_1_38s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thieveshighway1948_scene_1_thumb.jpg",
+      "transcription": "San Francisco. They ate apples and frisco rains. Now, I'll say grab them up like that. You think Mike Figgly might be interested. Oh, that chisler. If he's so crazy that he got him, he might even make a straight deal. It's too bad your old man is laid up. Keep going with me if he had $1,200. Then I wouldn't have to go in with these other two guys. They ain't no friends of mine. But your old man, I like him. He used to be a good trucker. We could buy two loads of golden delicious. One for him and one for me and make a killing. The two guys I was telling you about. I wish I didn't have to go in with a nice shot.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Thieves' Highway (1949) Dir: Jules Dassin, Starring Richard Conte, Lee J Cobb, Valentina Cortese' (1949), dialogue centers on \"San Francisco. They ate apples and frisco rains. Now, I'll say grab them up like that. You think Mike Figgly might be interested. Oh,...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thieveshighway1948_scene_2",
+      "movie_id": "thieveshighway1948",
+      "scene_number": 2,
+      "start_timecode": "00:14:06",
+      "end_timecode": "00:14:28",
+      "start_seconds": 846.44425,
+      "end_seconds": 868.341125,
+      "duration_seconds": 21.896874999999994,
+      "video_filename": "thieveshighway1948_scene_2_21s_1080p.mp4",
+      "keyframe_filename": "thieveshighway1948_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thieveshighway1948_scene_2_21s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thieveshighway1948_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by dutch angle framing, femme fatale.",
+      "synopsis": "An atmospheric 22-second sequence from 'Thieves' Highway (1949) Dir: Jules Dassin, Starring Richard Conte, Lee J Cobb, Valentina Cortese' (1949) driven by dutch angle framing, femme fatale and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "femme fatale",
+        "low-key chiaroscuro"
+      ],
+      "tags": [
+        "film noir",
+        "dutch angle framing",
+        "femme fatale",
+        "low-key chiaroscuro",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "thieveshighway1948_scene_3",
+      "movie_id": "thieveshighway1948",
+      "scene_number": 3,
+      "start_timecode": "00:15:01",
+      "end_timecode": "00:15:38",
+      "start_seconds": 901.374125,
+      "end_seconds": 938.4111250000001,
+      "duration_seconds": 37.037000000000035,
+      "video_filename": "thieveshighway1948_scene_3_37s_1080p.mp4",
+      "keyframe_filename": "thieveshighway1948_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thieveshighway1948_scene_3_37s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thieveshighway1948_scene_3_thumb.jpg",
+      "transcription": "No porfietz mojilen, no porfietz mo. My wife, she said to tell you dollar box. That's right. Thank you. Thank you. Good luck. Have a nice trip. Genkuia. Genkuia. And zell gut, my emperor. Genkuia. What's your shortcut to your zamau bienzi? What's your povien d'as vanache sa tatuy es jevensir? Hey, wait, hey, stop, don't go, wait. Check it, truck one. Wait a moment, you two good, you don't drive. Turn that right and make me stage.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, dutch angle framing.",
+      "synopsis": "In a fatalistic exchange from 'Thieves' Highway (1949) Dir: Jules Dassin, Starring Richard Conte, Lee J Cobb, Valentina Cortese' (1949), dialogue centers on \"No porfietz mojilen, no porfietz mo. My wife, she said to tell you dollar box. That's right. Thank you. Thank you. Good luck. Have a...\" framed against fedora & trenchcoat, dutch angle framing.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "jennifer1953_scene_1",
+      "movie_id": "jennifer1953",
+      "scene_number": 1,
+      "start_timecode": "00:20:49",
+      "end_timecode": "00:20:59",
+      "start_seconds": 1249.4682,
+      "end_seconds": 1259.1779000000001,
+      "duration_seconds": 9.709699999999998,
+      "video_filename": "jennifer1953_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "jennifer1953_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/jennifer1953_scene_1_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/jennifer1953_scene_1_thumb.jpg",
+      "transcription": "You'll know that when you've been here long enough. Molly, where is that slip? Look, all I want is a box of Kleenex, a can of frozen orange juice, and some clothes pins.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'Jennifer (1953) Ida Lupino, Howard Duff, Robert Nichols - Film Noir' (1953), dialogue centers on \"You'll know that when you've been here long enough. Molly, where is that slip? Look, all I want is a box of Kleenex, a can of frozen...\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "jennifer1953_scene_2",
+      "movie_id": "jennifer1953",
+      "scene_number": 2,
+      "start_timecode": "00:22:43",
+      "end_timecode": "00:22:55",
+      "start_seconds": 1363.8825,
+      "end_seconds": 1375.8944999999999,
+      "duration_seconds": 12.012,
+      "video_filename": "jennifer1953_scene_2_12s_1080p.mp4",
+      "keyframe_filename": "jennifer1953_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/jennifer1953_scene_2_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/jennifer1953_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 12-second sequence from 'Jennifer (1953) Ida Lupino, Howard Duff, Robert Nichols - Film Noir' (1953) driven by femme fatale, fedora & trenchcoat and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "jennifer1953_scene_3",
+      "movie_id": "jennifer1953",
+      "scene_number": 3,
+      "start_timecode": "00:30:18",
+      "end_timecode": "00:30:51",
+      "start_seconds": 1818.0362,
+      "end_seconds": 1851.87,
+      "duration_seconds": 33.8338,
+      "video_filename": "jennifer1953_scene_3_33s_1080p.mp4",
+      "keyframe_filename": "jennifer1953_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/jennifer1953_scene_3_33s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/jennifer1953_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a stark silhouette framed against a bright doorway or window, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "An atmospheric 34-second sequence from 'Jennifer (1953) Ida Lupino, Howard Duff, Robert Nichols - Film Noir' (1953) driven by femme fatale, interrogation / standoff and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_1",
+      "movie_id": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton",
+      "scene_number": 1,
+      "start_timecode": "00:15:52",
+      "end_timecode": "00:16:02",
+      "start_seconds": 952.4,
+      "end_seconds": 962.36,
+      "duration_seconds": 9.959999999999999,
+      "video_filename": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_1_9s_1080p.mp4",
+      "keyframe_filename": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_1_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_1_thumb.jpg",
+      "transcription": "Come on in have a coffee bar ain't nobody stole that skiff ain't nobody gonna neither and longs Uncle Birdie's round",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, cigarette smoke.",
+      "synopsis": "In a melancholic exchange from '1955 - The Night of The Hunter (La noche del cazador) w/Spanish Subtitles' (1955), dialogue centers on \"Come on in have a coffee bar ain't nobody stole that skiff ain't nobody gonna neither and longs Uncle Birdie's round\" framed against femme fatale, cigarette smoke.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "cigarette smoke",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "cigarette smoke",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_2",
+      "movie_id": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton",
+      "scene_number": 2,
+      "start_timecode": "00:20:37",
+      "end_timecode": "00:21:03",
+      "start_seconds": 1237.76,
+      "end_seconds": 1263.44,
+      "duration_seconds": 25.680000000000007,
+      "video_filename": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_2_25s_1080p.mp4",
+      "keyframe_filename": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_2_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_2_thumb.jpg",
+      "transcription": "Don't you have the grandest singing voice? John, Earl, how long will you do? Where? Don't believe her, my goodness! That fella's just bugging to settle now with some nice woman and they got home for himself. I see it's awful soon after Ben's passing. If ever I saw a sign from him, John don't like him much. Earl don't saw him. The boy worries me.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from '1955 - The Night of The Hunter (La noche del cazador) w/Spanish Subtitles' (1955), dialogue centers on \"Don't you have the grandest singing voice? John, Earl, how long will you do? Where? Don't believe her, my goodness! That fella's just...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_3",
+      "movie_id": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton",
+      "scene_number": 3,
+      "start_timecode": "00:26:55",
+      "end_timecode": "00:27:17",
+      "start_seconds": 1615.4,
+      "end_seconds": 1637.72,
+      "duration_seconds": 22.32000000000005,
+      "video_filename": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_3_22s_1080p.mp4",
+      "keyframe_filename": "1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_3_22s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton_scene_3_thumb.jpg",
+      "transcription": "I love Mr. Power, not too much, John.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from '1955 - The Night of The Hunter (La noche del cazador) w/Spanish Subtitles' (1955), dialogue centers on \"I love Mr. Power, not too much, John.\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
       ]
     }
   ]
