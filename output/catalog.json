@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-20T04:55:37.282149+00:00",
-  "total_movies": 136,
-  "total_scenes": 582,
+  "updated_at": "2026-11-21T04:53:09.416022+00:00",
+  "total_movies": 139,
+  "total_scenes": 592,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1371,6 +1371,36 @@
       "video_url": "https://archive.org/download/1955-the-night-of-the-hunter-la-noche-del-cazador-charles-laughton/1955 - The Night of the Hunter - La noche del cazador - Charles Laughton - VOSE.ia.mp4",
       "license": "Open Archive",
       "description": "1955 - The Night of The Hunter - La noche del cazador - Charles Laughton English language version of the film subtitled in Spanish."
+    },
+    {
+      "title": "Private Hell 36 (1954) Ida Lupino, Steve Cochran, Howard Duff Film Noir Full Movie",
+      "year": 1954,
+      "director": "Unknown Director",
+      "archive_id": "privatehell361954_202001",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/privatehell361954_202001/Private Hell 36 (1954, USA) Featuring  Ida Lupino, Steve Cochran, Howard Duff - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Private Hell 36 is a 1954 crime film noir directed by Don Siegel starring Ida Lupino, Steve Cochran, Howard Duff, Dean Jagger and Dorothy Malone. Wikipedia: https://en.wikipedia.org/wiki/Private_Hell_36 Suggested Film Noirs: http://bit.ly/36oLNCR The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Detective Story (1951) Kirk Douglas, Eleanor Parker, William Bendix, Cathy O'Donnell, George Macready",
+      "year": 1951,
+      "director": "Unknown Director",
+      "archive_id": "detective-story-1951",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/detective-story-1951/Detective Story (1951)  Kirk Douglas, Eleanor Parker, William Bendix_x264.ia.mp4",
+      "license": "Open Archive",
+      "description": "Detective Story is a 1951 American film noir directed by William Wyle. It features Kirk Douglas, Eleanor Parker, William Bendix, Cathy O'Donnell, and George Macready. Both Lee Grant and Joseph Wiseman perform in their film debuts. The film was adapted by Robert Wyler and Philip Yordan from the 1949 play of the same name by Sidney Kingsley. It was nominated for four Academy Awards, including Academy Award for Best Director for Wyler, Best Actress for Parker, and Best Supporting Actress for Grant. \u00a0 You can find out more about this movie from Wikipedia and read an article from FILM NOlR of the Week . \u00a0 \u00a0"
+    },
+    {
+      "title": "Harriet Craig (1950) Joan Crawford, Wendell Corey - Full Movie.",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie.",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie./Harriet Craig  (1950, USA) Featuring Joan Crawford, Wendell Corey - Film Noir Full Movie..mp4",
+      "license": "Open Archive",
+      "description": "Harriet Craig is a 1950 American film drama starring Joan Crawford and Wendell Corey. The screenplay by Anne Froelick and James Gunn was based upon the 1925 Pulitzer Prize-winning play Craig's Wife, by George Kelly. Wikipedia: https://en.wikipedia.org/wiki/Harriet_Craig \u00a0Suggested Film Noirs : http://bit.ly/36oLNCR The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -17590,6 +17620,306 @@
         "telephone / late-night call",
         "interrogation / standoff",
         "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "privatehell361954_202001_scene_1",
+      "movie_id": "privatehell361954_202001",
+      "scene_number": 1,
+      "start_timecode": "00:15:28",
+      "end_timecode": "00:15:45",
+      "start_seconds": 928.9995,
+      "end_seconds": 945.26575,
+      "duration_seconds": 16.266250000000014,
+      "video_filename": "privatehell361954_202001_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "privatehell361954_202001_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/privatehell361954_202001_scene_1_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/privatehell361954_202001_scene_1_thumb.jpg",
+      "transcription": "I know I've got the baby. I do love her. I've had you so much longer. Please, couldn't you get a transfer to something else? Something safer.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Private Hell 36 (1954) Ida Lupino, Steve Cochran, Howard Duff Film Noir Full Movie' (1954), dialogue centers on \"I know I've got the baby. I do love her. I've had you so much longer. Please, couldn't you get a transfer to something else? Something...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "privatehell361954_202001_scene_2",
+      "movie_id": "privatehell361954_202001",
+      "scene_number": 2,
+      "start_timecode": "00:15:45",
+      "end_timecode": "00:16:07",
+      "start_seconds": 945.26575,
+      "end_seconds": 967.412875,
+      "duration_seconds": 22.14712499999996,
+      "video_filename": "privatehell361954_202001_scene_2_22s_1080p.mp4",
+      "keyframe_filename": "privatehell361954_202001_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/privatehell361954_202001_scene_2_22s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/privatehell361954_202001_scene_2_thumb.jpg",
+      "transcription": "Don't praise our luck. Don't think everything is going to work on. Think of something.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Private Hell 36 (1954) Ida Lupino, Steve Cochran, Howard Duff Film Noir Full Movie' (1954), dialogue centers on \"Don't praise our luck. Don't think everything is going to work on. Think of something.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "privatehell361954_202001_scene_3",
+      "movie_id": "privatehell361954_202001",
+      "scene_number": 3,
+      "start_timecode": "00:16:14",
+      "end_timecode": "00:16:39",
+      "start_seconds": 974.29475,
+      "end_seconds": 999.695125,
+      "duration_seconds": 25.40037499999994,
+      "video_filename": "privatehell361954_202001_scene_3_25s_1080p.mp4",
+      "keyframe_filename": "privatehell361954_202001_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/privatehell361954_202001_scene_3_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/privatehell361954_202001_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "An atmospheric 25-second sequence from 'Private Hell 36 (1954) Ida Lupino, Steve Cochran, Howard Duff Film Noir Full Movie' (1954) driven by fedora & trenchcoat, femme fatale and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "detective-story-1951_scene_1",
+      "movie_id": "detective-story-1951",
+      "scene_number": 1,
+      "start_timecode": "00:25:09",
+      "end_timecode": "00:25:27",
+      "start_seconds": 1509.375,
+      "end_seconds": 1527.75,
+      "duration_seconds": 18.375,
+      "video_filename": "detective-story-1951_scene_1_18s_1080p.mp4",
+      "keyframe_filename": "detective-story-1951_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/detective-story-1951_scene_1_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/detective-story-1951_scene_1_thumb.jpg",
+      "transcription": "Arthur was sighted four times he carried a sailor up three decks of a burning ship He got the silver star. What is relationship to your sister? I told you we all grew up together Is he in love with her? My sister is one of the most beautiful girls in New York a lot of men are in love with her",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Detective Story (1951) Kirk Douglas, Eleanor Parker, William Bendix, Cathy O'Donnell, George Macready' (1951), dialogue centers on \"Arthur was sighted four times he carried a sailor up three decks of a burning ship He got the silver star. What is relationship to your...\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "detective-story-1951_scene_2",
+      "movie_id": "detective-story-1951",
+      "scene_number": 2,
+      "start_timecode": "00:37:15",
+      "end_timecode": "00:37:55",
+      "start_seconds": 2235.375,
+      "end_seconds": 2275.375,
+      "duration_seconds": 40.0,
+      "video_filename": "detective-story-1951_scene_2_40s_1080p.mp4",
+      "keyframe_filename": "detective-story-1951_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/detective-story-1951_scene_2_40s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/detective-story-1951_scene_2_thumb.jpg",
+      "transcription": "You knew she was dead all the time. Then you bought off Mrs. Ferp's and turned yourself in. What do you got in place of a conscious country? The only answer I know. A lawyer. I ought to fall on you like the sort of guy. That sort has two edges. You could cut your own throat. I'm going to give you a piece of advice, Carl. When they let you free again, get out of New York. You put your one more patient in law and no law. I'll find you. I'll put a bullet in the back of your head and I'll drop your body in the East River. Then I'll go home and I'll sleep sweetly. You don't frighten me. Now I'll give you some advice. I have plenty on you too. I know why you're so vindictive.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Detective Story (1951) Kirk Douglas, Eleanor Parker, William Bendix, Cathy O'Donnell, George Macready' (1951), dialogue centers on \"You knew she was dead all the time. Then you bought off Mrs. Ferp's and turned yourself in. What do you got in place of a conscious...\" framed against fedora & trenchcoat, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "detective-story-1951_scene_3",
+      "movie_id": "detective-story-1951",
+      "scene_number": 3,
+      "start_timecode": "00:37:55",
+      "end_timecode": "00:38:06",
+      "start_seconds": 2275.375,
+      "end_seconds": 2286.875,
+      "duration_seconds": 11.5,
+      "video_filename": "detective-story-1951_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "detective-story-1951_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/detective-story-1951_scene_3_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/detective-story-1951_scene_3_thumb.jpg",
+      "transcription": "Why just watch your step because I happen to have friends downtown with pull have you lots of poor What do you know? Aren't you the big shot pull?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Detective Story (1951) Kirk Douglas, Eleanor Parker, William Bendix, Cathy O'Donnell, George Macready' (1951), dialogue centers on \"Why just watch your step because I happen to have friends downtown with pull have you lots of poor What do you know? Aren't you the big...\" framed against fedora & trenchcoat, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "kisstomorrowgoodbye1950_scene_1",
+      "movie_id": "kisstomorrowgoodbye1950",
+      "scene_number": 1,
+      "start_timecode": "00:29:50",
+      "end_timecode": "00:29:57",
+      "start_seconds": 1790.0,
+      "end_seconds": 1797.007,
+      "duration_seconds": 7.007,
+      "video_filename": "kisstomorrowgoodbye1950_scene_1_7s_1080p.mp4",
+      "keyframe_filename": "kisstomorrowgoodbye1950_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/kisstomorrowgoodbye1950_scene_1_7s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/kisstomorrowgoodbye1950_scene_1_thumb.jpg",
+      "transcription": "Darling, by this time tomorrow, the word small-timer will have walked right out of your vocabulary.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Kiss Tomorrow Goodbye (1950) James Cagney, Ward Bond - Film Noir Full Movie' (1950), dialogue centers on \"Darling, by this time tomorrow, the word small-timer will have walked right out of your vocabulary.\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_1",
+      "movie_id": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie.",
+      "scene_number": 1,
+      "start_timecode": "00:33:10",
+      "end_timecode": "00:33:19",
+      "start_seconds": 1990.0,
+      "end_seconds": 1999.0,
+      "duration_seconds": 9.0,
+      "video_filename": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_1_9s_1080p.mp4",
+      "keyframe_filename": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_1_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_1_thumb.jpg",
+      "transcription": "Now we give it a thought. Song, boys. Hey, pick me up about 10.30, will you? Okay. Hey, Bill. Why don't you have breakfast with Harry and me?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Harriet Craig (1950) Joan Crawford, Wendell Corey - Full Movie.' (1950), dialogue centers on \"Now we give it a thought. Song, boys. Hey, pick me up about 10.30, will you? Okay. Hey, Bill. Why don't you have breakfast with Harry...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_2",
+      "movie_id": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie.",
+      "scene_number": 2,
+      "start_timecode": "00:36:48",
+      "end_timecode": "00:37:02",
+      "start_seconds": 2208.16,
+      "end_seconds": 2222.32,
+      "duration_seconds": 14.159999999999968,
+      "video_filename": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_2_14s_1080p.mp4",
+      "keyframe_filename": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_2_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_2_thumb.jpg",
+      "transcription": "I owe so much to her. All right, all right, it's just an innocent question. Oh, wait. Don't sit on the arm. I don't think it's very strong. I'd rather sit here anyway.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Harriet Craig (1950) Joan Crawford, Wendell Corey - Full Movie.' (1950), dialogue centers on \"I owe so much to her. All right, all right, it's just an innocent question. Oh, wait. Don't sit on the arm. I don't think it's very...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_3",
+      "movie_id": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie.",
+      "scene_number": 3,
+      "start_timecode": "00:38:42",
+      "end_timecode": "00:38:58",
+      "start_seconds": 2322.4,
+      "end_seconds": 2338.6,
+      "duration_seconds": 16.200000000000045,
+      "video_filename": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_3_16s_1080p.mp4",
+      "keyframe_filename": "harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_3_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie._scene_3_thumb.jpg",
+      "transcription": "Well, you two seem to be getting quite friendly. I'll make your tea right away. No, don't bother. It was only an excuse. I've been waiting up for you. I was worried. You didn't have to be. After what Walter told me?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Harriet Craig (1950) Joan Crawford, Wendell Corey - Full Movie.' (1950), dialogue centers on \"Well, you two seem to be getting quite friendly. I'll make your tea right away. No, don't bother. It was only an excuse. I've been...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
       ]
     }
   ]
