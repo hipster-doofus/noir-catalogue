@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T04:53:09.416022+00:00",
-  "total_movies": 139,
-  "total_scenes": 592,
+  "updated_at": "2026-11-22T04:56:57.345816+00:00",
+  "total_movies": 142,
+  "total_scenes": 601,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1401,6 +1401,36 @@
       "video_url": "https://archive.org/download/harrietcraig1950usafeaturingjoancrawfordwendellcoreyfilmnoirfullmovie./Harriet Craig  (1950, USA) Featuring Joan Crawford, Wendell Corey - Film Noir Full Movie..mp4",
       "license": "Open Archive",
       "description": "Harriet Craig is a 1950 American film drama starring Joan Crawford and Wendell Corey. The screenplay by Anne Froelick and James Gunn was based upon the 1925 Pulitzer Prize-winning play Craig's Wife, by George Kelly. Wikipedia: https://en.wikipedia.org/wiki/Harriet_Craig \u00a0Suggested Film Noirs : http://bit.ly/36oLNCR The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "FILM NOIR NIGHT AT THE BIJOU (double feature)",
+      "year": 1950,
+      "director": "The 2am Theater",
+      "archive_id": "FilmNoirNightAtTheBijoudoubleFeature",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/FilmNoirNightAtTheBijoudoubleFeature/FilmNoirNightAtTheBijoudoubleFeature.mp4",
+      "license": "Open Archive",
+      "description": "A simulated double feature program at a second-run movie house. The dastardly deeds and desperate situations begin with coming attractions and a cartoon. Then Edmond O'Brien solves his own murder in the 4-star thriller, \"D.O.A.,\" followed by a short subject, \"Souvenirs of Death.\" Then in the critically acclaimed \"Detour\" Ann Savage is the psychotic pickup from hell who leads herself and Tom Neal to disaster. NOTE: The upgraded \"D.O.A.\" print in this simulation has also been uploaded as a separate item under the title \"\"D.O.A.video quality upgrade\""
+    },
+    {
+      "title": "1943 - Shadow of a Doubt - La sombra de una duda - Alfred Hitchcock - VOSE",
+      "year": 1943,
+      "director": "Unknown Director",
+      "archive_id": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose/1943 - Shadow of a Doubt - La sombra de una duda - Alfred Hitchcock - VOSE.mp4",
+      "license": "Open Archive",
+      "description": "For Academic / Educational Use Only derechonoir.wordpress.com"
+    },
+    {
+      "title": "Whistle Stop (1946) George Raft, Ava Gardner, Tom Conway - Film Noir",
+      "year": 1946,
+      "director": "Unknown Director",
+      "archive_id": "whistlestop1946_202002",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/whistlestop1946_202002/Whistle Stop (1946, USA) Featuring George Raft, Ava Gardner,, Tom Conway - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Whistle Stop is a 1946 crime film noir directed by L\u00e9onide Moguy and starring George Raft, Ava Gardner, Victor McLaglen, and Tom Conway. The screenplay was written by Philip Yordan, based on a novel by Maritta M. Wolff. Wikipedia: https://en.wikipedia.org/wiki/Whistle_Stop_(film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -17920,6 +17950,276 @@
         "interrogation / standoff",
         "dutch angle framing",
         "melancholic"
+      ]
+    },
+    {
+      "scene_id": "FilmNoirNightAtTheBijoudoubleFeature_scene_1",
+      "movie_id": "FilmNoirNightAtTheBijoudoubleFeature",
+      "scene_number": 1,
+      "start_timecode": "00:06:23",
+      "end_timecode": "00:06:32",
+      "start_seconds": 383.8428,
+      "end_seconds": 392.1511,
+      "duration_seconds": 8.308300000000003,
+      "video_filename": "FilmNoirNightAtTheBijoudoubleFeature_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "FilmNoirNightAtTheBijoudoubleFeature_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FilmNoirNightAtTheBijoudoubleFeature_scene_1_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FilmNoirNightAtTheBijoudoubleFeature_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a stark silhouette framed against a bright doorway or window, accented by cigarette smoke, dutch angle framing.",
+      "synopsis": "An atmospheric 8-second sequence from 'FILM NOIR NIGHT AT THE BIJOU (double feature)' (1950) driven by cigarette smoke, dutch angle framing and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "dutch angle framing",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "cigarette smoke",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "FilmNoirNightAtTheBijoudoubleFeature_scene_2",
+      "movie_id": "FilmNoirNightAtTheBijoudoubleFeature",
+      "scene_number": 2,
+      "start_timecode": "00:06:40",
+      "end_timecode": "00:07:11",
+      "start_seconds": 400.1591,
+      "end_seconds": 431.2902,
+      "duration_seconds": 31.131099999999996,
+      "video_filename": "FilmNoirNightAtTheBijoudoubleFeature_scene_2_31s_1080p.mp4",
+      "keyframe_filename": "FilmNoirNightAtTheBijoudoubleFeature_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FilmNoirNightAtTheBijoudoubleFeature_scene_2_31s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FilmNoirNightAtTheBijoudoubleFeature_scene_2_thumb.jpg",
+      "transcription": "I can hardly wait to see what happens at the crazy. Ha ha ha ha ha! Go in there, Dick. He's got a knife. He drew a knife on him. Aah! Please don't let noodle-nosed kill, Dick. Well, that ever close. Oops! They're at it again.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "In a tense / suspense exchange from 'FILM NOIR NIGHT AT THE BIJOU (double feature)' (1950), dialogue centers on \"I can hardly wait to see what happens at the crazy. Ha ha ha ha ha! Go in there, Dick. He's got a knife. He drew a knife on him. Aah!...\" framed against telephone / late-night call, fedora & trenchcoat.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "film noir",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "FilmNoirNightAtTheBijoudoubleFeature_scene_3",
+      "movie_id": "FilmNoirNightAtTheBijoudoubleFeature",
+      "scene_number": 3,
+      "start_timecode": "00:11:07",
+      "end_timecode": "00:11:19",
+      "start_seconds": 667.8265,
+      "end_seconds": 679.2379000000001,
+      "duration_seconds": 11.411400000000015,
+      "video_filename": "FilmNoirNightAtTheBijoudoubleFeature_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "FilmNoirNightAtTheBijoudoubleFeature_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/FilmNoirNightAtTheBijoudoubleFeature_scene_3_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/FilmNoirNightAtTheBijoudoubleFeature_scene_3_thumb.jpg",
+      "transcription": "I'm gonna be home! Furthermore, it's unbelievable!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "In a tense / suspense exchange from 'FILM NOIR NIGHT AT THE BIJOU (double feature)' (1950), dialogue centers on \"I'm gonna be home! Furthermore, it's unbelievable!\" framed against telephone / late-night call, fedora & trenchcoat.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "film noir",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "cigarette smoke",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_1",
+      "movie_id": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose",
+      "scene_number": 1,
+      "start_timecode": "00:19:54",
+      "end_timecode": "00:20:29",
+      "start_seconds": 1194.884744,
+      "end_seconds": 1229.043867,
+      "duration_seconds": 34.159122999999994,
+      "video_filename": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_1_34s_1080p.mp4",
+      "keyframe_filename": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_1_34s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_1_thumb.jpg",
+      "transcription": "You have Charlie's room right here at the head of the stairs and he wanted to move hand, but Charlie thought you'd be more comfortable here. Come on, right here. I don't put the hat on the bed. Super suspicious, Joe. However, I don't believe in inviting trouble.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a melancholic exchange from '1943 - Shadow of a Doubt - La sombra de una duda - Alfred Hitchcock - VOSE' (1943), dialogue centers on \"You have Charlie's room right here at the head of the stairs and he wanted to move hand, but Charlie thought you'd be more comfortable...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_2",
+      "movie_id": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose",
+      "scene_number": 2,
+      "start_timecode": "00:22:36",
+      "end_timecode": "00:23:12",
+      "start_seconds": 1356.921622,
+      "end_seconds": 1392.707367,
+      "duration_seconds": 35.78574499999996,
+      "video_filename": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_2_35s_1080p.mp4",
+      "keyframe_filename": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_2_35s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_2_thumb.jpg",
+      "transcription": "53 years ago. Aren't they sweet? My she was pretty. Everybody was sweet and pretty, then, Charlie. The whole world. A wonderful world. Not like the world today. Not like the world now. It's great to be young, then. We're all happy now, Uncle Charlie. Look at us. Once we're all happy at the same time. Now for your present, Charlie. I don't want anything. Right now, I have enough. Before you came, I didn't think I had anything, but now I don't want another thing.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from '1943 - Shadow of a Doubt - La sombra de una duda - Alfred Hitchcock - VOSE' (1943), dialogue centers on \"53 years ago. Aren't they sweet? My she was pretty. Everybody was sweet and pretty, then, Charlie. The whole world. A wonderful world....\" framed against femme fatale, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_3",
+      "movie_id": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose",
+      "scene_number": 3,
+      "start_timecode": "00:27:36",
+      "end_timecode": "00:28:25",
+      "start_seconds": 1656.220622,
+      "end_seconds": 1705.770122,
+      "duration_seconds": 49.549499999999966,
+      "video_filename": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_3_49s_1080p.mp4",
+      "keyframe_filename": "1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_3_49s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1943-shadow-of-a-doubt-la-sombra-de-una-duda-alfred-hitchcock-vose_scene_3_thumb.jpg",
+      "transcription": "Charles, why don't you come in the living room and stretch out on the sofa and read the evening paper. You never will watch out, help me. Joe, here's Herbert. And Roger, help me clean the table. Herbert's a friend of Joe's. They're literary critics. Hello, Herb. Thank you, Sippen. Have mine an hour ago. How are you? Huh? Watch. Yeah, present. Go, Herb. I'd like you to meet my brother-in-law. Charles, this is Herb Hawkins. Nice to know you, Mr. Hoggins. Fine, thank you. How's your mother, Herb? Oh, just a minute later. Excuse me, Herb. Oh. Thank you. I'm sorry your mother's not better. Thank you, dear. Oh, yeah. Fair enough. Okay.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from '1943 - Shadow of a Doubt - La sombra de una duda - Alfred Hitchcock - VOSE' (1943), dialogue centers on \"Charles, why don't you come in the living room and stretch out on the sofa and read the evening paper. You never will watch out, help...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "whistlestop1946_202002_scene_1",
+      "movie_id": "whistlestop1946_202002",
+      "scene_number": 1,
+      "start_timecode": "00:26:20",
+      "end_timecode": "00:26:46",
+      "start_seconds": 1580.0,
+      "end_seconds": 1606.6266,
+      "duration_seconds": 26.6266,
+      "video_filename": "whistlestop1946_202002_scene_1_26s_1080p.mp4",
+      "keyframe_filename": "whistlestop1946_202002_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/whistlestop1946_202002_scene_1_26s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/whistlestop1946_202002_scene_1_thumb.jpg",
+      "transcription": "to me for you. What are you doing?",
+      "visual_description": "Features a stark silhouette framed against a bright doorway or window, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Whistle Stop (1946) George Raft, Ava Gardner, Tom Conway - Film Noir' (1946), dialogue centers on \"to me for you. What are you doing?\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "whistlestop1946_202002_scene_2",
+      "movie_id": "whistlestop1946_202002",
+      "scene_number": 2,
+      "start_timecode": "00:37:39",
+      "end_timecode": "00:38:13",
+      "start_seconds": 2259.8792,
+      "end_seconds": 2293.1124,
+      "duration_seconds": 33.23320000000001,
+      "video_filename": "whistlestop1946_202002_scene_2_33s_1080p.mp4",
+      "keyframe_filename": "whistlestop1946_202002_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/whistlestop1946_202002_scene_2_33s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/whistlestop1946_202002_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by nightclub / jazz bar, femme fatale.",
+      "synopsis": "An atmospheric 33-second sequence from 'Whistle Stop (1946) George Raft, Ava Gardner, Tom Conway - Film Noir' (1946) driven by nightclub / jazz bar, femme fatale and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "nightclub / jazz bar",
+        "femme fatale",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "whistlestop1946_202002_scene_3",
+      "movie_id": "whistlestop1946_202002",
+      "scene_number": 3,
+      "start_timecode": "00:40:04",
+      "end_timecode": "00:40:22",
+      "start_seconds": 2404.7239,
+      "end_seconds": 2422.1413000000002,
+      "duration_seconds": 17.417400000000043,
+      "video_filename": "whistlestop1946_202002_scene_3_17s_1080p.mp4",
+      "keyframe_filename": "whistlestop1946_202002_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/whistlestop1946_202002_scene_3_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/whistlestop1946_202002_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "An atmospheric 17-second sequence from 'Whistle Stop (1946) George Raft, Ava Gardner, Tom Conway - Film Noir' (1946) driven by femme fatale, telephone / late-night call and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
       ]
     }
   ]
