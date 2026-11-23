@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-22T04:56:57.345816+00:00",
-  "total_movies": 142,
-  "total_scenes": 601,
+  "updated_at": "2026-11-23T05:06:40.872147+00:00",
+  "total_movies": 145,
+  "total_scenes": 610,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1431,6 +1431,36 @@
       "video_url": "https://archive.org/download/whistlestop1946_202002/Whistle Stop (1946, USA) Featuring George Raft, Ava Gardner,, Tom Conway - Film Noir Full Movie.mp4",
       "license": "Open Archive",
       "description": "Whistle Stop is a 1946 crime film noir directed by L\u00e9onide Moguy and starring George Raft, Ava Gardner, Victor McLaglen, and Tom Conway. The screenplay was written by Philip Yordan, based on a novel by Maritta M. Wolff. Wikipedia: https://en.wikipedia.org/wiki/Whistle_Stop_(film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "thekillerthatstalkednewyork1950",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thekillerthatstalkednewyork1950/The Killer That Stalked New York (1950, USA) Featuring Evelyn Keyes - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "The Killer That Stalked New York (also known as Frightened City) is a 1950 film noir starring Evelyn Keyes, Charles Korvin, Dorothy Malone. The film, shot on location and in a semi-documentary style, is about diamond smugglers who unknowingly start a smallpox outbreak in the New York City of 1947. It is based on the real threat of a smallpox epidemic in the city, as described in a story taken from a 1948 Cosmopolitan magazine article. Wikipedia: https://en.wikipedia.org/wiki/The_Killer_That_Stalked_New_York Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Black Friday (1940) Boris Karloff",
+      "year": 1940,
+      "director": "gear Settings edit Edit remove-circle Remove items... Finis Belli",
+      "archive_id": "blackfriday1940boriskarloff",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/blackfriday1940boriskarloff/Black Friday (1940) Boris Karloff.mp4",
+      "license": "Open Archive",
+      "description": "Black Friday (1940) Boris Karloff"
+    },
+    {
+      "title": "Film-Noir",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "laura-1944-nr",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/laura-1944-nr/White Heat (1949)(NR).mp4",
+      "license": "Open Archive",
+      "description": "Film-Noir Classics from the 40's & 50's."
     }
   ],
   "scenes": [
@@ -18220,6 +18250,276 @@
         "telephone / late-night call",
         "interrogation / standoff",
         "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thekillerthatstalkednewyork1950_scene_1",
+      "movie_id": "thekillerthatstalkednewyork1950",
+      "scene_number": 1,
+      "start_timecode": "00:16:17",
+      "end_timecode": "00:16:28",
+      "start_seconds": 977.039625,
+      "end_seconds": 988.801375,
+      "duration_seconds": 11.761750000000006,
+      "video_filename": "thekillerthatstalkednewyork1950_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillerthatstalkednewyork1950_scene_1_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillerthatstalkednewyork1950_scene_1_thumb.jpg",
+      "transcription": "Good morning, Bill. Hi, Bill. How's your street today? Oh, I'm looking for snow too. Oh, yeah. I know. I know too bad. Go bad.",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950), dialogue centers on \"Good morning, Bill. Hi, Bill. How's your street today? Oh, I'm looking for snow too. Oh, yeah. I know. I know too bad. Go bad.\" framed against femme fatale, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "thekillerthatstalkednewyork1950_scene_2",
+      "movie_id": "thekillerthatstalkednewyork1950",
+      "scene_number": 2,
+      "start_timecode": "00:19:37",
+      "end_timecode": "00:19:56",
+      "start_seconds": 1177.1145000000001,
+      "end_seconds": 1196.1335,
+      "duration_seconds": 19.019000000000005,
+      "video_filename": "thekillerthatstalkednewyork1950_scene_2_19s_1080p.mp4",
+      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillerthatstalkednewyork1950_scene_2_19s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillerthatstalkednewyork1950_scene_2_thumb.jpg",
+      "transcription": "Well, that's what frightens me even more. If Waller has small pucks, then someone else in New York has the disease. Do you know what that would mean? Only too well. A killer out of the past. Loose amongst eight million people.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950), dialogue centers on \"Well, that's what frightens me even more. If Waller has small pucks, then someone else in New York has the disease. Do you know what...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "thekillerthatstalkednewyork1950_scene_3",
+      "movie_id": "thekillerthatstalkednewyork1950",
+      "scene_number": 3,
+      "start_timecode": "00:23:55",
+      "end_timecode": "00:24:22",
+      "start_seconds": 1435.747875,
+      "end_seconds": 1462.024125,
+      "duration_seconds": 26.276250000000005,
+      "video_filename": "thekillerthatstalkednewyork1950_scene_3_26s_1080p.mp4",
+      "keyframe_filename": "thekillerthatstalkednewyork1950_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thekillerthatstalkednewyork1950_scene_3_26s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thekillerthatstalkednewyork1950_scene_3_thumb.jpg",
+      "transcription": "Mr. Crane. Mr. Crane, how about that cheese special? Look, it comes in a painted glass and when it's empty, it goes right in your kitchen. Talk to my wife. You can use it as a... Sure. Not now. Tomorrow. The fellow who sells the most this month gets a gold button.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Killer That Stalked New York (1950, USA) Evelyn Keyes - Film Noir Full Movie' (1950), dialogue centers on \"Mr. Crane. Mr. Crane, how about that cheese special? Look, it comes in a painted glass and when it's empty, it goes right in your...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "blackfriday1940boriskarloff_scene_1",
+      "movie_id": "blackfriday1940boriskarloff",
+      "scene_number": 1,
+      "start_timecode": "00:15:30",
+      "end_timecode": "00:15:47",
+      "start_seconds": 930.706625,
+      "end_seconds": 947.5985000000001,
+      "duration_seconds": 16.891875,
+      "video_filename": "blackfriday1940boriskarloff_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "blackfriday1940boriskarloff_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/blackfriday1940boriskarloff_scene_1_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/blackfriday1940boriskarloff_scene_1_thumb.jpg",
+      "transcription": "Good afternoon, gentlemen. We'd like a joining room. Yes, yes.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Black Friday (1940) Boris Karloff' (1940), dialogue centers on \"Good afternoon, gentlemen. We'd like a joining room. Yes, yes.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "blackfriday1940boriskarloff_scene_2",
+      "movie_id": "blackfriday1940boriskarloff",
+      "scene_number": 2,
+      "start_timecode": "00:16:07",
+      "end_timecode": "00:16:36",
+      "start_seconds": 967.993875,
+      "end_seconds": 996.272125,
+      "duration_seconds": 28.278249999999986,
+      "video_filename": "blackfriday1940boriskarloff_scene_2_28s_1080p.mp4",
+      "keyframe_filename": "blackfriday1940boriskarloff_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/blackfriday1940boriskarloff_scene_2_28s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/blackfriday1940boriskarloff_scene_2_thumb.jpg",
+      "transcription": "This week, gentlemen.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Black Friday (1940) Boris Karloff' (1940), dialogue centers on \"This week, gentlemen.\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "blackfriday1940boriskarloff_scene_3",
+      "movie_id": "blackfriday1940boriskarloff",
+      "scene_number": 3,
+      "start_timecode": "00:18:24",
+      "end_timecode": "00:19:10",
+      "start_seconds": 1104.255,
+      "end_seconds": 1150.55125,
+      "duration_seconds": 46.296249999999986,
+      "video_filename": "blackfriday1940boriskarloff_scene_3_46s_1080p.mp4",
+      "keyframe_filename": "blackfriday1940boriskarloff_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/blackfriday1940boriskarloff_scene_3_46s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/blackfriday1940boriskarloff_scene_3_thumb.jpg",
+      "transcription": "The talkative youngster. Babble's on like Tennyson's bro. Ernst, I'm going to freshen up a bit. And then let's go out. Let's do the town. You know what I mean? A good dinner and perhaps a bottle of wine. Splendid, George. I'll get changed and then we'll go. I chatter, chatter as I flow. Join the brimming river. Well, men may come and men may go, but I go on forever.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Black Friday (1940) Boris Karloff' (1940), dialogue centers on \"The talkative youngster. Babble's on like Tennyson's bro. Ernst, I'm going to freshen up a bit. And then let's go out. Let's do the...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "laura-1944-nr_scene_1",
+      "movie_id": "laura-1944-nr",
+      "scene_number": 1,
+      "start_timecode": "00:18:50",
+      "end_timecode": "00:19:04",
+      "start_seconds": 1130.2442,
+      "end_seconds": 1144.5585,
+      "duration_seconds": 14.314300000000003,
+      "video_filename": "laura-1944-nr_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "laura-1944-nr_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/laura-1944-nr_scene_1_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/laura-1944-nr_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 14-second sequence from 'Film-Noir' (1950) driven by femme fatale, fedora & trenchcoat and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "laura-1944-nr_scene_2",
+      "movie_id": "laura-1944-nr",
+      "scene_number": 2,
+      "start_timecode": "00:19:37",
+      "end_timecode": "00:19:46",
+      "start_seconds": 1177.1911,
+      "end_seconds": 1186.5004,
+      "duration_seconds": 9.309299999999993,
+      "video_filename": "laura-1944-nr_scene_2_9s_1080p.mp4",
+      "keyframe_filename": "laura-1944-nr_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/laura-1944-nr_scene_2_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/laura-1944-nr_scene_2_thumb.jpg",
+      "transcription": "3, 2, 3, or C. The same on Fairchild. Cut that. Okay.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'Film-Noir' (1950), dialogue centers on \"3, 2, 3, or C. The same on Fairchild. Cut that. Okay.\" framed against fedora & trenchcoat, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "laura-1944-nr_scene_3",
+      "movie_id": "laura-1944-nr",
+      "scene_number": 3,
+      "start_timecode": "00:20:08",
+      "end_timecode": "00:20:37",
+      "start_seconds": 1208.122,
+      "end_seconds": 1237.151,
+      "duration_seconds": 29.02900000000001,
+      "video_filename": "laura-1944-nr_scene_3_29s_1080p.mp4",
+      "keyframe_filename": "laura-1944-nr_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/laura-1944-nr_scene_3_29s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/laura-1944-nr_scene_3_thumb.jpg",
+      "transcription": "Suspect, receding dead ahead on a wrinkle boulevard. Approaching Beckman. Suspect turned north on Beckman. C. Fairchild. A. We'll take your...",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Film-Noir' (1950), dialogue centers on \"Suspect, receding dead ahead on a wrinkle boulevard. Approaching Beckman. Suspect turned north on Beckman. C. Fairchild. A. We'll take...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "paranoid"
       ]
     }
   ]
