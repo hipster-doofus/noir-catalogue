@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T05:06:40.872147+00:00",
-  "total_movies": 145,
-  "total_scenes": 610,
+  "updated_at": "2026-11-24T05:07:44.957986+00:00",
+  "total_movies": 148,
+  "total_scenes": 620,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1461,6 +1461,36 @@
       "video_url": "https://archive.org/download/laura-1944-nr/White Heat (1949)(NR).mp4",
       "license": "Open Archive",
       "description": "Film-Noir Classics from the 40's & 50's."
+    },
+    {
+      "title": "Body and Soul (1947) John Garfield, Lilli Palmer, Hazel Brooks",
+      "year": 1947,
+      "director": "Unknown Director",
+      "archive_id": "bodyandsoul1947",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/bodyandsoul1947/Body and Soul (1947, USA) Featuring John Garfield, Lilli Palmer, Hazel Brooks - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Body and Soul is a 1947 American film noir sports drama directed by Robert Rossen, and features John Garfield, Lilli Palmer, Hazel Brooks, Anne Revere and William Conrad. The film, written by Abraham Polonsky with cinematography by James Wong Howe, is considered by some to be high among the best films about boxing. It is also a cautionary tale about the lure of money and how it can derail even a strong man in his pursuit of success. Wikipedia: https://en.wikipedia.org/wiki/Body_and_Soul_(1947_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Road House (1948) Ida Lupino, Cornel Wilde, Richard Widmark - Film Noir Full Movie",
+      "year": 1948,
+      "director": "Unknown Director",
+      "archive_id": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie/Road House (1948, USA) Featuring Ida Lupino, Cornel Wilde, Richard Widmark - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Road House is a 1948 film noir drama directed by Jean Negulesco, with cinematography by Joseph LaShelle. The picture features Ida Lupino, Cornel Wilde, Celeste Holm, Richard Widmark, among others. Wikipedia: https://en.wikipedia.org/wiki/Road_House_(1948_film) Suggested Film Noirs: http://bit.ly/36oLNCR The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Detour (1945) [HD]",
+      "year": 1945,
+      "director": "Edgar G. Ulmer",
+      "archive_id": "detour1945HD",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/detour1945HD/Detour.1945.1080p.BluRay.x264-[YTS.AM].mp4",
+      "license": "Open Archive",
+      "description": "The epitome of the American Film Noir Genre, Detour tells the story of a down-on-his-luck pianist who goes on an ill-fated car ride leaving the driver dead. Worse, he gets stuck with a woman who blackmails him to no end under the threat she will go to the police and claim he murdered the driver, even though the driver's death had nothing to do with him."
     }
   ],
   "scenes": [
@@ -18508,6 +18538,306 @@
       "transcription": "Suspect, receding dead ahead on a wrinkle boulevard. Approaching Beckman. Suspect turned north on Beckman. C. Fairchild. A. We'll take your...",
       "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
       "synopsis": "In a paranoid exchange from 'Film-Noir' (1950), dialogue centers on \"Suspect, receding dead ahead on a wrinkle boulevard. Approaching Beckman. Suspect turned north on Beckman. C. Fairchild. A. We'll take...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "bodyandsoul1947_scene_1",
+      "movie_id": "bodyandsoul1947",
+      "scene_number": 1,
+      "start_timecode": "00:18:35",
+      "end_timecode": "00:18:51",
+      "start_seconds": 1115.066,
+      "end_seconds": 1131.3823,
+      "duration_seconds": 16.3163,
+      "video_filename": "bodyandsoul1947_scene_1_16s_1080p.mp4",
+      "keyframe_filename": "bodyandsoul1947_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/bodyandsoul1947_scene_1_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/bodyandsoul1947_scene_1_thumb.jpg",
+      "transcription": "What? That'll send him away. Okay. Should I take my coat off?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Body and Soul (1947) John Garfield, Lilli Palmer, Hazel Brooks' (1947), dialogue centers on \"What? That'll send him away. Okay. Should I take my coat off?\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "bodyandsoul1947_scene_2",
+      "movie_id": "bodyandsoul1947",
+      "scene_number": 2,
+      "start_timecode": "00:19:12",
+      "end_timecode": "00:19:41",
+      "start_seconds": 1152.5034,
+      "end_seconds": 1181.3322,
+      "duration_seconds": 28.8288,
+      "video_filename": "bodyandsoul1947_scene_2_28s_1080p.mp4",
+      "keyframe_filename": "bodyandsoul1947_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/bodyandsoul1947_scene_2_28s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/bodyandsoul1947_scene_2_thumb.jpg",
+      "transcription": "I just want to be a success. You mean you want other people to think you're a success? Sure, sure. Every man for himself. Oh, fine to go home now. Good night. Can I see you again sometime? What for? Just to see anything.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a paranoid exchange from 'Body and Soul (1947) John Garfield, Lilli Palmer, Hazel Brooks' (1947), dialogue centers on \"I just want to be a success. You mean you want other people to think you're a success? Sure, sure. Every man for himself. Oh, fine to go...\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "bodyandsoul1947_scene_3",
+      "movie_id": "bodyandsoul1947",
+      "scene_number": 3,
+      "start_timecode": "00:24:25",
+      "end_timecode": "00:24:59",
+      "start_seconds": 1465.8164,
+      "end_seconds": 1499.45,
+      "duration_seconds": 33.6336,
+      "video_filename": "bodyandsoul1947_scene_3_33s_1080p.mp4",
+      "keyframe_filename": "bodyandsoul1947_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/bodyandsoul1947_scene_3_33s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/bodyandsoul1947_scene_3_thumb.jpg",
+      "transcription": "So now you'll be a professional sport and make a living hitting people. Knocking their teeth out, smashing their noses, breaking their heads in. Sportsmen, this is what you want? All right, Anna, for closing up, let's close. 20 years ago, I wanted to move to a nice place so our charlie had grew up a nice boy and learned a profession. But instead, we live in a jungle so he can only be a wild animal. Do you think I'd pay to east side like Columbus picked America? It was possible to buy the candy store with a small cash down payment. Fine investment. Next door is speakeasy across the street of cool room. Lovers on the corner, children like...",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'Body and Soul (1947) John Garfield, Lilli Palmer, Hazel Brooks' (1947), dialogue centers on \"So now you'll be a professional sport and make a living hitting people. Knocking their teeth out, smashing their noses, breaking their...\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "1950-sunset-boulevard-el-crepusculo-de-los-dioses-el-ocaso-de-una-vida-billy-wilder_scene_1",
+      "movie_id": "1950-sunset-boulevard-el-crepusculo-de-los-dioses-el-ocaso-de-una-vida-billy-wilder",
+      "scene_number": 1,
+      "start_timecode": "00:28:05",
+      "end_timecode": "00:30:31",
+      "start_seconds": 1685.0,
+      "end_seconds": 1831.6399999999999,
+      "duration_seconds": 146.64,
+      "video_filename": "1950-sunset-boulevard-el-crepusculo-de-los-dioses-el-ocaso-de-una-vida-billy-wilder_scene_1_146s_1080p.mp4",
+      "keyframe_filename": "1950-sunset-boulevard-el-crepusculo-de-los-dioses-el-ocaso-de-una-vida-billy-wilder_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/1950-sunset-boulevard-el-crepusculo-de-los-dioses-el-ocaso-de-una-vida-billy-wilder_scene_1_146s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/1950-sunset-boulevard-el-crepusculo-de-los-dioses-el-ocaso-de-una-vida-billy-wilder_scene_1_thumb.jpg",
+      "transcription": "I'm talking to you. I close and things are up in the room. Actually, I brought them myself. Is that so? Why, what's the matter? Is there anything missing? Who said you could? Why did you? I did. I don't know why you should be so upset. Stop that plague, Max. It seems like a good idea if we are to work together. Look, I'm supposed to fix up your script. There's nothing in the deal about my staying here. You like it here? Thanks for the invitation. I've got my own apartment. You can't work in an apartment where you're all three months trapped. I'll take care of that. It's all taken care of. It's all paid for. Okay, we'll deduct it from my salary. Now, now, don't let's be small about such matters. We won't keep books. Max, unpack Mr. Gillis' things. It is done, madame. Well, pack them up again. I didn't say I was staying. Suppose you'll make up your mind. Do you want this job or don't you? Yes, I wanted the job. I wanted the dough and I wanted to get out of there as quickly as I could. I thought if I really got going, I could finish it up in a couple of weeks. But it wasn't so simple getting some coherence into those wild hallucinations of hers. And what made it even tougher was that she was around all the time, hovering over me. Afraid I do injury to that precious brain child of hers. What's that? Just a scene I threw up. What scene? The one where you go to the slave market. It's better to cut directly to John the Baptist. Cut away from me? Well, honestly, it's a little too much of you. They don't want you in every scene. They don't. Then why are they still like me fan letters every day? Why do they beg me for my photographs? Why? Because they want to see me, me, nor about Desmond. Put it back. Okay. I didn't argue with her. You don't yell at a sleepwalker. You may fall and break his neck.",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, nightclub / jazz bar.",
+      "synopsis": "In a fatalistic exchange from '1950 - Sunset Boulevard - El crep\u00fasculo de los dioses - El ocaso de una vida - Billy Wilder' (1950), dialogue centers on \"I'm talking to you. I close and things are up in the room. Actually, I brought them myself. Is that so? Why, what's the matter? Is there...\" framed against femme fatale, nightclub / jazz bar.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_1",
+      "movie_id": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie",
+      "scene_number": 1,
+      "start_timecode": "00:33:27",
+      "end_timecode": "00:33:36",
+      "start_seconds": 2007.9101249999999,
+      "end_seconds": 2016.6688749999998,
+      "duration_seconds": 8.758749999999964,
+      "video_filename": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_1_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_1_thumb.jpg",
+      "transcription": "He set you up at the antlers. He's paying for it. He got it all figured out, haven't you? You know something, you're stupid.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Road House (1948) Ida Lupino, Cornel Wilde, Richard Widmark - Film Noir Full Movie' (1948), dialogue centers on \"He set you up at the antlers. He's paying for it. He got it all figured out, haven't you? You know something, you're stupid.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_2",
+      "movie_id": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie",
+      "scene_number": 2,
+      "start_timecode": "00:33:39",
+      "end_timecode": "00:34:09",
+      "start_seconds": 2019.2965,
+      "end_seconds": 2049.3265,
+      "duration_seconds": 30.029999999999973,
+      "video_filename": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_2_30s_1080p.mp4",
+      "keyframe_filename": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_2_30s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_2_thumb.jpg",
+      "transcription": "Doesn't it ever enter a man's head that a woman can do without him? Listen, all I wanted to do was just hang around with somebody on a dull Sunday. I get that low sometimes, so you just skip it. Hop in your little boat, paddle off. Me, I'll go back to the alley. Hey, late. I'll pick you up about 11, OK? OK. I'll make some sandwiches. I'm good at that, too. I'm surprised. I'm surprised at nothing. Better make plenty. I get awfully hungry. Mm-hmm.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Road House (1948) Ida Lupino, Cornel Wilde, Richard Widmark - Film Noir Full Movie' (1948), dialogue centers on \"Doesn't it ever enter a man's head that a woman can do without him? Listen, all I wanted to do was just hang around with somebody on a...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_3",
+      "movie_id": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie",
+      "scene_number": 3,
+      "start_timecode": "00:34:44",
+      "end_timecode": "00:35:23",
+      "start_seconds": 2084.987125,
+      "end_seconds": 2123.025125,
+      "duration_seconds": 38.03800000000001,
+      "video_filename": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_3_38s_1080p.mp4",
+      "keyframe_filename": "roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_3_38s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/roadhouse1948usafeaturingidalupinocornelwilderichardwidmarkfilmnoirfullmovie_scene_3_thumb.jpg",
+      "transcription": "That's why I said to make plenty. Sootie's always hungry. Yeah. You could figure it for a big appetite. Well, hello. This is a surprise. Hello, yourself. Hey, that's a nice outfit. Going somewhere? Show up, isn't it? Come on. It's all yours. Oh, thanks. Got you, Sue? What kind of suit? Swimming. You know, splash, splash. We got ours under the rags. Oh, we going swimming. I thought you set the boat. Want me to run upstairs and get yours? No, I haven't got one. Don't you care to borrow one of mine? No, thanks. Don't think it'll fit. Anyway, I don't like swimming. The mine, girls.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, nightclub / jazz bar.",
+      "synopsis": "In a fatalistic exchange from 'Road House (1948) Ida Lupino, Cornel Wilde, Richard Widmark - Film Noir Full Movie' (1948), dialogue centers on \"That's why I said to make plenty. Sootie's always hungry. Yeah. You could figure it for a big appetite. Well, hello. This is a surprise....\" framed against femme fatale, nightclub / jazz bar.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "nightclub / jazz bar",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "detour1945HD_scene_1",
+      "movie_id": "detour1945HD",
+      "scene_number": 1,
+      "start_timecode": "00:16:54",
+      "end_timecode": "00:17:04",
+      "start_seconds": 1014.286875,
+      "end_seconds": 1024.422,
+      "duration_seconds": 10.135125000000016,
+      "video_filename": "detour1945HD_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "detour1945HD_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/detour1945HD_scene_1_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/detour1945HD_scene_1_thumb.jpg",
+      "transcription": "You're gonna throw that in the back seat. Okay, let's go. Make sure that door is closed.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Detour (1945) [HD]' (1945), dialogue centers on \"You're gonna throw that in the back seat. Okay, let's go. Make sure that door is closed.\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "detour1945HD_scene_2",
+      "movie_id": "detour1945HD",
+      "scene_number": 2,
+      "start_timecode": "00:17:32",
+      "end_timecode": "00:17:48",
+      "start_seconds": 1052.45,
+      "end_seconds": 1068.466,
+      "duration_seconds": 16.01600000000002,
+      "video_filename": "detour1945HD_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "detour1945HD_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/detour1945HD_scene_2_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/detour1945HD_scene_2_thumb.jpg",
+      "transcription": "Until you can never tell if a guy wants to talk. A lot of rides have been cut short because of a big mouth. So I kept my mouth shut until he started opening up. Hand me that little box that can pop it, will ya pal?",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by dutch angle framing, low-key chiaroscuro.",
+      "synopsis": "In a melancholic exchange from 'Detour (1945) [HD]' (1945), dialogue centers on \"Until you can never tell if a guy wants to talk. A lot of rides have been cut short because of a big mouth. So I kept my mouth shut...\" framed against dutch angle framing, low-key chiaroscuro.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "low-key chiaroscuro",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "dutch angle framing",
+        "low-key chiaroscuro",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "detour1945HD_scene_3",
+      "movie_id": "detour1945HD",
+      "scene_number": 3,
+      "start_timecode": "00:17:48",
+      "end_timecode": "00:17:59",
+      "start_seconds": 1068.466,
+      "end_seconds": 1079.852375,
+      "duration_seconds": 11.386374999999987,
+      "video_filename": "detour1945HD_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "detour1945HD_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/detour1945HD_scene_3_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/detour1945HD_scene_3_thumb.jpg",
+      "transcription": "all the way over",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Detour (1945) [HD]' (1945), dialogue centers on \"all the way over\" framed against fedora & trenchcoat, femme fatale.",
       "mood": "Paranoid",
       "noir_tropes": [
         "fedora & trenchcoat",
