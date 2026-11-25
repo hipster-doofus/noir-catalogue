@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T05:07:44.957986+00:00",
-  "total_movies": 148,
-  "total_scenes": 620,
+  "updated_at": "2026-11-25T05:04:03.110148+00:00",
+  "total_movies": 151,
+  "total_scenes": 629,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1491,6 +1491,36 @@
       "video_url": "https://archive.org/download/detour1945HD/Detour.1945.1080p.BluRay.x264-[YTS.AM].mp4",
       "license": "Open Archive",
       "description": "The epitome of the American Film Noir Genre, Detour tells the story of a down-on-his-luck pianist who goes on an ill-fated car ride leaving the driver dead. Worse, he gets stuck with a woman who blackmails him to no end under the threat she will go to the police and claim he murdered the driver, even though the driver's death had nothing to do with him."
+    },
+    {
+      "title": "Quicksand",
+      "year": 1950,
+      "director": "Mort Briskin, Samuel H. Stiefel",
+      "archive_id": "quicksand.",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/quicksand./QUICKSAND.mp4",
+      "license": "Open Archive",
+      "description": "After borrowing $20 from his employer's cash register, an auto mechanic is plunged into a series of increasingly disastrous circumstances which rapidly spiral out of his control."
+    },
+    {
+      "title": "The Sun Sets At Dawn",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "TheSunSetsAtDawn",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/TheSunSetsAtDawn/TheSunSetsAtDawn_1950.mp4",
+      "license": "Open Archive",
+      "description": "From IMDb : \"A young man is wrongly convicted and sentenced to be executed. Reporters covering the execution relate the story, each from his own perspective.\" This film is already uploaded to the archives but was uploaded again so that viewers could enjoy the movie on line since the original file is not embedded into a player. Please note: This page wasn't created to impress anyone or compete with them, it was simply created so that others may be able to more easily enjoy the movie via streaming."
+    },
+    {
+      "title": "This Gun For Hire (1942) Alan Ladd, Veronica Lake, Robert Preston, Laird Cregar",
+      "year": 1942,
+      "director": "Unknown Director",
+      "archive_id": "this-gun-for-hire-1942",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/this-gun-for-hire-1942/This Gun for Hire (1942) Alan Ladd, Veronica Lake, Robert Preston, Laird Cregar.ia.mp4",
+      "license": "Open Archive",
+      "description": "This Gun for Hire is a 1942 American FILM NOlR crime film directed by Frank Tuttle and starring Veronica Lake, Robert Preston, Laird Cregar, and Alan Ladd. It is based on the 1936 novel A Gun for Sale by Graham Greene (published in America with the same title as the film). \u00a0 You can find out more about this movie from Wikipedia . A detailed article from online blog Film Noir Board may still be available. There is also a good review of the movie from the movie blog Reviews from the Bottom of the Barre l.\u00a0 \u00a0 \u00a0"
     }
   ],
   "scenes": [
@@ -18849,6 +18879,276 @@
         "fedora & trenchcoat",
         "femme fatale",
         "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "quicksand._scene_1",
+      "movie_id": "quicksand.",
+      "scene_number": 1,
+      "start_timecode": "00:29:28",
+      "end_timecode": "00:29:57",
+      "start_seconds": 1768.7907,
+      "end_seconds": 1797.7196,
+      "duration_seconds": 28.9289,
+      "video_filename": "quicksand._scene_1_28s_1080p.mp4",
+      "keyframe_filename": "quicksand._scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/quicksand._scene_1_28s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/quicksand._scene_1_thumb.jpg",
+      "transcription": "Really I almost forgot. I've already seen this picture. I thought when it was downtown of the palace, but she said oh I got it. You wouldn't mind if I went alone. Would you? No, I wouldn't. I didn't think so. Goodbye then. Bye Gee man, this is like old time. Yeah, let's go on the roller coaster and the shoes and the different. Let's go on everything All right",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Quicksand' (1950), dialogue centers on \"Really I almost forgot. I've already seen this picture. I thought when it was downtown of the palace, but she said oh I got it. You...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "quicksand._scene_2",
+      "movie_id": "quicksand.",
+      "scene_number": 2,
+      "start_timecode": "00:29:57",
+      "end_timecode": "00:30:11",
+      "start_seconds": 1797.7196,
+      "end_seconds": 1811.133,
+      "duration_seconds": 13.41340000000001,
+      "video_filename": "quicksand._scene_2_13s_1080p.mp4",
+      "keyframe_filename": "quicksand._scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/quicksand._scene_2_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/quicksand._scene_2_thumb.jpg",
+      "transcription": "My knee's really shaking back there. I thought the cops had bust out of that alley any minute, but now I'm in the clear With heavy door in my pocket. I can pay off that jewelry store and have enough",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by nightclub / jazz bar, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Quicksand' (1950), dialogue centers on \"My knee's really shaking back there. I thought the cops had bust out of that alley any minute, but now I'm in the clear With heavy door...\" framed against nightclub / jazz bar, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "nightclub / jazz bar",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "quicksand._scene_3",
+      "movie_id": "quicksand.",
+      "scene_number": 3,
+      "start_timecode": "00:38:36",
+      "end_timecode": "00:39:24",
+      "start_seconds": 2316.5379000000003,
+      "end_seconds": 2364.1855,
+      "duration_seconds": 47.64760000000001,
+      "video_filename": "quicksand._scene_3_47s_1080p.mp4",
+      "keyframe_filename": "quicksand._scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/quicksand._scene_3_47s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/quicksand._scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 48-second sequence from 'Quicksand' (1950) driven by telephone / late-night call, fedora & trenchcoat and a paranoid tone.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "TheSunSetsAtDawn_scene_1",
+      "movie_id": "TheSunSetsAtDawn",
+      "scene_number": 1,
+      "start_timecode": "00:10:02",
+      "end_timecode": "00:11:25",
+      "start_seconds": 602.0,
+      "end_seconds": 685.683684,
+      "duration_seconds": 83.683684,
+      "video_filename": "TheSunSetsAtDawn_scene_1_83s_1080p.mp4",
+      "keyframe_filename": "TheSunSetsAtDawn_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheSunSetsAtDawn_scene_1_83s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheSunSetsAtDawn_scene_1_thumb.jpg",
+      "transcription": "Would you rather just talk with him? Yes, Pa. What are you thinking about? Does anybody ever get what he really wants? I never did. All my life, I've wanted to be somebody. Somebody important. And all my life, I've been nobody. But it isn't for us to judge who somebody and who's nobody, is it? I'm six feet tall. I'm strong. I'm healthy. But I couldn't even make a team in high school. Any team, why is that? Lots of us have to sit in the grandstand. But why? Why? We can't all be star players. We can't all sit in the grandstand either. Some of us always have to sit in the bleachers. Figure it out.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Sun Sets At Dawn' (1950), dialogue centers on \"Would you rather just talk with him? Yes, Pa. What are you thinking about? Does anybody ever get what he really wants? I never did. All...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "TheSunSetsAtDawn_scene_2",
+      "movie_id": "TheSunSetsAtDawn",
+      "scene_number": 2,
+      "start_timecode": "00:11:25",
+      "end_timecode": "00:12:54",
+      "start_seconds": 685.683684,
+      "end_seconds": 774.772773,
+      "duration_seconds": 89.089089,
+      "video_filename": "TheSunSetsAtDawn_scene_2_89s_1080p.mp4",
+      "keyframe_filename": "TheSunSetsAtDawn_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheSunSetsAtDawn_scene_2_89s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheSunSetsAtDawn_scene_2_thumb.jpg",
+      "transcription": "You tell him I'm here. I'd be a hero with bands and metals and newspaper stories all about me. How I charged up the hill. How I captured a hundred prisoners all by myself. She'd be proud of me, she was. She had a lot to be proud of. Two years in the army. Pounding a typewriter in Tennessee. I never even got to be a corporal. No!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, nightclub / jazz bar.",
+      "synopsis": "In a melancholic exchange from 'The Sun Sets At Dawn' (1950), dialogue centers on \"You tell him I'm here. I'd be a hero with bands and metals and newspaper stories all about me. How I charged up the hill. How I captured...\" framed against interrogation / standoff, nightclub / jazz bar.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "TheSunSetsAtDawn_scene_3",
+      "movie_id": "TheSunSetsAtDawn",
+      "scene_number": 3,
+      "start_timecode": "00:12:54",
+      "end_timecode": "00:15:17",
+      "start_seconds": 774.772773,
+      "end_seconds": 917.015015,
+      "duration_seconds": 142.242242,
+      "video_filename": "TheSunSetsAtDawn_scene_3_142s_1080p.mp4",
+      "keyframe_filename": "TheSunSetsAtDawn_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/TheSunSetsAtDawn_scene_3_142s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/TheSunSetsAtDawn_scene_3_thumb.jpg",
+      "transcription": "And I got this newspaper job on the Globe Express, cupboard porter than Coleman. It chased me all over town to get items about ladies' clubs and strawberry festivals. Joe was visiting Who's Ann, but every reporter begins that way. But I could tell that's the way I'd end to. That's why when I ran into Tim Harris mob and saw a chance to break it and be a big shot reporter and then I... Nice go down in here, but this seems to have a ground on the circuit. Would you get word to the boy that's there with my wife? Yes sir, I'll tell him. Tell him I kept my... Have you sent the bus after the newspaper member? Not yet, sir. This is one of those days. Nothing seems to work, right? The bus will be a little late. You better phone Pop's place and let them know. Yes, sir. Get me Pop's place. Pop's speaking? Hello, Jim. Yeah, I'll tell him. How's it, girl? Should have my poorly gotten off the bus. Yeah, I guess we all do.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a melancholic exchange from 'The Sun Sets At Dawn' (1950), dialogue centers on \"And I got this newspaper job on the Globe Express, cupboard porter than Coleman. It chased me all over town to get items about ladies'...\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "this-gun-for-hire-1942_scene_1",
+      "movie_id": "this-gun-for-hire-1942",
+      "scene_number": 1,
+      "start_timecode": "00:25:09",
+      "end_timecode": "00:25:23",
+      "start_seconds": 1509.0,
+      "end_seconds": 1523.625,
+      "duration_seconds": 14.625,
+      "video_filename": "this-gun-for-hire-1942_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "this-gun-for-hire-1942_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/this-gun-for-hire-1942_scene_1_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/this-gun-for-hire-1942_scene_1_thumb.jpg",
+      "transcription": "He never smiles, neither. I wouldn't keep him only he pays. I'm respectable. Well, don't touch his room. We want fingerprints. I'm gonna put a man in the alley across the way. Now, if Raven comes in, go to the window and give it this with the shade. Huh?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'This Gun For Hire (1942) Alan Ladd, Veronica Lake, Robert Preston, Laird Cregar' (1942), dialogue centers on \"He never smiles, neither. I wouldn't keep him only he pays. I'm respectable. Well, don't touch his room. We want fingerprints. I'm gonna...\" framed against fedora & trenchcoat, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "this-gun-for-hire-1942_scene_2",
+      "movie_id": "this-gun-for-hire-1942",
+      "scene_number": 2,
+      "start_timecode": "00:36:06",
+      "end_timecode": "00:36:23",
+      "start_seconds": 2166.5,
+      "end_seconds": 2183.75,
+      "duration_seconds": 17.25,
+      "video_filename": "this-gun-for-hire-1942_scene_2_17s_1080p.mp4",
+      "keyframe_filename": "this-gun-for-hire-1942_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/this-gun-for-hire-1942_scene_2_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/this-gun-for-hire-1942_scene_2_thumb.jpg",
+      "transcription": "know that when I hired her and now I'm afraid to turn her over to the police they wouldn't believe anything Raven's head but they might believe her or a fool get down to that club of yours take her out somewhere find out all about her and get out of here yes sir",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'This Gun For Hire (1942) Alan Ladd, Veronica Lake, Robert Preston, Laird Cregar' (1942), dialogue centers on \"know that when I hired her and now I'm afraid to turn her over to the police they wouldn't believe anything Raven's head but they might...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "this-gun-for-hire-1942_scene_3",
+      "movie_id": "this-gun-for-hire-1942",
+      "scene_number": 3,
+      "start_timecode": "00:39:47",
+      "end_timecode": "00:40:13",
+      "start_seconds": 2387.875,
+      "end_seconds": 2413.958334,
+      "duration_seconds": 26.083334000000036,
+      "video_filename": "this-gun-for-hire-1942_scene_3_26s_1080p.mp4",
+      "keyframe_filename": "this-gun-for-hire-1942_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/this-gun-for-hire-1942_scene_3_26s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/this-gun-for-hire-1942_scene_3_thumb.jpg",
+      "transcription": "Oh, I beg your pardon.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'This Gun For Hire (1942) Alan Ladd, Veronica Lake, Robert Preston, Laird Cregar' (1942), dialogue centers on \"Oh, I beg your pardon.\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "nightclub / jazz bar",
         "paranoid"
       ]
     }
