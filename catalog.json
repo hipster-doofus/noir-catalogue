@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-25T05:04:03.110148+00:00",
-  "total_movies": 151,
-  "total_scenes": 629,
-  "genre": "film noir",
+  "updated_at": "2026-11-25T12:26:23.805376+00:00",
+  "total_movies": 161,
+  "total_scenes": 679,
+  "genre": "sci-fi",
   "source": "Internet Archive",
-  "category": "feature_films",
+  "category": "moviesandfilms",
   "movies": [
     {
       "title": "Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir",
@@ -1521,6 +1521,106 @@
       "video_url": "https://archive.org/download/this-gun-for-hire-1942/This Gun for Hire (1942) Alan Ladd, Veronica Lake, Robert Preston, Laird Cregar.ia.mp4",
       "license": "Open Archive",
       "description": "This Gun for Hire is a 1942 American FILM NOlR crime film directed by Frank Tuttle and starring Veronica Lake, Robert Preston, Laird Cregar, and Alan Ladd. It is based on the 1936 novel A Gun for Sale by Graham Greene (published in America with the same title as the film). \u00a0 You can find out more about this movie from Wikipedia . A detailed article from online blog Film Noir Board may still be available. There is also a good review of the movie from the movie blog Reviews from the Bottom of the Barre l.\u00a0 \u00a0 \u00a0"
+    },
+    {
+      "title": "Flash Gordon Conquers the Universe: Chapter 8",
+      "year": 1940,
+      "director": "Unknown Director",
+      "archive_id": "flash_gordon8",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/flash_gordon8/flash_gordon_ep08_256kb.mp4",
+      "license": "Open Archive",
+      "description": "Archival video feature."
+    },
+    {
+      "title": "Captain America: Chapter 5 - Blade of Wrath",
+      "year": 1944,
+      "director": "William J. O'Sullivan",
+      "archive_id": "captain_america_ep5",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/captain_america_ep5/ep5.mp4",
+      "license": "Open Archive",
+      "description": "Taken from IMDB : Superhero Captain America battles the evil forces of the arch-villain called The Scarab, who poisons his enemies and steals a secret device capable of destroying buildings by sound vibrations. Chapter 1 - The Purple Death Chapter 2 - Mechanical Executioner Chapter 3 - The Scarlet Shroud Chapter 4 - Preview of Murder Chapter 5 - Blade of Wrath Chapter 6 - Vault of Vengeance Chapter 7 - Wholesale Destruction Chapter 8 - Cremation in the Clouds Chapter 9 - Triple Tragedy Chapter 10 - The Avenging Corpse Chapter 11 - The Dead Man Returns Chapter 12 - Horror on the Highway Chapter 13 - Skyscraper Plunge Chapter 14 - The Scarab Strikes Chapter 15 - The Toll of Doom"
+    },
+    {
+      "title": "Captain America: Chapter 4 - Preview of Murder",
+      "year": 1944,
+      "director": "William J. O'Sullivan",
+      "archive_id": "captain_america_ep4",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/captain_america_ep4/ep4.mp4",
+      "license": "Open Archive",
+      "description": "Taken from IMDB : Superhero Captain America battles the evil forces of the arch-villain called The Scarab, who poisons his enemies and steals a secret device capable of destroying buildings by sound vibrations. Chapter 1 - The Purple Death Chapter 2 - Mechanical Executioner Chapter 3 - The Scarlet Shroud Chapter 4 - Preview of Murder Chapter 5 - Blade of Wrath Chapter 6 - Vault of Vengeance Chapter 7 - Wholesale Destruction Chapter 8 - Cremation in the Clouds Chapter 9 - Triple Tragedy Chapter 10 - The Avenging Corpse Chapter 11 - The Dead Man Returns Chapter 12 - Horror on the Highway Chapter 13 - Skyscraper Plunge Chapter 14 - The Scarab Strikes Chapter 15 - The Toll of Doom"
+    },
+    {
+      "title": "Phantom Empire - Chapter 2: Thunder Riders",
+      "year": 1935,
+      "director": "Nat Levine",
+      "archive_id": "phantom_empire_chapter_2",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/phantom_empire_chapter_2/ep2_512kb.mp4",
+      "license": "Open Archive",
+      "description": "From IMDB :When the ancient continent of Mu sank beneath the ocean, some of its inhabitant survived in caverns beneath the sea. Cowboy singer Gene Autry stumbles upon the civilization, now buried beneath his own Radio Ranch. The Muranians have developed technology and weaponry such as television and ray guns. Their rich supply of radium draws unscrupulous speculators from the surface. The peaceful civilization of the Muranians is corrupted by the greed from above, and it becomes Autry's task to prevent all-out war, ideally without disrupting his regular radio show. Phantom Empire - Chapter 1: Singing Cowboy Phantom Empire - Chapter 2: Thunder Riders Phantom Empire - Chapter 3: Lightning Chamber Phantom Empire - Chapter 4: Phantom Broadcast Phantom Empire - Chapter 5: Beneath the Sky Phantom Empire - Chapter 6: Disaster From the Sky Phantom Empire - Chapter 7: From Death to Life Phantom Empire - Chapter 8: Jaws of Jeopardy Phantom Empire - Chapter 9: Prisoners of the Ray Phantom Empire - Chapter 10: Rebellion Phantom Empire - Chapter 11: Queen in Chains Phantom Empire - Chapter 12: End of Murania"
+    },
+    {
+      "title": "INVASION OF THE BEE GIRLS trailer",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "InvasionOfTheBeeGirlsTrailer",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/InvasionOfTheBeeGirlsTrailer/InvasionOfTheBeeGirlsTrailer.mp4",
+      "license": "Open Archive",
+      "description": "The complete film is available here at IA in the Feature Films Collection."
+    },
+    {
+      "title": "Captain America: Chapter 12 - Horror on the Highway",
+      "year": 1944,
+      "director": "William J. O'Sullivan",
+      "archive_id": "captain_america_ep12",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/captain_america_ep12/ep12.mp4",
+      "license": "Open Archive",
+      "description": "Taken from IMDB : Superhero Captain America battles the evil forces of the arch-villain called The Scarab, who poisons his enemies and steals a secret device capable of destroying buildings by sound vibrations. Chapter 1 - The Purple Death Chapter 2 - Mechanical Executioner Chapter 3 - The Scarlet Shroud Chapter 4 - Preview of Murder Chapter 5 - Blade of Wrath Chapter 6 - Vault of Vengeance Chapter 7 - Wholesale Destruction Chapter 8 - Cremation in the Clouds Chapter 9 - Triple Tragedy Chapter 10 - The Avenging Corpse Chapter 11 - The Dead Man Returns Chapter 12 - Horror on the Highway Chapter 13 - Skyscraper Plunge Chapter 14 - The Scarab Strikes Chapter 15 - The Toll of Doom"
+    },
+    {
+      "title": "Flash Gordon Conquers the Universe: Chapter 6",
+      "year": 1940,
+      "director": "Unknown Director",
+      "archive_id": "flash_gordon6",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/flash_gordon6/flash_gordon_ep06_512kb.mp4",
+      "license": "Open Archive",
+      "description": "Flash, Dale, and Zarkov return to Planet Mongo to find an antidote for the Purple Death."
+    },
+    {
+      "title": "Phantom Empire - Chapter 5: Beneath the Sky",
+      "year": 1935,
+      "director": "Nat Levine",
+      "archive_id": "phantom_empire_chapter_5",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/phantom_empire_chapter_5/ep5_512kb.mp4",
+      "license": "Open Archive",
+      "description": "From IMDB :When the ancient continent of Mu sank beneath the ocean, some of its inhabitant survived in caverns beneath the sea. Cowboy singer Gene Autry stumbles upon the civilization, now buried beneath his own Radio Ranch. The Muranians have developed technology and weaponry such as television and ray guns. Their rich supply of radium draws unscrupulous speculators from the surface. The peaceful civilization of the Muranians is corrupted by the greed from above, and it becomes Autry's task to prevent all-out war, ideally without disrupting his regular radio show."
+    },
+    {
+      "title": "Voyage to the Planet of Prehistoric Women - Weirdness Bad Movie",
+      "year": 1950,
+      "director": "reallybadmovie@rocketmail.com",
+      "archive_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie/WRBM_Voyage 2 Planet of Prehistoric Women_WS_AF_fixed.ia.mp4",
+      "license": "Open Archive",
+      "description": "Public Access TV show \"Weirdness Really Bad Movie\" hosts public domain movies and ads clean comedy sketches enjoyable for the whole family. Today's film is the 1968 Roger Corman film, Voyage To The Prehistoric Planet Of Women."
+    },
+    {
+      "title": "The Creature Walks Among Us",
+      "year": 1956,
+      "director": "John Sherwood",
+      "archive_id": "the-creature-walks-among-us",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/the-creature-walks-among-us/The Creature Walks Among Us.mp4",
+      "license": "Open Archive",
+      "description": "In this third Gill-Man feature, the Creature is captured and turned into an air-breather by a rich mad\u00a0scientist, chaos then\u00a0 ensues."
     }
   ],
   "scenes": [
@@ -19150,6 +19250,1506 @@
         "femme fatale",
         "nightclub / jazz bar",
         "paranoid"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon8_scene_1",
+      "movie_id": "flash_gordon8",
+      "scene_number": 1,
+      "start_timecode": "00:17:50",
+      "end_timecode": "00:18:43",
+      "start_seconds": 1070.402336,
+      "end_seconds": 1123.655589,
+      "duration_seconds": 53.253253,
+      "video_filename": "flash_gordon8_scene_1_53s_1080p.mp4",
+      "keyframe_filename": "flash_gordon8_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon8_scene_1_53s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon8_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "An atmospheric 53-second sequence from 'Flash Gordon Conquers the Universe: Chapter 8' (1940) driven by fedora & trenchcoat, femme fatale and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon8_scene_2",
+      "movie_id": "flash_gordon8",
+      "scene_number": 2,
+      "start_timecode": "00:21:29",
+      "end_timecode": "00:21:43",
+      "start_seconds": 1289.821755,
+      "end_seconds": 1303.034968,
+      "duration_seconds": 13.213212999999996,
+      "video_filename": "flash_gordon8_scene_2_13s_1080p.mp4",
+      "keyframe_filename": "flash_gordon8_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon8_scene_2_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon8_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by cigarette smoke, telephone / late-night call.",
+      "synopsis": "An atmospheric 13-second sequence from 'Flash Gordon Conquers the Universe: Chapter 8' (1940) driven by cigarette smoke, telephone / late-night call and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon8_scene_3",
+      "movie_id": "flash_gordon8",
+      "scene_number": 3,
+      "start_timecode": "00:24:04",
+      "end_timecode": "00:24:13",
+      "start_seconds": 1444.5765099999999,
+      "end_seconds": 1453.385319,
+      "duration_seconds": 8.808808999999997,
+      "video_filename": "flash_gordon8_scene_3_8s_1080p.mp4",
+      "keyframe_filename": "flash_gordon8_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon8_scene_3_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon8_scene_3_thumb.jpg",
+      "transcription": "Oh",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Flash Gordon Conquers the Universe: Chapter 8' (1940), dialogue centers on \"Oh\" framed against fedora & trenchcoat, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon8_scene_4",
+      "movie_id": "flash_gordon8",
+      "scene_number": 4,
+      "start_timecode": "00:31:32",
+      "end_timecode": "00:31:41",
+      "start_seconds": 1892.224157,
+      "end_seconds": 1901.233166,
+      "duration_seconds": 9.009008999999992,
+      "video_filename": "flash_gordon8_scene_4_9s_1080p.mp4",
+      "keyframe_filename": "flash_gordon8_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon8_scene_4_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon8_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, interrogation / standoff.",
+      "synopsis": "An atmospheric 9-second sequence from 'Flash Gordon Conquers the Universe: Chapter 8' (1940) driven by fedora & trenchcoat, interrogation / standoff and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon8_scene_5",
+      "movie_id": "flash_gordon8",
+      "scene_number": 5,
+      "start_timecode": "00:34:28",
+      "end_timecode": "00:34:41",
+      "start_seconds": 2068.2001330000003,
+      "end_seconds": 2081.146419,
+      "duration_seconds": 12.946285999999986,
+      "video_filename": "flash_gordon8_scene_5_12s_1080p.mp4",
+      "keyframe_filename": "flash_gordon8_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon8_scene_5_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon8_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "An atmospheric 13-second sequence from 'Flash Gordon Conquers the Universe: Chapter 8' (1940) driven by fedora & trenchcoat, femme fatale and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "cigarette smoke",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep5_scene_1",
+      "movie_id": "captain_america_ep5",
+      "scene_number": 1,
+      "start_timecode": "00:08:07",
+      "end_timecode": "00:08:20",
+      "start_seconds": 487.15515500000004,
+      "end_seconds": 500.768769,
+      "duration_seconds": 13.613613999999984,
+      "video_filename": "captain_america_ep5_scene_1_13s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep5_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep5_scene_1_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep5_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by low-key chiaroscuro, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 14-second sequence from 'Captain America: Chapter 5 - Blade of Wrath' (1944) driven by low-key chiaroscuro, fedora & trenchcoat and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "low-key chiaroscuro",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "low-key chiaroscuro",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep5_scene_2",
+      "movie_id": "captain_america_ep5",
+      "scene_number": 2,
+      "start_timecode": "00:09:05",
+      "end_timecode": "00:09:22",
+      "start_seconds": 545.813814,
+      "end_seconds": 562.23023,
+      "duration_seconds": 16.416415999999998,
+      "video_filename": "captain_america_ep5_scene_2_16s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep5_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep5_scene_2_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep5_scene_2_thumb.jpg",
+      "transcription": "You'll finish your route and bring that trunk to my office. It'll be checked for fingerprints. Did they have any luck, Chief? Yes. Get me the police commissioner immediately. The fingerprints on the trunk identify-",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Captain America: Chapter 5 - Blade of Wrath' (1944), dialogue centers on \"You'll finish your route and bring that trunk to my office. It'll be checked for fingerprints. Did they have any luck, Chief? Yes. Get...\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep5_scene_3",
+      "movie_id": "captain_america_ep5",
+      "scene_number": 3,
+      "start_timecode": "00:09:22",
+      "end_timecode": "00:09:34",
+      "start_seconds": 562.23023,
+      "end_seconds": 574.742743,
+      "duration_seconds": 12.512512999999984,
+      "video_filename": "captain_america_ep5_scene_3_12s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep5_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep5_scene_3_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep5_scene_3_thumb.jpg",
+      "transcription": "Taylor has left the hopper criminal with a long police record. I'm going to start a search for Look mister. I want to drag that thrown out for lefty Harper Elliot's John Taylor",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Captain America: Chapter 5 - Blade of Wrath' (1944), dialogue centers on \"Taylor has left the hopper criminal with a long police record. I'm going to start a search for Look mister. I want to drag that thrown...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep5_scene_4",
+      "movie_id": "captain_america_ep5",
+      "scene_number": 4,
+      "start_timecode": "00:10:27",
+      "end_timecode": "00:10:37",
+      "start_seconds": 627.295295,
+      "end_seconds": 637.8058060000001,
+      "duration_seconds": 10.510511000000008,
+      "video_filename": "captain_america_ep5_scene_4_10s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep5_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep5_scene_4_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep5_scene_4_thumb.jpg",
+      "transcription": "Hello? Yes, Gail. Five of us coming.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Captain America: Chapter 5 - Blade of Wrath' (1944), dialogue centers on \"Hello? Yes, Gail. Five of us coming.\" framed against telephone / late-night call, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep5_scene_5",
+      "movie_id": "captain_america_ep5",
+      "scene_number": 5,
+      "start_timecode": "00:14:38",
+      "end_timecode": "00:14:48",
+      "start_seconds": 878.246246,
+      "end_seconds": 888.156156,
+      "duration_seconds": 9.909909999999968,
+      "video_filename": "captain_america_ep5_scene_5_9s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep5_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep5_scene_5_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep5_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "An atmospheric 10-second sequence from 'Captain America: Chapter 5 - Blade of Wrath' (1944) driven by femme fatale, interrogation / standoff and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep4_scene_1",
+      "movie_id": "captain_america_ep4",
+      "scene_number": 1,
+      "start_timecode": "00:24:25",
+      "end_timecode": "00:24:33",
+      "start_seconds": 1465.338338,
+      "end_seconds": 1473.646647,
+      "duration_seconds": 8.308309000000008,
+      "video_filename": "captain_america_ep4_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep4_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep4_scene_1_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep4_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by nightclub / jazz bar, interrogation / standoff.",
+      "synopsis": "An atmospheric 8-second sequence from 'Captain America: Chapter 4 - Preview of Murder' (1944) driven by nightclub / jazz bar, interrogation / standoff and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "nightclub / jazz bar",
+        "interrogation / standoff",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep4_scene_2",
+      "movie_id": "captain_america_ep4",
+      "scene_number": 2,
+      "start_timecode": "00:25:19",
+      "end_timecode": "00:25:37",
+      "start_seconds": 1519.892893,
+      "end_seconds": 1537.21021,
+      "duration_seconds": 17.317317000000003,
+      "video_filename": "captain_america_ep4_scene_2_17s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep4_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep4_scene_2_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep4_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by cigarette smoke, interrogation / standoff.",
+      "synopsis": "An atmospheric 17-second sequence from 'Captain America: Chapter 4 - Preview of Murder' (1944) driven by cigarette smoke, interrogation / standoff and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep4_scene_3",
+      "movie_id": "captain_america_ep4",
+      "scene_number": 3,
+      "start_timecode": "00:26:25",
+      "end_timecode": "00:27:09",
+      "start_seconds": 1585.358358,
+      "end_seconds": 1629.902903,
+      "duration_seconds": 44.54454499999997,
+      "video_filename": "captain_america_ep4_scene_3_44s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep4_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep4_scene_3_44s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep4_scene_3_thumb.jpg",
+      "transcription": "It was just about to get away with the platform when Captain America showed up. Then you lost the firewall. Yes, and the robot control truck too. Losing the fire boat is not serious. Since the start affected his locator, he would have been dangerous to use it again. But we must recover that truck at any cost. We take months to duplicate its robot control and television units. Let's see where they've taken it. Turn on the television control.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Captain America: Chapter 4 - Preview of Murder' (1944), dialogue centers on \"It was just about to get away with the platform when Captain America showed up. Then you lost the firewall. Yes, and the robot control...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep4_scene_4",
+      "movie_id": "captain_america_ep4",
+      "scene_number": 4,
+      "start_timecode": "00:27:57",
+      "end_timecode": "00:28:25",
+      "start_seconds": 1677.45045,
+      "end_seconds": 1705.478478,
+      "duration_seconds": 28.028028000000006,
+      "video_filename": "captain_america_ep4_scene_4_28s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep4_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep4_scene_4_28s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep4_scene_4_thumb.jpg",
+      "transcription": "and the balance of my estate to be dispersed as follows. Professor Dodd, my lifelong friend, I had bequeathed my home and all its contents with Dr. Mowner. For his loyalty and untiring efforts in the cause of science, I give all my rights and interests in the Drummond Museum with the exception of the Mayan Crown Jewels now in his custody. The Jewels will be turned over to Professor Dodd",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a melancholic exchange from 'Captain America: Chapter 4 - Preview of Murder' (1944), dialogue centers on \"and the balance of my estate to be dispersed as follows. Professor Dodd, my lifelong friend, I had bequeathed my home and all its...\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep4_scene_5",
+      "movie_id": "captain_america_ep4",
+      "scene_number": 5,
+      "start_timecode": "00:29:14",
+      "end_timecode": "00:29:47",
+      "start_seconds": 1754.427427,
+      "end_seconds": 1787.16016,
+      "duration_seconds": 32.732732999999996,
+      "video_filename": "captain_america_ep4_scene_5_32s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep4_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep4_scene_5_32s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep4_scene_5_thumb.jpg",
+      "transcription": "All they treated me as they always have, Lyman will be his interest in the Museum, which I already control. He's only possession of any real value, but may endure those must be handed over to Professor Dodge tomorrow. Of course, you tend to give them to him. Oh, certainly, it's certainly. That means you can press that dot, it's still a lie. Is he still staying at the DA's apartment?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Captain America: Chapter 4 - Preview of Murder' (1944), dialogue centers on \"All they treated me as they always have, Lyman will be his interest in the Museum, which I already control. He's only possession of any...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_2_scene_1",
+      "movie_id": "phantom_empire_chapter_2",
+      "scene_number": 1,
+      "start_timecode": "00:24:50",
+      "end_timecode": "00:25:03",
+      "start_seconds": 1490.921922,
+      "end_seconds": 1503.834835,
+      "duration_seconds": 12.912913,
+      "video_filename": "phantom_empire_chapter_2_scene_1_12s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_2_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_2_scene_1_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_2_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 13-second sequence from 'Phantom Empire - Chapter 2: Thunder Riders' (1935) driven by femme fatale, fedora & trenchcoat and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_2_scene_2",
+      "movie_id": "phantom_empire_chapter_2",
+      "scene_number": 2,
+      "start_timecode": "00:25:41",
+      "end_timecode": "00:26:27",
+      "start_seconds": 1541.872873,
+      "end_seconds": 1587.818819,
+      "duration_seconds": 45.945946000000006,
+      "video_filename": "phantom_empire_chapter_2_scene_2_45s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_2_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_2_scene_2_45s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_2_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 46-second sequence from 'Phantom Empire - Chapter 2: Thunder Riders' (1935) driven by femme fatale, fedora & trenchcoat and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_2_scene_3",
+      "movie_id": "phantom_empire_chapter_2",
+      "scene_number": 3,
+      "start_timecode": "00:30:39",
+      "end_timecode": "00:30:47",
+      "start_seconds": 1839.770771,
+      "end_seconds": 1847.778779,
+      "duration_seconds": 8.008007999999961,
+      "video_filename": "phantom_empire_chapter_2_scene_3_8s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_2_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_2_scene_3_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_2_scene_3_thumb.jpg",
+      "transcription": "I want my friend's present, want my clothes to look the best, I call on options, because I call on options, I'm washer.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'Phantom Empire - Chapter 2: Thunder Riders' (1935), dialogue centers on \"I want my friend's present, want my clothes to look the best, I call on options, because I call on options, I'm washer.\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_2_scene_4",
+      "movie_id": "phantom_empire_chapter_2",
+      "scene_number": 4,
+      "start_timecode": "00:34:39",
+      "end_timecode": "00:34:47",
+      "start_seconds": 2079.21021,
+      "end_seconds": 2087.9189189999997,
+      "duration_seconds": 8.708708999999999,
+      "video_filename": "phantom_empire_chapter_2_scene_4_8s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_2_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_2_scene_4_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_2_scene_4_thumb.jpg",
+      "transcription": "The stagecoast has been attacked. The bench is a giving phase. Why don't the Thunderriders come to the wrong stage?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Phantom Empire - Chapter 2: Thunder Riders' (1935), dialogue centers on \"The stagecoast has been attacked. The bench is a giving phase. Why don't the Thunderriders come to the wrong stage?\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_2_scene_5",
+      "movie_id": "phantom_empire_chapter_2",
+      "scene_number": 5,
+      "start_timecode": "00:35:24",
+      "end_timecode": "00:35:36",
+      "start_seconds": 2124.755756,
+      "end_seconds": 2136.667668,
+      "duration_seconds": 11.91191200000003,
+      "video_filename": "phantom_empire_chapter_2_scene_5_11s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_2_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_2_scene_5_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_2_scene_5_thumb.jpg",
+      "transcription": "The thunderriders are coming. Dawson must float to the aid of his henchmen.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by cigarette smoke, fedora & trenchcoat.",
+      "synopsis": "In a melancholic exchange from 'Phantom Empire - Chapter 2: Thunder Riders' (1935), dialogue centers on \"The thunderriders are coming. Dawson must float to the aid of his henchmen.\" framed against cigarette smoke, fedora & trenchcoat.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirlsTrailer_scene_1",
+      "movie_id": "InvasionOfTheBeeGirlsTrailer",
+      "scene_number": 1,
+      "start_timecode": "00:05:47",
+      "end_timecode": "00:05:50",
+      "start_seconds": 347.0,
+      "end_seconds": 350.3033,
+      "duration_seconds": 3.3033,
+      "video_filename": "InvasionOfTheBeeGirlsTrailer_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsTrailer_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/InvasionOfTheBeeGirlsTrailer_scene_1_3s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/InvasionOfTheBeeGirlsTrailer_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, dutch angle framing.",
+      "synopsis": "An atmospheric 3-second sequence from 'INVASION OF THE BEE GIRLS trailer' (1950) driven by interrogation / standoff, dutch angle framing and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "dutch angle framing",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "nightclub / jazz bar",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirlsTrailer_scene_2",
+      "movie_id": "InvasionOfTheBeeGirlsTrailer",
+      "scene_number": 2,
+      "start_timecode": "00:06:11",
+      "end_timecode": "00:06:16",
+      "start_seconds": 371.7247,
+      "end_seconds": 376.1291,
+      "duration_seconds": 4.4044000000000025,
+      "video_filename": "InvasionOfTheBeeGirlsTrailer_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsTrailer_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/InvasionOfTheBeeGirlsTrailer_scene_2_4s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/InvasionOfTheBeeGirlsTrailer_scene_2_thumb.jpg",
+      "transcription": "What bizarre secrets threaten every man in town?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, dutch angle framing.",
+      "synopsis": "In a tense / suspense exchange from 'INVASION OF THE BEE GIRLS trailer' (1950), dialogue centers on \"What bizarre secrets threaten every man in town?\" framed against femme fatale, dutch angle framing.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirlsTrailer_scene_3",
+      "movie_id": "InvasionOfTheBeeGirlsTrailer",
+      "scene_number": 3,
+      "start_timecode": "00:06:16",
+      "end_timecode": "00:06:21",
+      "start_seconds": 376.1291,
+      "end_seconds": 381.034,
+      "duration_seconds": 4.904899999999998,
+      "video_filename": "InvasionOfTheBeeGirlsTrailer_scene_3_4s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsTrailer_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/InvasionOfTheBeeGirlsTrailer_scene_3_4s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/InvasionOfTheBeeGirlsTrailer_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 5-second sequence from 'INVASION OF THE BEE GIRLS trailer' (1950) driven by telephone / late-night call, fedora & trenchcoat and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirlsTrailer_scene_4",
+      "movie_id": "InvasionOfTheBeeGirlsTrailer",
+      "scene_number": 4,
+      "start_timecode": "00:06:21",
+      "end_timecode": "00:06:25",
+      "start_seconds": 381.034,
+      "end_seconds": 385.4384,
+      "duration_seconds": 4.4044000000000025,
+      "video_filename": "InvasionOfTheBeeGirlsTrailer_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsTrailer_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/InvasionOfTheBeeGirlsTrailer_scene_4_4s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/InvasionOfTheBeeGirlsTrailer_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, interrogation / standoff.",
+      "synopsis": "An atmospheric 4-second sequence from 'INVASION OF THE BEE GIRLS trailer' (1950) driven by telephone / late-night call, interrogation / standoff and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "InvasionOfTheBeeGirlsTrailer_scene_5",
+      "movie_id": "InvasionOfTheBeeGirlsTrailer",
+      "scene_number": 5,
+      "start_timecode": "00:06:25",
+      "end_timecode": "00:06:29",
+      "start_seconds": 385.4384,
+      "end_seconds": 389.2422,
+      "duration_seconds": 3.8037999999999954,
+      "video_filename": "InvasionOfTheBeeGirlsTrailer_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "InvasionOfTheBeeGirlsTrailer_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/InvasionOfTheBeeGirlsTrailer_scene_5_3s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/InvasionOfTheBeeGirlsTrailer_scene_5_thumb.jpg",
+      "transcription": "The invasion of the Beagle.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a tense / suspense exchange from 'INVASION OF THE BEE GIRLS trailer' (1950), dialogue centers on \"The invasion of the Beagle.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep12_scene_1",
+      "movie_id": "captain_america_ep12",
+      "scene_number": 1,
+      "start_timecode": "00:13:40",
+      "end_timecode": "00:13:43",
+      "start_seconds": 820.12012,
+      "end_seconds": 823.623624,
+      "duration_seconds": 3.5035039999999995,
+      "video_filename": "captain_america_ep12_scene_1_3s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep12_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep12_scene_1_3s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep12_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, dutch angle framing.",
+      "synopsis": "An atmospheric 4-second sequence from 'Captain America: Chapter 12 - Horror on the Highway' (1944) driven by femme fatale, dutch angle framing and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep12_scene_2",
+      "movie_id": "captain_america_ep12",
+      "scene_number": 2,
+      "start_timecode": "00:13:43",
+      "end_timecode": "00:13:48",
+      "start_seconds": 823.623624,
+      "end_seconds": 828.128128,
+      "duration_seconds": 4.504504000000001,
+      "video_filename": "captain_america_ep12_scene_2_4s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep12_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep12_scene_2_4s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep12_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 5-second sequence from 'Captain America: Chapter 12 - Horror on the Highway' (1944) driven by femme fatale, fedora & trenchcoat and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep12_scene_3",
+      "movie_id": "captain_america_ep12",
+      "scene_number": 3,
+      "start_timecode": "00:13:48",
+      "end_timecode": "00:13:52",
+      "start_seconds": 828.128128,
+      "end_seconds": 832.032032,
+      "duration_seconds": 3.9039040000000007,
+      "video_filename": "captain_america_ep12_scene_3_3s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep12_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep12_scene_3_3s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep12_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "An atmospheric 4-second sequence from 'Captain America: Chapter 12 - Horror on the Highway' (1944) driven by femme fatale, interrogation / standoff and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep12_scene_4",
+      "movie_id": "captain_america_ep12",
+      "scene_number": 4,
+      "start_timecode": "00:13:54",
+      "end_timecode": "00:13:58",
+      "start_seconds": 834.234234,
+      "end_seconds": 838.238238,
+      "duration_seconds": 4.004004000000002,
+      "video_filename": "captain_america_ep12_scene_4_4s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep12_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep12_scene_4_4s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep12_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, dutch angle framing.",
+      "synopsis": "An atmospheric 4-second sequence from 'Captain America: Chapter 12 - Horror on the Highway' (1944) driven by femme fatale, dutch angle framing and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "dutch angle framing",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "captain_america_ep12_scene_5",
+      "movie_id": "captain_america_ep12",
+      "scene_number": 5,
+      "start_timecode": "00:14:00",
+      "end_timecode": "00:14:03",
+      "start_seconds": 840.44044,
+      "end_seconds": 843.943944,
+      "duration_seconds": 3.5035039999999995,
+      "video_filename": "captain_america_ep12_scene_5_3s_1080p.mp4",
+      "keyframe_filename": "captain_america_ep12_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/captain_america_ep12_scene_5_3s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/captain_america_ep12_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "An atmospheric 4-second sequence from 'Captain America: Chapter 12 - Horror on the Highway' (1944) driven by fedora & trenchcoat, femme fatale and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon6_scene_1",
+      "movie_id": "flash_gordon6",
+      "scene_number": 1,
+      "start_timecode": "00:26:09",
+      "end_timecode": "00:26:24",
+      "start_seconds": 1569.877878,
+      "end_seconds": 1584.692693,
+      "duration_seconds": 14.81481500000001,
+      "video_filename": "flash_gordon6_scene_1_14s_1080p.mp4",
+      "keyframe_filename": "flash_gordon6_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon6_scene_1_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon6_scene_1_thumb.jpg",
+      "transcription": "You're keeping secret communications with my daughter's attendant. Ladies, Sonia? Yes, I am. By means of the word. Good. I'll give you all message for it.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by telephone / late-night call, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Flash Gordon Conquers the Universe: Chapter 6' (1940), dialogue centers on \"You're keeping secret communications with my daughter's attendant. Ladies, Sonia? Yes, I am. By means of the word. Good. I'll give you...\" framed against telephone / late-night call, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon6_scene_2",
+      "movie_id": "flash_gordon6",
+      "scene_number": 2,
+      "start_timecode": "00:29:01",
+      "end_timecode": "00:29:26",
+      "start_seconds": 1741.54955,
+      "end_seconds": 1766.874875,
+      "duration_seconds": 25.32532500000002,
+      "video_filename": "flash_gordon6_scene_2_25s_1080p.mp4",
+      "keyframe_filename": "flash_gordon6_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon6_scene_2_25s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon6_scene_2_thumb.jpg",
+      "transcription": "for this would print down and clash Gordon. Yes, I'll fire. We have intercepted a radio message from Prince Baron to his patrol ship. Yes? All patrol ships. The Emperor main is about to attempt destruction of our warrior by means of fiery projectiles. Dr. Zorkov has devised means of counteracting this murderous attack. Inform me at once, location of any of these projectiles, and steps will be taken to extinguish fire.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Flash Gordon Conquers the Universe: Chapter 6' (1940), dialogue centers on \"for this would print down and clash Gordon. Yes, I'll fire. We have intercepted a radio message from Prince Baron to his patrol ship....\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon6_scene_3",
+      "movie_id": "flash_gordon6",
+      "scene_number": 3,
+      "start_timecode": "00:33:42",
+      "end_timecode": "00:33:59",
+      "start_seconds": 2022.13013,
+      "end_seconds": 2039.1471470000001,
+      "duration_seconds": 17.01701700000001,
+      "video_filename": "flash_gordon6_scene_3_17s_1080p.mp4",
+      "keyframe_filename": "flash_gordon6_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon6_scene_3_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon6_scene_3_thumb.jpg",
+      "transcription": "until we start and tell them that. I got it. 30 miles to Western here. First protectors. 30 miles to Western here. Can't afford the recording, Nick. Yes. I'll get the files from you.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Flash Gordon Conquers the Universe: Chapter 6' (1940), dialogue centers on \"until we start and tell them that. I got it. 30 miles to Western here. First protectors. 30 miles to Western here. Can't afford the...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon6_scene_4",
+      "movie_id": "flash_gordon6",
+      "scene_number": 4,
+      "start_timecode": "00:34:54",
+      "end_timecode": "00:35:08",
+      "start_seconds": 2094.702703,
+      "end_seconds": 2108.916917,
+      "duration_seconds": 14.21421399999997,
+      "video_filename": "flash_gordon6_scene_4_14s_1080p.mp4",
+      "keyframe_filename": "flash_gordon6_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon6_scene_4_14s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon6_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by cigarette smoke, nightclub / jazz bar.",
+      "synopsis": "An atmospheric 14-second sequence from 'Flash Gordon Conquers the Universe: Chapter 6' (1940) driven by cigarette smoke, nightclub / jazz bar and a fatalistic tone.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "nightclub / jazz bar",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "nightclub / jazz bar",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "flash_gordon6_scene_5",
+      "movie_id": "flash_gordon6",
+      "scene_number": 5,
+      "start_timecode": "00:35:40",
+      "end_timecode": "00:35:48",
+      "start_seconds": 2140.448448,
+      "end_seconds": 2148.456456,
+      "duration_seconds": 8.008008000000018,
+      "video_filename": "flash_gordon6_scene_5_8s_1080p.mp4",
+      "keyframe_filename": "flash_gordon6_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/flash_gordon6_scene_5_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/flash_gordon6_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by cigarette smoke, femme fatale.",
+      "synopsis": "An atmospheric 8-second sequence from 'Flash Gordon Conquers the Universe: Chapter 6' (1940) driven by cigarette smoke, femme fatale and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "femme fatale",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_5_scene_1",
+      "movie_id": "phantom_empire_chapter_5",
+      "scene_number": 1,
+      "start_timecode": "00:11:24",
+      "end_timecode": "00:11:35",
+      "start_seconds": 684.825826,
+      "end_seconds": 695.536537,
+      "duration_seconds": 10.710711000000003,
+      "video_filename": "phantom_empire_chapter_5_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_5_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_5_scene_1_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_5_scene_1_thumb.jpg",
+      "transcription": "You",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from 'Phantom Empire - Chapter 5: Beneath the Sky' (1935), dialogue centers on \"You\" framed against femme fatale, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "dutch angle framing",
+        "fedora & trenchcoat",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_5_scene_2",
+      "movie_id": "phantom_empire_chapter_5",
+      "scene_number": 2,
+      "start_timecode": "00:15:03",
+      "end_timecode": "00:15:13",
+      "start_seconds": 903.544545,
+      "end_seconds": 913.554555,
+      "duration_seconds": 10.01001000000008,
+      "video_filename": "phantom_empire_chapter_5_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_5_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_5_scene_2_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_5_scene_2_thumb.jpg",
+      "transcription": "I do not blame you, Lieutenant Paul, for trying to escape the fate that awaits you. Advance!",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Phantom Empire - Chapter 5: Beneath the Sky' (1935), dialogue centers on \"I do not blame you, Lieutenant Paul, for trying to escape the fate that awaits you. Advance!\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "cigarette smoke",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_5_scene_3",
+      "movie_id": "phantom_empire_chapter_5",
+      "scene_number": 3,
+      "start_timecode": "00:15:31",
+      "end_timecode": "00:15:44",
+      "start_seconds": 931.272272,
+      "end_seconds": 944.785786,
+      "duration_seconds": 13.513513999999986,
+      "video_filename": "phantom_empire_chapter_5_scene_3_13s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_5_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_5_scene_3_13s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_5_scene_3_thumb.jpg",
+      "transcription": "Once you take off your helmet and get a breath of relay Earth, this race does not care to show his face.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Phantom Empire - Chapter 5: Beneath the Sky' (1935), dialogue centers on \"Once you take off your helmet and get a breath of relay Earth, this race does not care to show his face.\" framed against interrogation / standoff, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_5_scene_4",
+      "movie_id": "phantom_empire_chapter_5",
+      "scene_number": 4,
+      "start_timecode": "00:18:47",
+      "end_timecode": "00:18:56",
+      "start_seconds": 1127.6686690000001,
+      "end_seconds": 1136.877878,
+      "duration_seconds": 9.209208999999987,
+      "video_filename": "phantom_empire_chapter_5_scene_4_9s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_5_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_5_scene_4_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_5_scene_4_thumb.jpg",
+      "transcription": "of yours. They may become beggars. Now I guess we better go back to Radio Ranch and see if we can find out anything with our direction to find her in the lab at all. Thank you bestish.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Phantom Empire - Chapter 5: Beneath the Sky' (1935), dialogue centers on \"of yours. They may become beggars. Now I guess we better go back to Radio Ranch and see if we can find out anything with our direction...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "phantom_empire_chapter_5_scene_5",
+      "movie_id": "phantom_empire_chapter_5",
+      "scene_number": 5,
+      "start_timecode": "00:19:36",
+      "end_timecode": "00:19:55",
+      "start_seconds": 1176.517518,
+      "end_seconds": 1195.536537,
+      "duration_seconds": 19.019018999999957,
+      "video_filename": "phantom_empire_chapter_5_scene_5_19s_1080p.mp4",
+      "keyframe_filename": "phantom_empire_chapter_5_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/phantom_empire_chapter_5_scene_5_19s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/phantom_empire_chapter_5_scene_5_thumb.jpg",
+      "transcription": "The prisoner is in the death chamber, all is prepared. Build up 200,000 volts for the chamber of death.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'Phantom Empire - Chapter 5: Beneath the Sky' (1935), dialogue centers on \"The prisoner is in the death chamber, all is prepared. Build up 200,000 volts for the chamber of death.\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_1",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie",
+      "scene_number": 1,
+      "start_timecode": "00:12:26",
+      "end_timecode": "00:12:36",
+      "start_seconds": 746.0,
+      "end_seconds": 756.95,
+      "duration_seconds": 10.95,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_1_10s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_1_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_1_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by fedora & trenchcoat, dutch angle framing.",
+      "synopsis": "An atmospheric 11-second sequence from 'Voyage to the Planet of Prehistoric Women - Weirdness Bad Movie' (1950) driven by fedora & trenchcoat, dutch angle framing and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "fedora & trenchcoat",
+        "dutch angle framing",
+        "interrogation / standoff",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_2",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie",
+      "scene_number": 2,
+      "start_timecode": "00:16:00",
+      "end_timecode": "00:16:18",
+      "start_seconds": 960.95,
+      "end_seconds": 978.05,
+      "duration_seconds": 17.100000000000023,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_2_17s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_2_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_2_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by dutch angle framing, telephone / late-night call.",
+      "synopsis": "An atmospheric 17-second sequence from 'Voyage to the Planet of Prehistoric Women - Weirdness Bad Movie' (1950) driven by dutch angle framing, telephone / late-night call and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "dutch angle framing",
+        "telephone / late-night call",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "interrogation / standoff",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_3",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie",
+      "scene_number": 3,
+      "start_timecode": "00:19:19",
+      "end_timecode": "00:19:27",
+      "start_seconds": 1159.25,
+      "end_seconds": 1167.95,
+      "duration_seconds": 8.699999999999989,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_3_8s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_3_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by interrogation / standoff, dutch angle framing.",
+      "synopsis": "An atmospheric 9-second sequence from 'Voyage to the Planet of Prehistoric Women - Weirdness Bad Movie' (1950) driven by interrogation / standoff, dutch angle framing and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_4",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie",
+      "scene_number": 4,
+      "start_timecode": "00:22:47",
+      "end_timecode": "00:23:04",
+      "start_seconds": 1367.75,
+      "end_seconds": 1384.1,
+      "duration_seconds": 16.350000000000023,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_4_16s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_4_16s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_4_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, dutch angle framing.",
+      "synopsis": "An atmospheric 16-second sequence from 'Voyage to the Planet of Prehistoric Women - Weirdness Bad Movie' (1950) driven by interrogation / standoff, dutch angle framing and a tense / suspense tone.",
+      "mood": "Tense / Suspense",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "sci-fi",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "telephone / late-night call",
+        "tense"
+      ]
+    },
+    {
+      "scene_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_5",
+      "movie_id": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie",
+      "scene_number": 5,
+      "start_timecode": "00:23:59",
+      "end_timecode": "00:24:09",
+      "start_seconds": 1439.6,
+      "end_seconds": 1449.35,
+      "duration_seconds": 9.75,
+      "video_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_5_9s_1080p.mp4",
+      "keyframe_filename": "VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_5_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/VoyageToThePlanetOfPrehistoricWomen-WeirdnessBadMovie_scene_5_thumb.jpg",
+      "transcription": "You know which animals need the most protection from fallout, or how you will feed your livestock during fallout.",
+      "visual_description": "Features an intimate close-up shot focusing on facial expression and shadow, accented by femme fatale, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from 'Voyage to the Planet of Prehistoric Women - Weirdness Bad Movie' (1950), dialogue centers on \"You know which animals need the most protection from fallout, or how you will feed your livestock during fallout.\" framed against femme fatale, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "dutch angle framing",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "dutch angle framing",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-creature-walks-among-us_scene_1",
+      "movie_id": "the-creature-walks-among-us",
+      "scene_number": 1,
+      "start_timecode": "00:13:04",
+      "end_timecode": "00:13:22",
+      "start_seconds": 784.0,
+      "end_seconds": 802.018018,
+      "duration_seconds": 18.018018,
+      "video_filename": "the-creature-walks-among-us_scene_1_18s_1080p.mp4",
+      "keyframe_filename": "the-creature-walks-among-us_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-creature-walks-among-us_scene_1_18s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-creature-walks-among-us_scene_1_thumb.jpg",
+      "transcription": "I do too. Can I talk to you on this throw, Mike? No, but we could talk to Dr. Borg. Of course, you can talk to both of us.",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by cigarette smoke, low-key chiaroscuro.",
+      "synopsis": "In a melancholic exchange from 'The Creature Walks Among Us' (1956), dialogue centers on \"I do too. Can I talk to you on this throw, Mike? No, but we could talk to Dr. Borg. Of course, you can talk to both of us.\" framed against cigarette smoke, low-key chiaroscuro.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "low-key chiaroscuro",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "low-key chiaroscuro",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-creature-walks-among-us_scene_2",
+      "movie_id": "the-creature-walks-among-us",
+      "scene_number": 2,
+      "start_timecode": "00:14:21",
+      "end_timecode": "00:14:31",
+      "start_seconds": 861.177177,
+      "end_seconds": 871.187187,
+      "duration_seconds": 10.010009999999994,
+      "video_filename": "the-creature-walks-among-us_scene_2_10s_1080p.mp4",
+      "keyframe_filename": "the-creature-walks-among-us_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-creature-walks-among-us_scene_2_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-creature-walks-among-us_scene_2_thumb.jpg",
+      "transcription": "get it to tell me how deep to go I know myself but if you're wrong it won't be the first time but it'll be the last",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by dutch angle framing, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'The Creature Walks Among Us' (1956), dialogue centers on \"get it to tell me how deep to go I know myself but if you're wrong it won't be the first time but it'll be the last\" framed against dutch angle framing, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "dutch angle framing",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "sci-fi",
+        "dutch angle framing",
+        "femme fatale",
+        "interrogation / standoff",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-creature-walks-among-us_scene_3",
+      "movie_id": "the-creature-walks-among-us",
+      "scene_number": 3,
+      "start_timecode": "00:18:45",
+      "end_timecode": "00:19:03",
+      "start_seconds": 1125.841842,
+      "end_seconds": 1143.059059,
+      "duration_seconds": 17.217217000000005,
+      "video_filename": "the-creature-walks-among-us_scene_3_17s_1080p.mp4",
+      "keyframe_filename": "the-creature-walks-among-us_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-creature-walks-among-us_scene_3_17s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-creature-walks-among-us_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by cigarette smoke, low-key chiaroscuro.",
+      "synopsis": "An atmospheric 17-second sequence from 'The Creature Walks Among Us' (1956) driven by cigarette smoke, low-key chiaroscuro and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "cigarette smoke",
+        "low-key chiaroscuro",
+        "femme fatale"
+      ],
+      "tags": [
+        "sci-fi",
+        "cigarette smoke",
+        "low-key chiaroscuro",
+        "femme fatale",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-creature-walks-among-us_scene_4",
+      "movie_id": "the-creature-walks-among-us",
+      "scene_number": 4,
+      "start_timecode": "00:20:18",
+      "end_timecode": "00:20:31",
+      "start_seconds": 1218.934935,
+      "end_seconds": 1231.8478479999999,
+      "duration_seconds": 12.912913000000003,
+      "video_filename": "the-creature-walks-among-us_scene_4_12s_1080p.mp4",
+      "keyframe_filename": "the-creature-walks-among-us_scene_4_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-creature-walks-among-us_scene_4_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-creature-walks-among-us_scene_4_thumb.jpg",
+      "transcription": "The object is moving down.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a melancholic exchange from 'The Creature Walks Among Us' (1956), dialogue centers on \"The object is moving down.\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "cigarette smoke"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "telephone / late-night call",
+        "cigarette smoke",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "the-creature-walks-among-us_scene_5",
+      "movie_id": "the-creature-walks-among-us",
+      "scene_number": 5,
+      "start_timecode": "00:22:16",
+      "end_timecode": "00:22:25",
+      "start_seconds": 1336.1521520000001,
+      "end_seconds": 1345.5615619999999,
+      "duration_seconds": 9.40940999999998,
+      "video_filename": "the-creature-walks-among-us_scene_5_9s_1080p.mp4",
+      "keyframe_filename": "the-creature-walks-among-us_scene_5_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/the-creature-walks-among-us_scene_5_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/the-creature-walks-among-us_scene_5_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, cigarette smoke.",
+      "synopsis": "An atmospheric 9-second sequence from 'The Creature Walks Among Us' (1956) driven by femme fatale, cigarette smoke and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "cigarette smoke",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "sci-fi",
+        "femme fatale",
+        "cigarette smoke",
+        "dutch angle framing",
+        "melancholic"
       ]
     }
   ]
