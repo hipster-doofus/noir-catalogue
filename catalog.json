@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-25T12:26:23.805376+00:00",
-  "total_movies": 161,
-  "total_scenes": 679,
-  "genre": "sci-fi",
+  "updated_at": "2026-11-26T05:03:27.923648+00:00",
+  "total_movies": 164,
+  "total_scenes": 688,
+  "genre": "film noir",
   "source": "Internet Archive",
-  "category": "moviesandfilms",
+  "category": "feature_films",
   "movies": [
     {
       "title": "Try and Get Me (1950) Frank Lovejoy, Lloyd Bridges - Film Noir",
@@ -1621,6 +1621,36 @@
       "video_url": "https://archive.org/download/the-creature-walks-among-us/The Creature Walks Among Us.mp4",
       "license": "Open Archive",
       "description": "In this third Gill-Man feature, the Creature is captured and turned into an air-breather by a rich mad\u00a0scientist, chaos then\u00a0 ensues."
+    },
+    {
+      "title": "Night Has A Thousand Eyes (1948) Edward G. Robinson, Gail Russell",
+      "year": 1948,
+      "director": "Unknown Director",
+      "archive_id": "night-has-a-thousand-eyes-1948",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/night-has-a-thousand-eyes-1948/Night Has a Thousand Eyes (1948) Edward G. Robinson, Gail Russell.ia.mp4",
+      "license": "Open Archive",
+      "description": "\u00a0 Night Has a Thousand Eyes is a 1948 FILM NOlR , starring Edward G. Robinson and directed by John Farrow. The screenplay was written by Barr\u00e9 Lyndon and Jonathan Latimer. The film is based on the novel of the same name by Cornell Woolrich, originally published under the pseudonym George Hopley. \u00a0 You can find out more about this movie from Wikipedia . \u00a0"
+    },
+    {
+      "title": "Brighton Rock (1948, UK) Directed by John Boulting, Starring Richard Attenborough, Carol Marsh, Hermione Baddeley",
+      "year": 1948,
+      "director": "Unknown Director",
+      "archive_id": "brighton-rock-1948",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/brighton-rock-1948/Brighton Rock (1947)  Richard Attenborough, Hermione Baddeley, William Hartnell_x264.ia.mp4",
+      "license": "Open Archive",
+      "description": "Brighton Rock is a 1948 British film directed by John Boulting and starring Richard Attenborough as violent gang leader Pinkie Brown (reprising his breakthrough West End creation of the character some three years earlier), Carol Marsh as the innocent girl he marries, and Hermione Baddeley as an amateur sleuth investigating a murder he committed. The film was adapted from the 1938 novel Brighton Rock by Graham Greene, and was produced by Roy Boulting through the Boulting brothers' production company Charter Film Productions. It was later released in the United States under the title Young Scarface . You can find out more about this movie from Wikipedia and Film Nolr of the Week . Suggested Film Noirs: http://bit.ly/2tLevkl Suggested British Film Noirs: http://bit.ly/3aMND3"
+    },
+    {
+      "title": "Forbidden (1953) Tony Curtis, Joanne Dru, Lyle Bettger - Film Noir",
+      "year": 1953,
+      "director": "Unknown Director",
+      "archive_id": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie/Forbidden (1953, USA) Featuring Tony Curtis, Joanne Dru, Lyle Bettger - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Forbidden is a 1953 American film noir crime film directed by Rudolph Mate starring Tony Curtis, Joanne Dru and Lyle Bettger. Wikipedia: https://en.wikipedia.org/wiki/Forbidden_(1953_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -20749,6 +20779,276 @@
         "femme fatale",
         "cigarette smoke",
         "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "night-has-a-thousand-eyes-1948_scene_1",
+      "movie_id": "night-has-a-thousand-eyes-1948",
+      "scene_number": 1,
+      "start_timecode": "00:32:54",
+      "end_timecode": "00:33:31",
+      "start_seconds": 1974.44,
+      "end_seconds": 2011.4,
+      "duration_seconds": 36.96000000000001,
+      "video_filename": "night-has-a-thousand-eyes-1948_scene_1_36s_1080p.mp4",
+      "keyframe_filename": "night-has-a-thousand-eyes-1948_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/night-has-a-thousand-eyes-1948_scene_1_36s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/night-has-a-thousand-eyes-1948_scene_1_thumb.jpg",
+      "transcription": "At night I couldn't sleep. Thoughts world round my head like pinwheels. Again the strange feeling that I was responsible for the things I saw came to me. I wondered if I should have remained quiet. And then I remembered the newsboy. In the morning it was announced over the radio the plane was missing. There it was again after 20 years. I made up my mind to leave before you found me to bury myself completely this time.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'Night Has A Thousand Eyes (1948) Edward G. Robinson, Gail Russell' (1948), dialogue centers on \"At night I couldn't sleep. Thoughts world round my head like pinwheels. Again the strange feeling that I was responsible for the things...\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "night-has-a-thousand-eyes-1948_scene_2",
+      "movie_id": "night-has-a-thousand-eyes-1948",
+      "scene_number": 2,
+      "start_timecode": "00:42:45",
+      "end_timecode": "00:43:00",
+      "start_seconds": 2565.2,
+      "end_seconds": 2580.92,
+      "duration_seconds": 15.719999999999914,
+      "video_filename": "night-has-a-thousand-eyes-1948_scene_2_15s_1080p.mp4",
+      "keyframe_filename": "night-has-a-thousand-eyes-1948_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/night-has-a-thousand-eyes-1948_scene_2_15s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/night-has-a-thousand-eyes-1948_scene_2_thumb.jpg",
+      "transcription": "Well, not her mind, and I might as well tell you right now, Mr. Carson, we've been pretty skeptical about this story of yours. And about you. I didn't expect you to believe anything. I don't myself. Oddly enough, there's a substantial element of fact in what you told us.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a paranoid exchange from 'Night Has A Thousand Eyes (1948) Edward G. Robinson, Gail Russell' (1948), dialogue centers on \"Well, not her mind, and I might as well tell you right now, Mr. Carson, we've been pretty skeptical about this story of yours. And about...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "night-has-a-thousand-eyes-1948_scene_3",
+      "movie_id": "night-has-a-thousand-eyes-1948",
+      "scene_number": 3,
+      "start_timecode": "00:43:42",
+      "end_timecode": "00:44:02",
+      "start_seconds": 2622.8,
+      "end_seconds": 2642.24,
+      "duration_seconds": 19.440000000000055,
+      "video_filename": "night-has-a-thousand-eyes-1948_scene_3_19s_1080p.mp4",
+      "keyframe_filename": "night-has-a-thousand-eyes-1948_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/night-has-a-thousand-eyes-1948_scene_3_19s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/night-has-a-thousand-eyes-1948_scene_3_thumb.jpg",
+      "transcription": "into that yourself. Back porch. It's possible to see the rear wheel yards in the back porch, with a good eye to spot a park convertible. Then there's a prediction about the Edna the maid, vanishing with the Sapphire brooch. It's all very baffling until Sean here made a discovery. She used to live on Bunker Hill a couple of blocks from Triton.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Night Has A Thousand Eyes (1948) Edward G. Robinson, Gail Russell' (1948), dialogue centers on \"into that yourself. Back porch. It's possible to see the rear wheel yards in the back porch, with a good eye to spot a park convertible....\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "brighton-rock-1948_scene_1",
+      "movie_id": "brighton-rock-1948",
+      "scene_number": 1,
+      "start_timecode": "00:30:34",
+      "end_timecode": "00:30:58",
+      "start_seconds": 1834.0,
+      "end_seconds": 1858.24,
+      "duration_seconds": 24.24000000000001,
+      "video_filename": "brighton-rock-1948_scene_1_24s_1080p.mp4",
+      "keyframe_filename": "brighton-rock-1948_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brighton-rock-1948_scene_1_24s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brighton-rock-1948_scene_1_thumb.jpg",
+      "transcription": "What do you mean, Marianna? Spicer says you were seen courting on the end of the pier. Who said I was Marianna? I only said to make her safe. The wife can't give evidence, see? How do we make you safe, Spicer? It was only a joke, Pinky. Spicer's all...",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a paranoid exchange from 'Brighton Rock (1948, UK) Directed by John Boulting, Starring Richard Attenborough, Carol Marsh, Hermione Baddeley' (1948), dialogue centers on \"What do you mean, Marianna? Spicer says you were seen courting on the end of the pier. Who said I was Marianna? I only said to make her...\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "brighton-rock-1948_scene_2",
+      "movie_id": "brighton-rock-1948",
+      "scene_number": 2,
+      "start_timecode": "00:34:11",
+      "end_timecode": "00:34:54",
+      "start_seconds": 2051.08,
+      "end_seconds": 2094.16,
+      "duration_seconds": 43.07999999999993,
+      "video_filename": "brighton-rock-1948_scene_2_43s_1080p.mp4",
+      "keyframe_filename": "brighton-rock-1948_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brighton-rock-1948_scene_2_43s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brighton-rock-1948_scene_2_thumb.jpg",
+      "transcription": "Oh, I'm not his sister. Mr. Elpaka, please. Mr. Elpaka, please. Mr. Elpaka, please. I don't know. I think we better go live again, talk and peace, huh? Oh, there you are. I've been searching a word for you, girls. I want to have a word with you, too. Offhouse? Yes, my dear, both of you. Take a chair to make us overcome.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, nightclub / jazz bar.",
+      "synopsis": "In a melancholic exchange from 'Brighton Rock (1948, UK) Directed by John Boulting, Starring Richard Attenborough, Carol Marsh, Hermione Baddeley' (1948), dialogue centers on \"Oh, I'm not his sister. Mr. Elpaka, please. Mr. Elpaka, please. Mr. Elpaka, please. I don't know. I think we better go live again, talk...\" framed against femme fatale, nightclub / jazz bar.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "nightclub / jazz bar",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "brighton-rock-1948_scene_3",
+      "movie_id": "brighton-rock-1948",
+      "scene_number": 3,
+      "start_timecode": "00:37:21",
+      "end_timecode": "00:37:30",
+      "start_seconds": 2241.16,
+      "end_seconds": 2250.16,
+      "duration_seconds": 9.0,
+      "video_filename": "brighton-rock-1948_scene_3_9s_1080p.mp4",
+      "keyframe_filename": "brighton-rock-1948_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/brighton-rock-1948_scene_3_9s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/brighton-rock-1948_scene_3_thumb.jpg",
+      "transcription": "I mean, what were you saying to you? I don't remember. No, I'm an inquisitive. I can't help it. I made that way. Tell me.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Brighton Rock (1948, UK) Directed by John Boulting, Starring Richard Attenborough, Carol Marsh, Hermione Baddeley' (1948), dialogue centers on \"I mean, what were you saying to you? I don't remember. No, I'm an inquisitive. I can't help it. I made that way. Tell me.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_1",
+      "movie_id": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie",
+      "scene_number": 1,
+      "start_timecode": "00:30:02",
+      "end_timecode": "00:30:43",
+      "start_seconds": 1802.0988,
+      "end_seconds": 1843.7404000000001,
+      "duration_seconds": 41.64160000000004,
+      "video_filename": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_1_41s_1080p.mp4",
+      "keyframe_filename": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_1_41s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_1_thumb.jpg",
+      "transcription": "A pack of assorted wolves out there. You're over 21. After the wolves kept telling me. Well, trying to match a dialogue with your jewelry. No, can't we just be two people sitting here having a drink? Sorry, I've just finished mine. This is just what I expected. Get away from me, Chris. Love is such a curious thing.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Forbidden (1953) Tony Curtis, Joanne Dru, Lyle Bettger - Film Noir' (1953), dialogue centers on \"A pack of assorted wolves out there. You're over 21. After the wolves kept telling me. Well, trying to match a dialogue with your...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "nightclub / jazz bar",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_2",
+      "movie_id": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie",
+      "scene_number": 2,
+      "start_timecode": "00:31:31",
+      "end_timecode": "00:32:24",
+      "start_seconds": 1891.8885,
+      "end_seconds": 1944.6412,
+      "duration_seconds": 52.752700000000004,
+      "video_filename": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_2_52s_1080p.mp4",
+      "keyframe_filename": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_2_52s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_2_thumb.jpg",
+      "transcription": "This is getting to be a habit. Do any connection? Only if you're interested in the various characteristics of gamblers. Some, like Mr. Hanfai, accept calamity with grace. He asked me to approve his credit so he could play some more. Others die very hard. But still all there is to it. That's all there is to it. Suit yourself. It's your neck, caddy. Pity. He worked so hard at being a heel. Then with one impulsive act, you destroy the entire illusion.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Forbidden (1953) Tony Curtis, Joanne Dru, Lyle Bettger - Film Noir' (1953), dialogue centers on \"This is getting to be a habit. Do any connection? Only if you're interested in the various characteristics of gamblers. Some, like Mr....\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_3",
+      "movie_id": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie",
+      "scene_number": 3,
+      "start_timecode": "00:32:49",
+      "end_timecode": "00:33:01",
+      "start_seconds": 1969.7663,
+      "end_seconds": 1981.9785,
+      "duration_seconds": 12.212199999999996,
+      "video_filename": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_3_12s_1080p.mp4",
+      "keyframe_filename": "forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_3_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie_scene_3_thumb.jpg",
+      "transcription": "That's right",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by nightclub / jazz bar, dutch angle framing.",
+      "synopsis": "In a melancholic exchange from 'Forbidden (1953) Tony Curtis, Joanne Dru, Lyle Bettger - Film Noir' (1953), dialogue centers on \"That's right\" framed against nightclub / jazz bar, dutch angle framing.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "nightclub / jazz bar",
+        "dutch angle framing",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "nightclub / jazz bar",
+        "dutch angle framing",
+        "femme fatale",
         "melancholic"
       ]
     }
