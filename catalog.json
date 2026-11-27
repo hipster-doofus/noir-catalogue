@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-26T05:03:27.923648+00:00",
-  "total_movies": 164,
-  "total_scenes": 688,
+  "updated_at": "2026-11-27T05:07:01.071596+00:00",
+  "total_movies": 167,
+  "total_scenes": 696,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1651,6 +1651,36 @@
       "video_url": "https://archive.org/download/forbidden1953usafeaturingtonycurtisjoannedrulylebettgerfilmnoirfullmovie/Forbidden (1953, USA) Featuring Tony Curtis, Joanne Dru, Lyle Bettger - Film Noir Full Movie.mp4",
       "license": "Open Archive",
       "description": "Forbidden is a 1953 American film noir crime film directed by Rudolph Mate starring Tony Curtis, Joanne Dru and Lyle Bettger. Wikipedia: https://en.wikipedia.org/wiki/Forbidden_(1953_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "The Scarf (1951) John Ireland, Mercedes McCambridge - Film Noir Full Movie",
+      "year": 1951,
+      "director": "Unknown Director",
+      "archive_id": "thescarf1953",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thescarf1953/The Scarf (1953, USA) John Ireland, Mercedes McCambridge - Film Noir Full Movie_x264.mp4",
+      "license": "Open Archive",
+      "description": "The Scarf is a 1951 American film noir directed by Ewald Andr\u00e9 Dupont and starring John Ireland, Mercedes McCambridge, James Barton, and Emlyn Williams. Wikipedia: https://en.wikipedia.org/wiki/The_Scarf_(film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Moonrise (1948) Dane Clark, Gail Russell, Lloyd Bridges - Film Noir",
+      "year": 1948,
+      "director": "Unknown Director",
+      "archive_id": "moonrise1948_202002",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/moonrise1948_202002/Moonrise (1948, USA) Featuring Dane Clark, Gail Russell, Lloyd Bridges - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Moonrise is a 1948 American film noir crime film directed by Frank Borzage starring Dane Clark, Lloyd Bridges, Gail Russell and Ethel Barrymore. It is based on the novel of the same name by Theodore Strauss. Wikipedia: https://en.wikipedia.org/wiki/Moonrise_(film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Christmas Holiday (1944) Directed By Robert Siodmak, Starring Gene Kelly, Deanna Durbin",
+      "year": 1944,
+      "director": "Unknown Director",
+      "archive_id": "christmas-holiday-1944",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/christmas-holiday-1944/Christmas Holiday (1944) Directed by Robert Siodmak, Starring Gene Kelly, Deanna Durbin.ia.mp4",
+      "license": "Open Archive",
+      "description": "Christmas Holiday is a 1944 FILM NOlR crime film directed by Robert Siodmak starring Deanna Durbin and Gene Kelly. Based on the 1939 novel of the same name by W. Somerset Maugham, the film received an Academy Award nomination for Best Musical Score for Hans J. Salter. \u00a0 You can find out more about this movie from Wikipedia and read an article from F ILM NOlR of the Week . There is also a good review of the movie here from the movie blog Where Danger Lives .\u00a0"
     }
   ],
   "scenes": [
@@ -17306,30 +17336,30 @@
       "scene_id": "moonrise1948_202002_scene_1",
       "movie_id": "moonrise1948_202002",
       "scene_number": 1,
-      "start_timecode": "00:07:48",
-      "end_timecode": "00:10:21",
-      "start_seconds": 468.0,
-      "end_seconds": 621.558504,
-      "duration_seconds": 153.558504,
-      "video_filename": "moonrise1948_202002_scene_1_153s_1080p.mp4",
+      "start_timecode": "00:22:18",
+      "end_timecode": "00:22:41",
+      "start_seconds": 1338.494572,
+      "end_seconds": 1361.05187,
+      "duration_seconds": 22.557298000000003,
+      "video_filename": "moonrise1948_202002_scene_1_22s_1080p.mp4",
       "keyframe_filename": "moonrise1948_202002_scene_1_thumb.jpg",
-      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/moonrise1948_202002_scene_1_153s_1080p.mp4",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/moonrise1948_202002_scene_1_22s_1080p.mp4",
       "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/moonrise1948_202002_scene_1_thumb.jpg",
-      "transcription": "Come on, Billy. Come on, Billy. Come on, Billy. Come on. Come on. That'll be it. That'll be it. That'll be it. What's the matter with you? What does he think he is? Hey, what's the big idea? That's my compact. Yeah, come on, back here. That's Janie's marriage. Get out the rustle. Lay off. Just because he's deaf and dumb. He's got a mind like a baby. Don't give you no right to make fun of him. Why don't you mind? We off him! Forget it, Jard. He looks like he's had enough fights tonight. Why's his name? Why's his name? He brought his pond bourbon and poker flam. Can't afford that kind of folk. It just dawned on me that there's magic in the moonrod. It just dawned on me.",
-      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
-      "synopsis": "In a paranoid exchange from 'Moonrise (1948) Dane Clark, Gail Russell, Lloyd Bridges - Film Noir' (1948), dialogue centers on \"Come on, Billy. Come on, Billy. Come on, Billy. Come on. Come on. That'll be it. That'll be it. That'll be it. What's the matter with...\" framed against interrogation / standoff, telephone / late-night call.",
-      "mood": "Paranoid",
+      "transcription": "That Jerry Sikes, he's a natural drag, you know. Tell me, Jerry had a beef with Gilly Saturday night before he beat it. Kind of all of that corn litter he was soaking up. Yeah? How was it you was able to latch on to that mouse, Danny? Maybe she got tired of waiting. What's the matter? Haven't you ever seen the kind that falls? Want to go down to Brother's Point?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a melancholic exchange from 'Moonrise (1948) Dane Clark, Gail Russell, Lloyd Bridges - Film Noir' (1948), dialogue centers on \"That Jerry Sikes, he's a natural drag, you know. Tell me, Jerry had a beef with Gilly Saturday night before he beat it. Kind of all of...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Melancholic",
       "noir_tropes": [
-        "interrogation / standoff",
-        "telephone / late-night call",
-        "fedora & trenchcoat"
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
       ],
       "tags": [
         "film noir",
-        "interrogation / standoff",
-        "telephone / late-night call",
         "fedora & trenchcoat",
-        "paranoid"
+        "femme fatale",
+        "interrogation / standoff",
+        "melancholic"
       ]
     },
     {
@@ -21050,6 +21080,246 @@
         "dutch angle framing",
         "femme fatale",
         "melancholic"
+      ]
+    },
+    {
+      "scene_id": "thescarf1953_scene_1",
+      "movie_id": "thescarf1953",
+      "scene_number": 1,
+      "start_timecode": "00:25:28",
+      "end_timecode": "00:25:36",
+      "start_seconds": 1528.0,
+      "end_seconds": 1536.1599999999999,
+      "duration_seconds": 8.159999999999968,
+      "video_filename": "thescarf1953_scene_1_8s_1080p.mp4",
+      "keyframe_filename": "thescarf1953_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thescarf1953_scene_1_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thescarf1953_scene_1_thumb.jpg",
+      "transcription": "I suppose that there's something to do with the unfortunate event involving your son. My adopted son. I understand there's a reward.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a fatalistic exchange from 'The Scarf (1951) John Ireland, Mercedes McCambridge - Film Noir Full Movie' (1951), dialogue centers on \"I suppose that there's something to do with the unfortunate event involving your son. My adopted son. I understand there's a reward.\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thescarf1953_scene_2",
+      "movie_id": "thescarf1953",
+      "scene_number": 2,
+      "start_timecode": "00:26:14",
+      "end_timecode": "00:26:27",
+      "start_seconds": 1574.92,
+      "end_seconds": 1587.04,
+      "duration_seconds": 12.120000000000005,
+      "video_filename": "thescarf1953_scene_2_12s_1080p.mp4",
+      "keyframe_filename": "thescarf1953_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thescarf1953_scene_2_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thescarf1953_scene_2_thumb.jpg",
+      "transcription": "I'm prepared to raise the reward to $5,000. You'll notice that the check is certified. I don't think it'll serve its purpose, Mr.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'The Scarf (1951) John Ireland, Mercedes McCambridge - Film Noir Full Movie' (1951), dialogue centers on \"I'm prepared to raise the reward to $5,000. You'll notice that the check is certified. I don't think it'll serve its purpose, Mr.\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "thescarf1953_scene_3",
+      "movie_id": "thescarf1953",
+      "scene_number": 3,
+      "start_timecode": "00:26:27",
+      "end_timecode": "00:26:38",
+      "start_seconds": 1587.04,
+      "end_seconds": 1598.92,
+      "duration_seconds": 11.879999999999995,
+      "video_filename": "thescarf1953_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "thescarf1953_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thescarf1953_scene_3_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thescarf1953_scene_3_thumb.jpg",
+      "transcription": "If you two gentlemen would cooperate, there is a way to ease the tension on Mr. Barrington. Is there? Mr. Barrington feels that until John is recaptured, he is entitled to protection.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'The Scarf (1951) John Ireland, Mercedes McCambridge - Film Noir Full Movie' (1951), dialogue centers on \"If you two gentlemen would cooperate, there is a way to ease the tension on Mr. Barrington. Is there? Mr. Barrington feels that until...\" framed against interrogation / standoff, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "femme fatale",
+        "telephone / late-night call",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "moonrise1948_202002_scene_2",
+      "movie_id": "moonrise1948_202002",
+      "scene_number": 2,
+      "start_timecode": "00:24:20",
+      "end_timecode": "00:24:46",
+      "start_seconds": 1460.086852,
+      "end_seconds": 1486.2629670000001,
+      "duration_seconds": 26.17611499999998,
+      "video_filename": "moonrise1948_202002_scene_2_26s_1080p.mp4",
+      "keyframe_filename": "moonrise1948_202002_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/moonrise1948_202002_scene_2_26s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/moonrise1948_202002_scene_2_thumb.jpg",
+      "transcription": "educated fellow that mose engineer says he can read as good as anybody better read about every book there is I guess that's too many",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Moonrise (1948) Dane Clark, Gail Russell, Lloyd Bridges - Film Noir' (1948), dialogue centers on \"educated fellow that mose engineer says he can read as good as anybody better read about every book there is I guess that's too many\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "interrogation / standoff",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "moonrise1948_202002_scene_3",
+      "movie_id": "moonrise1948_202002",
+      "scene_number": 3,
+      "start_timecode": "00:28:37",
+      "end_timecode": "00:29:01",
+      "start_seconds": 1717.626055,
+      "end_seconds": 1741.268999,
+      "duration_seconds": 23.642944000000057,
+      "video_filename": "moonrise1948_202002_scene_3_23s_1080p.mp4",
+      "keyframe_filename": "moonrise1948_202002_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/moonrise1948_202002_scene_3_23s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/moonrise1948_202002_scene_3_thumb.jpg",
+      "transcription": "Danny, Danny, why don't you tell me I'm, I'm crazy or they're, they're upset or there's nothing to be afraid of. That's right.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Moonrise (1948) Dane Clark, Gail Russell, Lloyd Bridges - Film Noir' (1948), dialogue centers on \"Danny, Danny, why don't you tell me I'm, I'm crazy or they're, they're upset or there's nothing to be afraid of. That's right.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "christmas-holiday-1944_scene_1",
+      "movie_id": "christmas-holiday-1944",
+      "scene_number": 1,
+      "start_timecode": "00:25:01",
+      "end_timecode": "00:27:59",
+      "start_seconds": 1501.0,
+      "end_seconds": 1679.8,
+      "duration_seconds": 178.8,
+      "video_filename": "christmas-holiday-1944_scene_1_178s_1080p.mp4",
+      "keyframe_filename": "christmas-holiday-1944_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/christmas-holiday-1944_scene_1_178s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/christmas-holiday-1944_scene_1_thumb.jpg",
+      "transcription": "I don't think it's possible for anyone to have a happier six months than we had. Maybe I mean than I have. They wanted me to divorce Robert after he was convicted. Said I had stood by him long enough. They told me I was crazy when I said that whatever he did, I'd keep on loving him. They said it was shameful that I should love him. As if you could stop loving him because it's shameful to love. I didn't know it at the time, but Robert murdered Teddy Jordan that night, less than an hour before he came home to our room. Keep terrible hours, don't I? Did you see, A, there was a fellow I couldn't meet until about 1 o'clock in a restaurant. B, I didn't know how late it was, or I would have postponed meeting him until tomorrow. C, I couldn't get a taxi and had a wait about an hour for a street car. D, I've got a wife who never gets really angry if I stay out late. So I keep on taking advantage of her trusting nature. And he, I'll never, never do it again. Sorry we overslept, but Robert didn't get home to late as I heard him. He saw my light was on. He stopped to talk to me for a while. Didn't he tell you? No. Is he still asleep? Uh-huh. I wish he could see him, mother.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'Christmas Holiday (1944) Directed By Robert Siodmak, Starring Gene Kelly, Deanna Durbin' (1944), dialogue centers on \"I don't think it's possible for anyone to have a happier six months than we had. Maybe I mean than I have. They wanted me to divorce...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "christmas-holiday-1944_scene_2",
+      "movie_id": "christmas-holiday-1944",
+      "scene_number": 2,
+      "start_timecode": "00:27:59",
+      "end_timecode": "00:30:37",
+      "start_seconds": 1679.8,
+      "end_seconds": 1837.12,
+      "duration_seconds": 157.32,
+      "video_filename": "christmas-holiday-1944_scene_2_157s_1080p.mp4",
+      "keyframe_filename": "christmas-holiday-1944_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/christmas-holiday-1944_scene_2_157s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/christmas-holiday-1944_scene_2_thumb.jpg",
+      "transcription": "He's so wonderful, I'm going to press his suit for him, have it already when he wakes. Oh, what is it? There's a stain on these trousers. It's his new suit, it'll be furious. Take Robert up his coffee, Abigail, it's the time he woke. Nobody likes to have it here with me, he'll be down in a minute. Take Robert up his coffee. Good morning, Mrs. Minette. Good morning, Mrs. Minette. Where's the morning paper, mother? There's nothing in it. There's 16 pages of blank paper. You know what I mean. There's nothing. Nothing? You're sure? Absolutely sure. Is this nothing, nothing what? Oh, nothing, nothing, Abigail. You should know mother by now if she says there's nothing. There's nothing. Oh, you'll have to wear your blue suit today, Robert. You've got a stain on your trousers. You know, you really should be more careful. We are trying to economize. He will be more careful, mother. I'm sure of it. Thank you, darling. What are you doing? You're not to go through my pockets. Robert, where did you get all that money? Robert. Well, I'll tell you. I hit a long shot yesterday. A sleeper. They've been keeping an undercover for months. I was going to tell you about... But you promised not to gamble again. I couldn't miss. It was like money. Less than a month ago. You swore to me and your mother. Oh, I won't do it again. I swear I won't. I'll tell you what. You hold on to this money for me. If I keep it, it'll just slip through my fingers. But if you keep it... No! Look, mother. I know you mean well. Believe me, I do. I'm capable of handling my own affairs. Robert! They're going to your room, Abigail.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Christmas Holiday (1944) Directed By Robert Siodmak, Starring Gene Kelly, Deanna Durbin' (1944), dialogue centers on \"He's so wonderful, I'm going to press his suit for him, have it already when he wakes. Oh, what is it? There's a stain on these...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "christmas-holiday-1944_scene_3",
+      "movie_id": "christmas-holiday-1944",
+      "scene_number": 3,
+      "start_timecode": "00:30:39",
+      "end_timecode": "00:30:46",
+      "start_seconds": 1839.4,
+      "end_seconds": 1846.3600000000001,
+      "duration_seconds": 6.960000000000036,
+      "video_filename": "christmas-holiday-1944_scene_3_6s_1080p.mp4",
+      "keyframe_filename": "christmas-holiday-1944_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/christmas-holiday-1944_scene_3_6s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/christmas-holiday-1944_scene_3_thumb.jpg",
+      "transcription": "We can't hear the rooms I made all day ever get. Please go.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Christmas Holiday (1944) Directed By Robert Siodmak, Starring Gene Kelly, Deanna Durbin' (1944), dialogue centers on \"We can't hear the rooms I made all day ever get. Please go.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "fedora & trenchcoat",
+        "fatalistic"
       ]
     }
   ]
