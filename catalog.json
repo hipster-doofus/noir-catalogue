@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-27T05:07:01.071596+00:00",
-  "total_movies": 167,
-  "total_scenes": 696,
+  "updated_at": "2026-11-28T04:55:26.930378+00:00",
+  "total_movies": 170,
+  "total_scenes": 705,
   "genre": "film noir",
   "source": "Internet Archive",
   "category": "feature_films",
@@ -1681,6 +1681,36 @@
       "video_url": "https://archive.org/download/christmas-holiday-1944/Christmas Holiday (1944) Directed by Robert Siodmak, Starring Gene Kelly, Deanna Durbin.ia.mp4",
       "license": "Open Archive",
       "description": "Christmas Holiday is a 1944 FILM NOlR crime film directed by Robert Siodmak starring Deanna Durbin and Gene Kelly. Based on the 1939 novel of the same name by W. Somerset Maugham, the film received an Academy Award nomination for Best Musical Score for Hans J. Salter. \u00a0 You can find out more about this movie from Wikipedia and read an article from F ILM NOlR of the Week . There is also a good review of the movie here from the movie blog Where Danger Lives .\u00a0"
+    },
+    {
+      "title": "The Big Knife (1955) Dir: Robert Aldrich Starring Jack Palance, Ida Lupino, Shelley Winters - Film Noir",
+      "year": 1955,
+      "director": "Unknown Director",
+      "archive_id": "thebigknife1955",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/thebigknife1955/The Big Knife (1955, USA) Directed by Robert Aldrich Starring Jack Palance, Ida Lupino - Film Noir.mp4",
+      "license": "Open Archive",
+      "description": "The Big Knife is a 1955 film noir directed and produced by Robert Aldrich from a screenplay by James Poe based on the 1949 play by Clifford Odets. The film stars Jack Palance, Ida Lupino, Wendell Corey, Jean Hagen, Rod Steiger, Shelley Winters, Ilka Chase, and Everett Sloane. Wikipedia: https://en.wikipedia.org/wiki/The_Big_Knife Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
+    },
+    {
+      "title": "Cry Danger (1951) Dick Powell, Rhonda Fleming, William Conrad, Jean Porter",
+      "year": 1951,
+      "director": "Unknown Director",
+      "archive_id": "cry-danger-1951",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/cry-danger-1951/Cry Danger 1951 - Dick Powell, Rhonda Fleming, Richard Erdman, William Conr_x264.ia.mp4",
+      "license": "Open Archive",
+      "description": "\u00a0 Cry Danger is a 1951 FILM NOlR thriller film, starring Dick Powell and Rhonda Fleming, William Conrad and Jean Porter. The film was directed by Robert Parrish, a former child star and later editor in his debut as a director. \u00a0 You can find out more about this movie from Wikipedia . There is also a good review of the movie here from the movie blog D for Doom .\u00a0\u00a0 \u00a0"
+    },
+    {
+      "title": "Borderline (1950, USA) Fred Mac Murray, Claire Trevor - Film Noir Full Movie",
+      "year": 1950,
+      "director": "Unknown Director",
+      "archive_id": "borderline1950_202002",
+      "source_provider": "Internet Archive",
+      "video_url": "https://archive.org/download/borderline1950_202002/Borderline (1950, USA) Featuring Fred MacMurray and Claire Trevor - Film Noir Full Movie.mp4",
+      "license": "Open Archive",
+      "description": "Borderline is a 1950 American film noir crime film directed by William A. Seiter starring Fred MacMurray, Raymond Burr and Claire Trevor. Wikipedia: https://en.wikipedia.org/wiki/Borderline_(1950_film) Suggested Film Noirs: http://bit.ly/2tLevkl The Internet Archive is an excellent choice for entire full length Netflix & YouTube style uploads of drama, mystery, thriller & crime noir movies from the UK & USA for free. Download complete online British & American classic black & white films from the 1940s & 1950s."
     }
   ],
   "scenes": [
@@ -21320,6 +21350,276 @@
         "interrogation / standoff",
         "fedora & trenchcoat",
         "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thebigknife1955_scene_1",
+      "movie_id": "thebigknife1955",
+      "scene_number": 1,
+      "start_timecode": "00:19:47",
+      "end_timecode": "00:19:59",
+      "start_seconds": 1187.943034,
+      "end_seconds": 1199.205013,
+      "duration_seconds": 11.261978999999997,
+      "video_filename": "thebigknife1955_scene_1_11s_1080p.mp4",
+      "keyframe_filename": "thebigknife1955_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thebigknife1955_scene_1_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thebigknife1955_scene_1_thumb.jpg",
+      "transcription": "We do love. I mean, We do love each other in a way.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a melancholic exchange from 'The Big Knife (1955) Dir: Robert Aldrich Starring Jack Palance, Ida Lupino, Shelley Winters - Film Noir' (1955), dialogue centers on \"We do love. I mean, We do love each other in a way.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "thebigknife1955_scene_2",
+      "movie_id": "thebigknife1955",
+      "scene_number": 2,
+      "start_timecode": "00:19:59",
+      "end_timecode": "00:20:07",
+      "start_seconds": 1199.205013,
+      "end_seconds": 1207.213021,
+      "duration_seconds": 8.008008000000004,
+      "video_filename": "thebigknife1955_scene_2_8s_1080p.mp4",
+      "keyframe_filename": "thebigknife1955_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thebigknife1955_scene_2_8s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thebigknife1955_scene_2_thumb.jpg",
+      "transcription": "And that's the thing, the big thing. I want you to tear Stanley off a part, Tiger.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'The Big Knife (1955) Dir: Robert Aldrich Starring Jack Palance, Ida Lupino, Shelley Winters - Film Noir' (1955), dialogue centers on \"And that's the thing, the big thing. I want you to tear Stanley off a part, Tiger.\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "thebigknife1955_scene_3",
+      "movie_id": "thebigknife1955",
+      "scene_number": 3,
+      "start_timecode": "00:31:06",
+      "end_timecode": "00:31:16",
+      "start_seconds": 1866.371029,
+      "end_seconds": 1876.63099,
+      "duration_seconds": 10.259960999999976,
+      "video_filename": "thebigknife1955_scene_3_10s_1080p.mp4",
+      "keyframe_filename": "thebigknife1955_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/thebigknife1955_scene_3_10s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/thebigknife1955_scene_3_thumb.jpg",
+      "transcription": "And Charlie Castle, you came to see me more than once. True?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by interrogation / standoff, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'The Big Knife (1955) Dir: Robert Aldrich Starring Jack Palance, Ida Lupino, Shelley Winters - Film Noir' (1955), dialogue centers on \"And Charlie Castle, you came to see me more than once. True?\" framed against interrogation / standoff, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale"
+      ],
+      "tags": [
+        "film noir",
+        "interrogation / standoff",
+        "telephone / late-night call",
+        "femme fatale",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "cry-danger-1951_scene_1",
+      "movie_id": "cry-danger-1951",
+      "scene_number": 1,
+      "start_timecode": "00:09:43",
+      "end_timecode": "00:10:04",
+      "start_seconds": 583.96,
+      "end_seconds": 604.0,
+      "duration_seconds": 20.039999999999992,
+      "video_filename": "cry-danger-1951_scene_1_20s_1080p.mp4",
+      "keyframe_filename": "cry-danger-1951_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/cry-danger-1951_scene_1_20s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/cry-danger-1951_scene_1_thumb.jpg",
+      "transcription": "Happy Mother's Day to you, too. I'm darling of mine. I'll bet you aren't that, dear. Tell me, where can I find the manager? Williams, oh, he's probably over there in the office. Thanks. You thought it's gonna live here? Maybe, if you're a good girl and go to church on Sundays. Aren't you the fresh one? Mm-hmm.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Cry Danger (1951) Dick Powell, Rhonda Fleming, William Conrad, Jean Porter' (1951), dialogue centers on \"Happy Mother's Day to you, too. I'm darling of mine. I'll bet you aren't that, dear. Tell me, where can I find the manager? Williams,...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "paranoid"
+      ]
+    },
+    {
+      "scene_id": "cry-danger-1951_scene_2",
+      "movie_id": "cry-danger-1951",
+      "scene_number": 2,
+      "start_timecode": "00:16:57",
+      "end_timecode": "00:17:38",
+      "start_seconds": 1017.76,
+      "end_seconds": 1058.6799999999998,
+      "duration_seconds": 40.91999999999996,
+      "video_filename": "cry-danger-1951_scene_2_40s_1080p.mp4",
+      "keyframe_filename": "cry-danger-1951_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/cry-danger-1951_scene_2_40s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/cry-danger-1951_scene_2_thumb.jpg",
+      "transcription": "Of course not, but sometimes I wonder. Don't. Not even sometimes. Rocky, why can't we just forget everything that's happened? Forget. I mean about the prison and you and Danny in the holdup. Even if you are innocent. Even if I'm innocent. Why didn't mean it that way? Of course you did. No, I didn't. It wouldn't make any difference to me if you and Danny were involved. But we weren't. I know you weren't. Rocky, why do you twist everything I say? Oh, a big homecoming. I'm showing you a bad time. Sorry.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, interrogation / standoff.",
+      "synopsis": "In a fatalistic exchange from 'Cry Danger (1951) Dick Powell, Rhonda Fleming, William Conrad, Jean Porter' (1951), dialogue centers on \"Of course not, but sometimes I wonder. Don't. Not even sometimes. Rocky, why can't we just forget everything that's happened? Forget. I...\" framed against femme fatale, interrogation / standoff.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "interrogation / standoff",
+        "dutch angle framing",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "cry-danger-1951_scene_3",
+      "movie_id": "cry-danger-1951",
+      "scene_number": 3,
+      "start_timecode": "00:21:19",
+      "end_timecode": "00:21:48",
+      "start_seconds": 1279.12,
+      "end_seconds": 1308.6399999999999,
+      "duration_seconds": 29.519999999999982,
+      "video_filename": "cry-danger-1951_scene_3_29s_1080p.mp4",
+      "keyframe_filename": "cry-danger-1951_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/cry-danger-1951_scene_3_29s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/cry-danger-1951_scene_3_thumb.jpg",
+      "transcription": "[Instrumental soundtrack / ambient score]",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "An atmospheric 30-second sequence from 'Cry Danger (1951) Dick Powell, Rhonda Fleming, William Conrad, Jean Porter' (1951) driven by femme fatale, fedora & trenchcoat and a melancholic tone.",
+      "mood": "Melancholic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "telephone / late-night call",
+        "melancholic"
+      ]
+    },
+    {
+      "scene_id": "borderline1950_202002_scene_1",
+      "movie_id": "borderline1950_202002",
+      "scene_number": 1,
+      "start_timecode": "00:22:23",
+      "end_timecode": "00:23:00",
+      "start_seconds": 1343.4,
+      "end_seconds": 1380.3600000000001,
+      "duration_seconds": 36.960000000000036,
+      "video_filename": "borderline1950_202002_scene_1_36s_1080p.mp4",
+      "keyframe_filename": "borderline1950_202002_scene_1_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/borderline1950_202002_scene_1_36s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/borderline1950_202002_scene_1_thumb.jpg",
+      "transcription": "Thanks, baby. Come on. I want to talk to you. Well, I don't know anything. Come on.",
+      "visual_description": "Features a wide atmospheric establishing shot showing deep architectural shadows, accented by femme fatale, telephone / late-night call.",
+      "synopsis": "In a fatalistic exchange from 'Borderline (1950, USA) Fred Mac Murray, Claire Trevor - Film Noir Full Movie' (1950), dialogue centers on \"Thanks, baby. Come on. I want to talk to you. Well, I don't know anything. Come on.\" framed against femme fatale, telephone / late-night call.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "telephone / late-night call",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "telephone / late-night call",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "borderline1950_202002_scene_2",
+      "movie_id": "borderline1950_202002",
+      "scene_number": 2,
+      "start_timecode": "00:24:21",
+      "end_timecode": "00:24:34",
+      "start_seconds": 1461.72,
+      "end_seconds": 1474.2,
+      "duration_seconds": 12.480000000000018,
+      "video_filename": "borderline1950_202002_scene_2_12s_1080p.mp4",
+      "keyframe_filename": "borderline1950_202002_scene_2_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/borderline1950_202002_scene_2_12s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/borderline1950_202002_scene_2_thumb.jpg",
+      "transcription": "What trip? Carrying stuff over the border. Yes, me boss, you'll dump it. I'll make the trip alone. I don't want you to go alone, Johnny. I want you to make the trip with a dame.",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by femme fatale, fedora & trenchcoat.",
+      "synopsis": "In a fatalistic exchange from 'Borderline (1950, USA) Fred Mac Murray, Claire Trevor - Film Noir Full Movie' (1950), dialogue centers on \"What trip? Carrying stuff over the border. Yes, me boss, you'll dump it. I'll make the trip alone. I don't want you to go alone, Johnny....\" framed against femme fatale, fedora & trenchcoat.",
+      "mood": "Fatalistic",
+      "noir_tropes": [
+        "femme fatale",
+        "fedora & trenchcoat",
+        "nightclub / jazz bar"
+      ],
+      "tags": [
+        "film noir",
+        "femme fatale",
+        "fedora & trenchcoat",
+        "nightclub / jazz bar",
+        "fatalistic"
+      ]
+    },
+    {
+      "scene_id": "borderline1950_202002_scene_3",
+      "movie_id": "borderline1950_202002",
+      "scene_number": 3,
+      "start_timecode": "00:28:55",
+      "end_timecode": "00:29:07",
+      "start_seconds": 1735.56,
+      "end_seconds": 1747.44,
+      "duration_seconds": 11.88000000000011,
+      "video_filename": "borderline1950_202002_scene_3_11s_1080p.mp4",
+      "keyframe_filename": "borderline1950_202002_scene_3_thumb.jpg",
+      "download_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/clips/borderline1950_202002_scene_3_11s_1080p.mp4",
+      "thumbnail_url": "https://pub-c80e5d07a97c459b9753b73dc9d693ea.r2.dev/thumbs/borderline1950_202002_scene_3_thumb.jpg",
+      "transcription": "Looking for somebody? No. Only the police, the Mexican federal men, Uncle Sam, several assorted high jaggers, and Pete Richard. Don't you think we should have taken two rooms?",
+      "visual_description": "Features a dramatic medium two-shot of characters in tense conversation, accented by fedora & trenchcoat, femme fatale.",
+      "synopsis": "In a paranoid exchange from 'Borderline (1950, USA) Fred Mac Murray, Claire Trevor - Film Noir Full Movie' (1950), dialogue centers on \"Looking for somebody? No. Only the police, the Mexican federal men, Uncle Sam, several assorted high jaggers, and Pete Richard. Don't...\" framed against fedora & trenchcoat, femme fatale.",
+      "mood": "Paranoid",
+      "noir_tropes": [
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff"
+      ],
+      "tags": [
+        "film noir",
+        "fedora & trenchcoat",
+        "femme fatale",
+        "interrogation / standoff",
+        "paranoid"
       ]
     }
   ]
